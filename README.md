@@ -1,6 +1,7 @@
 ---
 tags: [Study, WIP]
 layout: default
+permalink: /
 ---
 
 # Genesis Through Ancient Eyes
