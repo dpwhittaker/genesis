@@ -19,6 +19,8 @@ This study slows down to ask, at every turn:
 - **How did ancient Jews read it?** We listen to Second Temple readings, the Targums, and early rabbinic interpretation alongside the New Testament's own use of Genesis.
 - **Why does it matter now?** Each session lands on what the text claimed about God, humanity, and the world — and what it still claims.
 
+Many of us were trained to read Genesis as if it were a modern science-or-history textbook. So this study deliberately starts *slowly*, and not at "day one." We begin with the question of **genre**: we read the creation stories of Israel's neighbors, weigh the literary shape of Genesis 1, and notice the clues the author left in plain sight — a talking snake, a strange fixation on nakedness and shame — that tell us what *kind* of writing this is. Only once we know how to read it do we walk the text.
+
 ## How to use this site
 
 Each session has its own page with the passage, background reading, discussion questions, and Hebrew/ANE notes. Work through them in order with your group, or jump to a session below. Leaders: skim the background notes before meeting; they flag the ANE parallels worth raising out loud.
@@ -27,23 +29,29 @@ Each session has its own page with the passage, background reading, discussion q
 
 > Curriculum is in active development. Session pages are added as they are written.
 
-**Part 1 — Primeval History (Genesis 1–11)**
+**Part 1 — Learning to Read Genesis (the genre question)**
 
-1. In the Beginning — Genesis 1 as temple cosmology
-2. The Garden — Genesis 2–3, Eden as sacred space
-3. Cain, Lamech, and the Spread of Violence — Genesis 4
-4. The Flood — Genesis 6–9 against *Atrahasis* and *Gilgamesh*
-5. Babel — Genesis 11 and the scattering of the nations
+1. The Neighbors' Stories — Ancient Near Eastern creation myths: *Enuma Elish*, *Atrahasis*, and the Memphite theology. What a "creation account" *was* in that world, and what Israel's first hearers already had ringing in their ears.
+2. History or Poetry? — the literary structure of Genesis 1: forming (days 1–3) and filling (days 4–6), the refrains, the frame. We examine the *shape* of the text to ask what genre we are actually reading.
+3. Clues in Plain Sight — the "problems" the author left on purpose: a talking snake, the odd fixation on nakedness and shame, two creation accounts that don't line up. Out-of-place signals that this was never meant to be read as flat, modern history.
 
-**Part 2 — The Patriarchs (Genesis 12–50)**
+**Part 2 — Primeval History (Genesis 1–11)**
 
-6. The Call of Abram — Genesis 12, covenant and blessing
-7. Covenant Cut — Genesis 15 and 17
-8. Sodom, Hospitality, and Justice — Genesis 18–19
-9. The Binding of Isaac — Genesis 22 (*the Akedah*)
-10. Jacob — Genesis 25–35, the heel-grabber transformed
-11. Joseph — Genesis 37–47, providence in exile
-12. Blessing and Burial — Genesis 48–50
+4. In the Beginning — Genesis 1 re-read as temple cosmology, now that we know its genre
+5. The Garden — Genesis 2–3, Eden as sacred space; the snake, nakedness, and exile
+6. Cain, Lamech, and the Spread of Violence — Genesis 4
+7. The Flood — Genesis 6–9 against *Atrahasis* and *Gilgamesh*
+8. Babel — Genesis 11 and the scattering of the nations
+
+**Part 3 — The Patriarchs (Genesis 12–50)**
+
+9. The Call of Abram — Genesis 12, covenant and blessing
+10. Covenant Cut — Genesis 15 and 17
+11. Sodom, Hospitality, and Justice — Genesis 18–19
+12. The Binding of Isaac — Genesis 22 (*the Akedah*)
+13. Jacob — Genesis 25–35, the heel-grabber transformed
+14. Joseph — Genesis 37–47, providence in exile
+15. Blessing and Burial — Genesis 48–50
 
 ## Sources we lean on
 
