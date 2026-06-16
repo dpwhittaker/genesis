@@ -1,0 +1,13 @@
+title: Genesis Through Ancient Eyes
+description: >-
+  A small-group curriculum reading the book of Genesis as its first Hebrew
+  hearers and ancient Jewish readers would have understood it.
+theme: minima
+show_excerpts: false
+
+# README.md renders as the site index (no index.html present).
+# Keep AGENTS.md and project metadata out of the built site.
+exclude:
+  - AGENTS.md
+  - .project-meta.json
+  - README.original.md
