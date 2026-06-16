@@ -47,3 +47,8 @@ Each session has its own page with the passage, background reading, discussion q
 ## Sources we lean on
 
 Primary text in Hebrew (BHS) and a literal English translation alongside; comparative ANE texts in translation; and standard reference works on Genesis and its world. Specific citations live in each session's notes.
+
+We also draw heavily on two ministries that teach Scripture in its ancient context:
+
+- **[BEMA Discipleship](https://www.bemadiscipleship.com/)** — Marty Solomon's podcast walking through the Bible the way its first listeners would have heard it.
+- **[BibleProject](https://bibleproject.com/)** — Tim Mackie and team's videos, podcasts, and reading guides on the literary and Hebraic shape of the text.
