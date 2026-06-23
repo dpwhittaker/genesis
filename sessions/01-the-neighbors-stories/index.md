@@ -81,6 +81,8 @@ To do the gods' labor, so the gods can rest — humanity as a workforce:
 
 > **Genesis answers:** humans are made not to serve the gods' chores but to *bear God's image* and *rule* the earth as his stewards (Gen 1:26–28). The job description is inverted.
 
+<div class="page-break"></div>
+
 ### 4. What is a human made of?
 
 Clay, plus the blood (and flesh) of a slain god — so a divine "ghost," the *eṭemmu*, lives on inside people:
@@ -106,6 +108,8 @@ The high god wins his throne by killing a chaos-monster and capturing the rebel 
 > — [*Enuma Elish*](texts/enuma-elish.md), Tablet IV.105–106, 119–122
 
 > **Genesis answers:** there is *no fight.* No rival, no chaos-monster, no struggle — "In the beginning God created" (Gen 1:1). The deep (*tehom*, an echo of *Tiamat*) is not an enemy God defeats but simply water God moves over and shapes.
+
+<div class="page-break"></div>
 
 ### 6. Dividing the cosmos: creation as separation
 
@@ -168,9 +172,6 @@ Seven keeps surfacing in these texts: the **"seven great Anunnaki"** ([*Atrahasi
 If you've always read Genesis as a plain account of *how* the world was made, setting it next to Babylonian and Egyptian stories may feel strange at first — maybe even unsettling. That's a completely fair place to start, and you don't have to resolve it today. We're not here to take anything away from Scripture. We're here to hear it the way its first audience did — and that audience knew these other stories by heart.
 
 So this week we're setting a different question aside for the moment. We're *not* trying to settle the age of the earth or the mechanics of creation; we're asking the question that comes before it: **what kind of writing is this, and what was it answering?** If "but is it literal?" keeps tugging at you, that's worth holding onto — we give it room in Sessions 2 and 3. For now, just listen for where Genesis echoes its neighbors and where it deliberately breaks from them.
-
-If you're short on time, the two richest reads are the opening of **Enuma Elish** (Tablet I) and the creation-of-humankind scene in **Atrahasis** (Part One); the **Memphite Theology** is a short, striking piece on creation by word alone.
-
 One last thing to carry with you: notice that Genesis itself isn't anxious about any of this. It takes the most famous stories in the world and answers them, line by line — unhurried, unafraid, and good.
 
 ---
