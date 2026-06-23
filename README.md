@@ -31,27 +31,27 @@ Each session has its own page with the passage, background reading, discussion q
 
 **Part 1 — Learning to Read Genesis (the genre question)**
 
-1. The Neighbors' Stories — Ancient Near Eastern creation myths: *Enuma Elish*, *Atrahasis*, and the Memphite theology. What a "creation account" *was* in that world, and what Israel's first hearers already had ringing in their ears.
-2. History or Poetry? — the literary structure of Genesis 1: forming (days 1–3) and filling (days 4–6), the refrains, the frame. We examine the *shape* of the text to ask what genre we are actually reading.
-3. Clues in Plain Sight — the "problems" the author left on purpose: a talking snake, the odd fixation on nakedness and shame, two creation accounts that don't line up. Out-of-place signals that this was never meant to be read as flat, modern history.
+1. [The Neighbors' Stories](sessions/01-the-neighbors-stories/) — Ancient Near Eastern creation myths: *Enuma Elish*, *Atrahasis*, and the Memphite theology. What a "creation account" *was* in that world, and what Israel's first hearers already had ringing in their ears.
+2. [History or Poetry?](sessions/02-history-or-poetry/) — the literary structure of Genesis 1: forming (days 1–3) and filling (days 4–6), the refrains, the frame. We examine the *shape* of the text to ask what genre we are actually reading.
+3. [Clues in Plain Sight](sessions/03-clues-in-plain-sight/) — the "problems" the author left on purpose: a talking snake, the odd fixation on nakedness and shame, two creation accounts that don't line up. Out-of-place signals that this was never meant to be read as flat, modern history.
 
 **Part 2 — Primeval History (Genesis 1–11)**
 
-4. In the Beginning — Genesis 1 re-read as temple cosmology, now that we know its genre
-5. The Garden — Genesis 2–3, Eden as sacred space; the snake, nakedness, and exile
-6. Cain, Lamech, and the Spread of Violence — Genesis 4
-7. The Flood — Genesis 6–9 against *Atrahasis* and *Gilgamesh*
-8. Babel — Genesis 11 and the scattering of the nations
+4. [In the Beginning](sessions/04-in-the-beginning/) — Genesis 1 re-read as temple cosmology, now that we know its genre
+5. [The Garden](sessions/05-the-garden/) — Genesis 2–3, Eden as sacred space; the snake, nakedness, and exile
+6. [Cain, Lamech, and the Spread of Violence](sessions/06-cain-and-violence/) — Genesis 4
+7. [The Flood](sessions/07-the-flood/) — Genesis 6–9 against *Atrahasis* and *Gilgamesh*
+8. [Babel](sessions/08-babel/) — Genesis 11 and the scattering of the nations
 
 **Part 3 — The Patriarchs (Genesis 12–50)**
 
-9. The Call of Abram — Genesis 12, covenant and blessing
-10. Covenant Cut — Genesis 15 and 17
-11. Sodom, Hospitality, and Justice — Genesis 18–19
-12. The Binding of Isaac — Genesis 22 (*the Akedah*)
-13. Jacob — Genesis 25–35, the heel-grabber transformed
-14. Joseph — Genesis 37–47, providence in exile
-15. Blessing and Burial — Genesis 48–50
+9. [The Call of Abram](sessions/09-call-of-abram/) — Genesis 12, covenant and blessing
+10. [Covenant Cut](sessions/10-covenant-cut/) — Genesis 15 and 17
+11. [Sodom, Hospitality, and Justice](sessions/11-sodom-hospitality-justice/) — Genesis 18–19
+12. [The Binding of Isaac](sessions/12-binding-of-isaac/) — Genesis 22 (*the Akedah*)
+13. [Jacob](sessions/13-jacob/) — Genesis 25–35, the heel-grabber transformed
+14. [Joseph](sessions/14-joseph/) — Genesis 37–47, providence in exile
+15. [Blessing and Burial](sessions/15-blessing-and-burial/) — Genesis 48–50
 
 ## Sources we lean on
 
