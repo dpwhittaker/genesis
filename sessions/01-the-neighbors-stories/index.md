@@ -81,8 +81,6 @@ To do the gods' labor, so the gods can rest — humanity as a workforce:
 
 > **Genesis answers:** humans are made not to serve the gods' chores but to *bear God's image* and *rule* the earth as his stewards (Gen 1:26–28). The job description is inverted.
 
-<div class="page-break"></div>
-
 ### 4. What is a human made of?
 
 Clay, plus the blood (and flesh) of a slain god — so a divine "ghost," the *eṭemmu*, lives on inside people:
