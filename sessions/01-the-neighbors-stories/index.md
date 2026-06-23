@@ -18,7 +18,7 @@ Read these before (or during) the session. Each is sourced from a public-domain 
 - **[Enuma Elish — the Babylonian creation epic](texts/enuma-elish.md)** — the world (and Babylon's god Marduk) born out of a war among the gods; humanity made from the blood of a slain rebel god to be the gods' slaves.
 - **[Atrahasis — the Babylonian creation & flood epic](texts/atrahasis.md)** — the gods go on strike; humankind is fashioned from clay mixed with a slaughtered god's flesh and blood to carry the gods' labor; later, a flood. *(Part One is an original working translation from the Akkadian; Part Two is George Smith's 1876 public-domain translation.)*
 - **[The Memphite Theology — Egyptian creation on the Shabaka Stone](texts/memphite-theology.md)** — the god Ptah creates *by the thought of his heart and the word of his tongue*: creation by mind and speech.
-- **[Sumerian creation: the separation of heaven and earth](texts/sumerian-enlil-separation.md)** — the oldest layer: heaven (An) and earth (Ki) once fused as one, pried apart by **Enlil**, lord of wind and air — creation as an act of *separation*. *(Excerpts from ETCSL, Oxford.)*
+- **[Sumerian creation: heaven, earth, humankind, and the ordered world](texts/sumerian-enlil-separation.md)** — the fullest non-biblical picture: the primeval sea (Nammu); heaven and earth pried apart by **Enlil**, lord of wind; humankind kneaded from **clay of the deep** to do the gods' work; **Enki ordering** the world and decreeing fates; and civilization itself — grain, flocks, kingship — lowered from heaven. *(Excerpts from ETCSL, Oxford.)*
 
 ## What to watch for
 
@@ -72,6 +72,9 @@ To do the gods' labor, so the gods can rest — humanity as a workforce:
 > "Make a human, that he may carry the yoke! Let him bear the yoke assigned by Enlil; **let man carry the basket of the god.**"
 > — [*Atrahasis*](texts/atrahasis.md), Part One, lines 188–190
 
+> "Please apply the skill deriving from your wisdom and **create a substitute for the gods so that they can be freed from their toil!**"… "Impose on him the work of carrying baskets."
+> — [Sumerian: *Enki and Ninmaḫ*](texts/sumerian-enlil-separation.md), ETCSL 1.1.2, ll. 23, 34
+
 > **Genesis answers:** humans are made not to serve the gods' chores but to *bear God's image* and *rule* the earth as his stewards (Gen 1:26–28). The job description is inverted.
 
 ### 4. What is a human made of?
@@ -84,7 +87,10 @@ Clay, plus the blood (and flesh) of a slain god — so a divine "ghost," the *e�
 > "My blood will I take and bone will I fashion, / I will make man…"
 > — [*Enuma Elish*](texts/enuma-elish.md), Tablet VI.5–6
 
-> **Genesis answers:** "the LORD God formed man of the dust of the ground, and breathed into his nostrils the breath of life" (Gen 2:7) — dust plus God's own breath, not the blood of a murdered rival god.
+> "You should **knead clay from the top of the *abzu***; the birth-goddesses will nip off the clay and you shall bring the form into existence."
+> — [Sumerian: *Enki and Ninmaḫ*](texts/sumerian-enlil-separation.md), ETCSL 1.1.2, ll. 31–32
+
+> **Genesis answers:** "the LORD God formed man of the dust of the ground, and breathed into his nostrils the breath of life" (Gen 2:7) — dust plus God's own breath, not the blood of a murdered rival god. Notice the **spectrum**: in Sumer, clay from the watery deep *alone*; in Babylon, clay *plus a slain god's blood*; in Genesis, dust *plus God's own breath*. The same "creature shaped from clay" instinct runs through all three — but the animating principle moves from a butchered god, to God's own life-breath freely given.
 
 ### 5. Who is the high god fighting?
 
