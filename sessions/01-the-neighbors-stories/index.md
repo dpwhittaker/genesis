@@ -153,11 +153,15 @@ Seven keeps surfacing in these texts: the **"seven great Anunnaki"** ([*Atrahasi
 5. Sumer pictures creation as Enlil prying a fused heaven and earth apart; Babylon pictures Marduk splitting a chaos-body into an upper and a lower half. Genesis 1 uses the very same verb — *bāḏal*, "to divide" — for light/dark and the waters above/below. Why might Genesis keep its neighbors' *separation* picture at all, instead of inventing a wholly different image? And what is the author telling us by keeping the architecture while stripping out the corpse, the combat, and the rival gods?
 6. Babylon already had sevens — lunar quarter-days, "evil days," and a full-moon *šapattu* rest-day for the gods. Read Genesis 2:2–3 against that. What does Genesis *keep*, and what does it deliberately change, when it makes the seventh day a day God *blesses* and *sanctifies*? Why might it matter that the Sabbath is cut loose from the moon — and that, in Deuteronomy 5:15, the reason given is rescue *from slavery*?
 
-## Leader notes
+## A note before we begin
 
-- The goal this week is **not** to settle the age of the earth or the mechanics of creation. It is to reset *what kind of text* Genesis is by hearing it against its neighbors. Resist questions that jump to "so is it literal?" — that is Sessions 2 and 3.
-- Expect discomfort. For a hyperliteral reader, admitting that Genesis is *in conversation* with Babylonian myth can feel threatening. Frame it the other way: Genesis is confident enough to take the best-known stories in the world and answer them point for point.
-- If time is short, the **Enuma Elish** opening (Tablet I) and the **Atrahasis** creation-of-humankind scene (Part One) are the two highest-value reads. The Memphite Theology is a short, powerful supplement on creation-by-word.
+If you've always read Genesis as a plain account of *how* the world was made, setting it next to Babylonian and Egyptian stories may feel strange at first — maybe even unsettling. That's a completely fair place to start, and you don't have to resolve it today. We're not here to take anything away from Scripture. We're here to hear it the way its first audience did — and that audience knew these other stories by heart.
+
+So this week we're setting a different question aside for the moment. We're *not* trying to settle the age of the earth or the mechanics of creation; we're asking the question that comes before it: **what kind of writing is this, and what was it answering?** If "but is it literal?" keeps tugging at you, that's worth holding onto — we give it room in Sessions 2 and 3. For now, just listen for where Genesis echoes its neighbors and where it deliberately breaks from them.
+
+If you're short on time, the two richest reads are the opening of **Enuma Elish** (Tablet I) and the creation-of-humankind scene in **Atrahasis** (Part One); the **Memphite Theology** is a short, striking piece on creation by word alone.
+
+One last thing to carry with you: notice that Genesis itself isn't anxious about any of this. It takes the most famous stories in the world and answers them, line by line — unhurried, unafraid, and good.
 
 ---
 
