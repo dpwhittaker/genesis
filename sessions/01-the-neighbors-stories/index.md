@@ -13,11 +13,12 @@ Before we open Genesis, we listen to the stories its first audience already knew
 
 ## Primary texts
 
-Read these before (or during) the session. Each is the full text from a public-domain or openly-licensed source, with provenance and notes on the page.
+Read these before (or during) the session. Each is sourced from a public-domain or openly-licensed edition, with full provenance and licensing notes on the page.
 
 - **[Enuma Elish — the Babylonian creation epic](texts/enuma-elish.md)** — the world (and Babylon's god Marduk) born out of a war among the gods; humanity made from the blood of a slain rebel god to be the gods' slaves.
 - **[Atrahasis — the Babylonian creation & flood epic](texts/atrahasis.md)** — the gods go on strike; humankind is fashioned from clay mixed with a slaughtered god's flesh and blood to carry the gods' labor; later, a flood. *(Part One is an original working translation from the Akkadian; Part Two is George Smith's 1876 public-domain translation.)*
 - **[The Memphite Theology — Egyptian creation on the Shabaka Stone](texts/memphite-theology.md)** — the god Ptah creates *by the thought of his heart and the word of his tongue*: creation by mind and speech.
+- **[Sumerian creation: the separation of heaven and earth](texts/sumerian-enlil-separation.md)** — the oldest layer: heaven (An) and earth (Ki) once fused as one, pried apart by **Enlil**, lord of wind and air — creation as an act of *separation*. *(Excerpts from ETCSL, Oxford.)*
 
 ## What to watch for
 
@@ -29,6 +30,7 @@ Read these before (or during) the session. Each is the full text from a public-d
 | What is a human made of? | clay + a slain god's blood/flesh | dust of the ground + the breath of God |
 | Who is the high god fighting? | rival gods, chaos-monsters | no rival — nothing competes with God |
 | Where does a seven-day rhythm come from? | the moon's quarters; ritual "evil days" and purifications on the 7th and 15th; rest belongs to the gods | God himself rests on the seventh day, then *blesses* and *sanctifies* it — rest woven into creation and given to people |
+| What is the basic *act* of creation? | a god **divides** a fused or chaotic whole — Enlil pries heaven from earth; Marduk splits Tiamat in two | God **separates** by his word — light from dark, waters from waters, day from night — and calls each "good" |
 
 ## Excerpts
 
@@ -115,6 +117,27 @@ Seven keeps surfacing in these texts: the **"seven great Anunnaki"** ([*Atrahasi
 
 > **Genesis answers:** "And on the seventh day God ended his work… and he **rested**… And God **blessed** the seventh day, and **sanctified** it" (Gen 2:2–3). Genesis takes the familiar seven and transforms it. The Sabbath is **not** tied to the moon (it just keeps counting, regardless of lunar phase), **not** a day of dread, and **not** rest for gods waited on by human slaves. It is rest *built into creation itself*, **blessed and made holy**, and later commanded as a gift for everyone — "thy manservant… thy maidservant… thy cattle" — grounded both in God's own rest (Exod 20:11) and in liberation *from slavery* (Deut 5:15). Where Babylon's seven is lunar fate and ritual danger, Israel's seven is blessing, holiness, and freedom.
 
+### 7. Dividing the cosmos: creation as separation
+
+Across Mesopotamia, the basic act of creation is **separation** — not making something from nothing, but *splitting apart* what was fused or chaotic. It comes in two flavors, and Genesis shares the architecture of both while removing the violence.
+
+**Sumer — pry a fused heaven-and-earth apart.** In the oldest layer, heaven (An) and earth (Ki) were one mass until **Enlil**, lord of *lil* (air, wind, breath), wedges them open:
+
+> Not only did the lord make the world appear in its correct form… **Enlil**… **hasten[ed] to separate heaven from earth, and hasten[ed] to separate earth from heaven**… He did this with the help of the hoe — and so daylight broke forth.
+> — [Song of the Hoe](texts/sumerian-enlil-separation.md), ETCSL 5.5.4, ll. 1–8 (trans. ETCSL / J. Black)
+
+> …**when the heavens had been separated from the earth, when the earth had been delimited from the heavens**… when **An had taken the heavens** for himself, when **Enlil had taken the earth** for himself, when the nether world had been given to Ereškigala…
+> — [Gilgameš, Enkidu and the Nether World](texts/sumerian-enlil-separation.md), ETCSL 1.8.1.4, prologue (trans. ETCSL / G. Zólyomi & J. Black)
+
+**Babylon — butcher a chaos-body into upper and lower halves.** *Enuma Elish* tells the same separation differently: Marduk does not pry apart a fused pair, he *cuts a defeated chaos-goddess in two*, and her upper half becomes the sky that holds back the waters above:
+
+> He **split her up like a flat fish into two halves**; / One half of her he stablished as a **covering for heaven**. / He fixed a bolt, he stationed a watchman, / And bade them not to let her waters come forth.
+> — [*Enuma Elish*](texts/enuma-elish.md), Tablet IV.137–140
+
+So both traditions agree: **the world begins when something is split into an above and a below.** Notice, too, the *means* in the Sumerian version — the divider is **air/wind** (Enlil = "lord wind"), the rising wedge between sky and ground.
+
+> **Genesis answers:** Genesis 1 keeps the separation architecture exactly — and uses the matching Hebrew verb **bāḏal, "to divide/separate,"** five times: God **divides** light from darkness (1:4), makes an *expanse* (*rāqîaʿ*) to **divide** the waters above from the waters below (1:6–7), and sets the lights to **divide** day from night (1:14, 18). The picture is the neighbors' picture: an above and a below, parted to make room for life. But the corpse is gone, the combat is gone, the rival gods are gone. There is no fused deity to dismember and no chaos-monster to defeat — only God, **separating by his word** and pronouncing each division *good*. And the very wind that does the prying in Sumer is there in verse 2, but tamed: the **rûaḥ** of God simply hovering over the waters before the first "Let there be."
+
 ## Discussion questions
 
 1. In *Enuma Elish* and *Atrahasis*, humanity is an afterthought built to do the gods' chores. How does Genesis 1:26–28 answer that picture? What changes when humans are made to *rule* rather than to *serve*?
@@ -122,6 +145,7 @@ Seven keeps surfacing in these texts: the **"seven great Anunnaki"** ([*Atrahasi
 3. The Memphite Theology has Ptah create by *the heart's thought and the tongue's word*. Where have you heard "and God said… and it was so" before? What is Genesis claiming by making *speech* the means of creation?
 4. In Babylon's story, the sea (Tiamat) is a goddess to be defeated. In Genesis 1 the sea, the sun, and the great creatures are simply *made*, and called good. Why might that have been the most shocking line in the chapter for an ancient hearer?
 5. Babylon already had sevens — lunar quarter-days, "evil days," and a full-moon *šapattu* rest-day for the gods. Read Genesis 2:2–3 against that. What does Genesis *keep*, and what does it deliberately change, when it makes the seventh day a day God *blesses* and *sanctifies*? Why might it matter that the Sabbath is cut loose from the moon — and that, in Deuteronomy 5:15, the reason given is rescue *from slavery*?
+6. Sumer pictures creation as Enlil prying a fused heaven and earth apart; Babylon pictures Marduk splitting a chaos-body into an upper and a lower half. Genesis 1 uses the very same verb — *bāḏal*, "to divide" — for light/dark and the waters above/below. Why might Genesis keep its neighbors' *separation* picture at all, instead of inventing a wholly different image? And what is the author telling us by keeping the architecture while stripping out the corpse, the combat, and the rival gods?
 
 ## Leader notes
 
