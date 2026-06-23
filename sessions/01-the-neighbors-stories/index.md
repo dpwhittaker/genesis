@@ -36,6 +36,8 @@ Read these before (or during) the session. Each is sourced from a public-domain 
 
 These are the exact passages that answer each question in the table above. Read straight from these in class — the full texts (with provenance) are linked under **Primary texts**; citations here point to tablet and line so the group can turn right to them.
 
+<div class="page-break"></div>
+
 ### 1. How does creation happen?
 
 **Babylon — by combat.** The world is carved out of the corpse of a defeated chaos-goddess:
@@ -61,6 +63,8 @@ In Babylon the sea *is* a goddess (Tiamat), and the heavenly bodies are divine b
 > — [*Enuma Elish*](texts/enuma-elish.md), Tablet V.1–2, 12
 
 > **Genesis answers:** the sea, "the great lights," and the creatures are simply *made* and called good (Gen 1:16–21) — never named, never divine. Genesis won't even call the sun and moon by name; they are "the greater light" and "the lesser light."
+
+<div class="page-break"></div>
 
 ### 3. Why are humans made?
 
@@ -92,6 +96,8 @@ Clay, plus the blood (and flesh) of a slain god — so a divine "ghost," the *e�
 
 > **Genesis answers:** "the LORD God formed man of the dust of the ground, and breathed into his nostrils the breath of life" (Gen 2:7) — dust plus God's own breath, not the blood of a murdered rival god. Notice the **spectrum**: in Sumer, clay from the watery deep *alone*; in Babylon, clay *plus a slain god's blood*; in Genesis, dust *plus God's own breath*. The same "creature shaped from clay" instinct runs through all three — but the animating principle moves from a butchered god, to God's own life-breath freely given.
 
+<div class="page-break"></div>
+
 ### 5. Who is the high god fighting?
 
 The high god wins his throne by killing a chaos-monster and capturing the rebel who led her army:
@@ -122,6 +128,8 @@ So both traditions agree: **the world begins when something is split into an abo
 
 > **Genesis answers:** Genesis 1 keeps the separation architecture exactly — and uses the matching Hebrew verb **bāḏal, "to divide/separate,"** five times: God **divides** light from darkness (1:4), makes an *expanse* (*rāqîaʿ*) to **divide** the waters above from the waters below (1:6–7), and sets the lights to **divide** day from night (1:14, 18). The picture is the neighbors' picture: an above and a below, parted to make room for life. But the corpse is gone, the combat is gone, the rival gods are gone. There is no fused deity to dismember and no chaos-monster to defeat — only God, **separating by his word** and pronouncing each division *good*. And the very wind that does the prying in Sumer is there in verse 2, but tamed: the **rûaḥ** of God simply hovering over the waters before the first "Let there be."
 
+<div class="page-break"></div>
+
 ### 7. Why is seven important? Where does rest come from?
 
 This is the note the whole session lands on. Babylon counted in sevens too — but its sevens come from **the moon** and from **ritual dread**, not from rest given as a gift.
@@ -143,6 +151,8 @@ Seven keeps surfacing in these texts: the **"seven great Anunnaki"** ([*Atrahasi
 **The Sabbath connection.** Babylon had a day called the **šapattu** — the 15th, the full moon, named the *"day of the quieting of the heart"* (a day the gods rest). It is widely (though not unanimously) held to be linguistically related to Hebrew **šabbat**. Babylon also kept "evil days" (the 7th, 14th, 19th, 21st, 28th) on which the king avoided certain acts for fear of ill omen. So a seven-beat rhythm and even a "rest day" already existed — but governed by the moon, by the gods' convenience, and by dread.
 
 > **Genesis answers:** "And on the seventh day God ended his work… and he **rested**… And God **blessed** the seventh day, and **sanctified** it" (Gen 2:2–3). Genesis takes the familiar seven and transforms it. The Sabbath is **not** tied to the moon (it just keeps counting, regardless of lunar phase), **not** a day of dread, and **not** rest for gods waited on by human slaves. It is rest *built into creation itself*, **blessed and made holy**, and later commanded as a gift for everyone — "thy manservant… thy maidservant… thy cattle" — grounded both in God's own rest (Exod 20:11) and in liberation *from slavery* (Deut 5:15). Where Babylon's seven is lunar fate and ritual danger, Israel's seven is blessing, holiness, and freedom. **That is the heart of Genesis 1: the whole ordered week is built to arrive at rest — and the rest is for everyone.**
+
+<div class="page-break"></div>
 
 ## Discussion questions
 
