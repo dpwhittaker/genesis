@@ -3,3 +3,7 @@ _site/
 .jekyll-metadata
 Gemfile.lock
 .sass-cache/
+
+# print-session skill artifacts
+pdf/
+node_modules/
