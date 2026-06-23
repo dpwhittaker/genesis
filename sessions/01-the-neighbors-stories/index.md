@@ -26,10 +26,10 @@ Read these before (or during) the session. Each is sourced from a public-domain 
 |---|---|---|
 | How does creation happen? | combat, sex, struggle among gods | a single God speaks, and it is so |
 | Are sun, sea, and sky gods? | yes — divine powers | no — they are *things God makes* |
-| Why are humans made? | to be slaves, to feed the gods their labor | to bear God's image and rule as his stewards |
-| What is a human made of? | clay + a slain god's blood/flesh | dust of the ground + the breath of God |
 | Who is the high god fighting? | rival gods, chaos-monsters | no rival — nothing competes with God |
 | What is the basic *act* of creation? | a god **divides** a fused or chaotic whole — Enlil pries heaven from earth; Marduk splits Tiamat in two | God **separates** by his word — light from dark, waters from waters, day from night — and calls each "good" |
+| Why are humans made? | to be slaves, to feed the gods their labor | to bear God's image and rule as his stewards |
+| What is a human made of? | clay + a slain god's blood/flesh | dust of the ground + the breath of God |
 | Where does a seven-day rhythm come from? | the moon's quarters; ritual "evil days" and purifications on the 7th and 15th; rest belongs to the gods | God himself rests on the seventh day, then *blesses* and *sanctifies* it — rest woven into creation and given to people |
 
 ## Excerpts
@@ -64,41 +64,7 @@ In Babylon the sea *is* a goddess (Tiamat), and the heavenly bodies are divine b
 
 > **Genesis answers:** the sea, "the great lights," and the creatures are simply *made* and called good (Gen 1:16–21) — never named, never divine. Genesis won't even call the sun and moon by name; they are "the greater light" and "the lesser light."
 
-<div class="page-break"></div>
-
-### 3. Why are humans made?
-
-To do the gods' labor, so the gods can rest — humanity as a workforce:
-
-> "I will create man who shall inhabit the earth, / **That the service of the gods may be established**, and that their shrines may be built."
-> — [*Enuma Elish*](texts/enuma-elish.md), Tablet VI.7–8
-
-> "Make a human, that he may carry the yoke! Let him bear the yoke assigned by Enlil; **let man carry the basket of the god.**"
-> — [*Atrahasis*](texts/atrahasis.md), Part One, lines 188–190
-
-> "Please apply the skill deriving from your wisdom and **create a substitute for the gods so that they can be freed from their toil!**"… "Impose on him the work of carrying baskets."
-> — [Sumerian: *Enki and Ninmaḫ*](texts/sumerian-enlil-separation.md), ETCSL 1.1.2, ll. 23, 34
-
-> **Genesis answers:** humans are made not to serve the gods' chores but to *bear God's image* and *rule* the earth as his stewards (Gen 1:26–28). The job description is inverted.
-
-### 4. What is a human made of?
-
-Clay, plus the blood (and flesh) of a slain god — so a divine "ghost," the *eṭemmu*, lives on inside people:
-
-> So **Wê-ila, the god who had reason, they slaughtered** in their assembly; and **with his flesh and his blood Nintu mixed the clay**… From the god's flesh a spirit came to be; it proclaimed the living one as its sign, so that — that he be not forgotten — the spirit remained.
-> — [*Atrahasis*](texts/atrahasis.md), Part One, lines 219–227
-
-> "My blood will I take and bone will I fashion, / I will make man…"
-> — [*Enuma Elish*](texts/enuma-elish.md), Tablet VI.5–6
-
-> "You should **knead clay from the top of the *abzu***; the birth-goddesses will nip off the clay and you shall bring the form into existence."
-> — [Sumerian: *Enki and Ninmaḫ*](texts/sumerian-enlil-separation.md), ETCSL 1.1.2, ll. 31–32
-
-> **Genesis answers:** "the LORD God formed man of the dust of the ground, and breathed into his nostrils the breath of life" (Gen 2:7) — dust plus God's own breath, not the blood of a murdered rival god. Notice the **spectrum**: in Sumer, clay from the watery deep *alone*; in Babylon, clay *plus a slain god's blood*; in Genesis, dust *plus God's own breath*. The same "creature shaped from clay" instinct runs through all three — but the animating principle moves from a butchered god, to God's own life-breath freely given.
-
-<div class="page-break"></div>
-
-### 5. Who is the high god fighting?
+### 3. Who is the high god fighting?
 
 The high god wins his throne by killing a chaos-monster and capturing the rebel who led her army:
 
@@ -109,7 +75,7 @@ The high god wins his throne by killing a chaos-monster and capturing the rebel 
 
 <div class="page-break"></div>
 
-### 6. Dividing the cosmos: creation as separation
+### 4. Dividing the cosmos: creation as separation
 
 Across Mesopotamia, the basic act of creation is **separation** — not making something from nothing, but *splitting apart* what was fused or chaotic. It comes in two flavors, and Genesis shares the architecture of both while removing the violence.
 
@@ -129,6 +95,38 @@ Across Mesopotamia, the basic act of creation is **separation** — not making s
 So both traditions agree: **the world begins when something is split into an above and a below.** Notice, too, the *means* in the Sumerian version — the divider is **air/wind** (Enlil = "lord wind"), the rising wedge between sky and ground.
 
 > **Genesis answers:** Genesis 1 keeps the separation architecture exactly — and uses the matching Hebrew verb **bāḏal, "to divide/separate,"** five times: God **divides** light from darkness (1:4), makes an *expanse* (*rāqîaʿ*) to **divide** the waters above from the waters below (1:6–7), and sets the lights to **divide** day from night (1:14, 18). The picture is the neighbors' picture: an above and a below, parted to make room for life. But the corpse is gone, the combat is gone, the rival gods are gone. There is no fused deity to dismember and no chaos-monster to defeat — only God, **separating by his word** and pronouncing each division *good*. And the very wind that does the prying in Sumer is there in verse 2, but tamed: the **rûaḥ** of God simply hovering over the waters before the first "Let there be."
+
+<div class="page-break"></div>
+
+### 5. Why are humans made?
+
+To do the gods' labor, so the gods can rest — humanity as a workforce:
+
+> "I will create man who shall inhabit the earth, / **That the service of the gods may be established**, and that their shrines may be built."
+> — [*Enuma Elish*](texts/enuma-elish.md), Tablet VI.7–8
+
+> "Make a human, that he may carry the yoke! Let him bear the yoke assigned by Enlil; **let man carry the basket of the god.**"
+> — [*Atrahasis*](texts/atrahasis.md), Part One, lines 188–190
+
+> "Please apply the skill deriving from your wisdom and **create a substitute for the gods so that they can be freed from their toil!**"… "Impose on him the work of carrying baskets."
+> — [Sumerian: *Enki and Ninmaḫ*](texts/sumerian-enlil-separation.md), ETCSL 1.1.2, ll. 23, 34
+
+> **Genesis answers:** humans are made not to serve the gods' chores but to *bear God's image* and *rule* the earth as his stewards (Gen 1:26–28). The job description is inverted.
+
+### 6. What is a human made of?
+
+Clay, plus the blood (and flesh) of a slain god — so a divine "ghost," the *eṭemmu*, lives on inside people:
+
+> So **Wê-ila, the god who had reason, they slaughtered** in their assembly; and **with his flesh and his blood Nintu mixed the clay**… From the god's flesh a spirit came to be; it proclaimed the living one as its sign, so that — that he be not forgotten — the spirit remained.
+> — [*Atrahasis*](texts/atrahasis.md), Part One, lines 219–227
+
+> "My blood will I take and bone will I fashion, / I will make man…"
+> — [*Enuma Elish*](texts/enuma-elish.md), Tablet VI.5–6
+
+> "You should **knead clay from the top of the *abzu***; the birth-goddesses will nip off the clay and you shall bring the form into existence."
+> — [Sumerian: *Enki and Ninmaḫ*](texts/sumerian-enlil-separation.md), ETCSL 1.1.2, ll. 31–32
+
+> **Genesis answers:** "the LORD God formed man of the dust of the ground, and breathed into his nostrils the breath of life" (Gen 2:7) — dust plus God's own breath, not the blood of a murdered rival god. Notice the **spectrum**: in Sumer, clay from the watery deep *alone*; in Babylon, clay *plus a slain god's blood*; in Genesis, dust *plus God's own breath*. The same "creature shaped from clay" instinct runs through all three — but the animating principle moves from a butchered god, to God's own life-breath freely given.
 
 <div class="page-break"></div>
 
