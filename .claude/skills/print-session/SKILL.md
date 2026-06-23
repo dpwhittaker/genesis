@@ -1,6 +1,6 @@
 ---
 name: print-session
-description: Prepare a genesis session/handout page for printing — place page breaks at natural section boundaries and verify the layout by rendering the live published page to PDF and analyzing per-page density. Use when the user wants to print or hand out a session, asks to "fix the page breaks," "make it print cleanly," "get it ready for class," or after a session's content is finalized. Tuned to the Jekyll + minima + GitHub Pages pipeline: print CSS lives in _includes/custom-head.html; the renderer is the deployed page, so push before verifying.
+description: Prepare a genesis session/handout page for printing — place page breaks at natural section boundaries and verify the layout by rendering the live published page to PDF and analyzing per-page density. Use when the user wants to print or hand out a session, asks to "fix the page breaks," "make it print cleanly," "get it ready for class," or after a session's content is finalized. Tuned to the Jekyll + minima + GitHub Pages pipeline: print CSS lives in assets/main.scss; the renderer is the deployed page, so push before verifying.
 ---
 
 # Print a genesis session for handout
@@ -15,7 +15,7 @@ After a session's *content* is final. Page-break placement is a dedicated finish
 
 ## What's already in place
 
-- **Print CSS** — `_includes/custom-head.html` injects an `@media print` block (Letter, 0.5in margins, black-on-white, site chrome hidden). It keeps headings with the text below them and prevents blockquotes/tables/list items from splitting across pages. You normally don't touch this.
+- **Print CSS** — `assets/main.scss` imports minima and appends an `@media print` block (Letter, 0.5in margins, black-on-white, site chrome hidden). It keeps headings with the text below them and prevents blockquotes/tables/list items from splitting across pages. You normally don't touch this. (It compiles to `/assets/main.css`, the stylesheet minima already links — minima's `custom-head.html` include is not wired up in this build, so the override goes through the stylesheet, not the head.)
 - **Tools** (in this skill dir):
   - `handout-to-pdf.js` — renders a live page to `pdf/<slug>.pdf` (headless Chrome, print media emulated).
   - `analyze-pdf.py` — reports per-page fullness, char count, and first heading; flags sparse/overfull pages; checks even page count.

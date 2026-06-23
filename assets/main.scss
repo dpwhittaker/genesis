@@ -1,0 +1,47 @@
+---
+# Empty front matter: tells Jekyll to compile this SCSS. This file replaces
+# minima's default assets/main.scss, so we import the theme and then append
+# print/handout styles. Compiles to /assets/main.css (the one minima links).
+# Used by the print-session skill (.claude/skills/print-session/).
+---
+
+@charset "utf-8";
+@import "minima";
+
+/* ===== Print / handout styles ===== */
+/* Session pages are handed out and printed. These rules make the published
+   page paginate cleanly and honor explicit page-break markers. */
+
+/* Forced-break marker is invisible on screen; becomes a page break in print. */
+.page-break { display: none; }
+
+@media print {
+  @page { size: letter; margin: 0.5in; }
+
+  html, body { background: #fff !important; color: #000 !important; }
+  body { font: 11pt/1.45 Georgia, "Times New Roman", serif; }
+
+  /* Drop all on-screen chrome and anything explicitly marked no-print. */
+  .site-header, .site-footer, .no-print { display: none !important; }
+
+  /* Let the content use the full printable width. */
+  main.page-content, .page-content, .wrapper {
+    margin: 0 !important; padding: 0 !important;
+    max-width: none !important; width: auto !important;
+  }
+
+  a { color: #000 !important; text-decoration: none !important; }
+
+  /* Keep a heading with the text that follows it; never strand one at a page foot. */
+  h1 { page-break-after: avoid; }
+  h2, h3, h4 { page-break-after: avoid; page-break-inside: avoid; }
+
+  /* Don't split atomic blocks across a page boundary. */
+  p { orphans: 3; widows: 3; }
+  blockquote, pre, table, tr, li, figure, img { page-break-inside: avoid; }
+  blockquote { border-left: 3px solid #000; padding-left: 0.6em; }
+  img { max-width: 100% !important; }
+
+  /* Explicit forced page break: <div class="page-break"></div> in the markdown. */
+  .page-break { display: block; height: 0; page-break-after: always; break-after: page; }
+}
