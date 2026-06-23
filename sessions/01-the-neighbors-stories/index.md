@@ -28,6 +28,7 @@ Read these before (or during) the session. Each is the full text from a public-d
 | Why are humans made? | to be slaves, to feed the gods their labor | to bear God's image and rule as his stewards |
 | What is a human made of? | clay + a slain god's blood/flesh | dust of the ground + the breath of God |
 | Who is the high god fighting? | rival gods, chaos-monsters | no rival — nothing competes with God |
+| Where does a seven-day rhythm come from? | the moon's quarters; ritual "evil days" and purifications on the 7th and 15th; rest belongs to the gods | God himself rests on the seventh day, then *blesses* and *sanctifies* it — rest woven into creation and given to people |
 
 ## Excerpts
 
@@ -92,12 +93,35 @@ The high god wins his throne by killing a chaos-monster and capturing the rebel 
 
 > **Genesis answers:** there is *no fight.* No rival, no chaos-monster, no struggle — "In the beginning God created" (Gen 1:1). The deep (*tehom*, an echo of *Tiamat*) is not an enemy God defeats but simply water God moves over and shapes.
 
+### 6. Why is seven important? Where does rest come from?
+
+This is one of the sharpest meeting-points between Genesis and its neighbors. Babylon counted in sevens too — but its sevens come from **the moon** and from **ritual dread**, not from rest given as a gift.
+
+**Babylon roots seven in the moon's phases.** In *Enuma Elish*, Marduk sets the moon to mark the month, and the **seventh day** is the first-quarter "divided crown," the **fourteenth** the full moon:
+
+> "Thou commandest the horns to determine six days, / And on the seventh day to [divide] the crown. / On the fourteenth day thou shalt stand opposite, the half…"
+> — [*Enuma Elish*](texts/enuma-elish.md), Tablet V.16–18
+
+(The epic is itself built on **seven tablets**, recited at the Babylonian New Year.)
+
+**In *Atrahasis*, the 1st, 7th, and 15th are days of purification** — and it is on this rhythm that the god is killed and humanity is made:
+
+> "On the first, seventh, and fifteenth of the month I will make a cleansing, a bath. Let them slaughter one god, and let the gods be purified in his presence."
+> — [*Atrahasis*](texts/atrahasis.md), Part One, lines 202–204
+
+Seven keeps surfacing in these texts: the **"seven great Anunnaki"** ([*Atrahasis*](texts/atrahasis.md), Part One, line 5); the birth-goddess pinching off **fourteen pieces of clay — seven right, seven left** ([*Atrahasis*](texts/atrahasis.md), Part One, "the first births"); and, in the flood, the storm that rages and then ceases **"on the seventh day"** ([*Atrahasis*](texts/atrahasis.md), Part Two; cf. the sevens of Genesis 7–8).
+
+**The Sabbath connection.** Babylon had a day called the **šapattu** — the 15th, the full moon, named the *"day of the quieting of the heart"* (a day the gods rest). It is widely (though not unanimously) held to be linguistically related to Hebrew **šabbat**. Babylon also kept "evil days" (the 7th, 14th, 19th, 21st, 28th) on which the king avoided certain acts for fear of ill omen. So a seven-beat rhythm and even a "rest day" already existed — but governed by the moon, by the gods' convenience, and by dread.
+
+> **Genesis answers:** "And on the seventh day God ended his work… and he **rested**… And God **blessed** the seventh day, and **sanctified** it" (Gen 2:2–3). Genesis takes the familiar seven and transforms it. The Sabbath is **not** tied to the moon (it just keeps counting, regardless of lunar phase), **not** a day of dread, and **not** rest for gods waited on by human slaves. It is rest *built into creation itself*, **blessed and made holy**, and later commanded as a gift for everyone — "thy manservant… thy maidservant… thy cattle" — grounded both in God's own rest (Exod 20:11) and in liberation *from slavery* (Deut 5:15). Where Babylon's seven is lunar fate and ritual danger, Israel's seven is blessing, holiness, and freedom.
+
 ## Discussion questions
 
 1. In *Enuma Elish* and *Atrahasis*, humanity is an afterthought built to do the gods' chores. How does Genesis 1:26–28 answer that picture? What changes when humans are made to *rule* rather than to *serve*?
 2. *Atrahasis* makes the first human out of clay and a dead god's flesh, so that a divine "spirit" (*eṭemmu*) lives on inside people. Read Genesis 2:7 next to it. What is similar — and what has Genesis deliberately changed?
 3. The Memphite Theology has Ptah create by *the heart's thought and the tongue's word*. Where have you heard "and God said… and it was so" before? What is Genesis claiming by making *speech* the means of creation?
 4. In Babylon's story, the sea (Tiamat) is a goddess to be defeated. In Genesis 1 the sea, the sun, and the great creatures are simply *made*, and called good. Why might that have been the most shocking line in the chapter for an ancient hearer?
+5. Babylon already had sevens — lunar quarter-days, "evil days," and a full-moon *šapattu* rest-day for the gods. Read Genesis 2:2–3 against that. What does Genesis *keep*, and what does it deliberately change, when it makes the seventh day a day God *blesses* and *sanctifies*? Why might it matter that the Sabbath is cut loose from the moon — and that, in Deuteronomy 5:15, the reason given is rescue *from slavery*?
 
 ## Leader notes
 
