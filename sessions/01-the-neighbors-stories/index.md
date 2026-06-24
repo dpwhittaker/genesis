@@ -7,6 +7,17 @@ layout: default
 
 **Passage:** Ancient Near Eastern creation myths — *Enuma Elish*, *Atrahasis*, the Memphite Theology — read alongside Genesis 1–2.
 
+<div class="no-print" markdown="1">
+
+## 🎧 Listen
+
+Two companion podcasts for this session — good before you read, or to revisit afterward:
+
+- **Shorter overview** (~19 min): <audio controls preload="none" src="Shorter_Podcast.m4a">Your browser can't play audio — [download the file](Shorter_Podcast.m4a).</audio>
+- **Longer deep dive** (~40 min): <audio controls preload="none" src="Longer_Podcast.m4a">Your browser can't play audio — [download the file](Longer_Podcast.m4a).</audio>
+
+</div>
+
 ## Aim of this session
 
 Before we open Genesis, we listen to the stories its first audience already knew by heart. Israel did not write in a vacuum: Babylon, Assyria, and Egypt all had their own accounts of how the world and humanity began. When we read those accounts first, two things happen. We stop hearing Genesis as a lonely science-or-history report, and we start hearing it as a deliberate, pointed *response* — agreeing with its neighbors here, flatly contradicting them there. The differences are the message.
