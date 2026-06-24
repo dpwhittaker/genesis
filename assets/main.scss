@@ -103,17 +103,16 @@
 .ff-table td:nth-child(2) { text-align: center; color: #888; white-space: nowrap; }
 
 @media print {
-  /* Keep the boxes readable in print: solid borders, no tints that gray out text,
-     and never split a single box across a page. */
-  .chiasm-box { border: 1pt solid #000 !important; background: #fff !important;
-    page-break-inside: avoid; padding: 4pt 6pt 5pt; margin: 5pt 0; }
-  .chiasm-frame { border-width: 2pt !important; }
-  .chiasm-center { border-width: 2pt !important; border-style: double !important; }
-  .chiasm-goal { border-width: 2pt !important; }
-  .chiasm-climax { border: 1.3pt dashed #000 !important; background: #fff !important; margin-left: 1.2em; }
-  .chiasm-poem { font-style: italic; margin-left: 1.2em; }
-  .chiasm-box .lbl, .chiasm-center .lbl, .chiasm-goal .lbl, .chiasm-climax .lbl { color: #000 !important; }
-  .chiasm-box .scripture .v { color: #000 !important; }
-  .chiasm-note { color: #000 !important; }
-  .chiasm-hinge { color: #000 !important; }
+  /* Retain the structure colors in print — the gold center, green goal, indigo
+     climax, and tinted frame. Force the browser to render the backgrounds and
+     borders (it strips them by default to save ink), and never split a box. */
+  .chiasm-box {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+    page-break-inside: avoid;
+    padding: 4pt 6pt 5pt; margin: 5pt 0;
+  }
+  .chiasm-poem { margin-left: 1.2em; font-style: italic; }
+  .chiasm-climax { margin-left: 1.2em; }
 }

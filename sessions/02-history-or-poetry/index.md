@@ -117,6 +117,8 @@ Read the boxes top to bottom. The heavy-bordered boxes are the mirror **frame**;
 <p class="scripture"><span class="v">9</span>And God said: 'Let the waters under the heaven be gathered together unto one place, and let the dry land appear.' And it was so. <span class="v">10</span>And God called the dry land Earth, and the gathering together of the waters called He Seas; and God saw that it was good. <span class="v">11</span>And God said: 'Let the earth put forth grass, herb yielding seed, and fruit-tree bearing fruit after its kind, wherein is the seed thereof, upon the earth.' And it was so. <span class="v">12</span>And the earth brought forth grass, herb yielding seed after its kind, and tree bearing fruit, wherein is the seed thereof, after its kind; and God saw that it was good. <span class="v">13</span>And there was evening and there was morning, a third day.</p>
 </div>
 
+<div class="page-break"></div>
+
 <div class="chiasm-hinge">↓ Filling (days 4–6): God supplies content ↓</div>
 
 <div class="chiasm-box chiasm-center">
