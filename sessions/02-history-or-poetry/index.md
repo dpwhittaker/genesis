@@ -78,6 +78,8 @@ And the author plainly *works* to hold the count, choosing the fuller wording wh
 
 A flat list of events does not do this. Genesis 1 is composed the way a cathedral is built — to a measure, on purpose, all of it leaning toward seven.
 
+**Does the counting hold up?** Every figure here is counted in the **Hebrew** — the consonants of the Masoretic text, the standard Hebrew Bible. When Cassuto first set these patterns out, the oldest complete Hebrew manuscripts anyone had were medieval, copied around **1000 CE** (the Aleppo and Leningrad codices). So it is fair to ask whether the sevens are just a quirk of late scribes. The **Dead Sea Scrolls** answer it. Among them is a copy of the creation account — **4QGenᵇ**, written roughly **2,000 years ago**, a thousand years older than those codices — and for most of Genesis 1 it matches the Masoretic text almost letter for letter, with a single spelling difference. The sevens are already there, in the oldest Hebrew we possess. *(The tradition is not perfectly uniform — the Greek Septuagint, joined by one Qumran copy, carries a few extra words at 1:9 — but the Hebrew text these counts rest on is both ancient and strikingly stable.)*
+
 <div class="page-break"></div>
 
 ## Part 3 — The chiasm: the whole account, block by block
