@@ -30,14 +30,14 @@ And they keep counting. The whole of *Pirkei Avot* 5 is a cascade of numbered li
 
 ## Part 2 — The shape of the chapter: forming and filling
 
-Now look at the text the way they did. Genesis 1:2 names the starting condition with a famous Hebrew phrase — **tohu va-vohu**, "**unformed and void**" (JPS), often rendered "formless and empty." Two problems: the world has **no shape**, and it is **empty**. Watch how the six days answer them in two matched movements:
+Now look at the text the way they did. Genesis 1:2 names the starting condition with a famous Hebrew phrase — **tohu va-vohu**, "**unformed and void**" (JPS), often rendered "formless and empty." Two lacks: the world has **no shape** and **no content**. Watch how the six days answer them in two matched movements:
 
-- **Days 1–3 give shape** (God *separates* and *names* — light from dark, waters from waters, sea from dry land). The Hebrew verb that drives these days is **bāḏal, "to divide / separate."**
-- **Days 4–6 fill** what was shaped (lights for the sky, fish and birds for sea and air, animals and humans for the land).
+- **Days 1–3 supply the shape** (God *separates* and *names* — light from dark, waters from waters, sea from dry land). The Hebrew verb that drives these days is **bāḏal, "to divide / separate."**
+- **Days 4–6 supply the content** (lights for the sky, fish and birds for sea and air, animals and humans for the land).
 
 Day by day, the first panel and the second line up exactly:
 
-| Forming — days 1–3 (gives shape) | | Filling — days 4–6 (fills it) |
+| Forming — days 1–3 (supplies shape) | | Filling — days 4–6 (supplies content) |
 |---|:--:|---|
 | **Day 1** — light & darkness | → | **Day 4** — sun, moon, stars |
 | **Day 2** — sky & the waters | → | **Day 5** — birds & fish |
@@ -97,10 +97,10 @@ Read the boxes top to bottom. The heavy-bordered boxes are the mirror **frame**;
 <div class="chiasm-box chiasm-frame">
 <span class="lbl">B · The problem — Genesis 1:2 · 14 words (7 × 2)</span>
 <p class="scripture">Now the earth was unformed and void, and darkness was upon the face of the deep; and the spirit of God hovered over the face of the waters.</p>
-<p class="chiasm-note"><b>Unformed and void</b> — Hebrew <i>tohu va-vohu</i>. Two lacks: no shape, no life. Days 1–3 will answer "unformed"; days 4–6 will answer "void." Watch B come back, reversed, near the end.</p>
+<p class="chiasm-note"><b>Unformed and void</b> — Hebrew <i>tohu va-vohu</i>. Two lacks: <b>no shape</b> and <b>no content</b>. Days 1–3 supply the shape; days 4–6 supply the content. Watch B come back, reversed, near the end.</p>
 </div>
 
-<div class="chiasm-hinge">↓ Forming (days 1–3): God gives shape ↓</div>
+<div class="chiasm-hinge">↓ Forming (days 1–3): God supplies shape ↓</div>
 
 <div class="chiasm-box">
 <span class="lbl">Day 1 — light · Genesis 1:3–5 · 31 words</span>
@@ -117,12 +117,12 @@ Read the boxes top to bottom. The heavy-bordered boxes are the mirror **frame**;
 <p class="scripture"><span class="v">9</span>And God said: 'Let the waters under the heaven be gathered together unto one place, and let the dry land appear.' And it was so. <span class="v">10</span>And God called the dry land Earth, and the gathering together of the waters called He Seas; and God saw that it was good. <span class="v">11</span>And God said: 'Let the earth put forth grass, herb yielding seed, and fruit-tree bearing fruit after its kind, wherein is the seed thereof, upon the earth.' And it was so. <span class="v">12</span>And the earth brought forth grass, herb yielding seed after its kind, and tree bearing fruit, wherein is the seed thereof, after its kind; and God saw that it was good. <span class="v">13</span>And there was evening and there was morning, a third day.</p>
 </div>
 
-<div class="chiasm-hinge">↓ Filling (days 4–6): God fills the shaped world ↓</div>
+<div class="chiasm-hinge">↓ Filling (days 4–6): God supplies content ↓</div>
 
 <div class="chiasm-box chiasm-center">
 <span class="lbl">✦ Center — Day 4, first day of filling · Genesis 1:14–19 · 69 words</span>
 <p class="scripture"><span class="v">14</span>And God said: 'Let there be lights in the firmament of the heaven to divide the day from the night; and let them be for signs, and for <b>seasons</b>, and for days and years; <span class="v">15</span>and let them be for lights in the firmament of the heaven to give light upon the earth.' And it was so. <span class="v">16</span>And God made the two great lights: the greater light to rule the day, and the lesser light to rule the night; and the stars. <span class="v">17</span>And God set them in the firmament of the heaven to give light upon the earth, <span class="v">18</span>and to rule over the day and over the night, and to divide the light from the darkness; and God saw that it was good. <span class="v">19</span>And there was evening and there was morning, a fourth day.</p>
-<p class="chiasm-note"><b>The hinge of the whole poem.</b> Day 4 opens the <i>filling</i>: God fills the light-domain of Day 1 with its specific bearers — sun, moon, stars. It is also the <b>middle day of the seven</b>, the turn from forming to filling. And here the lights are appointed for what JPS calls "seasons" — Hebrew <b>mōʿăḏîm</b>, not weather but <i>appointed sacred times</i>, the very word later used for the festivals of the LORD (Lev 23). The structure that looks like it is about <i>space</i> turns, at its center day, on <i>time made holy</i>. <i>(In v.14, mōʿăḏîm is the 14th of the verse's 16 words — 13 before it, 2 after.)</i></p>
+<p class="chiasm-note"><b>The hinge of the whole poem.</b> Day 4 opens the <i>filling</i>: God supplies the light-domain of Day 1 with its content — sun, moon, stars. It is also the <b>middle day of the seven</b>, the turn from forming to filling. And here the lights are appointed for what JPS calls "seasons" — Hebrew <b>mōʿăḏîm</b>, not weather but <i>appointed sacred times</i>, the very word later used for the festivals of the LORD (Lev 23). The structure that looks like it is about <i>space</i> turns, at its center day, on <i>time made holy</i>. <i>(In v.14, mōʿăḏîm is the 14th of the verse's 16 words — 13 before it, 2 after.)</i></p>
 </div>
 
 <div class="chiasm-box">
@@ -138,7 +138,7 @@ Read the boxes top to bottom. The heavy-bordered boxes are the mirror **frame**;
 <div class="chiasm-box chiasm-frame">
 <span class="lbl">B′ · The problem answered — Genesis 2:1 · 5 words</span>
 <p class="scripture">And the heaven and the earth were finished, and all the host of them.</p>
-<p class="chiasm-note">The mirror of <b>B</b>. What began "unformed and void" is now <b>finished</b> and full — "all the host of them." Shape and life, both supplied.</p>
+<p class="chiasm-note">The mirror of <b>B</b>. What began "unformed and void" is now <b>finished</b> and full — "all the host of them." Shape and content, both supplied.</p>
 </div>
 
 <div class="chiasm-box chiasm-frame chiasm-goal">
@@ -166,7 +166,7 @@ So we can set the old either/or down. Genesis 1 is not making the small claim th
 1. The rabbis' very first move in *Pirkei Avot* 5 is to **count** ("with ten utterances the world was created"). What does it tell you that the people closest to this text reached for its *patterns* before anything else? How is that different from the questions we were trained to ask of Genesis 1?
 2. Walk the **forming/filling** table together (Day 1 ‖ Day 4, etc.). Once you see the diptych, can you still read Genesis 1 as a simple chronological log? What does the symmetry suggest the author cared about most?
 3. The structural **center** of the account is Day 4, where the lights are set for *mōʿăḏîm* — **sacred appointed times** — and the **destination** is the seventh-day rest. Why might the author have built the whole creation poem to pivot on *holy time* and end on *rest*? What is that claiming about what creation is *for*?
-4. Genesis 1:2 says the world began *tohu va-vohu*, "unformed and void," and 2:1 declares it "finished, and all the host of them." Where do you see that same movement — from formless to filled — at work elsewhere: in Scripture, or in your own life?
+4. Genesis 1:2 says the world began *tohu va-vohu*, "unformed and void," and 2:1 declares it "finished, and all the host of them." Where do you see that same movement — from shapeless and empty to shaped and full — at work elsewhere: in Scripture, or in your own life?
 5. Does it change anything for you to call Genesis 1 "elevated prose" or "a structured poem" rather than "a science report"? What do you gain by reading it for its shape? Is there anything you worry you might lose — and is that worry the text's, or ours?
 
 <div class="page-break"></div>
