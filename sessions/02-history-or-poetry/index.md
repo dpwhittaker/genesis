@@ -47,6 +47,8 @@ Day by day, the first panel and the second line up exactly:
 
 This is not the accident of a clumsy report; it is design. Day 1 makes the light that Day 4 fills with light-bearers; Day 2 makes the sea and sky that Day 5 fills with swimmers and fliers; Day 3 makes the dry land that Day 6 fills with animals and people. The chapter is built as a **diptych** — two panels that mirror each other.
 
+<div class="page-break"></div>
+
 ### A text built on seven
 
 The counting goes right down into the words. Counted in the Hebrew, the account keeps landing on seven — an old observation, set out by the commentator U. Cassuto:
@@ -154,6 +156,8 @@ So we can set the old either/or down. Genesis 1 is not making the small claim th
 3. The structural **center** of the account is Day 4, where the lights are set for *mōʿăḏîm* — **sacred appointed times** — and the **destination** is the seventh-day rest. Why might the author have built the whole creation poem to pivot on *holy time* and end on *rest*? What is that claiming about what creation is *for*?
 4. Genesis 1:2 says the world began *tohu va-vohu*, "unformed and void," and 2:1 declares it "finished, and all the host of them." Where do you see that same movement — from formless to filled — at work elsewhere: in Scripture, or in your own life?
 5. Does it change anything for you to call Genesis 1 "elevated prose" or "a structured poem" rather than "a science report"? What do you gain by reading it for its shape? Is there anything you worry you might lose — and is that worry the text's, or ours?
+
+<div class="page-break"></div>
 
 ## A note before we begin
 
