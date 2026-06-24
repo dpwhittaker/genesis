@@ -35,6 +35,11 @@ unsettling, meet that feeling with respect, and invite the reader in rather
 than managing them. Genuinely leader-only logistics (timing, what to skip)
 can stay, but phrased as a warm note to everyone.
 
+**Class time.** The group meets at **10am**. If any material refers to the
+time of day, keep it generic — use **"today"**, never "tonight," "this
+morning," or "this evening." The same handout may be read before, during, or
+after the meeting, and on any day, so a fixed time of day will often be wrong.
+
 ## Sourcing quotations & translations
 
 This is a **public** repo. Every quoted text (Scripture, ANE myths, rabbinic

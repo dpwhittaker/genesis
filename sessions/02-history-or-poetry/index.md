@@ -7,6 +7,12 @@ layout: default
 
 **Passage:** Genesis 1:1–2:3 — read the whole creation account aloud before you study its shape.
 
+## A note before we begin
+
+For some of us, the word "poetry" near the Bible sets off an alarm — as if we were being asked to trade truth for art, or to let the text mean less. If that's you, you are in good company, and you don't have to resolve it today. Hear this clearly: reading Genesis 1 for its structure is not a way of believing it less. It is a way of believing it *the way it was written* — and the oldest readers we have, the rabbis who guarded every letter, read it exactly this way.
+
+We're not deciding the age of the earth today; we're learning to hear the music the author actually composed. Read the chapter aloud, slowly, and let the refrains and the symmetry do their work. Notice where it is taking you — past the furniture of sun and sea and creature — toward a center of holy time and an ending of rest. That destination is not a footnote to Genesis 1. It is the whole point.
+
 ## Aim of this session
 
 Last week we listened to the stories Israel's neighbors told. This week we turn to Genesis 1 itself and ask a different kind of question — not *"Is it true?"* but *"What kind of writing is this?"* The quickest way to answer that is to stop reading for content for a moment and simply *look* at the text: its repetitions, its symmetry, its counting.
@@ -188,12 +194,6 @@ So we can set the old either/or down. Genesis 1 is not making the small claim th
 3. The structural **center** of the account is Day 4, where the lights are set for *mōʿăḏîm* — **sacred appointed times** — and the **destination** is the seventh-day rest. Why might the author have built the whole creation poem to pivot on *holy time* and end on *rest*? What is that claiming about what creation is *for*?
 4. Genesis 1:2 says the world began *tohu va-vohu*, "unformed and void," and 2:1 declares it "finished, and all the host of them." Where do you see that same movement — from shapeless and empty to shaped and full — at work elsewhere: in Scripture, or in your own life?
 5. Does it change anything for you to call Genesis 1 "elevated prose" or "a structured poem" rather than "a science report"? What do you gain by reading it for its shape? Is there anything you worry you might lose — and is that worry the text's, or ours?
-
-## A note before we begin
-
-For some of us, the word "poetry" near the Bible sets off an alarm — as if we were being asked to trade truth for art, or to let the text mean less. If that's you, you are in good company, and you don't have to resolve it tonight. Hear this clearly: reading Genesis 1 for its structure is not a way of believing it less. It is a way of believing it *the way it was written* — and the oldest readers we have, the rabbis who guarded every letter, read it exactly this way.
-
-We're not deciding the age of the earth this week; we're learning to hear the music the author actually composed. Read the chapter aloud, slowly, and let the refrains and the symmetry do their work. Notice where it is taking you — past the furniture of sun and sea and creature — toward a center of holy time and an ending of rest. That destination is not a footnote to Genesis 1. It is the whole point.
 
 ---
 
