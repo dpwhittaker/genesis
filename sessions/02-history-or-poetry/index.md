@@ -47,6 +47,18 @@ Day by day, the first panel and the second line up exactly:
 
 This is not the accident of a clumsy report; it is design. Day 1 makes the light that Day 4 fills with light-bearers; Day 2 makes the sea and sky that Day 5 fills with swimmers and fliers; Day 3 makes the dry land that Day 6 fills with animals and people. The chapter is built as a **diptych** — two panels that mirror each other.
 
+There is a second symmetry hiding in plain sight — not in *what* each day holds, but in *how long each paragraph is.* Set the making of **humankind** aside for a moment (Genesis piles it on top of Day 6 as a climax all its own) and count the six creation paragraphs in Hebrew words:
+
+| Day 1 | Day 2 | Day 3 | Day 4 | Day 5 | Day 6\* |
+|:--:|:--:|:--:|:--:|:--:|:--:|
+| 31 | 38 | **69** | **69** | 57 | 32 |
+| small | medium | **large** | **large** | medium | small |
+{: .ff-table}
+
+<small>\* Day 6 counted as the land animals only; the human-creation lines (1:26–31) are a 117-word climax added on top.</small>
+
+The lengths fold back on themselves — small, medium, large ‖ large, medium, small — and the **two center paragraphs are exactly equal: 69 words and 69 words.** The poem is shaped like a hill: it climbs to a matched pair at its summit and steps back down. In a moment we will see *what* the author set on that summit.
+
 <div class="page-break"></div>
 
 ### A text built on seven
@@ -137,7 +149,7 @@ Read the boxes top to bottom. The heavy-bordered boxes are the mirror **frame**;
 
 </div>
 
-**Read the shape, and you read the point.** The structural center is the middle day, where sacred time is appointed (Day 4, *mōʿăḏîm*); the destination is the first sacred time itself (Day 7, the Sabbath God blesses and hallows). The poem is not balanced evenly around that center — it *grows*, pouring out its most words on the making of humankind (Day 6 is the longest section of all, **149 of the account's 469** Hebrew words) before it comes to rest. Everything in between — sun and sea and sparrow and human being — is the furniture of a world built so that it can keep Sabbath. The form *is* the message.
+**Read the shape, and you read the point.** That summit from Part 2 — the matched pair of paragraphs, Day 3 = Day 4 = 69 words — is where the lights are hung for *mōʿăḏîm*. And it is no loose figure of speech: count the Hebrew words of the creation poem with the human climax set aside, and the word that falls almost exactly at the **middle** is *mōʿăḏîm*, sacred time. By the mirrored panels, by the rise and fall of paragraph lengths, and by the word count alike, the center of creation is **holy time** — and its destination is the first holy time, the Sabbath God blesses and hallows. Everything between — sun and sea and sparrow and human being — is the furniture of a world built so that it can keep Sabbath. The form *is* the message.
 
 ## Part 4 — So: history or poetry?
 
