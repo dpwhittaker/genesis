@@ -32,7 +32,7 @@ Each session has its own page with the passage, background reading, discussion q
 **Part 1 — Learning to Read Genesis (the genre question)**
 
 1. [The Neighbors' Stories](sessions/01-the-neighbors-stories/) — Ancient Near Eastern creation myths: *Enuma Elish*, *Atrahasis*, and the Memphite theology. What a "creation account" *was* in that world, and what Israel's first hearers already had ringing in their ears. 🎧 Podcasts: [short (19m)](sessions/01-the-neighbors-stories/Shorter_Podcast.m4a) · [long (40m)](sessions/01-the-neighbors-stories/Longer_Podcast.m4a)
-2. [History or Poetry?](sessions/02-history-or-poetry/) — the literary structure of Genesis 1: forming (days 1–3) and filling (days 4–6), the refrains, the frame. We examine the *shape* of the text to ask what genre we are actually reading.
+2. [History or Poetry?](sessions/02-history-or-poetry/) — how the rabbis read Genesis 1 (the "ten utterances" of *Pirkei Avot* 5) and the literary *shape* of the text: forming (days 1–3) and filling (days 4–6), the hidden architecture of sevens, and the chiasm that turns on sacred time (*mōʿăḏîm*) and lands on Sabbath rest. Full text of Genesis 1:1–2:3 laid out block by block.
 3. [Clues in Plain Sight](sessions/03-clues-in-plain-sight/) — the "problems" the author left on purpose: a talking snake, the odd fixation on nakedness and shame, two creation accounts that don't line up. Out-of-place signals that this was never meant to be read as flat, modern history.
 
 **Part 2 — Primeval History (Genesis 1–11)**
