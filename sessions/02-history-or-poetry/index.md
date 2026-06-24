@@ -139,6 +139,8 @@ Strictly, Genesis 1 is not "poetry" the way Psalm 19 is — it does not run in t
 
 So we can set the old either/or down. Genesis 1 is not making the small claim that the universe was assembled in six twenty-four-hour shifts. It is making the far larger claim that the cosmos is a temple, ordered and good, built by a single unrivaled God who fills it with life, crowns it with his own image-bearers, and brings the whole of it to rest in holy time. That is not less than history. It is the meaning *underneath* history — which is exactly what its first hearers came to it to find.
 
+<div class="page-break"></div>
+
 ## Discussion questions
 
 1. The rabbis' very first move in *Pirkei Avot* 5 is to **count** ("with ten utterances the world was created"). What does it tell you that the people closest to this text reached for its *patterns* before anything else? How is that different from the questions we were trained to ask of Genesis 1?
