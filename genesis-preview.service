@@ -1,0 +1,16 @@
+[Unit]
+Description=Genesis curriculum — local Jekyll preview (served at /genesis/ via claude-hub)
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/david/projects/genesis/serve-local.sh 4000
+WorkingDirectory=/home/david/projects/genesis
+Restart=always
+RestartSec=3
+User=david
+Environment=PATH=/usr/local/bin:/usr/bin:/bin
+Environment=LANG=C.UTF-8
+
+[Install]
+WantedBy=multi-user.target

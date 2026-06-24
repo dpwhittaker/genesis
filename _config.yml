@@ -11,3 +11,10 @@ exclude:
   - AGENTS.md
   - .project-meta.json
   - README.original.md
+  # Local preview server tooling — never part of the published site.
+  - Gemfile.local
+  - Gemfile.local.lock
+  - serve-local.sh
+  - genesis-preview.service
+  - vendor
+  - pdf

@@ -4,5 +4,9 @@
   "github": {
     "mode": "create",
     "visibility": "private"
-  }
+  },
+  "openUrl": "/genesis/",
+  "proxyTarget": "http://127.0.0.1:4000",
+  "stripPrefix": false,
+  "extraUnits": ["genesis-preview.service"]
 }

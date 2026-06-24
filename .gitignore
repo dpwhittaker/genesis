@@ -11,3 +11,10 @@ node_modules/
 # never commit secrets
 *.env
 .secrets/
+
+# Local Jekyll preview server (Gemfile.local) — never committed build state
+_site/
+.jekyll-cache/
+Gemfile.local.lock
+vendor/
+.bundle/

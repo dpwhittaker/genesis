@@ -1,23 +1,29 @@
 #!/usr/bin/env node
 /*
- * handout-to-pdf.js — render a published genesis page to a print-accurate PDF.
+ * handout-to-pdf.js — render a genesis page to a print-accurate PDF.
  *
- * The genesis site has no local Jekyll build (no Ruby on this machine), so the
- * "real" renderer is the deployed GitHub Pages output. This script loads the
- * LIVE page with headless Chrome, emulates print media (so _includes/custom-head
- * print CSS and any <div class="page-break"> markers apply), and writes a
- * Letter-size PDF whose pagination matches what the class will actually print.
+ * It loads the page with headless Chrome, emulates print media (so the
+ * assets/main.scss @media print rules and any <div class="page-break"> markers
+ * apply), and writes a Letter-size PDF whose pagination matches what the class
+ * will actually print.
  *
- * Because it renders the live site, push your marker changes and let Pages
- * deploy BEFORE running this (see SKILL.md for the loop).
+ * TWO render targets:
+ *   --local  → the local Jekyll preview (genesis-preview.service on :4000), which
+ *              builds the WORKING TREE identically to GitHub Pages. Use this while
+ *              tuning page breaks — no deploy, sub-second rebuilds. Start it with
+ *              ./serve-local.sh (or `systemctl start genesis-preview`).
+ *   default  → the deployed GitHub Pages site. Use this for a final check, and
+ *              for the publish-lesson precondition (which verifies the LIVE page).
  *
  * Usage:
- *   node .claude/skills/print-session/handout-to-pdf.js <slug|site-path|url> [out.pdf]
+ *   node .claude/skills/print-session/handout-to-pdf.js [--local] <slug|site-path|url> [out.pdf]
  *
  * Examples:
+ *   node .claude/skills/print-session/handout-to-pdf.js --local 02-history-or-poetry
  *   node .claude/skills/print-session/handout-to-pdf.js 01-the-neighbors-stories
- *   node .claude/skills/print-session/handout-to-pdf.js sessions/05-the-garden/
  *   node .claude/skills/print-session/handout-to-pdf.js https://dpwhittaker.github.io/genesis/sessions/08-babel/
+ *
+ * Override the base explicitly with GENESIS_BASE_URL if needed.
  *
  * Output defaults to pdf/<slug>.pdf (the pdf/ dir is gitignored).
  *
@@ -44,8 +50,11 @@ function loadPuppeteer() {
   process.exit(1);
 }
 
-function buildUrl(arg) {
-  const base = (process.env.GENESIS_BASE_URL || 'https://dpwhittaker.github.io/genesis/').replace(/\/+$/, '/') ;
+function buildUrl(arg, useLocal) {
+  const fallback = useLocal
+    ? 'http://127.0.0.1:4000/genesis/'
+    : 'https://dpwhittaker.github.io/genesis/';
+  const base = (process.env.GENESIS_BASE_URL || fallback).replace(/\/+$/, '/') ;
   if (/^https?:\/\//.test(arg)) return arg;
   let p = arg.replace(/^\/+/, '');
   // bare slug like "01-the-neighbors-stories" -> sessions/<slug>/
@@ -61,13 +70,16 @@ function slugify(arg) {
 }
 
 async function main() {
-  const arg = process.argv[2];
+  const rawArgs = process.argv.slice(2);
+  const useLocal = rawArgs.includes('--local');
+  const pos = rawArgs.filter((a) => a !== '--local');
+  const arg = pos[0];
   if (!arg) {
-    console.error('Usage: node handout-to-pdf.js <slug|site-path|url> [out.pdf]');
+    console.error('Usage: node handout-to-pdf.js [--local] <slug|site-path|url> [out.pdf]');
     process.exit(1);
   }
-  const url = buildUrl(arg);
-  const outPath = process.argv[3] || path.join('pdf', `${slugify(arg)}.pdf`);
+  const url = buildUrl(arg, useLocal);
+  const outPath = pos[1] || path.join('pdf', `${slugify(arg)}.pdf`);
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
 
   const puppeteer = loadPuppeteer();

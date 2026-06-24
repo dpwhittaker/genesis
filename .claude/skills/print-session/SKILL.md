@@ -1,13 +1,13 @@
 ---
 name: print-session
-description: Prepare a genesis session/handout page for printing — place page breaks at natural section boundaries and verify the layout by rendering the live published page to PDF and analyzing per-page density. Use when the user wants to print or hand out a session, asks to "fix the page breaks," "make it print cleanly," "get it ready for class," or after a session's content is finalized. Tuned to the Jekyll + minima + GitHub Pages pipeline: print CSS lives in assets/main.scss; the renderer is the deployed page, so push before verifying.
+description: Prepare a genesis session/handout page for printing — place page breaks at natural section boundaries and verify the layout by rendering the page to PDF and analyzing per-page density. Use when the user wants to print or hand out a session, asks to "fix the page breaks," "make it print cleanly," "get it ready for class," or after a session's content is finalized. Tuned to the Jekyll + minima + GitHub Pages pipeline: print CSS lives in assets/main.scss. A local Jekyll preview (genesis-preview.service on :4000) builds the working tree identically to Pages, so iterate with `--local` (no deploy) and do one live check at the end.
 ---
 
 # Print a genesis session for handout
 
 Genesis session pages (`sessions/<NN-slug>/index.md`) are markdown, served as HTML by Jekyll/minima on GitHub Pages, and **handed out to the class on paper**. This skill makes a finished session paginate well: sections don't straddle page boundaries, headings don't strand at a page foot, and the printout is an even number of pages for double-sided printing.
 
-Adapted from the systematic-theology handout workflow, retuned for this pipeline. The big difference: there is **no local Jekyll build** here (no Ruby), so the print-accurate renderer is the **live published page**. Push your changes, let Pages deploy, then render the live URL to PDF. Don't count source lines to guess page length — blockquotes, tables, and wrapping make it unreliable; render and measure.
+Adapted from the systematic-theology handout workflow, retuned for this pipeline. There is a **local Jekyll preview** — `genesis-preview.service` (or `./serve-local.sh`) serves the working tree at `http://127.0.0.1:4000/genesis/`, built identically to GitHub Pages (same minima theme, kramdown, `/genesis` baseurl, compiled `main.css`). Render that with `--local` and iterate page breaks in seconds — no commit, no deploy. Do a single live render at the end to confirm. Don't count source lines to guess page length — blockquotes, tables, and wrapping make it unreliable; render and measure.
 
 ## When to run
 
@@ -16,8 +16,9 @@ After a session's *content* is final. Page-break placement is a dedicated finish
 ## What's already in place
 
 - **Print CSS** — `assets/main.scss` imports minima and appends an `@media print` block (Letter, 0.5in margins, black-on-white, site chrome hidden). It keeps headings with the text below them and prevents blockquotes/tables/list items from splitting across pages. You normally don't touch this. (It compiles to `/assets/main.css`, the stylesheet minima already links — minima's `custom-head.html` include is not wired up in this build, so the override goes through the stylesheet, not the head.)
+- **Local preview server** — `genesis-preview.service` runs `./serve-local.sh` (Jekyll on `127.0.0.1:4000`, `--baseurl /genesis`), built from `Gemfile.local` into `vendor/bundle` (all gitignored / excluded from the published site). It is also wired as the project's claude-hub Open target via `.project-meta.json` (`proxyTarget`), so `/genesis/` on the landing page shows this live preview.
 - **Tools** (in this skill dir):
-  - `handout-to-pdf.js` — renders a live page to `pdf/<slug>.pdf` (headless Chrome, print media emulated).
+  - `handout-to-pdf.js` — renders a page to `pdf/<slug>.pdf` (headless Chrome, print media emulated). `--local` targets the preview server; otherwise the deployed site.
   - `analyze-pdf.py` — reports per-page fullness, char count, and first heading; flags sparse/overfull pages; checks even page count.
 
 ## Markers you place in the markdown
@@ -51,22 +52,27 @@ If none of these land the layout, describe the stubborn section to the user and 
 
 ## The verification loop
 
-Because rendering is live, each iteration is: edit → push → wait for deploy → render → analyze.
+Iterate against the **local** server — each cycle is edit → render → analyze, no commit, no deploy:
 
 ```bash
-# 1. place/adjust <div class="page-break"></div> markers in
-#    sessions/<NN-slug>/index.md, then commit + push:
-git add sessions/<NN-slug>/index.md && git commit -m "..." && git push origin main
+# 0. once: make sure the local preview is running (autostarts on boot).
+systemctl is-active genesis-preview.service || (./serve-local.sh &)
 
-# 2. wait for the Pages build to finish (it must deploy before you render):
+# loop: edit <div class="page-break"></div> markers in sessions/<NN-slug>/index.md,
+#       then render the LOCAL build (working tree, no commit) and analyze:
+node .claude/skills/print-session/handout-to-pdf.js --local <NN-slug>
+source ~/ml-env/bin/activate
+python3 .claude/skills/print-session/analyze-pdf.py pdf/<NN-slug>.pdf
+# repeat until no warnings + even page count.
+```
+
+The local server rebuilds the working tree on every save (sub-second) and is byte-identical to GitHub Pages (verified: same per-page fullness as the deployed render). When the layout is final, commit + push, let Pages deploy, and do **one** live confirmation:
+
+```bash
+git add sessions/<NN-slug>/index.md && git commit -m "..." && git push origin main
 rid=$(gh run list --repo dpwhittaker/genesis --workflow pages-build-deployment -L 1 --json databaseId --jq '.[0].databaseId')
 gh run watch "$rid" --repo dpwhittaker/genesis --exit-status
-
-# 3. render the live page to PDF:
-node .claude/skills/print-session/handout-to-pdf.js <NN-slug>
-
-# 4. analyze page density:
-source ~/ml-env/bin/activate
+node .claude/skills/print-session/handout-to-pdf.js <NN-slug>   # live (no --local)
 python3 .claude/skills/print-session/analyze-pdf.py pdf/<NN-slug>.pdf
 ```
 
@@ -82,4 +88,5 @@ Iterate until no warnings and the page count is even. Then the session is handou
 - **Puppeteer:** `handout-to-pdf.js` needs it. It auto-resolves a local install, then `$PUPPETEER_DIR`, then a sibling project's `node_modules`. Cleanest: `npm i puppeteer` once (the resulting `node_modules/` is gitignored).
 - **pymupdf** lives in the ML venv — `source ~/ml-env/bin/activate` before the analyzer.
 - **Generated PDFs** go to `pdf/` (gitignored) — they're build artifacts, not source.
-- This skill targets a single session page. To prep several, run the loop per slug (batch the renders after one deploy).
+- This skill targets a single session page. To prep several, run the `--local` loop per slug — no deploy between them.
+- **Preview server down?** `sudo systemctl restart genesis-preview.service` (logs: `journalctl -u genesis-preview.service`). If `--local` renders fail to connect, that service isn't running.
