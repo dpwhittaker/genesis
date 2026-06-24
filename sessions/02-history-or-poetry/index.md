@@ -182,8 +182,6 @@ So we can set the old either/or down. Genesis 1 is not making the small claim th
 4. Genesis 1:2 says the world began *tohu va-vohu*, "unformed and void," and 2:1 declares it "finished, and all the host of them." Where do you see that same movement — from shapeless and empty to shaped and full — at work elsewhere: in Scripture, or in your own life?
 5. Does it change anything for you to call Genesis 1 "elevated prose" or "a structured poem" rather than "a science report"? What do you gain by reading it for its shape? Is there anything you worry you might lose — and is that worry the text's, or ours?
 
-<div class="page-break"></div>
-
 ## A note before we begin
 
 For some of us, the word "poetry" near the Bible sets off an alarm — as if we were being asked to trade truth for art, or to let the text mean less. If that's you, you are in good company, and you don't have to resolve it tonight. Hear this clearly: reading Genesis 1 for its structure is not a way of believing it less. It is a way of believing it *the way it was written* — and the oldest readers we have, the rabbis who guarded every letter, read it exactly this way.
