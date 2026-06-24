@@ -26,6 +26,8 @@ And they keep counting. The whole of *Pirkei Avot* 5 is a cascade of numbered li
 
 **The oldest reading we have of Genesis 1 is a literary one.** The people closest to the Hebrew did not ask our modern question first. They saw artistry, and they answered it in kind.
 
+<div class="page-break"></div>
+
 ## Part 2 — The shape of the chapter: forming and filling
 
 Now look at the text the way they did. Genesis 1:2 names the starting condition with a famous Hebrew phrase — **tohu va-vohu**, "**unformed and void**" (JPS), often rendered "formless and empty." Two problems: the world has **no shape**, and it is **empty**. Watch how the six days answer them in two matched movements:
@@ -128,8 +130,6 @@ Read the boxes top to bottom. The heavy-bordered boxes are the mirror **frame**;
 </div>
 
 **Read the shape, and you read the point.** The center of the account is the making of sacred time (Day 4, *mōʿăḏîm*); the destination of the account is the first sacred time (Day 7, the Sabbath God blesses and hallows). Everything in between — sun and sea and sparrow and human being — is the furniture of a world built so that it can keep Sabbath. The form *is* the message.
-
-<div class="page-break"></div>
 
 ## Part 4 — So: history or poetry?
 
