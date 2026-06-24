@@ -165,6 +165,20 @@ Seven keeps surfacing in these texts: the **"seven great Anunnaki"** ([*Atrahasi
 
 <div class="page-break"></div>
 
+## Who wrote this — and when?
+
+Reading Genesis beside its neighbors raises a fair question, and a pointed one: *when* was Genesis 1 written — before these other stories, or after? If it is "answering" Babylon, it had to have known Babylon. Careful, faithful readers have given two main answers. The comparison in this session works under either, but they color the picture differently, so it is worth naming them plainly.
+
+**The traditional view: Moses, in the wilderness (roughly the 15th–13th century BCE).** Here the Torah comes from Moses, centuries before Israel ever saw Babylon. One honest wrinkle follows. The specific Babylonian epic we keep quoting, *Enuma Elish*, was composed only around **1100 BCE** — the moment Babylon's god Marduk was first exalted to head the pantheon — which is *after* Moses on any dating. So Genesis 1 could not be reacting to *that poem.* But it hardly needs to: the older creation stories were already ancient in Moses' day. The **Sumerian** accounts reach back to the third millennium, **Atrahasis** to about **1700 BCE**, and Israel's own ancestors came up out of Mesopotamia (Ur and Harran) and Egypt. On this view Genesis still speaks straight into a real, shared creation-world — it simply engages the older, common stock rather than the later Marduk epic.
+
+**The critical view: priestly writers, in the Babylonian exile (the 6th century BCE).** Many scholars assign Genesis 1:1–2:3 to a priestly tradition given its final shape during the **exile** (586–539 BCE), when Judeans were living *inside* Babylon. There *Enuma Elish* was among the most-copied and most-performed texts in the land — recited every spring at the **New Year (Akitu) festival** to re-enthrone Marduk, and with him Babylon's king and empire. Set in that room, Genesis 1 reads as a quiet act of defiance. Against a warrior-god who wins the world by violence and drafts humanity as slave labor, it lifts up one unrivaled God who simply *speaks*, who has no rival to fight, who stamps **every** human with his own image, and who closes the week by giving **rest** — to everyone. To exiles watching Marduk's parade go past, that lands like a thunderclap.
+
+**Why the study works either way.** Notice what does *not* hinge on the date. The neighbors' stories are demonstrably older and were genuinely known across the ancient Near East; and it is Genesis's **differences** from them that carry its meaning. Whether the text is early and answers the older Sumerian and Akkadian world, or late and answers Babylon to its face, the method is the same and the payoff is the same: read side by side, the contrasts *are* the message. The one thing the comparison asks of us is a little humility about exact dates — which the evidence enforces anyway, since even our oldest copies of *Enuma Elish* are themselves only first-millennium, and Genesis's are later still.
+
+You do not have to settle Moses-versus-priests to make this study fruitful, and we will not pretend the question is tidy or that faithful, careful readers all land in the same place. Hold it with open hands. What every reading agrees on is the thing we are actually after: in a world full of these stories, Genesis tells a strikingly different one.
+
+<div class="page-break"></div>
+
 ## Discussion questions
 
 1. In *Enuma Elish* and *Atrahasis*, humanity is an afterthought built to do the gods' chores. How does Genesis 1:26–28 answer that picture? What changes when humans are made to *rule* rather than to *serve*?
@@ -173,6 +187,7 @@ Seven keeps surfacing in these texts: the **"seven great Anunnaki"** ([*Atrahasi
 4. In Babylon's story, the sea (Tiamat) is a goddess to be defeated. In Genesis 1 the sea, the sun, and the great creatures are simply *made*, and called good. Why might that have been the most shocking line in the chapter for an ancient hearer?
 5. Sumer pictures creation as Enlil prying a fused heaven and earth apart; Babylon pictures Marduk splitting a chaos-body into an upper and a lower half. Genesis 1 uses the very same verb — *bāḏal*, "to divide" — for light/dark and the waters above/below. Why might Genesis keep its neighbors' *separation* picture at all, instead of inventing a wholly different image? And what is the author telling us by keeping the architecture while stripping out the corpse, the combat, and the rival gods?
 6. Babylon already had sevens — lunar quarter-days, "evil days," and a full-moon *šapattu* rest-day for the gods. Read Genesis 2:2–3 against that. What does Genesis *keep*, and what does it deliberately change, when it makes the seventh day a day God *blesses* and *sanctifies*? Why might it matter that the Sabbath is cut loose from the moon — and that, in Deuteronomy 5:15, the reason given is rescue *from slavery*?
+7. Does it matter to you whether Genesis 1 came from Moses in the wilderness or from priests in the Babylonian exile? How might each setting change the way you hear its quiet "no" to the gods of Babylon — and what about its claims does *not* change either way?
 
 ## A note before we begin
 
