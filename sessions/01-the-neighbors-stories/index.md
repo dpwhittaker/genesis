@@ -18,9 +18,16 @@ Two companion podcasts for this session — good before you read, or to revisit 
 
 </div>
 
+## A note before we begin
+
+If you've always read Genesis as a plain account of *how* the world was made, setting it next to Babylonian and Egyptian stories may feel strange at first — maybe even unsettling. That's a completely fair place to start, and you don't have to resolve it today. We're not here to take anything away from Scripture. We're here to hear it the way its first audience did — and that audience knew these other stories by heart.
+
+So this week we're setting a different question aside for the moment. We're *not* trying to settle the age of the earth or the mechanics of creation; we're asking the question that comes before it: **what kind of writing is this, and what was it answering?** If "but is it literal?" keeps tugging at you, that's worth holding onto — we give it room in Sessions 2 and 3. For now, just listen for where Genesis echoes its neighbors and where it deliberately breaks from them.
+One last thing to carry with you: notice that Genesis itself isn't anxious about any of this. It takes the most famous stories in the world and answers them, line by line — unhurried, unafraid, and good.
+
 ## Aim of this session
 
-Before we open Genesis, we listen to the stories its first audience already knew by heart. Israel did not write in a vacuum: Babylon, Assyria, and Egypt all had their own accounts of how the world and humanity began. When we read those accounts first, two things happen. We stop hearing Genesis as a lonely science-or-history report, and we start hearing it as a deliberate, pointed *response* — agreeing with its neighbors here, flatly contradicting them there. The differences are the message.
+Before we open Genesis, we listen to the stories its first audience already knew by heart. Israel did not write in a vacuum: Babylon, Assyria, and Egypt all had their own accounts of how the world and humanity began. Read those first, and Genesis stops sounding like a lonely science-or-history report and starts sounding like a deliberate, pointed *response* — agreeing with its neighbors here, contradicting them there. The differences are the message.
 
 ## Primary texts
 
@@ -188,13 +195,6 @@ You do not have to settle Moses-versus-priests to make this study fruitful, and 
 5. Sumer pictures creation as Enlil prying a fused heaven and earth apart; Babylon pictures Marduk splitting a chaos-body into an upper and a lower half. Genesis 1 uses the very same verb — *bāḏal*, "to divide" — for light/dark and the waters above/below. Why might Genesis keep its neighbors' *separation* picture at all, instead of inventing a wholly different image? And what is the author telling us by keeping the architecture while stripping out the corpse, the combat, and the rival gods?
 6. Babylon already had sevens — lunar quarter-days, "evil days," and a full-moon *šapattu* rest-day for the gods. Read Genesis 2:2–3 against that. What does Genesis *keep*, and what does it deliberately change, when it makes the seventh day a day God *blesses* and *sanctifies*? Why might it matter that the Sabbath is cut loose from the moon — and that, in Deuteronomy 5:15, the reason given is rescue *from slavery*?
 7. Does it matter to you whether Genesis 1 came from Moses in the wilderness or from priests in the Babylonian exile? How might each setting change the way you hear its quiet "no" to the gods of Babylon — and what about its claims does *not* change either way?
-
-## A note before we begin
-
-If you've always read Genesis as a plain account of *how* the world was made, setting it next to Babylonian and Egyptian stories may feel strange at first — maybe even unsettling. That's a completely fair place to start, and you don't have to resolve it today. We're not here to take anything away from Scripture. We're here to hear it the way its first audience did — and that audience knew these other stories by heart.
-
-So this week we're setting a different question aside for the moment. We're *not* trying to settle the age of the earth or the mechanics of creation; we're asking the question that comes before it: **what kind of writing is this, and what was it answering?** If "but is it literal?" keeps tugging at you, that's worth holding onto — we give it room in Sessions 2 and 3. For now, just listen for where Genesis echoes its neighbors and where it deliberately breaks from them.
-One last thing to carry with you: notice that Genesis itself isn't anxious about any of this. It takes the most famous stories in the world and answers them, line by line — unhurried, unafraid, and good.
 
 ---
 
