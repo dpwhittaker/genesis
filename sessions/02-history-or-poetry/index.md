@@ -19,6 +19,8 @@ Last week we listened to the stories Israel's neighbors told. This week we turn 
 
 Two witnesses will guide us. First, the **rabbis** — the people who received this text in Hebrew and treasured it most — who read Genesis 1 as a carefully *counted* composition, not a clock-by-clock report. Then the **structure of the chapter** itself, which turns out to be one of the most tightly built passages in the Bible: a great symmetry that folds around a single center and comes to rest on a single day.
 
+<div class="page-break"></div>
+
 ## Part 1 — How the rabbis read it: by counting
 
 Long before any modern debate about science and Scripture, the earliest rabbis left us their reading of Genesis 1 in the **Mishnah** (c. 200 CE). In the tractate *Pirkei Avot* — "Chapters of the Fathers" — chapter 5 opens like this:
@@ -184,8 +186,6 @@ It is tempting to hear that question as a trap — as if calling Genesis 1 "poet
 Strictly, Genesis 1 is not "poetry" the way Psalm 19 is — it does not run in the tight paired lines of Hebrew verse. It is something its own: **elevated, measured, liturgical prose** — a composition built on refrains ("and God said," "and it was so," "and God saw that it was good," "and there was evening and there was morning"), on a diptych of forming and filling, on a chiasm that turns at sacred time and lands at rest, and on a hidden architecture of sevens. Whatever we call it, one thing is clear: it was **never built to be read as a flat, modern chronicle.** The rabbis knew that. The shape of the text says it plainly.
 
 So we can set the old either/or down. Genesis 1 is not making the small claim that the universe was assembled in six twenty-four-hour shifts. It is making the far larger claim that the cosmos is a temple, ordered and good, built by a single unrivaled God who fills it with life, crowns it with his own image-bearers, and brings the whole of it to rest in holy time. That is not less than history. It is the meaning *underneath* history — which is exactly what its first hearers came to it to find.
-
-<div class="page-break"></div>
 
 ## Discussion questions
 
