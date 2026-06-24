@@ -7,3 +7,7 @@ Gemfile.lock
 # print-session skill artifacts
 pdf/
 node_modules/
+
+# never commit secrets
+*.env
+.secrets/
