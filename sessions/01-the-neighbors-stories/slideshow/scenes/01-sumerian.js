@@ -105,9 +105,12 @@ window.SLIDESHOW.registerScene({
     #stage.sep-3 #an    { transform: translateY(-250px); }
     #stage.sep-3 #ki    { transform: translateY(170px); }
     #stage.sep-3 #enlil { transform: translate(470px, -150px); }
-    /* raise both arms overhead and outward to hold the sky up (not behind!) */
-    #stage.sep-3 #enlil #enlil-arm-l { transform: rotate(-150deg); }
-    #stage.sep-3 #enlil #enlil-arm-r { transform: rotate(150deg); }
+    /* raise both arms up-and-OUTWARD to hold the sky up. Left arm hangs down-left,
+       so a positive (clockwise, y-down) rotation sweeps it up the left side; the
+       right arm mirrors with a negative rotation. (Opposite signs => wide V, not
+       crossed-behind.) */
+    #stage.sep-3 #enlil #enlil-arm-l { transform: rotate(135deg); }
+    #stage.sep-3 #enlil #enlil-arm-r { transform: rotate(-135deg); }
     #stage.sep-3 #hoe   { opacity: 0; }
     #stage.sep-3 #wind  { opacity: 1; }
   `,
