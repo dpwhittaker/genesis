@@ -16,6 +16,8 @@ Two companion podcasts for this session — good before you read, or to revisit 
 - **Shorter overview** (~19 min): <audio controls preload="none" src="Shorter_Podcast.m4a">Your browser can't play audio — [download the file](Shorter_Podcast.m4a).</audio>
 - **Longer deep dive** (~40 min): <audio controls preload="none" src="Longer_Podcast.m4a">Your browser can't play audio — [download the file](Longer_Podcast.m4a).</audio>
 
+**📺 Interactive slideshow** (for the TV): **[open the neighbors' creation scenes →](slideshow/)** — tap each labelled figure to magnify and explore it; tap the glowing one to watch creation happen.
+
 </div>
 
 ## A note before we begin
