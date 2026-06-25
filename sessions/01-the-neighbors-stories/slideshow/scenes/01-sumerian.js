@@ -57,8 +57,8 @@ window.SLIDESHOW.registerScene({
 
     <!-- ENLIL — Lord Wind, with the hoe -->
     <g id="enlil" class="ent">
-      <g id="enlil-arm-l"><path d="M430 690 q-70 30 -86 110" stroke="#caa86a" stroke-width="26" fill="none" stroke-linecap="round"/></g>
-      <g id="enlil-arm-r"><path d="M540 690 q70 24 92 92" stroke="#caa86a" stroke-width="26" fill="none" stroke-linecap="round"/></g>
+      <g id="enlil-arm-l"><path d="M462 690 q-26 78 -20 158" stroke="#caa86a" stroke-width="26" fill="none" stroke-linecap="round"/></g>
+      <g id="enlil-arm-r"><path d="M508 690 q26 78 20 158" stroke="#caa86a" stroke-width="26" fill="none" stroke-linecap="round"/></g>
       <path class="robe" d="M430 690 q55 -34 110 0 l44 250 l-198 0 z" fill="#b98f4f" stroke="#7a5a2e" stroke-width="3"/>
       <g stroke="#8a6736" stroke-width="3" stroke-opacity="0.6"><path d="M404 800 h182"/><path d="M396 860 h198"/></g>
       <rect x="470" y="560" width="30" height="150" fill="#caa86a"/>
@@ -87,7 +87,8 @@ window.SLIDESHOW.registerScene({
     #an, #ki, #enlil, #hoe, #wind, #enlil-arm-l, #enlil-arm-r {
       transition: transform 1.05s cubic-bezier(.22,.7,.18,1), opacity .8s; }
     #enlil-arm-l, #enlil-arm-r { transform-box: fill-box; }
-    #enlil-arm-l { transform-origin: 92% 8%; } #enlil-arm-r { transform-origin: 8% 8%; }
+    /* origin at the shoulder (top of each arm's box) so they swing up cleanly */
+    #enlil-arm-l { transform-origin: 100% 0%; } #enlil-arm-r { transform-origin: 0% 0%; }
     /* magnify dimming */
     .camera.has-focus .ent { opacity: .28; transition: opacity .5s; }
     .camera.has-focus .ent.lit { opacity: 1; }
@@ -104,8 +105,9 @@ window.SLIDESHOW.registerScene({
     #stage.sep-3 #an    { transform: translateY(-250px); }
     #stage.sep-3 #ki    { transform: translateY(170px); }
     #stage.sep-3 #enlil { transform: translate(470px, -150px); }
-    #stage.sep-3 #enlil #enlil-arm-l { transform: rotate(-128deg); }
-    #stage.sep-3 #enlil #enlil-arm-r { transform: rotate(128deg); }
+    /* raise both arms overhead and outward to hold the sky up (not behind!) */
+    #stage.sep-3 #enlil #enlil-arm-l { transform: rotate(-150deg); }
+    #stage.sep-3 #enlil #enlil-arm-r { transform: rotate(150deg); }
     #stage.sep-3 #hoe   { opacity: 0; }
     #stage.sep-3 #wind  { opacity: 1; }
   `,
