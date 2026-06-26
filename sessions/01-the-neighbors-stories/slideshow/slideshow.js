@@ -131,12 +131,14 @@
   function playVideo(href) {
     return new Promise((res) => {
       const v = document.createElement('video');
-      Object.assign(v, { src: href, autoplay: true, muted: true, playsInline: true });
+      Object.assign(v, { src: href, autoplay: true, playsInline: true });
       v.className = 'scene-video';
       v.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:3';
       stageEl.appendChild(v);
       const done = () => { v.remove(); res(); };
-      v.onended = done; v.onerror = done; v.play().catch(done);
+      v.onended = done; v.onerror = done;
+      // the hoe tap is a user gesture, so play with sound; fall back to muted if blocked
+      v.play().catch(() => { v.muted = true; v.play().catch(done); });
     });
   }
 
