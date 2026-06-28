@@ -1,20 +1,12 @@
 <!DOCTYPE html>
 <!--
-  The Neighbors' Stories — interactive slideshow (for the TV).
+  The Neighbors' Stories — slideshow (for the TV).
 
-  A standalone fullscreen app (no Jekyll layout — this file has no front matter,
-  so Jekyll copies it verbatim). One slide per ANE source; tap a labelled entity
-  to magnify it and read about it, or tap the "action" entity to play the scene's
-  signature animation.
-
-  Design notes (kept deliberately extensible — SVG today, SDXL stills / WAN
-  image-to-video clips may slot in later):
-    * Each entity's art is whatever the scene provides — an inline SVG <g> now,
-      but the engine also accepts entity.media = {type:'image'|'video', href}.
-    * Each signature animation is a function today, but the runner also accepts
-      {type:'video', href} so a generated clip can replace the CSS timeline.
-    * Every interaction goes through dispatch(action); a no-op Sync shim is the
-      single seam where phone->TV mirroring (WebSocket) will plug in.
+  A plain slide deck of the session's slides (rendered from the NotebookLM PDF).
+  Navigate with the on-screen arrows, the keyboard, or a swipe on mobile
+  (swipe LEFT = back, swipe RIGHT = forward). The CURRENT SLIDE is mirrored
+  between devices via /sync, so you can drive it from your phone and it shows on
+  the TV. No front matter, so Jekyll copies this verbatim.
 -->
 <html lang="en">
 <head>
@@ -24,42 +16,19 @@
 <link rel="stylesheet" href="slideshow.css">
 </head>
 <body>
-<div id="app" class="stage-wrap">
+<div id="app">
+  <img id="slide" alt="slide">
 
-  <!-- 16:9 stage, letterboxed to whichever screen dimension is most constrained -->
-  <div id="stage" class="stage">
-    <svg id="camera" class="camera" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid meet" aria-label="scene"></svg>
-    <!-- labels live in a NON-zooming overlay SVG: same viewBox, so they sit in
-         scene coordinates yet scale crisply with the screen and never zoom. -->
-    <svg id="overlay" class="overlay" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid meet"></svg>
-    <div id="hint" class="hint"></div>
+  <button id="prev" class="nav nav-prev" aria-label="Back">&#8249;</button>
+  <button id="next" class="nav nav-next" aria-label="Forward">&#8250;</button>
+
+  <div id="bar">
+    <span id="link" class="link" title="Linked — driving the screen">&#9679;</span>
+    <span id="counter">1 / 1</span>
+    <button id="full" class="btn" title="Fullscreen" aria-label="Fullscreen">&#9974;</button>
   </div>
-
-  <!-- description panel, shown on magnify / after an animation -->
-  <aside id="panel" class="panel" hidden>
-    <button id="panel-close" class="panel-close" aria-label="Close">&times;</button>
-    <h2 id="panel-title"></h2>
-    <div id="panel-body"></div>
-  </aside>
-
-  <!-- presentation chrome -->
-  <header class="topbar no-immersive">
-    <div id="scene-title" class="scene-title"></div>
-    <div id="scene-source" class="scene-source"></div>
-  </header>
-
-  <nav class="controls no-immersive">
-    <button id="btn-prev" class="ctl" aria-label="Previous scene">&#8592;</button>
-    <span id="scene-dots" class="dots"></span>
-    <button id="btn-next" class="ctl" aria-label="Next scene">&#8594;</button>
-    <button id="btn-reset" class="ctl ctl-text" title="Back to the whole scene">Reset</button>
-    <button id="btn-full" class="ctl ctl-text" title="Fullscreen">Fullscreen</button>
-  </nav>
-
 </div>
 
 <script src="slideshow.js"></script>
-<script src="scenes/01-sumerian.js"></script>
-<script>window.SLIDESHOW.init();</script>
 </body>
 </html>

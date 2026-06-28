@@ -15,6 +15,9 @@ exclude:
   - Gemfile.local
   - Gemfile.local.lock
   - serve-local.sh
+  - sync-server.js
   - genesis-preview.service
   - vendor
   - pdf
+  # NotebookLM source deck (the rendered slides/ are what we serve)
+  - "sessions/01-the-neighbors-stories/slideshow/The_Great_Subversion_(6).pdf"

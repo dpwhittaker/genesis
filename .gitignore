@@ -19,3 +19,6 @@ Gemfile.local.lock
 vendor/
 .bundle/
 .develop-sessions.json
+
+# NotebookLM source deck (slides/ are the committed artifact)
+sessions/01-the-neighbors-stories/slideshow/*.pdf

@@ -7,13 +7,11 @@
 #   ./serve-local.sh              # serve at http://127.0.0.1:4000/genesis/
 #   ./serve-local.sh 4010         # custom port
 #
-# Runs in the foreground (so systemd or the caller can manage it). Uses
-# Gemfile.local (invisible to the Pages build) and a project-local
-# vendor/bundle, so nothing here can affect how the live site is built.
+# Runs sync-server.js (a thin Node front): it spawns Jekyll on :4001 with
+# Gemfile.local and the /genesis baseurl, reverse-proxies the static site, and
+# adds the /genesis/sync/* "remote drive" API for the slideshow. Foreground, so
+# systemd or the caller can manage it. Nothing here touches the Pages build.
 set -euo pipefail
 cd "$(dirname "$0")"
-PORT="${1:-4000}"
-export BUNDLE_GEMFILE=Gemfile.local
-exec bundle exec jekyll serve \
-  --baseurl /genesis \
-  --host 127.0.0.1 --port "$PORT"
+export PORT="${1:-4000}"
+exec node sync-server.js
