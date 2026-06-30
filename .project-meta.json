@@ -8,5 +8,10 @@
   "openUrl": "/genesis/",
   "proxyTarget": "http://127.0.0.1:4000",
   "stripPrefix": false,
-  "extraUnits": ["genesis-preview.service"]
+  "extraUnits": ["genesis-preview.service"],
+  "routes": [
+    { "match": "README.md", "to": "/" },
+    { "match": "**/index.md", "to": "/:dir/" },
+    { "match": "**/*.md", "to": "/:dir/:name.html" }
+  ]
 }
