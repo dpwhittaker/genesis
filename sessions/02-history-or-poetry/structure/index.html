@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+  History or Poetry? — the SHAPE of Genesis 1:1-2:3, as a stepped animation.
+
+  A guided, interactive walk through the architecture of the creation account:
+  the outer envelope, the forming/filling diptych (ABCABC), the chiasm of the
+  six panels (ABCCBA) folding on its word-count center (moadim, "seasons"), the
+  human climax with its own internal parallels, the single unpaired line, and
+  the convergence on one point: a finished, good world, made for rest.
+
+  Step with the on-screen arrows, the keyboard (Right/Space = forward, Left =
+  back), or a swipe on mobile (LEFT = back, RIGHT = forward). The CURRENT STEP
+  is mirrored between devices via /sync, so a phone can drive the TV. No front
+  matter, so Jekyll copies this verbatim.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<title>The Shape of Genesis 1</title>
+<link rel="stylesheet" href="structure.css">
+</head>
+<body>
+<div id="app">
+
+  <div id="frame">
+    <div id="stage">
+      <svg id="lines" viewBox="0 0 1000 680" preserveAspectRatio="none" aria-hidden="true"></svg>
+      <!-- blocks are created by structure.js -->
+      <div id="centerCard" class="overlay-card">
+        <div class="cc-count">266 Hebrew words · the exact middle</div>
+        <div class="cc-heb" dir="rtl">… לְאֹתֹת ׀ <span class="cc-hi">וּלְמוֹעֲדִים</span> …</div>
+        <div class="cc-gloss">for signs &nbsp;‖&nbsp; <b>and for sacred seasons</b></div>
+        <div class="cc-note"><b>mōʿăḏîm</b> — not weather but <i>appointed holy times</i>, the word later used for the festivals of the LORD (Lev 23)</div>
+      </div>
+      <div id="finalCard" class="overlay-card statement">
+        <div class="st-lead">The world was created <span class="hl">very good.</span></div>
+        <div class="st-body">It does not spin on our effort.<br>It is held by God's perfect plan.</div>
+      </div>
+      <div id="close2" class="overlay-card statement">
+        <div class="st-body">Salvation has always been the same one thing —<br>we put our faith and trust in the Lord.</div>
+        <div class="st-body st-turn">For a people just loosed from Egypt, from <i>"work, slaves, or die,"</i><br>learning the <span class="hl">cadence of rest</span> was the most freeing lesson —<br>and the hardest.</div>
+      </div>
+      <div id="close3" class="overlay-card statement">
+        <div class="st-body">We traded the whip for jobs, money, popularity, love,<br>screens, likes — a hundred quieter masters.</div>
+        <div class="st-body">The Sabbath was never about a day.<br>It is about <span class="hl">who we trust to hold the world.</span></div>
+        <div class="st-q">How badly do we need to learn how to rest?</div>
+      </div>
+    </div>
+  </div>
+
+  <div id="title" class="overlay-card">
+    <div class="t-heb" dir="rtl">בְּרֵאשִׁית</div>
+    <div class="t-main">The Shape of Genesis 1</div>
+    <div class="t-sub">Genesis 1:1 – 2:3 is not a list of days. It is a building.<br>Step through its architecture.</div>
+  </div>
+
+  <button id="prev" class="nav nav-prev" aria-label="Back">&#8249;</button>
+  <button id="next" class="nav nav-next" aria-label="Forward">&#8250;</button>
+
+  <div id="caption"></div>
+
+  <div id="bar">
+    <span id="link" class="link" title="Linked — driving the screen">&#9679;</span>
+    <span id="counter">1 / 1</span>
+    <button id="full" class="btn" title="Fullscreen" aria-label="Fullscreen">&#9974;</button>
+  </div>
+
+</div>
+
+<script src="structure.js"></script>
+</body>
+</html>

@@ -1,0 +1,175 @@
+/* The Shape of Genesis 1 — stepped structure animation.
+   Palette mirrors the session-2 handout (assets/main.scss): gold center
+   (#b8860b), green goal (#2f5d3a), indigo human climax (#5b4a8a), tinted
+   frame. Blocks are absolutely-positioned divs in a fixed 1000x680 logical
+   stage that is scaled to fit any screen; an SVG overlay draws connectors. */
+
+* { box-sizing: border-box; }
+html, body {
+  margin: 0; height: 100%; background: #14140f; overflow: hidden;
+  -webkit-user-select: none; user-select: none; -webkit-tap-highlight-color: transparent;
+  touch-action: pan-y;
+  font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  color: #ece8dc;
+}
+#app { position: fixed; inset: 0; }
+
+/* ---- scaled stage ---------------------------------------------------- */
+#frame { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; }
+#stage {
+  position: relative; width: 1000px; height: 680px;
+  transform: translate(-50%, -50%) scale(var(--s, 1));
+  position: absolute; left: 50%; top: 47%;
+  transform-origin: center center;
+}
+#lines { position: absolute; inset: 0; width: 1000px; height: 680px; overflow: visible; pointer-events: none; }
+#lines .ln { animation: lnfade .6s ease both; }
+@keyframes lnfade { from { opacity: 0; } }
+
+/* ---- blocks ---------------------------------------------------------- */
+.block {
+  position: absolute; left: 0; top: 0; width: 100px; height: 60px;
+  border: 2px solid #555; border-radius: 7px; background: #f6f5f1; color: #1d1d1a;
+  padding: 7px 12px; opacity: 0; overflow: hidden;
+  display: flex; flex-direction: column; justify-content: center; gap: 3px;
+  box-shadow: 0 3px 14px rgba(0,0,0,0.35);
+  transition: left .85s cubic-bezier(.6,.05,.25,1), top .85s cubic-bezier(.6,.05,.25,1),
+              width .85s cubic-bezier(.6,.05,.25,1), height .85s cubic-bezier(.6,.05,.25,1),
+              opacity .5s ease, background .5s, border-color .5s, transform .85s cubic-bezier(.6,.05,.25,1),
+              box-shadow .5s;
+}
+/* title and word-count chip share a flex row so the chip never overlaps text */
+.block .brow { display: flex; align-items: flex-start; gap: 10px; width: 100%; }
+.block .bt { flex: 1 1 auto; min-width: 0; font: 700 27px/1.16 "Iowan Old Style", Georgia, serif; letter-spacing: .01em; }
+.block .bs { font: 400 18px/1.22 Georgia, serif; color: #555; }
+.block .wc {
+  flex: 0 0 auto; transform-origin: center;
+  font: 700 18px/1 -apple-system, Helvetica, Arial, sans-serif;
+  background: #1d1d1a; color: #f2ead0; border-radius: 20px; padding: 4px 11px;
+  opacity: .55; transition: opacity .5s, transform .5s, background .5s, color .5s;
+}
+/* orientation lids are context only — a touch smaller so they stay single-line */
+.block.lid .bt { font-size: 22px; }
+.block.show-wc .wc { opacity: 1; }
+/* slim single-line orientation lid (frame boxes in the diptych steps) */
+.block.lid { justify-content: center; }
+.block.lid .bs { display: none; }
+.block.pulse-wc .wc { transform: scale(1.45); background: #b8860b; color: #fff; opacity: 1; }
+
+/* kinds */
+.block.frame { border-color: #1a1a1a; background: #efeee9; }
+.block.goal  { border-color: #2f5d3a; background: #eef5ef; }
+.block.goal .bt { color: #244c30; }
+.block.center { border-color: #b8860b; background: #fffbe8; }
+.block.center .bt { color: #8a6400; }
+.block.human { border-style: dashed; border-color: #5b4a8a; background: #f5f3fb; }
+.block.human .bt { color: #463877; }
+.block.cl-c { border-color: #5b4a8a; background: #f5f3fb; }
+.block.cl-c .bt { color: #463877; }
+.block.cl-d { border-color: #2f6d6a; background: #eef6f5; }
+.block.cl-d .bt { color: #235a57; }
+.block.poem { border-color: #8a6400; background: #fff8e0; font-style: italic; }
+.block.beacon { border-color: #b8860b; background: #fff4cf; }
+.block.beacon .bt { color: #7a5600; }
+
+/* pair accents for the forming/filling diptych (ABCABC) */
+.block.pairA { box-shadow: inset 6px 0 0 #2f6fb0, 0 3px 14px rgba(0,0,0,.35); }
+.block.pairB { box-shadow: inset 6px 0 0 #2f8f8a, 0 3px 14px rgba(0,0,0,.35); }
+.block.pairC { box-shadow: inset 6px 0 0 #3f8f48, 0 3px 14px rgba(0,0,0,.35); }
+
+/* emphasis states */
+.block.dim    { opacity: .18 !important; filter: saturate(.5); }
+.block.summit { box-shadow: 0 0 0 3px #b8860b, 0 0 26px 4px rgba(184,134,11,.55); }
+.block.glow   { box-shadow: 0 0 0 3px #b8860b, 0 0 44px 10px rgba(184,134,11,.6); }
+
+/* ---- connector lines ------------------------------------------------- */
+#lines .par   { stroke: #3f6f9f; stroke-width: 3; fill: none; marker-end: url(#arrow); opacity: .9; }
+#lines .fold  { stroke: #b8860b; stroke-width: 2.5; fill: none; opacity: .85; stroke-dasharray: 1 0; }
+#lines .brace { stroke: #5b4a8a; stroke-width: 2.5; fill: none; opacity: .8; }
+#lines .split { stroke: #5b4a8a; stroke-width: 2.5; fill: none; opacity: .8; stroke-dasharray: 5 4; }
+
+/* ---- overlay cards (center word, final poem, title) ------------------ */
+.overlay-card {
+  position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%) scale(.96);
+  opacity: 0; pointer-events: none; transition: opacity .6s ease, transform .6s ease;
+  text-align: center; z-index: 8;
+}
+.overlay-card.on { opacity: 1; transform: translate(-50%,-50%) scale(1); }
+
+#centerCard {
+  width: 560px; padding: 24px 28px; border-radius: 14px;
+  background: rgba(28,24,12,.92); border: 1.5px solid #b8860b;
+  box-shadow: 0 0 50px rgba(184,134,11,.35);
+}
+.cc-count { font: 700 14px/1 -apple-system, Helvetica, Arial, sans-serif; letter-spacing: .08em;
+  text-transform: uppercase; color: #e7c873; margin-bottom: 14px; }
+.cc-heb { font-size: 40px; line-height: 1.5; color: #f4ecd6; }
+.cc-hi { color: #ffcf4d; text-shadow: 0 0 18px rgba(255,207,77,.6); }
+.cc-gloss { font-size: 19px; color: #eadfc2; margin-top: 6px; }
+.cc-gloss b { color: #ffcf4d; }
+.cc-note { font: italic 14px/1.4 Georgia, serif; color: #c9bf9f; margin-top: 14px; }
+.cc-note b { font-style: normal; color: #e7c873; }
+
+/* the closing statement cards — declarative, escalating weight */
+.statement { width: 820px; text-shadow: 0 2px 18px #000; }
+.st-lead { font: 700 40px/1.25 "Iowan Old Style", Georgia, serif; color: #f4ecd6; margin-bottom: 18px; }
+.st-body { font: 400 27px/1.55 "Iowan Old Style", Georgia, serif; color: #eae3ce; margin: 0 0 20px; }
+.st-body:last-child { margin-bottom: 0; }
+.st-body i { color: #e7c873; font-style: italic; }
+.st-turn { color: #cfe3d2; }
+.hl { color: #ffcf4d; font-weight: 700; }
+.st-q {
+  font: 700 38px/1.3 "Iowan Old Style", Georgia, serif; color: #ffcf4d;
+  margin-top: 30px; letter-spacing: .005em;
+  text-shadow: 0 0 34px rgba(255,207,77,.45), 0 2px 18px #000;
+}
+
+#title { width: 760px; }
+.t-heb { font-size: 64px; color: #e7c873; text-shadow: 0 0 30px rgba(231,200,115,.4); }
+.t-main { font: 700 46px/1.1 "Iowan Old Style", Georgia, serif; margin: 10px 0 16px; color: #f4ecd6; }
+.t-sub { font: 400 20px/1.5 Georgia, serif; color: #c9c1aa; }
+
+/* ---- chrome (nav, caption, bar) — mirrors the session-1 slideshow ---- */
+.nav {
+  position: absolute; top: 0; bottom: 64px; width: 12%; min-width: 56px;
+  border: none; background: transparent; color: #fff; cursor: pointer;
+  font-size: clamp(36px, 8vh, 80px); line-height: 1; opacity: .16;
+  transition: opacity .2s; z-index: 9; display: flex; align-items: center;
+}
+.nav-prev { left: 0; justify-content: flex-start; padding-left: 2vw;
+  background: linear-gradient(90deg, rgba(0,0,0,.4), transparent); }
+.nav-next { right: 0; justify-content: flex-end; padding-right: 2vw;
+  background: linear-gradient(270deg, rgba(0,0,0,.4), transparent); }
+.nav:hover, .nav:active { opacity: .9; }
+
+#caption {
+  position: absolute; left: 50%; bottom: 64px; transform: translateX(-50%);
+  width: min(92vw, 1000px); z-index: 7; text-align: center;
+  font: 400 clamp(15px, 2.3vh, 21px)/1.45 Georgia, serif;
+  color: #e7e1cf; background: rgba(0,0,0,.34); border-radius: 12px;
+  padding: 12px 20px; backdrop-filter: blur(3px);
+  transition: opacity .4s ease; min-height: 1.4em;
+}
+#caption b { color: #f3d98a; font-weight: 700; }
+#caption i { color: #d8e6da; }
+
+#bar {
+  position: absolute; left: 0; right: 0; bottom: 0; z-index: 9;
+  display: flex; align-items: center; justify-content: center; gap: 1.4vw;
+  padding: 12px 2vw; opacity: .4; transition: opacity .25s;
+  color: #d9d2bd; font-size: clamp(13px, 1.9vh, 18px); pointer-events: none;
+}
+#bar:hover { opacity: 1; }
+#counter { font-variant-numeric: tabular-nums; letter-spacing: .04em; }
+.btn { pointer-events: auto; background: rgba(30,30,24,.7); color: #d9d2bd;
+  border: 1px solid rgba(255,255,255,.2); border-radius: 8px; cursor: pointer;
+  font-size: 1em; padding: .2em .55em; line-height: 1; }
+.btn:hover { border-color: #f4d774; color: #f7e6a8; }
+.link { color: #555; transition: color .3s; font-size: .8em; }
+.link.on { color: #5fd07a; }
+
+@media (max-width: 640px) {
+  .statement { width: 94vw; }
+  .st-lead { font-size: 26px; } .st-body { font-size: 19px; } .st-q { font-size: 25px; }
+  .t-main { font-size: 32px; } .cc-heb { font-size: 30px; }
+}
