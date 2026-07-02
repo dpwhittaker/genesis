@@ -103,18 +103,22 @@ Round each duration to whole minutes (from the `ffprobe` values, e.g. 40:15 → 
 
 (Session 1 labels its shorter one "short"; use the label that matches the file — "medium" for `Medium_Podcast.m4a", "short" for `Shorter_Podcast.m4a`.)
 
-**2) `sessions/<slug>/index.md` — a `## 🎧 Listen` section near the top** (right after the opening `**Passage:**` line / before the first `##` section), with inline `<audio>` players and a download fallback:
+**2) `sessions/<slug>/index.md` — a `## 🎧 Listen` section near the top** (right after the opening `**Passage:**` line / before the first `##` section), with inline `<audio>` players and a download fallback. **Wrap it in `<div class="no-print" markdown="1">…</div>`** so it renders on screen but is **hidden in the printed handout** (audio players are dead weight on paper, and it saves a page):
 
 ```markdown
+<div class="no-print" markdown="1">
+
 ## 🎧 Listen
 
 Two companion podcasts for this session — good before you read, or to revisit afterward:
 
 - **Medium overview** (~<MED> min): <audio controls preload="none" src="Medium_Podcast.m4a">Your browser can't play audio — [download the file](Medium_Podcast.m4a).</audio>
 - **Longer deep dive** (~<LONG> min): <audio controls preload="none" src="Longer_Podcast.m4a">Your browser can't play audio — [download the file](Longer_Podcast.m4a).</audio>
+
+</div>
 ```
 
-Keep the `src`/href as bare filenames (the page is served from the session dir, so relative links resolve). Do not mark it `.no-print` — session 1 leaves it visible.
+Keep the `src`/href as bare filenames (the page is served from the session dir, so relative links resolve). The `markdown="1"` attribute lets kramdown process the markdown inside the div. After adding it, **re-run the `print-session` page-break pass** — the Listen block (though print-hidden) plus any other new content can still shift on-screen layout, and page counts must stay even with no warnings.
 
 ## Step 9 — report
 

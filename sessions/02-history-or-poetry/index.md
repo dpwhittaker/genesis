@@ -7,12 +7,16 @@ layout: default
 
 **Passage:** Genesis 1:1–2:3 — read the whole creation account aloud before you study its shape.
 
+<div class="no-print" markdown="1">
+
 ## 🎧 Listen
 
 Two companion podcasts for this session — good before you read, or to revisit afterward:
 
 - **Medium overview** (~20 min): <audio controls preload="none" src="Medium_Podcast.m4a">Your browser can't play audio — [download the file](Medium_Podcast.m4a).</audio>
 - **Longer deep dive** (~40 min): <audio controls preload="none" src="Longer_Podcast.m4a">Your browser can't play audio — [download the file](Longer_Podcast.m4a).</audio>
+
+</div>
 
 ## A note before we begin
 
@@ -61,8 +65,6 @@ Day by day, the first panel and the second line up exactly:
 {: .ff-table}
 
 This is not the accident of a clumsy report; it is design. Day 1 makes the light that Day 4 fills with light-bearers; Day 2 makes the sea and sky that Day 5 fills with swimmers and fliers; Day 3 makes the dry land that Day 6 fills with animals and people. The chapter is built as a **diptych** — two panels that mirror each other.
-
-<div class="page-break"></div>
 
 There is a second symmetry hiding in plain sight — not in *what* each day holds, but in *how long each paragraph is.* One phrase has to be set aside first. The refrain **"and there was evening and there was morning, the Nth day"** is not part of any day's work — it is the **seam between the days**, a six-word boundary marker repeated to close each panel (in Hebrew, days 3 and 5 are *nothing but* this refrain). Read it as the delimiter it is, set the making of **humankind** aside as well (Genesis piles it on top of Day 6 as a climax all its own), and count the body of each of the six creation paragraphs in Hebrew words:
 
@@ -186,8 +188,6 @@ Read the boxes top to bottom. The heavy-bordered boxes are the mirror **frame**;
 </div>
 
 <div class="chiasm-delim"><span>and there was evening and there was morning — <span class="dn">the sixth day</span></span></div>
-
-<div class="page-break"></div>
 
 <div class="chiasm-box chiasm-frame">
 <span class="lbl">B′ · The problem answered — Genesis 2:1 · 5 words</span>
