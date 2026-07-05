@@ -110,6 +110,9 @@ Read the boxes top to bottom. The heavy-bordered boxes are the mirror **frame**;
 **▶ [Watch the shape unfold — interactive animation](structure/)** — the envelope, the forming/filling parallels, the chiasm folding on *seasons*, and the single unpaired line, one step at a time.
 {: .no-print}
 
+**🖉 [Annotation sheet — Genesis 1:1–2:3 (NET)](annotate.html)** — the whole passage on one page with a wide note margin; print it and mark the structure together.
+{: .no-print}
+
 <div class="chiasm" markdown="0">
 
 <div class="chiasm-box chiasm-frame">

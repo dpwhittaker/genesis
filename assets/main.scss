@@ -152,3 +152,45 @@
     page-break-inside: avoid; margin: 2pt 0;
   }
 }
+
+/* ===== Annotation sheet (session 2 companion) — Gen 1:1-2:3 on one page, ==========
+   with a wide left margin for handwritten notes. Every verse is its own line;
+   the "evening and morning" refrains that sit mid-verse drop to their own line. */
+.annotate {
+  position: relative; box-sizing: border-box;
+  max-width: 7.4in; margin: 1.2em auto; padding-left: 1.75in;
+  font: 8.4pt/1.12 Georgia, "Times New Roman", serif; color: #111;
+}
+.annotate * { box-sizing: border-box; }
+/* rule dividing the note gutter from the text column */
+.annotate::before {
+  content: ""; position: absolute; left: 1.6in; top: 0; bottom: 0;
+  border-left: 1px solid #ccc;
+}
+.annotate-head {
+  font: 8.5pt/1.3 -apple-system, Helvetica, Arial, sans-serif;
+  color: #666; letter-spacing: .01em; margin: 0 0 0.3em;
+}
+.annotate .vs { margin: 0 0 0.5pt; text-indent: -1.15em; padding-left: 1.15em; }
+.annotate .vn {
+  font: 700 0.82em/1 -apple-system, Helvetica, Arial, sans-serif;
+  color: #b8860b; margin-right: 0.4em; vertical-align: 1pt;
+}
+/* the refrain, broken onto its own italic line */
+.annotate .em { display: block; padding-left: 1.2em; text-indent: 0;
+  font-style: italic; color: #555; }
+/* whole-verse refrain (1:13, 1:19, 1:23): italic, inline on its own verse line */
+.annotate .emi { font-style: italic; color: #555; }
+.annotate-credit {
+  margin-top: 0.4em; padding-top: 0.25em; border-top: 1px solid #e0e0e0;
+  font: 6.5pt/1.25 -apple-system, Helvetica, Arial, sans-serif; color: #999;
+}
+
+@media print {
+  .annotate {
+    -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important;
+    margin: 0; max-width: none; width: 100%; padding-left: 1.75in;
+  }
+  .annotate::before { left: 1.6in; }
+  .annotate .vs { page-break-inside: avoid; }
+}
