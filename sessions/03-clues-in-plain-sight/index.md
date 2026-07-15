@@ -39,6 +39,8 @@ Our plan has two movements:
 
 What we will *not* do today is tell you what the problems mean. That is Sessions 4 and 5. Today is only about learning to see them — and about becoming the kind of reader who can hold an open question without flinching.
 
+<div class="page-break"></div>
+
 ## Part 1 — Two ways to meet a problem
 
 When a Western reader trained on textbooks meets a contradiction, the reflexes are fight or flight: either *harmonize it* (produce an explanation that makes the bump disappear) or *dismiss the text* (the bump proves the book is broken). Both reflexes share one assumption — that a bump is a defect.
@@ -91,9 +93,14 @@ A child hearing this story for the first time — not yet trained on what to ign
 
 Slow down to reading speed, track the sequence and the details, and a second layer appears.
 
+{: start="4"}
 4. **Two creation accounts that don't line up.** Genesis 1: plants (day 3), then animals, then man and woman *together* (day 6), and the watchword is effortless cosmic order. Genesis 2: "no shrub of the field had yet grown on the earth" — then the man is formed *first*, then the garden grows, then the animals are formed, then the woman *last*. Different order, different names for God (*Elohim* alone in ch. 1; *YHWH Elohim* in chs. 2–3), different feel. And whoever set these side by side read them more closely than we ever will — and left both, seam showing, as if the seam didn't embarrass him at all.
 5. **"It is not good for the man to be alone" — cue the animal parade.** The stated problem is loneliness (2:18); the very next verse is God forming beasts and birds and marching them past Adam for names. The solution the story flags is a full chapter of narrative away. Why does the search for a companion *route through the animals*?
 6. **The command was given before the woman existed.** God issues the food rule to the man in 2:16–17; the woman is built in 2:22. Yet in 3:2–3 she knows the rule. Who told her — and did they tell it to her straight?
+
+<div class="page-break"></div>
+
+{: start="7"}
 7. **She quotes a rule God never gave: "you must not touch it" (3:3).** The original command says nothing about touching. Somebody — Adam? the couple together? — has added a fence around the rule. The earliest rabbinic commentators pounced on this addition (*Avot de-Rabbi Natan* 1) — noticing, as we are, that it is *in* the text on purpose.
 8. **The tree grows a third attraction.** The narrator gave the garden's trees two qualities: "pleasing to look at and good for food" (2:9). When the woman looks at *this* tree, she sees three: good for food, attractive to the eye — "and… *desirable for making one wise*" (3:6). Where did the third one come from?
 9. **The river paragraph (2:10–14).** The story halts — mid-Eden, tension building — for four verses of river names, gold quality reports, and regional geography ("the gold of that land is pure; pearls and lapis lazuli are also there"). None of it is ever used in the story. Why is it *here*?
@@ -102,10 +109,13 @@ Slow down to reading speed, track the sequence and the details, and a second lay
 12. **Fig leaves, then skins.** They sew coverings for themselves (3:7); at the end, God makes them "garments from skin" and clothes them (3:21). The story tells us about clothing *twice* — and the second time, the couple's own solution has apparently failed and been replaced.
 13. **He names her twice.** "This one will be called 'woman'" (2:23) — then, after everything falls apart, "the man named his wife Eve" (3:20). A whole second naming scene, as if the first didn't take.
 
+<div class="page-break"></div>
+
 ### Problems a pattern-spotter notices
 
 This is the Session 2 skill — reading for refrains, structure, and count — turned loose on both accounts.
 
+{: start="14"}
 14. **Day 2 never gets its "good."** "God saw that it was good" falls on every day of Genesis 1 — except the second, and then day 3 collects it *twice*. The refrain is too regular for the gap to be sloppiness, and the rabbis noticed it nearly two thousand years ago (*Genesis Rabbah* 4:6).
 15. **Day 7 never ends.** Six times: "there was evening, and there was morning, the *n*th day." The seventh day — the day the whole poem was built to reach — has **no evening and no morning**. Every other day is closed out. This one is left open.
 16. **Days before the sun.** Light on day 1; the sun not until day 4 — so the first three "evenings and mornings" tick by with no sun to measure them, and the plants of day 3 grow before there is a sun to grow them. Read as a lab report, the story breaks in its first paragraphs; whatever kind of text this is, it is *loudly* not that kind.
@@ -116,14 +126,21 @@ This is the Session 2 skill — reading for refrains, structure, and count — t
 
 Some bumps are invisible in translation. The first hearers tripped over these; we need footnotes.
 
+{: start="19"}
 19. **Naked meets shrewd.** The man and woman are *ʿărummim* — naked (2:25). The very next word-breath, the serpent is *ʿarum* — shrewd, crafty (3:1). In Hebrew the two words sit back to back and sound nearly identical: the storyteller has rhymed the humans' condition with the serpent's character, deliberately blurring the line between them. English cannot show you this at all.
 20. **The earthling from the earth.** The man is *ʾadam*, taken from the *ʾadamah*, the ground (2:7) — roughly, "the human from the humus." The pun is the story's frame: it returns with full weight at 3:19, "for you are dust, and to dust you will return."
 21. **ʾish and ʾishah.** "This one will be called 'woman' (*ʾishah*), for she was taken out of man (*ʾish*)" (2:23). The wordplay makes the two names two halves of one sound — one creature, divided into a matched pair — which is precisely what the surrounding verses are saying.
+
+<div class="page-break"></div>
+
+{: start="22"}
 22. **Which tree is "in the middle"?** Our translations smooth this one flat — the NET's parenthesis at 2:9 calmly sets *both* trees "in the middle of the orchard." But the Hebrew word order says: "the tree of life, *in the midst of the garden*, and the tree of the knowledge of good and evil" — the tree of *life* holds the center, and the forbidden tree dangles after it, location unspecified. Yet when the woman describes her garden, the tree *she* puts "in the middle" is the forbidden one (3:3). Either the geography is fuzzy — or the *center has moved*, depending on who is describing the garden. The ambiguity has kept rabbinic readers busy for millennia — and notice what just happened: even a rigorous modern translation ironed the bump out. The lullaby has help.
+
 ### Problems a philosopher notices
 
 The deepest layer: bumps not in the wording but in the *logic* — the ones people feel but are often afraid to say in church.
 
+{: start="23"}
 23. **The knowledge paradox.** The tree supposedly *grants* the knowledge of good and evil. But the woman already reasons morally before eating — she can recite what is permitted and forbidden (3:2–3). And if the couple truly lacked moral knowledge until they ate, how is the first bite a culpable act? You can only justly punish someone who already knows better — which they can't, until *after*. The name of the tree and the logic of the judgment sit in open tension.
 24. **"You will be like God" — they already are.** The serpent's bait (3:5) offers what Genesis 1:26–27 says humanity already possesses: the image and likeness of God. The temptation is to grasp for a thing already given.
 25. **Score the predictions.** God said: "when you eat from it you will surely die" (2:17). The serpent said: "Surely you will not die… your eyes will open and you will be like God, knowing good and evil" (3:4–5). Now check the story's own scoreboard: they do not die that day; their eyes *do* open (3:7); and God himself confirms "the man has become like one of us, *knowing good and evil*" (3:22). Read flatly, every one of the serpent's claims verifies, and God's sounds like the overstatement. Be careful here — the text is *not* calling God a liar; it is deliberately constructing a surface reading that cannot be right, precisely to force you below the surface. What does "die" mean, such that God told the truth? That question is the trailhead — and today we only mark it.
