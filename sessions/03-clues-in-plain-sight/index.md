@@ -89,6 +89,8 @@ A child hearing this story for the first time — not yet trained on what to ign
 2. **"You will surely die" — and they don't.** God says "when you eat from it you will surely die" (2:17) — and the Hebrew is stronger still: *in the day* you eat from it. They eat. They do not die that day; Adam lives to 930 (5:5). A child will ask you about this on the car ride home.
 3. **The snake is sentenced to crawl** — "on your belly you will crawl" (3:14). So… how was it getting around before? The story quietly implies a walking snake and never explains.
 
+<div class="page-break"></div>
+
 ### Problems a careful reader notices
 
 Slow down to reading speed, track the sequence and the details, and a second layer appears.
@@ -97,10 +99,6 @@ Slow down to reading speed, track the sequence and the details, and a second lay
 4. **Two creation accounts that don't line up.** Genesis 1: plants (day 3), then animals, then man and woman *together* (day 6), and the watchword is effortless cosmic order. Genesis 2: "no shrub of the field had yet grown on the earth" — then the man is formed *first*, then the garden grows, then the animals are formed, then the woman *last*. Different order, different names for God (*Elohim* alone in ch. 1; *YHWH Elohim* in chs. 2–3), different feel. And whoever set these side by side read them more closely than we ever will — and left both, seam showing, as if the seam didn't embarrass him at all.
 5. **"It is not good for the man to be alone" — cue the animal parade.** The stated problem is loneliness (2:18); the very next verse is God forming beasts and birds and marching them past Adam for names. The solution the story flags is a full chapter of narrative away. Why does the search for a companion *route through the animals*?
 6. **The command was given before the woman existed.** God issues the food rule to the man in 2:16–17; the woman is built in 2:22. Yet in 3:2–3 she knows the rule. Who told her — and did they tell it to her straight?
-
-<div class="page-break"></div>
-
-{: start="7"}
 7. **She quotes a rule God never gave: "you must not touch it" (3:3).** The original command says nothing about touching. Somebody — Adam? the couple together? — has added a fence around the rule. The earliest rabbinic commentators pounced on this addition (*Avot de-Rabbi Natan* 1) — noticing, as we are, that it is *in* the text on purpose.
 8. **The tree grows a third attraction.** The narrator gave the garden's trees two qualities: "pleasing to look at and good for food" (2:9). When the woman looks at *this* tree, she sees three: good for food, attractive to the eye — "and… *desirable for making one wise*" (3:6). Where did the third one come from?
 9. **The river paragraph (2:10–14).** The story halts — mid-Eden, tension building — for four verses of river names, gold quality reports, and regional geography ("the gold of that land is pure; pearls and lapis lazuli are also there"). None of it is ever used in the story. Why is it *here*?
@@ -130,11 +128,9 @@ Some bumps are invisible in translation. The first hearers tripped over these; w
 19. **Naked meets shrewd.** The man and woman are *ʿărummim* — naked (2:25). The very next word-breath, the serpent is *ʿarum* — shrewd, crafty (3:1). In Hebrew the two words sit back to back and sound nearly identical: the storyteller has rhymed the humans' condition with the serpent's character, deliberately blurring the line between them. English cannot show you this at all.
 20. **The earthling from the earth.** The man is *ʾadam*, taken from the *ʾadamah*, the ground (2:7) — roughly, "the human from the humus." The pun is the story's frame: it returns with full weight at 3:19, "for you are dust, and to dust you will return."
 21. **ʾish and ʾishah.** "This one will be called 'woman' (*ʾishah*), for she was taken out of man (*ʾish*)" (2:23). The wordplay makes the two names two halves of one sound — one creature, divided into a matched pair — which is precisely what the surrounding verses are saying.
+22. **Which tree is "in the middle"?** Our translations smooth this one flat — the NET's parenthesis at 2:9 calmly sets *both* trees "in the middle of the orchard." But the Hebrew word order says: "the tree of life, *in the midst of the garden*, and the tree of the knowledge of good and evil" — the tree of *life* holds the center, and the forbidden tree dangles after it, location unspecified. Yet when the woman describes her garden, the tree *she* puts "in the middle" is the forbidden one (3:3). Either the geography is fuzzy — or the *center has moved*, depending on who is describing the garden. The ambiguity has kept rabbinic readers busy for millennia — and notice what just happened: even a rigorous modern translation ironed the bump out. The lullaby has help.
 
 <div class="page-break"></div>
-
-{: start="22"}
-22. **Which tree is "in the middle"?** Our translations smooth this one flat — the NET's parenthesis at 2:9 calmly sets *both* trees "in the middle of the orchard." But the Hebrew word order says: "the tree of life, *in the midst of the garden*, and the tree of the knowledge of good and evil" — the tree of *life* holds the center, and the forbidden tree dangles after it, location unspecified. Yet when the woman describes her garden, the tree *she* puts "in the middle" is the forbidden one (3:3). Either the geography is fuzzy — or the *center has moved*, depending on who is describing the garden. The ambiguity has kept rabbinic readers busy for millennia — and notice what just happened: even a rigorous modern translation ironed the bump out. The lullaby has help.
 
 ### Problems a philosopher notices
 
@@ -164,6 +160,8 @@ So let's give every problem a job interview. Sort the same twenty-eight not by w
 | **🌱 Planted hooks** | Words and images set here so they can detonate *later* — in this story's own ending, or chapters and books away. | Naked/shrewd pun (19) · dust-to-dust frame (20) · ʾish/ʾishah (21) · "saw… good… took" (17) · the added touch-rule (7) · the tree's third attraction, *desire* (8) · fig leaves replaced by God-made garments (12) · the once-walking snake (3) · which-tree-is-central ambiguity (22) |
 | **❓ Open provocations** | Questions the text *builds into itself* and refuses to answer on the surface, so the reader has to carry them — sometimes for the rest of the Bible. | "Surely die"? (2, 25) · how did she learn the command? (6) · the knowledge paradox (23) · already like God (24) · why plant the tree? (26) · God's unneeded questions (27) · why does God rest? (28) |
 
+<div class="page-break"></div>
+
 Three observations, and then the conclusion draws itself.
 
 **First: everything found work.** Twenty-eight alleged defects; twenty-eight functioning devices. Not one bump is inert — no stray typo, no pointless glitch. Damage doesn't behave this way. Craft does.
@@ -183,6 +181,8 @@ Every trail we flagged today, we left unwalked. What *does* the center of the ga
 Hold them. That is the assignment. Session 4 will return to Genesis 1 with the genre question answered and read it as its first hearers did — as the founding of a cosmic temple. Session 5 will walk back into the garden with every one of today's problems in hand and watch them pay off.
 
 Leaving questions open for two weeks is itself part of the training. The Western reflex wants the answer *now*, because an open question feels like a threat. The text is teaching the older habit: an open question, held with trust, is a place where God has promised to meet the digger.
+
+<div class="page-break"></div>
 
 ## Try it together
 
