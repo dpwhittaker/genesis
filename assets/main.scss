@@ -54,6 +54,35 @@
   .page-break { display: block; height: 0; page-break-after: always; break-after: page; }
 }
 
+/* ===== Inline discussion prompts ===== */
+/* Sessions can distribute their discussion questions through the handout instead
+   of stacking them all at the end, so a group can stop and talk at each point
+   while the material is still in front of them. Usage:
+     <div class="discuss" markdown="1">
+     **Talk about it.** …question…
+     </div>
+   Set aside visually so it reads as a stop sign, not more body text. */
+.discuss {
+  border-left: 4px solid #b8860b;
+  background: #fffbe8;
+  padding: 0.6em 0.9em;
+  margin: 1.1em 0;
+  border-radius: 0 3px 3px 0;
+}
+.discuss > :first-child { margin-top: 0; }
+.discuss > :last-child { margin-bottom: 0; }
+.discuss ol, .discuss ul { margin-bottom: 0; }
+
+@media print {
+  .discuss {
+    border-left: 2.5px solid #000;
+    background: transparent;
+    padding: 2pt 0 2pt 0.6em;
+    margin: 0.45em 0;
+    page-break-inside: avoid;
+  }
+}
+
 /* ===== Genesis 1 structure diagram (chiasm + forming/filling panels) ===== */
 /* Used on session 2. Bordered, labeled boxes that hold the full scripture text
    so the literary shape is visible at a glance, on screen and in print. */

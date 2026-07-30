@@ -19,4 +19,8 @@ gem "webrick", "~> 1.8"   # Jekyll's dev server needs this on Ruby 3+
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.17"
   gem "jekyll-seo-tag", "~> 2.8"
+  # GitHub Pages enables this one by default; without it the local preview
+  # leaves cross-page "foo.md" links pointing at raw .md files, which 404.
+  # Needed so the Tailscale-served preview resolves links the way Pages does.
+  gem "jekyll-relative-links", "~> 0.7"
 end
