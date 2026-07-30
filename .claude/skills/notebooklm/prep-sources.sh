@@ -40,7 +40,18 @@ if [ -f "$sess/index.md" ]; then
   produced+=("$out")
 fi
 
-# 2) primary texts
+# 2) any other top-level page in the session dir (e.g. reference.md — the long
+#    version of a handout). index.md is already done above; skip it.
+for f in "$sess"/*.md; do
+  [ -e "$f" ] || continue
+  base="$(basename "${f%.md}")"
+  [ "$base" = "index" ] && continue
+  out="$outdir/${slug}__${base}.txt"
+  clean "$f" > "$out"
+  produced+=("$out")
+done
+
+# 3) primary texts
 if [ -d "$sess/texts" ]; then
   for f in "$sess"/texts/*.md; do
     [ -e "$f" ] || continue
