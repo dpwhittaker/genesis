@@ -37,7 +37,9 @@ Do not pick one yourself. On the user's choice: `select_browser` with that devic
 
 ## Step 3 — open a FRESH notebook for this lesson
 
-`tabs_context_mcp` (createIfEmpty:true) → `tabs_create_mcp` → `navigate` to `https://notebooklm.google.com/`. Click **"Create notebook"** (top bar) to make a new, empty notebook for this lesson — this is cleaner than reusing the shared class notebook (no source-mixing, no isolation needed). Only reuse the default notebook URL if the user explicitly asks. If a Google sign-in wall appears, stop: the user signs in, then says "continue". Creating the notebook opens the add-source dialog automatically.
+> **Rebrand (seen live 2026-07-29): NotebookLM is now "Gemini Notebook."** `notebooklm.google.com` redirects to **`notebook.google.com`**, the page title is "Gemini Notebook," and a first-visit welcome modal ("NotebookLM is now Gemini Notebook… **Let's go**") overlays the UI — dismiss it before anything else or clicks land on the overlay. The Studio panel is also restructured into a tile grid (Audio Overview / Slide Deck / Video Overview / Mind Map / Reports / Flashcards / Quiz / Infographic / Data Table); there is no longer a separate "Customize Audio Overview" affordance — click the **Audio Overview** tile and the Customize dialog opens directly. The dialog's own contents are unchanged.
+
+`tabs_context_mcp` (createIfEmpty:true) → `tabs_create_mcp` → `navigate` to `https://notebook.google.com/`. Click **"Create notebook"** (top bar) to make a new, empty notebook for this lesson — this is cleaner than reusing the shared class notebook (no source-mixing, no isolation needed). Only reuse the default notebook URL if the user explicitly asks. If a Google sign-in wall appears, stop: the user signs in, then says "continue". Creating the notebook opens the add-source dialog automatically.
 
 ## Step 4 — add the sources as PASTED TEXT (not file upload)
 
@@ -61,8 +63,8 @@ Both episodes can generate at once — queue the long one, then immediately queu
 
 For each episode (queue LONG, then MEDIUM):
 
-1. Click **"Customize Audio Overview"** (the settings affordance on the Audio Overview card; `find` it by that name).
-2. In the **Customize Audio Overview** dialog: leave **Format = Deep Dive** (default, first tile, has the checkmark). Language = English. The **Length** control is three radios labelled **Short / Default / Long**:
+1. Click the **Audio Overview** tile in the Studio panel (post-rebrand there is no separate "Customize" affordance — the tile opens the Customize dialog directly).
+2. In the **Customize Audio Overview** dialog: leave **Format = Deep Dive** (default, first tile, has the checkmark). Language = English. The **Length** control is three radios labelled **Short / Default / Long**. The dialog often renders *faded behind* the notebook summary — don't try to read it from a screenshot; `find` the controls and click by `ref`:
    - LONG → click **Long**
    - MEDIUM → click **Default**
 3. Set the **focus textbox** ("What should the AI hosts focus on in this episode?") via `form_input` with the **focus prompt** (below). NotebookLM also offers auto-suggested focus chips — ignore them; set the full prompt explicitly.
@@ -90,6 +92,33 @@ When an episode is ready (Studio shows it with a duration, a ▶ play button, an
 - **Browser on the mini-pc (debug fallback):** the file is on the mini-pc; this server can't pull from it (WSL2 has no Tailscale route to the mini-pc), so have the user push it — from the mini-pc: `scp <file> gpu-server:~/projects/genesis/sessions/<slug>/`.
 
 Then confirm both files exist and are non-trivial in size (`ls -lh sessions/<slug>/*.m4a`). Verify duration if `ffprobe` is available.
+
+### Step 7b — RE-ENCODE before committing (required)
+
+NotebookLM exports **257 kbps stereo AAC** — music-grade encoding on two people talking. Left alone, each session adds ~115 MiB and the site blows through **GitHub Pages' hard 1 GB published-site limit around session 9**. Audio is ~98% of this site's bytes, so this is the only size lever that matters.
+
+Re-encode both files to **64 kbps mono** before committing. That is the knee of the quality curve (measured on session 4: SNR vs the original is 19.3 dB at 48k, **24.4 dB at 64k**, 26.4 dB at 80k — 48→64 buys 5.1 dB, 64→80 only 2.0), and it cuts **74%** off every file with duration preserved exactly.
+
+```bash
+for f in sessions/<slug>/*.m4a; do
+  ffmpeg -hide_banner -loglevel error -y -i "$f" \
+    -c:a aac -b:a 64k -ac 1 -ar 44100 -movflags +faststart "$f.tmp.m4a"
+  # verify duration survived, then swap
+  d0=$(ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$f")
+  d1=$(ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$f.tmp.m4a")
+  echo "$d0 $d1" | awk '{d=$1-$2; if(d<0)d=-d; exit (d<0.5)?0:1}' \
+    && mv "$f.tmp.m4a" "$f" && chmod 644 "$f" \
+    || { echo "DURATION MISMATCH on $f — keeping original"; rm -f "$f.tmp.m4a"; }
+done
+ffmpeg -hide_banner -v error -i sessions/<slug>/Longer_Podcast.m4a -f null -   # decode-integrity check; silence = clean
+```
+
+`+faststart` moves the moov atom to the front so the `<audio>` player can start before the whole file arrives. Durations are unchanged, so the minute labels in the README bullet and the 🎧 Listen block stay correct.
+
+Two traps worth knowing:
+
+- **`-loglevel error` suppresses `volumedetect`/`astats` output** (they print at info level). If you measure levels or SNR to sanity-check an encode, drop back to default loglevel or you'll silently get empty results.
+- **Git LFS does not solve the Pages problem.** Pages serves the LFS *pointer file*, not the audio. Anything Pages must serve has to be a real file in the repo and counts against the 1 GB. Note also that the Pages limit measures the **current checkout, not history** — so re-encoding shrinks the published site immediately even though the original blobs stay in `.git` forever.
 
 ## Step 8 — link the podcasts in two places (match session 1)
 
