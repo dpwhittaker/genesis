@@ -10,6 +10,17 @@ layout: default
 **Going deeper:** the **[full reference version](reference.html)** walks every problem at length with all the sources quoted. Source sheets: **[the rabbis on Genesis 1](texts/rabbinic-sources.md)** · **[temple and cosmos](texts/temple-and-cosmos.md)**.
 {: .no-print}
 
+<div class="no-print" markdown="1">
+
+## 🎧 Listen
+
+Two companion podcasts for this session — good before you read, or to revisit afterward:
+
+- **Medium overview** (~22 min): <audio controls preload="none" src="Medium_Podcast.m4a">Your browser can't play audio — [download the file](Medium_Podcast.m4a).</audio>
+- **Longer deep dive** (~47 min): <audio controls preload="none" src="Longer_Podcast.m4a">Your browser can't play audio — [download the file](Longer_Podcast.m4a).</audio>
+
+</div>
+
 ## A note before we begin
 
 Three sessions ago we made a list of twenty-eight problems in Genesis and solved exactly none of them. Seven of them live in Genesis 1:1–2:3. Today we come back for those seven — and we are still not going to solve them.
