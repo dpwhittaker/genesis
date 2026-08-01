@@ -1,6 +1,6 @@
 ---
 name: panel
-description: Convene a virtual advisory panel of five scholars with distinct biblical/theological perspectives — a traditional rabbi, a modern Jewish academic, an evangelical theologian, a mainline scholar, and a curious non-Christian skeptic — each analyzing a passage, topic, or dilemma in their own voice, followed by a synthesis of agreements, tensions, and open questions. Use when the user says "convene the panel", "ask the panel", "what would the panel say about X", "give me five perspectives on X", "run this past the scholars", or wants a passage or theological question examined from multiple traditions at once.
+description: Convene a virtual advisory panel of five scholars with distinct biblical/theological perspectives — a traditional rabbi, a modern Jewish academic, an evangelical theologian, a mainline scholar, and a curious non-Christian skeptic — each analyzing a passage, topic, or dilemma in their own voice, followed by a synthesis of agreements, tensions, and open questions. Runs the five seats as independent parallel subagents by default, so that agreement between them is real evidence rather than one voice agreeing with itself. Use when the user says "convene the panel", "ask the panel", "what would the panel say about X", "give me five perspectives on X", "run this past the scholars", or wants a passage or theological question examined from multiple traditions at once.
 ---
 
 # The Panel
@@ -57,11 +57,13 @@ Refer to them by role, never by an invented personal name. A fabricated "Rabbi D
 
 Restate what's on the table in one or two lines — passage, topic, or dilemma. If a specific text is in play, quote it once at the top so all five are reading the same words. For biblical quotations use the **NET Bible** with attribution (project convention — see the note below), unless the question is specifically about a translation choice, in which case give the Hebrew/Greek and compare renderings.
 
-### 2. Five independent responses
+### 2. Five independent responses — fan out (default)
 
-Each panelist answers **the question actually asked**, in their own voice, using their own method and sources. Order them 1–5 as listed above.
+**Spawn five subagents, one per seat, in a single message so they run concurrently.** Give each one *only* its own persona block from above plus the framed question — never the other personas, never another seat's output. Then write the synthesis yourself from what they return. See "How to fan out" below for the prompt shape.
 
-- **Independent** means each one is written as if they spoke first. No "as the rabbi noted." Cross-talk belongs in the synthesis.
+Each panelist answers **the question actually asked**, in their own voice, using their own method and sources. Present them in order 1–5 as listed above regardless of the order they finish in.
+
+- **Independent** is the whole point, and it is why this fans out by default. A seat that cannot see the others cannot drift toward them. When four seats reach the same finding by four incompatible routes, that convergence is *evidence*; when one model writes all five in sequence, it is an artifact of writing them in sequence. Each one is written as if they spoke first — no "as the rabbi noted." Cross-talk belongs in the synthesis, or in a follow-up cross-examination.
 - **Substantive** means naming actual sources and making actual arguments — "Rashi reads *bereshit* as a construct, so the verse means 'when God began to create'" rather than "the rabbinic tradition emphasizes careful reading."
 - **Honest citation.** Cite only what you actually know. If you're confident a source exists but not of its wording or location, say what it holds without inventing a quotation or a chapter-and-verse. Never fabricate a reference — a plausible-looking fake citation is the worst failure mode this skill has, because it will be believed. Flag genuine uncertainty in-line ("if I recall the Midrash Rabbah passage correctly…") rather than smoothing it over.
 - **Let them disagree with the question.** A panelist may say the question is malformed from where they sit — the skeptic may reject a premise, the rabbi may say the category is Christian and doesn't map. That's a real contribution, not an evasion. But then answer the best available version of it.
@@ -94,6 +96,36 @@ Panel output is a **thinking tool**, not automatically publishable copy. Before 
 - **Quotations** — this is a public repo, and every quoted translation must be one we're licensed to publish. Panel prose may quote NET for Scripture with attribution; anything from Talmud, Midrash, Rashi, ANE texts, or modern scholars needs a licensed source before publication. See `AGENTS.md` → "Sourcing quotations & translations."
 - **Verify before publishing.** Every citation a panelist produced gets checked against a real source before it goes on the site. In conversation an in-line hedge is fine; on the page it isn't.
 
-## Optional: parallel subagents
+## How to fan out
 
-By default the panel runs inline — five sections in one response. If the user explicitly asks for depth ("run each panelist as its own agent", "really dig in"), fan out to five subagents, one per seat, each given only its own persona block and the framed question, then write the synthesis yourself from their returns. This buys genuine independence at the cost of speed and tokens. Don't do it unasked.
+Five `Agent` calls in one message so they run concurrently. Each prompt contains:
+
+1. **One line of framing** — "You are serving as ONE SEAT on a virtual advisory panel. You have been given only your own persona. Do not imagine or reference what other panelists might say — write as if you spoke first."
+2. **That seat's persona block, verbatim** from "The five panelists" above — sources, characteristic moves, and its "watch out for" warning. The warnings matter most in isolation, where there's no other voice to correct a caricature.
+3. **The framed question**, plus file paths for anything they should read themselves rather than receive pre-digested.
+4. **Seat-specific things to address.** This is where the fan-out earns its keep: give each seat the questions only it can answer — audit the rabbinic citations, audit the philology, check the Christology, ask whether the argument is falsifiable. Without this they all write the same general review in five accents.
+5. **Length**, and a reminder that their final message *is* the deliverable — first person, in voice, not a report about what they did.
+
+Then write the synthesis yourself. Do not paste five agent outputs and call it a panel; the synthesis is the part that finds the convergence.
+
+**Cost.** Five agents reading real files is not cheap. That is the right trade for anything going in front of readers, and the wrong one for a passing question — see below.
+
+## When to run inline instead
+
+Inline — five sections written straight into one response — is the fallback, not the default. Use it when:
+
+- The user asks a quick conversational question and wants an answer now, not in two minutes.
+- You are following up on **one** seat ("ask the rabbi to expand on the *gezerah shavah*") or running a **cross-examination** between two. Those are inherently single-threaded and belong inline.
+- The question is small enough that five subagents reading the same short passage would return five paraphrases of each other anyway.
+
+Anything that will be published, handed out, or taught from should fan out. The independence is the product.
+
+## Why this is the default
+
+Run against a finished session handout, the fan-out found things the inline version would have missed, because the seats could not see each other:
+
+- **Four seats independently caught the same overclaim** — a table presented as "a transcription" of *Numbers Rabbah* 12:13 that had quietly substituted its own content. They arrived from four incompatible directions: the rabbi from the midrash, the modern scholar from the Hebrew, the mainline scholar from redaction-critical habit, the skeptic from plain fact-checking. Four methods agreeing is a far stronger signal than one voice being confident.
+- **Two seats independently caught** that Exodus 39:43 does not contain *ṭôḇ*, so a claimed "same formula" was a same *shape*.
+- **The skeptic asked the falsifiability question** nobody else's method requires — what detail in the text would count *against* this reading? — and it went unrebutted by the other four.
+
+None of that survives being written by one voice in one pass, because a single writer smooths toward a house style and toward agreement with what it has already written a paragraph earlier.
