@@ -9,7 +9,10 @@ A source sheet for **Session 4**, gathering the non-biblical evidence that in th
 ancient world a **temple was a small cosmos** and the **cosmos was a great
 temple** — and that a god's "rest" was not a nap but a **residence**.
 
-Two texts, a thousand years and several hundred miles apart:
+— and, in the third section, that the **image** installed in such a building was
+the king, and only the king.
+
+Three sets of texts, spanning fourteen centuries:
 
 1. **Gudea, Cylinder B** (Sumerian, c. 2100 BCE) — a ruler builds a house for his
    god, and the god moves in. This is what a temple dedication *looked like*, five
@@ -17,6 +20,9 @@ Two texts, a thousand years and several hundred miles apart:
 2. **Josephus, *Antiquities of the Jews*** (Greek, c. 93 CE) — a Jewish priest
    explains to a Roman audience that Israel's tabernacle was built "in way of
    imitation and representation of the universe."
+3. **Three letters to Esarhaddon** (Akkadian, 7th century BCE) — a court scholar
+   tells his king, in the exact cognate of Hebrew *ṣelem*, that he **is** the image
+   of the god.
 
 Full provenance and licensing at the foot of the page.
 
@@ -155,7 +161,113 @@ building he is describing.
 
 ---
 
+## 3. "The very image of Bel" — the king as *ṣalmu* (Akkadian, 7th century BCE)
+
+Session 4 argues that Hebrew *ṣelem* in Genesis 1:26–27 means **statue**, and that
+in the ancient world the person who *was* the image of a god was the **king** —
+one man, and that is what made him king. This section is the evidence for that
+claim, because it is the pivot of the argument and should not rest on an
+unsourced assertion.
+
+The witnesses are letters from **Adad-šumu-uṣur**, chief exorcist (*ašipu*) at the
+court of **Esarhaddon**, king of Assyria (reigned 681–669 BCE). These are not royal
+propaganda carved on a wall; they are working correspondence between a scholar and
+his employer, which is why they are good evidence. The idiom is used casually,
+because everyone involved took it for granted.
+
+### The king is the image of Bel
+
+> As to what the king, [my lord], wrote to me: "I heard from the mouth of my father
+> that you are a loyal family, but now I know it from my own experience" — **the
+> father of the king, my lord, was the very image of Bel, and the king, my lord, is
+> likewise the very image of Bel.** This (honour) has fallen to my share from the
+> mouth of my two lords. Who can ever repeat it, who can vie with it?
+> — **SAA 10 228** (= ABL 6), obverse 14–21
+
+The Akkadian at obv. 18–19 is *AD-šú ša LUGAL be-lí-ia* ***ṣa-lam*** ᵈ*EN šu-u / ù
+LUGAL be-lí* ***ṣa-lam*** ᵈ*EN-ma šu-ú* — ***ṣalam Bēl***, "image of Bēl." **Bēl**,
+"Lord," is the standard title of **Marduk**. And *ṣalmu* is the exact cognate of
+Hebrew *ṣelem*: the same Semitic root, the same range of meaning — a carved or cast
+figure, a statue, an effigy.
+
+Two details are worth pausing on. First, the claim is **dynastic**: the father *was*
+the image, the son *is* the image. This is an office that comes with the throne, not
+a compliment about a personality. Second, notice the setting — the scholar is
+thanking the king for a kindness. The theology of kingship is not the subject of the
+letter. It surfaces in passing, the way an assumption does.
+
+### The king is the image of Šamaš
+
+> **The king, the lord of the world, is the very image of Šamaš.**
+> — **SAA 10 196** (= ABL 5), from the same scholar
+
+**Šamaš** is the sun-god and the god of **justice**. The formula is not fixed to one
+deity; it attaches to whichever god's function is in view — mercy from Bēl/Marduk,
+judgment from Šamaš. That flexibility is the strongest sign that this is ordinary
+court vocabulary rather than a single frozen epithet.
+
+### And only the king
+
+> The well-known proverb says: "Man is a shadow of god." [But] is man a shadow of
+> man too? **The king is the perfect likeness of the god.**
+> — **SAA 10 207** (= ABL 652), reverse 9–13; Parpola titles the letter *The Perfect
+> Likeness of the God*
+
+This is the most important of the three and the easiest to miss. The proverb being
+quoted grants something to humanity at large — *man is a shadow of god*. The
+exorcist immediately **narrows it**: ordinary men are shadows of a *man* (the king);
+only the **king** is the likeness of the god. There is a ladder, and exactly one
+person stands on the top rung.
+
+*(A note on precision: the word in this third letter is* muššulu*, "likeness," not*
+ṣalmu*. Only SAA 10 228 and 196 give you the cognate of* ṣelem *itself. Say it that
+way — the concept runs across all three, the lexical match is in the first two.)*
+
+### Why this matters for Genesis 1
+
+Set Genesis 1:26–27 beside these letters, written within a century or two of the
+period most scholars assign to the priestly material, and the shape of the claim
+becomes visible. Same idiom. Same word. **Opposite distribution.**
+
+Assyria: *one man* is the image of the god, and that is what authorises his rule.
+Genesis: *humanity* is the image of God — *"male and female he created them"* —
+and that is what authorises theirs. The most exclusive constitutional claim
+available in the ancient Near East is taken off the king and handed to the species,
+including the half of it that no ancient constitution counted.
+
+The point is not that Israel borrowed an idea from Mesopotamia. It is that Israel
+took the ancient world's charter of privilege and **published it to everyone** —
+which is a far more aggressive thing to do than to borrow. And it is why, when the
+serpent later offers to make someone "like God," he is offering a promotion to a
+post already held.
+
+---
+
 ## Provenance & licensing
+
+### The Esarhaddon letters (SAA 10)
+
+- **Originals:** Neo-Assyrian letters on clay, 7th century BCE, from the royal
+  archives at Nineveh; conventionally cited by their numbers in **Simo Parpola,
+  *Letters from Assyrian and Babylonian Scholars*** (State Archives of Assyria 10,
+  Helsinki University Press, 1993) and by their older *ABL* numbers. The ancient
+  texts are in the **public domain**.
+- **Edition used:** the **State Archives of Assyria online (SAAo)** sub-project of
+  **[Oracc](http://oracc.org/)**, the Open Richly Annotated Cuneiform Corpus —
+  translation adapted from Parpola (SAA 10, 1993), lemmatised by **Mikko Luukko**
+  (2016) under the Alexander von Humboldt Chair in the Ancient History of the Near
+  and Middle East, LMU Munich (Karen Radner). Retrieved 2026-07-31.
+- **License:** the annotated edition is released under
+  **[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)**. Quoted
+  verbatim, with Oracc's editorial brackets retained (`[ ]` = restored text,
+  `( )` = translator's clarification); bold emphasis within quotations is ours.
+- **Cite as** (Oracc's prescribed form): SAA 10 228 = <http://oracc.org/saao/P333958/>;
+  SAA 10 196 = <http://oracc.org/saao/P333957/>; SAA 10 207 =
+  <http://oracc.org/saao/P334452/>.
+- **Transliteration convention:** in the Akkadian quoted above, capitals are
+  Sumerian logograms (LUGAL = "king", ᵈEN = the divine name Bēl), lowercase is
+  syllabic Akkadian, and hyphens separate signs — so *ṣa-lam* is the two signs
+  spelling *ṣalam*, the construct form of *ṣalmu*.
 
 ### Gudea Cylinders A and B
 

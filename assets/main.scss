@@ -160,6 +160,9 @@
 
 /* Compact forming/filling parallel table reads as two panels. */
 .ff-table td:nth-child(2) { text-align: center; color: #888; white-space: nowrap; }
+/* Sessions whose second column holds prose, not a day number: let every column
+   wrap so the table costs width instead of forcing a nowrap run. */
+.ff-wrap td, .ff-wrap th { white-space: normal !important; text-align: left; }
 
 @media print {
   /* Retain the structure colors in print — the gold center, green goal, indigo
