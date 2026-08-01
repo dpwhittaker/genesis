@@ -12,9 +12,9 @@ layout: default
 
 ## A note before we begin
 
-Three sessions ago we set a question on the shelf and promised to come back for it. Today we come back.
+Last week we set a question on the shelf and promised to come back for it. Today we come back.
 
-Session 3 ended with twenty-eight open problems and no answers, and we asked you to carry them for two weeks without flinching. If that was uncomfortable, thank you for doing it anyway. Seven of those twenty-eight live in Genesis 1:1–2:3, and today we walk each one — but not the way you might expect.
+Session 3 ended with twenty-eight open problems and no answers, and we asked you to carry them for a week without flinching. If that was uncomfortable, thank you for doing it anyway. Seven of those twenty-eight live in Genesis 1:1–2:3, and today we walk each one — but not the way you might expect.
 
 **We are not going to solve them.** That needs saying plainly, because the moment a difficulty is named, most of us feel a strong pull to make it go away — to produce the explanation, close the file, and get the discomfort over with. That reflex is understandable and it is the wrong tool here. A signpost is not a pothole. You do not repair it; you read it and go where it points.
 

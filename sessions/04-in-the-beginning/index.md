@@ -23,7 +23,7 @@ Two companion podcasts for this session — good before you read, or to revisit 
 
 ## A note before we begin
 
-Three sessions ago we made a list of twenty-eight problems in Genesis and solved exactly none of them. Seven of them live in Genesis 1:1–2:3. Today we come back for those seven — and we are still not going to solve them.
+Last week we made a list of twenty-eight problems in Genesis and solved exactly none of them. Seven of them live in Genesis 1:1–2:3. Today we come back for those seven — and we are still not going to solve them.
 
 That needs saying plainly, because the pull to make a difficulty disappear is strong, and it is the wrong tool here. **A signpost is not a pothole.** You do not repair it. You read it and go where it points.
 
