@@ -10,10 +10,31 @@ Usage:
     python3 .claude/skills/print-session/analyze-pdf.py pdf/01-the-neighbors-stories.pdf
 
 Per page it reports: vertical fullness %, character count, and the first heading.
-Warns on sparse pages (<25% — a section is probably overflowing from the page
-before) and on overfull pages (>97% — content may be getting clipped). Prints the
-total page count and whether it is even (handouts print double-sided; an odd
-count wastes a blank back page).
+
+Warnings:
+  sparse (<25%)    a section is probably overflowing from the page before
+  overfull (>97%)  content may be getting clipped
+  tight            under 0.6in of headroom below the last content: renders fine
+                   here but spills in a real print environment with slightly less
+                   usable height than headless Chrome — most commonly because
+                   "Headers and footers" is enabled in the browser's print dialog,
+                   which reserves roughly 0.4in top and bottom
+  orphan           a `.discuss` box is the first thing on the page, i.e. it was
+                   pushed off the section it belongs to
+
+Why both: this analyzer once passed a handout clean while two discussion boxes
+were visibly spilling on paper. The render here was genuinely fine — the boxes
+only jumped in the user's own print, which had less usable height. The boxes
+carry `page-break-inside: avoid`, so they move whole rather than splitting, and
+the pages holding them had ~2 lines to spare.
+
+`tight` is the predictive check: it flags a page that renders fine but has too
+little margin for error to survive a real printer. `orphan` is the confirmatory
+one: it catches a box that has already been pushed off its section in this
+render. Density and page count alone see neither.
+
+Prints the total page count and whether it is even (handouts print double-sided;
+an odd count wastes a blank back page).
 
 Exit code 0 = no warnings, 1 = warnings found.
 """
@@ -24,7 +45,14 @@ import fitz  # pymupdf
 MARGIN_PT = 36.0          # 0.5in margins baked in by the PDF renderer
 SPARSE = 0.25             # below this fullness -> warn (section overflow)
 OVERFULL = 0.97           # above this -> warn (possible clipping)
+TIGHT_IN = 0.60           # less headroom than this (inches) -> warn.
+                          # Calibrated on a real failure: discussion boxes spilled
+                          # on paper at 0.42in of headroom and sat fine at 0.72in.
 BODY_PT = 12.0            # spans larger than this are treated as headings
+
+# Text that marks an atomic, unsplittable callout box (.discuss in the markdown).
+# If one of these opens a page, it was pushed off its own section.
+BOX_MARKERS = ("Talk about it",)
 
 
 def page_report(page):
@@ -58,7 +86,21 @@ def page_report(page):
     else:
         fullness = max(0.0, min(1.0, (bottom - MARGIN_PT) / usable_h))
 
-    return {"fullness": fullness, "chars": char_count, "heading": first_heading}
+    # Headroom left below the last content, in inches — what a print environment
+    # with slightly less usable height than headless Chrome has to eat into.
+    headroom_in = max(0.0, (1.0 - fullness) * usable_h) / 72.0
+
+    # An atomic callout box that opens the page has been pushed off its section.
+    lines = [l.strip() for l in page.get_text("text").strip().splitlines() if l.strip()]
+    orphan_box = bool(lines) and lines[0].startswith(BOX_MARKERS)
+
+    return {
+        "fullness": fullness,
+        "chars": char_count,
+        "heading": first_heading,
+        "headroom_in": headroom_in,
+        "orphan_box": orphan_box,
+    }
 
 
 def main():
@@ -71,11 +113,12 @@ def main():
     warnings = []
 
     print(f"{sys.argv[1]} — {n} page{'s' if n != 1 else ''}\n")
-    print(f"{'pg':>3}  {'full':>5}  {'chars':>6}  heading")
-    print("-" * 64)
+    print(f"{'pg':>3}  {'full':>5}  {'room':>5}  {'chars':>6}  heading")
+    print("-" * 72)
     for i, page in enumerate(doc, start=1):
         r = page_report(page)
         pct = f"{r['fullness'] * 100:4.0f}%"
+        room = f"{r['headroom_in']:4.2f}\""
         flag = ""
         # A near-empty final page is fine; a sparse interior page means overflow.
         if r["fullness"] < SPARSE and i != n:
@@ -84,9 +127,17 @@ def main():
         elif r["fullness"] > OVERFULL:
             flag = "  <- overfull: content may be clipped"
             warnings.append((i, "overfull"))
-        print(f"{i:>3}  {pct:>5}  {r['chars']:>6}  {r['heading'][:60]}{flag}")
+        elif r["headroom_in"] < TIGHT_IN:
+            flag = f"  <- tight: only {r['headroom_in']:.2f}\" headroom; may spill when printed"
+            warnings.append((i, "tight"))
+        print(f"{i:>3}  {pct:>5}  {room:>5}  {r['chars']:>6}  {r['heading'][:50]}{flag}")
+        if r["orphan_box"]:
+            print(f"{'':>3}  {'':>5}  {'':>5}  {'':>6}  "
+                  f"<- orphan: a discussion box opens this page — it was pushed "
+                  f"off its section")
+            warnings.append((i, "orphan box"))
 
-    print("-" * 64)
+    print("-" * 72)
     even = (n % 2 == 0)
     print(f"total pages: {n}  ({'even — good for double-sided' if even else 'odd — wastes a blank back page when printed double-sided'})")
     if warnings:

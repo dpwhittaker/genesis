@@ -19,7 +19,7 @@ After a session's *content* is final. Page-break placement is a dedicated finish
 - **Local preview server** — `genesis-preview.service` runs `./serve-local.sh` (Jekyll on `127.0.0.1:4000`, `--baseurl /genesis`), built from `Gemfile.local` into `vendor/bundle` (all gitignored / excluded from the published site). It is also wired as the project's claude-hub Open target via `.project-meta.json` (`proxyTarget`), so `/genesis/` on the landing page shows this live preview.
 - **Tools** (in this skill dir):
   - `handout-to-pdf.js` — renders a page to `pdf/<slug>.pdf` (headless Chrome, print media emulated). `--local` targets the preview server; otherwise the deployed site.
-  - `analyze-pdf.py` — reports per-page fullness, char count, and first heading; flags sparse/overfull pages; checks even page count.
+  - `analyze-pdf.py` — reports per-page fullness, headroom in inches, char count, and first heading; flags sparse / overfull / **tight** pages and **orphaned discussion boxes**; checks even page count.
 
 ## Markers you place in the markdown
 
@@ -79,9 +79,32 @@ python3 .claude/skills/print-session/analyze-pdf.py pdf/<NN-slug>.pdf
 Read the analyzer output:
 - **`sparse` interior page (<25% full)** — the section before it overflowed by a little and dragged a sliver onto a near-empty page. Tighten that section (steps above) or move a `<div class="page-break">` earlier so the split lands cleanly.
 - **`overfull` page (>97%)** — content may be clipping; add a break or trim.
+- **`tight` page (under 0.6in headroom)** — renders fine *here* and still spills on a real printer. Treat it as a real failure, not a cosmetic one; trim that page until it clears 0.6in. See "Leave headroom" below.
+- **`orphan` discussion box** — a `.discuss` box is the first thing on a page, meaning it got pushed off the section it belongs to. Trim the previous page or move the break.
 - **odd total page count** — relax a break or expand a section to reach an even count.
 
 Iterate until no warnings and the page count is even. Then the session is handout-ready.
+
+## Leave headroom — the renderer is not the printer
+
+A page can render perfectly here and still break on paper. Headless Chrome and a
+person's print dialog do not have identical usable height: **"Headers and footers"
+is on by default in Chrome's print dialog and reserves roughly 0.4in top and
+bottom.** A page with less headroom than that will reflow when actually printed.
+
+This bit us on session 4. Two discussion boxes jumped to the following page on
+paper while the analyzer reported "no warnings" — because the render *was* clean.
+The pages holding them had ~0.42in of headroom, and the boxes carry
+`page-break-inside: avoid`, so they cannot split; they move whole. Trimming those
+pages to ~0.8in of headroom fixed it.
+
+So: **aim for at least 0.6in of headroom on every page** (the analyzer's `room`
+column, and the threshold for its `tight` warning). Density is not the same as
+safety — a page at 92% full with a 5% unsplittable box at the bottom is one
+printer setting away from being a 9-page handout.
+
+Worth telling the user once: unchecking "Headers and footers" in the print dialog
+buys back that space. But the handout should not depend on it.
 
 ## Notes / gotchas
 
