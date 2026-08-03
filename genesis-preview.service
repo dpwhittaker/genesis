@@ -4,12 +4,17 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/home/david/projects/genesis/serve-local.sh 4000
+# serve-local.sh spawns Jekyll behind a thin Node front (sync-server.js), so
+# BOTH Ruby (system PATH) and Node (nvm) have to resolve. A pinned
+# Environment=PATH without the nvm bin dir makes this exit 127 "node: not
+# found". Source nvm inline — a login shell alone won't do it in a
+# non-interactive systemd context. No node version is pinned here, so the
+# unit follows whatever nvm's default alias points at.
+ExecStart=/bin/bash -lc 'export NVM_DIR=$HOME/.nvm && . $NVM_DIR/nvm.sh && exec ./serve-local.sh 4000'
 WorkingDirectory=/home/david/projects/genesis
 Restart=always
 RestartSec=3
 User=david
-Environment=PATH=/usr/local/bin:/usr/bin:/bin
 Environment=LANG=C.UTF-8
 
 [Install]

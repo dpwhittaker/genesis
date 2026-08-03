@@ -13,7 +13,7 @@ Genesis lessons ship with two podcasts (a long and a shorter one) generated from
 
 - Control is **not** over Tailscale and **not** a port/tunnel. The Claude-in-Chrome extension pairs a browser to your **claude.ai account**; any Chrome with the extension, signed into the *same account as this Claude session*, appears in `list_connected_browsers`. (claude-hub launches `claude --chrome`, so the integration is already enabled — but it does not itself pick the browser.)
 - `file_upload` reads files from **this machine** (the one running Claude) and pushes them into the remote page's file input, ≤10 MB per call — so uploading sources works even if the browser is elsewhere.
-- **Downloads go to the machine the browser runs on.** The user wants the audio to land here in the repo, so **prefer a Chrome on/reachable from this machine**. In practice the paired browser named "gpu-server" is the **Windows host's Chrome**, and WSL2 sees its downloads at **`/mnt/c/Users/<WinUser>/Downloads/`** (e.g. `/mnt/c/Users/David/Downloads/`) — that's where the `.m4a` files appear, not `~/Downloads`. Only fall back to the mini-pc browser for debugging / watching clicks (then the file is on the mini-pc and must be `scp`'d back — step 7 fallback).
+- **Downloads go to the machine the browser runs on.** The user wants the audio to land here in the repo, so **prefer the Chrome running on this host** — this machine has a desktop session with `google-chrome` installed, and its downloads land in `~/Downloads`, on the same filesystem as the repo. Only fall back to a browser on another device for debugging / watching clicks (then the file is on that device and must be copied back — step 7 fallback).
 
 ## Prerequisites — check, and stop with a clear message if unmet
 
@@ -82,14 +82,14 @@ If the user named specific topics, replace the focus sentence with those topics.
 
 When an episode is ready (Studio shows it with a duration, a ▶ play button, and a ⋮ menu), open its **⋮ → Download**. NotebookLM saves it named after the episode's auto-title, e.g. `The_Mathematical_Architecture_of_Genesis_1.m4a`.
 
-- **Paired "gpu-server" Chrome (what actually happens):** it's the Windows host's Chrome, so downloads land at **`/mnt/c/Users/<WinUser>/Downloads/`** (e.g. `/mnt/c/Users/David/Downloads/`). Move both into the session folder — the LONGER (bigger/longer duration) is the long one:
+- **Chrome on this host (the normal case):** downloads land in `~/Downloads`. Move both into the session folder — the LONGER (bigger/longer duration) is the long one:
   ```bash
-  DL=/mnt/c/Users/David/Downloads
+  DL=~/Downloads
   mv "$DL/<long-episode-title>.m4a"   sessions/<slug>/Longer_Podcast.m4a
   mv "$DL/<medium-episode-title>.m4a" sessions/<slug>/Medium_Podcast.m4a
   ```
   Match the existing naming style — session 1 uses `Longer_Podcast.m4a` / `Shorter_Podcast.m4a`.
-- **Browser on the mini-pc (debug fallback):** the file is on the mini-pc; this server can't pull from it (WSL2 has no Tailscale route to the mini-pc), so have the user push it — from the mini-pc: `scp <file> gpu-server:~/projects/genesis/sessions/<slug>/`.
+- **Browser on another device (debug fallback):** the file is on that device. Both machines are on the tailnet, so either pull it (`scp <peer>:<file> sessions/<slug>/`) or have the user push it — from that device: `scp <file> gpu-server:~/projects/genesis/sessions/<slug>/`.
 
 Then confirm both files exist and are non-trivial in size (`ls -lh sessions/<slug>/*.m4a`). Verify duration if `ffprobe` is available.
 
