@@ -72,7 +72,13 @@ function slugify(arg) {
 async function main() {
   const rawArgs = process.argv.slice(2);
   const useLocal = rawArgs.includes('--local');
-  const pos = rawArgs.filter((a) => a !== '--local');
+  // Chrome's print dialog ships with "Headers and footers" CHECKED, and it
+  // reserves roughly 0.4in top and bottom for that chrome — space this render
+  // otherwise hands to content. A handout that fits without the reserve prints
+  // longer than it measures. --print-safe renders the page the reader actually
+  // gets; see SKILL.md, "Leave headroom".
+  const printSafe = rawArgs.includes('--print-safe');
+  const pos = rawArgs.filter((a) => a !== '--local' && a !== '--print-safe');
   const arg = pos[0];
   if (!arg) {
     console.error('Usage: node handout-to-pdf.js [--local] <slug|site-path|url> [out.pdf]');
@@ -96,6 +102,13 @@ async function main() {
       throw new Error(`page load failed: HTTP ${resp ? resp.status() : '??'} for ${url}`);
     }
     await page.emulateMediaType('print');
+    if (printSafe) {
+      // main.scss declares `@page { margin: 0.5in }`, and a CSS @page margin
+      // beats puppeteer's `margin` option — so the reserve has to be injected
+      // as a later @page rule, not passed to page.pdf().
+      const vm = process.env.PRINT_SAFE_MARGIN || '0.95in';
+      await page.addStyleTag({ content: `@page { size: letter; margin: ${vm} 0.5in; }` });
+    }
     await page.pdf({
       path: outPath,
       format: 'Letter',

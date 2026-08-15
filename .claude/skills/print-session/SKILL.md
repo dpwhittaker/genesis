@@ -59,8 +59,10 @@ Iterate against the **local** server — each cycle is edit → render → analy
 systemctl is-active genesis-preview.service || (./serve-local.sh &)
 
 # loop: edit <div class="page-break"></div> markers in sessions/<NN-slug>/index.md,
-#       then render the LOCAL build (working tree, no commit) and analyze:
-node .claude/skills/print-session/handout-to-pdf.js --local <NN-slug>
+#       then render the LOCAL build (working tree, no commit) and analyze.
+#       --print-safe reserves the space Chrome's print dialog takes for its
+#       header/footer; without it the page count reads low. Always use it.
+node .claude/skills/print-session/handout-to-pdf.js --local --print-safe <NN-slug>
 source ~/ml-env/bin/activate
 python3 .claude/skills/print-session/analyze-pdf.py pdf/<NN-slug>.pdf
 # repeat until no warnings + even page count.
@@ -92,19 +94,53 @@ person's print dialog do not have identical usable height: **"Headers and footer
 is on by default in Chrome's print dialog and reserves roughly 0.4in top and
 bottom.** A page with less headroom than that will reflow when actually printed.
 
-This bit us on session 4. Two discussion boxes jumped to the following page on
-paper while the analyzer reported "no warnings" — because the render *was* clean.
-The pages holding them had ~0.42in of headroom, and the boxes carry
-`page-break-inside: avoid`, so they cannot split; they move whole. Trimming those
-pages to ~0.8in of headroom fixed it.
+**Use `--print-safe` and this stops being guesswork.** It injects a later
+`@page { margin: 0.95in 0.5in }` rule, reproducing the ~0.8in the print dialog
+takes for its header and footer, so the render *is* the page the reader gets:
 
-So: **aim for at least 0.6in of headroom on every page** (the analyzer's `room`
-column, and the threshold for its `tight` warning). Density is not the same as
-safety — a page at 92% full with a 5% unsplittable box at the bottom is one
-printer setting away from being a 9-page handout.
+```bash
+node .claude/skills/print-session/handout-to-pdf.js --local --print-safe <NN-slug>
+```
+
+The injection matters: `main.scss` declares `@page { margin: 0.5in }`, and **a CSS
+`@page` margin beats puppeteer's `margin` option**, so passing margins to
+`page.pdf()` silently does nothing. Override the rule, not the option.
+
+Session 5 is the cautionary tale. The default render said 8 clean pages; the user
+printed 12, with three pages holding a few lines and one blank. Reserving the
+0.95in reproduced all 12 exactly — the analyzer had been measuring a page that
+does not exist. Guess the ratio from a page-count report if you ever need to: for
+exactly the pages at 92–93% to spill while a 90% page holds, usable height must be
+~0.91× the optimistic render, which is the header/footer reserve.
+
+Two consequences worth internalising:
+
+- **Under `--print-safe`, the `tight` warning double-counts.** The reserve is
+  already subtracted, so 0.55in of residual room is 0.55in of *real* slack. Don't
+  trim prose chasing it. To check robustness properly, re-render at a larger
+  reserve — `PRINT_SAFE_MARGIN=1.25in` — and confirm the page count holds.
+- **In a flowing layout, `tight` mostly isn't a defect at all.** The gap at a page
+  foot *is* the block that would not fit; Chrome has already broken safely. The
+  warning earns its keep on pages packed against a forced break.
+
+Density is not the same as safety — a page at 92% full with a 5% unsplittable box
+at the bottom is one printer setting away from being a 9-page handout.
 
 Worth telling the user once: unchecking "Headers and footers" in the print dialog
 buys back that space. But the handout should not depend on it.
+
+## Forced breaks are expensive — flow first
+
+A `<div class="page-break">` before every `##` looks tidy in the markdown and
+costs, on average, **half a page each**. Session 5 ran 14 pages with thirteen
+breaks and **8 pages with one**, on essentially the same text — the section-per-page
+rule, not the word count, was the page count.
+
+So when a handout must hit a page budget: **delete the breaks, render, and see what
+flow gives you** before cutting a single sentence. Then spend the leftover slack on
+one or two breaks at the boundaries that matter most, re-rendering to confirm the
+count holds. Sections starting mid-page is normal for a dense handout; that is what
+the `h2 { page-break-after: avoid }` rule is there to make safe.
 
 ## Notes / gotchas
 

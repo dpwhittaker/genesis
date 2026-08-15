@@ -27,7 +27,7 @@ Two warnings, both kind ones.
 
 **First:** today's subject is shame, and shame is not an abstraction for anybody. Somewhere in this handout you will probably meet a sentence that lands closer to home than you expected. If it does, that is the material working, not you failing. Nothing here requires you to say anything out loud that you would rather not.
 
-**Second:** last session was heavy machinery — seven problems, one at a time. Today is built differently. **One thread, pulled all the way through.** Twenty-one of Session 3's twenty-eight problems live in Genesis 2–3, and they will come off the list as we go, but the list is not the plan. The thread is the plan.
+**Second:** last session was heavy machinery — seven problems, one at a time. Today is built differently: **one thread, pulled all the way through.** Twenty-one of Session 3's twenty-eight problems live in Genesis 2–3, and they come off the list as we go — but the list is not the plan. The thread is the plan.
 
 ## Aim of this session
 
@@ -39,44 +39,40 @@ And it turns out to be the way into the question this class has been asking: **w
 
 Four movements: what nakedness was **before**, **who** the snake is, **how** he works — a repeatable technique, running today — and **what he actually delivers**, which is not what he advertises.
 
-<div class="page-break"></div>
-
 ## Part 1 — Naked, and not ashamed
 
 > The man and his wife were both naked, but they were not ashamed. *(Genesis 2:25)*
 
-Of everything the narrator could have told us about unfallen humanity, he picks this *(problem 10)*. The strangeness is the point, because the sentence is a hinge: it closes the creation of the woman, opens the arrival of the snake, and is the only verse in the story that faces both directions.
+Of everything the narrator could have told us about unfallen humanity, he picks this *(problem 10)*. The strangeness is the point: the sentence is a hinge, closing the creation of the woman and opening the arrival of the snake — the only verse that faces both directions.
 
 It is not describing innocence as ignorance. It is describing the **absence of a gap**: nothing about them requires managing, editing, or covering — no part of the self held back from the other, and none held back from God.
 
-Put the two halves together and you get a combination none of us has experienced for long. **Completely exposed. Entirely unafraid.** We know exposure and we know safety, and we know them as a *trade* — the more of one, the less of the other. Genesis opens with a world where they are the same condition, and calls that condition *home*.
+Put the two halves together and you get a combination none of us has experienced for long. **Completely exposed. Entirely unafraid.** We know exposure and safety as a *trade* — the more of one, the less of the other. Genesis opens with a world where they are the same condition, and calls it *home*.
 
 **And "naked" is not a neutral word in this building.** Last session ended with the claim that the cosmos is a temple. Genesis 2 walks you inside, and the garden is the inner room. The text keeps saying so in the technical vocabulary:
 
-- The man is put there **"to care for it and to maintain it"** (2:15) — *ʿāḇaḏ* and *šāmar*, the exact verb pair Numbers uses for the duty of the **Levites** in the sanctuary (Numbers 3:7–8; 8:26).
-- God is heard **"moving about in the orchard"** (3:8) — *mithallēk*, the form used for God's presence **in the camp and the tabernacle** (Leviticus 26:12; 2 Samuel 7:6–7).
-- **Cherubim** guard the way at the end (3:24) — the beings woven into the tabernacle veil. Their verb is *lišmōr*, **to guard**: the man's own job from 2:15, reassigned to angels after he fails it.
+- The man is put there **"to care for it and to maintain it"** (2:15) — *ʿāḇaḏ* and *šāmar*, the exact verb pair Numbers uses for the duty of the **Levites** in the sanctuary (Numbers 3:7–8).
+- God is heard **"moving about in the orchard"** (3:8) — *mithallēk*, the form used for God's presence **in the camp and the tabernacle** (Leviticus 26:12).
+- **Cherubim** guard the way at the end (3:24) — woven into the tabernacle veil, and their verb is *lišmōr*, **to guard**: the man's own job from 2:15, reassigned to angels after he fails it.
 
-And **Jubilees**, a Hebrew retelling from around **160–150 BCE**, applies the purity laws for entering the *sanctuary* to entering *Eden*, on the stated grounds that **"it is holier than all the earth besides"** ([Jubilees 3:12–19](texts/second-temple-sources.md)).
+And **Jubilees** (c. **160–150 BCE**) applies the purity laws for entering the *sanctuary* to entering *Eden*, on the grounds that **"it is holier than all the earth besides"** ([3:12–19](texts/second-temple-sources.md)).
 
-That changes what 2:25 is saying. **In a sanctuary, nakedness is not a wardrobe issue. It is a vestment issue.** Priests may not climb steps to the altar *"so that your nakedness is not exposed"* (Exodus 20:26). And one law states the whole of Genesis 3:8–10 in advance:
+That changes what 2:25 is saying. **In a sanctuary, nakedness is not a wardrobe issue. It is a vestment issue.** Priests may not climb the altar steps *"so that your nakedness is not exposed"* (Exodus 20:26). And one law states Genesis 3:8–10 in advance:
 
 > Since the LORD your God **walks about** in the middle of your camp… your camp is to be holy, so that he does not see **anything indecent** among you and turn away from you. *(Deuteronomy 23:14 — "anything indecent" is* ʿerwat dāḇār, *"the nakedness of a thing")*
 
 **Walking. Nakedness. Turning away.** That is the vocabulary of Genesis 3 in the form of a statute.
 
-So Genesis is not telling us they hadn't invented clothes. It is saying that in the one place where being uncovered is a problem, **they had no problem** — which suggests something was already covering them. The earliest readers all reached for the same answer: **glory.**
+So Genesis is not telling us they hadn't invented clothes. It is saying that in the one place where being uncovered is a problem, **they had no problem** — something was already covering them. The earliest readers all reached for the same answer: **glory.**
 
-- **Apocalypse of Moses 20** (first century CE), Eve speaking: *"I knew that I was bare of the righteousness with which I had been clothed… thou hast **deprived me of the glory with which I was clothed**."*
-- **Rabbi Meir** (second century) is reported to have had a Torah scroll that read, at 3:21, not *kotnôt ʿôr*, garments of **skin**, but *kotnôt ʾôr* — **garments of light** (*Genesis Rabbah* 20:12). One letter apart in Hebrew.
+- **Apocalypse of Moses 20** (first century CE), Eve: *"I knew that I was bare of the righteousness with which I had been clothed… thou hast **deprived me of the glory with which I was clothed**."*
+- **Rabbi Meir** (second century) is reported to have had a Torah scroll reading, at 3:21, not *kotnôt ʿôr*, garments of **skin**, but *kotnôt ʾôr* — **garments of light** (*Genesis Rabbah* 20:12). One letter apart in Hebrew.
 
-None of that is in Genesis. All of it is what Genesis's first readers thought Genesis meant ([two more witnesses say the same](texts/second-temple-sources.md)). When independent witnesses fill a silence the same way, the silence is worth respecting.
+None of that is in Genesis. All of it is what its first readers thought it meant ([two more say the same](texts/second-temple-sources.md)). When independent witnesses fill a silence the same way, the silence is worth respecting.
 
 <div class="discuss" markdown="1">
 **Talk about it.** "Completely exposed, entirely unafraid." Name one relationship where you get closest to that — and one place where you spend real energy on the covering. What does the energy cost you?
 </div>
-
-<div class="page-break"></div>
 
 ## Part 2 — The one who is *ʿārûm*
 
@@ -86,9 +82,9 @@ Now the sentence that follows — in Hebrew the two sit in consecutive breaths *
 
 English cannot show it. The storyteller has rhymed their **condition** with his **character** — and the first thing to ask is why.
 
-**Because it is not a bad word.** *ʿārûm* appears eleven times in the Hebrew Bible; eight are in **Proverbs**, and in every one it is a compliment. The *ʿārûm* is the **prudent** person, who sees trouble coming and takes cover (22:3), who *"ponders their course"* while the simple believe anything (14:15). This is a wisdom virtue. It is what Proverbs is *for*.
+**Because it is not a bad word.** *ʿārûm* appears eleven times in the Hebrew Bible; eight are in **Proverbs**, and in every one it is a compliment. The *ʿārûm* is the **prudent** person, who sees trouble coming and takes cover (22:3) and *"ponders their course"* while the simple believe anything (14:15). This is a wisdom virtue — what Proverbs is *for*.
 
-So the villain of Genesis 3 is not stupidity, and not obvious malice. **He is prudence** — the very quality the wisdom books tell you to cultivate, run in reverse. And Proverbs supplies the reverse in so many words:
+So the villain of Genesis 3 is not stupidity, and not obvious malice. **He is prudence** — the quality the wisdom books tell you to cultivate, run in reverse. Proverbs supplies the reverse in so many words:
 
 > A fool's annoyance is known at once, but **one who covers over shame** *(kōseh qālôn)* **is shrewd** *(ʿārûm)*. *(Proverbs 12:16)*
 
@@ -100,19 +96,17 @@ The *ʿārûm* of Proverbs **covers shame**. The *ʿārûm* of Genesis 3 **strip
 
 **2. Second Temple Judaism starts to name him.** *"By the **envy of the devil**, death came into the world"* (Wisdom of Solomon 2:24, first century BCE) — and **3. the New Testament states it flatly**: *"The ancient serpent, who is called the devil and Satan"* (Revelation 12:9).
 
-**4. The rabbis mostly went a third way** — the one most useful on a Tuesday. For them the snake is the ***yetzer ha-raʿ***, the **evil inclination**: not a creature outside you but a pull inside you. **Reish Lakish** (third century) collapses the cast into one — *"Satan, the evil inclination, and the Angel of Death **are one**"* — the voice that *"seduces people and then accuses them"* ([*Bava Batra* 16a](texts/rabbinic-sources.md)).
+**4. The rabbis mostly went a third way**, the one most useful on a Tuesday: the snake is the ***yetzer ha-raʿ***, the **evil inclination** — not a creature outside you but a pull inside you. **Reish Lakish** (third century) collapses the cast into one — *"Satan, the evil inclination, and the Angel of Death **are one**"* — the voice that *"seduces people and then accuses them"* ([*Bava Batra* 16a](texts/rabbinic-sources.md)).
 
-These are frames, not rivals. But notice what each costs. If the snake is only an enemy *outside* you, this story is about **security**, and you will spend your life watching the perimeter. If he is also the voice you carry, it is about **you**.
+These are frames, not rivals — but notice what each costs. If the snake is only an enemy *outside* you, this story is about **security**, and you will spend your life watching the perimeter. If he is also the voice you carry, it is about **you**.
 
 **And here is the tell.** In Hebrew the snake speaks **twenty-six words**, in two short speeches, and never speaks again. He never touches the fruit. He asks one question, contradicts one sentence, supplies one motive — **and exits before verse six.**
 
-Everything after that is human: the seeing, the wanting, the taking, the giving, the sewing, the hiding, the blaming. Whoever the snake is, **the story is not about him** — and a class that spends all its energy identifying him has been drawn off exactly the way the man was, into talking about somebody else.
+Everything after that is human: the seeing, the wanting, the taking, the giving, the sewing, the hiding, the blaming. Whoever the snake is, **the story is not about him** — and a class that spends its energy identifying him has been drawn off exactly the way the man was.
 
 <div class="discuss" markdown="1">
 **Talk about it.** Genesis had every serpent myth in the ancient world available and chose to call this one a field animal God made. What changes in how you carry this story if the snake is *not* a rival power — and what do you lose?
 </div>
-
-<div class="page-break"></div>
 
 ## Part 3 — The con, in four moves
 
@@ -226,8 +220,6 @@ He does not lift the exile — 3:23–24 stands, the consequence is real and the
 
 Their covering worked with each other and failed in the presence. His works in the presence, which is the only place it was ever needed.
 
-<div class="page-break"></div>
-
 **And one line before they go** *(problem 13)*. In the middle of a death sentence, having just been told he is dust, the man turns and names his wife **Eve — "mother of all the living"** (3:20). It is the first act of hope in the Bible, and it happens **inside the curse**.
 
 <div class="discuss" markdown="1">
@@ -245,8 +237,6 @@ It would be dishonest to quote only the sources that agree with us. Four places 
 
 **A warning the tradition aims at us.** *Genesis Rabbah* 19:1 opens on the snake not with the snake but with Ecclesiastes — *"he who increases knowledge increases pain"* — and then, in the name of **Rabbi Meir**: *"The downfall of the serpent was in accordance with its greatness — **the more cunning, the more cursed**."* The midrash's warning about this chapter is pointed at the **clever**, not the foolish. Which is to say: at a group that has spent five sessions getting good at this.
 
-<div class="page-break"></div>
-
 ## Part 6 — So what?
 
 Five things. They are all versions of one thing.
@@ -261,7 +251,7 @@ Five things. They are all versions of one thing.
 
 **5. Let yourself be dressed.** The fig leaves were not wicked. They were just not adequate to the room. And the last thing God does inside the garden is make a covering that is — one that costs something, and that they did not make.
 
-**And that thread runs the length of the Bible.** God finds Israel *"naked and bare,"* covers her, and calls the covering a **covenant** (Ezekiel 16:7–8). An accuser stands up against a high priest in filthy clothes, and the answer is not a counter-argument but a **change of clothes** (Zechariah 3:1–5). A father calls for the **best robe** before his son's rehearsed confession is finished (Luke 15:22). A church convinced it needs nothing is told to buy *"white clothing so you can be clothed"* (Revelation 3:17–18). And Paul, refusing to let any of this become an escape from the body, says the hope is *"not that we want to be **unclothed**, but **clothed**"* (2 Corinthians 5:4).
+**And that thread runs the length of the Bible.** God finds Israel *"naked and bare,"* covers her, and calls the covering a **covenant** (Ezekiel 16:7–8). An accuser stands up against a high priest in filthy clothes, and the answer is not a counter-argument but a **change of clothes** (Zechariah 3:1–5). A father calls for the **best robe** before his son's rehearsed confession is finished (Luke 15:22). And Paul, refusing to let any of this become an escape from the body, says the hope is *"not that we want to be **unclothed**, but **clothed**"* (2 Corinthians 5:4).
 
 **And then the inversion that ends it.** Philippians 2:6 says of Christ that he *"did not regard **equality with God** as something to be **grasped**."* That is Genesis 3:5, run backwards, in the same words. The snake offered godlikeness **by seizure** to two people who had already been given the image. The second Adam, who was *in the form of God*, declined the grasp — *"emptied himself,"* and was **stripped**, and died with nothing on, in public.
 
