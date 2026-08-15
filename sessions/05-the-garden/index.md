@@ -68,6 +68,8 @@ Now put those together, because it changes what 2:25 is saying. **In a sanctuary
 
 So when Genesis says they were naked and unashamed *in the sanctuary*, it is not saying they hadn't invented clothes. It is saying that in the one place in the world where being uncovered is a problem, **they had no problem** — which suggests something was already covering them.
 
+<div class="page-break"></div>
+
 The earliest readers all reached for the same answer, and it is worth noticing how unanimous they are. **Glory.**
 
 - **Apocalypse of Moses 20** (a Jewish text, first century CE), Eve speaking: *"in that very hour my eyes were opened, and forthwith I knew that I was bare of the righteousness with which I had been clothed… Why hast thou done this to me in that thou hast **deprived me of the glory with which I was clothed**?"*
@@ -100,6 +102,8 @@ And Proverbs supplies the reverse in so many words. Its clearest definition of t
 > A fool's annoyance is known at once, but **one who covers over shame** *(kōseh qālôn)* **is shrewd** *(ʿārûm)*. *(Proverbs 12:16)*
 
 The *ʿārûm* of Proverbs is a person who **covers shame**. The *ʿārûm* of Genesis 3 is the one who **strips it bare**. Same word, exact inversion — and if you want a one-line answer to what the snake represents, that is a serious candidate: **the gift of discernment, unhooked from trust, aimed at the exposure of someone else.**
+
+<div class="page-break"></div>
 
 **Now, who is he?** Here is the honest sequence, in order of date, because the order matters.
 
@@ -143,6 +147,8 @@ He has not invented anything. **He has quoted God's single most generous sentenc
 
 That is the engine of the whole thing, and it is worth saying as plainly as possible: **the con is never "here is something evil." It is "look at what you are missing."** It works by subtraction, and it works by getting you to run the audit yourself.
 
+<div class="page-break"></div>
+
 ### Move 2 — Make her say it
 
 Notice that he asks rather than asserts. The damage is not in his question; it is in **her answer**. Set them side by side:
@@ -165,6 +171,8 @@ The rabbis went straight at the added clause *(problem 7)*. ***Genesis Rabbah* 1
 > **Adam** was unwilling to tell this to Eve exactly as the Holy One, blessed be He, had commanded him; he therefore **made a fence to his words**… Eve then began to think to herself, *"**All that my master has commanded me from the beginning is false**"*… Now what brought about the act of touching? **The answer is the fence which Adam had made to his words.**
 
 Read that last line twice. She does not conclude *the fence was wrong*. She concludes **everything was**. When you cannot tell your fence from God's word, the day the fence fails, the word falls with it. The Talmud fixes it in a maxim: *"anyone who **adds**, **subtracts**"* (*Sanhedrin* 29a).
+
+<div class="page-break"></div>
 
 ### Move 3 — Give God a motive
 
@@ -212,6 +220,8 @@ Shimei crosses. He is executed **three years later** (2:39–46) — and the kin
 
 Which leaves the real finding. **The snake did not lie about the outcome. He lied about the Giver** — and about what the outcome would be worth.
 
+<div class="page-break"></div>
+
 ## Part 4 — What he actually delivers
 
 > Then the eyes of both of them opened, and they knew **they were naked**. *(3:7)*
@@ -236,6 +246,8 @@ He does not say *I ate*. He files a wardrobe report. And that distinction is the
 The first human response to sin in the Bible is not repentance. **It is concealment.** Josephus saw it in the first century: Adam, *"who was wont before to come and converse with him, being conscious of his wicked behavior, went out of the way"* — and God's rebuke lands on the silence: *"thy silence is not the sign of thy virtue, but of thy evil conscience."*
 
 **Then the blame, and it runs two directions at once.** *"The woman **whom you gave me**, she gave me some fruit"* (3:12). She is guilty — and so, in the same breath, is the one who gave her. Shame cannot bear its own weight for a single verse; it hands it to the nearest person and then upward. *Genesis Rabbah* 19:11 says God *"tapped on their jug"* — knocked, the way you knock a vessel to hear whether anything is inside — and Adam rang hollow, because he answered a question that was not a request for information.
+
+<div class="page-break"></div>
 
 **Which brings us to the three questions** *(problem 27)*.
 
@@ -275,6 +287,8 @@ It would be dishonest to quote only the sources that agree with us.
 
 **Finally, a warning the tradition aims at us.** *Genesis Rabbah* 19:1 opens its treatment of the snake not with the snake but with Ecclesiastes: *"with great wisdom is great anger, and he who increases knowledge increases pain."* Then, in the name of **Rabbi Meir** (second century): *"The downfall of the serpent was in accordance with its greatness — **the more cunning, the more cursed**."* The midrash's warning about this chapter is pointed at the **clever**, not the foolish. Which is to say: at a group that has spent five sessions getting good at this.
 
+<div class="page-break"></div>
+
 ## Part 6 — So what?
 
 Five things. They are all versions of one thing.
@@ -288,6 +302,8 @@ Five things. They are all versions of one thing.
 **4. Answer guilt and shame differently, because they are different.** Guilt has a remedy and the remedy is short: **say what you did**, to someone with the standing to hear it. Shame has no such remedy, because it is not about a deed — which is exactly why it sends you off to sew. Better fig leaves are not the answer to shame. **Being found is.**
 
 **5. Let yourself be dressed.** The fig leaves were not wicked. They were just not adequate to the room. And the last thing God does inside the garden is make a covering that is — one that costs something, and that they did not make.
+
+<div class="page-break"></div>
 
 **And that thread runs the length of the Bible.** God finds Israel *"naked and bare,"* covers her, and calls the covering a **covenant** (Ezekiel 16:7–8). The accuser stands up to accuse a high priest in filthy clothes, and the answer is not a counter-argument but a **change of clothes**: *"I have removed your guilt from you, and you will be clothed with festive attire"* (Zechariah 3:1–5). A father runs at a son who is still rehearsing his confession and calls for the **best robe** before the speech is finished (Luke 15:22). A church convinced it needs nothing is told: *"you are… **naked**… buy from me white clothing so you can be clothed and **your shameful nakedness** will not be exposed"* (Revelation 3:17–18). And Paul, refusing to let any of this become an escape from the body, says the hope is *"not that we want to be **unclothed**, but **clothed**"* (2 Corinthians 5:4).
 
