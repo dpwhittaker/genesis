@@ -7,6 +7,9 @@ layout: default
 
 **Passage:** Genesis 2:4–3:24 ([clean text for reading along](../03-clues-in-plain-sight/texts/genesis-2-3.md))
 
+**Continues in [Part 2](part-2.html)** — Part 6, the last seven Session 3 problems, and the synthesis.
+{: .no-print}
+
 **Going deeper:** the **[full reference version](reference.html)** walks the whole thread with every source quoted and dated. Source sheets: **[the earliest readings, before the rabbis](texts/second-temple-sources.md)** (c. 180 BCE–100 CE) · **[the rabbis on Genesis 3](texts/rabbinic-sources.md)**.
 {: .no-print}
 
