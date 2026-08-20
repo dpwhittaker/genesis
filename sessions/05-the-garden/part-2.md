@@ -10,6 +10,17 @@ layout: default
 **Going deeper:** [Part 1's handout](./) and its **[full reference version](reference.html)**. Source sheets: **[the earliest readings, before the rabbis](texts/second-temple-sources.md)** · **[the rabbis on Genesis 3](texts/rabbinic-sources.md)**.
 {: .no-print}
 
+<div class="no-print" markdown="1">
+
+## 🎧 Listen
+
+Two companion podcasts for Part 2 — good before you read, or to revisit afterward:
+
+- **Medium overview** (~23 min): <audio controls preload="none" src="Part2_Medium_Podcast.m4a">Your browser can't play audio — [download the file](Part2_Medium_Podcast.m4a).</audio>
+- **Longer deep dive** (~32 min): <audio controls preload="none" src="Part2_Longer_Podcast.m4a">Your browser can't play audio — [download the file](Part2_Longer_Podcast.m4a).</audio>
+
+</div>
+
 ## Where we got to
 
 We ran out of clock last time with the argument made but not landed. Here is Part 1 in one breath, so nobody is lost.
