@@ -53,22 +53,30 @@ answer is not the one most of us were given.
 
 **Why?**
 
-Start with what the text actually puts on the table. There are exactly three
-differences, and no verdict.
+Start with what the text actually puts on the table: **two** differences, no
+verdict — and a third thing that is constantly mistaken for one.
 
-**One — timing.** Cain brings his gift *miqqēṣ yāmîm*, "at the end of days."
-Said of Cain only.
-
-**Two — qualifiers.** Cain brings "from the fruit of the ground," bare. Abel
+**One — qualifiers.** Cain brings "from the fruit of the ground," bare. Abel
 brings "from the **firstborn** of his flock and from **their fat**." Two
 superlatives against none.
 
-**Three — word order.** *"The LORD was pleased with **Abel** and his
+**Two — word order.** *"The LORD was pleased with **Abel** and his
 offering."* The man is named first, the gift second — and the same order runs
 in the negative for Cain. Whatever was accepted or refused, the text puts the
 *person* in front of the *thing*.
 
-That is all. **Genesis never says why.**
+**And the one that is *not* a difference — timing.** Verse 3 opens *wayhî
+miqqēṣ yāmîm*, "at the end of days," and because it sits in Cain's sentence it
+has been read since Philo as *Cain was late.* The Hebrew will not carry it.
+*Wayhî* plus a time phrase is a **scene-setter** that opens a whole episode —
+here, verses 3–5. And Abel's clause is not the next event but a disjunctive
+carrying *gam-hûʾ*, "**he too**," which *pairs* the two acts rather than
+sequencing them. JPS 1917: *"And Abel, **he also** brought."* **They are at
+the altar on one occasion** ([the full case is on the passage
+sheet](texts/genesis-4.html)) — so whatever divided the brothers, it was not
+the clock.
+
+That is all the text gives. **Genesis never says why.**
 
 ### What people have filled in — and how confident to be
 
@@ -77,7 +85,7 @@ The proposals are old and they are still with us. Ranked by age:
 | The answer | First put this way by |
 |---|---|
 | He gave the leftovers, not the first | **Philo**, c. 30 CE — and *Genesis Rabbah* 22:5: "**from the refuse**… like a sharecropper who eats the ripe fruit himself and gives the owner the unripe" |
-| He was **late** — "after some days," not at once | **Philo**, same treatise |
+| He was **late** — "after some days," not at once | **Philo**, same treatise — but see above: the Hebrew frames both brothers |
 | God looked at the **man**, not the gift | Philo; *Genesis Rabbah* 22:6 ("**He was contented with him personally**"); Hebrews 11:4; 1 John 3:12 |
 | He divided it wrongly — a ritual fault | The **Septuagint's** rendering of 4:7, then Irenaeus and Tertullian |
 | Farming itself is violent — forcing the ground | **Josephus**, c. 93 CE: God is honoured "with what grew naturally of its own accord… not what was **gotten by forcing the ground**" |
@@ -410,13 +418,11 @@ wife (36:2), and **Naamah** is also the **Ammonite** mother of Rehoboam
 The names later traditions gave to *Cain's* wife have been traced too, and
 where they lead is the finding: **'Âwân** in a Hebrew book, **Themech** in
 Pseudo-Philo, **Lebhudha** in a Syriac one, **Luluwa** in an Arabic one — and
-*luʾluʾa* is Arabic for **"pearl,"** which is exactly what that text says the
-name means. Each community named her **in its own language**. That is what it
-looks like when names are being *supplied*, not *transmitted* — and it is why
-there is no trail from Genesis 4 to any particular people. There is no name in
-Genesis 4 to follow.
-
-The full range, with sources and dates, is on **[its own sheet](texts/the-wives.html)**.
+*luʾluʾa* is Arabic for **"pearl,"** exactly what that text says it means.
+Each community named her **in its own language**: the signature of names being
+*supplied*, not *transmitted*. There is no trail out of Genesis 4 to any
+particular people, because there is no name in Genesis 4 to follow. The full
+range, with sources and dates, is on **[its own sheet](texts/the-wives.html)**.
 
 ## Part 6 — Seven, and seventy-seven
 
@@ -487,44 +493,38 @@ request.
 **Four things to take home.**
 
 **1. Not everything unexplained is a puzzle to solve.** Genesis will not tell
-you why the offering was refused. Two thousand years of confident answers have
-mostly told us about the answerers. The text moves the camera off the offering
-and onto Cain's face within one verse — and if we spend the hour where it
-spent none, we have been drawn off.
+you why the offering was refused, and two thousand years of confident answers
+have mostly told us about the answerers. The text moves the camera onto Cain's
+face within one verse; if we spend the hour where it spent none, we have been
+drawn off.
 
 **2. The danger is in the comparison, and it is patient.** Nothing was taken
-from Cain. His brother was blessed. That was the whole injury, and it was
-enough. Whatever you call the thing at the door, Genesis says it is not an
-event — it is a **crouch**, and it will wait. The instruction is not *don't
-feel it.* It is **rule over it**, which assumes you will feel it.
+from Cain; his brother was blessed, and that was the whole injury. Whatever you
+call the thing at the door, it is not an event — it is a **crouch**, and it
+waits. The instruction is not *don't feel it*, but **rule over it**, which
+assumes you will.
 
-**3. God moves first, and He moves early.** Before the murder there is a
-question. During the argument there is a warning. After the sentence there is
-a sign. **At no point in this chapter does God wait for Cain to become better
-before speaking to him.** He warns him while he is still angry and protects him
-after he is guilty.
+**3. God moves first, and He moves early.** Before the murder, a question.
+During the argument, a warning. After the sentence, a sign. **At no point does
+God wait for Cain to become better before speaking to him** — He warns him
+while he is still angry and protects him after he is guilty.
 
-**4. "Too great to be forgiven" is a sentence God answers.** He does not answer
-it by cancelling the consequence — Cain still goes east, and the ground still
-resists him. He answers it by putting His own sign on a man who has said he is
-past lifting. The rabbis argued about whether Cain meant it. The text does not
-record God asking.
+**4. "Too great to be forgiven" is a sentence God answers.** Not by cancelling
+the consequence — Cain still goes east, and the ground still resists him — but
+by putting His own sign on a man who has said he is past lifting. The rabbis
+argued about whether Cain meant it. The text does not record God asking.
 
-**And a fifth thing, about the arithmetic.** You will be handed limits, and
-some of them will be gifts — the seven that stops a feud. Lamech is what
-happens when a limit given for restraint is read as a **permission**: *if he
-got seven, I've got seventy-seven.* The whole distance between Genesis 4 and
-Matthew 18 is the distance between hearing that number as a licence and
-hearing it as a measure.
+**And a fifth, about the arithmetic.** Lamech is what happens when a limit
+given for restraint is read as a **permission**: *if he got seven, I've got
+seventy-seven.* The distance from Genesis 4 to Matthew 18 is the distance
+between hearing that number as a licence and hearing it as a measure.
 
 <div class="discuss" markdown="1">
-**Talk about it — to close.** *First:* where is a limit in your life currently
-functioning as a permission — a rule you keep, read as a licence for
-everything it doesn't cover? *Second, and concretely:* this week, one of two
-things. Either name the comparison out loud to one person — the specific place
-where someone else's blessing is sitting in you as a loss — or find the person
-you have been keeping a count on, and stop counting. Lamech kept score in
-verse. Peter wanted to know the number. Neither one got it.
+**Talk about it — to close.** *First:* where is a limit in your life working as
+a permission — a rule kept, read as a licence for all it doesn't cover?
+*Second, this week:* name the comparison out loud to one person, or find the one
+you've kept a count on and stop. Lamech kept score; Peter wanted a number.
+Neither one got it.
 </div>
 
 ---

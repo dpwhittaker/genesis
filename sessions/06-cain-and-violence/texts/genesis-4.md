@@ -84,9 +84,59 @@ named Enosh. At that time people began to worship the LORD.
 
 ---
 
-## Four notes on the Hebrew, for when you get there
+## Five notes on the Hebrew, for when you get there
 
-### 1. Verse 8 has a hole in it
+### 1. "At the end of days" covers *both* brothers
+
+English has to make a choice here that Hebrew does not, and the choice it
+usually makes is wrong.
+
+> **3** *wayhî miqqēṣ yāmîm* — "and it came to pass **at the end of days**" —
+> *wayyāḇēʾ Qayin…* "and Cain brought…"
+>
+> **4** *wə-Heḇel **hēḇîʾ** gam-hûʾ…* — "and Abel, he brought, **he too**…"
+
+Read in English — *"At the designated time Cain brought… But Abel brought…"* —
+it looks as though the clock belongs to Cain, and readers from **Philo**
+onward have built an accusation on it: Cain offered *late*. Four features of
+the Hebrew say otherwise.
+
+**It is a scene-setting formula.** *Wayhî* followed by a time phrase is how
+Biblical Hebrew *opens an episode* — "and it came to pass at the end of forty
+days" (Genesis 8:6), "after these things" (22:1). It frames everything that
+follows, and what follows here is the whole scene: both offerings and God's
+response, verses 3–5.
+
+**The Masoretes set it off.** The **etnahta** — the accent that marks a
+verse's main division — falls on *yāmîm*. So the oldest explicit punctuation
+we have reads verse 3 as *"and it came to pass at the end of days"* ‖ *"and
+Cain brought…"*, with the time phrase standing as its own unit rather than
+tucked inside Cain's clause.
+
+**The verbs are not in sequence.** Cain gets *wayyāḇēʾ* — a **wayyiqtol**, the
+ordinary narrative "and-then" form. Abel gets *wə-Heḇel hēḇîʾ* — waw, then the
+**subject fronted**, then a **perfect**. That is a *disjunctive* clause, and in
+Hebrew narrative it signals **contrast or simultaneity, not succession.** Had
+the writer meant "and then Abel brought," the form was available:
+*wayyāḇēʾ gam Heḇel*. He did not use it.
+
+**And *gam-hûʾ* pairs them.** "He **too** brought" presupposes a shared
+occasion. You do not say *he too* about an unrelated act.
+
+The JPS translators caught it, twice, sixty-eight years apart. **JPS 1917:**
+*"And Abel, **he also** brought of the firstlings of his flock."* **NJPS
+1985:** *"and Abel, **for his part**, brought the choicest of the firstlings
+of his flock."* And the NET's "**at the designated time**" points the same way
+— an appointed occasion, not a delay.
+
+**What follows from it.** Whatever divided the two brothers, **it was not
+timing** — they are at the altar together. Philo's charge that Cain "showed
+his gratitude to God after some days, and not at once" needs the phrase to
+attach to Cain alone, and the Hebrew does not give it to him. (*Yāmîm* may
+even mean "a year" here, as it does in Leviticus 25:29 — which would make this
+an *annual* occasion, and shared by definition.)
+
+### 2. Verse 8 has a hole in it
 
 The Hebrew of 4:8 reads, in full:
 
@@ -106,7 +156,7 @@ modern English Bible prints them — usually with a footnote. The NET has one.
 So the first recorded words of the first murderer are a gap. Keep that in your
 pocket; Session 6 comes back to what the ancient readers put in it.
 
-### 2. Verse 7 — the crouching thing is masculine
+### 3. Verse 7 — the crouching thing is masculine
 
 > *lappetaḥ ḥaṭṭāʾt rōḇēṣ* — "at the door **sin** is **crouching**"
 
@@ -121,7 +171,7 @@ the ***rābiṣu***, a spirit that waits at the **threshold** of a building. Som
 translations follow the trail: the *Revised English Bible* renders the line
 "sin is a demon crouching at the door."
 
-### 3. Verse 7 quotes Genesis 3:16, exactly
+### 4. Verse 7 quotes Genesis 3:16, exactly
 
 > "**Its desire is for you, but you must rule over it**" *(4:7)*
 >
@@ -131,7 +181,7 @@ In Hebrew these are the same two words — *təšûqâ* (desire) and *māšal* (
 Whatever went wrong between the man and the woman one chapter ago is now
 standing at Cain's door, described in the same vocabulary.
 
-### 4. Verses 7 and 13 share a root
+### 5. Verses 7 and 13 share a root
 
 | | Hebrew | |
 |---|---|---|
@@ -168,8 +218,16 @@ What the earliest readers did with that gap is on its own sheet:
 
 *Scripture quoted by permission from the NET Bible® copyright ©1996, 2019 by
 Biblical Studies Press, L.L.C., [netbible.com](https://netbible.com). All
-rights reserved. Quoted for class study. Hebrew text and transliteration are
-from the Masoretic Text (public domain); bold emphasis in the notes is ours.*
+rights reserved. Quoted for class study. Hebrew text, vowel points and
+cantillation accents are from the Masoretic Text (**public domain**), via
+[Sefaria](https://www.sefaria.org/Genesis.4); transliteration and bold
+emphasis in the notes are ours.*
+
+*The two JPS renderings in note 1 are: **The Holy Scriptures: A New
+Translation** (Jewish Publication Society, 1917) — **public domain**; and
+**Tanakh: The Holy Scriptures** (JPS, 1985) — **CC BY-NC**, which this
+non-commercial study site meets. Both via
+[Sefaria](https://www.sefaria.org/Genesis.4.4), retrieved 2026-08-27.*
 
 [← Back to Session 6](../)
 {: .no-print}
