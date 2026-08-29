@@ -208,69 +208,19 @@ landed in you as a loss. You needn't say whose. What did the feeling ask you
 to do next, and what would "ruling over it" have looked like that week?
 </div>
 
-## Part 3 — The missing sentence
-
-Now the strangest verse in the chapter, and most English readers never learn
-it is strange.
-
-> Cain said to his brother Abel, "Let's go out to the field." *(Genesis 4:8, NET)*
-
-**That quotation is not in the Hebrew.** The Masoretic Text reads, in full:
-*wayyōʾmer Qayin ʾel-Heḇel ʾāḥîw* — **"Cain said to his brother Abel"** — and
-then goes straight on to "while they were in the field." The verse records
-that he spoke and **does not record what he said**.
-
-"Let's go out to the field" comes from the Septuagint, and is supported by the
-Samaritan Pentateuch, the Vulgate, and the Syriac. Four ancient witnesses
-supply words the Hebrew leaves blank. Most modern Bibles print them; the NET
-notes it.
-
-So: **the first recorded words of the first murderer are a hole.**
-
-### What the synagogue put in it
-
-The Aramaic Targums — the versions read aloud where Hebrew was no longer
-everyday speech — filled the gap. And what they put there is not a threat or a
-lure. It is **an argument about God**.
-
-> Kain answered and said to Habel, **I perceive that the world was created in
-> goodness, but it is not governed according to the fruit of good works, for
-> there is respect to persons in judgment; therefore it is that thy offering
-> was accepted, and mine not accepted with good will.**…
->
-> Kain answered and said to Habel, **There is neither judgment nor Judge, nor
-> another world; nor will good reward be given to the righteous, nor vengeance
-> be taken of the wicked.** And Habel answered and said to Kain, There is a
-> judgment, and there is a Judge…
->
-> And because of these words they had contention upon the face of the field;
-> and Kain arose against Habel his brother.
-> — *Targum Pseudo-Jonathan* 4:8 ([source sheet](texts/rabbinic-sources.html))
-
-Read that again with Part 1 in mind. **The ancient synagogue heard the first
-murder as the end of an argument that begins with the question we opened
-with** — *why his and not mine?* — and runs, in four moves, to *there is no
-Judge at all.*
-
-That is the road, and it is short. An unexplained refusal. A conclusion that
-the system is rigged. A conclusion that there is no system. And then an act
-that only makes sense if the third thing is true.
-
-Notice, too, what the two brothers are actually arguing about. Abel's position
-is that the world **is** run on merit and his works were better — which is not
-a comfortable answer either, and the class should feel that. Cain's is that it
-is run on nothing. The Targum does not endorse either man. It just shows you
-where each answer goes when you live in it.
-
-**And it explains why God's speech in verses 6–7 is where it is.** The warning
-does not arrive after the murder. It arrives while the argument is still going
-on — which is the only point at which a warning is any use.
-
-## Part 4 — "Too great to be lifted"
+## Part 3 — "Too great to be lifted"
 
 Cain kills his brother, lies about it, and is sentenced: the ground will not
-yield to him, and he will be *nāʿ wānād*, a restless wanderer. Then he says
-this:
+yield to him, and he will be *nāʿ wānād*, a restless wanderer.
+
+*(In passing: the Hebrew of verse 8 says Cain **spoke** to Abel and never says
+what he said — "let's go out to the field" comes from the Septuagint. The
+Targums filled the gap with an argument ending in Cain's* "there is neither
+judgment nor Judge" *— the synagogue heard the murder as the end of the
+argument Part 1 started.
+[Worth reading](texts/rabbinic-sources.html#2-the-missing-speech-in-48).)*
+
+Then Cain says this:
 
 > Then Cain said to the LORD, "My punishment is too great to endure!" *(4:13)*
 
@@ -344,9 +294,8 @@ absolution and not a sermon. It is a **sign of protection, in the vocabulary
 of covenant**, given to a man under sentence. God does not remove the exile.
 He guarantees the exile's safety.
 
-And the rabbis, four centuries into reading this, drew the obvious conclusion
-— and then argued about it, in the same paragraph, which is exactly what we
-should do:
+And the rabbis drew the obvious conclusion — then argued about it in the same
+paragraph, which is exactly what we should do:
 
 > Adam encountered him. He said: 'What became of your sentence?' He said: '**I
 > repented and reached a settlement.**' Adam began beating himself on the
@@ -354,13 +303,13 @@ should do:
 > Immediately Adam stood and said: "A psalm, a song for the Shabbat day…"
 > (Psalm 92:1). — *Genesis Rabbah* 22:13
 
-The first murderer walks out of his sentencing alive, tells his father why,
-and the news that repentance **works** is such a shock to the first man that
-he writes the Sabbath psalm on the spot.
+The first murderer walks out of his sentencing alive, tells his father why, and
+the news that repentance **works** so shocks the first man that he writes the
+Sabbath psalm on the spot.
 
 **And in the same section, the dissent:** Rabbi Berekhya says Cain left "as one
-who shows a split hoof" — a pig displaying the kosher half of its credentials
-— "and as one who deceives his Creator." Rabbi Ḥama says he left **cheerful**,
+who shows a split hoof" — a pig displaying the kosher half of its credentials —
+"and as one who deceives his Creator." Rabbi Ḥama says he left **cheerful**,
 having got away with it.
 
 They did not agree, and the collection keeps both. **Neither should we pretend
@@ -373,47 +322,45 @@ about themselves. What is God's answer to it here — and what is it *not*? What
 would it change if you took the mark as a covenant sign rather than a brand?
 </div>
 
-## Part 5 — The question everyone asks
+## Part 4 — The question everyone asks
 
 > Cain was intimate with **his wife**, and she became pregnant and gave birth
 > to Enoch. Cain was building a **city**… *(4:17)*
 
-She arrives with no name, no father, and no introduction. And the verse before
-has Cain afraid that **"whoever finds me will kill me"** — so the chapter
-assumes other people twice in four verses, and explains neither.
+She arrives with no name, no father, no introduction — and the verse before has
+Cain afraid that **"whoever finds me will kill me."** The chapter assumes other
+people twice in four verses and explains neither. The answers, oldest first:
 
-The answers, oldest first:
-
-**She was his sister.** This is the earliest Jewish answer and by far the
-dominant one. *Jubilees* (c. 160–150 BCE) names her — **'Âwân** — calls her
-Cain's sister, and moves on without a flicker. *Genesis Rabbah* 22:2–3 gets it
-from the grammar: "**Two entered the bed and seven descended**," i.e. twin
-sisters born alongside the boys. Josephus notes simply that Adam and Eve "had
-also daughters," and Genesis 5:4 gives Adam eight hundred further years of
-children. On the obvious objection: Leviticus 18 is written centuries later,
-and none of these readers raises it — Genesis itself has **Abraham married to
-his half-sister** long after the flood (20:12) and reports it without comment.
+**She was his sister** — the earliest Jewish answer and by far the dominant
+one. *Jubilees* (c. 160–150 BCE) names her **'Âwân**, calls her Cain's sister,
+and moves on without a flicker. *Genesis Rabbah* 22:2–3 gets it from the
+grammar: "**Two entered the bed and seven descended**" — twin sisters born
+alongside the boys. Josephus notes only that Adam and Eve "had also daughters,"
+and Genesis 5:4 gives Adam eight hundred further years of children. On the
+obvious objection: Leviticus 18 comes centuries later and none of these readers
+raises it — Genesis has **Abraham married to his half-sister** well after the
+flood (20:12), reported without comment.
 
 **She was a niece, or someone further down.** Genesis 4 is not a chronology —
 it compresses seven generations into six verses. A **city** already
 presupposes a population.
 
-**There were people outside the garden.** First systematised by Isaac La
-Peyrère in 1655 — whose version fed directly into polygenism and racial
-theory, which has to be said. The modern, explicitly anti-racist form is
-S. Joshua Swamidass's *The Genealogical Adam and Eve* (2019), which
-distinguishes genealogical from genetic ancestry.
+**There were people outside the garden.** Systematised by Isaac La Peyrère in
+1655 — whose version fed directly into polygenism and racial theory, which has
+to be said. The modern, explicitly anti-racist form is S. Joshua Swamidass's
+*The Genealogical Adam and Eve* (2019), distinguishing genealogical from
+genetic ancestry.
 
 **Or the narrator is not answering the question** — which is where this class
 has been heading since Session 3.
 
 ### And on the names, since it is a good question
 
-Genesis 4 names three women — **Adah** (*ornament*), **Zillah** (*shadow*),
-**Naamah** (*pleasant*) — and all three are plain Hebrew words. Two of them
-turn up elsewhere on women of other nations: **Adah** is also Esau's **Hittite**
-wife (36:2), and **Naamah** is also the **Ammonite** mother of Rehoboam
-(1 Kings 14:21). They are ordinary regional names, not ethnic markers.
+Genesis 4's three women — **Adah** (*ornament*), **Zillah** (*shadow*),
+**Naamah** (*pleasant*) — all bear plain Hebrew words, and two turn up
+elsewhere on women of other nations: **Adah** is Esau's **Hittite** wife
+(36:2), **Naamah** the **Ammonite** mother of Rehoboam (1 Kings 14:21).
+Ordinary regional names, not ethnic markers.
 
 The names later traditions gave to *Cain's* wife have been traced too, and
 where they lead is the finding: **'Âwân** in a Hebrew book, **Themech** in
@@ -423,6 +370,64 @@ Each community named her **in its own language**: the signature of names being
 *supplied*, not *transmitted*. There is no trail out of Genesis 4 to any
 particular people, because there is no name in Genesis 4 to follow. The full
 range, with sources and dates, is on **[its own sheet](texts/the-wives.html)**.
+
+## Part 5 — What you do when the ground will not feed you
+
+Now the genealogy, which most of us skim. It is doing something.
+
+Go back to the sentence: **"When you try to cultivate the ground it will no
+longer yield its best for you"** (4:12). Cain is an *ʿōḇēḏ ʾăḏāmâ*, a **server
+of the ground** — Adam's own job from 2:15 — and the sentence takes it away.
+
+Now read what his line produces: **a city** (4:17); **tents and livestock**
+(4:20); **the harp and the flute** (4:21); **bronze and iron** (4:22).
+**Everything except farming.** This is not a family tree with a moral attached.
+It is a list of **what people do when the ground stops feeding them.**
+
+### And the names are job titles
+
+Watch 4:20–22, where the Hebrew stops naming people and starts naming trades:
+
+| Name | In Hebrew | What he founds |
+|---|---|---|
+| **Jabal** *yāḇāl* | *y-b-l*, **to lead, convey** | tents and livestock |
+| **Jubal** *yûḇāl* | same root; *yôḇēl* = **ram's horn** | harp and flute |
+| **Tubal-Cain** | holds ***qayin***, **smith** | bronze and iron |
+{: .ff-table .ff-wrap}
+
+**And Cain's own name is that same word** — *qayin*, "smith," the word behind
+**Kenite**, the metalworking clan Moses later marries into. Genesis 4:1 gave it
+a different, punning explanation on Eve's lips — *qānîtî*, "I have
+**acquired**" — but the name belongs to the forge, and seven generations later
+the line lands exactly where it always pointed: a man making bronze. ([Every
+name in the chapter is listed on the passage sheet](texts/genesis-4.html) —
+the pattern is real, and it is local.)
+
+### The city, and what it is for
+
+Cain's first recorded act after sentencing is to build a **city**.
+
+Hold the sentence next to the act. He is told he will be *nāʿ wānād* —
+restless, wandering — and he immediately builds the one thing that makes
+wandering unnecessary. Balaam later puns on the same name in the same
+direction: over the Kenites, *"**Firm** is your dwelling, and your **nest** is
+set in the rock"* (Numbers 24:21).
+
+**Josephus** read the city as you would expect:
+
+> He first of all **set boundaries about lands**: he built a city, and
+> **fortified it with walls**… — *Antiquities* 1.2.2
+
+A wall answers the fear in 4:14 — *whoever finds me will kill me.* But **God
+had already answered that fear**, one verse later, with the sign. So the city
+is not simply progress. It is Cain declining the protection he was given and
+building his own.
+
+**And the chapter will not let even that be simple.** In the next breath the
+same line produces **Jabal**, "the first of those who **live in tents**." The
+city is the refusal of the wandering; the tent is the acceptance of it. One
+cursed family invents the technology of staying put *and* of moving well, and
+Genesis reports both without comment.
 
 ## Part 6 — Seven, and seventy-seven
 
@@ -446,10 +451,9 @@ poem in the Bible after Adam's song about Eve, and it is a **boast about
 homicide**, performed for his two wives. God's limit on vengeance has been
 picked up, inflated elevenfold, and turned into a licence.
 
-**And in between, the technology arrives.** Cain's line invents the good
-things — tents and herds, the harp and the flute — and then Tubal-Cain, "who
-heated metal and shaped all kinds of tools made of bronze and iron." The
-rabbis caught what that means in the seventh generation of a murderer's line:
+**And the last of those trades is the one that matters here.** The rabbis
+caught what a forger of bronze and iron means in the seventh generation of a
+murderer's line:
 
 > **This one improved upon Cain's transgression; Cain killed, but he did not
 > have an instrument with which to kill** — but this one was "a forger of every
@@ -492,11 +496,10 @@ request.
 
 **Four things to take home.**
 
-**1. Not everything unexplained is a puzzle to solve.** Genesis will not tell
-you why the offering was refused, and two thousand years of confident answers
-have mostly told us about the answerers. The text moves the camera onto Cain's
-face within one verse; if we spend the hour where it spent none, we have been
-drawn off.
+**1. Not everything unexplained is a puzzle to solve.** Genesis never says why
+the offering was refused, and two thousand years of confident answers have
+mostly told us about the answerers. If we spend the hour where the text spent
+none, we have been drawn off.
 
 **2. The danger is in the comparison, and it is patient.** Nothing was taken
 from Cain; his brother was blessed, and that was the whole injury. Whatever you
@@ -505,9 +508,9 @@ waits. The instruction is not *don't feel it*, but **rule over it**, which
 assumes you will.
 
 **3. God moves first, and He moves early.** Before the murder, a question.
-During the argument, a warning. After the sentence, a sign. **At no point does
-God wait for Cain to become better before speaking to him** — He warns him
-while he is still angry and protects him after he is guilty.
+During the argument, a warning. After the sentence, a sign. **God never waits
+for Cain to become better before speaking to him** — He warns him while he is
+angry and protects him after he is guilty.
 
 **4. "Too great to be forgiven" is a sentence God answers.** Not by cancelling
 the consequence — Cain still goes east, and the ground still resists him — but
@@ -515,16 +518,16 @@ by putting His own sign on a man who has said he is past lifting. The rabbis
 argued about whether Cain meant it. The text does not record God asking.
 
 **And a fifth, about the arithmetic.** Lamech is what happens when a limit
-given for restraint is read as a **permission**: *if he got seven, I've got
-seventy-seven.* The distance from Genesis 4 to Matthew 18 is the distance
-between hearing that number as a licence and hearing it as a measure.
+given for restraint is read as a **permission**. The distance from Genesis 4 to
+Matthew 18 is the distance between hearing that number as a licence and hearing
+it as a measure.
 
 <div class="discuss" markdown="1">
 **Talk about it — to close.** *First:* where is a limit in your life working as
 a permission — a rule kept, read as a licence for all it doesn't cover?
-*Second, this week:* name the comparison out loud to one person, or find the one
-you've kept a count on and stop. Lamech kept score; Peter wanted a number.
-Neither one got it.
+*Second, this week:* name the comparison out loud to one person, or drop a count
+you have been keeping. Lamech kept score; Peter wanted a number. Neither one
+got it.
 </div>
 
 ---

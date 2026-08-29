@@ -216,6 +216,60 @@ What the earliest readers did with that gap is on its own sheet:
 
 ---
 
+## Every name in the chapter
+
+Session 5 asks how much of this chapter is written in job titles. Here is the
+whole list, so you can judge for yourself. The honest answer is **some of it,
+and not at random** — the trade-names cluster exactly where the trades do.
+
+| Name | Hebrew | Sense | Job? |
+|---|---|---|---|
+| **Cain** *qayin* | *q-y-n* | **smith** (Arabic *qayn*, Aramaic *qaynāyā*); also a bronze **weapon** (2 Samuel 21:16); = **Kenite** | his line's trade, not his own |
+| **Abel** *heḇel* | *h-b-l* | vapour, breath, futility — the word Ecclesiastes runs on | no |
+| **Enoch** *ḥănôḵ* | *ḥ-n-k* | dedication, initiation (as in *Hanukkah*; "train up a child," Proverbs 22:6) | he is the first **city's** name — and cities get dedicated |
+| **Irad** *ʿîrāḏ* | contested | possibly built on *ʿîr*, "city"; possibly a reflex of **Eridu**, the first city of the Sumerian King List | speculative |
+| **Mehujael** | *m-ḥ-h* + *ʾēl* | "smitten of God" | no |
+| **Methushael** | cf. Akkadian *mutu-ša-ili* | "man of God" | no |
+| **Lamech** *lemeḵ* | unknown | genuinely obscure — no agreed etymology | no |
+| **Adah** *ʿāḏâ* | *ʿ-d-h* | ornament, adornment | no |
+| **Zillah** *ṣillâ* | *ṣ-l-l* | shadow, shade | no |
+| **Jabal** *yāḇāl* | *y-b-l* | to lead, to convey | **yes** — tents and livestock |
+| **Jubal** *yûḇāl* | *y-b-l* | same root; *yôḇēl* is the **ram's horn**, the jubilee trumpet | **yes** — harp and flute |
+| **Tubal-Cain** | *tûḇal* + *qayin* | contains the word for **smith** | **yes** — bronze and iron |
+| **Naamah** *naʿămâ* | *n-ʿ-m* | pleasant, lovely | no |
+| **Seth** *šēṯ* | *š-y-t* | "he has **placed/appointed**" — Eve's own explanation in 4:25 | no |
+| **Enosh** *ʾĕnôš* | | "man, mortal" — a second word for humanity, like *ʾādām* | no |
+{: .ff-table .ff-wrap}
+
+**So the pattern is real and it is local.** Nine of the fifteen names are doing
+something other than naming a trade. But the three in 4:20–22 — the founders of
+herding, music and metalwork — are *all* built on their crafts, and Cain's own
+name belongs to the same set. When the chapter turns to describing what people
+make, it starts naming them for it. That is a normal ancient convention: **an
+ancestor who *is* his trade.**
+
+**And one caution, since names are easy to over-read.** Genesis 4:1 explains
+*qayin* from *qānîtî*, "I have acquired" — a different root (*q-n-h*), and a
+**pun rather than an etymology**. The chapter is perfectly willing to give a
+name a meaning its parent invented on the spot. So a name may carry a trade, a
+pun, a parent's hope, or nothing recoverable, and the only way to tell is
+one at a time.
+
+**A second pun, well outside this chapter.** Balaam's oracle over the Kenites
+is the one other place in the Bible that plays on *qayin*, and it plays on
+**permanence**:
+
+> **Firm** *(ʾêtān)* is your dwelling place, and set in the rock is your
+> **nest** *(qinnékā)*… nevertheless **Qayin** shall be consumed.
+> — Numbers 24:21–22
+
+*Qēn*, "nest," is a different word that merely sounds like *qayin* — so this is
+a pun-neighbour, not a meaning. But it is a striking one to hold next to a man
+sentenced to be *nāʿ wānād*, a restless wanderer, whose first recorded act is
+to build a **city**.
+
+---
+
 *Scripture quoted by permission from the NET Bible® copyright ©1996, 2019 by
 Biblical Studies Press, L.L.C., [netbible.com](https://netbible.com). All
 rights reserved. Quoted for class study. Hebrew text, vowel points and
