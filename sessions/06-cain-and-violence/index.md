@@ -10,6 +10,17 @@ layout: default
 **Source sheets:** **[the earliest readings](texts/second-temple-sources.html)** (Jubilees, Philo, Josephus, Pseudo-Philo, and the New Testament) · **[the rabbis on Genesis 4](texts/rabbinic-sources.html)** · **[where the wives came from](texts/the-wives.html)**
 {: .no-print}
 
+<div class="no-print" markdown="1">
+
+## 🎧 Listen
+
+Two companion podcasts for this session — good before you read, or to revisit afterward:
+
+- **Medium overview** (~20 min): <audio controls preload="none" src="Medium_Podcast.m4a">Your browser can't play audio — [download the file](Medium_Podcast.m4a).</audio>
+- **Longer deep dive** (~55 min): <audio controls preload="none" src="Longer_Podcast.m4a">Your browser can't play audio — [download the file](Longer_Podcast.m4a).</audio>
+
+</div>
+
 ## A note before we begin
 
 Today's chapter contains a murder, and the murder is inside a family. If that
