@@ -105,17 +105,16 @@ The proposals are old and they are still with us. Ranked by age:
 
 Notice that the first answer — the one most of us were taught — is an
 **argument from silence**. Genesis does not say Cain withheld his firstfruits;
-it just doesn't use the word. Philo read the missing word as an accusation,
-and two thousand years of sermons followed him. He may be right. But you
-should know that is what it is.
+it just doesn't use the word. Philo read the missing word as an accusation and
+two thousand years of sermons followed him. He may be right — but you should
+know that is what it is.
 
-**And the blood answer has a real problem.** Both gifts are called by the same
-Hebrew word, *minḥâ* — which is the standard Levitical term for a **grain**
-offering (Leviticus 2:1–3). Genesis uses the *cereal-offering* word for Abel's
-lamb. The Greek translation then made it worse from the other side: it calls
-Abel's gift *dōra*, "gifts," and **Cain's** a *thysia*, "sacrifice." The
-blood-sacrifice reading rests largely on a translation, and the translation
-points the wrong way.
+**And the blood answer has a real problem.** Both gifts are called *minḥâ* —
+the standard Levitical term for a **grain** offering (Leviticus 2:1–3). Genesis
+uses the *cereal-offering* word for Abel's lamb. The Greek then made it worse
+from the other side, calling Abel's gift *dōra*, "gifts," and **Cain's** a
+*thysia*, "sacrifice." The blood reading rests on a translation, and the
+translation points the wrong way.
 
 ### The thing that should settle how much time we spend here
 
@@ -154,9 +153,8 @@ door.
 
 And the verb has neighbours. Hebrew *rāḇaṣ* is cognate with Akkadian
 *rabāṣu*, "to crouch, to lie in ambush," from which Mesopotamia gets the
-***rābiṣu*** — a spirit that waits at the **threshold** of a house. Some
-translations follow it: the *Revised English Bible* prints **"sin is a demon
-crouching at the door."**
+***rābiṣu*** — a spirit that waits at the **threshold** of a house. The
+*Revised English Bible* follows it: **"sin is a demon crouching at the door."**
 
 Whatever we make of that, the picture is exact. Sin here is not an abstraction
 and not an act. It is **personal, patient, and positioned** — and it is not
@@ -193,19 +191,15 @@ the rest of the chapter.
 
 Most of us will never bring God a lamb or a basket of grain. So what transfers?
 
-**The weakest point is the one about firstness** — give God the first and best
-rather than the remainder: the first of the hours, the money, the attention.
-Good instinct, genuinely in the text's *qualifiers*, and still an argument from
-silence. Hold it loosely.
+**Two answers are usually offered, and both are partial.** *Firstness* — give
+God the first and best, not the remainder — is a good instinct and still an
+argument from silence; hold it loosely. *Word order* is firmer: God looked at
+Abel, then at his offering, and no gift gets you past yourself.
 
-**The stronger one is the word order.** God looked at Abel, then at his
-offering. No gift gets you past yourself; worship is not a transaction in
-which the object clears the person.
-
-**And the one this chapter is actually built on is neither.** Look at what
-destroys Cain. It is not the refusal. **It is the comparison.** Nothing has
-been taken from him — he has lost no crop, no land, no standing, no years. His
-brother has been blessed, and that is the entire injury.
+**But the one this chapter is built on is neither.** What destroys Cain is not
+the refusal. **It is the comparison.** Nothing has been taken from him — no
+crop, no land, no standing, no years. His brother has been blessed, and that
+is the entire injury.
 
 That is the sin at the door, and it needs no farm. It is what happens in you
 when someone else gets the thing — the promotion, the child, the recovery, the
@@ -224,12 +218,11 @@ to do next, and what would "ruling over it" have looked like that week?
 Cain kills his brother, lies about it, and is sentenced: the ground will not
 yield to him, and he will be *nāʿ wānād*, a restless wanderer.
 
-*(In passing: the Hebrew of verse 8 says Cain **spoke** to Abel and never says
-what he said — "let's go out to the field" comes from the Septuagint. The
-Targums filled the gap with an argument ending in Cain's* "there is neither
-judgment nor Judge" *— the synagogue heard the murder as the end of the
-argument Part 1 started.
-[Worth reading](texts/rabbinic-sources.html#2-the-missing-speech-in-48).)*
+*(In passing: the Hebrew of verse 8 says Cain **spoke** and never says what he
+said — "let's go out to the field" comes from the Septuagint. The Targums
+filled the gap with an argument ending in Cain's* "there is neither judgment
+nor Judge" *— the synagogue heard the murder as the end of the argument Part 1
+started. [Worth reading](texts/rabbinic-sources.html#2-the-missing-speech-in-48).)*
 
 Then Cain says this:
 
@@ -240,14 +233,11 @@ translator's problem — it is the hinge of the chapter.
 
 > *gāḏôl ʿăwōnî **minnəśōʾ***
 
-*ʿĀwōn* means both **the guilt** and **the penalty for it**. And *minnəśōʾ* is
-from **נשׂא** *nāśāʾ* — the root from verse 7, "to lift, to bear." So the
-sentence reads either:
-
-- **"My punishment is too great to bear"** — a complaint, which is how the NET
-  and most English Bibles take it; or
-- **"My guilt is too great to be forgiven"** — because *nāśāʾ ʿāwōn* is the
-  standard idiom for pardon.
+*ʿĀwōn* means both **the guilt** and **the penalty for it**, and *minnəśōʾ* is
+from **נשׂא** *nāśāʾ* — the root from verse 7, "to lift, to bear." So it reads
+either **"my punishment is too great to bear"** (the NET, and most English
+Bibles) or **"my guilt is too great to be forgiven"** — since *nāśāʾ ʿāwōn* is
+the standard idiom for pardon.
 
 **God offered him a lifting in verse 7. Cain now says he is past lifting.**
 
@@ -270,28 +260,24 @@ The old readers heard it the second way, and one of them says so outright:
 
 Four things about that sentence, all of which the English hides.
 
-**1. The word is *ʾôt* — a covenant word.** *ʾÔt* is what the **rainbow** is
-(9:12–17). It is what **circumcision** is (17:11), and the **Sabbath**
-(Exodus 31:13), and the **blood on the doorposts** at Passover (Exodus 12:13).
-In the Torah it is never a brand and never a stigma. It is the sign that a
-promise is in force.
+**1. The word is *ʾôt* — a covenant word.** It is what the **rainbow** is
+(9:12–17), and **circumcision** (17:11), the **Sabbath** (Exodus 31:13), the
+**blood on the doorposts** (Exodus 12:13). In the Torah it is never a brand and
+never a stigma; it is the sign that a promise is in force.
 
 **2. The Hebrew says *for*, not *on*.** *Wayyāśem YHWH **lə-Qayin** ʾôt* — God
-set a sign **for Cain**. The text never says it was on his body, never says
-what it looked like, and never calls it a curse. Every image you have of a
-mark on a forehead comes from somewhere other than this verse.
+set a sign **for Cain**. The text never says it was on his body, what it looked
+like, or that it was a curse. Every image you have of a mark on a forehead
+comes from somewhere other than this verse.
 
 **3. Its only stated purpose is to keep him alive.** *"So that no one who found
 him would strike him down."*
 
 **4. The rabbis had no idea what it was, and said so.** *Genesis Rabbah* 22:12
-records four guesses and settles none: Rabbi Yehuda says God made **the sun
-shine** for him; Rabbi Neḥemya objects — would God do that for a murderer? —
-and says **leprosy**; Abba Yose says **a horn**; and Rav says **God gave him a
-dog**.
-
-The dog is the one to sit with. A man who has just said he is terrified of
-dying alone in open country is given **something that will stay with him**.
+records four guesses — sunshine, leprosy, a horn — and settles none. The
+fourth is the one to sit with: **Rav says God gave him a dog.** A man who has
+just said he is terrified of dying alone in open country is given **something
+that will stay with him**.
 
 The Targum takes it further still: *"the Lord **sealed upon the face of Kain
 the mark of the Name great and honourable**, that any one who might find him
@@ -301,9 +287,9 @@ murderer.
 ### So here is the shape of it
 
 Cain says his guilt is **too great to be lifted.** God's reply is not
-absolution and not a sermon. It is a **sign of protection, in the vocabulary
-of covenant**, given to a man under sentence. God does not remove the exile.
-He guarantees the exile's safety.
+absolution and not a sermon. It is a **sign of protection, in the vocabulary of
+covenant**, given to a man under sentence — God does not remove the exile, He
+guarantees the exile's safety.
 
 And the rabbis drew the obvious conclusion — then argued about it in the same
 paragraph, which is exactly what we should do:
@@ -346,41 +332,29 @@ people twice in four verses and explains neither. The answers, oldest first:
 one. *Jubilees* (c. 160–150 BCE) names her **'Âwân**, calls her Cain's sister,
 and moves on without a flicker. *Genesis Rabbah* 22:2–3 gets it from the
 grammar: "**Two entered the bed and seven descended**" — twin sisters born
-alongside the boys. Josephus notes only that Adam and Eve "had also daughters,"
-and Genesis 5:4 gives Adam eight hundred further years of children. On the
-obvious objection: Leviticus 18 comes centuries later and none of these readers
-raises it — Genesis has **Abraham married to his half-sister** well after the
-flood (20:12), reported without comment.
+alongside the boys. Genesis 5:4 gives Adam eight hundred further years of
+children. On the obvious objection: Leviticus 18 comes centuries later and none
+of these readers raises it — Genesis has **Abraham married to his half-sister**
+well after the flood (20:12), reported without comment.
 
 **She was a niece, or someone further down.** Genesis 4 is not a chronology —
-it compresses seven generations into six verses. A **city** already
+it compresses seven generations into six verses, and a **city** already
 presupposes a population.
 
-**There were people outside the garden.** Systematised by Isaac La Peyrère in
-1655 — whose version fed directly into polygenism and racial theory, which has
-to be said. The modern, explicitly anti-racist form is S. Joshua Swamidass's
-*The Genealogical Adam and Eve* (2019), distinguishing genealogical from
-genetic ancestry.
+**There were people outside the garden** — systematised by La Peyrère in 1655,
+whose version fed straight into polygenism, and revived without that baggage in
+Swamidass's *The Genealogical Adam and Eve* (2019).
 
 **Or the narrator is not answering the question** — which is where this class
 has been heading since Session 3.
 
-### And on the names, since it is a good question
-
-Genesis 4's three women — **Adah** (*ornament*), **Zillah** (*shadow*),
-**Naamah** (*pleasant*) — all bear plain Hebrew words, and two turn up
-elsewhere on women of other nations: **Adah** is Esau's **Hittite** wife
-(36:2), **Naamah** the **Ammonite** mother of Rehoboam (1 Kings 14:21).
-Ordinary regional names, not ethnic markers.
-
-The names later traditions gave to *Cain's* wife have been traced too, and
-where they lead is the finding: **'Âwân** in a Hebrew book, **Themech** in
-Pseudo-Philo, **Lebhudha** in a Syriac one, **Luluwa** in an Arabic one — and
-*luʾluʾa* is Arabic for **"pearl,"** exactly what that text says it means.
-Each community named her **in its own language**: the signature of names being
-*supplied*, not *transmitted*. There is no trail out of Genesis 4 to any
-particular people, because there is no name in Genesis 4 to follow. The full
-range, with sources and dates, is on **[its own sheet](texts/the-wives.html)**.
+**And on the names, since it is a good question:** the ones later traditions
+gave her have been traced, and where they lead is the finding — **'Âwân** in a
+Hebrew book, **Themech** in Pseudo-Philo, **Lebhudha** in a Syriac one,
+**Luluwa** in an Arabic one, *luʾluʾa* being Arabic for **"pearl."** Each
+community named her **in its own language**. There is no trail out of Genesis 4
+to any people, because there is no name in Genesis 4 to follow.
+([The sheet](texts/the-wives.html) has the full range.)
 
 ## Part 5 — What you do when the ground will not feed you
 
@@ -424,10 +398,9 @@ wandering unnecessary. Balaam later puns on the same name in the same
 direction: over the Kenites, *"**Firm** is your dwelling, and your **nest** is
 set in the rock"* (Numbers 24:21).
 
-**Josephus** read the city as you would expect:
-
-> He first of all **set boundaries about lands**: he built a city, and
-> **fortified it with walls**… — *Antiquities* 1.2.2
+**Josephus** read the city as you would expect: Cain "first of all **set
+boundaries about lands**: he built a city, and **fortified it with walls**"
+(*Antiquities* 1.2.2).
 
 A wall answers the fear in 4:14 — *whoever finds me will kill me.* But **God
 had already answered that fear**, one verse later, with the sign. So the city
@@ -457,10 +430,10 @@ vengeance**.
 > is to be avenged seven times as much, then Lamech seventy-seven times!**"
 > *(4:23–24)*
 
-He has killed a boy over an injury, and he has set it to verse — the first
-poem in the Bible after Adam's song about Eve, and it is a **boast about
-homicide**, performed for his two wives. God's limit on vengeance has been
-picked up, inflated elevenfold, and turned into a licence.
+He has killed a boy over an injury and set it to verse — the first poem in the
+Bible after Adam's song about Eve, and it is a **boast about homicide**,
+performed for his two wives. God's limit on vengeance has been picked up,
+inflated elevenfold, and turned into a licence.
 
 **And the last of those trades is the one that matters here.** The rabbis
 caught what a forger of bronze and iron means in the seventh generation of a
@@ -491,11 +464,11 @@ Genesis 4:24.** Peter offers seven. Jesus takes Peter's seven and Lamech's
 seventy-seven and **runs the escalation in the other direction.**
 
 That is the arc of the chapter, finished. Human beings escalate vengeance:
-seven, then seventy-seven, then a song about it. God, from the start, has been
-escalating restraint — a warning before the murder, a question instead of an
-accusation, a cap on the feud, a sign to keep the murderer alive. And the last
-word on the subject takes the murderer's own arithmetic and turns it into the
-measure of **forgiveness**.
+seven, then seventy-seven, then a song about it. God has been escalating
+restraint from the start — a warning before the murder, a question instead of
+an accusation, a cap on the feud, a sign to keep the murderer alive. And the
+last word takes the murderer's own arithmetic and makes it the measure of
+**forgiveness**.
 
 One more, in the same key. Abel's blood *"is crying out to me from the ground"*
 (4:10) — the first thing in Scripture to cry out, and it cries for vengeance.
@@ -505,33 +478,23 @@ request.
 
 ## So what?
 
-**Four things to take home.**
-
 **1. Not everything unexplained is a puzzle to solve.** Genesis never says why
 the offering was refused, and two thousand years of confident answers have
-mostly told us about the answerers. If we spend the hour where the text spent
-none, we have been drawn off.
+mostly told us about the answerers.
 
 **2. The danger is in the comparison, and it is patient.** Nothing was taken
-from Cain; his brother was blessed, and that was the whole injury. Whatever you
-call the thing at the door, it is not an event — it is a **crouch**, and it
-waits. The instruction is not *don't feel it*, but **rule over it**, which
-assumes you will.
+from Cain; his brother was blessed, and that was the whole injury. The thing at
+the door is not an event — it is a **crouch**, and it waits. The instruction is
+not *don't feel it*, but **rule over it**, which assumes you will.
 
 **3. God moves first, and He moves early.** Before the murder, a question.
 During the argument, a warning. After the sentence, a sign. **God never waits
-for Cain to become better before speaking to him** — He warns him while he is
-angry and protects him after he is guilty.
+for Cain to become better before speaking to him.**
 
-**4. "Too great to be forgiven" is a sentence God answers.** Not by cancelling
-the consequence — Cain still goes east, and the ground still resists him — but
-by putting His own sign on a man who has said he is past lifting. The rabbis
-argued about whether Cain meant it. The text does not record God asking.
-
-**And a fifth, about the arithmetic.** Lamech is what happens when a limit
-given for restraint is read as a **permission**. The distance from Genesis 4 to
-Matthew 18 is the distance between hearing that number as a licence and hearing
-it as a measure.
+**4. "Too great to be forgiven" is a sentence God answers** — not by cancelling
+the consequence, but by putting His own sign on a man who says he is past
+lifting. The rabbis argued about whether Cain meant it. The text does not
+record God asking.
 
 <div class="discuss" markdown="1">
 **Talk about it — to close.** *First:* where is a limit in your life working as
