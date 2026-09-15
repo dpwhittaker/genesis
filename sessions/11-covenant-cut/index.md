@@ -1,11 +1,11 @@
 ---
-title: "13. Jacob"
+title: "11. Covenant Cut"
 layout: default
 ---
 
-# 13. Jacob
+# 11. Covenant Cut
 
-**Passage:** Genesis 25–35
+**Passage:** Genesis 15 and 17
 
 *Session page in development.*
 

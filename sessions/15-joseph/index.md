@@ -1,11 +1,11 @@
 ---
-title: "12. The Binding of Isaac (the Akedah)"
+title: "15. Joseph"
 layout: default
 ---
 
-# 12. The Binding of Isaac (the Akedah)
+# 15. Joseph
 
-**Passage:** Genesis 22
+**Passage:** Genesis 37–47
 
 *Session page in development.*
 

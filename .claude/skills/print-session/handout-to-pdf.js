@@ -21,7 +21,7 @@
  * Examples:
  *   node .claude/skills/print-session/handout-to-pdf.js --local 02-history-or-poetry
  *   node .claude/skills/print-session/handout-to-pdf.js 01-the-neighbors-stories
- *   node .claude/skills/print-session/handout-to-pdf.js https://dpwhittaker.github.io/genesis/sessions/08-babel/
+ *   node .claude/skills/print-session/handout-to-pdf.js https://dpwhittaker.github.io/genesis/sessions/09-babel/
  *
  * Override the base explicitly with GENESIS_BASE_URL if needed.
  *
@@ -91,10 +91,23 @@ async function main() {
   const puppeteer = loadPuppeteer();
   console.log(`Rendering ${url}`);
 
-  const browser = await puppeteer.launch({
+  const launchOpts = {
     headless: 'new',
     args: ['--no-sandbox', '--disable-setuid-sandbox'],
-  });
+  };
+  let browser;
+  try {
+    browser = await puppeteer.launch(launchOpts);
+  } catch (err) {
+    // A borrowed puppeteer install often pins a Chrome build that is not in
+    // ~/.cache/puppeteer ("Could not find Chrome (ver. …)"). Fall back to the
+    // system Chrome rather than downloading another 150 MB browser.
+    const systemChrome = ['/usr/bin/google-chrome', '/usr/bin/google-chrome-stable', '/usr/bin/chromium', '/usr/bin/chromium-browser']
+      .find((p) => fs.existsSync(p));
+    if (!systemChrome) throw err;
+    console.error(`puppeteer's bundled Chrome unavailable (${String(err.message).split('\n')[0]}); using ${systemChrome}`);
+    browser = await puppeteer.launch({ ...launchOpts, executablePath: systemChrome });
+  }
   try {
     const page = await browser.newPage();
     const resp = await page.goto(url, { waitUntil: 'networkidle0', timeout: 30000 });

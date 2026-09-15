@@ -3,6 +3,13 @@
 **Not published.** `_config.yml` excludes `sessions/*/NOTES.md` from the Jekyll
 build, so this file is for whoever builds the session, not for the class.
 
+**Status (2026-09-14):** built. Session 7 is now *The Generations of Adam*
+(Genesis 4:17–5:32); the Flood moved to Session 8 and everything after it
+renumbered down by one. Everything below was folded into the handout (Part 1
+= the iron question, Part 2 = the King List) and the source sheets. The
+flood-specific items that used to sit at the bottom of this file moved to
+[`../08-the-flood/NOTES.md`](../08-the-flood/NOTES.md).
+
 ---
 
 ## Carried over from Session 6: metallurgy, anachronism, and the genealogy
@@ -124,16 +131,28 @@ passage sheet ([`sessions/06-cain-and-violence/texts/genesis-4.md`](../06-cain-a
 "Every name in the chapter"), which flags *qayin* = smith and the Kenite
 connection but says nothing about iron.
 
-## Other things Session 7 will need
+## What got used where
 
-- ANE flood texts are **already in the repo** from Session 1:
-  [`sessions/01-the-neighbors-stories/texts/atrahasis.md`](../01-the-neighbors-stories/texts/atrahasis.md)
-  (George Smith 1876, public domain) — Part Two covers famine and flood. Check
-  whether Gilgamesh XI needs a separate licensed text; Session 1 may not have
-  one.
-- The *nāʿ wānād* / city / tents thread from Session 6 Part 5 has an obvious
-  sequel: Noah is a **man of the soil** (9:20) who plants a vineyard — the
-  ground yields again after the flood. Worth picking up.
-- *Genesis Rabbah* 23:3 already makes **Naamah** (Cain's line) Noah's wife, so
-  the two genealogies are married together in the tradition. That's on
-  [`sessions/06-cain-and-violence/texts/rabbinic-sources.md`](../06-cain-and-violence/texts/rabbinic-sources.md).
+- Iron chronology, "nobody asks about Jubal," Tubal = Tabal, *lōṭēš
+  kol-ḥōrēš* → handout Part 1, verbatim in spirit.
+- Genesis 4 vs 5 parallel names, Irad/Eridu → handout Part 3 and the names
+  table on `texts/genesis-5.md`.
+- Sumerian King List, apkallu, Enmeduranki → handout Part 2 and
+  `texts/sumerian-king-list.md` (ETCSL CC BY-NC-SA; Berossus via Bedrosian's
+  public-domain Eusebius; Lenzi 2008 / Kvanvig 2011 / Lambert 1967 /
+  VanderKam 1984 cited, not quoted).
+- Naamah = Noah's wife (*Genesis Rabbah* 23:3) → handout Part 3 and the
+  rabbinic sheet.
+- The *nāʿ wānād* / Noah "man of the soil" sequel → handout Part 5 closes on
+  it and hands it to Session 8.
+
+## Not used, available
+
+- **Cassuto's number rule** is in the handout, but the fuller literature on
+  the numbers (Barnouin's astronomical-period theory; Hasel; the
+  Septuagint/Samaritan chronology debates) was left out for space.
+- **Philo, *On Abraham* 17–19** on Enoch's "translation" as repentance —
+  described on no sheet; Ben Sira's Greek ("an example of repentance") covers
+  the same idea.
+- **Josephus 1.2.3** (Seth's pillars) is on the earliest-readings sheet but
+  not in the handout.

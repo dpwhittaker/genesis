@@ -145,6 +145,7 @@ the `h2 { page-break-after: avoid }` rule is there to make safe.
 ## Notes / gotchas
 
 - **Puppeteer:** `handout-to-pdf.js` needs it. It auto-resolves a local install, then `$PUPPETEER_DIR`, then a sibling project's `node_modules`. Cleanest: `npm i puppeteer` once (the resulting `node_modules/` is gitignored).
+- **"Could not find Chrome (ver. …)":** the borrowed puppeteer pins a Chrome build that isn't in `~/.cache/puppeteer`. The script now falls back to the system Chrome (`/usr/bin/google-chrome`) automatically; `PUPPETEER_EXECUTABLE_PATH=/usr/bin/google-chrome` forces it. Renders are identical for our purposes.
 - **pymupdf** lives in the ML venv — `source ~/ml-env/bin/activate` before the analyzer.
 - **Generated PDFs** go to `pdf/` (gitignored) — they're build artifacts, not source.
 - This skill targets a single session page. To prep several, run the `--local` loop per slug — no deploy between them.

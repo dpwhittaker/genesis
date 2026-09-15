@@ -1,11 +1,11 @@
 ---
-title: "7. The Flood"
+title: "10. The Call of Abram"
 layout: default
 ---
 
-# 7. The Flood
+# 10. The Call of Abram
 
-**Passage:** Genesis 6–9
+**Passage:** Genesis 12
 
 *Session page in development.*
 

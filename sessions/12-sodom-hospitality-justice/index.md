@@ -1,11 +1,11 @@
 ---
-title: "9. The Call of Abram"
+title: "12. Sodom, Hospitality, and Justice"
 layout: default
 ---
 
-# 9. The Call of Abram
+# 12. Sodom, Hospitality, and Justice
 
-**Passage:** Genesis 12
+**Passage:** Genesis 18–19
 
 *Session page in development.*
 

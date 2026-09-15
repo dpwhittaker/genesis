@@ -1,11 +1,11 @@
 ---
-title: "11. Sodom, Hospitality, and Justice"
+title: "8. The Flood"
 layout: default
 ---
 
-# 11. Sodom, Hospitality, and Justice
+# 8. The Flood
 
-**Passage:** Genesis 18–19
+**Passage:** Genesis 6–9
 
 *Session page in development.*
 

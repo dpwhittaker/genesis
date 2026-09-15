@@ -1,11 +1,11 @@
 ---
-title: "15. Blessing and Burial"
+title: "9. Babel"
 layout: default
 ---
 
-# 15. Blessing and Burial
+# 9. Babel
 
-**Passage:** Genesis 48–50
+**Passage:** Genesis 11
 
 *Session page in development.*
 

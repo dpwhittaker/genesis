@@ -1,11 +1,11 @@
 ---
-title: "8. Babel"
+title: "14. Jacob"
 layout: default
 ---
 
-# 8. Babel
+# 14. Jacob
 
-**Passage:** Genesis 11
+**Passage:** Genesis 25–35
 
 *Session page in development.*
 
