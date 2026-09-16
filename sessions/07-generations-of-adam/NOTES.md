@@ -131,6 +131,31 @@ passage sheet ([`sessions/06-cain-and-violence/texts/genesis-4.md`](../06-cain-a
 "Every name in the chapter"), which flags *qayin* = smith and the Kenite
 connection but says nothing about iron.
 
+## Panel review (2026-09-15)
+
+Five-seat panel run after the first commit. Convergent findings applied:
+Cassuto's rule stated modestly (three residues in five; SP/LXX figures break
+it); "on the spot" and "it is a tell" dropped; Enmeduranki *brought into the
+gods' assembly*, not "taken up" (that is the sage Utuabzu, paired only in the
+165 BCE Uruk list); the King List's flood section dated Old Babylonian, not
+Ur III; 5:2's blessing restored to the Part 5 quotation; Jubal/Tubal-Cain
+corrected to eighth from Adam; 1 Samuel 13 no longer said to mention iron;
+Genesis Rabbah 26:2's "hundred" traced to Isaiah 65:20; Onkelos 4:26 gloss
+untangled; Jude "names Enoch, not the book"; Pseudo-Jonathan dating made
+consistent. Additions: Levenson's democratized royal image; the women's
+absence and the *seed* of 4:25; a literal-ages paragraph (Ramban 5:4, Seder
+Olam, Green 1890, Warfield 1911, Kitchen); Rashi's plough; Sanhedrin 108b on
+Methuselah's shivah; PsJ 5:3 / GenR 24:6 as the tradition's counter-reading
+of "in his likeness".
+
+**User decisions:** Hebrews 11:5 is authoritative for Enoch — the handout
+now says "Genesis leaves the door ajar; Hebrews walks through it; we read
+with Hebrews," while keeping Rabbi Abahu's verb argument on its own terms.
+The source question is leaned into: Part 3 lays out the two-source view (J/P,
+exilic priestly audience, 5:29 as a J fragment, 4:26 vs Exodus 6:3) and the
+single-author view (design, divine names tracking subject, Israel in the
+land) side by side and lets the reader hold either.
+
 ## What got used where
 
 - Iron chronology, "nobody asks about Jubal," Tubal = Tabal, *lōṭēš

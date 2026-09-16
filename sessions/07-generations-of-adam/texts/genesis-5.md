@@ -107,7 +107,7 @@ Japheth.
 
 ---
 
-## Six notes on the Hebrew, for when you get there
+## Seven notes on the Hebrew, for when you get there
 
 ### 1. "This is the *book* of the generations" (5:1)
 
@@ -132,8 +132,10 @@ Verses 1–2 quote Genesis 1:26–28 almost word for word: *likeness of God*,
 Genesis 1:26 had it the other way round: *bəṣalmēnû kidmûtēnû*, "in our
 **image**, according to our **likeness**." The two words are swapped, and the
 verse that carries them is about Adam passing on to Seth what God gave to
-Adam. Read straight, this is the text's own answer to a question the garden
-left open: **the image was not lost.** It is inherited — through a line that
+Adam. Read straight — and this is our observation; the old commentators read
+the phrase as *excluding* Cain, on the [rabbinic sheet](rabbinic-sources.html)
+— it answers a question the garden left open: **the image was not lost.** It
+is inherited — through a line that
 begins with the replacement for a murdered son, one verse after a boast about
 killing a boy.
 
@@ -200,6 +202,16 @@ curse on the ground since God pronounced it (3:17) and Cain inherited it
 (4:11–12). Nine generations have been born and buried under it. Lamech names
 his son as the one who will finally answer it.
 
+### 7. "Another *seed*" (4:25)
+
+> *šāt-lî ʾĕlōhîm **zeraʿ** ʾaḥēr* — "God has set for me another **seed**"
+
+The NET's *another child* hides a word. Eve says *zeraʿ*, **seed** — the word
+of 3:15, *her seed* who will strike the serpent's head — and it is the last
+thing she says in Genesis. In 5:3 Adam is naming Seth and she is not
+mentioned; from there Genesis 5 names no woman at all. Seth's line is where
+the promise goes, and it is told without the women who carried it.
+
 ---
 
 ## Every name in Genesis 5
@@ -216,7 +228,7 @@ them are Cain's names, respelled.**
 | **Enosh** *ʾĕnôš* | | "man," with the sense **mortal, frail** (Psalm 8:4) | — |
 | **Kenan** *qênān* | *q-y-n* | built on the same root as **Cain** — smith, or "acquired" | **Cain** |
 | **Mahalalel** | *h-l-l* + *ʾēl* | "**praise of God**" | Mehujael, "smitten of God" |
-| **Jared** *yered* | *y-r-d* | "**descent**" — Jubilees 4:15 says the angels *came down* in his days | Irad |
+| **Jared** *yered* | *y-r-d* | "**descent**" — Jubilees 4:18 says the angels *came down* in his days | Irad |
 | **Enoch** *ḥănôḵ* | *ḥ-n-k* | dedication, initiation (*Hanukkah*) | **Enoch** |
 | **Methuselah** | *mĕtû* + *šelaḥ* | "man of the **spear**" — or "man of Shelaḥ," a god-name | Methushael, "man of God" |
 | **Lamech** *lemeḵ* | unknown | genuinely obscure | **Lamech** |

@@ -25,8 +25,11 @@ which questions are worth asking.
 
 **What it is.** A Sumerian composition listing the cities that held
 "kingship" and the kings who ruled in each, with the length of every reign.
-Most copies date from the early second millennium BCE; the oldest known
-version was written under the Third Dynasty of Ur, c. 2100 BCE. The
+Most copies date from the early second millennium BCE. The list itself goes
+back to the Third Dynasty of Ur, c. 2100 BCE — but that oldest version begins
+with Kiš, *after* the flood. **The section on kings before the flood was added
+in the Old Babylonian period, c. 1900–1800 BCE**, roughly when the copy below
+was written; the flood as a hinge is that edition's idea. The
 best-preserved copy is the **Weld-Blundell Prism** (WB 444) in the Ashmolean
 Museum, Oxford, written at Larsa around 1800 BCE — and that is the manuscript
 whose numbers the translation below follows. **The antediluvian section is
@@ -205,7 +208,7 @@ of a murderer, in the seventh generation from Adam, and reported without a
 word of praise or blame. The lists share their furniture and disagree about
 where it came from.
 
-## 4. Enmeduranki — the seventh, who was taken up
+## 4. Enmeduranki — the seventh, brought before the gods
 
 The seventh king on the Sumerian list, **En-men-dur-ana of Sippar**, became
 in later Babylonian tradition the founder of the diviners' guild. A text
@@ -214,21 +217,30 @@ Cuneiform Studies* 21, 1967) describes how it happened, and since no open
 translation of it exists we summarise rather than quote:
 
 > Enmeduranki, king of Sippar, beloved of Anu, Enlil and Ea, is brought by
-> **Shamash and Adad** into their assembly in heaven. They seat him on a
-> golden throne, show him the secrets of the gods — how to read oil on
+> **Shamash and Adad** into their assembly. They seat him on a golden throne, show him the secrets of the gods — how to read oil on
 > water, how to read a liver — and give him "the tablet of the gods," the
 > secret of heaven and earth. He returns and teaches these things to the men
 > of Nippur, Sippar and Babylon, and from him descend the *bārû*, the
 > diviners.
 
-So the seventh of the ten antediluvian kings, from the city of the **sun**,
-is taken into the presence of the gods, learns the secrets of heaven, and
-comes back as the source of a scribal tradition. The parallel scholars draw is
+The text does not say where the assembly sat. The phrase *who ascended to
+heaven* belongs to the seventh **sage**, Utuabzu, in the *Bīt mēseri*
+incantation — and the pairing of that sage with this king is attested only in
+the Uruk list of 165 BCE. So the parallel to Enoch is assembled from three
+texts of different dates, and the honest way to state it is as a composite.
+
+Put together, then: the seventh of the antediluvian kings, from the city of
+the **sun**, is brought into the assembly of the gods, learns their secrets,
+and comes back as the source of a scribal tradition — and his paired sage is
+remembered as the one who went up to heaven. The parallel scholars draw is
 with **Enoch**: the seventh from Adam (Jude 14), who lived **365** years — a
 solar number — "walked with God," and "was not, for God took him." James
 VanderKam set the case out in *Enoch and the Growth of an Apocalyptic
-Tradition* (1984), and it has been broadly accepted since: whoever shaped the
-Enoch tradition knew the Enmeduranki tradition. What the Second Temple books
+Tradition* (1984), and it has been broadly accepted since — for the **Enochic
+literature**: whoever shaped *1 Enoch* and *Jubilees* knew the Enmeduranki
+tradition. For Genesis 5 itself, which says only that Enoch walked with God
+and God took him, the case is thinner, and some (Kvanvig) press it harder
+than most. What the Second Temple books
 then *do* with Enoch — first to learn writing, wrote down the signs of heaven,
 scribe of righteousness, taken to the presence of God (*Jubilees* 4; *1
 Enoch* 12) — reads as a Jewish reply to the Babylonian sage, in the same
@@ -244,19 +256,23 @@ sheet](second-temple-sources.html) has those texts.
 | **The numbers** | multiples of 3,600 and 600 | multiples of 5, with 7s and 14s added |
 | **Scale** | 241,200 years for 8 kings | 1,656 years, Adam to flood (Hebrew text) |
 | **After the flood** | reigns collapse: 1,200 → 126 → 30 | lifespans collapse: 950 → 438 → 175 |
-| **The seventh** | Enmeduranki of Sippar: taken into the gods' assembly, taught the secrets of heaven, founder of a scribal guild | Enoch: walked with God, 365 years, "God took him"; later tradition makes him the first scribe |
+| **The seventh** | Enmeduranki of Sippar: brought into the gods' assembly, taught their secrets, founder of a scribal guild; his paired sage "ascended to heaven" | Enoch: walked with God, 365 years, "God took him"; later tradition makes him the first scribe |
 | **The arts** | given by *apkallu* sages who came up from the sea, under the first kings | invented by Cain's line — city, tents, music, metalwork — under no blessing |
 | **Where it starts** | kingship descends from heaven at Eridu | the image of God, inherited, at Seth |
 | **The flood hero** | Ziusudra / Xisuthrus, a king, son of the last king | Noah, "a man of the soil," son of a farmer who hoped for rest |
 {: .ff-table .ff-wrap}
 
 **What the comparison is for.** Not to say Genesis borrowed a list. It is to
-say that a Hebrew hearer around a fire in the Iron Age already knew what a
-list of long-lived rulers before a flood *sounded like* — and would have
-noticed at once what this one leaves out. No kings. No sages from the sea. No
-kingship descending from heaven. Instead: an image passed from a father to a
-son, a refrain of death, one man who walked with God, and a name that hopes
-for rest from a cursed ground.
+say that a Judean hearer — on the majority dating of Genesis 5, a Judean in
+Babylon, where this list was still being copied — already knew what a list of
+long-lived rulers before a flood *sounded like*, and would have noticed at
+once what this one leaves out. No sages from the sea. No kingship descending
+from heaven. And no kings — or rather, as Jon Levenson has pointed out,
+*ṣelem*, "image," is the ancient Near East's word for the king as the god's
+statue on earth, and Genesis 5:1–3 gives it to every child of Adam. Genesis
+does not omit the king; it makes everyone the king. Instead of a throne: an
+image passed from a father to a son, a refrain of death, one man who walked
+with God, and a name that hopes for rest from a cursed ground.
 
 ---
 
@@ -291,7 +307,10 @@ for rest from a cursed ground.
 - **"Enmeduranki and the Diviners"** — summarised, not quoted. W. G. Lambert,
   "Enmeduranki and Related Matters," *Journal of Cuneiform Studies* 21 (1967)
   126–138. The Enoch parallel: James C. VanderKam, *Enoch and the Growth of
-  an Apocalyptic Tradition* (Washington: CBA, 1984).
+  an Apocalyptic Tradition* (Washington: CBA, 1984). The royal sense of
+  *ṣelem*: J. Richard Middleton, *The Liberating Image* (Grand Rapids: Brazos,
+  2005); the point for Genesis 5 is Jon D. Levenson's (*Creation and the
+  Persistence of Evil*, 1988, on the image of God).
 - **Scripture** is the NET Bible: *Scripture quoted by permission from the NET
   Bible® copyright ©1996, 2019 by Biblical Studies Press, L.L.C.,
   [netbible.com](https://netbible.com). All rights reserved.* The Genesis

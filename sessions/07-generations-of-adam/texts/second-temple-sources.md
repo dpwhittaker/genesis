@@ -43,10 +43,13 @@ become **"translated,"** a technical word for being carried off alive; the
 Greek Bible had used the same word (*metatithēmi*) at Genesis 5:24, and Ben
 Sira's grandson keeps it. Second, "that he may give repentance to the
 nations": Enoch's being taken is read as a **sign** for others — which is
-exactly what *Jubilees* will say a generation later. The Hebrew of 44:16,
-recovered from the Cairo Genizah and Masada, reads slightly differently —
-*"a sign of knowledge to every generation"* — so the "sign" idea is in the
-oldest form of the verse, and "repentance" is the Greek translator's gloss.
+exactly what *Jubilees* will say a generation later. The Hebrew of 44:16 in
+the Cairo Genizah manuscript reads slightly differently — *"a sign of
+knowledge to every generation"* — so the "sign" idea is in the Hebrew, and
+"repentance" is the Greek translator's gloss. (The Masada scroll of Ben Sira
+appears to run straight from 44:15 to 44:17, which is one reason some
+scholars think the Enoch verse is a later insertion; the Greek and the
+Genizah text both have it.)
 
 ## 2. *Jubilees* 4:13–33 — *c. 160–150 BCE* → *toward the session's reading*
 
@@ -126,7 +129,8 @@ are older than *Jubilees*, and *Jubilees* depends on them. This is the
 literature Genesis 5:24 grew. Two short passages.
 
 The book opens with a prophecy in Enoch's mouth, and it is the passage
-**Jude 14–15 quotes** — a New Testament letter citing this book by name:
+**Jude 14–15 quotes** — a New Testament letter quoting this book (Jude names
+Enoch, not the book):
 
 > **9** And behold! He cometh with ten thousands of His holy ones
 > To execute judgement upon all,
@@ -135,6 +139,10 @@ The book opens with a prophecy in Enoch's mouth, and it is the passage
 > Of all the works of their ungodliness which they have ungodly committed,
 > And of all the hard things which ungodly sinners have spoken against Him.
 > — *1 Enoch* 1:9
+
+Quoting a line is not endorsing a book — Paul quotes a Greek poet in Acts
+17:28 — and the church never received *1 Enoch* as Scripture (the Ethiopian
+church excepted).
 
 And here is what the book does with "he was not":
 
@@ -253,7 +261,8 @@ one step further:
 Genesis 5:1–3 had said it in its own way: God made Adam in his likeness, and
 Adam fathered Seth in *his* likeness. Luke takes the chain to its top.
 
-**Hebrews 11:5–6** takes Genesis 5:24 the way Ben Sira and *Jubilees* did:
+**Hebrews 11:5–6** takes Genesis 5:24 the way Ben Sira and *Jubilees* did —
+and for the church this is the authoritative reading of the verse:
 
 > By faith Enoch was taken up so that he did not see death, and he was not to
 > be found because God took him up. For before his removal he had been
@@ -262,8 +271,9 @@ Adam fathered Seth in *his* likeness. Luke takes the chain to its top.
 
 "Pleased God" is the Greek Bible's rendering of "walked with God" — the
 Septuagint translators softened the walking to pleasing, and Hebrews reads
-the softened form. The rabbis, reading the Hebrew, went a different way; see
-[the rabbinic sheet](rabbinic-sources.html).
+the softened form. The rabbis, reading the Hebrew, went a different way — see
+[the rabbinic sheet](rabbinic-sources.html) — and note that the argument
+there is about a single verb, not about Hebrews.
 
 **Jude 14–15** counts, and quotes:
 
