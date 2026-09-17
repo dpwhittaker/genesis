@@ -117,7 +117,7 @@ Then Noah, and Adam's death:
 
 That last move is worth pausing on. Genesis 2:17 said *in the day you eat of
 it you will die*; Adam lived 930 years. *Jubilees* solves it with Psalm 90:4
-— a thousand years is a day to God — so Adam did die "in the day," thirty
+— a thousand years is a day to God — so Adam did die "in the day," seventy
 years short of finishing it. **This is the oldest recorded attempt to make
 the number in Genesis 5:5 do theological work**, and it treats 930 as a real
 figure with a meaning, not as a datum.

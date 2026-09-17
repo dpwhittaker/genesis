@@ -10,6 +10,17 @@ layout: default
 **Source sheets:** **[the Sumerian King List and Berossus](texts/sumerian-king-list.html)** · **[the earliest readings](texts/second-temple-sources.html)** (Ben Sira, Jubilees, 1 Enoch, Josephus, and the New Testament) · **[the rabbis on Genesis 4:17–5:32](texts/rabbinic-sources.html)**
 {: .no-print}
 
+<div class="no-print" markdown="1">
+
+## 🎧 Listen
+
+Two companion podcasts for this session — good before you read, or to revisit afterward:
+
+- **Medium overview** (~22 min): <audio controls preload="none" src="Medium_Podcast.m4a">Your browser can't play audio — [download the file](Medium_Podcast.m4a).</audio>
+- **Longer deep dive** (~60 min): <audio controls preload="none" src="Longer_Podcast.m4a">Your browser can't play audio — [download the file](Longer_Podcast.m4a).</audio>
+
+</div>
+
 ## A note before we begin
 
 Today's passage is the part of Genesis most of us skip: two family trees and

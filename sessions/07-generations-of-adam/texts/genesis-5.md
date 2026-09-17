@@ -249,7 +249,7 @@ is the tenth. Genesis 11 will run ten more from Shem to Abram. And the seventh
 in the list of ten is Enoch — Jude 14 counts it for you: *"Enoch, the seventh
 in descent beginning with Adam."* Seventh from Adam, walked with God, taken.
 Hold that number for the [Sumerian sheet](sumerian-king-list.html): the
-Babylonians also had a seventh, and he too was taken up.
+Babylonians also had a seventh, and he too was brought before the gods.
 
 ---
 

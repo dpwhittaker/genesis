@@ -14,7 +14,7 @@ who retold the same tradition in Greek around 280 BCE.
 
 Read them for the *furniture* — the schematic numbers, the descent of
 kingship from heaven, the flood as a hinge, the sages who bring the arts of
-civilisation, and the seventh king who is taken up. The session's claim is
+civilisation, and the seventh king who is brought before the gods. The session's claim is
 not that Genesis copied any of it. It is that Genesis 4–5 is written in a
 genre its first hearers already knew, and that knowing the genre changes
 which questions are worth asking.
@@ -204,7 +204,7 @@ Kvanvig, *Primeval History: Babylonian, Biblical, and Enochic*, Brill, 2011.)
 city, writing, law, agriculture — are a *gift*, brought up from the water by
 divine sages under the first kings. In Genesis 4 the same inventory — the
 city, tents and herds, music, metalwork — is *invented*, by the descendants
-of a murderer, in the seventh generation from Adam, and reported without a
+of a murderer, in the eighth generation from Adam, and reported without a
 word of praise or blame. The lists share their furniture and disagree about
 where it came from.
 
