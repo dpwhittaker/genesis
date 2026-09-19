@@ -172,9 +172,9 @@ Babylonian text has Shamash and Adad *bring him into their assembly*, seat
 him on a golden throne, and give him the tablet of the gods, the secrets of
 heaven and earth; he comes back and founds the guild of diviners.
 It never says where the assembly sat; *"ascended to heaven"* is said of the
-seventh **sage**, Utuabzu, paired with this king only in a list from 165 BCE.
-The parallel to Enoch is real, and it is **assembled from three texts** — the
-[Sumerian sheet](texts/sumerian-king-list.html) keeps them apart.
+seventh **sage**, Utuabzu, paired with him only in a list from 165 BCE. The
+parallel to Enoch is real, and **assembled from three texts** — the [Sumerian
+sheet](texts/sumerian-king-list.html) keeps them apart.
 
 Now hold that next to Genesis 5. Ten from Adam to the flood. Enormous
 numbers, in a system. And the seventh — Enoch — lived **365 years**, a solar
