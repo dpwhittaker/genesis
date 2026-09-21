@@ -1,5 +1,5 @@
 ---
-tags: [Study, WIP]
+tags: [Bible]
 layout: default
 permalink: /
 ---
