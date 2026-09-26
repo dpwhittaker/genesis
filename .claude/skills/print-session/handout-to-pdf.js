@@ -15,17 +15,27 @@
  *   default  → the deployed GitHub Pages site. Use this for a final check, and
  *              for the publish-lesson precondition (which verifies the LIVE page).
  *
+ * THE DELIVERABLE (--publish): the class prints a PDF, not the web page.
+ *   --publish writes sessions/<slug>/<slug>.pdf into the project (committed and
+ *   served next to the handout, linked from it in a no-print line). A PDF prints
+ *   exactly as rendered — no reflow, no browser header/footer eating the page —
+ *   so the page you analyze IS the paper. Publish renders use the plain 0.5in
+ *   margins (no --print-safe reserve), and links inside the PDF are rewritten
+ *   from the local preview to the live site so they work when clicked.
+ *
  * Usage:
- *   node .claude/skills/print-session/handout-to-pdf.js [--local] <slug|site-path|url> [out.pdf]
+ *   node .claude/skills/print-session/handout-to-pdf.js [--local] [--publish | --print-safe] <slug|site-path|url> [out.pdf]
  *
  * Examples:
+ *   node .claude/skills/print-session/handout-to-pdf.js --local --publish 08-sons-of-god
  *   node .claude/skills/print-session/handout-to-pdf.js --local 02-history-or-poetry
  *   node .claude/skills/print-session/handout-to-pdf.js 01-the-neighbors-stories
  *   node .claude/skills/print-session/handout-to-pdf.js https://dpwhittaker.github.io/genesis/sessions/09-babel/
  *
  * Override the base explicitly with GENESIS_BASE_URL if needed.
  *
- * Output defaults to pdf/<slug>.pdf (the pdf/ dir is gitignored).
+ * Output defaults to pdf/<slug>.pdf (the pdf/ dir is gitignored, for scratch
+ * renders); --publish writes sessions/<slug>/<slug>.pdf instead.
  *
  * Requires puppeteer. Resolution order: local node_modules, then $PUPPETEER_DIR,
  * then a sibling project's install. Install cleanly with:  npm i puppeteer
@@ -78,14 +88,22 @@ async function main() {
   // longer than it measures. --print-safe renders the page the reader actually
   // gets; see SKILL.md, "Leave headroom".
   const printSafe = rawArgs.includes('--print-safe');
-  const pos = rawArgs.filter((a) => a !== '--local' && a !== '--print-safe');
+  const publish = rawArgs.includes('--publish');
+  if (publish && printSafe) {
+    console.error('--publish and --print-safe are exclusive: a published PDF prints as rendered, so it needs no browser-dialog reserve.');
+    process.exit(1);
+  }
+  const pos = rawArgs.filter((a) => !['--local', '--print-safe', '--publish'].includes(a));
   const arg = pos[0];
   if (!arg) {
-    console.error('Usage: node handout-to-pdf.js [--local] <slug|site-path|url> [out.pdf]');
+    console.error('Usage: node handout-to-pdf.js [--local] [--publish | --print-safe] <slug|site-path|url> [out.pdf]');
     process.exit(1);
   }
   const url = buildUrl(arg, useLocal);
-  const outPath = pos[1] || path.join('pdf', `${slugify(arg)}.pdf`);
+  const slug = slugify(arg);
+  const outPath = pos[1] || (publish
+    ? path.join('sessions', slug, `${slug}.pdf`)
+    : path.join('pdf', `${slug}.pdf`));
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
 
   const puppeteer = loadPuppeteer();
@@ -115,6 +133,19 @@ async function main() {
       throw new Error(`page load failed: HTTP ${resp ? resp.status() : '??'} for ${url}`);
     }
     await page.emulateMediaType('print');
+    if (publish) {
+      // Links in the PDF should open the live site, not the local preview this
+      // was rendered from.
+      const liveBase = (process.env.GENESIS_LIVE_URL || 'https://dpwhittaker.github.io/genesis/').replace(/\/+$/, '/');
+      const renderBase = new URL('/genesis/', url).href;
+      if (renderBase !== liveBase) {
+        await page.evaluate((from, to) => {
+          for (const a of document.querySelectorAll('a[href]')) {
+            if (a.href.startsWith(from)) a.href = to + a.href.slice(from.length);
+          }
+        }, renderBase, liveBase);
+      }
+    }
     if (printSafe) {
       // main.scss declares `@page { margin: 0.5in }`, and a CSS @page margin
       // beats puppeteer's `margin` option — so the reserve has to be injected

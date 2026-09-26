@@ -1,6 +1,6 @@
 ---
 name: publish-lesson
-description: Publish a finished Genesis lesson to the class across three channels — add resource links to the Church Center group, email the group a short teaser with the links, and post the same to GroupMe. Use when the user says "publish lesson N", "send out session N", "the lesson is ready, push it to the group". HARD precondition: the lesson must have a complete, page-split-optimized handout plus a short AND a long podcast (and any other media linked under its README line) — refuse to publish if missing. ALWAYS draft the email + GroupMe text and get the user's explicit approval before sending anything. GroupMe goes via its REST API; Church Center has no API for resources/email, so those steps use the claude-in-chrome browser skill against an already-signed-in session.
+description: Publish a finished Genesis lesson to the class across three channels — add resource links to the Church Center group, email the group a short teaser with the links, and post the same to GroupMe. Use when the user says "publish lesson N", "send out session N", "the lesson is ready, push it to the group". HARD precondition: the lesson must have a complete, page-split-optimized handout with its printable PDF (sessions/<slug>/<slug>.pdf, from print-session) plus a short AND a long podcast (and any other media linked under its README line) — refuse to publish if missing. ALWAYS draft the email + GroupMe text and get the user's explicit approval before sending anything. GroupMe goes via its REST API; Church Center has no API for resources/email, so those steps use the claude-in-chrome browser skill against an already-signed-in session.
 ---
 
 # Publish a lesson
@@ -21,10 +21,10 @@ GroupMe has a real API; Church Center does **not** expose group resources or ema
 
 A lesson is publishable only when it has, at minimum:
 
-1. **A complete, page-split-optimized handout.** Run the **`print-session`** skill on the slug (render the live page → analyze). Require: page-break markers present **and** the analyzer reports **no warnings** (no sparse/overfull pages). If it warns, stop — the handout isn't ready; fix breaks first.
+1. **A complete, page-split-optimized handout, with its printable PDF.** The **`print-session`** skill delivers `sessions/<slug>/<slug>.pdf` — the file the class prints — linked from the page in a no-print line. Require: that PDF exists, is committed, is **not older than `index.md`** (a stale PDF is the version people will hold), and `analyze-pdf.py --direct` on it reports **no warnings** (no sparse pages, no orphaned discussion boxes) with an even page count. Forced page-break markers are *not* required — a clean flowing layout needs none. If any check fails, stop and run `print-session` first. (Older sessions, prepared before the PDF path, have no PDF; for those, render one with `print-session` before publishing.)
 2. **A short podcast and a long podcast** in `sessions/<slug>/` (two `*.m4a`/audio files). If either is missing, stop.
 3. **Everything committed and live on Pages.** `git status` clean for the session folder, and the session page + each media file return HTTP 200 on the published site.
-4. **Other related media** linked under the lesson's line in `README.md` are included in the link set (step 1 below). "At minimum" is handout + 2 podcasts; include whatever else the README lists for that lesson.
+4. **Other related media** linked under the lesson's line in `README.md` are included in the link set (step 1 below). "At minimum" is handout + printable PDF + 2 podcasts; include whatever else the README lists for that lesson. (`lesson-links.sh` may not list the PDF; add `https://dpwhittaker.github.io/genesis/sessions/<slug>/<slug>.pdf` yourself.)
 
 If a precondition fails, tell the user exactly what's missing and stop. Do not partially publish.
 
@@ -40,7 +40,7 @@ This prints the session page URL plus every media link the README lists under th
 
 Draft:
 - a **short teaser** (2–4 sentences — what this session is about, an enticing hook), and
-- the **link block**: session page, short podcast, long podcast, + extras.
+- the **link block**: session page, printable PDF, short podcast, long podcast, + extras.
 
 Compose the **email** version (subject + body) and the **GroupMe** version (≤1000 chars, links inline). Then **show both to the user verbatim and wait for explicit approval** ("send it" / edits). Do **not** touch Church Center or GroupMe until approved. Preview the GroupMe text safely with:
 

@@ -7,14 +7,20 @@ where sections actually fall, not where source line-counting guesses.
 
 Usage:
     source ~/ml-env/bin/activate      # pymupdf lives here
-    python3 .claude/skills/print-session/analyze-pdf.py pdf/01-the-neighbors-stories.pdf
+    python3 .claude/skills/print-session/analyze-pdf.py [--direct] <file.pdf>
+
+    --direct   this PDF is the file that gets printed (a --publish render in the
+               session folder). A PDF prints exactly as rendered, so headroom
+               cannot be eaten by a print dialog: `tight` is reported as an
+               informational note, not a warning.
 
 Per page it reports: vertical fullness %, character count, and the first heading.
 
 Warnings:
   sparse (<25%)    a section is probably overflowing from the page before
   overfull (>97%)  content may be getting clipped
-  tight            under 0.6in of headroom below the last content: renders fine
+  tight            (browser-print renders only; informational under --direct)
+                   under 0.6in of headroom below the last content: renders fine
                    here but spills in a real print environment with slightly less
                    usable height than headless Chrome — most commonly because
                    "Headers and footers" is enabled in the browser's print dialog,
@@ -104,15 +110,19 @@ def page_report(page):
 
 
 def main():
-    if len(sys.argv) < 2:
-        print("Usage: python3 analyze-pdf.py <file.pdf>", file=sys.stderr)
+    args = [a for a in sys.argv[1:] if a != "--direct"]
+    direct = "--direct" in sys.argv[1:]
+    if not args:
+        print("Usage: python3 analyze-pdf.py [--direct] <file.pdf>", file=sys.stderr)
         sys.exit(2)
+    path = args[0]
 
-    doc = fitz.open(sys.argv[1])
+    doc = fitz.open(path)
     n = doc.page_count
     warnings = []
 
-    print(f"{sys.argv[1]} — {n} page{'s' if n != 1 else ''}\n")
+    mode = "  [direct: this file is what prints; tight is informational]" if direct else ""
+    print(f"{path} — {n} page{'s' if n != 1 else ''}{mode}\n")
     print(f"{'pg':>3}  {'full':>5}  {'room':>5}  {'chars':>6}  heading")
     print("-" * 72)
     for i, page in enumerate(doc, start=1):
@@ -125,11 +135,18 @@ def main():
             flag = "  <- sparse: section likely overflows from previous page"
             warnings.append((i, "sparse"))
         elif r["fullness"] > OVERFULL:
-            flag = "  <- overfull: content may be clipped"
-            warnings.append((i, "overfull"))
+            if direct:
+                # Chrome paginated this flow itself, so a full page is just full.
+                flag = "  (full page — fine, the PDF cannot reflow)"
+            else:
+                flag = "  <- overfull: content may be clipped"
+                warnings.append((i, "overfull"))
         elif r["headroom_in"] < TIGHT_IN:
-            flag = f"  <- tight: only {r['headroom_in']:.2f}\" headroom; may spill when printed"
-            warnings.append((i, "tight"))
+            if direct:
+                flag = f"  (tight: {r['headroom_in']:.2f}\" headroom — fine, the PDF cannot reflow)"
+            else:
+                flag = f"  <- tight: only {r['headroom_in']:.2f}\" headroom; may spill when printed"
+                warnings.append((i, "tight"))
         print(f"{i:>3}  {pct:>5}  {room:>5}  {r['chars']:>6}  {r['heading'][:50]}{flag}")
         if r["orphan_box"]:
             print(f"{'':>3}  {'':>5}  {'':>5}  {'':>6}  "
