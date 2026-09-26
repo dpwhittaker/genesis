@@ -1,11 +1,11 @@
 ---
-title: "16. Blessing and Burial"
+title: "12. Covenant Cut"
 layout: default
 ---
 
-# 16. Blessing and Burial
+# 12. Covenant Cut
 
-**Passage:** Genesis 48–50
+**Passage:** Genesis 15 and 17
 
 *Session page in development.*
 

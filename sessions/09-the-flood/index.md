@@ -1,11 +1,11 @@
 ---
-title: "13. The Binding of Isaac (the Akedah)"
+title: "9. The Flood"
 layout: default
 ---
 
-# 13. The Binding of Isaac (the Akedah)
+# 9. The Flood
 
-**Passage:** Genesis 22
+**Passage:** Genesis 6:9–9:29
 
 *Session page in development.*
 

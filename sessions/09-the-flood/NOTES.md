@@ -1,4 +1,4 @@
-# Session 8 — planning notes
+# Session 9 — planning notes
 
 **Not published.** `_config.yml` excludes `sessions/*/NOTES.md` from the Jekyll
 build, so this file is for whoever builds the session, not for the class.
@@ -6,6 +6,9 @@ build, so this file is for whoever builds the session, not for the class.
 ---
 
 ## Renumbering (2026-09-14)
+
+(Renumbered again 2026-09-25: Session 8 became Genesis 6:1–8, *The Sons of
+God and the Nephilim*, and the Flood moved to Session 9 — Genesis 6:9–9:29.)
 
 The Flood was Session 7 until Session 7 became Genesis 4:17–5:32 (the two
 genealogies against the Sumerian King List). Everything from here on moved
@@ -32,11 +35,10 @@ assumed, so expect further splits.
 - **Genesis 6:3, "120 years"** — Session 7 read it as the cliff in the
   lifespan curve (the King List's post-flood collapse). *Genesis Rabbah* 26:2
   reads it as the age of liability, which is why Noah fathers at 500.
-- **The Watchers / sons of God (6:1–4).** *Jubilees* 4:15 puts the angels'
-  descent in Jared's days (a pun on *yārad*) and says they came *to instruct*
-  — the *apkallu* job. *1 Enoch* 6–16 is the full story; Session 7 quoted 12
-  and 14–15 on the earliest-readings sheet. Josephus 1.3.1 ("the acts of
-  those whom the Grecians call Giants") is already on that sheet too.
+- **The Watchers / sons of God (6:1–4)** — now **Session 8's** whole subject
+  (Genesis 6:1–8). See [`../08-sons-of-god/NOTES.md`](../08-sons-of-god/NOTES.md)
+  for what it handed forward: the second telling of the flood's cause in
+  6:9–13, the LORD's heart at 6:6 and 8:21, Og on the ark, and 1 Peter 3:19–20.
 - **Sippar / the buried tablets.** Berossus has Xisuthrus bury "the entire
   book" at Sippar before the flood so that knowledge survives; Josephus gives
   Seth's line the same motif (pillars of brick and stone, *Ant.* 1.2.3). Both

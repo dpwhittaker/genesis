@@ -1,11 +1,11 @@
 ---
-title: "12. Sodom, Hospitality, and Justice"
+title: "17. Blessing and Burial"
 layout: default
 ---
 
-# 12. Sodom, Hospitality, and Justice
+# 17. Blessing and Burial
 
-**Passage:** Genesis 18–19
+**Passage:** Genesis 48–50
 
 *Session page in development.*
 

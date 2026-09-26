@@ -8,7 +8,7 @@ build, so this file is for whoever builds the session, not for the class.
 renumbered down by one. Everything below was folded into the handout (Part 1
 = the iron question, Part 2 = the King List) and the source sheets. The
 flood-specific items that used to sit at the bottom of this file moved to
-[`../08-the-flood/NOTES.md`](../08-the-flood/NOTES.md).
+[`../09-the-flood/NOTES.md`](../09-the-flood/NOTES.md) (the Flood is now Session 9; Session 8 became Genesis 6:1–8).
 
 ---
 

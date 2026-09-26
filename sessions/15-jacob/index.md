@@ -1,11 +1,11 @@
 ---
-title: "10. The Call of Abram"
+title: "15. Jacob"
 layout: default
 ---
 
-# 10. The Call of Abram
+# 15. Jacob
 
-**Passage:** Genesis 12
+**Passage:** Genesis 25–35
 
 *Session page in development.*
 
