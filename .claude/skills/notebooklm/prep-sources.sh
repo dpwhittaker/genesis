@@ -46,6 +46,9 @@ for f in "$sess"/*.md; do
   [ -e "$f" ] || continue
   base="$(basename "${f%.md}")"
   [ "$base" = "index" ] && continue
+  # NOTES.md is builder-only planning (excluded from the Jekyll build too) —
+  # never class-facing, so never a podcast source.
+  [ "$base" = "NOTES" ] && continue
   out="$outdir/${slug}__${base}.txt"
   clean "$f" > "$out"
   produced+=("$out")
