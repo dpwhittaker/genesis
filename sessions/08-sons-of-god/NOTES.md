@@ -4,7 +4,9 @@
 build, so this file is for whoever builds the session, not for the class.
 
 **Status (2026-09-26):** draft built — handout plus six source sheets; both
-podcasts generated from this draft (25 m / 55 m, 2026-09-25); print pass done —
+podcasts generated from this draft (`08-sons-of-god-short.m4a` 25 m /
+`08-sons-of-god-long.m4a` 55 m, 2026-09-25 — the first session on the new
+`<slug>-short/-long` naming); print pass done —
 **8 pages, no forced breaks**, delivered as `08-sons-of-god.pdf` in this folder
 (the first session printed from a committed PDF rather than the web page). Not
 yet panel-reviewed. Any content change → re-render the PDF (`print-session`)

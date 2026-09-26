@@ -1,6 +1,6 @@
 ---
 name: notebooklm
-description: Generate NotebookLM "Deep Dive" podcasts for a Genesis lesson. Uploads the lesson's handout + primary texts (as clean plain text) to the class NotebookLM notebook, then drives the site with claude-in-chrome to produce TWO Deep Dive audio episodes — a LONG one (Longer preset) and a MEDIUM one (Default preset) — each focus-prompted at the lesson you're working on (or narrower topics on request), and downloads them into sessions/<slug>/. Use when the user says "make podcasts for session N", "deep dive for lesson N", "generate the NotebookLM audio", "long and medium podcast". Browser-driven (no NotebookLM API): needs a Chrome with the Claude extension signed into the same claude.ai account; downloads land wherever that Chrome runs, so prefer a Chrome on THIS machine.
+description: Generate NotebookLM "Deep Dive" podcasts for a Genesis lesson. Uploads the lesson's handout + primary texts (as clean plain text) to the class NotebookLM notebook, then drives the site with claude-in-chrome to produce TWO Deep Dive audio episodes — a LONG one (Long preset) and a SHORT one (Default preset) — each focus-prompted at the lesson you're working on (or narrower topics on request), and downloads them into sessions/<slug>/ as <slug>-long.m4a and <slug>-short.m4a. Use when the user says "make podcasts for session N", "deep dive for lesson N", "generate the NotebookLM audio", "long and short podcast". Browser-driven (no NotebookLM API): needs a Chrome with the Claude extension signed into the same claude.ai account; downloads land wherever that Chrome runs, so prefer a Chrome on THIS machine.
 ---
 
 # NotebookLM Deep Dive podcasts
@@ -19,7 +19,7 @@ Genesis lessons ship with two podcasts (a long and a shorter one) generated from
 
 1. The target lesson exists: `sessions/<slug>/index.md`. Resolve `N` → slug (e.g. `2` → `02-history-or-poetry`).
 2. A Chrome with the Claude extension is running and signed into the **same claude.ai account** — and, in that Chrome, the user is **signed into Google and NotebookLM**. (Claude can drive the browser but cannot log in for the user; entering Google credentials is the user's job.)
-3. Confirm the length mapping and focus with the user if not already given: **long = "Longer" preset, medium = "Default" preset**; focus defaults to the lesson's theme unless they name specific topics.
+3. Confirm the length mapping and focus with the user if not already given: **long = "Long" preset → `<slug>-long.m4a`, short = "Default" preset → `<slug>-short.m4a`**; focus defaults to the lesson's theme unless they name specific topics.
 
 ## Step 1 — prep clean text sources
 
@@ -59,14 +59,14 @@ Only needed if you **reused** a shared notebook (skip for a fresh one). In the S
 
 ## Step 6 — generate the two Deep Dives (can run in PARALLEL)
 
-Both episodes can generate at once — queue the long one, then immediately queue the medium; you do **not** have to wait or download between them. Each takes several minutes.
+Both episodes can generate at once — queue the long one, then immediately queue the short; you do **not** have to wait or download between them. Each takes several minutes.
 
-For each episode (queue LONG, then MEDIUM):
+For each episode (queue LONG, then SHORT):
 
 1. Click the **Audio Overview** tile in the Studio panel (post-rebrand there is no separate "Customize" affordance — the tile opens the Customize dialog directly).
 2. In the **Customize Audio Overview** dialog: leave **Format = Deep Dive** (default, first tile, has the checkmark). Language = English. The **Length** control is three radios labelled **Short / Default / Long**. The dialog often renders *faded behind* the notebook summary — don't try to read it from a screenshot; `find` the controls and click by `ref`:
    - LONG → click **Long**
-   - MEDIUM → click **Default**
+   - SHORT → click **Default** (our "short" file is NotebookLM's Default preset, not its Short one)
 3. Set the **focus textbox** ("What should the AI hosts focus on in this episode?") via `form_input` with the **focus prompt** (below). NotebookLM also offers auto-suggested focus chips — ignore them; set the full prompt explicitly.
 4. Click **Generate**. The Studio panel shows "Generating Audio Overview… Come back in a few minutes."
 5. Re-open Customize and repeat for the second episode. Do not busy-poll; check back after several minutes.
@@ -75,7 +75,7 @@ For each episode (queue LONG, then MEDIUM):
 
 > Focus this episode on **<lesson title>**. Center the conversation on the lesson's main argument: <one-sentence aim, paraphrased from the handout>. Ground everything in the uploaded sources; teach it for an adult small group; keep it warm and concrete. Do not drift to other lessons or outside material.
 
-For the MEDIUM episode, add: "Keep it tighter — hit only the core moves."
+For the SHORT episode, add: "Keep it tighter — hit only the core moves."
 If the user named specific topics, replace the focus sentence with those topics.
 
 ## Step 7 — retrieve the audio into the repo
@@ -85,10 +85,15 @@ When an episode is ready (Studio shows it with a duration, a ▶ play button, an
 - **Chrome on this host (the normal case):** downloads land in `~/Downloads`. Move both into the session folder — the LONGER (bigger/longer duration) is the long one:
   ```bash
   DL=~/Downloads
-  mv "$DL/<long-episode-title>.m4a"   sessions/<slug>/Longer_Podcast.m4a
-  mv "$DL/<medium-episode-title>.m4a" sessions/<slug>/Medium_Podcast.m4a
+  mv "$DL/<long-episode-title>.m4a"  sessions/<slug>/<slug>-long.m4a
+  mv "$DL/<short-episode-title>.m4a" sessions/<slug>/<slug>-short.m4a
   ```
-  Match the existing naming style — session 1 uses `Longer_Podcast.m4a` / `Shorter_Podcast.m4a`.
+  **Naming (from Session 8 on): `<slug>-short.m4a` and `<slug>-long.m4a`** — the
+  Default-preset episode is "short", the Long-preset one "long". The slug in the
+  name keeps a downloaded file identifiable on someone's phone. Sessions 1–7 keep
+  their older names (`Medium_Podcast.m4a` / `Longer_Podcast.m4a`, and session 1's
+  `Shorter_Podcast.m4a`): their URLs are already in past GroupMe posts, emails and
+  Church Center resources, so renaming them would break links the class has.
 - **Browser on another device (debug fallback):** the file is on that device. Both machines are on the tailnet, so either pull it (`scp <peer>:<file> sessions/<slug>/`) or have the user push it — from that device: `scp <file> gpu-server:~/projects/genesis/sessions/<slug>/`.
 
 Then confirm both files exist and are non-trivial in size (`ls -lh sessions/<slug>/*.m4a`). Verify duration if `ffprobe` is available.
@@ -110,7 +115,7 @@ for f in sessions/<slug>/*.m4a; do
     && mv "$f.tmp.m4a" "$f" && chmod 644 "$f" \
     || { echo "DURATION MISMATCH on $f — keeping original"; rm -f "$f.tmp.m4a"; }
 done
-ffmpeg -hide_banner -v error -i sessions/<slug>/Longer_Podcast.m4a -f null -   # decode-integrity check; silence = clean
+ffmpeg -hide_banner -v error -i sessions/<slug>/<slug>-long.m4a -f null -   # decode-integrity check; silence = clean
 ```
 
 `+faststart` moves the moov atom to the front so the `<audio>` player can start before the whole file arrives. Durations are unchanged, so the minute labels in the README bullet and the 🎧 Listen block stay correct.
@@ -124,13 +129,13 @@ Two traps worth knowing:
 
 Round each duration to whole minutes (from the `ffprobe` values, e.g. 40:15 → 40, 20:08 → 20). Then add links in **both** spots, exactly like session 1:
 
-**1) `README.md` — append to this lesson's bullet line** (the `🎧 Podcasts:` suffix), medium first then long:
+**1) `README.md` — append to this lesson's bullet line** (the `🎧 Podcasts:` suffix), short first then long:
 
 ```markdown
-🎧 Podcasts: [medium (<MED>m)](sessions/<slug>/Medium_Podcast.m4a) · [long (<LONG>m)](sessions/<slug>/Longer_Podcast.m4a)
+🎧 Podcasts: [short (<SHORT>m)](sessions/<slug>/<slug>-short.m4a) · [long (<LONG>m)](sessions/<slug>/<slug>-long.m4a)
 ```
 
-(Session 1 labels its shorter one "short"; use the label that matches the file — "medium" for `Medium_Podcast.m4a", "short" for `Shorter_Podcast.m4a`.)
+(Sessions 1–7 predate this naming and label theirs "medium"/"short" against the old filenames; leave them.)
 
 **2) `sessions/<slug>/index.md` — a `## 🎧 Listen` section near the top** (right after the opening `**Passage:**` line / before the first `##` section), with inline `<audio>` players and a download fallback. **Wrap it in `<div class="no-print" markdown="1">…</div>`** so it renders on screen but is **hidden in the printed handout** (audio players are dead weight on paper, and it saves a page):
 
@@ -141,17 +146,17 @@ Round each duration to whole minutes (from the `ffprobe` values, e.g. 40:15 → 
 
 Two companion podcasts for this session — good before you read, or to revisit afterward:
 
-- **Medium overview** (~<MED> min): <audio controls preload="none" src="Medium_Podcast.m4a">Your browser can't play audio — [download the file](Medium_Podcast.m4a).</audio>
-- **Longer deep dive** (~<LONG> min): <audio controls preload="none" src="Longer_Podcast.m4a">Your browser can't play audio — [download the file](Longer_Podcast.m4a).</audio>
+- **Short overview** (~<SHORT> min): <audio controls preload="none" src="<slug>-short.m4a">Your browser can't play audio — [download the file](<slug>-short.m4a).</audio>
+- **Longer deep dive** (~<LONG> min): <audio controls preload="none" src="<slug>-long.m4a">Your browser can't play audio — [download the file](<slug>-long.m4a).</audio>
 
 </div>
 ```
 
-Keep the `src`/href as bare filenames (the page is served from the session dir, so relative links resolve). The `markdown="1"` attribute lets kramdown process the markdown inside the div. After adding it, **re-run the `print-session` page-break pass** — the Listen block (though print-hidden) plus any other new content can still shift on-screen layout, and page counts must stay even with no warnings.
+Keep the `src`/href as bare filenames (the page is served from the session dir, so relative links resolve). The `markdown="1"` attribute lets kramdown process the markdown inside the div. After adding it, **re-render the printable PDF with `print-session`** — the Listen block is print-hidden, so the layout should not move, but `index.md` has changed and the committed PDF must not be older than it (`publish-lesson` checks).
 
 ## Step 9 — report
 
-Tell the user the two files, their durations, and that they're in `sessions/<slug>/` and linked in the README bullet + the page's 🎧 Listen section. `publish-lesson` expects a short/long (or medium/long) pair here and will pick these up (it globs `*.m4a`). Leave committing to the user unless asked.
+Tell the user the two files, their durations, and that they're in `sessions/<slug>/` and linked in the README bullet + the page's 🎧 Listen section. `publish-lesson` expects the short/long pair here and will pick these up (it reads the README links and globs `*.m4a`). Leave committing to the user unless asked.
 
 ## Gotchas
 

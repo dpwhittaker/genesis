@@ -19,8 +19,8 @@ layout: default
 
 Two companion podcasts for this session — good before you read, or to revisit afterward:
 
-- **Medium overview** (~25 min): <audio controls preload="none" src="Medium_Podcast.m4a">Your browser can't play audio — [download the file](Medium_Podcast.m4a).</audio>
-- **Longer deep dive** (~55 min): <audio controls preload="none" src="Longer_Podcast.m4a">Your browser can't play audio — [download the file](Longer_Podcast.m4a).</audio>
+- **Short overview** (~25 min): <audio controls preload="none" src="08-sons-of-god-short.m4a">Your browser can't play audio — [download the file](08-sons-of-god-short.m4a).</audio>
+- **Longer deep dive** (~55 min): <audio controls preload="none" src="08-sons-of-god-long.m4a">Your browser can't play audio — [download the file](08-sons-of-god-long.m4a).</audio>
 
 </div>
 
