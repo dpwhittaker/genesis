@@ -201,7 +201,8 @@ to get wrong:
   beginning, / And placed him in the hand of his Yeṣer. / If thou (so)
   desirest, thou canst keep the commandment… Poured out before thee (are) fire
   and water"* (APOT I, Sirach 15:14–16). Session 9 quotes Charles exactly.
-  Worth a quiet fix in `05-the-garden/part-2.md`.
+  Fixed 2026-10-09 from the page image (APOT I, p. 371; translators Box and
+  Oesterley).
 - **NET credit line:** netbible.com/copyright asks for "(NET)" after each
   quotation *or* an acknowledgement-page line; our footer line is close to but
   not verbatim the second option. Worth tidying site-wide some day.
