@@ -46,10 +46,13 @@ Session 8's handout already has a short Part 5 on 6:5–8 (*yēṣer*; *ʿeṣeb
 Lamech's two words; 1 Samuel 15; *Genesis Rabbah* 27:4; the נח/חן anagram).
 This session should not repeat it: it links back and goes further.
 
-**Status (2026-10-08):** draft built — handout plus four source sheets. Draft
-render is 8 pages (Letter, `pdf/09-regret-and-grace.pdf`, scratch only). Not
-yet panel-reviewed; no podcasts; no committed PDF (run `print-session` once
-the content is final).
+**Status (2026-10-09):** handout plus four source sheets; "Sinai" settled as
+Zhang 2026; panel-reviewed and revised; print pass done — **10 pages, two
+forced breaks** (before Part 4 and before *Next week*), delivered as
+`09-regret-and-grace.pdf` in this folder. Two block quotations (Num 23:19,
+Jonah 4:2) were inlined to keep their lead-ins on the same page. Any content
+change → re-render the PDF (`print-session`) and, if substantial, regenerate
+the podcasts.
 
 ---
 
@@ -145,8 +148,8 @@ what was done:
   sheet, not the handout; Frymer-Kensky's noise/*ḥāmās* contrast (modern
   Jewish) — saved for Session 10 (see below).
 
-The handout grew to 9 pages (last page ~3/4). The print pass should either
-trim ~1 page or set breaks for an even 10.
+The handout grew to 9 pages (last page ~3/4); the print pass set it at an even
+10 rather than cut the panel's additions.
 
 ## Verification notes worth keeping
 

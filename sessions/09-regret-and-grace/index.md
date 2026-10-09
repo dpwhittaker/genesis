@@ -10,6 +10,9 @@ layout: default
 **Source sheets:** **[regret and favor across the Bible](texts/elsewhere-in-scripture.html)** · **[can God regret?](texts/god-who-regrets.html)** (Philo to the present) · **[one story or two?](texts/one-story-or-two.html)** (the sources for J and P, the mirror, Sinai, and the tradition's own answer)
 {: .no-print}
 
+🖨️ **[Printable handout (PDF, 10 pages)](09-regret-and-grace.pdf)** — print this file rather than the web page; it is the exact layout checked for paper.
+{: .no-print}
+
 ## A note before we begin
 
 We ran out of time last week four verses short of the ark. Those four verses
@@ -147,13 +150,9 @@ the Bible seems to argue with itself.
 making humankind (Genesis 6) and making Saul king (1 Samuel 15:11, 35). He
 *relents* over the golden calf (Exodus 32:14), over Nineveh (Jonah 3:10), and
 twice at Amos's prayer (Amos 7:3, 6). And two verses say flatly that he does
-not:
-
-> God is not a man, that he should lie, / nor a human being, that he should
-> change his mind. *(Numbers 23:19)*
-
-The other is 1 Samuel 15:29 — in the very chapter that twice says he
-regretted. The narrator holds both in one chapter. Readers have held them
+not: *"God is not a man, that he should lie, nor a human being, that he should
+change his mind"* (Numbers 23:19); and 1 Samuel 15:29 — in the very chapter
+that twice says he regretted. The narrator holds both in one chapter. Readers have held them
 together in roughly five ways. Each is held by serious believers, and each has
 a question it has to answer.
 
@@ -228,11 +227,9 @@ rule: if a nation I threatened *"stops doing wrong, I will cancel the
 destruction I intended"*; if a nation I promised to bless turns to evil, *"I
 will cancel the good"* (18:8, 10). Joel and Jonah quote the great description
 of God from Exodus 34 — *gracious, compassionate, slow to anger* — and add one
-line:
-
-> …you are a gracious and compassionate God, slow to anger and abounding in
-> mercy, **and one who relents concerning threatened judgment.** *(Jonah 4:2;
-> so also Joel 2:13)*
+line: *"…you are a gracious and compassionate God, slow to anger and abounding
+in mercy, **and one who relents concerning threatened judgment**"* (Jonah 4:2;
+so also Joel 2:13).
 
 On this reading God's relenting is not a crack in his constancy; it *is* his
 constancy. Every threat carries what Calvin called *"a tacit condition"* —
@@ -346,6 +343,8 @@ is the Christian reading; the texts are the Bible's and the Talmud's.)*
 you why God has shown you favor, what would you say — and what does it do to
 your answer that Genesis names grace first, and then calls Noah godly?
 </div>
+
+<div class="page-break"></div>
 
 ## Part 4 — A story told twice (6:9–9:17)
 
@@ -557,6 +556,8 @@ like a seam, a mirror, a wink toward Sinai — or a lesson (Rashi: *"He shut the
 door in front of him against the waters"*)? Does anything about how you read
 the Flood change, depending on which?
 </div>
+
+<div class="page-break"></div>
 
 ## Next week — the neighbours' floods
 
