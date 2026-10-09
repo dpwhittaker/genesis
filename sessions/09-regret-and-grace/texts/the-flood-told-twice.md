@@ -14,9 +14,10 @@ Skinner (1910); where later scholars draw a line differently, the notes below
 say so.
 
 **The colours are a map of one reading, not a verdict.** The handout lays out
-three ways of reading these doublets — two sources woven together, one story
-built as a mirror, and a story told to point to Sinai — and you may hold
-any of them. Whichever you hold, the colours let you see exactly what each
+four ways of reading these doublets — two strands woven together, one story
+built as a mirror, a story told to point to Sinai, and the tradition's one
+Author for whom nothing is said twice for nothing — and you may hold any of
+them. Whichever you hold, the colours let you see exactly what each
 reading is talking about.
 
 **Three ways to read it.** First, read it straight through, as it stands in

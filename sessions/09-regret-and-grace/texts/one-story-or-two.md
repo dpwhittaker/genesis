@@ -17,9 +17,9 @@ sources for each, in their own words where we may quote them:
   unity).
 - **Part C — A story that points to Sinai** (Zara Zhang's 2026 study of the
   Flood's allusions to Exodus 24–40, and those who heard Sinai in it before).
-- **Part D — The older readings** (the rabbis' two names for God, Rashi on each
-  doublet, Rabbi Mordechai Breuer's "aspects", and the evangelical case for
-  Moses).
+- **Part D — The oldest answer: one Author** (the rabbis and Rashi on why each
+  thing is said twice, Rabbi Mordechai Breuer's "aspects", and the evangelical
+  case for Moses).
 
 The whole passage, coloured by strand, is on [the Flood, told
 twice](the-flood-told-twice.html). The handout's rule holds here too: each
@@ -29,6 +29,35 @@ hold any of them.
 ---
 
 ## Part A — Two sources woven together
+
+### Where the field stands now
+
+Driver and Skinner, quoted below, set out the case a century ago, and their
+verse-by-verse division is still the starting point. The field has moved since,
+but not away from this. Nearly every critical scholar still divides the Flood
+into a **Priestly** strand and a **non-Priestly** one. What is debated is
+whether the non-Priestly strand was ever a separate, continuous source — the
+"J" of the classic Documentary Hypothesis, defended today by neo-documentarians
+such as Joel Baden and Baruch Schwartz — or a set of additions and revisions,
+as many European scholars (Erhard Blum, Reinhard Kratz, Konrad Schmid) hold;
+and how each is dated. Most date P to the exile or after; Jewish scholars such
+as Yehezkel Kaufmann and Jacob Milgrom argued for an earlier P, partly on the
+evidence of its Hebrew. (David Carr's *Reading the Fractures of Genesis*, 1996,
+is a readable account of the debate.)
+
+What the two strands let you hear, on this reading: a God who grieves *to his
+heart* before the flood and speaks *to his heart* after it (non-P, 6:6 and
+8:21); and a God who makes a covenant with *"every living creature"* and *"the
+earth,"* grounds a law on his own image (9:6), and sets a sign in the clouds
+that he himself will watch *"and remember"* (P, 9:12–16) — a promise that needed
+no temple, written, on the usual dating, for people who had lost theirs.
+
+**Its test, and its weakness.** The two-source reading makes a claim that could
+have failed: that each strand, read alone, is a story. The Priestly strand
+passes; the non-Priestly one nearly does (it lacks the building of the ark and
+the exit). Its weakness is the other side of its flexibility: verses that do
+not sort (7:3 and 7:9 use the "wrong" words) are credited to the editor, and a
+theory that can absorb every exception is harder to test.
 
 ### S. R. Driver, *Introduction to the Literature of the Old Testament* (1913)
 
@@ -199,7 +228,10 @@ The time periods, he wrote, form *"a symmetrical pattern, 7, 7, 40, 150, 150,
 remembered Noah'."* (Only periods counted in *days* belong to the pattern; the calendar
 dates do not.) He was candid about the strain: one week of waiting is
 mentioned twice (7:4, 10), and Noah's sacrifice (8:20–22) stands outside the
-mirror. (A "Wenham chiasm" circulating online, with items such as *"Curse on
+mirror. Two more strains he does not list: the two 150s are one span too (the
+waters *"prevailed… 150 days,"* 7:24, and *"had gone down by the end of the
+150 days,"* 8:3 — both count from 7:11 to the landing in 8:4); and the exit
+from the ark (8:18–19) has no partner. (A "Wenham chiasm" circulating online, with items such as *"Curse on
 earth (6:13b)"*, is not his; the table above is from the article.)
 
 **The Mesopotamian order.** Wenham listed seventeen features that Genesis shares
@@ -209,7 +241,9 @@ the command to build; obedience; the command to enter; the entry; the closing
 of the door; the flood; the destruction; the end of the rain; the grounding on
 a mountain; the window; the birds; the exit; the sacrifice; the god smelling
 the sacrifice; the blessing. **J alone has twelve of them; P alone has ten.**
-Only the combined story has the whole ancient shape. Gary Rendsburg made the
+Only the combined story has the whole ancient shape. (The source critics'
+reply: put two partial retellings of one tradition together and you will
+always get more of it than either has alone — so the count fits both views.) Gary Rendsburg made the
 same argument in more detail (in *Gilgameš and the World of Assyria*, 2007,
 pp. 115–127): Genesis 6–8 parallels Gilgamesh XI *"point by point, and in the
 same order."*
@@ -356,6 +390,12 @@ announcements of judgment are not unusual in the Hebrew Bible. In fact, God
 often threatens judgment multiple times but hesitates to execute it even once…
 Instead, it points to the merciful nature of God (Exod. 34.6–7)."*
 
+One verse would strengthen her case, and she does not cite it. When Moses
+retells the golden calf, God says *"I will destroy them, obliterating their very
+name"* (Deuteronomy 9:14) — in Hebrew *wəʾemḥeh… mittaḥat haššāmāyim*, "I will
+wipe out… from under heaven": the verb of Genesis 6:7 and the phrase of 6:17,
+one from each strand.
+
 She also notices three details of **Moses' life** hidden in Genesis 5–6: the
 *tēbâ*, the "ark," is elsewhere only the basket that saved the baby Moses
 (Exodus 2:3, 5); the 120 years of 6:3 are Moses' age at death (Deuteronomy
@@ -373,10 +413,15 @@ one sound in 6:14 — *gōpher*, *kāphar*, *kōpher* — that she hears pointin
 the *kappōret*, the "atonement lid" (Exodus 25:17); *"did all that God
 commanded him"* (6:22; Exodus 40:16); the *covering* removed on *the first day
 of the first month* (8:13; Exodus 40:17–19). The Greek Bible uses one word,
-*kibōtos*, for both arks.
+*kibōtos*, for both arks. (A caution on the wordplay: *kōpher*, "pitch," is
+also the Akkadian *kupru*, the bitumen with which the survivor caulks his boat
+in Gilgamesh XI. The word was Babylonian before it was Levitical; hearing
+*atonement* in it is a later reader's hearing.)
 
 And the calendar. The Flood lasts a year and ten days; the Sinai sojourn, from
-Exodus 16:1 to Numbers 10:11–12, a year and five days. *"The two events begin
+Exodus 16:1 to Numbers 10:11–12, a year and five days. (Her start date is the
+wilderness of Sin, *"between Elim and Sinai"* — Israel reaches Sinai itself only
+at Exodus 19:1.) *"The two events begin
 only two days apart and end only seven days apart."* Sinai, too, has its seven
 days and its forty days within the year (Exodus 24:16, 18), so the Flood's two
 clocks — 7 + 40 days and 150 days — are both Sinai's clocks.
@@ -448,11 +493,13 @@ in view.
 
 ### Others who heard Sinai in the Flood
 
-- **The rabbis.** *"They violated the Torah that was given in forty days;
-  therefore, [the Flood lasted] 'forty days and forty nights'"* (*Genesis
-  Rabbah* 32:5). And Rashi on 7:2: the clean animals are *"those cattle which
-  will in future be permitted to Israel as clean; we thus learn that Noah
-  studied the Torah."*
+- **The rabbis — in their own way.** *"They violated the Torah that was given
+  in forty days; therefore, [the Flood lasted] 'forty days and forty nights'"*
+  (*Genesis Rabbah* 32:5). And Rashi on 7:2: the clean animals are *"those
+  cattle which will in future be permitted to Israel as clean; we thus learn
+  that Noah studied the Torah."* This is theology, not literary allusion: for
+  the rabbis the Torah existed before the world and could be kept before
+  Sinai.
 - **The source critics.** Skinner (1910) on the ark's covering: *"Elsewhere
   only of the covering of the Tabernacle (P)"*; Driver (1913) on 6:22:
   *"exactly the same form of sentence"* as Exodus 40:16. They read these as one
@@ -467,7 +514,17 @@ The verses are in the NET on the [Scripture sheet](elsewhere-in-scripture.html),
 §§19–20.
 
 **The question this view has to answer.** Parallels are easy to find once one
-looks for them — the danger Samuel Sandmel named "parallelomania" in 1962 — and
+looks for them. Some of hers are common words or stock phrases (*"God saw…
+and indeed"* is the frame of 1:31 too; *make* and *forty* are everywhere); a
+reader can find a similar set in Jonah — violence, God *saw* their *way* and
+*relented*, forty days, animals under judgment, a prophet named *Dove*. Her
+rare words (*tēbâ*, *mikseh*) are another matter. The strongest scholarly
+reply is that the echoes **sort by school**: the golden calf is non-Priestly and
+echoes in the non-Priestly flood; the tabernacle and the covenant with a sign
+are Priestly architecture; and where the echoes cross, they depend on disputed
+verse assignments. If Genesis and the Moses story were joined late by editors
+(as Konrad Schmid argues), an editor could make an allusion as well as an
+author. Beyond that, the general caution applies — the danger Samuel Sandmel named "parallelomania" in 1962 — and
 some of these are slender, as Zhang herself grants. It is one new study, by a
 doctoral researcher, not yet answered in print. And a source critic can reply
 that the ark–tabernacle links are what one would expect from a single priestly
@@ -475,7 +532,7 @@ writer, and that an editor joining two sources could have added the rest.
 
 ---
 
-## Part D — The older readings: one Author, two aspects
+## Part D — The oldest answer: one Author, nothing said twice for nothing
 
 ### *Genesis Rabbah* 33:3 — the two names as two attributes
 
@@ -508,6 +565,37 @@ ugly one)
 
 > …it was water at first, but after it continued to fall, it became a flood. —
 > 31:12
+
+### The tradition's answer in brief
+
+For Jewish tradition the Torah has one Author, and a thing said twice is said
+for a reason. *Two of every kind* is the minimum; the seven pairs of clean
+animals are for Noah's offering (Rashi on 6:19 and 7:2, below). The seven days
+before the rain were days of mourning: *"Rav says: These were the days of
+mourning for the death of Methuselah"* (*Sanhedrin* 108b) — or, in *Genesis
+Rabbah* 27:4, God's own seven days of mourning for his world. The rain fell
+gently at first, so that it might still become a rain of blessing (Rashi on
+7:12). The decree was sealed for one sin in particular — *"Their fate was sealed
+only on account of their sin of robbery"* (Rashi on 6:13, the *ḥāmās* of the
+second telling). Noah built for a long time so that people would ask why:
+*"so that the men of the generation of the Flood might see him employed on it
+for 120 years and might ask him, 'What do you need this for'?… perhaps they
+might repent"* (Rashi on 6:14). And *never again* is said twice, in 9:11 and
+9:15, because a word said twice is an oath: *"a negative expression is an oath
+only in a case where one said no, no, stating the term two times… as it is
+written: 'All flesh shall not be excised any more by floodwaters' (Genesis
+9:11), and it is again written: 'And the waters shall no more become a flood'
+(Genesis 9:15)"* (*Shevuot* 36a, from Rava). Isaiah 54:9 calls it a vow.
+
+The rabbis also argued whether *"righteous in his generations"* (6:9) is
+praise or blame — Rashi gives both: *"he was righteous even in his
+generation… Others, however, explain it to his discredit: in comparison with
+his own generation he was accounted righteous, but had he lived in the
+generation of Abraham he would have been accounted as of no importance."* And
+the Zohar (on the portion *Noaḥ*) faults Noah for not praying for his world — the reason, it says,
+Isaiah calls the flood *"the waters of Noah"* — where Rashi on 6:14, above,
+has him warning them for a hundred and twenty years. *These and these are the
+words of the living God.*
 
 ### Rashi (1040–1105) on each doublet
 
@@ -561,7 +649,7 @@ and from the non-kosher species two."*
 ### Rabbi Mordechai Breuer (1921–2007) — the "theory of aspects"
 
 Breuer, an Orthodox Bible teacher in Jerusalem, made the most daring move in
-the traditional camp. He **accepted the critics' division of the text** — the
+the traditional camp — and a contested one; many in Orthodoxy rejected it. He **accepted the critics' division of the text** — the
 strands are real, and the man of faith, as Rabbi Amnon Bazak summarises him,
 *"believes that God Himself wrote J, E, D, and P"* and did the weaving too. In
 his own words, God *"redacted one document characterized by justice and one
@@ -599,7 +687,7 @@ documentary critics found.
 
 ---
 
-## What all three share
+## What they share
 
 - **The doublets are real.** No one — rabbi, critic or evangelical — thinks
   the repetitions are imaginary. They disagree about what they are.
@@ -658,7 +746,7 @@ documentary critics found.
   J. H. Tigay, *The Evolution of the Gilgamesh Epic* (Penn, 1982) and
   *Empirical Models for Biblical Criticism* (Penn, 1985); M. Breuer, in S.
   Carmy, ed., *Modern Scholarship in the Study of Torah* (Aronson, 1996), and
-  *Pirkei Bereshit* (Alon Shvut, 1998/99), ch. 8, as described by Y. Bazak
+  *Pirkei Bereshit* (Alon Shvut, 1998/99), ch. 8, as described by A. Bazak
   (Virtual Beit Midrash), B. Kehat (*Megadim* 35, 2002) and D. Curwin (*Times
   of Israel*, 2021); P. J. Wiseman, *New Discoveries in Babylonia about
   Genesis* (1936); D. A. Garrett, *Rethinking Genesis* (Baker, 1991); J.

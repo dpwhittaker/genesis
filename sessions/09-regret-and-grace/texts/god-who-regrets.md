@@ -35,7 +35,8 @@ about how to say both.
 | Thirty-Nine Articles; Westminster Confession | 1571; 1646 | England | 2 |
 | **Keil and Delitzsch** | 1861 | Germany | 2 and 3 |
 | **Abraham Joshua Heschel**, *The Prophets* | 1962 | New York | 3 |
-| **Terence Fretheim** | 1984, 1988 | Minnesota | 3 and 5 |
+| **Terence Fretheim** | 1984, 1988 | Minnesota | 3 and 5 (some read him nearer 4) |
+| **Jürgen Moltmann**, *The Crucified God* | 1972 | Tübingen | 3 |
 | *The Openness of God*; Boyd; Sanders | 1994–2000 | North America | 4 |
 | **Robert Chisholm** | 1995 | Dallas | 5 |
 {: .ff-wrap}
@@ -189,6 +190,29 @@ On the Hebrew of *it pained him to his heart*, Maimonides offers two meanings:
 > Him by an epithet which is formed from the verb expressing that emotion. —
 > I.54
 
+**Where the saying came from.** *"The Torah speaks in the language of men"*
+did not begin as a rule about God's feelings. It began as Rabbi Ishmael's
+answer to Rabbi Akiva about a **doubled verb** — *hikkaret tikkaret*, "shall
+surely be cut off" (Numbers 15:31). Akiva derived two punishments from the
+doubling; Ishmael said *"nothing is derived from the doubled verb… as the
+Torah spoke in the language of people"* (*Sanhedrin* 64b). The medieval
+philosophers turned the saying toward God's emotions. (So the oldest Jewish
+argument about whether a repetition must teach something — the question of
+Part 4 of the handout — is this one.)
+
+**Nachmanides (Ramban, c. 1260) uses the same saying and keeps the grief.**
+
+> AND THE ETERNAL REPENTED… AND IT GRIEVED HIM AT HIS HEART. The Torah speaks
+> in the language of men. The purport is that they rebelled, and grieved His
+> holy spirit with their sins.
+
+He is reading Isaiah 63:10 (the NET: *"they rebelled and offended his Holy
+Spirit"* — the same root as Genesis 6:6).
+Where Maimonides makes the grief a figure for anger or for human rebellion,
+Ramban lets the people's sin truly grieve God's Spirit. (Session 8's
+[rabbinic sheet](../../08-sons-of-god/texts/rabbinic-sources.html) has it in
+full, with Ibn Ezra's more cautious version.)
+
 ### Thomas Aquinas, *Summa Theologiae* I, q. 19, a. 7 (c. 1266–68)
 
 Aquinas states the objection from Genesis himself:
@@ -331,6 +355,10 @@ Rashi gathers the other readings too, side by side, in the same comment:
 > considered what to do with man whom He had made on the earth… **He mourned at
 > the failure of His handiwork.**
 
+In the same passage of *Genesis Rabbah*, Rabbi Aivu hears God say: *"There
+was regret before Me that I created an evil inclination in him"* — the regret
+lands on the *yēṣer* of verse 5.
+
 (The first reads *niḥam* as *be comforted*; the second as *change one's mind*
 — literally, *"the thought of the Place [God] turned from the attribute of mercy
 to the attribute of justice"*; the third keeps the grief.)
@@ -375,6 +403,25 @@ God is open to change."* He held that both changelessness and changeability
 belong to God, *"each in its own sphere"* — God's faithfulness never changes;
 his ways of acting toward people do. (That puts him close to reading 5.)
 
+
+### Jürgen Moltmann (1972) — described
+
+The German Reformed theologian Jürgen Moltmann, in *The Crucified God* (1972;
+English 1974), read God's suffering through the cross: the Father suffers the
+death of the Son. For many twentieth-century Christians this, more than any
+reading of Genesis 6, is why they speak of a God who grieves.
+
+### Was impassibility borrowed from Greek philosophy? — described
+
+Heschel, Fretheim and Moltmann all tell a version of the same story: the early
+church took its "unmoved" God from Greek philosophy rather than from the
+prophets. Defenders of the classical view dispute that story. Thomas Weinandy
+(*Does God Suffer?*, 2000) and Rob Lister (*God Is Impassible and
+Impassioned*, 2013) argue that the fathers meant something narrower — that God
+is never *acted upon*, never overcome by what happens to him — and that this is
+compatible with, even necessary to, a God whose love is constant. The
+Westminster Confession's single sentence — *"without… passions"* and *"most
+loving, gracious, merciful"* — fits their reading: the tradition meant both.
 ---
 
 ## 4. An open future
@@ -452,6 +499,18 @@ Calvin, who held reading 2, also supplied the key to reading 5:
 > condition dependent on the result.**… When Jonah prophesies that in forty
 > days Nineveh will be overthrown, **he does it in order to prevent the
 > overthrow.**
+
+### The Talmud on "The LORD, the LORD" (*Rosh Hashanah* 17b)
+
+Exodus 34:6 names God twice — *"The LORD, the LORD."* The Talmud asks why, and
+answers with reading 5 in one line:
+
+> "The Lord, the Lord," … I am He before a person sins, and I am He after a
+> person sins and performs repentance — *Rosh Hashanah* 17b
+
+The same God, unchanged, meets the sinner before and after; what has changed is
+the sinner. Jews recite these words, the Thirteen Attributes, in the
+penitential prayers of the High Holy Days.
 
 ### Robert B. Chisholm Jr. (1995) — described
 
@@ -542,7 +601,14 @@ Read side by side, the five readings agree on more than they first seem to:
 - **Keil and Delitzsch** — *Biblical Commentary on the Old Testament: The
   Pentateuch*, vol. 1, trans. **J. Martin** (Edinburgh, 1866), pp. 139–140,
   **public domain**.
-- **Described, not quoted at length (in copyright):** A. J. Heschel, *The
+- **Talmud**, *Sanhedrin* 64b and *Rosh Hashanah* 17b — The William Davidson
+  Talmud (Koren–Steinsaltz), **CC BY-NC**, via Sefaria; only the words the
+  edition prints in bold are the Talmud's own. **Nachmanides** — trans. C. B.
+  Chavel (1971–76), which Sefaria records as **CC BY**.
+- **Described, not quoted at length (in copyright):** J. Moltmann, *The
+  Crucified God* (1972; Eng. SCM, 1974); T. G. Weinandy, *Does God Suffer?*
+  (T&T Clark, 2000); R. Lister, *God Is Impassible and Impassioned* (Crossway,
+  2013); A. J. Heschel, *The
   Prophets* (Harper & Row, 1962), pt. 2, with the summary in *Proceedings of the
   Catholic Theological Society of America* 19 and R. Ngien, *Evangelical Review
   of Theology* 25 (2001): 137–153; E. Berkovits, *Tradition* 6:2 (1964): 67–104;

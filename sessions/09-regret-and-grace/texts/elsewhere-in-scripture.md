@@ -15,7 +15,8 @@ Part A is the human heart. Part B is God's regret: where Scripture says he
 relents, where it says he does not, and where it says relenting is part of who
 he is. Part C is favor. Part D is the place all of these words meet again —
 Sinai — and the case that the whole Flood is told to recall it. Part E is Noah
-in the rest of the Bible.
+in the rest of the Bible, and Part F the cost of the flood and the promise
+after it.
 
 **About the counts.** Every count below was made on the Hebrew text (the
 Westminster Leningrad Codex as tagged by the Open Scriptures Hebrew Bible),
@@ -239,8 +240,16 @@ prophets were less shy: in Jeremiah 18, Joel, Amos and Jonah, God *metanoei*.
 Isaiah's *offended* is the same Hebrew root as Genesis 6:6's *highly offended*
 — ***ʿ-ṣ-b***, **pain**, the word of the curse in 3:16–17 and of Lamech's hope
 in 5:29. The NET says *offended* both times; Paul, echoing Isaiah, says
-*grieve*. The New Testament keeps both edges: a purpose that does not change,
-and a Spirit who can be grieved.
+*grieve*. The only other place in the Bible with this form of the verb (the
+*hithpael*) is Genesis 34:7, where Jacob's sons, hearing what was done to
+Dinah, *"were offended and very angry"* — grief and fury at once.
+
+> After looking around at them in anger, **grieved by the hardness of their
+> hearts**, he said to the man, "Stretch out your hand." He stretched it out,
+> and his hand was restored. — *Mark 3:5*
+
+The New Testament keeps both edges: a purpose that does not change, and a
+Spirit — and a Son — who can be grieved.
 
 ---
 
@@ -356,6 +365,24 @@ what Moses appeals to: what God has **sworn** (32:13).
 *Wipe out* is ***māḥâ***, the verb of Genesis 6:7 (*"I will wipe humankind"*),
 7:4 and 7:23 — and God's *I will wipe him out* (*ʾemḥennû*) is 6:7's *I will
 wipe* (*ʾemḥeh*) with a pronoun added.
+
+God refuses the offer. The psalmist states the rule, and Paul, centuries later,
+feels Moses' impulse for his own people:
+
+> Certainly a man cannot rescue his brother; he cannot pay God an adequate
+> ransom price — *Psalm 49:7*
+
+> For I could wish that I myself were accursed—cut off from Christ—for the
+> sake of my people, my fellow countrymen — *Romans 9:3*
+
+Two more uses of the verb. When Moses retells the golden calf, God says *"Stand
+aside and I will destroy them, obliterating their very name"* (Deuteronomy
+9:14) — in Hebrew *wəʾemḥeh… mittaḥat haššāmāyim*, "and I will wipe out… from
+under heaven," the verb of Genesis 6:7 and the phrase of 6:17. And the image
+behind the verb:
+
+> I will wipe Jerusalem clean, just as one wipes a plate on both sides. —
+> *2 Kings 21:13*
 
 ### 17. "You have found favor in my sight"
 
@@ -524,6 +551,58 @@ And forty days later, at the edge of the land:
 In Ezekiel, Noah is a byword for a righteousness so great it could save — but
 only himself. Genesis tells us he *found favor* before it tells us he was
 righteous, and Hebrews says his righteousness came *by faith*.
+
+---
+
+## Part F — The cost, and the promise
+
+The flood takes *"everything from humankind to animals"* (Genesis 6:7). The
+Bible does not look away from that; it argues with it, and it answers with a
+promise.
+
+> Abraham approached and said, "Will you really sweep away the godly along with
+> the wicked? What if there are 50 godly people in the city? Will you really
+> wipe it out and not spare the place for the sake of the 50 godly people who
+> are in it? Far be it from you to do such a thing—to kill the godly with the
+> wicked, treating the godly and the wicked alike! Far be it from you! **Will
+> not the judge of the whole earth do what is right?**" — *Genesis 18:23–25*
+
+> The LORD said, "You were upset about this little plant, something for which
+> you did not work, nor did you do anything to make it grow. It grew up
+> overnight and died the next day. Should I not be more concerned about
+> Nineveh, this enormous city? There are more than 120,000 people in it who do
+> not know right from wrong, **as well as many animals.**" — *Jonah 4:10–11*
+
+> The Lord is not slow concerning his promise, as some regard slowness, but is
+> being patient toward you because he does not wish for any to perish but for
+> all to come to repentance. — *2 Peter 3:9* (compare 1 Peter 3:20, *"God
+> patiently waited in the days of Noah"*)
+
+The promise after the flood is remembered later as an oath — and an oath
+for exiles:
+
+> "As far as I am concerned, this is like in Noah's time, when I vowed that
+> the waters of Noah's flood would never again cover the earth. In the same way
+> I have vowed that I will not be angry at you or shout at you. Even if the
+> mountains are removed and the hills displaced, my devotion will not be
+> removed from you, nor will my covenant of friendship be displaced," says the
+> LORD, the one who has compassion on you. — *Isaiah 54:9–10*
+
+And the New Testament reads the ark as a sign of the rescue it points to:
+
+> Because Christ also suffered once for sins, **the just for the unjust**, to
+> bring you to God, by being put to death in the flesh but by being made alive
+> in the spirit. In it he went and preached to the spirits in prison, after
+> they were disobedient long ago when God patiently waited in the days of Noah
+> as an ark was being constructed. In the ark a few, that is eight souls, were
+> delivered through water. And this prefigured baptism, which now saves
+> you—**not the washing off of physical dirt but the pledge of a good
+> conscience to God**—through the resurrection of Jesus Christ — *1 Peter
+> 3:18–21*
+
+> He himself bore our sins in his body on the tree, that we may cease from
+> sinning and live for righteousness. By his wounds you were healed. —
+> *1 Peter 2:24* (quoting Isaiah 53)
 
 ---
 

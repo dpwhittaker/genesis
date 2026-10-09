@@ -88,6 +88,66 @@ Four parts, a teaser and a close:
 
 **Sinai** is Zhang's allusion reading (see the top of this file).
 
+## Panel review (2026-10-09)
+
+Five seats ran independently (rabbi, modern Jewish scholar, evangelical,
+mainline, skeptic) on the draft with Zhang's Sinai reading. Convergent
+findings — the ones reached by two or more seats from different methods — and
+what was done:
+
+- **Isaiah 54:9** (four seats): the exiles' reading of the Flood as an oath.
+  Added to Part 4 §1 (what P lets you hear), §4 (the oath), the Scripture
+  sheet Part F.
+- **God refuses Moses' offer, Exod 32:33** (mainline, evangelical; the rabbi
+  supplied *Sotah* 14a): the Isaiah 53 landing moved from Part 4 to Part 3's
+  Sinai bullets and now runs Moses' offer → God's refusal (32:33; Ps 49:7) →
+  *Sotah* 14a (R. Samlai reads Isa 53:12 of Moses, *"he gave himself over to
+  death"* — only the bold words of the Davidson edition are quoted) → 1 Pet
+  2:24; 3:18, labelled as the Christian step.
+- **Zhang overweighted** (mainline, modern Jewish, skeptic, evangelical): now
+  "a new proposal"; leads with the rare words (*tēbâ*, *mikseh*); "both clocks
+  are Sinai's" cut; her calendar starts in the wilderness of Sin (Exod 16:1);
+  her scope limit stated; four doublets she explains, not "the very doublets";
+  the reply that the echoes sort by school (and editors can allude) added.
+- **The drowned** (mainline, skeptic): 6:7 quoted in full; new "What it costs"
+  (Gen 18:23–25; Jonah 4:11; 1 Pet 3:20) and a discussion question; Ea's rebuke
+  added to the teaser, with "Who objects to the flood?"
+- **7:1 against "grace before righteousness"** (evangelical, skeptic; the rabbi
+  added the parashah break at 6:8/6:9 and GR 28:9 vs Ramban): Part 3 now holds
+  both; Hebrews 11:7 no longer said to "keep the order".
+- **Reading 5 over-crowned / the NT formula settles nothing** (mainline,
+  evangelical, skeptic): "may be the most biblical" → "many hold it together
+  with reading 2, as Calvin did"; the NT paragraph now admits it does not
+  settle 6:6 and lets 1 Sam 15 stand unresolved.
+- **The source question** (mainline: two-against-one tilt, J/P undersold;
+  evangelical: Mosaic view missing; rabbi: the tradition's own answer missing):
+  §1 now states the field as of 2026 (P/non-P near-consensus; Baden vs
+  Blum/Kratz/Schmid; Kaufmann/Milgrom's earlier P), what each strand lets you
+  hear, its real strength (the continuity test) and weakness (the editor
+  absorbs exceptions); a fourth reading, **"the oldest answer: one Author"**
+  (Rashi 6:19, 7:2, 7:12; *Sanhedrin* 108b; *Shevuot* 36a; Kitchen; hard
+  question Gen 36:31; Breuer); the table is now four rows.
+- **Single-seat corrections taken:** the LXX sentence (both verbs of 6:6 became
+  thought; 6:7 anger); 8:21 drops "only" and "all the time"; 5:29 and Gen 34:7;
+  the maxim "the Torah speaks in the language of people" is R. Ishmael's on a
+  doubled verb (*Sanhedrin* 64b); Rambam vs Ramban separated; R. Yehoshua ben
+  Korḥa and R. Aivu named; GR 33:3's full point (deeds turn the attributes);
+  *yēṣer hāraʿ* (GR 9:7; *Sukkah* 52a); Ben Sira 15:15's optimism and Rom
+  5:12; 1 Pet 3:21; classical impassibility defined (not "no love"), Calvin's
+  "clothes himself with our affections"; Fretheim and Moltmann in reading 3;
+  Heschel's question reframed; Mark 3:5; Wenham's two 150s are one span;
+  Luke 1:30 "the same idiom"; "the word ḥēn" (Abel, 4:4); source critics named
+  as churchmen (Driver, Skinner); the "unsettles" sentence made two-sided;
+  closing question per the evangelical seat.
+- **Not taken / deferred:** the evangelical's request for a fourth *column* in
+  the table (done as a fourth row instead); Barth on God's "constancy"
+  (mainline) — not added; the Jonah "control exercise" (skeptic) — on the
+  sheet, not the handout; Frymer-Kensky's noise/*ḥāmās* contrast (modern
+  Jewish) — saved for Session 10 (see below).
+
+The handout grew to 9 pages (last page ~3/4). The print pass should either
+trim ~1 page or set breaks for an even 10.
+
 ## Verification notes worth keeping
 
 Research was done 2026-10-08 by four parallel agents (Scripture/Hebrew, the
@@ -134,11 +194,28 @@ to get wrong:
 - **No open English** exists for Atrahasis Tablet III (the goddess's lament,
   the flies) or for the "bellowing like a bull / could not sleep" lines;
   Clay's "clamor" is the safe public-domain line.
+- **Session 5.2 quotes Ben Sira 15:14–17 inaccurately.** Its wording (*"gave
+  him into the hand of his inclination [yitzro]. If thou choose, thou mayest
+  keep the commandment… Fire and water are poured out before thee"*) is
+  credited to Charles 1913, but Charles reads *"God created man from the
+  beginning, / And placed him in the hand of his Yeṣer. / If thou (so)
+  desirest, thou canst keep the commandment… Poured out before thee (are) fire
+  and water"* (APOT I, Sirach 15:14–16). Session 9 quotes Charles exactly.
+  Worth a quiet fix in `05-the-garden/part-2.md`.
 - **NET credit line:** netbible.com/copyright asks for "(NET)" after each
   quotation *or* an acknowledgement-page line; our footer line is close to but
   not verbatim the second option. Worth tidying site-wide some day.
 
 ## Threads handed forward to Session 10 (the Flood)
+
+- **Frymer-Kensky's contrast** (T. Frymer-Kensky, "The Atrahasis Epic and Its
+  Significance for Our Understanding of Genesis 1–9," *Biblical Archaeologist*
+  40, 1977 — verify before quoting): Atrahasis's cause is noise and its remedy
+  population control; Genesis's cause is *ḥāmās* and its remedy *"be
+  fruitful"* plus a law against bloodshed (9:1–7). The modern Jewish panel seat
+  urged it; the teaser's first question sets it up.
+- The skeptic's point: Genesis's God also speaks *after* the flood (*"as I have
+  just done,"* 8:21) — so "before or after?" is not a clean contrast.
 
 - The **three questions** the teaser sets: why each flood comes (Atrahasis:
   noise/overpopulation; Gilgamesh: no reason given — only "the great gods
