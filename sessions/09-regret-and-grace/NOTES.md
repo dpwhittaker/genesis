@@ -25,7 +25,17 @@ a Story Told Twice*, and the Flood moved to **Session 10** (Genesis
 top: 17→18 … 09-the-flood→10-the-flood; titles and README bumped). The
 Flood's planning notes stay with it in `../10-the-flood/NOTES.md`.
 
-**What "Sinai" means (settled 2026-10-09).** David pointed to Zara Zhang,
+**Zhang's Sinai reading removed (2026-10-09, later the same day).** After the
+panel, David cut it: *"the Sinai allusion section is not what this class is
+about, and the skeptic has a point."* Part 4 is now three readings — two
+strands, the mirror, and the tradition's one Author — and Zhang's material is
+gone from the handout, from Part C of the one-story-or-two sheet and from
+§§19–20 of the Scripture sheet (the ark-as-tabernacle parallels went with
+it). Part 3's *wipe out, relent, favor* at the golden calf stays: that is the
+grace thread, not the allusion argument. The paragraph below records what the
+section had been.
+
+**What "Sinai" had meant (2026-10-09).** David pointed to Zara Zhang,
 "*Sintflut* and Sinai: Genesis 6–8's allusion to Exodus 24–40," *JSOT* 50.3
 (2026): 272–298, doi 10.1177/03090892251367447 — open access, **CC BY 4.0**.
 The first draft had guessed "Torah from Sinai" (the rabbis' mercy/justice,
@@ -47,10 +57,11 @@ Lamech's two words; 1 Samuel 15; *Genesis Rabbah* 27:4; the נח/חן anagram).
 This session should not repeat it: it links back and goes further.
 
 **Status (2026-10-09):** handout plus four source sheets; "Sinai" settled as
-Zhang 2026; panel-reviewed and revised; print pass done — **10 pages, two
-forced breaks** (before Part 4 and before *Next week*), delivered as
-`09-regret-and-grace.pdf` in this folder. Two block quotations (Num 23:19,
-Jonah 4:2) were inlined to keep their lead-ins on the same page. Podcasts generated
+Zhang 2026; panel-reviewed and revised; print pass redone after the Sinai
+section was cut — **8 pages, one forced break** (before *Next week*),
+delivered as `09-regret-and-grace.pdf` in this folder. Num 23:19 and Jonah 4:2
+are inlined, three cells of the doublet table shortened and a few asides cut
+(all still on the sheets) so the table fits on page 5. Podcasts generated
 2026-10-09 in a fresh NotebookLM notebook ("Echoes of the Flood"), sourced from
 the published handout and four sheets: `09-regret-and-grace-short.m4a` (23 m,
 Default preset) and `09-regret-and-grace-long.m4a` (54 m, Long preset),

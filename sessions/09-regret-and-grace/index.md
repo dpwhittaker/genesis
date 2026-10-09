@@ -7,10 +7,10 @@ layout: default
 
 **Passage:** Genesis 6:5–8, and a first look at the Flood, 6:9–9:17 ([the whole Flood narrative, with its doublets marked](texts/the-flood-told-twice.html))
 
-**Source sheets:** **[regret and favor across the Bible](texts/elsewhere-in-scripture.html)** · **[can God regret?](texts/god-who-regrets.html)** (Philo to the present) · **[one story or two?](texts/one-story-or-two.html)** (the sources for J and P, the mirror, Sinai, and the tradition's own answer)
+**Source sheets:** **[regret and favor across the Bible](texts/elsewhere-in-scripture.html)** · **[can God regret?](texts/god-who-regrets.html)** (Philo to the present) · **[one story or two?](texts/one-story-or-two.html)** (the sources for J and P, the mirror, and the tradition's own answer)
 {: .no-print}
 
-🖨️ **[Printable handout (PDF, 10 pages)](09-regret-and-grace.pdf)** — print this file rather than the web page; it is the exact layout checked for paper.
+🖨️ **[Printable handout (PDF, 8 pages)](09-regret-and-grace.pdf)** — print this file rather than the web page; it is the exact layout checked for paper.
 {: .no-print}
 
 <div class="no-print" markdown="1">
@@ -151,9 +151,7 @@ true. Why does Scripture still refuse to let them be the last word?
 
 Lamech's two words from 5:29 come back here — *comfort* (*niḥam*) and *pain*
 (*ʿ-ṣ-b*) — with God now their subject (last week's handout, Part 5, traces
-them). (The NET's
-*highly offended* is half right: the only other time Genesis uses this form of
-the verb, Jacob's sons are grieved and furious at once, 34:7.) Today, the
+them). Today, the
 first word: *regretted* — to be sorry, to relent, to change course. And here
 the Bible seems to argue with itself.
 
@@ -170,8 +168,7 @@ a question it has to answer.
 **1. Translate it gently.** The Jews who put Genesis into Greek, around 250
 BCE, turned *both* Hebrew verbs of verse 6 into thought: *"God laid it to heart
 that he had made man upon the earth, and he pondered it deeply."* In verse 7
-regret became anger — *ethymōthēn*, *"I was angry"* that I made them. (The
-Greek Torah never once uses the ordinary word for *repent*, of God or anyone.)
+regret became anger — *ethymōthēn*, *"I was angry"* that I made them.
 The Aramaic Targum read in the synagogues kept the regret but traded the grief
 for a decision: *"He said, (in His Word,) that He would break their strength
 according to His pleasure."* *The question it has to answer:* the Hebrew does
@@ -180,8 +177,7 @@ say *regret* and *pain*.
 **2. God speaks our language.** Philo of Alexandria, a Jewish philosopher and
 an older contemporary of Jesus, wrote a whole book on these verses, *That God
 Is Unchangeable*: Scripture speaks in two registers — *"one, that God is not
-as a man; the other, that God is as a man"* — the first *"confirmed by the most
-certain truth,"* the second *"introduced for the instruction of the many."*
+as a man; the other, that God is as a man."*
 Maimonides borrowed a rabbinic saying for it — *"the Torah spoke in the
 language of people"* — which began as Rabbi Ishmael's answer to Rabbi Akiva
 about a *doubled verb* (*Sanhedrin* 64b), and read God's *pain* as anger, or as
@@ -189,8 +185,7 @@ humanity rebelling against his will. (Nachmanides used the same saying and kept
 the grief: *"they rebelled, and grieved His holy spirit with their sins,"* from
 Isaiah 63:10.) The church took Philo's road. Augustine: *"The anger of God is
 not a disturbing emotion of His mind, but a judgment by which punishment is
-inflicted upon sin"* (*City of God* 15.25). Aquinas: God does not change his
-will; he *"wills that things should change."* The Westminster Confession calls
+inflicted upon sin"* (*City of God* 15.25).  The Westminster Confession calls
 God *"without body, parts, or passions, immutable"* — and in the same sentence
 *"most loving, gracious, merciful."* *Without passions* never meant *without
 love*; it meant that God is never acted upon, moved against his will from
@@ -216,9 +211,8 @@ I created an evil inclination in him"* — the *yēṣer* of verse 5. In the
 twentieth century the Jewish theologian **Abraham Joshua Heschel** (*The
 Prophets*, 1962) argued that the prophets' God has *pathos* — not a passion
 that overwhelms, but a concern he freely chooses, moved by what people do.
-Christian theologians have said something like it: the Lutheran Terence
-Fretheim (*The Suffering of God*, 1984), and Jürgen Moltmann, who read God's
-suffering through the cross (*The Crucified God*, 1972). Paul writes as though
+Christian theologians such as Terence Fretheim and Jürgen Moltmann have said
+something like it. Paul writes as though
 he agrees: *"do not grieve the Holy Spirit of God"* (Ephesians 4:30). *The
 question it has to answer:* does pathos make God too much like us? (The
 Orthodox Jewish thinker Eliezer Berkovits answered that Heschel had gone too
@@ -247,10 +241,8 @@ constancy. Every threat carries what Calvin called *"a tacit condition"* —
 Jonah preaches Nineveh's overthrow *"in order to prevent the overthrow."* The
 Talmud hears the same in Exodus 34's doubled *"The LORD, the LORD"*: *"I am He
 before a person sins, and I am He after a person sins and performs
-repentance"* (*Rosh Hashanah* 17b). (Robert Chisholm, the NET Bible's senior
-Old Testament editor, argues this view; so, in the second century, did
-Tertullian, against Marcion, who said a God who regrets must be fickle — and
-so could not be the Father of Jesus.) *The question it has to answer:*
+repentance"* (*Rosh Hashanah* 17b). (Robert Chisholm, the NET Bible's senior Old Testament editor, argues this view,
+as Tertullian did against Marcion in the second century.) *The question it has to answer:*
 Jeremiah and Jonah describe God relenting from what he has *threatened*.
 Genesis 6:6 regrets something he has already *done*.
 
@@ -317,17 +309,14 @@ Him"* (Nachmanides). In the synagogue 6:8 closes one week's reading and 6:9
 opens the next. Hebrews names what Noah's righteousness rested on: he *"became
 an heir of the righteousness that comes by faith"* (11:7).
 
-**The same words for Mary.** The Greek Bible put *ḥēn* into the word that
-became the New Testament's word for grace, ***charis***: *"Noe found grace
-before the Lord God."* When the angel comes to Mary he uses the same idiom: *"Do
-not be afraid, Mary, for **you have found favor** with God!"* (Luke 1:30).
+**The same words for Mary.** The Greek Bible renders *ḥēn* as ***charis***, the
+New Testament's word for grace — and the angel greets Mary in Noah's idiom:
+*"you have found favor with God!"* (Luke 1:30).
 
 ### And then at Sinai
 
 In the rest of the Torah, the vocabulary of these four verses comes together in
-one place only — at the foot of Mount Sinai, after the golden calf. (A 2026
-study counts fifteen links between Genesis 6 and that story; Part 4 comes back
-to it.)
+one place only — at the foot of Mount Sinai, after the golden calf.
 
 - God threatens to destroy the whole people (Exodus 32:10). Moses begs him to
   ***relent*** — *niḥam* — *"Then the LORD relented"* (32:12, 14).
@@ -355,8 +344,6 @@ you why God has shown you favor, what would you say — and what does it do to
 your answer that Genesis names grace first, and then calls Noah godly?
 </div>
 
-<div class="page-break"></div>
-
 ## Part 4 — A story told twice (6:9–9:17)
 
 Read on past verse 8 and the story starts again. A new heading — *"This is the
@@ -371,22 +358,20 @@ account of Noah"* (6:9) — and then the reason for the flood, a second time:
 *Ruined, ruined, sinful* (literally *ruined its way*), *destroy*: one Hebrew
 verb, ***šāḥat***, four times over — they ruined the earth, so God will ruin
 them. And *"God saw the earth, and indeed it was ruined"* is built on the frame
-of 1:31, *"God saw all that he had made—and it was very good!"* Once you have
-noticed the second telling, it keeps happening:
+of 1:31, *"God saw all that he had made—and it was very good!"* And it keeps
+happening:
 
 | | **One telling** | **The other** |
 |---|---|---|
-| **God is called** | *the LORD* (6:5–8) | *God* (6:9–13) — and both in one verse: *"just as God commanded him. Then the LORD shut him in"* (7:16) |
+| **God is called** | *the LORD* (6:5–8) | *God* (6:9–13) — both in one verse, 7:16 |
 | **Why** | the **heart** — every inclination only evil | **violence**; all flesh had ruined its way |
 | **What to take** | *seven pairs of every kind of clean animal… two of every kind of unclean* (7:2) | *two of every kind… male and female* (6:19–20) |
-| **The water** | rain, *40 days and 40 nights* (7:4, 12) | *all the fountains of the great deep burst open and the floodgates of the heavens were opened* (7:11) — Genesis 1 in reverse |
-| **The clock** | 7 days; 40 days; 7 days; 7 days (7:4, 10; 8:6–12) | dated by Noah's age: 600th year, 2nd month, 17th day… 150 days… dry a year and ten days later (7:11, 24; 8:3–5, 14) |
+| **The water** | rain, *40 days and 40 nights* (7:4, 12) | *the fountains of the great deep… the floodgates of the heavens* (7:11) — Genesis 1 in reverse |
+| **The clock** | 7 days; 40 days; 7 days; 7 days (7:4, 10; 8:6–12) | dated by Noah's age; 150 days; a year and ten days in all (7:11, 24; 8:14) |
 | **The end** | *the LORD… said to himself, "I will never again…"* (8:20–22) | a covenant, with a sign in the clouds (9:8–17) |
 {: .ff-wrap}
 
-None of this is a modern discovery; the rabbis noticed two pairs and seven
-pairs a millennium and a half ago, and explained it. What do you do with a
-story told twice? Four answers.
+What do you do with a story told twice? Three answers.
 
 ### 1. Two strands woven together ("J and P")
 
@@ -478,53 +463,7 @@ combined will always hold more of it than either alone. (Wenham himself did not
 argue for Moses; he thought one older epic had been reworked by a priestly
 editor.)
 
-### 3. A story that points to Sinai (a new proposal)
-
-The newest answer comes from Zara Zhang, a doctoral researcher at St Andrews,
-in the *Journal for the Study of the Old Testament* (2026): *"Beneath the
-Sintflut* [German, *the Flood*] *hides Mt. Sinai."* She argues that the Flood
-is written to make a reader think of the Sinai story in Exodus 24–40, and
-counts more than forty parallels, about half of which cross the line between
-J and P. Her strongest evidence is two rare words. The *ark*, *tēbâ*, appears
-in only one other place in the Bible — the basket that saved the baby Moses
-(Exodus 2:3, 5); and the *covering* Noah removes (8:13) is everywhere else the
-covering of the tabernacle — removed, she notes, on the very date the
-tabernacle was raised, *"the first day of the first month"* (Exodus 40:17).
-Then three clusters:
-
-- **Genesis 6 and the golden calf** (Exodus 32) — fifteen links, six in each
-  announcement of judgment: *relent*, *wipe out*, *found favor*, *ruined*
-  (*"your people… have acted corruptly,"* 32:7), and a new beginning from one
-  man (*"I will make from you a great nation,"* 32:10). She reads the doubled
-  announcement as a crescendo, the way God threatens twice and hesitates —
-  *"Instead, it points to the merciful nature of God."*
-- **The ark and the tabernacle** (Exodus 25, 39–40) — the only two buildings
-  in the Torah built to God's dictated plan: wood, *inside and out*,
-  measurements, *"did all that God commanded"* (6:22; Exodus 40:16).
-- **Two entries** (Exodus 24) — Noah goes in (7:7), waits seven days (7:10),
-  goes in again (7:13), forty days (7:17); Moses goes up the mountain (24:15),
-  is called *"on the seventh day"* (24:16), goes into the cloud and stays
-  *"40 days and 40 nights"* (24:18). *"Moses's double entry has not been
-  divided into two sources by source critics."*
-
-So the doublets are **signals**. Her picture is a man who keeps winking: the
-critics diagnose an eye disease, the defenders of unity call it a charming
-habit — *"But I would suggest a third option: the person winks to signal an
-allusion."* She offers explanations for four doublets (the two announcements,
-the two clocks, the two entries, and — less strongly, she admits — the two
-counts of animals), and is careful about scope: she does not
-challenge the sources of the Pentateuch as a whole, only of the Flood, and she
-does not say who her author was.
-
-*The question it has to answer:* many of the parallels are ordinary words —
-*saw*, *make*, *forty* — and the Bible is full of forty days; her calendar
-starts in the wilderness of Sin, weeks before Israel reached Sinai (Exodus
-16:1; 19:1). The echoes
-also tend to sort by school (the calf story with J, the tabernacle with P), so
-a source critic can reply that a priestly writer — or a later editor — put
-them there. It is one new study, not yet answered in print.
-
-### 4. The oldest answer: one Author, and nothing said twice for nothing
+### 3. The oldest answer: one Author, and nothing said twice for nothing
 
 For the synagogue, and for most Christians until modern times, the Torah has
 one Author, through Moses — what Jesus calls *"the law of Moses"* (Luke 24:44)
@@ -549,13 +488,12 @@ granted them and held that God himself wrote both.
 |---|---|---|---|
 | **Two strands** (Driver, Skinner, Baden; most critical scholars) | seams between two voices | each strand reads on its own; names, words and theology sort together | an editor can absorb every exception |
 | **A mirror** (Cassuto, Wenham, Berman) | the two halves of one design | the whole has a shape neither part has | a mirror can be found wherever you look |
-| **Pointing to Sinai** (Zhang, 2026 — new) | signals of allusion | rare words (*tēbâ*, *mikseh*) cross the strands | many parallels are common words; untested |
 | **One Author** (the rabbis, Rashi; Kitchen) | lessons — nothing said twice for nothing | takes every word as meant, as the church and synagogue long did | later-looking verses; strands that do sort |
 {: .ff-wrap}
 
 On *who* wrote it there are really two answers: one hand, or more than one.
-The mirror, the Sinai echoes and the tradition all read one design (though
-only the last says Moses); the first reading hears two voices and an editor
+The mirror and the tradition both read one design (though only the tradition
+says Moses); the first reading hears two voices and an editor
 who would not silence either. You may hold any of these. Whichever you hold,
 the story in our Bibles is the doubled one — and it is the story
 synagogue and church alike have read for two thousand years.
@@ -563,7 +501,7 @@ synagogue and church alike have read for two thousand years.
 <div class="discuss" markdown="1">
 **Talk about it.** Read 7:16 aloud: *"Those that entered were male and female,
 just as God commanded him. Then the LORD shut him in."* Does it sound to you
-like a seam, a mirror, a wink toward Sinai — or a lesson (Rashi: *"He shut the
+like a seam, a mirror — or a lesson (Rashi: *"He shut the
 door in front of him against the waters"*)? Does anything about how you read
 the Flood change, depending on which?
 </div>
@@ -599,8 +537,7 @@ will not forget."* And the wise god Ea rebukes the god who sent the flood with
 the protest a modern reader makes: *"On the sinner place his sin; On the evil
 doer place his crimes."*
 
-A boat, a mountain, the birds, a sacrifice, a token to remember by, a god who
-weeps and a god who objects. Bring four questions next week. **Why does each
+Bring four questions next week. **Why does each
 flood come** — noise, or violence? **Who grieves, and when?** **Who objects to
 the flood, and on what grounds?** **And what does each god promise to
 remember?**
@@ -622,9 +559,9 @@ the man who finds it has not yet been described — and the next people to need
 it are standing at Sinai, where a man offers himself in their place and is
 refused.
 
-**4. A story told twice asks to be read twice.** Two reasons, two counts, two
-calendars, two promises, two names for God. However it was made, the doubling
-is there to be heard — and next week we read it against the neighbours' floods.
+**4. A story told twice asks to be read twice.** However it was made, the
+doubling is there to be heard — and next week we hear it against the
+neighbours' floods.
 
 <div class="discuss" markdown="1">
 **Talk about it — to close.** *First:* which is harder to hold together — that
@@ -635,7 +572,7 @@ what Genesis 6:5 says instead.
 
 ---
 
-*Scripture quoted by permission from the NET Bible® copyright ©1996, 2019 by Biblical Studies Press, L.L.C., [netbible.com](https://netbible.com). All rights reserved. Literal Hebrew notes are ours; the counts are from the Open Scriptures Hebrew Bible (CC BY 4.0). The Greek of Genesis 6:6–8 is quoted in L. C. L. Brenton's translation (1851, public domain). Ben Sira 15:11–15 and 4 Ezra 3:21–22 are from R. H. Charles, ed., The Apocrypha and Pseudepigrapha of the Old Testament (Oxford, 1913), public domain; the Targum from J. W. Etheridge (1862); Philo from C. D. Yonge (1854); Augustine from M. Dods (1887); Aquinas from the English Dominican translation (1920); Calvin from J. King (1847) and H. Beveridge (1845) — all public domain, with every passage at length on **[can God regret?](texts/god-who-regrets.html)**. Genesis Rabbah from the Sefaria Midrash Rabbah (CC BY); Rashi from M. Rosenbaum and A. M. Silbermann (1929–34), public domain; Nachmanides from C. B. Chavel (CC BY); the Talmud (Sanhedrin 64b, 108b; Sotah 14a; Sukkah 52a; Rosh Hashanah 17b; Shevuot 36a) from the William Davidson Edition (CC BY-NC), via Sefaria. Heschel, Fretheim, Moltmann, open theism and the ETS vote (minutes in JETS 45, 2002) are described on the regret sheet with full references; the covenantal reading follows R. B. Chisholm Jr., Bibliotheca Sacra 152 (1995). Every regret, relent and favor verse is on **[the Scripture sheet](texts/elsewhere-in-scripture.html)**. Part 4: J. Skinner, Genesis (ICC, 1910), and S. R. Driver, Introduction to the Literature of the Old Testament (1913), public domain; G. J. Wenham, Vetus Testamentum 28 (1978): 336–348; U. Cassuto, The Documentary Hypothesis (1941; Eng. 1961); K. A. Kitchen, Ancient Orient and Old Testament (1966); and Z. Zhang, "Sintflut and Sinai: Genesis 6–8's allusion to Exodus 24–40," Journal for the Study of the Old Testament 50.3 (2026): 272–298, open access under CC BY 4.0. The strands, the whole mirror and every source are on **[the Flood, told twice](texts/the-flood-told-twice.html)** and **[one story or two?](texts/one-story-or-two.html)**. Atrahasis and Gilgamesh XI (Clay's line numbers) from A. T. Clay, A Hebrew Deluge Story in Cuneiform (Yale, 1922), public domain; the modern identification of the goddess and her necklace follows A. R. George, The Babylonian Gilgamesh Epic (Oxford, 2003), and the electronic Babylonian Library (2022).*
+*Scripture quoted by permission from the NET Bible® copyright ©1996, 2019 by Biblical Studies Press, L.L.C., [netbible.com](https://netbible.com). All rights reserved. Literal Hebrew notes are ours; the counts are from the Open Scriptures Hebrew Bible (CC BY 4.0). The Greek of Genesis 6:6–8 is quoted in L. C. L. Brenton's translation (1851, public domain). Ben Sira 15:11–15 and 4 Ezra 3:21–22 are from R. H. Charles, ed., The Apocrypha and Pseudepigrapha of the Old Testament (Oxford, 1913), public domain; the Targum from J. W. Etheridge (1862); Philo from C. D. Yonge (1854); Augustine from M. Dods (1887); Aquinas from the English Dominican translation (1920); Calvin from J. King (1847) and H. Beveridge (1845) — all public domain, with every passage at length on **[can God regret?](texts/god-who-regrets.html)**. Genesis Rabbah from the Sefaria Midrash Rabbah (CC BY); Rashi from M. Rosenbaum and A. M. Silbermann (1929–34), public domain; Nachmanides from C. B. Chavel (CC BY); the Talmud (Sanhedrin 64b, 108b; Sotah 14a; Sukkah 52a; Rosh Hashanah 17b; Shevuot 36a) from the William Davidson Edition (CC BY-NC), via Sefaria. Heschel, Fretheim, Moltmann, open theism and the ETS vote (minutes in JETS 45, 2002) are described on the regret sheet with full references; the covenantal reading follows R. B. Chisholm Jr., Bibliotheca Sacra 152 (1995). Every regret, relent and favor verse is on **[the Scripture sheet](texts/elsewhere-in-scripture.html)**. Part 4: J. Skinner, Genesis (ICC, 1910), and S. R. Driver, Introduction to the Literature of the Old Testament (1913), public domain; G. J. Wenham, Vetus Testamentum 28 (1978): 336–348; U. Cassuto, The Documentary Hypothesis (1941; Eng. 1961); and K. A. Kitchen, Ancient Orient and Old Testament (1966). The strands, the whole mirror and every source are on **[the Flood, told twice](texts/the-flood-told-twice.html)** and **[one story or two?](texts/one-story-or-two.html)**. Atrahasis and Gilgamesh XI (Clay's line numbers) from A. T. Clay, A Hebrew Deluge Story in Cuneiform (Yale, 1922), public domain; the modern identification of the goddess and her necklace follows A. R. George, The Babylonian Gilgamesh Epic (Oxford, 2003), and the electronic Babylonian Library (2022).*
 {: .no-print}
 
 [← Back to all sessions](../../)

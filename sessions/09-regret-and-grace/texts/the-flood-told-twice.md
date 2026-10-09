@@ -14,10 +14,9 @@ Skinner (1910); where later scholars draw a line differently, the notes below
 say so.
 
 **The colours are a map of one reading, not a verdict.** The handout lays out
-four ways of reading these doublets — two strands woven together, one story
-built as a mirror, a story told to point to Sinai, and the tradition's one
-Author for whom nothing is said twice for nothing — and you may hold any of
-them. Whichever you hold, the colours let you see exactly what each
+three ways of reading these doublets — two strands woven together, one story
+built as a mirror, and the tradition's one Author for whom nothing is said
+twice for nothing — and you may hold any of them. Whichever you hold, the colours let you see exactly what each
 reading is talking about.
 
 **Three ways to read it.** First, read it straight through, as it stands in
@@ -197,13 +196,6 @@ everything that lives"* (8:21) — the LORD, to his heart. Then, from God, to
 Noah: *"**Never again** will all living things be wiped out… **never again**
 will a flood destroy the earth"* (9:11), and again in 9:15. Rashi on 8:21:
 *"He repeated the expression that it might serve as a solemn oath."*
-
-One more word, and it belongs to Sinai. The ***covering*** that Noah removes
-from the ark (8:13) is *mikseh*, which everywhere else in the Bible is **the
-covering of the tabernacle**. Skinner noticed it in 1910: *"Elsewhere only of
-the covering of the Tabernacle."* It stands in the LORD strand — one of the
-places where the Sinai echoes cross the line between the strands. The [one
-story or two?](one-story-or-two.html) sheet follows that thread.
 
 ---
 

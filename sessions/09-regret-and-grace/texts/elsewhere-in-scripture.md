@@ -14,9 +14,8 @@ NET, with a line or two on each.
 Part A is the human heart. Part B is God's regret: where Scripture says he
 relents, where it says he does not, and where it says relenting is part of who
 he is. Part C is favor. Part D is the place all of these words meet again —
-Sinai — and the case that the whole Flood is told to recall it. Part E is Noah
-in the rest of the Bible, and Part F the cost of the flood and the promise
-after it.
+Sinai. Part E is Noah in the rest of the Bible, and Part F the cost of the
+flood and the promise after it.
 
 **About the counts.** Every count below was made on the Hebrew text (the
 Westminster Leningrad Codex as tagged by the Open Scriptures Hebrew Bible),
@@ -414,109 +413,6 @@ behind the verb:
 
 *Gracious* is ***ḥannûn***, from the root of *ḥēn*. Exodus 34 does not use
 *niḥam*; Joel and Jonah add it (§8).
-
-### 19. The Flood told in the shape of the tabernacle
-
-The ark and the tabernacle are the only two structures in the Torah whose
-plans God dictates, measurements and all, and Genesis tells Noah's obedience in the words
-Exodus will use for Moses'.
-
-> And Noah did all that God commanded him—he did indeed. — *Genesis 6:22*
-
-> This is what Moses did, according to all the LORD had commanded him—so he
-> did. — *Exodus 40:16* (and 39:32, 42–43)
-
-In Hebrew the two sentences differ only in the name of the builder, the name of
-God, and the order of two words. And the date the ark's door is opened is the
-date the tabernacle is raised:
-
-> In Noah's six hundred and first year, in the first day of the first month,
-> the waters had dried up from the earth, and Noah **removed the covering from
-> the ark** and saw that the surface of the ground was dry. — *Genesis 8:13*
-
-> So the tabernacle was set up on the first day of the first month, in the
-> second year. — *Exodus 40:17* (commanded in 40:2)
-
-The ark's *covering* (*mikseh*) is a word used sixteen times in the Bible —
-fifteen of them for the **covering of the tabernacle** (Exodus 26:14 and the
-chapters that follow; Numbers 3–4). Genesis 8:13 is the only exception.
-
-Then the covenant and its sign:
-
-> When the rainbow is in the clouds, I will notice it and remember **the
-> perpetual covenant** between God and all living creatures of all kinds that
-> are on the earth. — *Genesis 9:16* (and *sign*, *ʾôt*, in 9:12, 13, 17)
-
-> The Israelites must keep the Sabbath by observing the Sabbath throughout
-> their generations as **a perpetual covenant**. It is **a sign** between me
-> and the Israelites forever… — *Exodus 31:16–17*
-
-*Perpetual covenant* (*bərît ʿôlām*) appears sixteen times in the Bible;
-Genesis 9:16 is the first. And the blood:
-
-> "But you must not eat meat with its life (that is, its blood) in it." —
-> *Genesis 9:4*
-
-> …for the life of every living thing is in the blood. So I myself have
-> assigned it to you on the altar to make atonement for your lives… —
-> *Leviticus 17:11*
-
-Who noticed these, and what each reading of the Flood makes of them, is on the
-[one story or two?](one-story-or-two.html) sheet.
-
-### 20. Two entries at Sinai, and Moses in the ark
-
-Zara Zhang (2026) argues that Noah's two entries into the ark (Genesis 7:7,
-13) echo Moses' two entries at Sinai — *entry, seven days, entry, forty days*:
-
-> But to Moses the LORD said, "Come up to the LORD, you and Aaron, Nadab and
-> Abihu, and **seventy of the elders of Israel**, and worship from a distance.
-> Moses alone may come near the LORD, but the others must not come near, nor
-> may the people go up with him." — *Exodus 24:1–2*
-
-> The LORD said to Moses, "Come up to me on the mountain and remain there, and
-> I will give you the stone tablets with the law and the commandments that I
-> have written, so that you may teach them." So Moses set out with **Joshua his
-> attendant**, and Moses went up the mountain of God… **Moses went up the
-> mountain**, and the cloud covered the mountain. The glory of the LORD resided
-> on Mount Sinai, and the cloud covered it for six days. **On the seventh day**
-> he called to Moses from within the cloud. Now the appearance of the glory of
-> the LORD was like a devouring fire on the top of the mountain in plain view
-> of the people. **Moses went into the cloud** when he went up the mountain, and
-> Moses was on the mountain **40 days and 40 nights**. — *Exodus 24:12–13,
-> 15–18*
-
-Compare *"And after seven days the floodwaters engulfed the earth"* (Genesis
-7:10), *"On that very day Noah entered the ark"* (7:13), *"And the rain fell on
-the earth 40 days and 40 nights"* (7:12). The phrase *forty days and forty
-nights* belongs, in the Old Testament, to the Flood (Genesis 7:4, 12), to Moses
-at Sinai (Exodus 24:18; 34:28; Deuteronomy 9–10), and to Elijah's journey to the
-same mountain (1 Kings 19:8) — and in the New Testament to Jesus in the
-wilderness: *"After he fasted 40 days and 40 nights he was famished"* (Matthew
-4:2).
-
-Three details of Moses' life that Zhang hears in Genesis 5–6:
-
-> But when she was no longer able to hide him, she took a **papyrus basket**
-> for him and sealed it with bitumen and pitch. She put the child in it and set
-> it among the reeds along the edge of the Nile. — *Exodus 2:3* (*basket* is
-> *tēbâ*, the word for Noah's ark; it appears nowhere else in the Bible)
-
-> Moses was **120 years old** when he died… — *Deuteronomy 34:7* (compare
-> Genesis 6:3, *"They will remain for 120 more years"*)
-
-> He named him Noah, saying, "This one will bring us **comfort from our labor**
-> and from the painful toil of our hands because of the ground that the LORD
-> has cursed." — *Genesis 5:29* (compare Israel's hard labour in Egypt, Exodus
-> 1:13–14)
-
-And forty days later, at the edge of the land:
-
-> They returned from investigating the land after 40 days… "We even saw the
-> **Nephilim** there (the descendants of Anak came from the Nephilim), and we
-> seemed like grasshoppers both to ourselves and to them." — *Numbers 13:25,
-> 33* (the spies bring back a cluster of grapes, 13:23, as the dove brings back
-> an olive leaf, Genesis 8:11)
 
 ---
 
