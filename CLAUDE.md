@@ -1,4 +1,4 @@
-# genesis — AGENTS.md
+# genesis — CLAUDE.md
 
 This is the orientation doc for any agent (you) working in this project.
 Human-facing details — project title, one-sentence summary, and tags — live

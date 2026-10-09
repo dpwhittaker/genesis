@@ -6,9 +6,9 @@ theme: minima
 show_excerpts: false
 
 # README.md renders as the site index (no index.html present).
-# Keep AGENTS.md and project metadata out of the built site.
+# Keep CLAUDE.md and project metadata out of the built site.
 exclude:
-  - AGENTS.md
+  - CLAUDE.md
   - .project-meta.json
   - README.original.md
   # Local preview server tooling — never part of the published site.

@@ -92,8 +92,8 @@ The panel stays convened for the rest of the conversation. The user may:
 
 Panel output is a **thinking tool**, not automatically publishable copy. Before any of it lands in a `sessions/<NN-slug>/index.md`:
 
-- **Audience** — everything on the site is read by the class, so rewrite to address them directly and warmly. See `AGENTS.md` → "Audience & tone."
-- **Quotations** — this is a public repo, and every quoted translation must be one we're licensed to publish. Panel prose may quote NET for Scripture with attribution; anything from Talmud, Midrash, Rashi, ANE texts, or modern scholars needs a licensed source before publication. See `AGENTS.md` → "Sourcing quotations & translations."
+- **Audience** — everything on the site is read by the class, so rewrite to address them directly and warmly. See `CLAUDE.md` → "Audience & tone."
+- **Quotations** — this is a public repo, and every quoted translation must be one we're licensed to publish. Panel prose may quote NET for Scripture with attribution; anything from Talmud, Midrash, Rashi, ANE texts, or modern scholars needs a licensed source before publication. See `CLAUDE.md` → "Sourcing quotations & translations."
 - **Verify before publishing.** Every citation a panelist produced gets checked against a real source before it goes on the site. In conversation an in-line hedge is fine; on the page it isn't.
 
 ## How to fan out
