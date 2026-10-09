@@ -25,13 +25,22 @@ a Story Told Twice*, and the Flood moved to **Session 10** (Genesis
 top: 17→18 … 09-the-flood→10-the-flood; titles and README bumped). The
 Flood's planning notes stay with it in `../10-the-flood/NOTES.md`.
 
-**How "Sinai" was read.** The brief named three readings of the doublets —
-chiasm, J/P, Sinai. "Sinai" is taken as the traditional reading: *Torah from
-Sinai*, one divine Author through Moses, with the repetitions read as
-meaningful (the rabbis' two attributes of God, Rashi on each doublet, and R.
-Mordechai Breuer's "aspects"), plus the way the Flood is told in the shape of
-Sinai and the tabernacle. If David meant something narrower, that section is
-the one to revisit.
+**What "Sinai" means (settled 2026-10-09).** David pointed to Zara Zhang,
+"*Sintflut* and Sinai: Genesis 6–8's allusion to Exodus 24–40," *JSOT* 50.3
+(2026): 272–298, doi 10.1177/03090892251367447 — open access, **CC BY 4.0**.
+The first draft had guessed "Torah from Sinai" (the rabbis' mercy/justice,
+Rashi, Breuer); that material now sits in Part D of the
+[one story or two?](texts/one-story-or-two.md) sheet, and Part 4 §3 of the
+handout is Zhang's reading: the Flood alludes to Exodus 24–40 in three clusters
+(Gen 6 // Exod 32, fifteen parallels, six in each announcement of judgment;
+Gen 6–8 // Exod 25, 39–40, the ark/tabernacle and the calendar; Gen 7 // Exod
+24, *entry + 7 days + entry + 40 days*), and those allusions explain the
+doublets (judgment ×2, chronology, double entry, two/seven ~ seventy/two). Her
+allusive reading — Moses' *wipe me out* "may have influenced… Isa. 53" —
+gives the section its landing. The article was read in full in Chrome
+(sagepub blocks curl); 28 quoted lines were confirmed with `String.includes()`
+on the article text. She is a St Andrews doctoral researcher; the article has
+not yet been answered in print.
 
 Session 8's handout already has a short Part 5 on 6:5–8 (*yēṣer*; *ʿeṣeb* and
 Lamech's two words; 1 Samuel 15; *Genesis Rabbah* 27:4; the נח/חן anagram).
@@ -69,19 +78,15 @@ Four parts, a teaser and a close:
    and *ḥēn* meet again (the only place in the rest of the Torah).
 4. **A story told twice (6:9–9:17)** — the 6:5–7 / 6:11–13 comparison (*šāḥat*
    ×4; 6:12 built on 1:31); the doublet table; three readings at their
-   strongest (J/P; Wenham's chiasm, the Gilgamesh order, Cassuto; "Sinai" =
-   Genesis Rabbah 33:3, Rashi, Breuer, Kitchen, and the tabernacle echoes),
+   strongest (J/P; Wenham's chiasm, the Gilgamesh order, Cassuto with the
+   rabbis' mercy/justice; Sinai = Zhang's three allusion clusters),
    with a summary table and the common ground (the critics catalogued the Sinai
    echoes first).
 5. **Next week** — Atrahasis's "clamor" (Clay 1922), Gilgamesh XI's weeping
    goddess and the flies/necklace (Clay 1922), and three questions to bring:
    why each flood comes, who regrets and when, what each god remembers.
 
-**How "Sinai" was read**, again: the traditional *Torah from Sinai* reading of
-the doublets (the rabbis' two attributes, Rashi, Breuer's aspects), together
-with the Flood's tabernacle echoes. If David meant something narrower (for
-example only the tabernacle typology, or only Mosaic authorship), Part 4 §3 is
-the part to revisit.
+**Sinai** is Zhang's allusion reading (see the top of this file).
 
 ## Verification notes worth keeping
 
@@ -149,7 +154,9 @@ to get wrong:
   — *rêaḥ hannîḥōaḥ*, the *n-w-ḥ* of Noah's name (Session 7's thread).
 - **Noah the man of the soil** (9:20) — the payoff of 5:29 promised in Session
   7; 9:18–29 (the vineyard, Ham) is still unread.
-- **Zhang 2026** (*JSOT*, CC BY) for the golden-calf parallels if the class
-  wants more of the Sinai thread.
+- **Zhang 2026** goes on (her §4.5) to Numbers 13: the birds sent *"at the
+  end of 40 days"* and the dove's olive leaf // the spies back *"after 40
+  days"* with grapes, and the **Nephilim** of Num 13:33 // Gen 6:4 — a
+  callback to Session 8 waiting for the end of the Flood.
 - The agents' raw files and verified-quote lists are in this session's
   scratchpad only (not kept); regenerate from the URLs on the sheets.

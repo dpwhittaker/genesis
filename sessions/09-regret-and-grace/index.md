@@ -7,7 +7,7 @@ layout: default
 
 **Passage:** Genesis 6:5–8, and a first look at the Flood, 6:9–9:17 ([the whole Flood narrative, with its doublets marked](texts/the-flood-told-twice.html))
 
-**Source sheets:** **[regret and favor across the Bible](texts/elsewhere-in-scripture.html)** · **[can God regret?](texts/god-who-regrets.html)** (Philo to the present) · **[one story or two?](texts/one-story-or-two.html)** (the sources for J and P, the chiasm, and the rabbis' reading)
+**Source sheets:** **[regret and favor across the Bible](texts/elsewhere-in-scripture.html)** · **[can God regret?](texts/god-who-regrets.html)** (Philo to the present) · **[one story or two?](texts/one-story-or-two.html)** (the sources for J and P, the mirror, and the Sinai reading)
 {: .no-print}
 
 ## A note before we begin
@@ -399,7 +399,10 @@ Umberto Cassuto of the Hebrew University (1941) argued that the names follow
 the *meaning*, not a source: *God* (*Elohim*) for the Creator who rules nature,
 *the LORD* for God in personal, moral relation. So the animals go in *"just as
 God commanded him"* — and then *"the LORD shut him in,"* which Cassuto heard as
-*"a father full of compassion towards his son."*
+*"a father full of compassion towards his son."* (The rabbis had read the two
+names as two sides of God long before: *"Everywhere that 'the Lord' is stated,
+it refers to the attribute of mercy… Everywhere that God [Elohim] is stated,
+it refers to the attribute of justice,"* Genesis Rabbah 33:3.)
 
 *The question it has to answer:* a mirror is easy
 to find when you choose which details count — Wenham himself grants that his
@@ -410,79 +413,95 @@ build such patterns out of two sources.
 too. And Wenham himself did not argue for Moses; he thought one older epic had
 been reworked by a priestly editor.)
 
-### 3. Sinai: one Author, two aspects
+### 3. Sinai: a story that points to the mountain
 
-The oldest answer is the tradition's. The Torah came from God through Moses —
-it is what Jesus calls *"the law of Moses"* (Luke 24:44) — and in a book from
-God nothing is said twice for nothing. The rabbis
-noticed the two names long before Europe did, and read them as two sides of
-God:
+The third answer is the newest, and it starts from something readers have
+noticed for centuries. In 2026 Zara Zhang, a doctoral researcher at St Andrews, argued
+in the *Journal for the Study of the Old Testament* that the Flood is written
+to make you think of **Sinai**: *"Beneath the Sintflut* [German, *the Flood*]
+*hides Mt. Sinai."* She counts more than forty parallels in three clusters —
+and about half of them cross the line between J and P.
 
-> Everywhere that "the Lord" is stated, it refers to the attribute of mercy…
-> Everywhere that God [Elohim] is stated, it refers to the attribute of
-> justice. *(Genesis Rabbah 33:3, on "God remembered Noah")*
+- **Genesis 6 and the golden calf** (Exodus 32). Part 3 showed you some
+  already: *relent*, *wipe out*, *found favor*.
+  Zhang counts fifteen, and here is her point: the LORD's announcement of
+  judgment (6:5–8) has six of them, and God's (6:11–14) six more. *Ruined*
+  is the golden calf's word too — *"your people… have acted corruptly"*
+  (32:7); *God saw the earth, and indeed* matches *"I have seen this people.
+  Look…"* (32:9); and *make yourself an ark* matches *"I will make from you a
+  great nation"* (32:10) — a new beginning from one man. The two halves of
+  the doublet, together, recall one scene.
+- **The ark and the tabernacle** (Exodus 25, 39–40). An ark of wood, covered
+  *inside and out*, with its measurements, like the ark of the covenant
+  (25:10–11). Genesis 6:14 plays three times on one sound — *gōpher* wood,
+  *kāphar* "cover," *kōpher* "pitch" — the sound of the *kappōret*, the ark of
+  the covenant's "atonement lid" (25:17). Then *did all that God
+  commanded*, and the *covering* removed on the day the tabernacle was raised.
+  Even the calendar: the Flood lasts a year and ten days; Israel's sojourn at
+  Sinai, by Zhang's count (Exodus 16:1 to Numbers 10:11), a year and five days — *"The two events begin only two days apart and
+  end only seven days apart."* And Sinai has its own seven days and forty days
+  inside that year (Exodus 24:16, 18): both of the Flood's clocks are Sinai's.
+- **Two entries** (Exodus 24). Noah goes into the ark (7:7), waits seven days
+  (7:10), goes in again *"on that very day"* (7:13), and the flood lasts forty
+  days (7:17). Moses goes up the mountain (24:15), waits, and is called *"on
+  the seventh day"* (24:16), goes into the cloud, and stays *"40 days and 40
+  nights"* (24:18) — *"entry + 7 days of waiting + entry + 40 days on the mountain."* As she
+  notes, *"Moses's double entry has not been divided into two sources by
+  source critics."* Even the numbers may answer: seventy elders go up with
+  Moses, then only two (24:1, 13), as the animals come by twos and by sevens —
+  a parallel she grants *"is not as strong."*
 
-So at the very centre of the Flood it is *Justice* that remembers Noah —
-and, as Rashi puts it, *"is transformed into Divine Mercy through the prayers
-of the righteous."* Rashi (11th century) reads each doublet as a lesson. Seven
-pairs of the clean animals: *"those cattle which will in future be permitted to
-Israel as clean; we thus learn that Noah studied the Torah"* — and kept the
-extra *"in order that he might offer some of them as a sacrifice."* The rain
-of 7:12 before the flood of 7:17: *"at first He made it fall in mercy… in order
-that if the people would repent, it might prove a rain of blessing; but when
-they did not repent it became a destructive flood."* In the twentieth century
-**Rabbi Mordechai Breuer** of Jerusalem went further. He granted the critics
-their two strands — the text does divide — and held that **God wrote both**:
-one telling under the aspect of justice, one under the aspect of mercy,
-braided so that you must hold them together, as Genesis has already given us
-two accounts of creation. And evangelical defenders of Moses' authorship, such
-as Kenneth Kitchen (1966), argue that "doublets" are how ancient writers told
-things — a summary, then the details, as in Egyptian royal inscriptions — and
-that the dates make one consistent calendar of *"a year and ten days."*
+She notices smaller things too. *Tēbâ*, the ark, appears in only one other
+place in the Bible: the basket that saved the baby Moses (Exodus 2:3). The 120
+years of 6:3 are Moses' age at death (Deuteronomy 34:7). And Lamech's hope of
+*comfort from our labor* (5:29) *"applies better to Moses than to Noah."*
 
-This reading also hears the Flood the way the people at Sinai would have:
+So the doublets are **signals**. Her picture: a man who keeps winking. The
+critics diagnose an eye disease and propose surgery; the defenders of unity
+call it a charming habit. *"But I would suggest a third option: the person
+winks to signal an allusion."* Her author built the Flood *"not of two sources
+but of many"* — the Sinai story among them. (She does not say who that author
+was, only that he wrote with Sinai in view; and the rabbis were there first,
+hearing the forty days of rain as the forty days in which the Torah was given,
+*Genesis Rabbah* 32:5.)
 
-- Noah builds to God's plan and *"did all that God commanded him"* (6:22) — in
-  Hebrew, the sentence Exodus uses when Moses finishes the tabernacle (40:16).
-- The ark's *covering* comes off on *the first day of the first month* (8:13)
-  — the day the tabernacle was raised (Exodus 40:17). Everywhere else in the
-  Bible, that word *covering* means the covering of the tabernacle.
-- Clean animals, an altar, a law about blood (9:4; Leviticus 17), and *"the
-  perpetual covenant"* with a *sign* (9:12–16) — the words Exodus uses for the
-  Sabbath (31:16–17).
-- The rabbis heard the forty days of rain as the forty days in which the
-  Torah was given (*Genesis Rabbah* 32:5).
+And it changes how Genesis 6 reads. Set beside the golden calf, Zhang writes,
+*"one may ponder what could have happened in the Golden Calf event had God not
+relented from destruction."* Noah does not pray for his world; Abraham will pray for Sodom and
+save a few; Moses offers himself: *wipe me out from your book*. *"Moses
+proposes to 'kill one righteous, save all evil' (Exod. 32.32). This may have
+influenced later texts, such as Isa. 53."* A Christian reader knows where that
+road goes: *"the LORD caused the sin of all of us to attack him"* (Isaiah
+53:6).
 
-*The question it has to answer:* the names do not always fit the attributes —
-it is *the LORD*, Mercy, who decides on destruction in 6:5–7 (the midrash
-admits it: *"Woe unto the wicked, as they transform [God's] attribute of mercy
-into the attribute of strict justice"*); and how did Noah keep food laws not
-yet given? (The Talmud asks that too.)
+*The question it has to answer:* parallels are easy to find once you go
+looking for them, and some of these are slender; it is one new study, not yet
+tested by others; and a source critic can reply that the priestly writer
+simply wrote the tabernacle and the ark in the same style.
 
 ### Holding the three
 
-| | **Two sources** | **One designed story** | **One Author** |
+| | **Two sources** | **One designed story** | **A story that points to Sinai** |
 |---|---|---|---|
-| **The doublets are…** | seams | the two halves of a mirror | two aspects — justice and mercy |
-| **Who** | Astruc (1753), Wellhausen (1878), Driver, Skinner; most critical scholars; Friedman | Cassuto (1941), Wenham (1978), Rendsburg, Berman (2017) | the rabbis (*Genesis Rabbah*, Rashi), Breuer; evangelical scholars of Mosaic authorship |
-| **Strongest point** | names, words, numbers and theology all sort the same way | the whole has a shape, and an ancient pattern, that neither part has | every word is meant — and the Flood points to Sinai |
-| **Hardest question** | no J or P has ever been found on its own | a mirror can be found wherever you look for one | Mercy decides on the flood; Noah keeps laws not yet given |
+| **The doublets are…** | seams | the two halves of a mirror | signals — echoes of doubled scenes at Sinai |
+| **Who** | Astruc (1753), Wellhausen (1878), Driver, Skinner; most critical scholars; Friedman | Cassuto (1941), Wenham (1978), Rendsburg, Berman (2017) | Zhang (2026), building on many who saw the ark as a tabernacle; the rabbis heard it first |
+| **Strongest point** | names, words, numbers and theology all sort the same way | the whole has a shape, and an ancient pattern, that neither part has | it explains the very doublets that started the theory, with parallels on both sides of the J/P line |
+| **Hardest question** | no J or P has ever been found on its own | a mirror can be found wherever you look for one | parallels can be found wherever you look for them — and this one is new |
 {: .ff-wrap}
 
-Notice what all three share. The Sinai echoes were first catalogued by the
-*source critics* — John Skinner noted in 1910 that the ark's *covering* is
-*"elsewhere only of the covering of the Tabernacle"* — and a 2026 study finds
-echoes of the golden calf in Genesis 6 on both sides of the J/P line. Every
-reading agrees that the Flood is told with Sinai in view. They disagree about
-**who** did it: a priestly writer, a single author, or the Author. You may
-hold any of the three. Whichever you hold, the story in our Bibles is the
-doubled one — and it is meant to be heard that way.
+Notice what all three share. The tabernacle echoes were first catalogued by
+the *source critics* — John Skinner noted in 1910 that the ark's *covering* is
+*"elsewhere only of the covering of the Tabernacle"* — and the readings
+disagree about **who** put them there: a priestly writer, an author who built
+a mirror, or an author writing with Sinai open before him. You may hold any of
+the three. Whichever you hold, the story in our Bibles is the doubled one — and
+it is meant to be heard that way.
 
 <div class="discuss" markdown="1">
 **Talk about it.** Read 7:16 aloud: *"Those that entered were male and female,
 just as God commanded him. Then the LORD shut him in."* Does it sound to you
-like a seam, a design, or two sides of one God? Does anything about how you
-read the Flood change, depending on which?
+like a seam, a mirror, or a wink toward Sinai? And if the Flood is meant to
+make Israel think of the golden calf, what is it saying to them?
 </div>
 
 ## Next week — the neighbours' floods
@@ -545,7 +564,7 @@ Genesis 6:5 says instead.
 
 ---
 
-*Scripture quoted by permission from the NET Bible® copyright ©1996, 2019 by Biblical Studies Press, L.L.C., [netbible.com](https://netbible.com). All rights reserved. Literal Hebrew notes are ours; the counts are from the Open Scriptures Hebrew Bible (CC BY 4.0). The Greek of Genesis 6:6–8 is quoted in L. C. L. Brenton's translation (1851, public domain). Ben Sira 15:11–12 and 4 Ezra 3:21–22 are from R. H. Charles, ed., The Apocrypha and Pseudepigrapha of the Old Testament (Oxford, 1913), public domain; the Targum from J. W. Etheridge (1862); Philo from C. D. Yonge (1854); Augustine from M. Dods (1887); Aquinas from the English Dominican translation (1920); Calvin from J. King (1847) and H. Beveridge (1845) — all public domain, with every passage at length on **[can God regret?](texts/god-who-regrets.html)**. Heschel, open theism and the ETS vote (minutes in JETS 45, 2002) are described there with full references; the covenantal reading follows R. B. Chisholm Jr., "Does God 'Change His Mind'?", Bibliotheca Sacra 152 (1995). Every regret, relent and favor verse is on **[the Scripture sheet](texts/elsewhere-in-scripture.html)**. Part 4: the strands and Skinner's words are from J. Skinner, A Critical and Exegetical Commentary on Genesis (ICC, 1910), with S. R. Driver, Introduction to the Literature of the Old Testament (1913), both public domain; the mirror is G. J. Wenham's, "The Coherence of the Flood Narrative," Vetus Testamentum 28 (1978): 336–348, answered by J. A. Emerton, VT 37–38 (1987–88); U. Cassuto, The Documentary Hypothesis (1941; Eng. 1961); G. A. Rendsburg in Gilgameš and the World of Assyria (2007); K. A. Kitchen, Ancient Orient and Old Testament (1966); M. Breuer, Pirkei Bereshit (1998), ch. 8; Z. Zhang, "Sintflut and Sinai," JSOT 50 (2026), CC BY. Genesis Rabbah from the Sefaria Midrash Rabbah (CC BY); Rashi from M. Rosenbaum and A. M. Silbermann (1929–34), public domain. The verse-by-verse strands, the whole mirror and every source are on **[the Flood, told twice](texts/the-flood-told-twice.html)** and **[one story or two?](texts/one-story-or-two.html)**. Atrahasis and Gilgamesh XI (Clay's line numbers) from A. T. Clay, A Hebrew Deluge Story in Cuneiform (Yale, 1922), public domain; the modern identification of the goddess and her necklace follows A. R. George, The Babylonian Gilgamesh Epic (Oxford, 2003), and the electronic Babylonian Library (2022).*
+*Scripture quoted by permission from the NET Bible® copyright ©1996, 2019 by Biblical Studies Press, L.L.C., [netbible.com](https://netbible.com). All rights reserved. Literal Hebrew notes are ours; the counts are from the Open Scriptures Hebrew Bible (CC BY 4.0). The Greek of Genesis 6:6–8 is quoted in L. C. L. Brenton's translation (1851, public domain). Ben Sira 15:11–12 and 4 Ezra 3:21–22 are from R. H. Charles, ed., The Apocrypha and Pseudepigrapha of the Old Testament (Oxford, 1913), public domain; the Targum from J. W. Etheridge (1862); Philo from C. D. Yonge (1854); Augustine from M. Dods (1887); Aquinas from the English Dominican translation (1920); Calvin from J. King (1847) and H. Beveridge (1845) — all public domain, with every passage at length on **[can God regret?](texts/god-who-regrets.html)**. Heschel, open theism and the ETS vote (minutes in JETS 45, 2002) are described there with full references; the covenantal reading follows R. B. Chisholm Jr., "Does God 'Change His Mind'?", Bibliotheca Sacra 152 (1995). Every regret, relent and favor verse is on **[the Scripture sheet](texts/elsewhere-in-scripture.html)**. Part 4: the strands and Skinner's words are from J. Skinner, A Critical and Exegetical Commentary on Genesis (ICC, 1910), with S. R. Driver, Introduction to the Literature of the Old Testament (1913), both public domain; the mirror is G. J. Wenham's, "The Coherence of the Flood Narrative," Vetus Testamentum 28 (1978): 336–348, answered by J. A. Emerton, VT 37–38 (1987–88); U. Cassuto, The Documentary Hypothesis (1941; Eng. 1961); G. A. Rendsburg in Gilgameš and the World of Assyria (2007). The Sinai reading is Z. Zhang, "Sintflut and Sinai: Genesis 6–8's allusion to Exodus 24–40," Journal for the Study of the Old Testament 50.3 (2026): 272–298, open access under CC BY 4.0, quoted from the published article. Genesis Rabbah from the Sefaria Midrash Rabbah (CC BY). The verse-by-verse strands, the whole mirror and every source are on **[the Flood, told twice](texts/the-flood-told-twice.html)** and **[one story or two?](texts/one-story-or-two.html)**. Atrahasis and Gilgamesh XI (Clay's line numbers) from A. T. Clay, A Hebrew Deluge Story in Cuneiform (Yale, 1922), public domain; the modern identification of the goddess and her necklace follows A. R. George, The Babylonian Gilgamesh Epic (Oxford, 2003), and the electronic Babylonian Library (2022).*
 {: .no-print}
 
 [← Back to all sessions](../../)

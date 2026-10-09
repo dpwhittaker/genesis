@@ -15,8 +15,11 @@ sources for each, in their own words where we may quote them:
   and "P").
 - **Part B — One story built as a mirror** (the chiasm, and other arguments for
   unity).
-- **Part C — One Author, two aspects** ("Sinai": the rabbis, Rashi, Rabbi
-  Mordechai Breuer, and the Flood told in the shape of the tabernacle).
+- **Part C — A story that points to Sinai** (Zara Zhang's 2026 study of the
+  Flood's allusions to Exodus 24–40, and those who heard Sinai in it before).
+- **Part D — The older readings** (the rabbis' two names for God, Rashi on each
+  doublet, Rabbi Mordechai Breuer's "aspects", and the evangelical case for
+  Moses).
 
 The whole passage, coloured by strand, is on [the Flood, told
 twice](the-flood-told-twice.html). The handout's rule holds here too: each
@@ -291,7 +294,188 @@ pairs or seven, forty days or a year, still have to be explained.
 
 ---
 
-## Part C — One Author, two aspects ("Sinai")
+## Part C — A story that points to Sinai
+
+### Zara Zhang, "*Sintflut* and Sinai" (2026)
+
+Zara Zhang, "*Sintflut* and Sinai: Genesis 6–8's allusion to Exodus 24–40,"
+*Journal for the Study of the Old Testament* 50.3 (2026): 272–298, is open
+access under **CC BY 4.0**, so it may be quoted freely. Zhang wrote it as a
+doctoral researcher at the University of St Andrews. Her thesis in one line:
+
+> Beneath the Sintflut hides Mt. Sinai.
+
+(*Sintflut* is German for *the Flood* — the word the source critics wrote in.)
+She argues that the Flood account deliberately recalls the Sinai story in
+Exodus 24–40, in three clusters, and that the parallels explain several of the
+very doublets that started the source theory:
+
+> This study has presented more than forty parallels between the accounts of
+> the Flood and Sinai.
+
+> Out of the dozens of parallels presented here, about half cross sources.
+
+**Her picture of the debate.** Source critics and defenders of unity, she says,
+have reached *"a stalemate"*:
+
+> Imagine if a person winks frequently. Source critics may conclude that this
+> person must have an eye disease and thus require 'surgery'… But I would
+> suggest a third option: the person winks to signal an allusion. The winking
+> is simply a communication cue; it does not have to be exceptionally
+> charming, but neither does it indicate a disease
+
+### Cluster 1 — Genesis 6 and the golden calf (Exodus 32)
+
+*"In total, I identify fifteen parallels between the two passages."* Earlier
+scholars had noticed two to five of them. Her key observation is that **both**
+announcements of judgment take part: *"the nP account of the announcement of
+judgment (6.5–8) contains six parallels with Exod. 32; likewise, the P account
+(6.11–14) also contains six parallels."* (Zhang writes *nP*, "non-Priestly," for
+J.) A selection, in the NET:
+
+| Genesis 6 | Exodus 32 |
+|---|---|
+| *the sons of God **saw**… they **took*** (6:2) | the people **saw** that Moses delayed (32:1); Aaron **took** the gold (32:4) |
+| *the LORD **regretted*** (6:6–7) | *"**relent** of this evil… Then the LORD **relented**"* (32:12, 14) |
+| *I will **wipe** humankind* (6:7) | *"**wipe** me out from your book"* (32:32–33) |
+| *from the face of the ground* (6:7) | *"from the face of the earth"* (32:12 — the same Hebrew) |
+| *Noah found **favor*** (6:8) | *"you have found **favor** in my sight"* (33:12–17) |
+| *the earth was **ruined*** (6:11–12) | *"your people… have **acted corruptly**"* (32:7 — the same verb) |
+| *all flesh had ruined its **way*** (6:12, lit.) | *"They have quickly turned aside from the **way**"* (32:8) |
+| *God **saw** the earth, and **indeed**…* (6:12) | *"I have **seen** this people. **Look**…"* (32:9) |
+| *I am about to destroy them… **Make for yourself an ark*** (6:13–14) | *"…and I can destroy them, and **I will make from you a great nation**"* (32:10) |
+| the agent of judgment: **water** (6:17) | the agent of judgment: anger that *burns* — and the calf *burned in the fire* (32:10, 20) |
+{: .ff-wrap}
+
+On the doublet itself: the two announcements *"are not exactly redundant but
+rather form a crescendo"* — first the *heart*, with room still to relent; then
+*all flesh*, and *"the end of all flesh"* declared to Noah. And doubled
+judgments are common: Genesis 18–19 (Sodom), 1 Samuel 13 and 15 (Saul),
+Pharaoh's two dreams (Genesis 41:32). *"These examples demonstrate that double
+announcements of judgment are not unusual in the Hebrew Bible. In fact, God
+often threatens judgment multiple times but hesitates to execute it even once…
+Instead, it points to the merciful nature of God (Exod. 34.6–7)."*
+
+She also notices three details of **Moses' life** hidden in Genesis 5–6: the
+*tēbâ*, the "ark," is elsewhere only the basket that saved the baby Moses
+(Exodus 2:3, 5); the 120 years of 6:3 are Moses' age at death (Deuteronomy
+34:7); and Lamech's hope that his son will bring *comfort from our labor* (5:29)
+— *"Note that Gen. 5.29 applies better to Moses than to Noah."*
+
+### Cluster 2 — The ark and the tabernacle (Exodus 25, 39–40)
+
+The most familiar link, noticed already by Hermann Hupfeld in 1853 and by many
+since (Cassuto, Westermann, Wenham, Fretheim, Hamilton, Sailhamer, Morales):
+*"Noah's Ark and the Tabernacle are the only two building projects described in
+the Pentateuch."* An ark of wood, covered *"inside and out,"* with its length,
+breadth and height (Genesis 6:14–16; Exodus 25:10–11); a three-fold play on
+one sound in 6:14 — *gōpher*, *kāphar*, *kōpher* — that she hears pointing to
+the *kappōret*, the "atonement lid" (Exodus 25:17); *"did all that God
+commanded him"* (6:22; Exodus 40:16); the *covering* removed on *the first day
+of the first month* (8:13; Exodus 40:17–19). The Greek Bible uses one word,
+*kibōtos*, for both arks.
+
+And the calendar. The Flood lasts a year and ten days; the Sinai sojourn, from
+Exodus 16:1 to Numbers 10:11–12, a year and five days. *"The two events begin
+only two days apart and end only seven days apart."* Sinai, too, has its seven
+days and its forty days within the year (Exodus 24:16, 18), so the Flood's two
+clocks — 7 + 40 days and 150 days — are both Sinai's clocks.
+
+### Cluster 3 — Two entries (Exodus 24)
+
+*"The following allusion case between Gen. 7 and Exod. 24—that is, the double
+entry of Noah and the double entry of Moses—has not, to my knowledge, been
+previously noted."*
+
+| Genesis 7 | Exodus 24 |
+|---|---|
+| *"I will confirm my covenant with you"* (6:18) | the covenant made (24:7–8) |
+| *The LORD said to Noah, "Come into the ark…"* (7:1) | *The LORD said to Moses, "Come up to me on the mountain…"* (24:12) |
+| *Noah entered the ark* (7:7) | *Moses went up the mountain, and the cloud covered the mountain* (24:15) |
+| *after seven days the floodwaters engulfed the earth* (7:10) | *On the seventh day he called to Moses from within the cloud* (24:16) |
+| *the rain fell on the earth 40 days and 40 nights* (7:12) | *the appearance of the glory of the LORD was like a devouring fire on the top of the mountain* (24:17) |
+| *On that very day Noah entered the ark* (7:13) | *Moses went into the cloud when he went up the mountain* (24:18a) |
+| *The flood engulfed the earth for 40 days* (7:17) | *Moses was on the mountain 40 days and 40 nights* (24:18b) |
+{: .ff-wrap}
+
+*"I would stress that the true analogy between the two is the combined pattern
+of 'entry + 7 days of waiting + entry + 40 days on the mountain.'"* And
+*"Moses's double entry has not been divided into two sources by source
+critics."* The numbers may answer too: seventy elders go up with Moses first
+(24:1, 9), then only Moses and Joshua (24:13) — *"Admittedly, this parallel
+(seven and two in Gen. 6–7 // seventy and two in Exod. 24) is not as strong as
+some other instances presented in this study."*
+
+### Which way the allusion runs, and what it means
+
+Zhang argues that the Flood alludes to Sinai, not the reverse: the parallels
+cluster in Genesis 6–8 and are scattered through Exodus 24–40, and *"Given the
+theological significance of Sinai, it is more likely that the Flood account was
+crafted in such a way as to allude to Sinai than the reverse."* Read together,
+the two stories comment on each other:
+
+> Reading Gen. 6 in light of Exod. 32, one may ponder what could have happened
+> in the Golden Calf event had God not relented from destruction… Strikingly,
+> rather than following the earlier model of 'save one righteous, kill all
+> evil' in Gen. 6 and 18, Moses proposes to 'kill one righteous, save all evil'
+> (Exod. 32.32). This may have influenced later texts, such as Isa. 53.
+
+> As Noah and his family are saved through water, so the Israelites are saved
+> through traversing the dry land.
+
+She carries it one step further, to the spies of Numbers 13 — and back to
+**Session 8**. Noah sends out the birds *"at the end of 40 days"* (Genesis 8:6) and the
+dove comes back with an olive leaf; the spies return *"after 40 days"* (Numbers
+13:25) with a cluster of grapes; and the spies'
+report names the **Nephilim** (Numbers 13:33). Her reading of the message: *"do
+not be afraid if you see the descendants of Nephilim in the land (Num. 13.33),
+for if God is able to destroy those during the time of Noah, he surely is able
+to destroy those appearing 'afterwards' (Gen. 6.4a)."*
+
+### Her conclusion — and its limits
+
+> In my view, the Flood account was constructed not of two sources but of
+> many—namely, numerous biblical texts in addition to Mesopotamian traditions.
+
+> …rather than seeing them as deriving from different hands (i.e., sources or
+> redaction layers), I see them as deriving from different texts.
+
+She is careful about scope: *"Importantly, this study does not challenge source
+divisions in the Pentateuch as a whole, but only those in the Flood account."*
+She does not argue for Mosaic authorship, and she does not name or date her
+author; her claim is that whoever wrote the Flood wrote it with the Sinai story
+in view.
+
+### Others who heard Sinai in the Flood
+
+- **The rabbis.** *"They violated the Torah that was given in forty days;
+  therefore, [the Flood lasted] 'forty days and forty nights'"* (*Genesis
+  Rabbah* 32:5). And Rashi on 7:2: the clean animals are *"those cattle which
+  will in future be permitted to Israel as clean; we thus learn that Noah
+  studied the Torah."*
+- **The source critics.** Skinner (1910) on the ark's covering: *"Elsewhere
+  only of the covering of the Tabernacle (P)"*; Driver (1913) on 6:22:
+  *"exactly the same form of sentence"* as Exodus 40:16. They read these as one
+  priestly writer's habits.
+- **Joseph Blenkinsopp**, "The Structure of P," *Catholic Biblical Quarterly*
+  38 (1976): the Flood as *"the Israelite version of the cosmogonic victory of
+  the deity resulting in the building of a sanctuary for him."*
+- **L. Michael Morales**, *The Tabernacle Pre-Figured* (2012), surveys those who
+  have read the ark as a sanctuary.
+
+The verses are in the NET on the [Scripture sheet](elsewhere-in-scripture.html),
+§§19–20.
+
+**The question this view has to answer.** Parallels are easy to find once one
+looks for them — the danger Samuel Sandmel named "parallelomania" in 1962 — and
+some of these are slender, as Zhang herself grants. It is one new study, by a
+doctoral researcher, not yet answered in print. And a source critic can reply
+that the ark–tabernacle links are what one would expect from a single priestly
+writer, and that an editor joining two sources could have added the rest.
+
+---
+
+## Part D — The older readings: one Author, two aspects
 
 ### *Genesis Rabbah* 33:3 — the two names as two attributes
 
@@ -407,53 +591,7 @@ label of an older tablet — which would put 6:5–8 and 6:11–13 on two differ
 tablets — and Duane Garrett (*Rethinking Genesis*, 1991) describes sources
 passing through *"the Mosaic redaction; and the post-Mosaic redaction(s)."*
 
-### The Flood told in the shape of Sinai
-
-The parallels themselves — *"did all that God commanded him"* (6:22 / Exodus
-40:16); *the first day of the first month* (8:13 / Exodus 40:17); the
-*covering* (8:13 / the tabernacle); the perpetual covenant and its sign (9:16 /
-Exodus 31:16–17); the blood (9:4 / Leviticus 17:11) — are printed in the NET on
-the [Scripture sheet](elsewhere-in-scripture.html), §19. **They are common
-ground.** The source critics catalogued them first — Skinner on the covering
-(*"Elsewhere only of the covering of the Tabernacle"*), Driver on 6:22
-(*"exactly the same form of sentence"* as Exodus 40:16) — and read them as one
-priestly writer's habits. Joseph Blenkinsopp ("The Structure of P,"
-*Catholic Biblical Quarterly* 38, 1976) saw the Flood as *"the Israelite
-version of the cosmogonic victory of the deity resulting in the building of a
-sanctuary for him."* Others read them as design: L. Michael Morales, *The
-Tabernacle Pre-Figured* (2012), surveys the long list of scholars who have
-treated the ark as a sanctuary.
-
-The newest study is open-access and quotable. Zara Zhang, "*Sintflut* and
-Sinai: Genesis 6–8's allusion to Exodus 24–40," *Journal for the Study of the
-Old Testament* 50 (2026): 272–298 (CC BY 4.0):
-
-> Noah's Ark and the Tabernacle are the only two building projects described in
-> the Pentateuch…
-
-> Many scholars have noticed the parallel between 'the first day of the first
-> month' in Gen. 8.13a and the same in the erection of the Tabernacle in Exod.
-> 40.17, and the dedication of the temple in 1 Kgs. 8.2.
-
-> …the total duration of Noah's Flood (one year and ten days) also roughly
-> matches that of the Sinai sojourning (one year and five days, that is, from
-> Exod. 16.1 to Num. 10.11–12)…
-
-She finds parallels between Genesis 6 and the **golden calf** (Exodus 32), and
-between Noah's two entries into the ark and Moses' double entry at Sinai
-(Exodus 24) — *"the double entry of Noah and the double entry of Moses—has not,
-to my knowledge, been previously noted."* Her conclusion cuts across the
-sides:
-
-> Parallels between the two accounts cross P and J/non-P sources, which
-> challenges the traditional source divisions in the Flood account… In my
-> view, the Flood account was constructed not of two sources but of many—namely,
-> numerous biblical texts in addition to Mesopotamian traditions.
-
-— and she adds: *"Importantly, this study does not challenge source divisions in
-the Pentateuch as a whole, but only those in the Flood account."*
-
-**The question this view has to answer.** The names do not always fit the
+**The question these readings have to answer.** The names do not always fit the
 attributes (it is Mercy who decides on the flood — which the midrash itself
 must explain); Noah keeps distinctions the Torah says were given later (the
 Talmud asks it); and Breuer's own answer grants the strands that the
@@ -465,9 +603,10 @@ documentary critics found.
 
 - **The doublets are real.** No one — rabbi, critic or evangelical — thinks
   the repetitions are imaginary. They disagree about what they are.
-- **The final story is meant to be read whole.** The critics' editor kept
-  *"every scrap"*; Wenham and Anderson find a design; Breuer's Author braided
-  the aspects on purpose.
+- **The final story is meant to be read whole.** The critics' editor worked
+  *"without sacrificing a scrap"*; Wenham and Anderson find a design; Zhang
+  finds a story built from many texts; Breuer's Author braided the aspects on
+  purpose.
 - **The Flood is told with Sinai in view.** Skinner, Rashi and Zhang agree on
   that much, from three different places.
 
