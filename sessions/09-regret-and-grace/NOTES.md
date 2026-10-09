@@ -61,11 +61,13 @@ Zhang 2026; panel-reviewed and revised; print pass redone after the Sinai
 section was cut — **8 pages, one forced break** (before *Next week*),
 delivered as `09-regret-and-grace.pdf` in this folder. Num 23:19 and Jonah 4:2
 are inlined, three cells of the doublet table shortened and a few asides cut
-(all still on the sheets) so the table fits on page 5. Podcasts generated
-2026-10-09 in a fresh NotebookLM notebook ("Echoes of the Flood"), sourced from
-the published handout and four sheets: `09-regret-and-grace-short.m4a` (23 m,
-Default preset) and `09-regret-and-grace-long.m4a` (54 m, Long preset),
-re-encoded to 64 kbps mono. Any content change → re-render the PDF
+(all still on the sheets) so the table fits on page 5. Podcasts regenerated
+2026-10-09 after the Sinai section was cut, in a fresh NotebookLM notebook
+("Genesis Flood Narratives and Divine Grace") sourced from the live handout and
+four sheets: `09-regret-and-grace-short.m4a` (23 m, Default preset) and
+`09-regret-and-grace-long.m4a` (71 m, Long preset), re-encoded to 64 kbps mono.
+(The first pair, from the "Echoes of the Flood" notebook, discussed Zhang and
+was replaced.) Any content change → re-render the PDF
 (`print-session`) and, if substantial, regenerate the podcasts.
 
 ---

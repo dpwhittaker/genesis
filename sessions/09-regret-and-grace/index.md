@@ -20,7 +20,7 @@ layout: default
 Two companion podcasts for this session — good before you read, or to revisit afterward:
 
 - **Short overview** (~23 min): <audio controls preload="none" src="09-regret-and-grace-short.m4a">Your browser can't play audio — [download the file](09-regret-and-grace-short.m4a).</audio>
-- **Longer deep dive** (~54 min): <audio controls preload="none" src="09-regret-and-grace-long.m4a">Your browser can't play audio — [download the file](09-regret-and-grace-long.m4a).</audio>
+- **Longer deep dive** (~71 min): <audio controls preload="none" src="09-regret-and-grace-long.m4a">Your browser can't play audio — [download the file](09-regret-and-grace-long.m4a).</audio>
 
 </div>
 
