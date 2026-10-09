@@ -1,11 +1,11 @@
 ---
-title: "12. Covenant Cut"
+title: "12. The Call of Abram"
 layout: default
 ---
 
-# 12. Covenant Cut
+# 12. The Call of Abram
 
-**Passage:** Genesis 15 and 17
+**Passage:** Genesis 12
 
 *Session page in development.*
 

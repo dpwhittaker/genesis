@@ -1,11 +1,11 @@
 ---
-title: "15. Jacob"
+title: "17. Joseph"
 layout: default
 ---
 
-# 15. Jacob
+# 17. Joseph
 
-**Passage:** Genesis 25–35
+**Passage:** Genesis 37–47
 
 *Session page in development.*
 

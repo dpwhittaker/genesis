@@ -228,3 +228,40 @@
   .annotate::before { left: 1.6in; }
   .annotate .vs { page-break-inside: avoid; }
 }
+
+/* ===== Two-strand passage sheet (session 9: the Flood, Genesis 6:5–9:19) =====
+   Each block is a run of verses assigned to one source by Driver (1913) and
+   Skinner (1910): .st-j = the strand that says "the LORD", .st-p = the strand
+   that says "God", .st-x = J with P's words added (7:8–9). The buttons set
+   data-show on .strands to read one strand alone. */
+.strands-key { display: flex; flex-wrap: wrap; gap: 0.4em; margin: 0.6em 0 0.8em; }
+.strands-key button {
+  font: 600 0.8em/1.2 -apple-system, Helvetica, Arial, sans-serif;
+  padding: 0.35em 0.75em; border: 1.5px solid #999; border-radius: 4px;
+  background: #fff; color: #333; cursor: pointer;
+}
+.strands-key button[aria-pressed="true"] { background: #333; border-color: #333; color: #fff; }
+.st { border-left: 4px solid; padding: 0.3em 0.7em 0.35em; margin: 0.3em 0; line-height: 1.55; }
+.st .tag {
+  display: block; margin-bottom: 0.1em;
+  font: 700 0.68em/1.2 -apple-system, Helvetica, Arial, sans-serif;
+  letter-spacing: 0.06em; text-transform: uppercase;
+}
+.st .vn { font: 700 0.72em/1 -apple-system, Helvetica, Arial, sans-serif; color: #888; padding-right: 0.15em; }
+.st-j { border-color: #b5651d; background: #fbf3ea; }
+.st-j .tag { color: #8a4a12; }
+.st-p { border-color: #2f5d8a; background: #eef3f9; }
+.st-p .tag { color: #234a70; }
+.st-x { border-color: #8a6aa8; background: #f5f1f9; border-left-style: dashed; }
+.st-x .tag { color: #5e4680; }
+.strands[data-show="j"] .st-p, .strands[data-show="j"] .st-x,
+.strands[data-show="p"] .st-j, .strands[data-show="p"] .st-x { display: none; }
+
+@media print {
+  .strands-key { display: none; }
+  .st {
+    -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important;
+    padding: 1.5pt 5pt; margin: 2pt 0; line-height: 1.35;
+  }
+  .strands .st { display: block !important; }
+}

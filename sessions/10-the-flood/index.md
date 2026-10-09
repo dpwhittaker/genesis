@@ -1,11 +1,11 @@
 ---
-title: "16. Joseph"
+title: "10. The Flood"
 layout: default
 ---
 
-# 16. Joseph
+# 10. The Flood
 
-**Passage:** Genesis 37–47
+**Passage:** Genesis 6:9–9:29
 
 *Session page in development.*
 

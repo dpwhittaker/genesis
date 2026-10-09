@@ -1,11 +1,11 @@
 ---
-title: "10. Babel"
+title: "13. Covenant Cut"
 layout: default
 ---
 
-# 10. Babel
+# 13. Covenant Cut
 
-**Passage:** Genesis 11
+**Passage:** Genesis 15 and 17
 
 *Session page in development.*
 

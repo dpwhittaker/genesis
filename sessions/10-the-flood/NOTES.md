@@ -1,4 +1,4 @@
-# Session 9 — planning notes
+# Session 10 — planning notes
 
 **Not published.** `_config.yml` excludes `sessions/*/NOTES.md` from the Jekyll
 build, so this file is for whoever builds the session, not for the class.
@@ -9,6 +9,13 @@ build, so this file is for whoever builds the session, not for the class.
 
 (Renumbered again 2026-09-25: Session 8 became Genesis 6:1–8, *The Sons of
 God and the Nephilim*, and the Flood moved to Session 9 — Genesis 6:9–9:29.)
+
+(And again 2026-10-08: Session 9 became *Regret, Grace, and a Story Told
+Twice* — Genesis 6:5–8 in depth, plus the Flood's doublets and the three ways
+of reading them (J/P, chiasm, Sinai). It ends on a teaser for *Atrahasis* and
+*Gilgamesh*, so this session opens with the neighbours' floods. See
+[`../09-regret-and-grace/NOTES.md`](../09-regret-and-grace/NOTES.md) for what
+it hands forward.)
 
 The Flood was Session 7 until Session 7 became Genesis 4:17–5:32 (the two
 genealogies against the Sumerian King List). Everything from here on moved

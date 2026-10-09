@@ -1,11 +1,11 @@
 ---
-title: "14. The Binding of Isaac (the Akedah)"
+title: "11. Babel"
 layout: default
 ---
 
-# 14. The Binding of Isaac (the Akedah)
+# 11. Babel
 
-**Passage:** Genesis 22
+**Passage:** Genesis 11
 
 *Session page in development.*
 

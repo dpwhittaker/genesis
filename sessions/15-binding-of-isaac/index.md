@@ -1,11 +1,11 @@
 ---
-title: "17. Blessing and Burial"
+title: "15. The Binding of Isaac (the Akedah)"
 layout: default
 ---
 
-# 17. Blessing and Burial
+# 15. The Binding of Isaac (the Akedah)
 
-**Passage:** Genesis 48–50
+**Passage:** Genesis 22
 
 *Session page in development.*
 

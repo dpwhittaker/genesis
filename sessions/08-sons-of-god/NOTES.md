@@ -31,7 +31,11 @@ for a class with a Christian high-school education.
 So, as with Session 7: the Flood moved to **Session 9** (Genesis 6:9–9:29)
 and everything after it renumbered down by one (git mv from the top:
 16→17 … 08-the-flood→09-the-flood; titles and README bumped). The Flood's
-planning notes moved with it to `../09-the-flood/NOTES.md`.
+planning notes moved with it to `../10-the-flood/NOTES.md`.
+
+(2026-10-08: renumbered again. The class ran out of time before Part 5, so
+Session 9 became *Regret, Grace, and a Story Told Twice* — Genesis 6:5–8 in
+depth plus the Flood's doublets — and the Flood itself moved to Session 10.)
 
 ## The shape of the session
 
@@ -127,7 +131,7 @@ that surprised us or corrected the brief:
   "rejects"); the "holy mountain" motif in Ephrem himself (it is *Cave of
   Treasures*); Kidner's and Hamilton's positions (dropped).
 
-## Threads handed forward to Session 9 (the Flood)
+## Threads handed forward to Sessions 9 and 10 (the doublets, then the Flood)
 
 - **6:9–13 tells the reason for the flood a second time** — *God* not *the
   LORD*, *violence/corruption* not *the heart*, and 6:12 inverts 1:31 (*God
