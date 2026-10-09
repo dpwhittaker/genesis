@@ -50,9 +50,12 @@ This session should not repeat it: it links back and goes further.
 Zhang 2026; panel-reviewed and revised; print pass done — **10 pages, two
 forced breaks** (before Part 4 and before *Next week*), delivered as
 `09-regret-and-grace.pdf` in this folder. Two block quotations (Num 23:19,
-Jonah 4:2) were inlined to keep their lead-ins on the same page. Any content
-change → re-render the PDF (`print-session`) and, if substantial, regenerate
-the podcasts.
+Jonah 4:2) were inlined to keep their lead-ins on the same page. Podcasts generated
+2026-10-09 in a fresh NotebookLM notebook ("Echoes of the Flood"), sourced from
+the published handout and four sheets: `09-regret-and-grace-short.m4a` (23 m,
+Default preset) and `09-regret-and-grace-long.m4a` (54 m, Long preset),
+re-encoded to 64 kbps mono. Any content change → re-render the PDF
+(`print-session`) and, if substantial, regenerate the podcasts.
 
 ---
 

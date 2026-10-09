@@ -13,6 +13,17 @@ layout: default
 🖨️ **[Printable handout (PDF, 10 pages)](09-regret-and-grace.pdf)** — print this file rather than the web page; it is the exact layout checked for paper.
 {: .no-print}
 
+<div class="no-print" markdown="1">
+
+## 🎧 Listen
+
+Two companion podcasts for this session — good before you read, or to revisit afterward:
+
+- **Short overview** (~23 min): <audio controls preload="none" src="09-regret-and-grace-short.m4a">Your browser can't play audio — [download the file](09-regret-and-grace-short.m4a).</audio>
+- **Longer deep dive** (~54 min): <audio controls preload="none" src="09-regret-and-grace-long.m4a">Your browser can't play audio — [download the file](09-regret-and-grace-long.m4a).</audio>
+
+</div>
+
 ## A note before we begin
 
 We ran out of time last week four verses short of the ark. Those four verses
