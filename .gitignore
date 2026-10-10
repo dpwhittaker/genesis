@@ -22,3 +22,6 @@ vendor/
 
 # NotebookLM source deck (slides/ are the committed artifact)
 sessions/01-the-neighbors-stories/slideshow/*.pdf
+
+# scripted-podcast: single-chunk auditions (render --only N --copy)
+sessions/*/*.chunk*.mp3

@@ -21,5 +21,7 @@ exclude:
   - pdf
   # Per-session planning notes — for whoever builds the session, never for the class.
   - "sessions/*/NOTES.md"
+  # Podcast scripts (scripted-podcast skill) — the source for the audio, not a page.
+  - "sessions/*/*.script.md"
   # NotebookLM source deck (the rendered slides/ are what we serve)
   - "sessions/01-the-neighbors-stories/slideshow/The_Great_Subversion_(6).pdf"
