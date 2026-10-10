@@ -1,52 +1,85 @@
 ---
 name: scripted-podcast
-description: Write, revise and voice a two-host podcast for a Genesis lesson WITHOUT NotebookLM — an erudite TEACHER and an expressive, inquisitive STUDENT. Claude drafts a script grounded in the lesson's handout and source sheets (sessions/<slug>/<slug>-<kind>.script.md), the user reads and revises it, and only then does ElevenLabs Text to Dialogue (eleven_v4, with audio tags like [curious] or [laughs]) voice it, chunk by chunk and cached, into sessions/<slug>/<slug>-<kind>.m4a. Use when the user asks for a trailer or teaser, a scripted or ElevenLabs podcast, a "two-voice" episode, or wants to change a line or a voice in one. Never send a script to ElevenLabs before the user has approved it.
+description: Make a Genesis lesson's podcasts — the SHORT (~20 min) and LONG (~40 min) episodes every lesson ships with, plus an optional trailer — as two-host scripts voiced by ElevenLabs. An erudite TEACHER and an expressive, inquisitive STUDENT. Claude writes sessions/<slug>/<slug>-short.script.md and <slug>-long.script.md from the handout and source sheets, the user reads and revises them, and only then does ElevenLabs Text to Dialogue (eleven_v4, audio tags) voice them into <slug>-short.m4a and <slug>-long.m4a. Then Claude transcribes the audio locally to check it against the script, and links both on the page. This replaced the NotebookLM flow from Session 10 on. Use when the user says "make podcasts for session N", "short and long podcast", "deep dive for lesson N", "trailer", or wants a line, a voice or a take changed. Never send a script to ElevenLabs before the user has approved it.
 ---
 
-# Scripted podcast: script first, then ElevenLabs
+# Lesson podcasts: script first, then ElevenLabs
 
-NotebookLM (the `notebooklm` skill) writes and voices in one opaque step: you
-can steer it, but you can't read or fix what it will say. This skill splits the
-two. **Claude writes a script the user can read; ElevenLabs only performs it.**
-So every claim and every quotation is checked before anyone hears it, and a
-wrong line is fixed by editing one line.
+Every lesson ships with two podcasts, a **short** and a **long** one. From
+Session 10 on, both are made here. **Claude writes a script the user can read;
+ElevenLabs only performs it.** So every claim and every quotation is checked
+before anyone hears it, and a wrong line is fixed by editing one line.
 
-Use it for anything short and exact: a two-minute **trailer**, a focused
-episode on one part of a lesson, a retake of something NotebookLM got wrong.
-For a 20–70 minute free-ranging deep dive, NotebookLM is still the cheaper
-tool.
+> Sessions 1–9 were made in NotebookLM (`Medium_Podcast.m4a`/`Longer_Podcast.m4a`
+> through Session 7, `<slug>-short/-long.m4a` for 8–9). Leave them alone: their
+> URLs are in past emails, GroupMe posts and Church Center resources. The
+> `notebooklm` skill was removed on 2026-10-09 when this one replaced it. It
+> survives in git history at commit `00c8fb6` if it's ever needed.
 
-The tool is `podcast.py` beside this file (Python 3 stdlib plus PyYAML, both
-on the system `python3`; ffmpeg for audio):
+The tool is `podcast.py` beside this file. It needs Python 3 with PyYAML (both
+on the system `python3`) and ffmpeg. The WebSocket transport and `verify` need
+packages that only `uv` provides here:
 
 ```bash
 P=.claude/skills/scripted-podcast/podcast.py
-python3 $P check  sessions/<slug>/<slug>-trailer.script.md   # lint, stats, chunk plan, cost; no API calls
-python3 $P render sessions/<slug>/<slug>-trailer.script.md   # dry run: says what would be sent
-python3 $P render … --yes                                     # voice new/changed chunks, assemble the .m4a
-python3 $P render … --only 2 --yes --copy                     # voice/audition chunk 2 alone
-~/.local/bin/uv run --no-project --with websockets --with pyyaml \
-  python $P render … --transport ws --yes                     # whole script in one WebSocket session
-python3 $P render … --out X.m4a --model eleven_v3             # variants side by side, for comparing
-python3 $P voices [search]                                    # voices this account can use
-python3 $P quota                                              # credits used / left
+UV="$HOME/.local/bin/uv run --quiet --no-project --with pyyaml"
+python3 $P check  sessions/<slug>/<slug>-long.script.md     # lint, stats, chunk plan, cost; no API calls
+python3 $P render sessions/<slug>/<slug>-long.script.md     # dry run: says what would be sent
+python3 $P render … --yes                                    # voice new/changed chunks, assemble the .m4a
+python3 $P render … --only 7 --yes --copy                    # voice/audition chunk 7 alone
+$UV --with faster-whisper python $P verify …                 # transcribe locally, diff against the script
+python3 $P voices [search]  ·  python3 $P quota               # account voices · credits left
+$UV --with websockets python $P render … --transport ws --yes   # experimental; see "Transports"
+python3 $P render … --out X.m4a --model eleven_v3            # variants side by side, for comparing
 ```
+
+## What each lesson gets
+
+| Episode | Length | Words | Script → audio | What it is |
+|---|---|---|---|---|
+| **short** | ~20 min | ~3,000 | `<slug>-short.script.md` → `<slug>-short.m4a` | The overview: the session's aim and each part's core move, with one or two key quotations per part. Someone who hears only this should be ready for class. |
+| **long** | ~40 min | ~6,000 | `<slug>-long.script.md` → `<slug>-long.m4a` | The deep dive: every part, in the handout's order, with the source sheets' primary texts read at length and each reading given at its strongest, along with its hardest question. |
+| trailer | 2 min | ~300 | `<slug>-trailer.script.md` → `<slug>-trailer.m4a` | **Only when asked.** It asks the session's questions and answers none of them. `example-trailer.script.md` beside this file is a worked one (Session 9's test, never published). |
+
+These names are the ones `publish-lesson` looks for, so keep them. The lengths
+match the NotebookLM pairs (shorts ran 19–25 min, longs 30–71). The user may
+ask for others: set them per lesson, and remember that the user reads every
+word before it's voiced. The short is **not** the long one cut down. Write it
+as its own episode, though it can reuse the long's best lines.
 
 ## The hosts
 
-| Label | Who | Writes like |
-|---|---|---|
-| `TEACHER` | An erudite teacher: has read the rabbis, the fathers and the commentaries, and wears it lightly. Warm, unhurried, exact. | Carries the content. Quotes the text word for word and says where it's from. Says "maybe" when scholars disagree, and states each view at its strongest. Enjoys the student's questions. |
-| `STUDENT` | An expressive, inquisitive student: quick, funny, honest about being surprised or unconvinced. | Asks what a class member would ask, at the moment they'd ask it. Reacts out loud ("Wait." "No way." "Oof."). Pushes back. Restates things in plain words, and sometimes gets there first. |
+| Label | Voice | Who | Writes like |
+|---|---|---|---|
+| `TEACHER` | **Flint** – Deep, Raspy, and Warm (`qAZH0aMXY8tw1QufPN0D`) | An erudite teacher: has read the rabbis, the fathers and the commentaries, and wears it lightly. Warm, unhurried, exact. | Carries the content. Quotes the text word for word and says where it's from. Says "maybe" where scholars disagree, and states each view at its strongest. Enjoys the student's questions. |
+| `STUDENT` | **Lauren** (`DODLEQrClDo8wCz460ld`) | An expressive, inquisitive student: quick, funny, honest about being surprised or unconvinced. | Asks what a class member would ask, at the moment they'd ask it. Reacts out loud ("Wait." "No way." "Oof."). Pushes back. Restates things in plain words, and sometimes gets there first. |
+
+The user chose Flint and Lauren after hearing George and Jessica. Keep the pair
+across every lesson so the class knows the voices. The front matter of every
+script starts from this:
+
+```yaml
+---
+title: "Session N — <short|long>: <lesson title>"
+output: <slug>-<short|long>.m4a
+model: eleven_v4
+stability: 0.5
+seed: <N>
+speakers:
+  TEACHER: { voice: qAZH0aMXY8tw1QufPN0D, name: Flint }    # Deep, Raspy, and Warm (library)
+  STUDENT: { voice: DODLEQrClDo8wCz460ld, name: Lauren }   # library
+---
+```
 
 The student is not a cheerleader and not a straw man. If every student line is
 "Wow, that's fascinating," cut half of them and give the student a real
-question or a real objection. Aim for the student to have **at least a quarter
-of the words** (`check` prints the split); trailers can run nearer a third.
+question or a real objection. The student should have **25–35% of the words**
+(`check` prints the split).
 
-Voices are set per script in the front matter, so a series can keep the same
-pair. Pick them with `podcast.py voices` (see *Voices* below), and keep the
-pair contrasting in pitch and pace so a listener always knows who is talking.
+**No invented lives.** The hosts are voices, not people. They don't have names
+on air, and they don't claim a seminary, a congregation, a spouse or a
+memory ("when I first read this…"). They don't mention being AI either. They
+talk about the text.
 
 ## Workflow
 
@@ -54,182 +87,194 @@ pair contrasting in pitch and pace so a listener always knows who is talking.
 
 - `sessions/<slug>/index.md`: the handout. **This is the source of truth.**
   Everything voiced must be in it, or in its `texts/` sheets.
-- `sessions/<slug>/texts/*.md`: the source sheets, for exact quotations.
+- `sessions/<slug>/texts/*.md`: the source sheets, for exact quotations and
+  for the long episode's extended readings.
 - `sessions/<slug>/NOTES.md`: why the session is shaped the way it is, and
   what was **cut** (and why). Never voice anything that is only in NOTES.
 - The project `CLAUDE.md` and memories: the audience is the class, quotations
   are NET, the time of day stays generic, contested questions get both sides,
   and New Testament readings are authoritative.
 
-### 2. Plan the length
+The handout should be finished (panel-reviewed, printed) before you write the
+scripts. A script written against a draft goes stale when the draft changes.
 
-Budget words at **150 per minute** (`check` estimates the same way; v4
-dialogue often runs a little faster):
+### 2. Outline both episodes
 
-| Kind | Length | Words | File |
-|---|---|---|---|
-| trailer | 2 min | ~300 | `<slug>-trailer.m4a` |
-| short episode | 8–12 min | 1,200–1,800 | `<slug>-<topic>.m4a` |
-| episode | 15–25 min | 2,200–3,800 | `<slug>-<topic>.m4a` |
+Budget words at **150 a minute** (`check` estimates the same way; v4 dialogue
+runs a little faster, so a 6,000-word script comes out near 38 minutes). Split
+the budget across the handout's parts by their weight in the handout, not
+equally. Write the outline into each script file as `##` headings with a
+`<!-- ~N words: what this part must land -->` comment under each, then write
+underneath them. If the session's shape is unusual, or the user asks, show the
+outline before writing the lines.
 
-Don't reuse `-short`/`-long`: those names belong to the NotebookLM pair that
-`publish-lesson` looks for.
+### 3. Write
 
-Outline the beats before writing lines. A **trailer** asks the session's
-questions and answers none of them: a cold open on the most startling line, three
-or four quick hooks (one per part of the handout), and a close that names the
-session and says where to find it. An **episode** follows the handout's parts.
-Give each part a question the student asks, the text, the readings, and a
-landing.
+Write the long episode first, part by part, running `check` after each. Then
+write the short one. The craft is in *Writing an episode* and *Writing for the
+ear* below. Put a `---` line at each part boundary. That makes the part a
+section, so an edit inside it can't shift the chunking anywhere else.
 
-### 3. Draft the script
-
-`sessions/<slug>/<slug>-<kind>.script.md` (format below). It is committed with
-the session. `_config.yml` keeps `*.script.md` out of the published site.
-
-### 4. Check it
+### 4. Check
 
 `podcast.py check` until there are no `ERROR`s, and read every `warn`. It catches
 references written as digits, LORD in capitals, transliteration diacritics,
-parentheses and abbreviations, SSML, tags a listener can't hear, over-long
-turns, and chunks over the 2,000-character request limit. It also prints the
-estimated length and the characters to be billed.
+parentheses and abbreviations, SSML, tags a listener can't hear, turns too
+long to send, and tags crowding a turn. It also prints each host's share, the
+estimated length, the chunk plan and the characters to be billed.
 
-### 5. STOP: the user reads the script
+### 5. STOP: the user reads the scripts
 
-Show the user the script (its path, and for a trailer the whole text in the
-reply), the estimated length, the word split and the cost. **Do not render until
-they approve.** Revise as asked, re-run `check`, and show it again. This loop is
-the point of the skill. It costs nothing, so iterate freely here rather than
-after voicing.
+Don't paste 9,000 words into the chat. Give the user:
+- the two paths (they open them in claude-hub's file explorer);
+- for each episode, its parts with their minutes and the main quotations;
+- what `check` says: the length, the host split and the cost.
 
-### 6. Voice it
+A trailer's text can go in the reply whole. **Do not render until the user
+approves.** Revise as asked, re-run `check`, and say what changed. This loop is
+free, so iterate here rather than after voicing.
 
-`podcast.py render <script> --yes`. Each chunk is one Text to Dialogue request.
-It is cached in `~/.cache/scripted-podcast/` under a hash of exactly what was
-sent: text, voices, model, settings and seed. A sidecar `.json` keeps the
-`request-id` and `character-cost`.
+### 6. Voice
 
-Chunks are voiced **in script order and stitched**. Each request carries
-`previous_request_ids` (the takes before it, up to 3), so a chunk picks up
-where the last one left off. When a chunk mid-script is retaken, it also
-carries `next_request_ids` (the takes after it), so it leads back into them.
-Request ids can only be stitched to for 2 hours. Past that, or for a
-neighbour being re-voiced in the same run, the request sends 100 characters
-of that neighbour's text instead (`previous_text`/`future_text`). The render
-line says which it used. None of this is part of the cache key, so an edit
-still re-voices only its own chunk. Set `stitch: false` to send chunks
-independently.
+`podcast.py render <script> --yes` for each episode. You can run both at once,
+each in the background (a long episode is ~20 chunks, about 13 s each).
 
-The chunks are then joined with a 0.35 s gap,
-loudness-normalised to −16 LUFS, and encoded as **64 kbps mono AAC with
-`+faststart`**, the same encoding the NotebookLM podcasts get, so the site stays
-under the GitHub Pages 1 GB limit. The assembled file carries the script's
-`title` and the ElevenLabs credit in its metadata.
+- **Chunking.** Each `---` section is split at turn boundaries into the fewest
+  chunks of ≤ 1,800 characters, cut near equal shares so none is a stub. Each
+  chunk is one Text to Dialogue request (the API's limit is 2,000).
+- **Cache.** Each chunk is cached in `~/.cache/scripted-podcast/` under a hash of
+  exactly what was sent: text, voices, model, settings and seed. A sidecar
+  `.json` keeps the `request-id`, the `character-cost` and the time.
+- **Stitching.** Chunks are voiced **in script order**. Each request carries
+  `previous_request_ids` (the takes before it, up to 3), so a chunk picks up
+  where the last one left off. When a chunk mid-script is retaken, it also
+  carries `next_request_ids` (the takes after it), so it leads back into them.
+  - Request ids can be stitched to for 2 hours only. Past that, or for a
+    neighbour being re-voiced in the same run, the request sends 100
+    characters of that neighbour's text instead (`previous_text`/
+    `future_text`). The render line says which it used.
+  - None of this is in the cache key, so an edit re-voices only its own chunk.
+  - `stitch: false` sends chunks independently.
+- **Truncation check.** After each chunk, the renderer compares its length
+  with its word count and flags one much shorter than its text (cut off).
+- **Assembly.** Chunks are joined with a 0.35 s gap, loudness-normalised to
+  −16 LUFS, and encoded as **64 kbps mono AAC with `+faststart`**, about
+  0.5 MB a minute. That keeps the site inside GitHub Pages' 1 GB limit, where
+  audio is nearly all the bytes. The file's metadata carries the script's
+  `title` and the ElevenLabs credit.
 
-Report the duration and the cost. The user listens. **You can't**, so never
-describe how it sounds.
+Cost on Creator is about 0.1 credit per character: roughly 5,000–6,000
+credits a lesson for both episodes, out of 300,000 a month. Check with
+`podcast.py quota`.
 
-### 6b. Or over the WebSocket (no chunk seams)
+### 7. Verify (you can't listen, so transcribe)
 
-`--transport ws` sends the whole script through the Text to Dialogue
-WebSocket (`wss://api.elevenlabs.io/v1/text-to-dialogue/stream-input`) in one
-session. `---` breaks are ignored, and the 2,000-character limit doesn't
-apply. What we found on 2026-10-09 (Session 9 trailer, `eleven_v4`):
-
-- **It takes `eleven_v4`**, although the API reference says v3 only (the
-  guides say v3 or v4). History logs it as v4.
-- **It doesn't voice the script in one pass.** The server makes one generation
-  per turn: your account history shows one entry per turn under one
-  request-id. So it swaps the one seam of a two-chunk render for a boundary at
-  every change of speaker, where seams are least audible anyway.
-- **Each turn must be sent with `flush: true`** (the renderer does this). If it
-  isn't, the server holds back the last word or two of each turn and voices them
-  as a separate fragment ("…every one of" / "them."). A trailing space
-  didn't help.
-- It cost the same as REST, and ran about 8% longer (2:25 vs 2:14) with longer
-  pauses between turns. Retakes are all-or-nothing: a take or an edit anywhere
-  re-voices the whole session.
-- It needs the `websockets` package, which isn't in any venv here, so run it
-  under `uv run` as shown above.
-
-For the Session 9 trailer, both transports came back word-complete. At the
-REST seam, the pause (0.50 s) and loudness (−23.5 vs −22.9 LUFS) matched the
-rest of the file. **The user found the chunked REST version better:** its seam
-was inaudible, and the voices "sounded more like they were naturally reacting
-to each other." That fits the history: REST voices a whole chunk of dialogue in
-one generation, while the WebSocket voices each turn alone. Default to REST.
-
-### 7. Iterate on the audio
-
-- **A line is wrong, or reads badly:** edit it and render again. Only the
-  chunk(s) containing changed text are re-voiced and billed.
-- **The words are right but the delivery isn't:** add `<!-- take: 2 -->`
-  (then 3, …) anywhere in that chunk. That changes its seed, so it is re-voiced
-  as a fresh take. Audition it alone with `--only N --copy`, which writes
-  `<output>.chunkN.mp3` beside the script (gitignored), then render the whole.
-- **A voice is wrong:** change it in the front matter. Every chunk re-voices.
-- **Mispronunciation:** respell the word for the ear in the script (the
-  printed handout keeps the scholarly spelling; the script is for the voice).
-- **Too flat, or too wild:** lower `stability` for more emotional range
-  (0.3–0.4), raise it for steadier reading (0.6–0.7).
-
-### 8. Put it on the page
-
-Same pattern as the NotebookLM podcasts (see the `notebooklm` skill, step 8):
-
-- `sessions/<slug>/index.md`: add a line to the `## 🎧 Listen` block (inside its
-  `no-print` div). A trailer goes **first**:
-  `- **Two-minute trailer**: <audio controls preload="none" src="<slug>-trailer.m4a">…</audio>`
-- `README.md`: add it to the lesson's `🎧 Podcasts:` links, e.g.
-  `[trailer (2m)](sessions/<slug>/<slug>-trailer.m4a) · [short (23m)](…) · …`
-- Credit ElevenLabs where the audio is offered (see *Licensing*), and keep the
-  session's existing Scripture attribution, which already covers NET quotations.
-- `index.md` changed, so re-render the PDF with `print-session`. The Listen
-  block doesn't print, but `publish-lesson` refuses a PDF older than its page.
-- Commit the script, the `.m4a`, and the page/README edits together.
-
-## Script format
-
-```markdown
----
-title: "Session 9 — trailer"              # metadata title of the .m4a
-output: 09-regret-and-grace-trailer.m4a   # relative to the script
-model: eleven_v4                          # default eleven_v4
-stability: 0.5                            # default 0.5; lower = more expressive
-seed: 9                                   # any integer; a take adds to it
-# similarity: 0.75                        # optional; how closely to hold the voice
-# stitch: false                           # default true: condition chunks on their neighbours
-# language: en
-speakers:
-  TEACHER: { voice: <voice_id>, name: <voice name, for humans> }
-  STUDENT: { voice: <voice_id>, name: <voice name> }
----
-
-<!-- Notes for writers and reviewers. Never voiced; may span lines. -->
-
-## Cold open        ← headings organise the script for readers; never voiced
-
-TEACHER: [quiet, measured] "The Lord regretted that he had made humankind on the earth."
-
-STUDENT: [surprised] Wait. God *regretted*?
-A turn may wrap onto following lines until a blank line.
-
----                ← chunk break: each chunk is one request, one cache entry, one retake unit
-
-## Next part
-<!-- take: 2 -->
-TEACHER: …
+```bash
+HF_HUB_OFFLINE=1 ~/.local/bin/uv run --quiet --no-project --with faster-whisper --with pyyaml \
+  python $P verify sessions/<slug>/<slug>-long.script.md
 ```
 
-- A turn is `LABEL: text`, where LABEL is a key of `speakers`. After a blank
-  line, any text must start a new turn.
-- `*emphasis*` is stripped before sending. It's for the human reader. To make
-  the voice stress a word, use CAPS (sparingly) or reword the sentence.
-- Put a `---` break every ~1,000–1,800 characters, at a topic change. Each
-  request must stay **≤ 2,000 characters**. A seam between chunks is a slight
-  pause and may shift the voices' energy a little, so put it where a pause
-  belongs. A two-minute trailer fits in one or two chunks.
+This transcribes the `.m4a` on the CPU with the cached Whisper large-v3-turbo
+model (int8). It runs at about a third of real time, so an hour of audio takes
+~20 minutes; run it in the background. It then diffs the transcript against
+the script and prints each difference with its **chunk, script line and
+timestamp**. Numbers and ordinals are matched to Whisper's digits, so
+"First Samuel" vs "1 Samuel" isn't reported.
+
+- A run of missing words at the end of a chunk means that chunk was cut off.
+  Retake it.
+- An isolated word that "differs" is usually Whisper mishearing (names,
+  homophones). Give the user the timestamp and let them judge.
+- Report what verify found. Never say how the audio *sounds*.
+
+### 8. The user listens; iterate
+
+- **A line is wrong, or reads badly:** edit it and render again. Only that
+  chunk is re-voiced and billed, stitched to its neighbours.
+- **The words are right but the delivery isn't:** add `<!-- take: 2 -->`
+  (then 3, …) anywhere in that chunk's lines. That changes its seed, so it is
+  re-voiced as a fresh take. Audition it alone with `--only N --copy`, which
+  writes `<output>.chunkN.mp3` beside the script (gitignored). Then render the
+  whole.
+- **A retake's seam is audible** (common a day later, when the ids have
+  expired): give the neighbouring chunk a take too, so the two are stitched
+  afresh.
+- **Mispronunciation:** respell the word in the script. The printed handout
+  keeps the scholarly spelling; the script is for the voice.
+- **Too flat, or too wild:** lower `stability` for more range (0.3–0.4), raise
+  it for steadier reading (0.6–0.7). Every chunk re-voices.
+
+### 9. Put them on the page
+
+Round each duration to whole minutes (`ffprobe` or verify's first line).
+
+**`sessions/<slug>/index.md`:** a `## 🎧 Listen` section right after the
+opening `**Passage:**` / source-sheet / PDF lines, before the first `##`
+section. Wrap it in a `no-print` div so it's on screen but not on paper:
+
+```markdown
+<div class="no-print" markdown="1">
+
+## 🎧 Listen
+
+Two companion podcasts for this session — good before you read, or to revisit afterward:
+
+- **Short overview** (~<SHORT> min): <audio controls preload="none" src="<slug>-short.m4a">Your browser can't play audio — [download the file](<slug>-short.m4a).</audio>
+- **Longer deep dive** (~<LONG> min): <audio controls preload="none" src="<slug>-long.m4a">Your browser can't play audio — [download the file](<slug>-long.m4a).</audio>
+
+*Voiced with [ElevenLabs](https://elevenlabs.io) from scripts written for this session.*
+
+</div>
+```
+
+A trailer, if there is one, goes first in the list:
+`- **Two-minute trailer**: <audio … src="<slug>-trailer.m4a">…</audio>`.
+Keep `src`/`href` as bare file names: the page is served from the session
+folder.
+
+**`README.md`:** append to the lesson's bullet, short first:
+`🎧 Podcasts: [short (<SHORT>m)](sessions/<slug>/<slug>-short.m4a) · [long (<LONG>m)](sessions/<slug>/<slug>-long.m4a)`
+
+Then:
+- `index.md` changed, so re-render the PDF with `print-session`. The Listen
+  block doesn't print, but `publish-lesson` refuses a PDF older than its page.
+- Commit the scripts, the two `.m4a` files and the page, README and PDF edits
+  together, and push. `publish-lesson` takes it from there.
+- Add a line to the session's `NOTES.md` status: when the podcasts were voiced,
+  their lengths, and anything retaken.
+
+## Writing an episode
+
+- **Open cold, on the text.** Start with the most arresting line of the
+  passage or the sharpest question, not "Welcome back" or "Today we're going
+  to talk about". Name the session within the first minute.
+- **Follow the handout's parts, in its order.** In the long episode, each part
+  usually goes like this:
+  - the student's question;
+  - the passage, read exactly by the teacher, with its reference;
+  - what the words do (the Hebrew, the echoes, the counts, in plain words);
+  - the readings, each at its strongest, with its hardest question;
+  - the student's honest reaction or objection;
+  - a landing line that hands on to the next part.
+
+  Don't run every part on the same template. Vary the order and the pace.
+- **Read the primary sources aloud.** In the long episode, the teacher reads
+  key passages from the source sheets (Philo, Calvin, Rashi, the Talmud,
+  *Atrahasis*), up to ~60 words each. Name the writer and their century. These
+  readings are what NotebookLM could never get exactly right; they are the
+  point of this flow.
+- **Hand the listener the questions.** Each "Talk about it" box can become one
+  question the student or teacher puts to the listener ("Here's one to bring
+  with you…"). Offer it as a question, never as a verdict on what the class
+  thinks.
+- **Recap at the turns.** In the long episode, a two-line "so far" at the
+  midpoint and before the landing helps the ear. The student often does it best
+  ("So let me see if I've got this…").
+- **Land on the handout's "So what?"** and close on a question to bring, then
+  the session name.
+- **Don't invent.** Every fact, number and attribution must be traceable to
+  the handout or a sheet. If the script needs something the handout lacks, ask
+  the user, or add it to the handout first. Don't slip it in by audio.
 
 ## Writing for the ear
 
@@ -245,19 +290,60 @@ TEACHER: …
 - **No parentheses, footnotes, "cf.", "BCE".** Say "about two hundred and
   fifty years before Jesus", or just "before Jesus".
 - **Numbers in words** where a person would say them that way.
+- **Never point at a page.** Say "in the handout", not "on page three": page
+  breaks move.
 - **Contractions and spoken rhythm.** "It's", "doesn't", fragments, a "Wait."
   An ellipsis (…) trails off or hesitates; a dash cuts in. Use both
   sparingly: v4 takes punctuation seriously.
 - **Interruptions:** end the cut-off line with a dash ("so the flood was—")
   and start the next turn with `[interrupting]` or `[jumping in]`.
 - **Class rules hold in audio, too.** Talk *to* the class, never *about*
-  them. Use "today", "this session", "last session", never "tonight" or "this
-  morning". Lay out contested questions at their strongest on each side. Where
-  the New Testament reads a passage, it settles it for this class. And nothing
-  goes in that the handout has dropped.
+  them. Use "today", "this session", "last session", "next session", never
+  "tonight" or "this morning". Lay out contested questions at their strongest
+  on each side. Where the New Testament reads a passage, it settles it for
+  this class. And nothing goes in that the handout has dropped.
 - **Avoid podcast tics:** "Exactly!", "Right?", "That's fascinating",
   "unpack", "deep dive", "let's dive in", "game-changer". Not every turn opens
   with a reaction.
+
+## Script format
+
+```markdown
+---
+(front matter: see The hosts)
+# similarity: 0.75     optional; how closely to hold the voice
+# stitch: false        default true
+# language: en
+# credit: "…"          default "Voiced with ElevenLabs (elevenlabs.io)", into the file's metadata
+---
+
+<!-- Notes for writers and reviewers. Never voiced; may span lines. -->
+
+## Part 1 — Whose fault is it?     ← headings organise the script for readers; never voiced
+<!-- ~900 words: the verdict falls on humankind; Eden's excuses; 8:21 -->
+
+TEACHER: [quiet, measured] "The Lord regretted that he had made humankind on the earth."
+
+STUDENT: [surprised] Wait. God *regretted*?
+A turn may wrap onto following lines until a blank line.
+
+---                                ← section break: chunks never cross it
+
+## Part 2 — …
+<!-- take: 2 -->                   ← re-rolls the chunk this sits in
+TEACHER: …
+```
+
+- A turn is `LABEL: text`, where LABEL is a key of `speakers`. After a blank
+  line, any text must start a new turn.
+- `*emphasis*` is stripped before sending: it's for the human reader. To make
+  the voice stress a word, use CAPS (sparingly) or reword the sentence.
+- Put `---` at each part boundary. Within a section, chunk cuts fall at
+  turn boundaries automatically. A seam is a slight pause and could shift the
+  voices' energy, which is another reason to keep sections to natural parts.
+  (On the Session 9 trailer, the user heard no seam.)
+- One turn can't exceed 2,000 characters; `check` makes it an error. Nothing
+  near that length belongs in a podcast anyway.
 
 ## Audio tags
 
@@ -280,39 +366,55 @@ Rules of thumb:
   3–5 tags per 100 words is plenty (`check` prints the rate). Untagged lines
   read naturally. A tag is for a *change* in delivery.
 - **The student gets the expressive tags; the teacher's are quieter** (`[warmly]`,
-  `[chuckles]`, `[thoughtful]`). A grave, professional voice won't do
-  `[giggles]` convincingly.
+  `[chuckles]`, `[thoughtful]`).
 - **Only tag what can be heard.** `[smiling]`, `[nods]`, `[pacing]`,
   `[music]`: the model may read the word aloud or invent a sound effect.
   Describe the voice instead. `check` flags these.
-- **Sound-effect tags are real** (`[applause]`, `[door creaks]`). Don't use
-  them in class material.
+- **No sound effects** (`[applause]`, `[door creaks]`) in class material.
 - **No SSML.** `<break time="1s"/>` doesn't work on v3/v4. Use `[pause]`, an
   ellipsis, or a new turn.
+
+## Transports: REST (default) vs WebSocket
+
+`--transport ws` sends the whole script through the Text to Dialogue
+WebSocket (`wss://api.elevenlabs.io/v1/text-to-dialogue/stream-input`) in one
+session, with no chunks. It was compared with the default REST render on the
+Session 9 trailer (2026-10-09, `eleven_v4`). **The user preferred REST:** its
+seam was inaudible, and the voices "sounded more like they were naturally
+reacting to each other." What we learned about the WebSocket:
+
+- **It takes `eleven_v4`**, although the API reference says v3 only.
+- **It voices one turn at a time.** The account history shows one generation
+  per turn under one request-id. A REST chunk, by contrast, is one generation
+  of a whole stretch of dialogue, which is why its reactions sound live.
+- **Each turn has to be sent with `flush: true`** (the renderer does). Without
+  it, the server voices the last word or two of each turn as a separate
+  fragment.
+- It costs the same, runs about 8% longer (longer pauses between turns), and a
+  retake re-voices the whole session.
 
 ## ElevenLabs facts (checked 2026-10-09)
 
 - **Endpoint:** `POST https://api.elevenlabs.io/v1/text-to-dialogue?output_format=mp3_44100_128`,
-  header `xi-api-key`. The body is `{inputs: [{text, voice_id}], model_id,
-  settings: {stability, similarity}, seed, language_code?, previous_text?,
-  future_text?, apply_text_normalization?}`. The response is raw audio bytes;
-  a 422 returns `{detail: [...]}`. Docs:
-  <https://elevenlabs.io/docs/api-reference/text-to-dialogue/convert>, and the
-  cookbook <https://elevenlabs.io/docs/eleven-api/guides/cookbooks/text-to-dialogue>.
+  with the header `xi-api-key`.
+  - Body: `{inputs: [{text, voice_id}], model_id, settings: {stability,
+    similarity}, seed, language_code?, previous_text?, future_text?,
+    previous_request_ids?, next_request_ids?, apply_text_normalization?}`.
+  - Response: raw audio bytes; a 422 returns `{detail: [...]}`.
+  - Docs: <https://elevenlabs.io/docs/api-reference/text-to-dialogue/convert>,
+    and the cookbook
+    <https://elevenlabs.io/docs/eleven-api/guides/cookbooks/text-to-dialogue>.
 - **Models:** `eleven_v4` (released 2026-09-28; recommended) and `eleven_v3`
   (the API's default, now "previous generation"). Only these two do dialogue
   and audio tags. Style and speed settings don't apply to v4.
-- **Limits:** ≤ 2,000 characters of text per request ("longer requests may end
-  early or return a validation error"), and ≤ 10 distinct voices.
-  `previous_text`/`future_text` are 100 characters each and "not supported by
-  every model". Request stitching (`previous_request_ids`/`next_request_ids`,
-  ≤ 3 each, ids < 2 hours old) is **not** available on v3. v4 accepts it
-  (2026-10-09).
-- **Billing:** per character, tags included (the `character-cost` response
-  header is recorded in each chunk's sidecar). API usage is priced at about
-  $0.08 per 1,000 characters on v3 and v4, so a two-minute trailer costs well
-  under a dollar, and retakes only re-bill their chunk. The free plan has
-  10,000 credits a month.
+- **Limits:**
+  - ≤ 2,000 characters of text per request ("longer requests may end early or
+    return a validation error"), and ≤ 10 distinct voices.
+  - `previous_text`/`future_text`: 100 characters each.
+  - Request stitching (`previous_request_ids`/`next_request_ids`): ≤ 3 ids
+    each, each < 2 hours old. Not available on v3; v4 accepts it.
+- **Billing:** per character, tags included, as the `character-cost` response
+  header shows. On Creator, v4 came to ~0.1 credit per character.
 - **Output formats:** `mp3_44100_128` works on every tier. 192 kbps needs
   Creator; 44.1 kHz PCM/WAV needs Pro. The renderer re-encodes to 64k mono
   anyway.
@@ -322,62 +424,50 @@ Rules of thumb:
 
 ## Voices
 
-- `podcast.py voices [search]` lists what the account can use (`GET /v2/voices`).
-- **Default ("premade") voices** (George, Jessica, Brian…) exist only on
-  accounts created before March 2026, and **are retired on 2026-12-31**. Audio
-  already rendered keeps working, but a script that names one can't be
-  re-voiced after that, so prefer library or designed voices for anything
-  you'll keep revising.
-- **Voice Library voices can't be used through the API on the free tier.** On a
-  free account the API voices are the premade ones (if the account is old
-  enough) and up to three of your own Voice Design voices.
-- Listed replacements for the premade voices include, for a teacher, *Wyatt –
-  Seasoned Mentor*, *Darian – Warm Grounded Storyteller* and *Caleb – Trusted
-  Guide*; for a student, *Jade – Upbeat and Natural* and *Elowen – Upbeat Modern
-  Narrator*. On a paid plan, a library voice's ID works directly. No need to
-  add it to the account first: `GET /v1/shared-voices?search=…` finds the ID.
-  The Session 9 trailer uses *Flint – Deep, Raspy, and Warm*
-  (`qAZH0aMXY8tw1QufPN0D`) as the teacher and *Lauren*
-  (`DODLEQrClDo8wCz460ld`) as the student, the user's choice after hearing
-  George and Jessica.
-- After choosing, voice one short chunk with `--only 1 --copy` and let the user
-  listen before rendering the whole thing.
+- `podcast.py voices [search]` lists the account's own voices (`GET /v2/voices`).
+  Library voices aren't listed there. `GET /v1/shared-voices?search=…` finds
+  them, and on a paid plan their ID works directly, without adding them to the
+  account. That's how Flint and Lauren are used.
+- **Default ("premade") voices** (George, Jessica, Brian…) **are retired on
+  2026-12-31**, so a script that names one can't be re-voiced after that.
+- To audition a new voice, give it to one speaker and render one chunk with
+  `--only 1 --copy`. Let the user listen before re-voicing everything.
 
 ## The API key
 
-`podcast.py` reads `$ELEVENLABS_API_KEY`, or else
-`ELEVENLABS_API_KEY=…` from **`~/.config/genesis/elevenlabs.env`** (mode 0600,
-outside the repo; `*.env` is also gitignored). Never commit it or echo it.
+`podcast.py` reads `$ELEVENLABS_API_KEY`, or else `ELEVENLABS_API_KEY=…`
+from **`~/.config/genesis/elevenlabs.env`** (mode 0600, outside the repo;
+`*.env` is also gitignored). Never commit it or echo it.
 
-ElevenLabs keys are scoped. This skill needs **Text to Speech** (dialogue
-included), plus **Voices: read** for `voices` and **User: read** for `quota`.
-A key made for speech-to-text, like Faceclaw's, fails with `missing the
-permission text_to_speech`. Make a separate key for this project and give it a
-credit limit.
+The current key is unrestricted but **locked to this machine's public IPv4**
+(`curl -4 https://api.ipify.org`). It's a residential address and can change.
+If every call suddenly fails with an IP or authorisation error, check the
+address and ask the user to update the key's allow-list. A scoped key needs
+**Text to Speech** (dialogue included), plus **Voices: read** and **User:
+read** for `voices` and `quota`.
 
-## Licensing
+## Licensing and credit
 
-ElevenLabs output from a **free** plan may be used only non-commercially, and
-published content must carry "elevenlabs.io" in its title. This class site is
-non-commercial. Credit ElevenLabs regardless, as the project credits every
-source: the renderer puts `credit:` (default *Voiced with ElevenLabs
-(elevenlabs.io)*) in the file's metadata, and the page's Listen line should say
-it too. On a paid plan the requirement falls away, but the credit costs nothing.
-The words are ours; the quotations follow the project's sourcing rules (NET for
-Scripture), and the session page's attribution covers them.
+The account is on a paid plan (Creator), so the free plan's rules (non-commercial
+use only, "elevenlabs.io" in the published title) don't bind. Credit
+ElevenLabs anyway, as the project credits every source:
+- the renderer writes `credit:` into each file's metadata;
+- the Listen block says *Voiced with ElevenLabs*.
+
+The words are ours. The quotations follow the project's sourcing rules (NET
+for Scripture), and the session page's attribution already covers them.
 
 ## Gotchas
 
-- **You can't hear the result.** Don't call it good; the user is the judge.
-  What you can check: the duration matches the estimate (a chunk far shorter
-  than its text means it was cut off), and `ffmpeg -v error -i out.m4a -f null -`
-  decodes cleanly.
-- **A chunk over 2,000 characters fails or gets truncated.** `check` makes it an
-  error before anything is sent.
+- **You can't hear the result.** Don't call it good: the user is the judge.
+  `verify` checks the words; the user checks everything else.
 - **Stitching ids expire after 2 hours.** A retake the next day falls back to
-  its neighbours' text, which is weaker. If a retake's seam is audible, re-voice
-  the neighbour as well (add a take to it too) so the two are stitched afresh.
-- **The cache is keyed on what was sent**, so changing `model`, a voice,
-  `stability`, `seed` or any word re-voices that chunk. Comments, headings and
-  `*emphasis*` marks don't.
+  its neighbours' text. If the seam shows, take the neighbour too.
+- **The cache is keyed on what was sent.** Changing `model`, a voice,
+  `stability`, `seed` or any word re-voices the chunks it touches. Comments,
+  headings and `*emphasis*` marks don't. An edit can re-cut the chunks of its
+  own section, never another.
 - **`--force`** re-voices even cached chunks. You rarely want it: use a take.
+- **A late handout change can outdate the podcasts.** If `index.md` changes
+  in substance after voicing, tell the user which episode it touches and offer
+  to retake those lines.

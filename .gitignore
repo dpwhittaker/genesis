@@ -25,3 +25,6 @@ sessions/01-the-neighbors-stories/slideshow/*.pdf
 
 # scripted-podcast: single-chunk auditions (render --only N --copy)
 sessions/*/*.chunk*.mp3
+
+# Python bytecode (skill scripts)
+__pycache__/

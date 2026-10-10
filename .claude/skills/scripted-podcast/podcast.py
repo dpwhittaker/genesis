@@ -4,18 +4,26 @@
     podcast.py check  SCRIPT              lint, stats, chunk plan, cost (no API calls)
     podcast.py render SCRIPT [--yes]      voice new/changed chunks, assemble the output
     podcast.py render SCRIPT --only N     voice just chunk N (for auditioning a retake)
+    podcast.py verify SCRIPT [AUDIO]      transcribe the result locally and diff it against the script
     podcast.py voices [SEARCH]            voices on the account (needs voices_read)
     podcast.py quota                      credits used and left (needs user_read)
 
-The script format is described in SKILL.md next to this file. Every chunk is one
-API request, cached by a hash of exactly what was sent, so editing one chunk
-re-bills only that chunk. Nothing is sent without --yes.
+The script format is described in SKILL.md next to this file. `---` lines cut
+the script into sections; each section is split at turn boundaries into chunks
+of at most SOFT_MAX characters. Every chunk is one API request, cached by a hash
+of exactly what was sent, so editing a line re-bills only its chunk. Nothing is
+sent without --yes.
+
+`render --transport ws` and `verify` need packages the system python lacks; run
+them under `~/.local/bin/uv run --no-project --with websockets|faster-whisper
+--with pyyaml python podcast.py …`.
 
 The API key comes from $ELEVENLABS_API_KEY or ~/.config/genesis/elevenlabs.env.
 """
 import argparse
 import hashlib
 import json
+import math
 import os
 import re
 import shutil
@@ -94,20 +102,18 @@ def parse(path):
 
     # Comments are notes, never voiced, and may span lines: blank them out but
     # keep the line numbers. A `<!-- take: N -->` comment re-rolls its chunk.
-    take_marks = [(mo.start(), int(t.group(1))) for mo in COMMENT.finditer(body)
-                  if (t := re.search(r"\btake:\s*(\d+)", mo.group(1)))]
+    takes = [(body_line0 + body[: mo.start()].count("\n"), int(t.group(1)))
+             for mo in COMMENT.finditer(body) if (t := re.search(r"\btake:\s*(\d+)", mo.group(1)))]
     stripped = COMMENT.sub(lambda mo: "\n" * mo.group(1).count("\n"), body)
-    breaks_at = [mo.start() for mo in re.finditer(r"(?m)^---\s*$", body)]
 
-    chunks = [{"turns": [], "take": 0, "line": body_line0}]
+    sections = [[]]
     turn = None
     blank_since_turn = False
-
     for i, line in enumerate(stripped.split("\n")):
         lineno = body_line0 + i
         s = line.strip()
-        if re.fullmatch(r"---", s):
-            chunks.append({"turns": [], "take": 0, "line": lineno})
+        if s == "---":
+            sections.append([])
             turn = None
             continue
         if not s:
@@ -122,24 +128,46 @@ def parse(path):
             if label not in speakers:
                 raise ScriptError(f"line {lineno}: unknown speaker {label} (front matter has {', '.join(speakers)})")
             turn = {"speaker": label, "text": text, "line": lineno}
-            chunks[-1]["turns"].append(turn)
+            sections[-1].append(turn)
             blank_since_turn = False
             continue
         if turn is None or blank_since_turn:
             raise ScriptError(f"line {lineno}: text outside a turn — start it with SPEAKER: ({s[:40]!r})")
         turn["text"] += " " + s
 
-    for pos, take in take_marks:
-        idx = sum(1 for b in breaks_at if b < pos)  # chunk = breaks before it
-        chunks[idx]["take"] = take
-
-    chunks = [c for c in chunks if c["turns"]]
+    chunks = []
+    for si, turns in enumerate(t for t in sections if t):
+        for t in turns:
+            t["voiced"] = clean(t["text"])
+        for part in split_section(turns):
+            chunks.append({"turns": part, "take": 0, "line": part[0]["line"], "section": si + 1})
     if not chunks:
         raise ScriptError("no turns found")
-    for c in chunks:
-        for t in c["turns"]:
-            t["voiced"] = clean(t["text"])
+    for line, take in takes:
+        # the last chunk starting at or before the mark (else the first one)
+        mine = [c for c in chunks if c["line"] <= line] or chunks[:1]
+        mine[-1]["take"] = take
     return meta, chunks
+
+
+def split_section(turns):
+    """Cut one section into the fewest chunks of <= SOFT_MAX characters, at the
+    turn boundaries nearest to equal shares, so no chunk is a stub."""
+    sizes = [len(t["voiced"]) for t in turns]
+    total = sum(sizes)
+    cum = [sum(sizes[: j + 1]) for j in range(len(sizes))]
+    n = max(1, math.ceil(total / SOFT_MAX))
+    while True:
+        cuts = sorted({min(range(len(turns) - 1), key=lambda j: abs(cum[j] - k * total / n))
+                       for k in range(1, n)}) if len(turns) > 1 else []
+        parts, start = [], 0
+        for j in cuts + [len(turns) - 1]:
+            parts.append(turns[start: j + 1])
+            start = j + 1
+        parts = [x for x in parts if x]
+        if all(sum(len(t["voiced"]) for t in x) <= SOFT_MAX for x in parts) or n >= len(turns):
+            return parts
+        n += 1
 
 
 def clean(text):
@@ -161,9 +189,7 @@ def lint(meta, chunks):
     for ci, c in enumerate(chunks, 1):
         chars = sum(len(t["voiced"]) for t in c["turns"])
         if chars > HARD_MAX:
-            notes.append(("ERROR", c["line"], f"chunk {ci} is {chars} chars; a request may carry {HARD_MAX}. Add a --- break."))
-        elif chars > SOFT_MAX:
-            notes.append(("note", c["line"], f"chunk {ci} is {chars} chars, close to the {HARD_MAX} limit — a small edit could push it over"))
+            notes.append(("ERROR", c["line"], f"a single turn of {chars} chars; a request may carry {HARD_MAX}. Split the turn."))
         if len({t["speaker"] for t in c["turns"]}) > 10:
             notes.append(("ERROR", c["line"], f"chunk {ci} has more than 10 voices"))
         for t in c["turns"]:
@@ -480,7 +506,7 @@ def cmd_check(args):
         hit = cache_path(meta, body).exists()
         cached_chars += chars if hit else 0
         take = f" take {c['take']}" if c["take"] else ""
-        print(f"    {i:>2}. line {c['line']:>4}  {len(c['turns']):>3} turns  {chars:>5} chars{take}  {'cached' if hit else 'to voice'}")
+        print(f"    {i:>2}. §{c['section']:<2} line {c['line']:>4}  {len(c['turns']):>3} turns  {chars:>5} chars{take}  {'cached' if hit else 'to voice'}")
     print(f"  cost      {total_chars - cached_chars} characters to voice now ({cached_chars} cached)")
     if notes:
         print("  notes")
@@ -542,7 +568,9 @@ def cmd_render(args):
         print(f"  voicing chunk {i + 1} ({n} chars; {describe(ctx)})…", flush=True)
         rid, cost = voice_chunk(meta, body, p, ctx)
         pending.discard(i)
-        print(f"    {fmt_min(duration(p))}  request {rid}  cost {cost}")
+        got, want = duration(p), sum(words(x["text"]) for x in body["inputs"]) / WPM * 60
+        flag = "  ← much shorter than its text: truncated? retake it" if got < 0.6 * want else ""
+        print(f"    {fmt_min(got)}  request {rid}  cost {cost}{flag}")
 
     if args.only is not None:
         p = plan[0][2]
@@ -555,6 +583,89 @@ def cmd_render(args):
 
     assemble([p for _, _, p, _ in plan], out, meta["bitrate"], title, meta["credit"])
     print(f"wrote {out}  {fmt_min(duration(out))}  {out.stat().st_size / 1e6:.1f} MB")
+    return 0
+
+
+WHISPER = "mobiuslabsgmbh/faster-whisper-large-v3-turbo"
+NUMBERS = {w: n for n, w in enumerate(
+    "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen "
+    "fifteen sixteen seventeen eighteen nineteen".split())}
+NUMBERS.update({w: 10 * (n + 2) for n, w in enumerate("twenty thirty forty fifty sixty seventy eighty ninety".split())})
+ORDINALS = {w: str(n + 1) for n, w in enumerate("first second third fourth fifth sixth seventh eighth ninth tenth".split())}
+
+
+def norm_words(text):
+    """Lower-case words for comparison; ordinals as digits on both sides, since
+    Whisper writes "First Samuel" as "1 Samuel"."""
+    out = re.findall(r"[a-z0-9']+", TAG.sub(" ", text).lower().replace("’", "'"))
+    return [ORDINALS.get(w, w) for w in out]
+
+
+def as_number(tokens):
+    """'two hundred and fifty' -> 250; ['250'] -> 250; anything else -> None."""
+    if len(tokens) == 1 and tokens[0].isdigit():
+        return int(tokens[0])
+    total = cur = 0
+    for w in tokens:
+        if w in NUMBERS:
+            cur += NUMBERS[w]
+        elif w == "hundred":
+            cur = max(cur, 1) * 100
+        elif w == "thousand":
+            total, cur = total + max(cur, 1) * 1000, 0
+        elif w == "and" and (cur or total):
+            continue
+        elif w.isdigit():
+            cur += int(w)
+        else:
+            return None
+    return total + cur if tokens else None
+
+
+def cmd_verify(args):
+    try:
+        import numpy as np
+        from faster_whisper import WhisperModel
+    except ImportError:
+        sys.exit("verify needs faster-whisper; run under\n"
+                 "  ~/.local/bin/uv run --no-project --with faster-whisper --with pyyaml python podcast.py verify …")
+    import difflib
+
+    meta, chunks = parse(args.script)
+    script = Path(args.script).resolve()
+    audio_path = Path(args.audio).resolve() if args.audio else script.parent / meta["output"]
+    want = [(w, t["line"], ci) for ci, c in enumerate(chunks, 1) for t in c["turns"] for w in norm_words(t["voiced"])]
+
+    pcm = subprocess.run(["ffmpeg", "-v", "error", "-i", str(audio_path), "-f", "s16le", "-ac", "1", "-ar", "16000", "-"],
+                         capture_output=True, check=True).stdout
+    audio = np.frombuffer(pcm, np.int16).astype(np.float32) / 32768
+    names = ", ".join(sorted({w for c in chunks for t in c["turns"] for w in re.findall(r"\b[A-Z][a-z]{3,}\b", t["voiced"])}))
+    model = WhisperModel(WHISPER, device="cpu", compute_type="int8", cpu_threads=max(1, (os.cpu_count() or 4) - 4))
+    segs, info = model.transcribe(audio, language="en", word_timestamps=True, vad_filter=True, beam_size=5,
+                                  initial_prompt=names[:600])
+    heard = [(x, w.start) for seg in segs for w in (seg.words or []) for x in norm_words(w.word)]
+
+    sm = difflib.SequenceMatcher(a=[w for w, _, _ in want], b=[h for h, _ in heard], autojunk=False)
+    problems = []
+    for op, i1, i2, j1, j2 in sm.get_opcodes():
+        if op == "equal":
+            continue
+        a, b = [w for w, _, _ in want[i1:i2]], [h for h, _ in heard[j1:j2]]
+        if a and b and as_number(a) is not None and as_number(a) == as_number(b):
+            continue
+        _, line, ci = want[min(i1, len(want) - 1)]
+        at = heard[min(j1, len(heard) - 1)][1] if heard else 0.0
+        problems.append((ci, line, at, op, " ".join(a), " ".join(b)))
+
+    est = sum(words(t["voiced"]) for c in chunks for t in c["turns"]) / WPM * 60
+    print(f"{audio_path.name}: {fmt_min(info.duration)} (script estimate {fmt_min(est)}), "
+          f"{len(want)} words in the script, {len(heard)} heard, {len(problems)} differences")
+    for ci, line, at, op, a, b in problems:
+        what = {"delete": "missing", "insert": "extra", "replace": "differs"}[op]
+        print(f"  chunk {ci:>2}  line {line:>4}  at {fmt_min(at)}  {what:<7}  script: {a!r}  heard: {b!r}")
+    if problems:
+        print("Whisper mishears too (names, homophones): listen at the time given before retaking.\n"
+              "A run of missing words at the end of a chunk means the chunk was cut off: retake it.")
     return 0
 
 
@@ -593,12 +704,16 @@ def main():
                    help="rest: one request per chunk (default); ws: whole script in one WebSocket session")
     r.add_argument("--model", help="override the script's model")
     r.add_argument("--out", help="write here instead of the script's output")
+    vf = sub.add_parser("verify")
+    vf.add_argument("script")
+    vf.add_argument("audio", nargs="?", help="default: the script's output")
     v = sub.add_parser("voices")
     v.add_argument("search", nargs="?")
     sub.add_parser("quota")
     args = ap.parse_args()
     try:
-        return {"check": cmd_check, "render": cmd_render, "voices": cmd_voices, "quota": cmd_quota}[args.cmd](args)
+        return {"check": cmd_check, "render": cmd_render, "verify": cmd_verify,
+                "voices": cmd_voices, "quota": cmd_quota}[args.cmd](args)
     except ScriptError as e:
         print(f"script error: {e}", file=sys.stderr)
         return 1
