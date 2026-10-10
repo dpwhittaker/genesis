@@ -108,7 +108,20 @@ after voicing.
 `podcast.py render <script> --yes`. Each chunk is one Text to Dialogue request.
 It is cached in `~/.cache/scripted-podcast/` under a hash of exactly what was
 sent: text, voices, model, settings and seed. A sidecar `.json` keeps the
-`request-id` and `character-cost`. The chunks are then joined with a 0.35 s gap,
+`request-id` and `character-cost`.
+
+Chunks are voiced **in script order and stitched**. Each request carries
+`previous_request_ids` (the takes before it, up to 3), so a chunk picks up
+where the last one left off. When a chunk mid-script is retaken, it also
+carries `next_request_ids` (the takes after it), so it leads back into them.
+Request ids can only be stitched to for 2 hours. Past that, or for a
+neighbour being re-voiced in the same run, the request sends 100 characters
+of that neighbour's text instead (`previous_text`/`future_text`). The render
+line says which it used. None of this is part of the cache key, so an edit
+still re-voices only its own chunk. Set `stitch: false` to send chunks
+independently.
+
+The chunks are then joined with a 0.35 s gap,
 loudness-normalised to −16 LUFS, and encoded as **64 kbps mono AAC with
 `+faststart`**, the same encoding the NotebookLM podcasts get, so the site stays
 under the GitHub Pages 1 GB limit. The assembled file carries the script's
@@ -142,7 +155,10 @@ apply. What we found on 2026-10-09 (Session 9 trailer, `eleven_v4`):
 
 For the Session 9 trailer, both transports came back word-complete. At the
 REST seam, the pause (0.50 s) and loudness (−23.5 vs −22.9 LUFS) matched the
-rest of the file. Which one *sounds* better is the user's call.
+rest of the file. **The user found the chunked REST version better:** its seam
+was inaudible, and the voices "sounded more like they were naturally reacting
+to each other." That fits the history: REST voices a whole chunk of dialogue in
+one generation, while the WebSocket voices each turn alone. Default to REST.
 
 ### 7. Iterate on the audio
 
@@ -183,7 +199,7 @@ model: eleven_v4                          # default eleven_v4
 stability: 0.5                            # default 0.5; lower = more expressive
 seed: 9                                   # any integer; a take adds to it
 # similarity: 0.75                        # optional; how closely to hold the voice
-# continuity: true                        # send 100 chars of context across chunk seams
+# stitch: false                           # default true: condition chunks on their neighbours
 # language: en
 speakers:
   TEACHER: { voice: <voice_id>, name: <voice name, for humans> }
@@ -289,8 +305,9 @@ Rules of thumb:
 - **Limits:** ≤ 2,000 characters of text per request ("longer requests may end
   early or return a validation error"), and ≤ 10 distinct voices.
   `previous_text`/`future_text` are 100 characters each and "not supported by
-  every model". Request stitching (`previous_request_ids`) is **not** available
-  on v3, and unconfirmed on v4.
+  every model". Request stitching (`previous_request_ids`/`next_request_ids`,
+  ≤ 3 each, ids < 2 hours old) is **not** available on v3. v4 accepts it
+  (2026-10-09).
 - **Billing:** per character, tags included (the `character-cost` response
   header is recorded in each chunk's sidecar). API usage is priced at about
   $0.08 per 1,000 characters on v3 and v4, so a two-minute trailer costs well
@@ -317,8 +334,12 @@ Rules of thumb:
 - Listed replacements for the premade voices include, for a teacher, *Wyatt –
   Seasoned Mentor*, *Darian – Warm Grounded Storyteller* and *Caleb – Trusted
   Guide*; for a student, *Jade – Upbeat and Natural* and *Elowen – Upbeat Modern
-  Narrator*. Add a library voice to the account first, then use the ID that
-  `voices` reports for it.
+  Narrator*. On a paid plan, a library voice's ID works directly. No need to
+  add it to the account first: `GET /v1/shared-voices?search=…` finds the ID.
+  The Session 9 trailer uses *Flint – Deep, Raspy, and Warm*
+  (`qAZH0aMXY8tw1QufPN0D`) as the teacher and *Lauren*
+  (`DODLEQrClDo8wCz460ld`) as the student, the user's choice after hearing
+  George and Jessica.
 - After choosing, voice one short chunk with `--only 1 --copy` and let the user
   listen before rendering the whole thing.
 
@@ -353,8 +374,9 @@ Scripture), and the session page's attribution covers them.
   decodes cleanly.
 - **A chunk over 2,000 characters fails or gets truncated.** `check` makes it an
   error before anything is sent.
-- **Editing text near a `---` with `continuity: true`** re-voices both
-  neighbouring chunks, since each one's request carries the other's edge text.
+- **Stitching ids expire after 2 hours.** A retake the next day falls back to
+  its neighbours' text, which is weaker. If a retake's seam is audible, re-voice
+  the neighbour as well (add a take to it too) so the two are stitched afresh.
 - **The cache is keyed on what was sent**, so changing `model`, a voice,
   `stability`, `seed` or any word re-voices that chunk. Comments, headings and
   `*emphasis*` marks don't.

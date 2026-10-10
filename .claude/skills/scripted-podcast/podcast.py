@@ -22,6 +22,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -40,11 +41,12 @@ HARD_MAX = 2000
 SOFT_MAX = 1800
 WPM = 150            # spoken pace used for the duration estimate
 GAP = 0.35           # seconds of silence between chunks
+STITCH_TTL = 2 * 3600 - 600  # request ids can be stitched to for 2 hours; keep a margin
 
 DEFAULTS = {
     "model": "eleven_v4",   # the API's default is still eleven_v3; v4 is the recommended one
     "stability": 0.5,       # lower = broader emotional range; higher = steadier, flatter
-    "continuity": False,    # send previous_text/future_text (100 chars) across chunk seams
+    "stitch": True,         # condition each chunk on its neighbours (see context_for)
     "seed": 1,
     "output_format": "mp3_44100_128",  # 192k needs Creator tier, 44.1 kHz PCM/WAV needs Pro
     "bitrate": "64k",
@@ -263,14 +265,69 @@ def request_for(meta, chunks, i):
     }
     if meta.get("language"):
         body["language_code"] = meta["language"]
-    if meta.get("continuity"):
-        # Ties each chunk's cache entry to its neighbours' edges, so an edit at
-        # a seam re-voices both sides of it.
-        if i > 0:
-            body["previous_text"] = seam(chunks[i - 1]["turns"][-1]["voiced"], tail=True)
-        if i + 1 < len(chunks):
-            body["future_text"] = seam(chunks[i + 1]["turns"][0]["voiced"], tail=False)
     return body
+
+
+def sidecar(path):
+    j = path.with_suffix(".json")
+    if not (path.exists() and j.exists()):
+        return None
+    d = json.loads(j.read_text())
+    d.setdefault("created", path.stat().st_mtime)
+    return d
+
+
+def context_for(chunks, paths, i, pending):
+    """Continuity for voicing chunk i, so its seams match its neighbours.
+
+    Request stitching: the request ids of the takes before it
+    (previous_request_ids, nearest last) and, when retaking a chunk
+    mid-script, of the takes after it (next_request_ids, nearest first) —
+    at most 3 each, only takes still on disk, under 2 hours old, and not
+    about to be re-voiced (`pending`). Where there is no usable id on a
+    side, 100 characters of that neighbour's text instead.
+
+    Deliberately not part of the cache key: an edit re-voices its own chunk,
+    stitched to whatever its neighbours currently are, and nothing else."""
+    def fresh(k):
+        if k in pending:
+            return None
+        d = sidecar(paths[k])
+        if d and d.get("request_id") not in (None, "?") and time.time() - d["created"] < STITCH_TTL:
+            return d["request_id"]
+        return None
+
+    ctx = {}
+    prev = []
+    for k in range(i - 1, max(-1, i - 4), -1):
+        if not (rid := fresh(k)):
+            break
+        prev.insert(0, rid)
+    if prev:
+        ctx["previous_request_ids"] = prev
+    elif i > 0:
+        ctx["previous_text"] = seam(chunks[i - 1]["turns"][-1]["voiced"], tail=True)
+    nxt = []
+    for k in range(i + 1, min(len(chunks), i + 4)):
+        if not (rid := fresh(k)):
+            break
+        nxt.append(rid)
+    if nxt:
+        ctx["next_request_ids"] = nxt
+    elif i + 1 < len(chunks):
+        ctx["future_text"] = seam(chunks[i + 1]["turns"][0]["voiced"], tail=False)
+    return ctx
+
+
+def describe(ctx):
+    bits = []
+    for key, label in (("previous_request_ids", "after"), ("next_request_ids", "before")):
+        if key in ctx:
+            bits.append(f"stitched {label} {len(ctx[key])} take(s)")
+    for key, label in (("previous_text", "after"), ("future_text", "before")):
+        if key in ctx:
+            bits.append(f"{label} text")
+    return ", ".join(bits) or "no neighbours"
 
 
 def cache_path(meta, body):
@@ -278,9 +335,9 @@ def cache_path(meta, body):
     return CACHE / f"{h}.mp3"
 
 
-def voice_chunk(meta, body, dest):
+def voice_chunk(meta, body, dest, ctx=None):
     q = urllib.parse.urlencode({"output_format": meta["output_format"]})
-    audio, headers = call("POST", f"/v1/text-to-dialogue?{q}", body)
+    audio, headers = call("POST", f"/v1/text-to-dialogue?{q}", {**body, **(ctx or {})})
     if not audio or audio[:1] == b"{":
         sys.exit(f"unexpected response (not audio): {audio[:300]!r}")
     dest.parent.mkdir(parents=True, exist_ok=True)
@@ -290,7 +347,8 @@ def voice_chunk(meta, body, dest):
     rid, cost = headers.get("request-id", "?"), headers.get("character-cost", "?")
     chars = sum(len(x["text"]) for x in body["inputs"])
     dest.with_suffix(".json").write_text(json.dumps(
-        {"request_id": rid, "character_cost": cost, "characters": chars, "body": body}, indent=1))
+        {"request_id": rid, "character_cost": cost, "characters": chars, "created": time.time(),
+         "context": ctx or {}, "body": body}, indent=1))
     return rid, cost
 
 
@@ -466,21 +524,24 @@ def cmd_render(args):
     if args.only is not None and not 0 <= args.only - 1 < len(chunks):
         sys.exit(f"--only {args.only}: there are {len(chunks)} chunks")
 
+    paths = [cache_path(meta, request_for(meta, chunks, i)) for i in range(len(chunks))]
     plan = []
     for i in which:
         body = request_for(meta, chunks, i)
-        p = cache_path(meta, body)
-        plan.append((i, body, p, p.exists() and not args.force))
+        plan.append((i, body, paths[i], paths[i].exists() and not args.force))
     todo = [(i, b, p) for i, b, p, hit in plan if not hit]
+    pending = {i for i, _, _ in todo}
     chars = sum(len(x["text"]) for _, b, _ in todo for x in b["inputs"])
     if todo and not args.yes:
         print(f"{len(todo)} chunk(s), {chars} characters to voice with {meta['model']}. Re-run with --yes to send.")
         return 2
 
-    for i, body, p in todo:
+    for i, body, p in todo:  # in script order, so each can stitch to the one before
         n = sum(len(x["text"]) for x in body["inputs"])
-        print(f"  voicing chunk {i + 1} ({n} chars)…", flush=True)
-        rid, cost = voice_chunk(meta, body, p)
+        ctx = context_for(chunks, paths, i, pending) if meta.get("stitch") else {}
+        print(f"  voicing chunk {i + 1} ({n} chars; {describe(ctx)})…", flush=True)
+        rid, cost = voice_chunk(meta, body, p, ctx)
+        pending.discard(i)
         print(f"    {fmt_min(duration(p))}  request {rid}  cost {cost}")
 
     if args.only is not None:
