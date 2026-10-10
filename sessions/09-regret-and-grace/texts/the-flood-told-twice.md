@@ -174,20 +174,42 @@ and **remember** the perpetual covenant"* (9:15–16).
 
 ### 9. The calendar
 
-The God strand keeps a date-book, by the year of Noah's life:
+The God strand keeps a date-book, by the year of Noah's life. It never says
+how long a month is, but it shows us: from the seventeenth day of the second
+month (7:11) to the seventeenth day of the seventh (8:4) is five months, and the
+text calls that span **150 days** (7:24; 8:3). Five months, 150 days — so its
+months are **30 days** long. Counting that way, from the day the fountains
+burst:
 
-| Date | What happens |
-|---|---|
-| Year 600, month 2, day 17 | the fountains burst (7:11) |
-| Year 600, month 7, day 17 | the ark rests on the mountains of Ararat (8:4) |
-| Year 600, month 10, day 1 | the mountain tops appear (8:5) |
-| Year 601, month 1, day 1 | the waters dried up; the covering removed (8:13) |
-| Year 601, month 2, day 27 | the earth is dry (8:14) |
+| Date (Noah's year / month / day) | Days in | Since the last date | What happens |
+|---|---|---|---|
+| 600 / 2 / 17 | 0 | — | the fountains burst; Noah goes in (7:11, 13) |
+| 600 / 7 / 17 | 150 | 150 days | the ark rests on the mountains of Ararat — the end of the "150 days" (7:24; 8:3–4) |
+| 600 / 10 / 1 | 224 | 74 days | the mountain tops appear (8:5) |
+| 601 / 1 / 1 | 314 | 90 days | the waters have dried up; the covering comes off (8:13) |
+| 601 / 2 / 27 | 370 | 56 days | the earth is dry; God says, *"Come out"* (8:14–16) |
 {: .ff-wrap}
 
-A year and ten days, door to door. The LORD strand counts instead in sevens
-and forties: 7 days (7:4, 10), 40 days and 40 nights (7:4, 12), 40 days
-(8:6), 7 more days, 7 more days (8:10, 12).
+**A year and ten days, door to door: 370 days.** Rashi counted it another way.
+On a lunar calendar (twelve months of 29 and 30 days, 354 days in all), the
+same dates come to about a solar year, and he took that to be the point: *"the
+ten days are those by which the solar year exceeds the lunar year; for the
+punishment of the generation of the Flood lasted a full (i.e. a solar) year"*
+(Rashi on 8:14, from *Genesis Rabbah*). Either way, Noah is in the ark for about
+a year.
+
+**Which season?** The text doesn't say which month is "first." The rabbis
+disagreed: *"Rabbi Eliezer said, 'This is the month Marcheshvan'; Rabbi Joshua
+said, 'This is the month Eyar'"* (Rashi on 7:11, from *Rosh Hashanah* 11b). On
+Rabbi Eliezer's count the year starts in the autumn, so the flood begins in
+October–November, when the rains come. On Rabbi Joshua's it starts in the
+spring (as Exodus 12:2 later starts Israel's year), so the flood begins in
+April–May.
+
+The LORD strand counts instead in sevens and forties: 7 days (7:4, 10), 40
+days and 40 nights (7:4, 12), 40 days (8:6), 7 more days, 7 more days (8:10,
+12). Laid end to end, that is about 101 days, a little over three months. Read
+with the dates, the forty days of rain fall inside the first 150.
 
 ### 10. "Never again" — twice, and twice
 
@@ -213,8 +235,10 @@ Revealed (2003), pp. 42–47. Hebrew and the counts: Westminster Leningrad Codex
 with the [Open Scriptures Hebrew
 Bible](https://github.com/openscriptures/morphhb) morphology (CC BY 4.0).
 Cassuto: The Documentary Hypothesis (Eng. 1961), as quoted on a Sefaria source
-sheet. Rashi: M. Rosenbaum and A. M. Silbermann (1929–34), public domain, via
-[Sefaria](https://www.sefaria.org/Rashi_on_Genesis.7.16). Retrieved
+sheet. Rashi (on 7:11, 7:16, 8:14 and 8:21): M. Rosenbaum and A. M. Silbermann
+(1929–34), public domain, via
+[Sefaria](https://www.sefaria.org/Rashi_on_Genesis.8.14). The day counts
+assume the 30-day months implied by 7:11, 7:24 and 8:3–4. Retrieved
 2026-10-08.*
 
 [← Back to Session 9](../)
