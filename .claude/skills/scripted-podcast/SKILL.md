@@ -25,6 +25,9 @@ python3 $P check  sessions/<slug>/<slug>-trailer.script.md   # lint, stats, chun
 python3 $P render sessions/<slug>/<slug>-trailer.script.md   # dry run: says what would be sent
 python3 $P render … --yes                                     # voice new/changed chunks, assemble the .m4a
 python3 $P render … --only 2 --yes --copy                     # voice/audition chunk 2 alone
+~/.local/bin/uv run --no-project --with websockets --with pyyaml \
+  python $P render … --transport ws --yes                     # whole script in one WebSocket session
+python3 $P render … --out X.m4a --model eleven_v3             # variants side by side, for comparing
 python3 $P voices [search]                                    # voices this account can use
 python3 $P quota                                              # credits used / left
 ```
@@ -113,6 +116,33 @@ under the GitHub Pages 1 GB limit. The assembled file carries the script's
 
 Report the duration and the cost. The user listens. **You can't**, so never
 describe how it sounds.
+
+### 6b. Or over the WebSocket (no chunk seams)
+
+`--transport ws` sends the whole script through the Text to Dialogue
+WebSocket (`wss://api.elevenlabs.io/v1/text-to-dialogue/stream-input`) in one
+session. `---` breaks are ignored, and the 2,000-character limit doesn't
+apply. What we found on 2026-10-09 (Session 9 trailer, `eleven_v4`):
+
+- **It takes `eleven_v4`**, although the API reference says v3 only (the
+  guides say v3 or v4). History logs it as v4.
+- **It doesn't voice the script in one pass.** The server makes one generation
+  per turn: your account history shows one entry per turn under one
+  request-id. So it swaps the one seam of a two-chunk render for a boundary at
+  every change of speaker, where seams are least audible anyway.
+- **Each turn must be sent with `flush: true`** (the renderer does this). If it
+  isn't, the server holds back the last word or two of each turn and voices them
+  as a separate fragment ("…every one of" / "them."). A trailing space
+  didn't help.
+- It cost the same as REST, and ran about 8% longer (2:25 vs 2:14) with longer
+  pauses between turns. Retakes are all-or-nothing: a take or an edit anywhere
+  re-voices the whole session.
+- It needs the `websockets` package, which isn't in any venv here, so run it
+  under `uv run` as shown above.
+
+For the Session 9 trailer, both transports came back word-complete. At the
+REST seam, the pause (0.50 s) and loudness (−23.5 vs −22.9 LUFS) matched the
+rest of the file. Which one *sounds* better is the user's call.
 
 ### 7. Iterate on the audio
 

@@ -294,6 +294,73 @@ def voice_chunk(meta, body, dest):
     return rid, cost
 
 
+def ws_request(meta, chunks):
+    """The whole script as one Text to Dialogue WebSocket session: every turn in
+    order, each starting a new turn, so there are no chunk seams (--- breaks
+    are ignored) and no 2,000-character request limit."""
+    speakers = meta["speakers"]
+    turns = [t for c in chunks for t in c["turns"]]
+    query = {"model_id": meta["model"], "output_format": meta["output_format"],
+             "seed": int(meta["seed"]) + sum(int(c["take"]) for c in chunks)}
+    if meta.get("language"):
+        query["language_code"] = meta["language"]
+    return {
+        "transport": "ws",
+        "flush_each_turn": True,
+        "query": query,
+        "voices": list(dict.fromkeys(speakers[t["speaker"]]["voice"] for t in turns)),
+        "voice_settings": {"stability": meta["stability"]},
+        # The trailing space tells the server the last word is complete; without
+        # it the last word of each turn is held back and voiced on its own.
+        "inputs": [{"text": t["voiced"] + " ", "voice_id": speakers[t["speaker"]]["voice"], "new_turn": True}
+                   for t in turns],
+    }
+
+
+def voice_ws(req, dest):
+    try:
+        import websockets
+    except ImportError:
+        sys.exit("--transport ws needs the websockets package; run under\n"
+                 "  ~/.local/bin/uv run --no-project --with websockets --with pyyaml python podcast.py …")
+    import asyncio
+    import base64
+
+    url = "wss://api.elevenlabs.io/v1/text-to-dialogue/stream-input?" + urllib.parse.urlencode(req["query"])
+
+    async def run():
+        audio, turns_done, rid = bytearray(), 0, "?"
+        async with websockets.connect(url, additional_headers={"xi-api-key": api_key()},
+                                      max_size=None, open_timeout=30) as ws:
+            rid = ws.response.headers.get("request-id", "?") if ws.response else "?"
+            await ws.send(json.dumps({"voices": req["voices"], "voice_settings": req["voice_settings"]}))
+            for item in req["inputs"]:
+                await ws.send(json.dumps({"inputs": [item], "flush": True}))
+            await ws.send(json.dumps({"close_socket": True}))
+            async for raw in ws:
+                msg = json.loads(raw)
+                if msg.get("error"):
+                    sys.exit(f"ElevenLabs WebSocket error: {msg}")
+                if msg.get("audio"):
+                    audio += base64.b64decode(msg["audio"])
+                if msg.get("is_final_audio_for_turn"):
+                    turns_done += 1
+                if msg.get("is_final"):
+                    break
+        return bytes(audio), turns_done, rid
+
+    audio, turns_done, rid = asyncio.run(run())
+    if not audio:
+        sys.exit("WebSocket session returned no audio")
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    dest.with_suffix(".part").write_bytes(audio)
+    dest.with_suffix(".part").replace(dest)
+    chars = sum(len(x["text"]) for x in req["inputs"])
+    dest.with_suffix(".json").write_text(json.dumps(
+        {"request_id": rid, "characters": chars, "turns_finalised": turns_done, "request": req}, indent=1))
+    return rid, turns_done
+
+
 # ---------------------------------------------------------------- audio
 
 def duration(path):
@@ -373,7 +440,28 @@ def cmd_render(args):
             print(f"ERROR line {ln}: {msg}")
         return 1
     script = Path(args.script).resolve()
-    out = script.parent / meta["output"]
+    if args.model:
+        meta["model"] = args.model
+    out = Path(args.out).resolve() if args.out else script.parent / meta["output"]
+    title = meta.get("title", out.stem)
+
+    if args.transport == "ws":
+        if args.only is not None:
+            sys.exit("--only applies to chunks; a WebSocket render is one session")
+        req = ws_request(meta, chunks)
+        p = CACHE / (hashlib.sha256(json.dumps(req, sort_keys=True).encode()).hexdigest()[:20] + ".mp3")
+        if not p.exists() or args.force:
+            chars = sum(len(x["text"]) for x in req["inputs"])
+            if not args.yes:
+                print(f"1 WebSocket session, {chars} characters to voice with {meta['model']}. Re-run with --yes to send.")
+                return 2
+            print(f"  voicing {len(req['inputs'])} turns over the WebSocket ({chars} chars)…", flush=True)
+            rid, turns_done = voice_ws(req, p)
+            print(f"    {fmt_min(duration(p))}  request {rid}  {turns_done} turns finalised")
+        assemble([p], out, meta["bitrate"], title, meta["credit"])
+        print(f"wrote {out}  {fmt_min(duration(out))}  {out.stat().st_size / 1e6:.1f} MB")
+        return 0
+
     which = range(len(chunks)) if args.only is None else [args.only - 1]
     if args.only is not None and not 0 <= args.only - 1 < len(chunks):
         sys.exit(f"--only {args.only}: there are {len(chunks)} chunks")
@@ -404,7 +492,7 @@ def cmd_render(args):
             print(f"copied to {preview}")
         return 0
 
-    assemble([p for _, _, p, _ in plan], out, meta["bitrate"], meta.get("title", out.stem), meta["credit"])
+    assemble([p for _, _, p, _ in plan], out, meta["bitrate"], title, meta["credit"])
     print(f"wrote {out}  {fmt_min(duration(out))}  {out.stat().st_size / 1e6:.1f} MB")
     return 0
 
@@ -440,6 +528,10 @@ def main():
     r.add_argument("--only", type=int, metavar="N", help="voice only chunk N; don't assemble")
     r.add_argument("--copy", action="store_true", help="with --only: copy the chunk next to the script")
     r.add_argument("--force", action="store_true", help="ignore the cache and re-voice")
+    r.add_argument("--transport", choices=["rest", "ws"], default="rest",
+                   help="rest: one request per chunk (default); ws: whole script in one WebSocket session")
+    r.add_argument("--model", help="override the script's model")
+    r.add_argument("--out", help="write here instead of the script's output")
     v = sub.add_parser("voices")
     v.add_argument("search", nargs="?")
     sub.add_parser("quota")
