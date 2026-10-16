@@ -23,13 +23,21 @@ because that is where stories say what they mean.
 
 - **Who wrote it down, and when.** Most of these stories were told aloud for
   generations and written down by outsiders — conquistadors, friars,
-  missionaries, colonial officers. Some were recorded *after* the hearers had
-  been told about Noah. Each entry below says who recorded it and when, and
-  flags what scholars think came in from the Bible.
+  missionaries, colonial officers — and some of those wrote to justify a
+  conquest. Some stories were recorded *after* the hearers had been told about
+  Noah. Each entry below says who recorded it and when, and flags what scholars
+  think came in from the Bible — whether the tellers absorbed it, or the
+  recorder framed it.
 - **These are living traditions.** Nearly every people named here still
   exists and still tells its own stories, often differently from the old
   records. We use only stories long published in public-domain books, we name
   the people each belongs to, and we note where it is told differently today.
+- **These are not only exhibits.** It is easy to read other peoples' stories
+  only as evidence for or against Genesis. The New Testament reads the nations
+  more generously: God *"did not leave himself without a witness by doing good,
+  by giving you rain from heaven and fruitful seasons"* (Acts 14:17). Each of
+  these stories says something about what its people hoped and feared; the
+  chart in §4 tries to show that too.
 - **A flood is not always a flood story.** Some famous "flood stories" turn
   out to be about something else — a drained river system, a broken pot, a
   forged manuscript. They are here too, because they are part of the honest
@@ -55,7 +63,10 @@ collected hundreds of them a century ago, put it bluntly:
 > widespread deluge have been recorded in Europe.
 > — Frazer, p. 174
 
-Antarctica has no story at all: no people ever lived there.
+Frazer was describing what Europeans had reported by 1918, and his framework —
+"savage" peoples climbing toward "civilization" — is not ours. Later collectors
+found more African stories than he knew, but few with Noah's shape. Antarctica
+has no story at all: no people ever lived there.
 
 And where flood stories *are* found, they mostly share the **bare idea** of
 destroying waters — not Genesis's particular details. Section 3 shows which
@@ -99,7 +110,7 @@ close to Genesis 6:11 — *"They have waged war, they have upheld strife, they
 have done evil"* — and the creator threatens that one day the world will
 return to the primeval waters. Egypt expects the water to come **again**.
 
-*Bible contact:* none — the text is older than Genesis.
+*Bible contact:* none — the text is older than any copy of Genesis.
 
 #### Maasai (Kenya and Tanzania): Tumbainot — the case of contact
 
@@ -295,13 +306,17 @@ account of it."* A good warning about how "flood stories" can multiply.
 
 ### North America
 
-#### Anishinaabe (Ojibwe) and Innu: Nanabozho and the earth-divers
+#### Innu and Anishinaabe (Ojibwe): Messou, Nanabozho and the earth-divers
 
-Told across the Algonquian peoples of the Great Lakes and the Canadian
-Shield, and first written down among the Innu by the Jesuit **Paul Le Jeune**
-in 1633. The flood comes out of a feud: the water-spirits kill the hero's
-nephew, he takes revenge, and they raise the water against him. No one is
-judged. Nanabozho survives on a raft or a tree-top — *"He addressed the tree:
+Two peoples' stories, told across the Algonquian-speaking peoples of the
+Canadian Shield and the Great Lakes, with heroes scholars link to one another.
+The first record is **Innu** (Montagnais), taken down by the Jesuit **Paul Le
+Jeune** in 1633: the hero **Messou**'s lynxes are held by monsters in a lake,
+and when he goes in after them the lake overflows and floods the world. The
+**Anishinaabe** (Ojibwe) story of **Nanabozho**, first written down in 1839
+and dictated in Ojibwe in 1903–05, comes out of a feud: the water-spirits kill
+the hero's nephew, he takes revenge, and they raise the water against him. In
+neither is anyone judged. Nanabozho survives on a raft or a tree-top — *"He addressed the tree:
 'Grandfather, stretch yourself.' The tree did so. But the waters still rose."*
 (Schoolcraft, 1839) — and then the animals dive for earth:
 
@@ -310,7 +325,7 @@ judged. Nanabozho survives on a raft or a tree-top — *"He addressed the tree:
 > with water. He made an otter dive down, but the depth of the water prevented
 > it from going to the bottom. At last a muskrat descended, and brought back
 > some earth.
-> — Le Jeune, *Relation* of 1633 (Thwaites, 1897)
+> — Le Jeune, *Relation* of 1633, of Messou (Thwaites, 1897)
 
 *"When Nanabushu blew his breath upon it, behold! a small island floated on
 the water"* (Jones, *Ojibwa Texts*, dictated 1903–05). The world is not
@@ -370,7 +385,8 @@ stones rise against them for the way they were treated. **No one is saved**:
 gods make true humans from maize.
 
 *Why it matters here:* the clearest early, native **moral cause** outside the
-Near East — not violence, but forgetting and failing to thank the Maker. And
+Near East — forgetting and failing to thank the Maker, and cruelty to the
+animals and tools that served them. And
 the wooden people have *no heart*, where Genesis faults the heart's
 inclination (6:5). *How it is told today:* the *Popol Vuh* is Guatemala's
 national book, and K'iche' scholars have made their own translations.
@@ -428,6 +444,9 @@ that the waters never reached them."* Afterwards two macaws bring them food —
 *"They came dressed as Canaris"* — and one becomes a brother's wife: *"from
 these brothers and sisters, children of the guacamayo, all the Cañaris
 proceed."* No cause, no god, no sacrifice. The Cañari still honour the hill.
+In Sarmiento's version (1572) the brothers also *"became sad and prayed to
+Viracocha for pardon for their sins"* — a line Molina's version lacks, and
+probably the chronicler's addition.
 
 #### Huarochirí (Peru): the llama's warning
 
@@ -477,9 +496,9 @@ world. The animals try to make him laugh; at last the eel dances,
 The Pelican, who had been a man, *"cut a very large canoe (Gre), and sailed
 among the islands which appeared here and there in the great waters, and he
 took the people into his canoe, and he kept them alive."* It is not a
-judgment at all — the cure for a drought went too far. *How it is told
-today:* children's books call the frog **Tiddalik**, and usually leave out
-the drowning.
+judgment at all — the cure for a drought went too far. *How it is retold:*
+children's books call the frog **Tiddalik**, and usually leave out the
+drowning; Gunaikurnai people tell their own stories in their own way.
 
 *A different kind of memory.* Patrick Nunn and Nicholas Reid (*Australian
 Geographer* 47, 2016) gathered stories from 21 places on the Australian coast
@@ -495,8 +514,8 @@ that old is striking and debated.
 The clearest case on this sheet of a story absorbing the Bible, because it was
 written down three times.
 
-- **1823.** The missionary William Ellis, after preaching on Noah, asked his
-  hearers for their own tradition. *"They said they were informed by their
+- **1823.** The missionary William Ellis preached on Noah, and his hearers
+  told him their own tradition. *"They said they were informed by their
   fathers, that all the land had once been overflowed by the sea, except a
   small peak on the top of Mouna-Kea, where two human beings were preserved
   from the destruction that overtook the rest, but they said they had never
@@ -510,6 +529,10 @@ written down three times.
 
 The folklorist Martha Beckwith (1940): *"The story of Nu‘u as told to the
 missionaries shows a decided tendency to strain after biblical analogy."*
+The 1878 teller should be read as a reader, not only as "contamination": a
+Hawaiian Christian who set his people's story and Scripture side by side as
+one, just as Philo and Justin Martyr said the Greek Deucalion was Noah (see
+**[Noah among his readers](early-readers.html)**, §3).
 
 #### Fiji: the god's slain bird
 
@@ -518,8 +541,10 @@ Williams (1858). *"The cause of this great flood was the killing of Turukawa —
 a favourite bird belonging to Ndengei — by two mischievous lads, the
 grandsons of the god."* The survivors are the **rebels themselves**, saved in
 canoes. Williams noticed the number: *"The number saved — eight — exactly
-accords with the 'few' of the Scripture record"* — which is probably how it
-got there. Fijians kept great canoes ready **against the next flood**.
+accords with the 'few' of the Scripture record"*; the missionary R. H.
+Codrington warned that, in the Banks Islands, the older flood story of the hero
+Qat was likely to be retold with eight people in the canoe once Noah's story was
+known. Fijians kept great canoes ready **against the next flood**.
 
 #### Māori (Aotearoa New Zealand): Tāwhaki's revenge
 
@@ -533,11 +558,11 @@ causes this flood — but it is the hero's revenge, not a judgment on violence.
 
 ## 3. The whole chart
 
-| People, place | First written down | Why the flood? | Who survives — and why them? | What comes after | Bible contact? |
+| People, place | First written down | Why the flood? | Who survives — and why them? | What comes after | Shaped by the Bible? How? |
 |---|---|---|---|---|---|
-| **Genesis** | — | the heart's evil; violence | Noah and family — found favour; righteous | sacrifice; "never again"; covenant with all life; the bow; "be fruitful"; human blood protected | — |
-| ***Atrahasis*** (Babylonia) | c. 1635 BCE | the people multiplied; their noise | Atrahasis, "exceedingly wise," Enki's devotee | sacrifice; hungry gods "like flies"; barren women, a baby-snatching demon | older than Genesis |
-| ***Gilgamesh* XI** (Assyria) | 8th–7th c. BCE | none given | Uta-napishti, Ea's "servant" — no reason given | sacrifice; "flies"; made immortal, far away | older than Genesis |
+| **Genesis** | traditionally Moses; most scholars, the first millennium BCE; oldest copies among the Dead Sea Scrolls | the heart's evil; violence | Noah and family — found favour; righteous | sacrifice; "never again"; covenant with all life; the bow; "be fruitful"; human blood protected | — |
+| ***Atrahasis*** (Babylonia) | c. 1635 BCE | the people multiplied; their noise | Atrahasis, "exceedingly wise," Enki's devotee | sacrifice; hungry gods "like flies"; barren women, a baby-snatching demon | older than any copy of Genesis |
+| ***Gilgamesh* XI** (Assyria) | 8th–7th c. BCE | none given | Uta-napishti, Ea's "servant" — no reason given | sacrifice; "flies"; made immortal, far away | older than any copy of Genesis |
 | **Egypt**, *Destruction of Mankind* | c. 1325 BCE | rebellion against Ra (a slaughter, not a flood) | everyone left — Ra relents | a festival; Ra withdraws, weary | none |
 | **Maasai** (Kenya, Tanzania) | 1904, German officer | the first murder | Tumbainot, "righteous" | dove, vulture; four rainbows | **high** |
 | **Lunda**, Lake Dilolo (Angola–Congo) | 1857, Livingstone | a village's inhospitality | the household that gave food | a lake | none |
@@ -548,120 +573,172 @@ causes this flood — but it is the hero's revenge, not a judgment on violence.
 | **Greece**, Deucalion | 468 BCE (Pindar); 8 CE (Ovid) | the race's wickedness (Ovid) | Deucalion and Pyrrha — the most righteous | sacrifice; stones become people | late versions (pairs, dove) |
 | **Norse**, Bergelmir | c. 1220 CE | gods kill the first giant | a giant and his wife | frost-giants | the boat may be Snorri's |
 | **Wales**, Dwyfan and Dwyfach | 1801 | a lake bursts | a pair "in a naked vessel" | Britain repeopled | **forgery** |
-| **Anishinaabe / Innu** (Great Lakes) | 1633, Jesuit | a feud with the water-spirits | Nanabozho, who caused it | animals dive for mud; the earth remade | native core; pairs only from 1914 |
+| **Innu** (Canadian Shield) | 1633, Jesuit | a lake overflows when the hero goes in after his lynxes | Messou | a raven fails; a muskrat brings up earth; the world remade | native core |
+| **Anishinaabe (Ojibwe)** (Great Lakes) | 1839; dictated 1903–05 | a feud with the water-spirits | Nanabozho, who caused it | animals dive for mud; the earth remade | native core; pairs only from 1914 |
 | **Cherokee** (Appalachians) | 1846 | none | a man warned by his dog | ghosts dancing over the drowned | missionaries' versions set aside |
 | **K'iche' Maya** | 1550s; copy c. 1701 | they forgot and failed to thank their Maker | no one | humans remade from maize | moral cause looks native |
 | **Nahua (Aztec)** | 1558; Sun Stone | the end of an age | Tata and Nene, warned by a god | their smoke angers the gods; turned to dogs | none in the 1558 text |
-| **Inca** | 1572; c. 1575 | pride and covetousness (or none) | a few; a man and a woman in a box | nations remade in clay | **strong** |
-| **Cañari** (Ecuador) | c. 1575 | none | two brothers on a mountain that grew | macaw-wives; the Cañari people | the prayer for pardon is added |
+| **Inca** | 1572; c. 1575 | pride and covetousness (or none) | a few; a man and a woman in a box | nations remade in clay | **strong** — the Spanish recorder's framing |
+| **Cañari** (Ecuador) | c. 1575 | none | two brothers on a mountain that grew | macaw-wives; the Cañari people | Sarmiento's version adds a prayer for pardon |
 | **Huarochirí** (Peru) | c. 1608 | none | a herder warned by his llama | the fox's black tail | recorder saw the parallel |
 | **Tupinambá** (Brazil) | 1557 | two brothers quarrel | both brothers, in trees | two warring peoples | none |
 | **Mapuche** (Chile) | 17th–18th c. | none | a few, on a floating mountain | **expect it again** | none |
 | **Gunaikurnai** (Victoria, Australia) | 1878 | a frog laughs out the water | people in the Pelican's canoe | how pelicans got their colours | none |
 | **Hawaiʻi** | 1823 → 1878 | (late: sin) | two on Mauna Kea → Nuʻu and seven others | (1878: sacrifice, rainbow) | **the clearest case** |
-| **Fiji** | 1840, 1858 | boys killed the god's bird | the rebels themselves | canoes kept ready **for the next flood** | "eight" |
+| **Fiji** | 1840, 1858 | boys killed the god's bird | the rebels themselves | canoes kept ready **for the next flood** | "eight," noticed by the missionary himself |
 | **Māori** (Aotearoa) | 1855 | revenge for attempted murder | Tāwhaki and his people | — | none in Grey's text |
 | **Antarctica** | — | — | — | — | no people, no story |
 {: .ff-wrap}
 
 ---
 
-## 4. Which of Genesis's details turn up elsewhere?
+## 4. Which details turn up where?
 
 The same question for every story: does it have this detail **in its earliest
-record**? ● yes · ○ partly, or only in a later version · blank, no.
+full record**? ● yes · ○ partly, or only in a later version · blank, no.
 
-| | **Gen.** | **Mesop.** | **Greece** | **India** | **China** | **Maya** | **Nahua** | **Ojibwe** | **Austr.** | **Hawaiʻi 1823** |
+| | **Gen.** | **Mesop.** | **Greece** | **India** | **China** | **Maya** | **Nahua** | **Innu, Ojibwe** | **Gunai­kurnai** | **Hawaiʻi 1823** |
 |---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | ***The outline*** | | | | | | | | | | |
 | Water destroys nearly everyone | ● | ● | ● | ● | | ● | ● | ○ | ○ | ● |
 | Someone is warned beforehand | ● | ● | ● | ● | | | ● | | | |
 | A vessel | ● | ● | ● | ● | | | ● | ○ | ● | |
-| Animals saved with them | ● | ● | | ○ | | | | ○ | | |
+| Animals saved with them | ● | ● | ○ | ○ | | | | ○ | | |
 | Birds sent to test the water | ● | ● | ○ | | | | | ○ | | |
 | A mountain | ● | ● | ● | ● | | | | ○ | | ● |
 | A sacrifice afterwards | ● | ● | ● | ● | | | ✕ | | | |
-| ***The meaning*** | | | | | | | | | | |
+| ***Genesis's meaning*** | | | | | | | | | | |
 | A moral cause | ● | ○ | ● | | | ● | | | | |
 | One God, acting alone | ● | | | | | | | | | |
 | God grieves **before** the flood | ● | | | | | | | | | |
 | The survivor chosen as righteous | ● | ○ | ● | | | | | | | |
-| A promise: never again | ● | | | | | | | | | |
-| A covenant with every living creature | ● | | | | | | | | | |
+| "Never again," sworn as a covenant with all life | ● | | | | | | | | | |
 | A sign in the sky | ● | ○ | | | | | | | | |
 | "Be fruitful and multiply," again | ● | | | ○ | | | | | | |
 | Human life protected, because it bears God's image | ● | | | | | | | | | |
+| ***Other stories' meanings*** | | | | | | | | | | |
+| The gods need humans to feed them | | ● | ○ | | | | | | | |
+| The survivor is made immortal | | ● | | | | | | | | |
+| Animals warn or rescue the survivors | | | | ● | | | | ● | ● | |
+| Humankind remade from new material | | | ● | ○ | | ● | ● | | | |
+| It will all happen again | | | | | | | ● | | | |
 {: .dot-grid}
 
 **Notes on the chart.** *Mesopotamia* is *Atrahasis* and *Gilgamesh*
 together: *Atrahasis*'s cause is noise; its Sumerian cousin calls the hero
 "reverent"; the goddess's necklace of lapis flies is a sign "that I may
-remember the days." *India*: animals appear only in the later Purāṇas; Iḍā's
-blessing of offspring comes from the sacrifice. *Ojibwe*: a raft or a tree on a
-mountain; animals cling on; the raven and the divers look for mud, not dry
-land. *Nahua* ✕: the survivors' cooking smoke **angers** the gods. *Hawaiʻi*:
-the 1878 version adds a houseboat, eight survivors, a sacrifice and a rainbow;
-the 1823 record has none of them.
+remember the days." *Greece*: Pindar (468 BCE) has only the flood, Parnassus
+and the stones; the warning, the chest, the sacrifice, the moral cause and the
+righteous couple are in the full tellings of Apollodorus and Ovid, which are
+not suspected of borrowing from the Bible — unlike Lucian's pairs of animals
+and Plutarch's dove (marked ○); the gods' worry about losing their incense is
+Ovid's. *India*: animals appear only in the later Purāṇas; Iḍā's blessing of
+offspring comes from the sacrifice; the fish is the rescuer; the cycles of ages
+are Purāṇic, not in the earliest version. *Maya*: the maize people. *Nahua*:
+humankind remade from the bones of the dead and a god's blood; the present age
+will end too, though not by water; ✕ — the survivors' cooking smoke **angers**
+the gods. *Innu, Ojibwe*: a raft or a tree on a mountain; animals cling on;
+the raven and the divers look for mud, not dry land; the muskrat's earth
+remakes the world. *Gunaikurnai*: the Pelican's canoe. *Hawaiʻi*: the 1878
+version adds a houseboat, eight survivors, a sacrifice and a rainbow; the 1823
+record has none of them (though it was given just after Ellis had preached on
+Noah).
 
-**What the chart shows.** Read it from the top down. The outline of a flood
-story — water, a warning, a boat, a mountain — is found in many places. The
-details that carry Genesis's *meaning* — one God who grieves before he acts, a
-promise never to do it again, a covenant with every living thing, a renewed
-blessing, a law that protects every human life — are found almost nowhere
-else, and where they do appear, they appear in records made after the Bible
-had arrived. Several cultures say the opposite of "never again": Plato's
-Egyptian priest (*"will be again"*), the Purāṇic cycles, the Nahua ages, the
-Mapuche climbing their hills, the Fijians keeping their canoes ready.
+**What the chart shows — and what it cannot.** The middle band is built from
+Genesis's own details, so Genesis fills it by construction. Build the rows from
+*Gilgamesh*'s details, or the Maya's, and Genesis would have blanks too — the
+last band does exactly that. So the chart cannot prove that Genesis is more
+original than other stories; every story is distinctive in its details. What
+it shows is **what Genesis says that the others do not**: one God who grieves
+before he acts, a promise never to do it again sworn to every living thing, a
+renewed blessing, a law that protects every human life. Two more things stand
+out. The fuller outline — warning, vessel, mountain, sacrifice — clusters in
+one family of stories, Mesopotamia, Greece and India; elsewhere often only the
+bare idea of destroying water remains. And **outside Genesis's own
+neighbourhood, the closer a story matches Genesis in detail, the later it was
+written down** (inside it the reverse holds: *Atrahasis*, the closest match, is
+the oldest). A few partial echoes are early and independent — India's blessing
+of offspring, Ovid's righteous couple, the Maya's moral cause. Several peoples
+say the opposite of "never again": Plato's Egyptian priest (*"will be again"*),
+the Purāṇic cycles, the Nahua ages, the Mapuche climbing their hills, the
+Fijians keeping their canoes ready.
 
 ---
 
 ## 5. Why are there so many flood stories?
 
 Three answers have been given. They are not exclusive, and serious people hold
-each.
+each. None of them, it should be said at once, decides whether Noah's flood
+happened. Christians believe it did because Jesus and the apostles speak of it
+(Matthew 24:37–39; 2 Peter 3:5–7), not because of how many peoples tell flood
+stories.
 
-**1. One flood, remembered by the nations.** The oldest answer. Josephus,
-in the first century, already gathered the nations' witnesses: *"Now all the
-writers of barbarian histories make mention of this flood, and of this ark."*
-For most of Christian history the world's flood stories were read as fading
-memories of Noah carried by his descendants, and many Christians read them
-that way today. *Its strength:* the New Testament treats Noah's flood as a
-real event (Matthew 24:37–39; 2 Peter 3:6); and the stories nearest Israel —
-the Mesopotamian ones — are the ones that keep the most detail: the boat, the
-pitch, the animals, the birds, the mountain, the sacrifice. A memory carried
-across thousands of years and miles would be expected to keep the outline and
-lose the details. *The question it has to answer:* outside the Near East, the
-details that match Genesis most closely — pairs of animals, the dove, the
-rainbow, eight survivors — turn up mainly in records made **after**
-missionaries arrived (Hawaiʻi, Fiji, the Maasai), or in a forgery (Wales);
-and Africa and Egypt, near the Bible's own world, have the fewest flood
-stories of all. Frazer described the older approach: *"Formerly, under the
+**1. One flood, remembered.** The oldest answer. Josephus, in the first
+century, already gathered the nations' witnesses: *"Now all the writers of
+barbarian histories make mention of this flood, and of this ark."* It comes in
+two forms. *The regional form* — held by A. R. Millard and K. A. Kitchen, among
+others — sees a real, ancient flood in Mesopotamia behind the Near Eastern
+stories, which is why they share the most detail: the boat, the pitch, the
+animals, the birds, the mountain, the sacrifice. *The worldwide form*, held by
+many Christians since Josephus, reads all the world's flood stories as fading
+memories of Noah carried by his descendants; a memory carried across thousands
+of years and miles would be expected to keep the outline and lose the details.
+*Its strength:* it takes the stories' own claim — "this really happened" —
+seriously, and the nearer stories do keep more. *The question it has to
+answer:* outside the Near East, the details that match Genesis most closely —
+pairs of animals, the dove, the rainbow, eight survivors — turn up mainly in
+records made **after** missionaries arrived (Hawaiʻi, Fiji, the Maasai), or in
+a forgery (Wales); and Africa, where Genesis 10 sends Ham's sons Cush, Egypt
+and Put, has the fewest flood stories of all. (The regional form does not face
+that question.) Frazer described the older approach: *"Formerly, under the
 influence of the Biblical tradition, inquirers were disposed to identify
 legends of a great flood, wherever found, with the familiar Noachian
 deluge."*
 
+**How far did Noah's flood reach?** Christians who hold Scripture's authority
+disagree, and have for a long time. Many read it as **worldwide**: *"all the
+high mountains under the entire sky were covered"* (7:19), and Peter speaks of
+*"the world existing at that time"* (2 Peter 3:6) — the case made at length by
+J. C. Whitcomb and H. M. Morris, *The Genesis Flood* (1961). Others read a vast
+**regional** flood, covering the whole world of the people in the story:
+Genesis can say a famine was *"severe throughout the earth"* when it means the
+lands around Egypt (41:57) — the case made by Bernard Ramm, *The Christian View
+of Science and Scripture* (1954), and more recently by Tremper Longman and John
+Walton, *The Lost World of the Flood* (2018). The class does not need to settle
+it to read the flood with the New Testament.
+
 **2. Floods happen wherever people live.** Floods are the most common natural
 disaster — about 44 per cent of all recorded disasters in 2000–2019 (UNDRR and
-CRED, 2020) — and people have always settled on rivers, deltas and coasts.
-After the last ice age the sea rose by roughly 120 metres, drowning coastlines
-all over the world. Frazer, after collecting hundreds of stories, concluded
-that *"some and probably many diluvial traditions are merely exaggerated
-reports of floods which actually occurred,"* and that *"there still remain
-deluge legends which have originated independently."* *Its strength:* it
+CRED, 2020) — and people have always settled on rivers, deltas and coasts. A
+flood that fills one valley, or drowns one island, is the end of the world for
+the people who live there. After the last ice age the sea rose by roughly 120
+metres over thousands of years, drowning coastlines all over the world (which
+is what Nunn and Reid's Australian stories seem to remember — a slow loss of
+land, not a sudden deluge). Some stories were inferred from what people saw —
+sea-shells on hilltops, a basin that looked as if it had drained — what Frazer
+called *"myths of observation."* Frazer concluded that *"some and probably many
+diluvial traditions are merely exaggerated reports of floods which actually
+occurred,"* and that *"there still remain deluge legends which have originated
+independently."* Egypt is a telling test: where the Nile rose gently from
+below and was a blessing, there is no flood story at all. *Its strength:* it
 explains the variety — the local mountains, the local animals, the local
 causes. *The question it has to answer:* why do so many stories reach for
 *all* of humankind and a handful of survivors?
 
-**3. Stories travel.** They travelled in the ancient world: Lucian's animals
-in pairs and Plutarch's dove came into Greek tellings late, from the east.
-And they travelled with the Bible: the missionary Moffat saw it happen in
-southern Africa, and the three Hawaiian records show it step by step. Frazer
-wrote that *"through the medium of Christian literature, the Babylonian legend
-has indeed gone the round of the world and been echoed in tales told under the
-palms of coral islands, in Indian wigwams, and amid the Arctic ice and
-snow."* *Its strength:* every step is documented. *The question it has to
-answer:* it cannot explain the early, independent stories — Manu's fish, the
-Maya wooden people, Deucalion's chest.
+**3. Stories travel.** They travelled in the ancient world: Greek myth
+borrowed from the Near East long before Lucian (Hesiod's story of the gods'
+succession has a close Hittite parallel), and Lucian's animals in pairs and
+Plutarch's dove came into Greek tellings late, from the east. And they
+travelled with the Bible: the missionary Moffat saw it happen in southern
+Africa, and the three Hawaiian records show it step by step. Frazer wrote that
+*"through the medium of Christian literature, the Babylonian legend has indeed
+gone the round of the world and been echoed in tales told under the palms of
+coral islands, in Indian wigwams, and amid the Arctic ice and snow."* *Its
+strength:* every step is documented. *The question it has to answer:* stories
+that existed before any contact — above all the Maya, whose inscriptions and a
+painted book from before the conquest already show a flood ending an earlier
+world (Palenque, 734 CE; the Dresden Codex). Whether Manu's story came from
+Babylon is still open.
 
 **What all three can agree on.** The bare fact that many peoples tell of a
 flood proves less than either side has claimed. It does not show that Genesis
@@ -734,9 +811,14 @@ translation*.
   renewed); T. Williams, *Fiji and the Fijians* I (1858); G. Grey, *Polynesian
   Mythology* (1855).
 - **Josephus:** trans. W. Whiston (1737). **Disaster figures:** UNDRR and
-  CRED, *The Human Cost of Disasters 2000–2019* (2020).
+  CRED, *The Human Cost of Disasters 2000–2019* (2020). **The extent of the
+  flood**, described, not quoted: J. C. Whitcomb and H. M. Morris, *The Genesis
+  Flood* (1961); B. Ramm, *The Christian View of Science and Scripture* (1954);
+  T. Longman III and J. H. Walton, *The Lost World of the Flood* (2018). The
+  Maya evidence: E. Velásquez García, *PARI Journal* 7:1 (2006). R. H.
+  Codrington, *The Melanesians* (1891), via Frazer.
 
-Retrieved 2026-10-15.
+Retrieved 2026-10-16.
 
 [← Back to Session 10](../)
 {: .no-print}

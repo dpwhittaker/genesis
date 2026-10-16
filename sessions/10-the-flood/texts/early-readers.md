@@ -13,8 +13,9 @@ sheet gathers how Jews and Christians in the centuries around Jesus read the
 Flood — including the readers who had heard the nations' flood stories too,
 and said what they made of them.
 
-**How to read it.** The New Testament comes first, because for this class its
-reading of a passage is the church's. The other readers are witnesses to how
+**How to read it.** The New Testament comes first, because for this class it
+is authoritative: where it reads a passage, that reading settles the question
+for us. The other readers are witnesses to how
 the story was heard: sometimes they fill a silence in Genesis, sometimes they
 argue with each other, and sometimes they notice exactly what we notice. Dates
 are given so you can see who was reading whom.
@@ -39,29 +40,63 @@ and unaware.
 > by faith.
 > — *Hebrews 11:7*
 
-> …when God patiently waited in the days of Noah as an ark was being
-> constructed. In the ark a few, that is eight souls, were delivered through
-> water. And this prefigured baptism, which now saves you…
-> — *1 Peter 3:20–21*
+Hebrews puts the sermon in the building: Noah was *warned* by God, and his
+obedience *"condemned the world."* He did not need to say a word for his ark to
+say it.
+
+> Because Christ also suffered once for sins, the just for the unjust, to bring
+> you to God, by being put to death in the flesh but by being made alive in the
+> spirit. In it he went and preached to the spirits in prison, after they were
+> disobedient long ago when God patiently waited in the days of Noah as an ark
+> was being constructed. In the ark a few, that is eight souls, were delivered
+> through water. And this prefigured baptism, which now saves you—not the
+> washing off of physical dirt but the pledge of a good conscience to God—through
+> the resurrection of Jesus Christ, who went into heaven and is at the right
+> hand of God with angels and authorities and powers subject to him.
+> — *1 Peter 3:18–22*
+
+Verse 19 is one of the hardest in the New Testament, and the church has read
+it three main ways. (1) Christ, *"in the spirit,"* preached **through Noah** to
+the people of his day, who are now *"in prison"* — Augustine's reading (Letter
+164), defended by Wayne Grudem (*Trinity Journal*, 1986); on this reading 1
+Peter itself says Noah preached. (2) Christ preached to **the dead** between
+his death and resurrection — the reading of many church fathers. (3) The risen
+Christ proclaimed his victory to the **imprisoned spirits** of Genesis 6:1–4,
+the reading Session 8 followed (W. J. Dalton, *Christ's Proclamation to the
+Spirits*, 1965). On every reading Peter's own point is verse 22: Christ is at
+God's right hand, with *"angels and authorities and powers subject to him."*
 
 > …but did protect Noah, a herald of righteousness, along with seven others,
-> when God brought a flood on an ungodly world…
-> — *2 Peter 2:5*
+> when God brought a flood on an ungodly world, and if he turned to ashes the
+> cities of Sodom and Gomorrah… and if he rescued Lot, a righteous man… —if
+> so, then the Lord knows how to rescue the godly from their trials, and to
+> reserve the unrighteous for punishment at the day of judgment
+> — *2 Peter 2:5–9*
 
 The Greek is *ogdoon Nōe dikaiosynēs kēryka* — literally "Noah, the eighth, a
-herald of righteousness." And Peter's second letter reads the Flood as the
-pattern of a judgment still to come:
+herald of righteousness." Jesus pairs the same two stories: *"Just as it was in
+the days of Noah… Likewise, just as it was in the days of Lot… It will be the
+same on the day the Son of Man is revealed"* (Luke 17:26–30). And Peter's
+second letter reads the Flood as the pattern of a judgment still to come:
 
+> For they deliberately suppress this fact, that by the word of God heavens
+> existed long ago and an earth was formed out of water and by means of water.
 > Through these things the world existing at that time was destroyed when it
 > was deluged with water. But by the same word the present heavens and earth
 > have been reserved for fire, by being kept for the day of judgment and
 > destruction of the ungodly.
-> — *2 Peter 3:6–7*
+> — *2 Peter 3:5–7*
+
+And it explains the delay: *"The Lord is not slow concerning his promise, as
+some regard slowness, but is being patient toward you because he does not wish
+for any to perish but for all to come to repentance"* (3:9).
 
 **The prophets before them.** Isaiah's exiles heard the Flood as an oath: *"As
 far as I am concerned, this is like in Noah's time, when I vowed that the
 waters of Noah's flood would never again cover the earth. In the same way I
-have vowed that I will not be angry at you or shout at you"* (Isaiah 54:9).
+have vowed that I will not be angry at you or shout at you. Even if the
+mountains are removed and the hills displaced, my devotion will not be removed
+from you, nor will my covenant of friendship be displaced"* (Isaiah 54:9–10).
 Ezekiel names Noah with Daniel and Job as men so righteous that *"they would
 save only their own lives by their righteousness"* (Ezekiel 14:14).
 
@@ -98,11 +133,19 @@ Repent. And if you do not, the Holy One, Blessed be He, will bring a flood
 upon you and float your corpses on the water like wineskins."* And Rava
 (108b): *"he said to them statements that are harsh as torches [kelapidim],
 and they would treat him with contempt. They said to him: Old man, why are you
-building this ark?"* The same page counts God's patience: *"one hundred and
-twenty years, to repent, and thereafter designated a brief period for them, an
-additional seven days, as a final opportunity for them to repent."* The
-Mishnah draws the lesson: *"[There were] ten generations from Adam to Noah, in
-order to make known what long-suffering is His"* (*Pirkei Avot* 5:2).
+building this ark?"* Among the page's explanations of the seven days' delay
+(7:4, 10) is a last chance: *"one hundred and twenty years, to repent, and
+thereafter designated a brief period for them, an additional seven days, as a
+final opportunity for them to repent."* The Mishnah draws the lesson — and
+looks past Noah to Abraham:
+
+> [There were] ten generations from Adam to Noah, in order to make known what
+> long-suffering is His; for all those generations kept on provoking Him, until
+> He brought upon them the waters of the flood. [There were] ten generations
+> from Noah to Abraham, in order to make known what long-suffering is His; for
+> all those generations kept on provoking Him, until Abraham, came and received
+> the reward of all of them.
+> — *Pirkei Avot* 5:2
 
 **Josephus** (c. 94 CE) has Noah try and fail, then flee:
 
@@ -193,21 +236,40 @@ vicinity"* (*City of God* 18.8, 18.10).
 **"Fear and dread," but not "rule."** Genesis 9:1 repeats the blessing of 1:28
 word for word — *be fruitful and multiply and fill the earth* — and then leaves
 out *subdue* and *rule*, putting *fear and dread* in their place. The rabbis
-noticed: *"fear and dread were restored, but dominion was not restored"*
-(*Genesis Rabbah* 34:12). And on 9:6: *"Rabbi Akiva expounded: Anyone who
+noticed: *"fear and dread were restored, but dominion was not restored. When
+was it restored? It was in the days of Solomon"* (*Genesis Rabbah* 34:12, citing
+1 Kings 5:4). On the plain sense, 9:2 still ends *"under your authority"*
+(literally "into your hand they are given"): rule gives way to fear, but is not
+abolished. And on 9:6: *"Rabbi Akiva expounded: Anyone who
 sheds blood, it is considered for him as though he has diminished God's
-image"* (*Genesis Rabbah* 34:14).
+image"* (*Genesis Rabbah* 34:14). Rashi, on the doubled *be fruitful* (9:1,
+9:7), separates the plain sense from the midrash himself: *"According to the
+real sense, the first time this was said to man (Genesis 9:1) it was said as a
+blessing (an assurance that they would be fruitful); here it is a command…
+According to the Midrashic explanation this command is mentioned here after the
+mention of murder in order to liken one who abstains from having children to
+one who sheds blood."*
 
-**The seven laws of the children of Noah.** Judaism reads Genesis 9 as God's
-covenant with every nation, and drew from it the commandments binding on all
-people:
+**The seven laws of the children of Noah.** Judaism names the commandments
+binding on every nation after Noah's children — all humanity:
 
 > The sons of Noach were given seven commandments: courts, idolatry,
 > [blasphemy,] forbidden sexual relations, bloodshed, theft, and [consuming]
 > the limb of a living animal.
 > — *Tosefta Avodah Zarah* 8:4 (Sefaria 9:4)
 
-The Talmud gives the same seven (*Sanhedrin* 56a). Josephus paraphrases 9:5–6
+The Talmud gives the same seven (*Sanhedrin* 56a), and records other sages who
+counted more (56b). It does not derive them mainly from Genesis 9. Rabbi
+Yoḥanan reads them out of God's command to Adam in 2:16 — *"'The man,' this
+alludes to bloodshed; and so it states: 'One who sheds the blood of man, by man
+his blood shall be shed' (Genesis 9:6)"* (*Sanhedrin* 56b). Maimonides counts
+six given to Adam, and the seventh, the limb from a living animal, *"added for
+Noah, as Genesis 9:4 states"* (*Mishneh Torah*, Kings 9:1). Why the laws
+matter to Jews is the other half: the Tosefta (*Sanhedrin* 13:2) records Rabbi
+Yehoshua's teaching that there are righteous people among the nations who have
+a share in the world to come, and Maimonides makes the seven laws the measure
+of such a person — on the condition that they are kept as God's command (Kings
+8:11). Josephus paraphrases 9:5–6
 as a command to *"abstain from shedding the blood of men; and to keep your
 selves pure from murder; and to punish those that commit any such thing"*
 (*Antiquities* 1.3.8). Many readers have set beside these the four things the
@@ -229,17 +291,32 @@ Creator, and honour father and mother, and love their neighbour"* (7:20).
 
 ## 5. The bow
 
-**God's weapon, hung up.** Josephus: *"But I will give you a sign that I have
+**God's weapon, hung up.** Josephus (c. 94 CE): *"But I will give you a sign that I have
 left off my anger by my bow; whereby is meant the rain-bow: for they determined
 that the rain-bow was the bow of God"* (*Antiquities* 1.3.8). Philo argues that
 the sign really is a *bow*: *"a bow is not itself a weapon, but only an
 instrument for the use of weapons, namely, for the arrow which strikes"*
-(*Questions on Genesis* 2.64).
+(*Questions on Genesis* 2.64). Nachmanides (1194–1270) reports the reading
+of earlier commentators: God *"has not made the rainbow with its feet bent
+upward because it might have appeared that arrows were being shot from heaven…
+in order to show that they are not shooting at the earth from the heavens. It
+is indeed the way of warriors to invert the instruments of war which they hold
+in their hands when calling for peace from their opponents. Moreover… the bow
+has no rope upon which to bend the arrows."* And he answers the question every
+class asks — were there no rainbows before the flood? — by agreeing with the
+Greek philosophers that the rainbow is natural: *"The rainbow which I have set
+in the clouds from the day of creation will be from this day on a sign of
+covenant between Me and you."*
 
-**God's likeness.** The rabbis read the word another way: *"'My rainbow
-[kashti] I have set' – My likeness [kishuti]; something that is likened to
-Me"* (*Genesis Rabbah* 35:3) — and Ezekiel saw a rainbow around the throne
-(1:28; so Revelation 4:3). They added a striking corollary: a generation
+**God's likeness?** The rabbis tried a pun and drew back from it: *"'My
+rainbow [kashti] I have set' – My likeness [kishuti]; something that is likened
+to Me. Is that possible? It is, rather, like the straw [kashin] of the grain"*
+(*Genesis Rabbah* 35:3). Ezekiel did see a rainbow around the throne — *"like
+the appearance of a rainbow in the clouds after the rain… it looked like the
+glory of the LORD"* (1:28; so Revelation 4:3) — and the Talmud teaches that
+one who sees a rainbow should not stare at it, and should say a blessing:
+*"Blessed…Who remembers the covenant and is faithful to His covenant and
+fulfills His word"* (*Berakhot* 59a). They added a striking corollary: a generation
 righteous enough would need no rainbow at all. Rabbi Shimon bar Yoḥai, told
 that a rainbow had been seen in a certain sage's lifetime, replied: *"If a
 rainbow has been sighted in his days, he is not worthy to see my countenance"*
@@ -253,7 +330,8 @@ Hebrews as Jehovah's war-bow"*, *"laid aside as the sign of pacified anger"*;
 returning favour, and the name is based simply on the similarity of form."*
 John Skinner (1910) compared the Babylonian creation epic, *"where Marduk's
 bow, which he had used against Tiamat, is set in the heavens as a
-constellation."*
+constellation"* — in that epic it is the god Anu who raises the bow in the
+gods' assembly and names it the Bow-star.
 
 ---
 
@@ -305,15 +383,33 @@ Genesis 6:9 says Noah was *blameless among his contemporaries* — literally
 > despite being surrounded by bad influences; all the more so would he have
 > been considered righteous and wholehearted in other generations.
 
-*Genesis Rabbah* 30:9 gives each side a parable — against: *"In a marketplace
+*Genesis Rabbah* 30:9 has the same debate between two other sages, Rabbi
+Yehuda and Rabbi Neḥemya, with parables — against: *"In a marketplace
 of completely blind people, they call those who are blind in one eye, 'the one
 of abundant light'"*; for: *"a bowl of balsam oil that was sealed with a
 tight-fitting lid. It was situated in a graveyard and its fragrance wafted
 through the air. Had it been outside the graveyard, how much more so!"* Philo
 took the first side: *"Showing that he was not perfect absolutely, but that he
-was good in comparison with the others who lived at that time."* Hebrews, for
-the church, names what his righteousness rested on: *"the righteousness that
-comes by faith"* (11:7).
+was good in comparison with the others who lived at that time."* The next
+paragraph of the midrash (30:10) compares him with Abraham: Noah *"walked with
+God"* (6:9), Abraham walked *before* him (17:1). Rashi sums it up: *"Noah needed
+God's support to uphold him in righteousness, Abraham drew his moral strength
+from himself."*
+
+**The other half of the silence.** The tradition heard Noah's silence two
+ways. It made him a preacher (§2) — and it also faulted him for not praying.
+Rashi, following Rabbi Yoḥanan: *"Noah, also, was of those people who are
+wanting in faith: he believed and he did not believe that the Flood would come,
+and he would not enter the Ark until the waters forced him to do so"* (on 7:7).
+The Zohar sets him against Moses: *"when God bade Noah save himself and his
+household in the ark from the universal destruction at the time of the Flood,
+he did not intercede on behalf of his generation, but let them perish. It is
+for this reason that the waters of the Flood are named after him, as it is
+written, 'for this is as the waters of Noah unto me' (Is. 54, 9)."* A herald to
+people and an intercessor before God are different roles; the tradition found
+Noah the first and missed the second. Hebrews, for the church, names what his
+righteousness rested on: *"the righteousness that comes by faith"* (11:7) —
+*"By faith Noah."*
 
 ---
 
@@ -334,26 +430,92 @@ never Ham himself. The earliest readers saw the puzzle:
 > Ḥam committed the sin and Canaan was cursed? This is astonishing. Rabbi
 > Yehuda and Rabbi Neḥemya, Rabbi Yehuda said: Because it is written: "God
 > blessed Noah and his sons" (Genesis 9:1), and a curse cannot be in a place
-> where there is blessing. That is why he said: "Cursed is Canaan."
+> where there is blessing. That is why he said: "Cursed is Canaan." Rabbi
+> Neḥemya says: Canaan saw and told Ḥam; therefore, one ascribes the curse to
+> the corrupt one.
 > — *Genesis Rabbah* 36:7
 
 Justin Martyr, independently, gave the same answer: *"For the Spirit of
 prophecy would not curse the son that had been by God blessed along with [his
-brothers]"* (*Dialogue* 139).
+brothers]"* (*Dialogue* 139). Rashi gives two more Jewish readings: Ham had
+mutilated or abused his father (on 9:22, after *Sanhedrin* 70a), and so lost
+Noah a fourth son — *"cursed, therefore, be your fourth son"* (on 9:25). And
+notice who speaks: it is Noah, waking from wine, who curses. God curses no one
+in this chapter.
+
+**The tradition's own darker strand.** The same midrash, a few lines later,
+keeps folk-tales that explain dark skin by this story: Rav Huna has Noah say
+that Canaan *"will be ugly and darkened,"* and Rabbi Ḥiyya bar Abba says that
+*"Ḥam emerged darkened"* from the ark (*Genesis Rabbah* 36:7). The Talmud lists
+Ham among three who were punished for breaking the ark's rule of separation:
+*"Ham was afflicted in that his skin turned black"* (*Sanhedrin* 108b, in the
+Davidson edition's English; the Talmud's own words say only that he was
+afflicted in his skin, and "turned black" is the translator's gloss). These are
+stories about skin colour, not arguments for slavery — but David Goldenberg's
+study (below) shows how, centuries later, strands like these were fused with
+the curse of Canaan into a "curse of Ham."
 
 **How the verse was misused.** Nothing in Genesis 9 mentions skin, Africa, or
 any people but Canaan. Centuries later a "curse of Ham" was used to justify
 the enslavement of Black Africans — first in the Near East from the seventh
 century, then in Europe and, most destructively, in the Americas, where it was
 preached in defence of slavery and segregation (D. M. Goldenberg, *The Curse
-of Ham*, Princeton, 2003; S. R. Haynes, *Noah's Curse*, Oxford, 2002). The
-Southern Baptist Convention formally renounced the teaching in 2018 as a
-misreading of Genesis 9:25–27. Augustine, reading this same chapter, noticed
+of Ham*, Princeton, 2003; S. R. Haynes, *Noah's Curse*, Oxford, 2002). Many
+churches that once taught it have renounced it; the Southern Baptist
+Convention did so formally in 2018, as a misreading of Genesis 9:25–27.
+
+The oldest explicit Jewish rejection of the racial reading is Abraham ibn
+Ezra's, in twelfth-century Spain, on this very verse:
+
+> There are some who say that the Cushites are enslaved because Noah cursed
+> Ham. However, they have forgotten that the first king to rule after the flood
+> was a Cushite. Thus it is written, and Cush begot Nimrod…And the beginning of
+> his kingdom was Babel, and Erech, and Accad, and Calneh, in the land of
+> Shinar (Gen. 10:8-10).
+> — Ibn Ezra on Genesis 9:25
+
+And the chapter answers it itself: every human bears God's image (9:6), and
+*"from them the whole earth was populated"* (9:19) — *"From one man he made
+every nation of the human race to inhabit the entire earth"* (Acts 17:26). Augustine, reading this same chapter, noticed
 that the word *slave* appears here for the first time in Scripture, and drew
 the opposite lesson: God made his rational creature to rule *"not man over
 man, but man over the beasts"* — *"It is a name, therefore, introduced by sin
 and not by nature"* (*City of God* 19.15). (He did not, for all that, call for
 slavery's end.)
+
+---
+
+## 9. Noah's wife
+
+Genesis never names Noah's wife or his sons' wives, and none of them speaks.
+(In *Gilgamesh*, the survivor's wife is raised to godhood beside him.) Later
+readers filled the gap. *Jubilees* names her: *"Noah took to himself a wife,
+and her name was ’Ĕmzârâ, the daughter of Râkê’êl, the daughter of his father's
+brother"* (4:33 in Charles's numbering). One rabbi made her Naamah, the sister
+of Tubal-Cain (*Genesis Rabbah* 23:3; see Session 7's sheet), so that everyone
+after the flood descends from both of Adam's lines. Rashi noticed that the
+family goes into the ark with the men and the women listed apart (7:7), and is
+told to come out as couples — *"you, your wife, your sons, and your sons' wives
+with you"* (8:16): *"The men separately and the women separately, because they
+were forbidden to live together as man and wife since the world was living in a
+state of distress."* And the medieval English
+mystery plays (Chester, Wakefield) turned her into a comic shrew who has to be
+dragged aboard — a reminder of how much a later age can write into a silence.
+
+---
+
+## 10. The flood at the font
+
+Most churchgoers have heard the flood not in a Bible study but at a baptism.
+First Peter's *"this prefigured baptism"* (3:21) became part of the church's
+worship. Martin Luther's baptismal order of 1523 includes his "Flood Prayer," which
+recalls how God saved Noah's family through the flood and Israel through the
+sea, and asks that in baptism all that is sinful be drowned and the one
+baptized be kept safe in the ark of the church. The ancient Easter Vigil reads
+the flood among its readings of salvation history. And in the Revised Common Lectionary, used by many
+churches, the first Sunday in Lent in Year B pairs God's covenant with Noah
+(Genesis 9:8–17) with 1 Peter 3:18–22 and Jesus' baptism and temptation (Mark
+1:9–15).
 
 ---
 
@@ -377,6 +539,12 @@ slavery's end.)
   words in square brackets are Steinsaltz's. ***Genesis Rabbah***: the Sefaria
   Midrash Rabbah (2022), **CC BY**. ***Pirkei Avot***: *Mishnah Yomit*, trans.
   Joshua Kulp, **CC BY**. **Tosefta**: Sefaria Community Translation, **CC0**.
+- **Medieval Jewish commentators**, via Sefaria: Rashi, trans. M. Rosenbaum and
+  A. M. Silbermann (1929–34), **public domain**; Nachmanides, trans. C. B.
+  Chavel (1971–76), **CC BY**; Ibn Ezra, trans. H. N. Strickman and A. M. Silver
+  (1988–2004), **CC BY-NC**; *Mishneh Torah*, trans. E. Touger, **CC BY-NC**;
+  the Zohar, Soncino translation (1933), listed by Sefaria as **public domain**;
+  *Berakhot* 59a, William Davidson Edition, **CC BY-NC**.
 - **The church fathers** — *1 Clement*, Justin, Theophilus, Tertullian,
   Cyprian: *Ante-Nicene Fathers* 1, 2, 3, 5 (1885–86); Augustine, *City of
   God*, trans. M. Dods, *Nicene and Post-Nicene Fathers* I/2 (1887) — public
@@ -384,7 +552,10 @@ slavery's end.)
 - **Commentators:** S. R. Driver, *The Book of Genesis* (Westminster
   Commentaries, 1904); J. Skinner, *Genesis* (ICC, 1910) — public domain, via
   archive.org.
-- **Described, not quoted:** D. M. Goldenberg, *The Curse of Ham: Race and
+- **Described, not quoted:** on 1 Peter 3:19, Augustine, Letter 164; W.
+  Grudem, "Christ Preaching through Noah," *Trinity Journal* 7 (1986); W. J.
+  Dalton, *Christ's Proclamation to the Spirits* (1965). Luther's
+  *Taufbüchlein* (1523); the Revised Common Lectionary (1992). D. M. Goldenberg, *The Curse of Ham: Race and
   Slavery in Early Judaism, Christianity, and Islam* (Princeton, 2003); S. R.
   Haynes, *Noah's Curse: The Biblical Justification of American Slavery*
   (Oxford, 2002); Southern Baptist Convention, "On Renouncing the Doctrine of

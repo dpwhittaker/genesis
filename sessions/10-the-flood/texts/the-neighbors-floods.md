@@ -32,21 +32,26 @@ edition (A. R. George, 2003).
 
 | Text | Oldest copy | Found at | What it is |
 |---|---|---|---|
-| ***Atrahasis*** (Old Babylonian) | copied by the scribe Ipiq-Aya, **c. 1635 BCE** (composed by c. 1700) | Sippar, Babylonia | a three-tablet epic of 1,245 lines: creation of humankind → noise → plague, drought, famine → flood → a new order |
+| ***Atrahasis*** (Old Babylonian) | oldest dated copy, by the scribe Ipiq-Aya, **c. 1635 BCE** (composed by c. 1700; one undated fragment is earlier) | Sippar, Babylonia | a three-tablet epic of 1,245 lines: creation of humankind → noise → plague, drought, famine → flood → a new order |
 | **Sumerian Flood Story** | c. 1600 BCE | Nippur | creation → kingship → five cities → flood; the hero is **Ziusudra** |
-| *Atrahasis* in the West | 14th–13th c. BCE | **Ugarit** (coastal Syria), **Ḫattuša** (Hittite capital), Nippur | including a first-person version, and a fragment with a dove |
+| *Atrahasis*, later copies | 14th–13th c. BCE | in the West: **Ugarit** (coastal Syria) and **Ḫattuša** (Hittite capital); in Babylonia: Nippur | including a first-person version, and a fragment with a dove |
 | ***Gilgamesh*** in the West | 2nd half of 2nd millennium BCE | **Megiddo** (Canaan), Emar, Ugarit, Ḫattuša; translated into Hittite and Hurrian | the Megiddo piece is from a different part of the epic (Enkidu's death), not the flood |
-| ***Gilgamesh*** Tablet XI (Standard version) | 8th–7th c. BCE | **Nineveh** (Ashurbanipal's library) and elsewhere | the flood told by its survivor to Gilgamesh; it borrows its flood from *Atrahasis* |
+| ***Gilgamesh*** Tablet XI (Standard version) | composed c. 1200–1000 BCE; copies 8th–7th c. BCE | **Nineveh** (Ashurbanipal's library) and elsewhere | the flood told by its survivor to Gilgamesh; it borrows its flood from *Atrahasis* |
 | **Berossus**, *Babyloniaca* | c. 280 BCE | known through later Greek writers (Eusebius, Syncellus) | a Babylonian priest's history in Greek; his flood hero is Xisouthros |
 
 **Did the first hearers of Genesis know these stories?** The flood tradition
 was copied in Babylonia for over a thousand years, and *Atrahasis* and
-*Gilgamesh* travelled west to Syria, Anatolia and Canaan in the centuries
-before Israel. No flood tablet has been found in Israel or Judah itself. So
-the careful claim is this: **the story was in the air of their world** — told,
-copied and sung across the ancient Near East for well over a thousand years —
-and Genesis's own details (the pitch, the mountain, the birds, the sacrifice,
-the deity smelling it) show that its writer knew it.
+*Gilgamesh* travelled west to Syria, Anatolia and Canaan in the Late Bronze
+Age (14th–13th centuries BCE). No flood tablet has been found in Israel or
+Judah itself. So the careful claim is this: **the story was in the air of their
+world** — told, copied and sung across the ancient Near East for well over a
+thousand years — and Genesis's own details (the pitch, the mountain, the
+birds, the sacrifice, the deity smelling it) suggest that its writer knew it.
+When Israel met it depends on how Genesis is dated. On a traditional dating,
+in the Late Bronze Age, when these texts were being copied in Canaan and Syria
+(W. G. Lambert argued that this was the period of transmission). On a critical
+dating, under Assyria and in exile in Babylon, where the story was still being
+copied. Either way, it was there.
 
 The Mesopotamians themselves treated the flood as a real dividing line in
 history. The Sumerian King List (Session 7) runs: *"In 5 cities 8 kings; they
@@ -101,9 +106,12 @@ And he promises the city plenty: *"[Upon] you will he (Enlil) then rain
 abundance. / [A catch of] birds; a catch of fish."* The last lines (XI 46–47)
 are a riddle — in our working translation, ***"In the morning, bread-cakes; at
 nightfall he will rain on you a shower of wheat."*** The townspeople hear a
-promise of food. Modern scholars (A. R. George; M. Worthington, *Ea's
-Duplicity in the Gilgamesh Flood Story*, 2019) read the words as deliberately
-double: the "rain" that is coming is not wheat.
+promise of food. On the usual modern reading (A. R. George; M. Worthington,
+*Ea's Duplicity in the Gilgamesh Flood Story*, 2019), the words are
+deliberately double: the "rain" that is coming is not wheat. (The passage is
+hard, and some editors call it opaque.) *Atrahasis*'s hero is more honest: he
+tells his town that his god and theirs have quarrelled, and that he can no
+longer live among them.
 
 **The boat: a cube (XI 57–67).**
 
@@ -235,8 +243,9 @@ lion come and diminish the people. … Let a wolf come and diminish the people.
 … Let there be a famine and ruin the land. … Let Urra come and destroy the
 people."* And he covers himself: *"I have not revealed the decision of the
 great gods. / I caused Atra-hasis to see a dream, and he heard the decision of
-the gods."* (The slip — calling the hero *Atra-hasis* — is how scholars know
-Tablet XI took its flood from *Atrahasis*.)
+the gods."* (The slip — calling the hero *Atra-hasis* — is one of the clues
+that Tablet XI took its flood from *Atrahasis*; J. H. Tigay's case rests on
+many shared lines besides.)
 
 **The survivor made a god (XI 199–206).**
 
@@ -381,7 +390,7 @@ the boat by scraping it off, and use it for amulets."*
 | **Who decides** | God alone | Enlil and the assembly, under oath | the great gods, under oath | An, Enlil, Enki, Ninhursag, under oath | Kronos |
 | **The warning** | God speaks to Noah directly | Enki, through a reed wall | Ea, through a reed wall | through a wall | a dream |
 | **The hero** | Noah, "rest": found favour; righteous (6:8–9) | "exceedingly wise," Enki's devotee | "he found life"; Ea's "servant," no reason given | "life of long days": humble, reverent | "piety" (at the end) |
-| **The neighbours** | nothing recorded — Noah never speaks | "my god disagrees with your god" | a cover story: plenty will rain on you | — | "to the gods, to pray for blessings" |
+| **The neighbours** | nothing recorded — Noah never speaks | his god and theirs have quarrelled | a cover story: plenty will rain on you | — | "to the gods, to pray for blessings" |
 | **The vessel** | *tēbâ*, a box 300×50×30, no pilot | round | a cube; a boatman | "huge boat" | 5 × 2 furlongs |
 | **On board** | 8 people; animals in pairs and sevens; food | family, kin, craftsmen, animals | silver, gold, family, kin, craftsmen, animals | animals, "seed of mankind" | family, friends, animals |
 | **The gods during** | "God remembered Noah" (8:1) | hungry, thirsty, terrified | cowering like dogs | — | — |
@@ -389,7 +398,7 @@ the boat by scraping it off, and use it for amulets."*
 | **Landing** | Ararat | (lost) | Nimush | — | Armenia |
 | **Birds** | raven; dove ×3 | (lost; a dove at Ugarit) | dove, swallow, raven | — | birds ×3 |
 | **Sacrifice** | "the LORD smelled the soothing aroma" (8:21) | the gods gather "like flies" | the gods gather "like flies" | oxen and sheep | altar, sacrifice |
-| **Who objects** | no one (Abraham will, 18:25) | Enki: punish the guilty | Ea: "On the sinner place his sin" | — | — |
+| **Who objects** | no human; God himself, to his own heart (8:21); later Abraham (18:25) | Enki: punish the guilty | Ea: "On the sinner place his sin" | — | — |
 | **The hero after** | a man of the soil; drunk; dies at 950 | "life like the gods" (Ugarit) | made like the gods, far away | eternal life, in Dilmun | taken to the gods |
 | **Humankind after** | "be fruitful and multiply"; human blood protected (9:1–7) | barren women, a baby-snatching demon, celibate priestesses | — | — | rebuild Babylon |
 | **Remembrance** | the bow; "I will remember my covenant" (9:15) | lapis flies at the goddess's neck | lapis flies at the goddess's neck | — | — |
@@ -399,43 +408,61 @@ the boat by scraping it off, and use it for amulets."*
 
 ## 7. How are the stories related?
 
-Readers of every kind agree that these stories are related — the same outline,
-and some of the same details, from the reed wall's warning to the birds. They
-disagree about **how**.
+Two different questions often get run together here.
 
-**Genesis borrowed and answered.** Since George Smith deciphered the flood
-tablet in 1872, many scholars have held that the Hebrew story came, directly
-or indirectly, from the Babylonian. L. W. King (1918): *"The general
-dependence of the biblical Versions upon the Babylonian legend as a whole has
-long been recognized."* Tikva Frymer-Kensky (*Biblical Archaeologist*, 1977)
-argued that Genesis knew the *Atrahasis* pattern — creation, a problem, a
-flood, a solution — and deliberately rejected its theme: Genesis is not about
-too many people, and it answers *Atrahasis*'s population controls with *"be
-fruitful"* and with laws against bloodshed. The single Babylonian word in
-Genesis 6:14, *kōper*, "pitch," supports some contact. *Its strength:* the
-details cluster exactly where the theology differs. *The question it has to
-answer:* a shared word, or a shared outline, does not prove copying.
+**Did the flood happen?** For the church, the New Testament settles that it
+did: Jesus set the days of Noah beside his own coming (Matthew 24:37–39; Luke
+17:26–27), and Peter set the flood beside the judgment to come (2 Peter 2:5;
+3:5–7). Many scholars on both sides of the next question also allow a real
+flood behind the tradition — J. H. Tigay, following W. W. Hallo, points to a
+flood in southern Mesopotamia around 2900 BCE, and K. A. Kitchen cites the
+same. What Christians debate is its extent: worldwide, or a vast regional
+flood (both views are on **[floods around the
+world](floods-around-the-world.html)**, §5). Archaeology cannot settle it: the
+flood layers found at Ur, Kish and Šuruppak are local and of different dates,
+so they cannot identify *this* flood.
 
-**Both remember the same event.** Others hold that Genesis and the
-Mesopotamian stories are independent memories of a real, ancient flood, and
-that Genesis tells it truly. A. R. Millard, an evangelical Assyriologist who
-co-edited *Atrahasis*, argued that borrowing has not been shown and that the
-two accounts describe the same flood (*Tyndale Bulletin*, 1967); K. A. Kitchen
-held that they go back to a common tradition without borrowing from each other
-(*Ancient Orient and Old Testament*, 1966). Even A. Heidel (1946), who called
-the versions "genetically related," judged the arguments for Babylonian
-dependence indecisive. *Its strength:* the Mesopotamians themselves dated their
-history by the flood. *The question it has to answer:* archaeology has found
-flood deposits at several Mesopotamian cities, but they are local and of
-different dates; the event, if there was one, cannot be pinned down.
+**How is Genesis related to the Mesopotamian tellings?** Two answers, and on
+the question of borrowing they cannot both be right.
 
-These two views are not exclusive. One can hold that a real flood lies behind
-all the stories, and that Genesis, written for a people who knew the others,
-tells it in a way that answers them. The New Testament treats Noah's flood as
-a real event (Matthew 24:37–39; 2 Peter 3:6).
+**Genesis knew the Mesopotamian telling and answered it.** Since George Smith
+deciphered the flood tablet in 1872, many scholars have held that the Hebrew
+story came, directly or indirectly, from the Babylonian. L. W. King (1918):
+*"The general dependence of the biblical Versions upon the Babylonian legend as
+a whole has long been recognized."* A distinct, twentieth-century thesis went
+further: Genesis tells the story in order to *answer* it. Umberto Cassuto
+(*From Noah to Abraham*, 1949), who rejected the two-source theory altogether,
+and Nahum Sarna (*Understanding Genesis*, 1966) read it so; Tikva
+Frymer-Kensky (*Biblical Archaeologist*, 1977) argued that Genesis knew the
+*Atrahasis* pattern — creation, a problem, a flood, a solution — and
+deliberately rejected its theme: Genesis is not about too many people, and it
+answers *Atrahasis*'s population controls with *"be fruitful"* and with laws
+against bloodshed. (She also read *ḥāmās* as bloodshed that pollutes the
+earth, compare Numbers 35:33, and the flood as more a cleansing than a
+punishment.) The answering runs through both strands that source critics
+separate: the Priestly telling has the pitch, the measurements, the mountain
+and the bow; the other has the seven days, the birds, the altar and the aroma.
+*Its strength:* the shared details cluster exactly where the theology differs.
+*The question it has to answer:* a shared word, or a shared outline, does not
+prove copying, and not every difference is a rebuttal.
 
-**What none of them settles** is what Genesis *means*. That is in the
-differences.
+**Both remember the same event, independently.** Others hold that Genesis and
+the Mesopotamian stories are independent memories of a real, ancient flood,
+and that Genesis tells it truly. A. R. Millard, an evangelical Assyriologist
+who co-edited *Atrahasis*, argued that borrowing has not been shown and that
+the two accounts describe the same flood (*Tyndale Bulletin*, 1967). K. A.
+Kitchen held that they go back to a common tradition without borrowing from
+each other, and added a rule from the ancient world: simple accounts grow into
+elaborate legends by addition, not the reverse — so Genesis need not be a
+cleaned-up *Atrahasis* (*Ancient Orient and Old Testament*, 1966). Even A.
+Heidel (1946), who called the versions "genetically related," judged the
+arguments for Babylonian dependence indecisive. *Its strength:* the
+Mesopotamians themselves dated their history by the flood. *The question it
+has to answer:* the density of shared details — down to the birds and the
+deity smelling the offering — is hard to explain without some literary
+contact.
+
+**What neither settles** is what Genesis *means*. That is in the differences.
 
 ---
 
@@ -468,9 +495,13 @@ An honest list, so that no difference is claimed that is not there.
   resolving never to do it again *"as I have just done"* (8:21).
 - **Who objects.** *A real difference, in an unexpected direction.* In
   Mesopotamia a god protests on moral grounds — punish the guilty, not
-  everyone. In Genesis no one objects to the flood; the protest *"Will not the
-  judge of the whole earth do what is right?"* comes later, from a man, at
-  Sodom (18:25).
+  everyone — though his alternatives (lion, wolf, famine, plague) still
+  "diminish the people" wholesale. In Genesis no human objects to the flood.
+  What Ea pleads for, God says to his own heart (8:21): in Babylon it took a
+  second god to say it. The human protest — *"Will not the judge of the whole
+  earth do what is right?"* — comes later, from Abraham, at Sodom (18:25), and
+  Ezekiel 14, which names Noah, keeps the question of the righteous and the
+  wicked open.
 - **The aftermath.** *The strongest structural contrast.* Fewer births in
   *Atrahasis*; *"be fruitful and multiply"* and a law protecting human life in
   Genesis (9:1–7).
@@ -515,15 +546,20 @@ An honest list, so that no difference is claimed that is not there.
   No open English translation of *Atrahasis* Tablet III exists.
 - **Commentary quoted:** L. W. King, *Legends of Babylon and Egypt in Relation
   to Hebrew Tradition* (Schweich Lectures, 1918) — public domain.
+- **Described:** J. H. Tigay, *The Evolution of the Gilgamesh Epic* (1982), for
+  the case that Tablet XI borrows from *Atrahasis*; W. G. Lambert, "A New Look
+  at the Babylonian Background of Genesis," *Journal of Theological Studies* 16
+  (1965), known here through A. R. Millard's summary, for the Late Bronze Age as
+  the period of transmission; U. Cassuto, *From Noah to Abraham* (1949; Eng.
+  1964), and N. Sarna, *Understanding Genesis* (1966), for Genesis as an answer
+  to Mesopotamia.
 - **Described, not quoted** (in copyright): T. Frymer-Kensky, "The Atrahasis
   Epic and Its Significance for Our Understanding of Genesis 1–9," *Biblical
   Archaeologist* 40 (1977): 147–155; A. R. Millard, "A New Babylonian 'Genesis'
   Story," *Tyndale Bulletin* 18 (1967): 3–18; K. A. Kitchen, *Ancient Orient
   and Old Testament* (1966) and *On the Reliability of the Old Testament*
   (2003); A. Heidel, *The Gilgamesh Epic and Old Testament Parallels* (1946,
-  2nd ed. 1949); J. H. Tigay, *The Evolution of the Gilgamesh Epic* (1982); W.
-  G. Lambert, "A New Look at the Babylonian Background of Genesis," *Journal of
-  Theological Studies* 16 (1965); A. D. Kilmer (1972), W. L. Moran (1971), R.
+  2nd ed. 1949); A. D. Kilmer (1972), W. L. Moran (1971), R.
   Oden (1981), P. Michalowski (1990), M. Worthington (2019).
 - **Scripture** is the NET Bible: *Scripture quoted by permission from the NET
   Bible® copyright ©1996, 2019 by Biblical Studies Press, L.L.C.,

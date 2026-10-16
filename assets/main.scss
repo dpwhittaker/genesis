@@ -170,7 +170,8 @@
    grid scrolls sideways instead of pushing the page wider. */
 .dot-grid { font-size: 0.85em; }
 .dot-grid th, .dot-grid td { padding: 3px 3px !important; text-align: center; white-space: nowrap; }
-.dot-grid th:first-child, .dot-grid td:first-child { text-align: left; white-space: normal; min-width: 15em; }
+.dot-grid th:first-child, .dot-grid td:first-child { text-align: left; white-space: normal; min-width: 13em; }
+.dot-grid th { white-space: normal !important; line-height: 1.15; vertical-align: bottom; }
 .dot-grid td:nth-child(2) { font-weight: 700; }
 .dot-grid td:not(:first-child) { font-size: 1.3em; line-height: 1; }
 @media screen and (max-width: 800px) {

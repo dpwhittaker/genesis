@@ -55,6 +55,11 @@ LORD commanded him"* (7:5). Noah's first words in the Bible are the curse and
 blessings of 9:25–27, after the flood is over. (In *Gilgamesh*, by contrast,
 the survivor tells the whole story himself, in the first person.)
 
+God's first words to him are starker than the NET lets them sound. *"I have
+decided that all living creatures must die"* (6:13) is, in Hebrew, *qēṣ
+kol-bāśār bāʾ ləpānay* — "the end of all flesh has come before me" — the
+idiom the prophets use for doom (*"The end has come,"* Amos 8:2; Ezekiel 7:2).
+
 ### 2. *Tēbâ*: a box, not a ship
 
 The word for the ark, ***tēbâ***, occurs 28 times in the Bible: 26 times in
@@ -67,24 +72,31 @@ never appears in the Flood story, and neither does any word for a sailor, a
 pilot, an oar, a mast or a sail. The ark has a door, decks and a roof, and
 nothing to steer it with.
 
-### 3. *Kōper*: pitch — and a borrowed word
+### 3. *Kōper*: pitch — and perhaps a borrowed word
 
 *"Cover it with pitch inside and out"* (6:14) is, in Hebrew, *wəkāpartā… bakkōper*
 — "pitch it with pitch." This ***kōper*** occurs **only here** in the Bible;
-everywhere else the Bible's word for bitumen is *ḥēmār* (11:3; 14:10; Exodus
-2:3). It is the Babylonian word: Akkadian ***kupru***, which, as S. R. Driver
-noted in 1904, is *"used repeatedly by Nebuchadnezzar in his descriptions of
+everywhere else the Bible's words are *ḥēmār*, "bitumen" (11:3; 14:10), and
+*zepet*, "pitch" — Moses' basket is sealed with both (Exodus 2:3), not with
+*kōper*. It matches the Babylonian word, Akkadian ***kupru***, which, as S. R.
+Driver noted in 1904, is *"used repeatedly by Nebuchadnezzar in his descriptions of
 buildings, and also occurring in the Babylonian account of the Flood"* —
 *"it is possible therefore that kōpher came into Heb., with the story, from
-Babylonia."* The word itself may be a souvenir of the story the first hearers
-already knew.
+Babylonia."* The word may be a souvenir of the story the first hearers
+already knew. *May*: bitumen was a Mesopotamian trade good, and its name could
+have travelled with the cargo rather than the story (A. Heidel made this
+point). The stronger evidence is the whole cluster of shared details — the
+mountain, the birds, the altar, the aroma.
 
 You may have heard that *kōper* is the word for *atonement*. The letters are
-the same (*k-p-r*), and preachers have long made the connection; but the
-lexicons treat them as two different words that happen to sound alike. The
-verb in 6:14 is the only time in the Bible the root is used in its simple
-form; its 101 other uses, in other forms, belong to the other word — "atone,"
-"appease."
+the same (*k-p-r*), and preachers have long made the connection. The standard
+lexicon (Brown–Driver–Briggs, 1906) lists them as two different words. Whether
+they share a distant ancestor is still debated — Akkadian has *kapāru*, "wipe,
+smear," and *kuppuru*, "purify," and some scholars (Jacob Milgrom, for one)
+read the Bible's *kipper* as "purge." Either way, the verb in 6:14 — the only
+time in the Bible this verb appears in its simple form — means "coat it with
+pitch." Its 101 other uses, all in other forms, mean "atone," "appease,"
+"purge." Genesis 6:14 is about waterproofing, not atonement.
 
 ### 4. 300 × 50 × 30
 
@@ -92,17 +104,24 @@ form; its 101 other uses, in other forms, belong to the other word — "atone,"
 in Hebrew, 300 cubits by 50 by 30. Six times as long as it is wide; a long,
 flat box, like a barge. (The boat in *Gilgamesh* XI is a cube.) It has three
 decks, a door in the side, and a roof or opening called a ***ṣōhar***, a word
-found nowhere else in this form — the rabbis heard in it *ṣohŏrayim*,
-"noon," and imagined a jewel shining in the ark like the midday sun. The
+found nowhere else in this form; *ṣohŏrayim*, from the same root, means
+"noon." The rabbis split over it: *"Rabbi Abba bar Kahana said: It was a
+window. Rabbi Levi said: It was a [luminous] precious stone"* (*Genesis Rabbah*
+31:11) — and Rashi gives both. The
 *"rooms"* of 6:14 are literally ***qinnîm***, "nests."
 
-### 5. *Bərît*: the first covenant, with everything that breathes
+### 5. *Bərît*: the first time the Bible says "covenant"
 
 ***Bərît***, covenant, appears for the first time in the Bible at 6:18 — *"but
-I will confirm my covenant with you"* — and then **seven times** in 9:8–17.
+I will confirm my covenant with you"* — a promise made before the rain:
+covenant comes before rescue. (Some Christian traditions speak of an earlier
+covenant with Adam; the Westminster Confession calls it "the first covenant."
+The *word* first appears here.) Then it comes **seven times** in 9:8–17.
 The partners keep widening: *"with you and your descendants after you and with
 every living creature that is with you"* (9:9–10), and finally *"between me
-and the earth"* (9:13). Nothing is asked of them in return. And the sign is
+and the earth"* (9:13). The animals are named partners, not cargo. The
+promise has no conditions; the laws of 9:1–7 come before it, not as its
+price. And the sign is
 for *God* to look at: *"I will notice it and remember the perpetual covenant"*
 (9:16). The verb is *hēqîm*, "establish, confirm," not "cut" — the only
 "cutting" in this covenant is the promise that no flesh will be *cut off*
@@ -123,7 +142,11 @@ LORD called her to mind."*
 
 *"And the LORD smelled the soothing aroma"* (8:21). ***Nîḥōaḥ***, "soothing,
 restful," occurs 43 times in the Bible, 39 of them in the Torah — and 8:21 is
-the first. Every later use in the Torah is in the laws of sacrifice. And the
+the first. All but one of its later uses in the Torah are in the laws of
+sacrifice; the exception is a threat *not* to smell them (Leviticus 26:31). The
+Greek Bible translates it *osmē euōdias*, "a fragrant aroma" — the phrase Paul
+uses of Christ's self-offering: *"a sacrificial and fragrant offering to God"*
+(Ephesians 5:2). And the
 sound of Noah's name, *nōaḥ*, runs through the whole ending: the ark *rested*
 (*wattānaḥ*, 8:4); the dove found no *resting place* (*mānôaḥ*, 8:9); the
 LORD smelled the *restful* aroma (*nîḥōaḥ*, 8:21).
@@ -167,11 +190,16 @@ have set in the cloud."* ***Qešet*** occurs 76 times in the Bible. In four it
 means the rainbow (Genesis 9:13, 14, 16 and Ezekiel 1:28). In the other 72 it
 is the archer's weapon — including God's own: *"He has prepared to shoot his
 bow"* (Psalm 7:12); *"He prepared his bow like an enemy"* (Lamentations 2:4);
-*"Your bow is ready for action"* (Habakkuk 3:9). Since the nineteenth century
-many scholars have read 9:13 as God hanging up his war-bow when the storm is
-over; others think *bow* is simply the shape (both sides are on **[Noah among
-his readers](early-readers.html)**, §5). Josephus already called it *"the bow
-of God."*
+*"Your bow is ready for action"* (Habakkuk 3:9). Josephus already called it
+*"the bow of God"*; Nachmanides, in the thirteenth century, reported earlier
+commentators who saw a war-bow turned away from the earth, as warriors invert
+their weapons to sue for peace; and many modern scholars since Wellhausen and
+Gunkel have read 9:13 as God hanging up his war-bow when the storm is over.
+Others think *bow* simply describes the shape (both sides are on **[Noah among
+his readers](early-readers.html)**, §5). One prophet sets the two bows side by
+side, though he does not cite Genesis: in the coming covenant *"with the wild
+animals, the birds of the air, and the creatures that crawl on the ground,"*
+God says, *"I will abolish the warrior's bow and sword"* (Hosea 2:18).
 
 ### 11. "A man of the soil" (9:20)
 
@@ -198,7 +226,8 @@ question "why Canaan?", is on **[Noah among his readers](early-readers.html)**,
 
 ## Firsts in Genesis 6–9
 
-The Flood story is full of first appearances: the first **covenant** (6:18);
+The Flood story is full of first appearances: the first use of the word
+**covenant** (6:18);
 the first **altar** (8:20); the first **soothing aroma** (8:21); the first
 **olive** (8:11); the first **cloud** (9:13) — its next appearance is the
 pillar of cloud in Exodus 13:21; the first **sign of a covenant** (9:12; the
@@ -218,9 +247,12 @@ ours. Lexicon: F. Brown, S. R. Driver and C. A. Briggs, *A Hebrew and English
 Lexicon of the Old Testament* (Oxford, 1906), pp. 498 and 1061, public domain.
 Commentary: S. R. Driver, *The Book of Genesis* (Westminster Commentaries,
 1904), pp. 87–88, 99, public domain, via
-[archive.org](https://archive.org/details/bookofgenesiswit00driv). The rabbis'
-"noon" for the *ṣōhar* is R. Yoḥanan in *Sanhedrin* 108b. Retrieved
-2026-10-15.
+[archive.org](https://archive.org/details/bookofgenesiswit00driv). *Genesis
+Rabbah* is quoted from the Sefaria Midrash Rabbah (2022), **CC BY**; Rashi from
+M. Rosenbaum and A. M. Silbermann (1929–34), public domain; Nachmanides and
+Josephus as credited on **[Noah among his readers](early-readers.html)**.
+Described, not quoted: A. Heidel, *The Gilgamesh Epic and Old Testament
+Parallels* (1946); J. Milgrom, *Leviticus 1–16* (1991). Retrieved 2026-10-16.
 
 [← Back to Session 10](../)
 {: .no-print}

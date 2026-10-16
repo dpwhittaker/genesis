@@ -9,8 +9,7 @@ build, so this file is for whoever builds the session, not for the class.
 
 Written: handout `index.md` (*The Flood Everyone Knew*) and four source sheets —
 `texts/the-neighbors-floods.md`, `texts/floods-around-the-world.md`,
-`texts/the-flood-in-hebrew.md`, `texts/early-readers.md`. Not yet done: panel
-review, print pass (`print-session` → `10-the-flood.pdf`), podcasts
+`texts/the-flood-in-hebrew.md`, `texts/early-readers.md`. Panel round 1 done (below). Not yet done: print pass (`print-session` → `10-the-flood.pdf`), podcasts
 (`scripted-podcast`). The PDF and podcast lines in the handout are absent until
 those exist.
 
@@ -32,6 +31,80 @@ details appear anywhere else, with the three explanations of why flood stories
 are widespread, each with its hard question. 9:18–29 is covered only as
 divergence 7 (Noah stays mortal) and the 9:25 note; the Ham/Canaan episode and
 Genesis 10 are handed to Session 11.
+
+## Panel review, round 1 (2026-10-16)
+
+Five seats ran independently on the first draft. Convergent findings (two or
+more seats, by different routes) and what was done:
+
+- **"How are they related?" mixed two questions** (evangelical, mainline,
+  modern Jewish): split into *Did it happen?* (the NT settles it for the class;
+  Genesis tells it as history; the global/regional extent debate named, one
+  sentence in the handout, the case on the world sheet §5) and *How are the
+  stories related?* (dependence-and-answer — King; Cassuto, who rejected J/P;
+  Sarna; Frymer-Kensky — vs independent memory — Millard; Kitchen's "simple
+  grows into elaborate"; Heidel's caution), each with its hard question; "many
+  readers hold both" and "whichever you hold" dropped. Both strands touch the
+  Mesopotamian story (P: pitch, measurements, mountain, bow; non-P: seven days,
+  birds, altar, aroma) — added.
+- ***kōper* overclaimed** (evangelical, mainline, modern Jewish): "shows" →
+  "suggests"; Heidel's trade caveat; *zepet* added; the *kipper* homonym
+  paragraph fixed (common ancestor debated; Milgrom's "purge").
+- **The bow** (all five, from four directions): it is **Anu** who raises
+  Marduk's bow in *Enuma Elish* (passive now); the war-bow reading is
+  **Ramban's** (13th c., "the way of warriors to invert the instruments of
+  war… when calling for peace"), not first 19th-century; *Genesis Rabbah* 35:3
+  quoted with its own retraction ("Is that possible? … like the straw"); "read
+  it the Hebrew way — a weapon hung up" replaced by the *Berakhot* 59a blessing
+  ("Blessed…Who remembers the covenant and is faithful to His covenant and
+  fulfills His word").
+- **The 9:25 note was selective** (mainline, modern Jewish, rabbi): GR 36:7
+  now gives R. Neḥemya too; the "darkened" folk-tales in GR 36:7 and *Sanhedrin*
+  108b are acknowledged (quoted on the sheet with Goldenberg's frame, only
+  named in the handout); Noah, not God, speaks the curse; "segregation"; Ibn
+  Ezra on 9:25 (CC BY-NC) as the oldest explicit Jewish rejection of the racial
+  reading; the chapter's own answer (9:6, 9:19, Acts 17:26); "the churches" →
+  "many churches" (evangelical, mainline, skeptic).
+- **§6 "Who objects"** (all five): Genesis's own answer (6:12; 7:1) and what it
+  leaves out; Ea's alternatives still collective; "no human objects — but God
+  says Ea's plea to his own heart" (8:21); the Zohar faulting Noah for not
+  interceding; Sodom still falls, Lot is rescued; Luke 17:26–30 and 2 Pet
+  2:5–9 pair Noah and Lot; Ezekiel 14.
+- **The grid was built from Genesis's own rows** (skeptic, mainline): caveat
+  added; a third band ("Other stories' meanings": gods need feeding, survivor
+  immortal, animals rescue, humankind remade, it will happen again) where
+  Genesis is blank; "Never again" and "covenant" merged; Greece's animals now
+  ○; the Greek "earliest full record" explained.
+- **"The closer the match, the later the record" is false for *Atrahasis***
+  (evangelical, skeptic): now "outside Genesis's own neighbourhood."
+- **The Noahide laws' source** (rabbi, mainline, modern Jewish, skeptic): the
+  Talmud derives them from 2:16 (*Sanhedrin* 56b, with 9:6 as proof text);
+  Rambam: six to Adam, the limb from a living animal added for Noah (*Kings*
+  9:1); "nothing asked in return" reconciled ("the promise has no conditions;
+  the laws come before it, not as its price").
+- **Smaller corrections:** "across the water" (Moses' basket sits in the
+  reeds); *nîḥōaḥ* "all but one"; Nahua expect their age to end, not by water;
+  China "in the Noah sense"; "oldest dated copy"; Nisir (now Nimush); Gen 6:13
+  literal; Innu **Messou** (1633) vs Anishinaabe **Nanabozho**; "first
+  covenant" → first use of the *word*; 1 Pet 3:21 quoted whole; 2 Pet 3:5–7,
+  3:9 in So-what 4 ("Never again — but not never"); Heb 11:7 with the herald;
+  GR 30:9's parables belong to R. Yehuda and R. Neḥemya; GR 34:12 "until
+  Solomon"; ṣōhar both readings; *Avot* 5:2 in full; Rashi 9:7 (blessing vs
+  command; abstaining from children likened to bloodshed); Sifrei Bamidbar 143
+  (no eating before God, with Ps 50); Ramban 6:13 (violence a rational
+  commandment); 8:22 vs drought and famine; the animals as covenant partners;
+  Noah's unnamed, silent wife (Jubilees' Emzara; GR 23:3 Naamah; Rashi 7:7);
+  a "flood at the font" section (Luther's Flood Prayer, the Easter Vigil, RCL
+  Lent 1B); Acts 14:17 as the frame for the world stories; the "Bible contact"
+  column renamed and the Hawaiian convert read as a reader.
+- **Not taken / deferred:** the spiritual "God gave Noah the rainbow sign… the
+  fire next time" (no public-domain printing traced; Baldwin's title) — worth
+  finding for Session 11 or a podcast; the skeptic's recollection that Enki
+  *refuses the oath before the flood* at the end of OB *Atrahasis* II (Lambert &
+  Millard II vii–viii; Dalley) — not in Wasserman 2020 or any downloaded
+  source, so not used; check a library copy before adding. Dumbrell's *Covenant
+  and Creation* (not verified). Optional NT threads (Eph 5:2 went on the
+  Hebrew sheet; James 3:9 not added).
 
 ## Research and verification (2026-10-15)
 
