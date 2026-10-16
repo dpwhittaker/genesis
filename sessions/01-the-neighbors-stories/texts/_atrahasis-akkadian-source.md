@@ -60,13 +60,15 @@ on 2026-06-23, only some chapters carry text:
 |---|---|---|---|
 | **Old Babylonian** | **I** | included below | gods' toil, the strike, the **creation of mankind**, start of overpopulation (321 verses, 6 columns) |
 | Old Babylonian | II, III, Schøyen | empty placeholder | (the OB plagues & flood — not yet uploaded) |
-| **Standard Babylonian** | **I, II, III** | included as SUPPLEMENT | later recension; II–III carry the **plagues and the flood** |
+| **Standard Babylonian** | **I, II, III** | included as SUPPLEMENT | later recension of the **strike and the creation of humankind** (the same ground as OB I). *Corrected 2026-10-15: an earlier version of this note said II–III carry the plagues and the flood; they do not.* |
 | Standard Babylonian | IV, V, VI, VIII, X | empty placeholder | |
 | Middle Babylonian | Bab₂, Ug₂ | minor fragments, not included | |
 
-Because the Old Babylonian **plague and flood** tablets (OB II, III) are not yet on eBL, the
-**Standard Babylonian** Tablets I–III are appended **as a supplement** so the plague-and-flood
-narrative is available. They are a **later recension** — clearly labelled, not Old Babylonian.
+The Old Babylonian **plague and flood** tablets (OB II, III) are still not on eBL (checked
+again 2026-10-16). The **Standard Babylonian** Tablets I–III are appended **as a supplement**;
+they are a **later recension** of the gods' strike and the creation of humankind — clearly
+labelled, not Old Babylonian, and **not** the flood. For the flood itself see Session 10's
+[the neighbours' floods](../../10-the-flood/texts/the-neighbors-floods.md).
 
 ## Notation (eBL ATF)
 
@@ -1259,7 +1261,7 @@ $ end of column
 
 ---
 
-# Standard Babylonian recension — SUPPLEMENT (later text, for the plagues & flood)
+# Standard Babylonian recension — SUPPLEMENT (later text: the strike and the creation of humankind)
 
 *Included only because OB II/III are not yet on eBL. This is the first-millennium
 recension, not the Old Babylonian one.*
@@ -2247,7 +2249,7 @@ BabNB1 o i 6'. [x x x id-d]u*-u₂* e-[lu x x x x]
 #note: Collated on excavation photo (@bib{PhBab@1805}).
 ```
 
-## SB Tablet III — "Mama Made Ready To Speak" (the flood)
+## SB Tablet III — "Mama Made Ready To Speak" (the creation of humankind, continued)
 
 ```
 &X000001 = L I.1 Story of the Flood (*Atraḫasīs*) SB III
