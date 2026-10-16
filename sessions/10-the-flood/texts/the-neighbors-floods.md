@@ -434,9 +434,7 @@ story came, directly or indirectly, from the Babylonian. L. W. King (1918):
 a whole has long been recognized."* A distinct, twentieth-century thesis went
 further: Genesis tells the story in order to *answer* it. Umberto Cassuto
 (*From Noah to Abraham*, 1949), who rejected the documentary hypothesis altogether,
-and Nahum Sarna (*Understanding Genesis*, 1966) read it so, and so does the
-evangelical Gordon Wenham, for whom Genesis was *"a truly revolutionary work
-that fundamentally challenged the beliefs of that era"* (*Word & World*, 1994); Tikva
+and Nahum Sarna (*Understanding Genesis*, 1966) read it so; Tikva
 Frymer-Kensky (*Biblical Archaeologist*, 1977) argued that Genesis knew the
 *Atrahasis* pattern — creation, a problem, a flood, a solution — and
 deliberately rejected its theme: Genesis is not about too many people, and it
@@ -462,7 +460,12 @@ elaborate legends by addition, not the reverse — so Genesis need not be a
 cleaned-up *Atrahasis* (*Ancient Orient and Old Testament*, 1966). (The rule is
 contested: *Gilgamesh* XI is itself a shortened retelling of *Atrahasis*.) Even A.
 Heidel (1946), who called the versions "genetically related," judged the
-arguments for Babylonian dependence indecisive. *Its strength:* the
+arguments for Babylonian dependence indecisive. And the evangelical Gordon
+Wenham, who reads Genesis as *"a truly revolutionary work that fundamentally
+challenged the beliefs of that era,"* judged the parallels *"not so close that
+we can suppose the writer of Genesis borrowed from them or had even read them.
+The texts reflect the common ancient oriental view"* (*Word & World*, 1994) —
+the answering, without the borrowing. *Its strength:* the
 Mesopotamians themselves dated their history by the flood. *The question it
 has to answer:* the shared source has never been found, and the density of
 shared details — down to the birds sent out in turn and the deity smelling the

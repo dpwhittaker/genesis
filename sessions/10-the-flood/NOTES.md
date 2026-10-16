@@ -200,6 +200,21 @@ one to three MUSTs, all fixed:
   since"; the handout's credits no longer list sources it stopped quoting;
   Rav Pappa's combined blessing; the herald/ark wording on the sheet.
 
+## Panel review, round 4 (2026-10-16)
+
+Rabbi, evangelical, skeptic: **YES**. Modern Jewish: NO — **Wenham was in the
+wrong camp**: the very article quoted says the parallels are *"not so close
+that we can suppose the writer of Genesis borrowed from them or had even read
+them"* (verified in rgt.txt). He now sits with Millard and Kitchen ("the
+answering, without the borrowing"), and the Anglican S. R. Driver (already
+quoted) stands for the borrowing view among churchmen. Mainline: NO — the
+readers sheet's credits lacked *Yevamot* 63b (now *Sanhedrin* 56a–b, 108a–b;
+*Yevamot* 63b; *Berakhot* 59a). Small SHOULDs also taken: "stories that make
+dark skin a punishment, troubling in themselves, but not arguments for
+slavery"; "come late, or after missionaries"; the Maya cause "written down
+after the conquest"; "a line begun by Josephus"; "even men as righteous as
+Noah, Daniel and Job."
+
 ## Research and verification (2026-10-15)
 
 Four parallel agents (Mesopotamia; Genesis and its readers; world floods —

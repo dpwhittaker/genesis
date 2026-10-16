@@ -102,8 +102,8 @@ waters of Noah's flood would never again cover the earth. In the same way I
 have vowed that I will not be angry at you or shout at you. Even if the
 mountains are removed and the hills displaced, my devotion will not be removed
 from you, nor will my covenant of friendship be displaced"* (Isaiah 54:9–10).
-Ezekiel names Noah with Daniel and Job as men so righteous that *"they would
-save only their own lives by their righteousness"* (Ezekiel 14:14).
+Ezekiel says that even men as righteous as Noah, Daniel and Job *"would save
+only their own lives by their righteousness"* (Ezekiel 14:14).
 
 **The two arks.** Matthew, Luke, Hebrews and 1 Peter call Noah's ark
 *kibōtos*, and Hebrews 9:4 uses the same word for the ark of the covenant. In
@@ -560,7 +560,7 @@ churches, the first Sunday in Lent in Year B pairs God's covenant with Noah
   Pseudepigrapha of the Old Testament* I (Oxford, 1913), public domain.
 - ***Sibylline Oracles***: M. S. Terry (2nd ed., 1899), public domain, via
   Wikisource.
-- **The Talmud** (*Sanhedrin* 56a, 108a–b): the William Davidson Edition
+- **The Talmud** (*Sanhedrin* 56a–b, 108a–b; *Yevamot* 63b; *Berakhot* 59a): the William Davidson Edition
   (Koren–Steinsaltz), **CC BY-NC**, via [Sefaria](https://www.sefaria.org);
   words in square brackets are Steinsaltz's. ***Genesis Rabbah***: the Sefaria
   Midrash Rabbah (2022), **CC BY**. ***Pirkei Avot***: *Mishnah Yomit*, trans.

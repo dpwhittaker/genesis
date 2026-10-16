@@ -103,16 +103,19 @@ earth"* (41:57). This session does not settle that; both views are on
 not this, and both answers are held by people who believe it did. But on
 whether Genesis drew on the Mesopotamian telling itself, they cannot both be
 right. **Genesis knew the Mesopotamian telling and answered it.** That Genesis drew on
-the Mesopotamian story has been the majority view since 1872; that it does so
-in order to *answer* it is a twentieth-century reading, held by Jewish scholars
-such as Umberto Cassuto, Nahum Sarna and Tikva Frymer-Kensky, and by the
-evangelical Gordon Wenham, who called Genesis *"a truly revolutionary work that
-fundamentally challenged the beliefs of that era"* (*Word & World*, 1994). *Its
+the Mesopotamian story has been the majority view since 1872, among churchmen
+such as the Anglican S. R. Driver quoted above; that it does so in order to
+*answer* it is a twentieth-century reading, developed by Jewish scholars such
+as Umberto Cassuto, Nahum Sarna and Tikva Frymer-Kensky. *Its
 strength:* the sharpest differences fall where the theology is at stake. *Its hard question:* shared details do not prove copying, and not
 every difference is a rebuttal. **Neither copied the other; both draw on an
 older, shared tradition** — the view of the evangelical Assyriologist Alan
 Millard, who co-edited *Atrahasis* and argued that borrowing had yet to be
-shown (*Tyndale Bulletin*, 1967), and of Kenneth Kitchen. *Its strength:* the
+shown (*Tyndale Bulletin*, 1967), and of Kenneth Kitchen. Gordon Wenham, also
+an evangelical, reads Genesis as *"a truly revolutionary work that fundamentally
+challenged the beliefs of that era,"* yet judged the parallels *"not so close
+that we can suppose the writer of Genesis borrowed from them or had even read
+them"* (*Word & World*, 1994): the answering, without the borrowing. *Its strength:* the
 tradition is very old — the Mesopotamians dated their history by the flood
 (the Sumerian King List, Session 7: *"Then the flood swept over"*) — and
 Genesis differs even where nothing theological is at stake, as in the ark's
@@ -324,7 +327,8 @@ astonishing"* — one answered that God had already blessed Noah's sons (9:1),
 another that Canaan himself had seen and told (*Genesis Rabbah* 36:7). The same
 midrash also keeps folk-tales of Ham emerging from the ark "darkened" and of
 Canaan "darkened" by the curse, and the Talmud says Ham was "afflicted in his
-skin" — stories about skin colour, not arguments for slavery. Centuries later, in the Islamic and Christian Near East and then in
+skin" — stories that make dark skin a punishment, troubling in themselves,
+but not arguments for slavery. Centuries later, in the Islamic and Christian Near East and then in
 Europe and America, such tales were fused with this verse into a "curse of
 Ham," used to justify enslaving Black Africans and preached in America in
 defence of slavery and segregation. The text says no such thing. The chapter
@@ -517,7 +521,8 @@ that the others do not.** The outline — water, a warning, a boat, a mountain �
 is common, and its fullest form clusters in three traditions: Mesopotamia,
 Greece and India. A few echoes of Genesis's meaning are early and apparently
 independent — India's blessing of offspring, Ovid's righteous couple, the
-Maya's moral cause, which looks native. But the details that match Genesis most
+Maya's moral cause, which looks native though it was written down after the
+conquest. But the details that match Genesis most
 closely — pairs of animals, the dove, the rainbow, eight survivors — turn up
 outside the Near East **only in late Greek tellings that borrowed from the
 east, or in records made after missionaries arrived**. In 1823 a missionary in Hawaiʻi preached on Noah,
@@ -531,9 +536,9 @@ Mapuche all looked for destruction to come again.
 
 **Why are there so many?** Three answers, which can be combined (each is set
 out on the sheet). **One flood, remembered** — narrowly, a real flood in
-Mesopotamia behind the Near Eastern stories; widely, as Josephus argued and many Christians since, the nations' fading
-memories of Noah. (The wider form's hard question: outside the Near East, the
-closest matches come after missionaries, and Africa, where
+Mesopotamia behind the Near Eastern stories; widely, in a line begun by Josephus and held by many Christians since, the
+nations' fading memories of Noah. (The wider form's hard question: outside the
+Near East, the closest matches come late, or after missionaries, and Africa, where
 Genesis 10 sends Ham's sons, has almost none.) **Floods happen wherever people
 live** — a flood that fills one valley is the end of the world for those who
 live there; and Egypt, where the Nile rose gently, has no flood story at all.
