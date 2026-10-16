@@ -9,7 +9,7 @@ build, so this file is for whoever builds the session, not for the class.
 
 Written: handout `index.md` (*The Flood Everyone Knew*) and four source sheets —
 `texts/the-neighbors-floods.md`, `texts/floods-around-the-world.md`,
-`texts/the-flood-in-hebrew.md`, `texts/early-readers.md`. Panel round 1 done (below). Not yet done: print pass (`print-session` → `10-the-flood.pdf`), podcasts
+`texts/the-flood-in-hebrew.md`, `texts/early-readers.md`. Panel review done — five rounds to equilibrium (all five seats YES, 2026-10-16; below). Not yet done: print pass (`print-session` → `10-the-flood.pdf`), podcasts
 (`scripted-podcast`). The PDF and podcast lines in the handout are absent until
 those exist.
 
@@ -199,6 +199,13 @@ one to three MUSTs, all fixed:
   "twenty-six stories besides Genesis"; "as Josephus argued and many Christians
   since"; the handout's credits no longer list sources it stopped quoting;
   Rav Pappa's combined blessing; the herald/ark wording on the sheet.
+
+## Panel review, round 5 (2026-10-16) — equilibrium
+
+Modern Jewish and mainline, the two seats still at NO after round 4, re-checked
+their fixes: both **YES**, no new errors. With rabbi, evangelical and skeptic
+YES in round 4, all five seats are at equilibrium. Last optional point taken:
+*Sanhedrin* 108b cited in the handout's 9:25 note.
 
 ## Panel review, round 4 (2026-10-16)
 

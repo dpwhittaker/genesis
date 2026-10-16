@@ -327,7 +327,7 @@ astonishing"* — one answered that God had already blessed Noah's sons (9:1),
 another that Canaan himself had seen and told (*Genesis Rabbah* 36:7). The same
 midrash also keeps folk-tales of Ham emerging from the ark "darkened" and of
 Canaan "darkened" by the curse, and the Talmud says Ham was "afflicted in his
-skin" — stories that make dark skin a punishment, troubling in themselves,
+skin" (*Sanhedrin* 108b) — stories that make dark skin a punishment, troubling in themselves,
 but not arguments for slavery. Centuries later, in the Islamic and Christian Near East and then in
 Europe and America, such tales were fused with this verse into a "curse of
 Ham," used to justify enslaving Black Africans and preached in America in
