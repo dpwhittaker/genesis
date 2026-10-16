@@ -434,7 +434,9 @@ story came, directly or indirectly, from the Babylonian. L. W. King (1918):
 a whole has long been recognized."* A distinct, twentieth-century thesis went
 further: Genesis tells the story in order to *answer* it. Umberto Cassuto
 (*From Noah to Abraham*, 1949), who rejected the documentary hypothesis altogether,
-and Nahum Sarna (*Understanding Genesis*, 1966) read it so; Tikva
+and Nahum Sarna (*Understanding Genesis*, 1966) read it so, and so does the
+evangelical Gordon Wenham, for whom Genesis was *"a truly revolutionary work
+that fundamentally challenged the beliefs of that era"* (*Word & World*, 1994); Tikva
 Frymer-Kensky (*Biblical Archaeologist*, 1977) argued that Genesis knew the
 *Atrahasis* pattern — creation, a problem, a flood, a solution — and
 deliberately rejected its theme: Genesis is not about too many people, and it
@@ -444,7 +446,7 @@ earth, compare Numbers 35:33, and the flood as more a cleansing than a
 punishment.) The answering runs through both strands that source critics
 separate: the Priestly telling has the pitch, the measurements, the mountain
 and the bow; the other has the seven days, the birds, the altar and the aroma.
-*Its strength:* the shared details cluster exactly where the theology differs.
+*Its strength:* the sharpest differences fall where the theology is at stake.
 *The question it has to answer:* a shared word, or a shared outline, does not
 prove copying, and not every difference is a rebuttal.
 
@@ -501,8 +503,9 @@ An honest list, so that no difference is claimed that is not there.
   Mesopotamia a god protests on moral grounds — punish the guilty, not
   everyone — though his alternatives (lion, wolf, famine, plague) still
   "diminish the people" wholesale. In Genesis no human objects to the flood.
-  What Ea pleads for, God says to his own heart (8:21): in Babylon it took a
-  second god to say it. The human protest — *"Will not the judge of the whole
+  What Ea pleads for, God says to his own heart (8:21), on a different
+  ground — not "punish only the sinner" but "even though the inclination of
+  their minds is evil": in Babylon it took a second god to say it. The human protest — *"Will not the judge of the whole
   earth do what is right?"* — comes later, from Abraham, at Sodom (18:25), and
   Ezekiel 14, which names Noah, keeps the question of the righteous and the
   wicked open — with nearly Ea's own list of lesser judgments: *"sword, famine,
@@ -551,6 +554,8 @@ An honest list, so that no difference is claimed that is not there.
   No open English translation of *Atrahasis* Tablet III exists.
 - **Commentary quoted:** L. W. King, *Legends of Babylon and Egypt in Relation
   to Hebrew Tradition* (Schweich Lectures, 1918) — public domain.
+- **Quoted briefly:** G. J. Wenham, "Reading Genesis Today," *Word & World* 14
+  (1994): 125–134.
 - **Described:** J. H. Tigay, *The Evolution of the Gilgamesh Epic* (1982), for
   the case that Tablet XI borrows from *Atrahasis*; W. G. Lambert, "A New Look
   at the Babylonian Background of Genesis," *Journal of Theological Studies* 16

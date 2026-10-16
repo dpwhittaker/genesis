@@ -45,9 +45,9 @@ and unaware.
 > by faith.
 > — *Hebrews 11:7*
 
-Hebrews puts the sermon in the building: Noah was *warned* by God, and his
-obedience *"condemned the world."* He did not need to say a word for his ark to
-say it.
+Hebrews adds a sermon in the building: Noah was *warned* by God, and his
+obedience *"condemned the world."* Peter calls him a herald, so he proclaimed;
+Hebrews says his ark proclaimed too.
 
 > Because Christ also suffered once for sins, the just for the unjust, to bring
 > you to God, by being put to death in the flesh but by being made alive in the
@@ -253,11 +253,13 @@ real sense, the first time this was said to man (Genesis 9:1) it was said as a
 blessing (an assurance that they would be fruitful); here it is a command…
 According to the Midrashic explanation this command is mentioned here after the
 mention of murder in order to liken one who abstains from having children to
-one who sheds blood."* That last saying belongs, in the Talmud, to Ben Azzai —
-who never married, and when challenged answered, *"What shall I do, as my soul
-yearns for Torah"* (*Yevamot* 63b). The church has its own word here: Jesus and
+one who sheds blood."* In the Talmud that saying is Rabbi Eliezer's, and Ben Azzai pressed it hardest
+— *"It is as though he sheds blood and also diminishes the Divine Image"* —
+though he never married, and when challenged answered, *"What shall I do, as my
+soul yearns for Torah"* (*Yevamot* 63b). The church has its own word here: Jesus and
 Paul honour those who remain unmarried for the kingdom (Matthew 19:12; 1
-Corinthians 7:7–8).
+Corinthians 7:7–8), and Isaiah promises those who could have no children *"a
+monument that will be better than sons and daughters"* (Isaiah 56:5).
 
 **Judged without a law?** If no law had been given, how could the flood
 generation be guilty? Nachmanides answered on 6:13: *"the prohibition against
@@ -330,7 +332,8 @@ to Me. Is that possible? It is, rather, like the straw [kashin] of the grain"*
 the appearance of a rainbow in the clouds after the rain… it looked like the
 glory of the LORD"* (1:28; so Revelation 4:3) — and the Talmud records that one who sees a rainbow should fall on his face, as
 Ezekiel did (though in the Land of Israel they objected, lest it look like
-bowing to the rainbow), and that all agree he says a blessing:
+bowing to the rainbow), and that all agree he says a blessing. Rav Pappa combined the two forms
+given:
 *"Blessed…Who remembers the covenant and is faithful to His covenant and
 fulfills His word"* (*Berakhot* 59a). They added a striking corollary: a generation
 righteous enough would need no rainbow at all. Rabbi Shimon bar Yoḥai, told
@@ -421,11 +424,11 @@ The Zohar (late 13th century) sets him against Moses: *"when God bade Noah save 
 household in the ark from the universal destruction at the time of the Flood,
 he did not intercede on behalf of his generation, but let them perish. It is
 for this reason that the waters of the Flood are named after him, as it is
-written, 'for this is as the waters of Noah unto me' (Is. 54, 9)."* But on the
-same page other sages defend him. Rabbi Judah: *"What could he do? He was in
+written, 'for this is as the waters of Noah unto me' (Is. 54, 9)."* But the same sages
+also defend him. Rabbi Judah: *"What could he do? He was in
 fear for his own life, lest he should perish along with the wicked, whose
-iniquities and provocations he had observed for so long."* And Rabbi Isaac says
-God saved him because *"he daily warned the people, who, however, disregarded
+iniquities and provocations he had observed for so long."* And Rabbi Isaac — who had just
+faulted him — says God saved him because *"he daily warned the people, who, however, disregarded
 his warning."* A herald to people and an intercessor before God are different
 roles; the tradition found
 Noah the first and missed the second. Hebrews, for the church, names what his
@@ -486,8 +489,8 @@ of Ham*, Princeton, 2003; S. R. Haynes, *Noah's Curse*, Oxford, 2002). Many
 churches that once taught it have renounced it; the Southern Baptist
 Convention did so formally in 2018, as a misreading of Genesis 9:25–27.
 
-An early and explicit Jewish rejection of the racial reading is Abraham ibn
-Ezra's, in twelfth-century Spain, on this very verse:
+An early and explicit Jewish rejection of the racial reading is that of the
+Spanish-born Abraham ibn Ezra, in the twelfth century, on this very verse:
 
 > There are some who say that the Cushites are enslaved because Noah cursed
 > Ham. However, they have forgotten that the first king to rule after the flood

@@ -60,7 +60,8 @@ mountain, the birds, the altar, the aroma, and one word. The *pitch* of 6:14,
 *kupru*, the pitch on Uta-napishti's boat. S. R. Driver, in 1904: *"it is
 possible therefore that kōpher came into Heb., with the story, from
 Babylonia."* (Possible: bitumen was traded, and a word can travel without a
-story. The cluster of details is the stronger evidence.)
+story. The cluster of details is the stronger evidence. How the writer knew it
+is the second question below.)
 
 Listen to how much the stories share.
 
@@ -101,17 +102,21 @@ earth"* (41:57). This session does not settle that; both views are on
 **How are the stories related?** The New Testament settles *that* it happened,
 not this, and both answers are held by people who believe it did. But on
 whether Genesis drew on the Mesopotamian telling itself, they cannot both be
-right. **Genesis knew the Mesopotamian telling and answered it** — the view of
-most scholars since 1872, and of Jewish scholars such as Umberto Cassuto, Nahum
-Sarna and Tikva Frymer-Kensky, who read the differences as Genesis answering
-its neighbours. *Its strength:* the differences fall exactly where the theology
-is at stake. *Its hard question:* shared details do not prove copying, and not
+right. **Genesis knew the Mesopotamian telling and answered it.** That Genesis drew on
+the Mesopotamian story has been the majority view since 1872; that it does so
+in order to *answer* it is a twentieth-century reading, held by Jewish scholars
+such as Umberto Cassuto, Nahum Sarna and Tikva Frymer-Kensky, and by the
+evangelical Gordon Wenham, who called Genesis *"a truly revolutionary work that
+fundamentally challenged the beliefs of that era"* (*Word & World*, 1994). *Its
+strength:* the sharpest differences fall where the theology is at stake. *Its hard question:* shared details do not prove copying, and not
 every difference is a rebuttal. **Neither copied the other; both draw on an
 older, shared tradition** — the view of the evangelical Assyriologist Alan
 Millard, who co-edited *Atrahasis* and argued that borrowing had yet to be
 shown (*Tyndale Bulletin*, 1967), and of Kenneth Kitchen. *Its strength:* the
-Mesopotamians themselves dated their history by the flood — the Sumerian King
-List (Session 7): *"Then the flood swept over."* *Its hard question:* the
+tradition is very old — the Mesopotamians dated their history by the flood
+(the Sumerian King List, Session 7: *"Then the flood swept over"*) — and
+Genesis differs even where nothing theological is at stake, as in the ark's
+shape and the order of the birds. *Its hard question:* the
 shared source has never been found, and the closeness of the details — the
 birds sent out in turn, the deity smelling the offering, a Babylonian word for
 pitch — looks to many like contact with the Mesopotamian telling itself. You
@@ -188,8 +193,8 @@ festival,"* and sails.
 who speaks: from 6:13 to 9:17 it is always God. Noah does not answer, ask,
 argue or warn. What the narrator says instead is *"And Noah did all that God
 commanded him—he did indeed"* (6:22). His first recorded words in the Bible
-come after it is all over, in 9:25. Genesis records none of his words; the
-New Testament fills the silence. Peter calls him *"a herald of
+come after it is all over, in 9:25. Genesis records no word of his to his
+neighbours; the New Testament fills the silence. Peter calls him *"a herald of
 righteousness"* (2 Peter 2:5), so he proclaimed; Hebrews adds that by building
 the ark in faith *"he condemned the world"* (11:7); and *"God patiently waited
 in the days of Noah as an ark was being constructed"* (1 Peter 3:20). We read
@@ -277,9 +282,13 @@ is right?"* (18:25). God listens; the bargaining stops at ten; Sodom still
 falls, and Lot is brought out (19:29). Jesus sets the two stories side by side
 to warn how suddenly judgment comes (Luke 17:26–30), and Peter concludes that
 *"the Lord knows how to rescue the godly from their trials"* (2 Peter 2:9).
-But the canon does not close the question. Ezekiel names Noah with Daniel
-and Job and says that even they *"could not save their own sons or daughters;
-they would save only their own lives"* (14:16). It is meant to be asked.
+Ezekiel names Noah again when he raises the question for his own day: in a
+land that sins, even Noah, Daniel and Job *"would save only their own lives by
+their righteousness"* — *"they could not save their own sons or daughters"*
+(14:14, 16), though in Genesis Noah's sons were saved with him (7:1). Each
+answers for himself, and God insists that his judgments are *"not without
+reason"* (14:23). The question may still be asked; Abraham asked it, and God
+listened.
 
 ### 7. A god, or a man of the soil
 
@@ -313,15 +322,16 @@ is Noah who says it, waking from wine. God curses no one here. The rabbis asked
 the question: *"Ḥam committed the sin and Canaan was cursed? This is
 astonishing"* — one answered that God had already blessed Noah's sons (9:1),
 another that Canaan himself had seen and told (*Genesis Rabbah* 36:7). The same
-midrash, and the Talmud, also keep folk-tales of Ham or Canaan coming out
-"darkened"; centuries later, in the Islamic and Christian Near East and then in
+midrash also keeps folk-tales of Ham emerging from the ark "darkened" and of
+Canaan "darkened" by the curse, and the Talmud says Ham was "afflicted in his
+skin" — stories about skin colour, not arguments for slavery. Centuries later, in the Islamic and Christian Near East and then in
 Europe and America, such tales were fused with this verse into a "curse of
 Ham," used to justify enslaving Black Africans and preached in America in
 defence of slavery and segregation. The text says no such thing. The chapter
 itself answers it: every human bears God's image (9:6), and *"from them the
 whole earth was populated"* (9:19) — every nation *"from one man"* (Acts
-17:26). Abraham ibn Ezra
-saw through it in the twelfth century: *"There are some who say that the
+17:26). The Spanish-born Abraham ibn Ezra saw through it in the twelfth
+century: *"There are some who say that the
 Cushites are enslaved because Noah cursed Ham. However, they have forgotten that
 the first king to rule after the flood was a Cushite."* Many churches that once
 taught it have renounced it — the Southern Baptist Convention formally in 2018.
@@ -444,7 +454,7 @@ single clear case of one has yet been reported."* Later collectors found more,
 but few with Noah's shape.
 
 Here is a sample, with the oldest record of each. The full chart, with
-twenty-six stories, is on **[floods around the
+twenty-six stories besides Genesis, is on **[floods around the
 world](texts/floods-around-the-world.html)**.
 
 | **People** (first written down) | **Why the water came** | **Who survived — and why** | **What came after** |
@@ -504,12 +514,13 @@ Genesis's own details, so Genesis fills it by construction; build the rows from
 band does exactly that. So the chart cannot prove that Genesis is more original;
 every story is distinctive in its details. What it shows is **what Genesis says
 that the others do not.** The outline — water, a warning, a boat, a mountain —
-is common, and its fullest form clusters in one family: Mesopotamia, Greece and
-India. A few echoes of Genesis's meaning are early and independent — India's
-blessing of offspring, Ovid's righteous couple, the Maya's moral cause. But the
-details that match Genesis most closely — pairs of animals, the dove, the
-rainbow, eight survivors — turn up outside the Near East **only in records made
-after missionaries arrived**. In 1823 a missionary in Hawaiʻi preached on Noah,
+is common, and its fullest form clusters in three traditions: Mesopotamia,
+Greece and India. A few echoes of Genesis's meaning are early and apparently
+independent — India's blessing of offspring, Ovid's righteous couple, the
+Maya's moral cause, which looks native. But the details that match Genesis most
+closely — pairs of animals, the dove, the rainbow, eight survivors — turn up
+outside the Near East **only in late Greek tellings that borrowed from the
+east, or in records made after missionaries arrived**. In 1823 a missionary in Hawaiʻi preached on Noah,
 and his hearers told him their own tradition, of two people saved on a
 mountain-top; *"they said they had never before heard of a ship, or of Noah."*
 By 1878 the version a Hawaiian convert gave — reading his people's story and
@@ -520,9 +531,9 @@ Mapuche all looked for destruction to come again.
 
 **Why are there so many?** Three answers, which can be combined (each is set
 out on the sheet). **One flood, remembered** — narrowly, a real flood in
-Mesopotamia behind the Near Eastern stories; widely, as many Christians since
-Josephus have held, the nations' fading memories of Noah. (The wider form's
-hard question: the closest matches come after missionaries, and Africa, where
+Mesopotamia behind the Near Eastern stories; widely, as Josephus argued and many Christians since, the nations' fading
+memories of Noah. (The wider form's hard question: outside the Near East, the
+closest matches come after missionaries, and Africa, where
 Genesis 10 sends Ham's sons, has almost none.) **Floods happen wherever people
 live** — a flood that fills one valley is the end of the world for those who
 live there; and Egypt, where the Nile rose gently, has no flood story at all.
@@ -594,7 +605,7 @@ faithful to His covenant and fulfills His word."*
 
 ---
 
-*Scripture quoted by permission from the NET Bible® copyright ©1996, 2019 by Biblical Studies Press, L.L.C., [netbible.com](https://netbible.com). All rights reserved. Hebrew counts are from the Open Scriptures Hebrew Bible (CC BY 4.0); literal Hebrew renderings are ours. Gilgamesh XI is quoted from A. T. Clay, A Hebrew Deluge Story in Cuneiform (Yale, 1922), and R. Campbell Thompson, The Epic of Gilgamish (1928), both public domain, with A. R. George's line numbers; Atrahasis (Assyrian version) from Clay. The working translations of Gilgamesh XI 46–47 and of Atrahasis Tablet III are our own, from the Akkadian as edited in the electronic Babylonian Library and in N. Wasserman, The Flood: The Akkadian Sources (2020); no open English translation of Atrahasis Tablet III exists. The Sumerian flood story and King List are from the Electronic Text Corpus of Sumerian Literature (CC BY-NC-SA 3.0); Berossus from A. M. Harmon's translation in Clay (1922). S. R. Driver, The Book of Genesis (1904), public domain. Described, not quoted: T. Frymer-Kensky, Biblical Archaeologist 40 (1977); A. R. Millard, Tyndale Bulletin 18 (1967); K. A. Kitchen, Ancient Orient and Old Testament (1966); A. Heidel, The Gilgamesh Epic and Old Testament Parallels (1946); U. Cassuto, From Noah to Abraham (1949; Eng. 1964); N. Sarna, Understanding Genesis (1966); J. C. Whitcomb and H. M. Morris, The Genesis Flood (1961); B. Ramm, The Christian View of Science and Scripture (1954); T. Longman III and J. H. Walton, The Lost World of the Flood (2018). Genesis Rabbah from the Sefaria Midrash Rabbah (CC BY); Sifrei Bamidbar trans. S. Silverstein (CC BY); Rashi from M. Rosenbaum and A. M. Silbermann (1929–34), public domain; Nachmanides from C. B. Chavel (CC BY); Ibn Ezra from H. N. Strickman and A. M. Silver (CC BY-NC); Berakhot 59a from the William Davidson Edition (CC BY-NC); the Zohar from the Soncino translation (1933), via Sefaria; all via Sefaria. Wisdom of Solomon from S. Holmes in R. H. Charles, Apocrypha and Pseudepigrapha (1913), public domain; Josephus from W. Whiston (1737). The world chart's sources — Frazer, Folk-Lore in the Old Testament (1918), and the earliest public-domain record of each story — are listed on **[floods around the world](texts/floods-around-the-world.html)**; every quotation was checked against its source.*
+*Scripture quoted by permission from the NET Bible® copyright ©1996, 2019 by Biblical Studies Press, L.L.C., [netbible.com](https://netbible.com). All rights reserved. Hebrew counts are from the Open Scriptures Hebrew Bible (CC BY 4.0); literal Hebrew renderings are ours. Gilgamesh XI is quoted from A. T. Clay, A Hebrew Deluge Story in Cuneiform (Yale, 1922), and R. Campbell Thompson, The Epic of Gilgamish (1928), both public domain, with A. R. George's line numbers; Atrahasis (Assyrian version) from Clay. The working translations of Gilgamesh XI 46–47 and of Atrahasis Tablet III are our own, from the Akkadian as edited in the electronic Babylonian Library and in N. Wasserman, The Flood: The Akkadian Sources (2020); no open English translation of Atrahasis Tablet III exists. The Sumerian flood story and King List are from the Electronic Text Corpus of Sumerian Literature (CC BY-NC-SA 3.0); Berossus from A. M. Harmon's translation in Clay (1922). S. R. Driver, The Book of Genesis (1904), public domain. Described, not quoted: T. Frymer-Kensky, Biblical Archaeologist 40 (1977); A. R. Millard, Tyndale Bulletin 18 (1967); K. A. Kitchen, Ancient Orient and Old Testament (1966); A. Heidel, The Gilgamesh Epic and Old Testament Parallels (1946); U. Cassuto, From Noah to Abraham (1949; Eng. 1964); N. Sarna, Understanding Genesis (1966); J. C. Whitcomb and H. M. Morris, The Genesis Flood (1961); B. Ramm, The Christian View of Science and Scripture (1954); T. Longman III and J. H. Walton, The Lost World of the Flood (2018). Genesis Rabbah from the Sefaria Midrash Rabbah (CC BY); Nachmanides from C. B. Chavel (CC BY); Ibn Ezra from H. N. Strickman and A. M. Silver (CC BY-NC); Berakhot 59a from the William Davidson Edition (CC BY-NC); all via Sefaria. G. J. Wenham, "Reading Genesis Today," Word & World 14 (1994), quoted briefly. Wisdom of Solomon from S. Holmes in R. H. Charles, Apocrypha and Pseudepigrapha (1913), public domain; Josephus from W. Whiston (1737). The world chart's sources — Frazer, Folk-Lore in the Old Testament (1918), and the earliest public-domain record of each story — are listed on **[floods around the world](texts/floods-around-the-world.html)**; every quotation was checked against its source.*
 {: .no-print}
 
 [← Back to all sessions](../../)

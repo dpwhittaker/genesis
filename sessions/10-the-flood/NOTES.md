@@ -162,6 +162,44 @@ and what was done:
   on 9:7 and the Zohar to the sheets and tightening "Two questions", §6 and
   "Why so many?". The print pass will show whether more must go.
 
+## Panel review, round 3 (2026-10-16)
+
+Verdicts: modern Jewish YES; rabbi, evangelical, mainline, skeptic NO, each with
+one to three MUSTs, all fixed:
+
+- **§6 set Ezekiel against Peter** ("But the canon does not close the
+  question"), and misread Ezekiel 14 (evangelical). Now: Ezekiel names Noah;
+  each answers for himself (14:14, 16) — though in Genesis Noah's sons were
+  saved (7:1), the dissonance the mainline seat asked to name — and God's
+  judgments are "not without reason" (14:23, verified NET); "Abraham asked it,
+  and God listened."
+- **"Only after missionaries"** was contradicted by the late Greek dove and
+  pairs (skeptic, mainline): now "only in late Greek tellings that borrowed
+  from the east, or in records made after missionaries arrived," in both files;
+  "outside the Near East" restored in "Why so many?".
+- **Ben Azzai vs R. Eliezer** (rabbi, mainline): in *Yevamot* 63b "as though he
+  sheds blood" is R. Eliezer's; Ben Azzai adds "and also diminishes the Divine
+  Image" (verified). Isaiah 56:5 added for those who could have no children.
+- **The Zohar's defenders**: R. Isaac both faults and defends Noah — "the same
+  sages also defend him" (rabbi; verified in the Soncino English).
+- **Ibn Ezra** wrote after leaving Spain: "the Spanish-born… in the twelfth
+  century" (rabbi).
+- **SHOULDs taken:** "how the writer knew it is the second question below";
+  dependence (since 1872) separated from the answering thesis (20th c.);
+  **Gordon Wenham** named as an evangelical who reads Genesis as answering its
+  neighbours ("a truly revolutionary work that fundamentally challenged the
+  beliefs of that era," *Word & World* 14, 1994, downloaded and verified) so the
+  two views no longer split by confession; view 1's strength "the sharpest
+  differences fall where the theology is at stake"; view 2's strength adds
+  "Genesis differs even where nothing theological is at stake"; "no word of his
+  to his neighbours" (9:25 is in Genesis); the 9:25 note distinguishes Ham
+  "emerging darkened," Canaan "darkened," and the Talmud's "afflicted in his
+  skin," and calls them "not arguments for slavery"; "three traditions" not
+  "one family"; "apparently independent… which looks native" for the Maya;
+  "twenty-six stories besides Genesis"; "as Josephus argued and many Christians
+  since"; the handout's credits no longer list sources it stopped quoting;
+  Rav Pappa's combined blessing; the herald/ark wording on the sheet.
+
 ## Research and verification (2026-10-15)
 
 Four parallel agents (Mesopotamia; Genesis and its readers; world floods —

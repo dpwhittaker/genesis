@@ -69,7 +69,7 @@ found more African stories than he knew, but few with Noah's shape. Antarctica
 has no story at all: no people ever lived there.
 
 And where flood stories *are* found, they mostly share the **bare idea** of
-destroying waters — not Genesis's particular details. Section 3 shows which
+destroying waters — not Genesis's particular details. Section 4 shows which
 details travel and which do not.
 
 ---
@@ -657,13 +657,15 @@ it shows is **what Genesis says that the others do not**: one God who grieves
 before he acts, a promise never to do it again sworn to every living thing, a
 renewed blessing, a law that protects every human life. Two more things stand
 out. The fuller outline — warning, vessel, mountain, sacrifice — clusters in
-one family of stories, Mesopotamia, Greece and India; elsewhere often only the
+three traditions, Mesopotamia, Greece and India; elsewhere often only the
 bare idea of destroying water remains. And **outside the Near East, the details that match Genesis most closely —
-pairs of animals, the dove, the rainbow, eight survivors — appear only in
-records made after missionaries arrived** (inside the Near East the closest
+pairs of animals, the dove, the rainbow, eight survivors — appear only in late
+Greek tellings that borrowed from the east (Lucian, Plutarch) or in records
+made after missionaries arrived** (inside the Near East the closest
 match, *Atrahasis*, is the oldest; early India and Greece share the outline,
-not those details). A few partial echoes are early and independent — India's blessing
-of offspring, Ovid's righteous couple, the Maya's moral cause. Several peoples
+not those details). A few partial echoes are early and apparently independent — India's
+blessing of offspring, Ovid's righteous couple, the Maya's moral cause (which
+looks native, though the *Popol Vuh* was written down after the conquest). Several peoples
 say the opposite of "never again": Plato's Egyptian priest (*"will be again"*),
 the Purāṇic cycles, the Nahua ages, the Mapuche climbing their hills, the
 Fijians keeping their canoes ready.
@@ -684,8 +686,8 @@ barbarian histories make mention of this flood, and of this ark."* It comes in
 two forms. *The narrower form* — K. A. Kitchen, following W. W. Hallo, points to a flood
 in southern Mesopotamia around 2900 BCE — sees a real, ancient flood behind the
 Near Eastern stories, which is why they share the most detail: the boat, the pitch, the
-animals, the birds, the mountain, the sacrifice. *The worldwide form*, held by
-many Christians since Josephus, reads all the world's flood stories as fading
+animals, the birds, the mountain, the sacrifice. *The worldwide form*, argued by
+Josephus and held by many Christians since, reads all the world's flood stories as fading
 memories of Noah carried by his descendants; a memory carried across thousands
 of years and miles would be expected to keep the outline and lose the details.
 *Its strength:* it takes the stories' own claim — "this really happened" —
