@@ -80,42 +80,42 @@ Listen to how much the stories share.
 The likeness runs through both of the strands Session 9 traced: the pitch, the
 measurements, the mountain and the bow belong to the Priestly telling; the
 seven days, the birds, the altar and the aroma to the other. However Genesis
-was put together, its knowledge of the old story runs through the whole.
+was put together, the likeness runs through the whole.
 
 ### Two questions
 
-**Did it happen?** For this class the New Testament settles it. Jesus set the
-days of Noah beside his own coming (Matthew 24:37–39; Luke 17:26–27), and
-Peter set the flood beside the judgment to come (2 Peter 2:5; 3:5–7). Genesis
-itself tells it as history: it opens with a family heading (*"This is the
-account of Noah,"* 6:9) and dates the waters by the day of Noah's life (7:11;
-8:13–14). What Christians have not agreed on is **how far the water reached**.
-Some read *"all the high mountains under the entire sky were covered"* (7:19)
-as a flood over the whole globe; others, also holding Scripture's authority,
-read a vast regional flood, noting that Genesis can say *"throughout the
-earth"* of a famine in Egypt's world (41:57). This session does not settle
-that; both views are on **[floods around the world](texts/floods-around-the-world.html)**.
+**Did it happen?** For this class the New Testament settles it: Jesus set the
+days of Noah beside his own coming (Matthew 24:37–39; Luke 17:26–27), and Peter
+set the flood beside the judgment to come (2 Peter 2:5; 3:5–7). Genesis itself
+tells it as history, with a family heading (*"This is the account of Noah,"*
+6:9) and dates by the day of Noah's life (7:11; 8:13–14). Archaeology cannot
+settle it either way; the flood layers found in Mesopotamian cities are local
+and of different dates. What Christians who read it as history have not agreed
+on is **how far the water reached** — over the whole globe (*"all the high
+mountains under the entire sky were covered,"* 7:19; *"the world existing at
+that time was destroyed,"* 2 Peter 3:6), or a vast regional flood told in the
+language of "all," as Genesis can say a famine was *"severe throughout the
+earth"* (41:57). This session does not settle that; both views are on
+**[floods around the world](texts/floods-around-the-world.html)**.
 
-**How are the stories related?** Here there are two real answers, and they
-cannot both be right. **Genesis knew the Mesopotamian telling and answered
-it.** Since 1872 most scholars have held that the Hebrew story came, directly
-or not, out of the Mesopotamian tradition; Jewish scholars such as Umberto
-Cassuto (who rejected the two-source theory) and Nahum Sarna, and later Tikva
-Frymer-Kensky (*Biblical Archaeologist*, 1977), read the differences as
-Genesis answering its neighbours. *Its strength:* the details cluster exactly
-where the theology differs. *Its hard question:* shared details do not prove
-copying, and not every difference is a rebuttal. **Both remember the same
-event, independently.** The evangelical Assyriologist Alan Millard, who
-co-edited *Atrahasis*, argued that borrowing has never been shown and that the
-two accounts describe the same flood (*Tyndale Bulletin*, 1967); Kenneth
-Kitchen added that in the ancient world simple accounts grow into elaborate
-legends, not the reverse, so Genesis need not be a cleaned-up *Atrahasis*. Even
-Alexander Heidel, who called the versions "genetically related," judged the
-case for borrowing indecisive. *Its strength:* the Mesopotamians themselves
-dated their history by the flood — the Sumerian King List (Session 7): *"Then
-the flood swept over."* *Its hard question:* the flood layers archaeologists
-have found in Mesopotamian cities are local and of different dates, so
-archaeology cannot point to this one. You may hold either.
+**How are the stories related?** The New Testament settles *that* it happened,
+not this, and both answers are held by people who believe it did. But on
+whether Genesis drew on the Mesopotamian telling itself, they cannot both be
+right. **Genesis knew the Mesopotamian telling and answered it** — the view of
+most scholars since 1872, and of Jewish scholars such as Umberto Cassuto, Nahum
+Sarna and Tikva Frymer-Kensky, who read the differences as Genesis answering
+its neighbours. *Its strength:* the differences fall exactly where the theology
+is at stake. *Its hard question:* shared details do not prove copying, and not
+every difference is a rebuttal. **Neither copied the other; both draw on an
+older, shared tradition** — the view of the evangelical Assyriologist Alan
+Millard, who co-edited *Atrahasis* and argued that borrowing had yet to be
+shown (*Tyndale Bulletin*, 1967), and of Kenneth Kitchen. *Its strength:* the
+Mesopotamians themselves dated their history by the flood — the Sumerian King
+List (Session 7): *"Then the flood swept over."* *Its hard question:* the
+shared source has never been found, and the closeness of the details — the
+birds sent out in turn, the deity smelling the offering, a Babylonian word for
+pitch — looks to many like contact with the Mesopotamian telling itself. You
+may hold either.
 
 On either answer, the comparison works the same way. If you had grown up on
 *Gilgamesh*, you would know where Genesis was going at every turn — and you
@@ -145,11 +145,8 @@ other worries too. Its flood story opens *"When humankind began to multiply on
 the face of the earth"* (6:1), with heavenly beings crossing a line (6:2–4,
 Session 8). But in Genesis multiplying is the blessing (1:28), never the
 offence. (Scholars debate what the noise in *Atrahasis* means — too many
-people, most think; some, humans pushing into the gods' own sphere. Either way,
-it is not what Genesis names.) Did people know violence was wrong, with no law
-yet given? Nachmanides answered: *"the prohibition against violence is a
-rational commandment, there being no need for a prophet to admonish them
-against it."*
+people, many think; some, humans pushing into the gods' own sphere. Either way,
+it is not what Genesis names.)
 
 ### 2. Who is in charge
 
@@ -185,20 +182,18 @@ working translation runs: ***"In the morning, bread-cakes; at nightfall he will
 rain on you a shower of wheat."*** On the usual modern reading the words are
 deliberately double: the city hears a promise of plenty, and the rain that is
 coming is not wheat. Then he throws his workmen a feast *"like the Akitu
-festival,"* and sails. (*Atrahasis* is gentler: its hero tells his town that
-his god and theirs have quarrelled, and at his farewell feast he cannot sit
-still, because his heart is breaking.)
+festival,"* and sails.
 
 **In Genesis, Noah never says a word.** Read the whole Flood story and notice
 who speaks: from 6:13 to 9:17 it is always God. Noah does not answer, ask,
 argue or warn. What the narrator says instead is *"And Noah did all that God
 commanded him—he did indeed"* (6:22). His first recorded words in the Bible
-come after it is all over, in 9:25. Genesis records no word of his; the New
-Testament tells us what his life said. Second Peter calls him *"a herald of
-righteousness"* (2:5); Hebrews says that by building the ark in faith *"he
-condemned the world"* (11:7). His obedience was itself the sermon, and
-*"God patiently waited in the days of Noah as an ark was being constructed"*
-(1 Peter 3:20). We read Genesis with them. The rabbis, filling the same
+come after it is all over, in 9:25. Genesis records none of his words; the
+New Testament fills the silence. Peter calls him *"a herald of
+righteousness"* (2 Peter 2:5), so he proclaimed; Hebrews adds that by building
+the ark in faith *"he condemned the world"* (11:7); and *"God patiently waited
+in the days of Noah as an ark was being constructed"* (1 Peter 3:20). We read
+Genesis with them. The rabbis, filling the same
 silence, pictured him planting cedars and cutting them down for a hundred and
 twenty years so that people would ask: *"They said to him: 'Why are you doing
 this?' He said to them: 'So said the Master of the world, that He is bringing
@@ -225,9 +220,6 @@ no word in the story for a rudder, an oar, a sail or a pilot. *Tēbâ* appears
 in only one other place in the Bible: the basket, sealed with bitumen and
 pitch, in which a mother set her baby among the reeds of the Nile (Exodus 2:3,
 5). Both times God keeps the future safe on the water, in a box no one steers.
-An ancient Jewish writer put it this way — *"The hope of the world, taking
-refuge on a raft… Thy hand guiding the helm"* (Wisdom 14:6); his English
-translator added, *"Noah was not acquainted with navigation."*
 
 ### 5. Hungry gods
 
@@ -246,12 +238,13 @@ aroma"* (8:21). *Soothing* is ***nîḥōaḥ*** — the sound of Noah's name ag
 and the first of forty-three times the Bible uses it; all but one of its later
 uses in the Torah are in the laws of sacrifice. No flies, no hunger, no meal.
 What follows the aroma is a **promise**: *"I will never again curse the
-ground… I will never again destroy everything that lives"* (8:21). Israel
+ground because of humankind, even though the inclination of their minds is
+evil from childhood on. I will never again destroy everything that lives"*
+(8:21). The diagnosis of 6:5 is unchanged; the verdict is the opposite. The
+flood fixed nothing in the human heart, and God promises anyway. Israel
 would sing it later: *"Even if I were hungry, I would not tell you, for the
 world and all it contains belong to me. Do I eat the flesh of bulls?"* (Psalm
-50:12–13). And the rabbis drew the same line through every offering called a
-"soothing aroma": *"there is no 'eating' or 'drinking' before the Holy One
-Blessed be He"* (*Sifrei Bamidbar* 143).
+50:12–13).
 
 ### 6. Who grieves — and who objects
 
@@ -267,29 +260,26 @@ No man shall survive the cataclysm."* And Ea rebukes him — *"On the sinner
 place his sin; / On the evil doer place his crimes"* (XI 185–186).
 
 Be honest about this one. The Babylonian story voices the objection readers
-have always felt, ancient and modern: *why punish everyone?* Genesis's own
-answer is that this was not a world with a few sinners in it — *"all living
-creatures on the earth were sinful"* (6:12) — and that the one righteous
-household was spared (7:1). That answer leaves out the children and the
-animals, as Session 9 admitted. And Ea is not quite the champion of the
-individual he sounds: his alternatives — *"Let a lion come and diminish the
-people… Let there be a famine"* — still fall on everyone.
+have always felt: *why punish everyone?* Genesis's own answer is that this was
+not a world with a few sinners in it — *"all living creatures on the earth
+were sinful"* (6:12) — and that the one righteous household was spared (7:1).
+That answer takes in the animals, and it is hard to stretch over the children,
+as Session 9 admitted. (Ea's alternatives — a lion, a wolf, a famine — would
+still fall on guilty and innocent alike.)
 
-In Genesis no human objects. The rabbis held that against Noah: the Zohar
-says that he *"did not intercede on behalf of his generation, but let them
-perish. It is for this reason that the waters of the Flood are named after
-him"* (Isaiah 54:9) — unlike Moses, who offered his own life (Session 9). But
-what Ea pleads for, God says to his own heart: *"I will never again destroy
-everything that lives, as I have just done"* (8:21). In Babylon it took a
-second god to say it; in Genesis it is the God who sent the flood. And the
-human protest will come — from Abraham, at Sodom: *"Will not the judge of the
-whole earth do what is right?"* (18:25). God listens; the bargaining stops at
-ten; and Sodom still falls, but Lot is brought out (19:29). Jesus and Peter
-set the two stories side by side — the days of Noah, the days of Lot (Luke
-17:26–30) — and draw the lesson Ea wanted: *"the Lord knows how to rescue the
-godly from their trials, and to reserve the unrighteous for punishment"* (2
-Peter 2:9). The question does not go away in the Bible; Ezekiel names Noah
-when he raises it again (14:14). It is meant to be asked.
+In Genesis no human objects. But what Ea pleads for, God says to his own heart: *"I will never again
+destroy everything that lives, as I have just done"* (8:21) — and on a
+different ground from Ea's, not "punish only the sinner" but *"even though the
+inclination of their minds is evil."* In Babylon it took a second god to say
+it; in Genesis it is the God who sent the flood. And the human protest will
+come — from Abraham, at Sodom: *"Will not the judge of the whole earth do what
+is right?"* (18:25). God listens; the bargaining stops at ten; Sodom still
+falls, and Lot is brought out (19:29). Jesus sets the two stories side by side
+to warn how suddenly judgment comes (Luke 17:26–30), and Peter concludes that
+*"the Lord knows how to rescue the godly from their trials"* (2 Peter 2:9).
+But the canon does not close the question. Ezekiel names Noah with Daniel
+and Job and says that even they *"could not save their own sons or daughters;
+they would save only their own lives"* (14:16). It is meant to be asked.
 
 ### 7. A god, or a man of the soil
 
@@ -322,13 +312,15 @@ him.
 is Noah who says it, waking from wine. God curses no one here. The rabbis asked
 the question: *"Ḥam committed the sin and Canaan was cursed? This is
 astonishing"* — one answered that God had already blessed Noah's sons (9:1),
-another that Canaan himself had seen and told (*Genesis Rabbah* 36:7). Jewish
-and Christian books also kept folk-tales of Ham coming out of the ark
-"darkened," and centuries later these were fused with this verse into a "curse
-of Ham," used to justify enslaving Black Africans and preached in America in
+another that Canaan himself had seen and told (*Genesis Rabbah* 36:7). The same
+midrash, and the Talmud, also keep folk-tales of Ham or Canaan coming out
+"darkened"; centuries later, in the Islamic and Christian Near East and then in
+Europe and America, such tales were fused with this verse into a "curse of
+Ham," used to justify enslaving Black Africans and preached in America in
 defence of slavery and segregation. The text says no such thing. The chapter
 itself answers it: every human bears God's image (9:6), and *"from them the
-whole earth was populated"* (9:19) — one family (Acts 17:26). Abraham ibn Ezra
+whole earth was populated"* (9:19) — every nation *"from one man"* (Acts
+17:26). Abraham ibn Ezra
 saw through it in the twelfth century: *"There are some who say that the
 Cushites are enslaved because Noah cursed Ham. However, they have forgotten that
 the first king to rule after the flood was a Cushite."* Many churches that once
@@ -356,8 +348,7 @@ Genesis:
 > multiply and fill the earth." *(9:1)*
 
 It is the blessing of 1:28, word for word — and God says it twice (9:1, 9:7).
-Rashi heard the difference: the first time *"it was said as a blessing… here
-it is a command."* Two words of Genesis 1 are missing: *subdue* and *rule*. In
+Two words of Genesis 1 are missing: *subdue* and *rule*. In
 their place, the animals will fear us (9:2). And then the law:
 
 > "Whoever sheds human blood, by other humans must his blood be shed; for in
@@ -367,14 +358,11 @@ Frymer-Kensky saw the shape of it. *Atrahasis* answers its flood with fewer
 births. Genesis answers its flood — which came because of violence — with
 more people, and a law that protects each one, because each bears God's
 image. Rabbi Akiva: *"Anyone who sheds blood, it is considered for him as
-though he has diminished God's image"* (*Genesis Rabbah* 34:14). Rashi passes
-on the rabbis' reading of the two together: the command to have children comes
-right after the law of murder *"in order to liken one who abstains from having
-children to one who sheds blood."* Judaism calls the laws binding on every
-nation "the seven commandments of the children of Noah." The Talmud reads them
-out of God's command to Adam (2:16), with 9:6 as its proof for the law against
-bloodshed (*Sanhedrin* 56b); Maimonides counts six given to Adam, and the
-seventh — no flesh with its life still in it (9:4) — added for Noah.
+though he has diminished God's image"* (*Genesis Rabbah* 34:14). Judaism calls
+the laws binding on every nation "the seven commandments of the children of
+Noah"; it reads most of them out of God's command to Adam, with this chapter's
+ban on flesh with its life in it (9:4) added for Noah (more on **[Noah among
+his readers](texts/early-readers.html)**, §4).
 
 ### 9. What each one remembers
 
@@ -386,8 +374,8 @@ like flies — and swears by it:
 > not maintain these days in remembrance, nor ever forget them. *(XI 165–167,
 > Thompson)*
 
-(Last week's handout quoted an older translation of this line, which modern
-editions read differently; the meaning is the one here.)
+(Last week's handout quoted an older translation of this line; modern editions
+read it as here.)
 
 God says: *"I will place my rainbow in the clouds"* (9:13). The Hebrew says
 *my **bow*** — ***qešet***, the word for an archer's weapon in 72 of its 76
@@ -395,26 +383,24 @@ uses in the Bible, including God's own (*"He has prepared to shoot his bow,"*
 Psalm 7:12). In Babylon's creation epic (Session 1), Marduk's war-bow is set in
 the sky as a star after his battle. Many readers have heard the same picture
 here: Josephus called it *"the bow of God,"* and
-Nachmanides, in the thirteenth century, a bow turned away from the earth — *"It
-is indeed the way of warriors to invert the instruments of war which they hold
-in their hands when calling for peace from their opponents."* Others think
-*bow* simply describes the shape. (Nachmanides also held that rainbows were
-there from creation: God made an old thing into a sign.)
+Nachmanides, in the thirteenth century, passed on earlier commentators' picture
+of a bow turned away from the earth — *"It is indeed the way of warriors to
+invert the instruments of war which they hold in their hands when calling for
+peace from their opponents."* Others think
+*bow* simply describes the shape.
 
-And the bow seals something new: the first time the Bible uses the word
-**covenant**. God promised it at 6:18, before the rain; here it comes seven
-times in ten verses (9:8–17), and the partners keep widening — *"you and your
+And the bow seals something new: the first thing the Bible calls a
+**covenant**. The word first appears at 6:18, as a promise made before the
+rain; here it comes seven times in ten verses (9:8–17), and the partners keep widening — *"you and your
 descendants… every living creature that is with you"* — until it is
 *"between me and the earth"* (9:13). The animals are named partners, not
 cargo. The promise has no conditions; the laws of 9:1–7 come before it, not as
 its price. And the sign is for God to look at: *"I will notice it and remember
 the perpetual covenant between God and all living creatures"* (9:16). The
-goddess remembers her grief. God remembers his promise. Isaiah's exiles held
-him to it: *"this is like in Noah's time, when I vowed that the waters of
-Noah's flood would never again cover the earth. In the same way I have vowed
-that I will not be angry at you or shout at you. Even if the mountains are
-removed and the hills displaced, my devotion will not be removed from you"*
-(Isaiah 54:9–10).
+goddess remembers her grief. God remembers his promise — and recalled it himself
+to Isaiah's exiles: *"this is like in Noah's time, when I vowed that the waters
+of Noah's flood would never again cover the earth… my devotion will not be
+removed from you"* (Isaiah 54:9–10).
 
 ### The same story, a different God
 
@@ -457,8 +443,8 @@ Egypt, native legends of a great flood are conspicuously absent; indeed no
 single clear case of one has yet been reported."* Later collectors found more,
 but few with Noah's shape.
 
-Here is a sample, with the oldest record of each. The full chart has two dozen
-more, story by story, on **[floods around the
+Here is a sample, with the oldest record of each. The full chart, with
+twenty-six stories, is on **[floods around the
 world](texts/floods-around-the-world.html)**.
 
 | **People** (first written down) | **Why the water came** | **Who survived — and why** | **What came after** |
@@ -468,19 +454,19 @@ world](texts/floods-around-the-world.html)**.
 | **India**, Manu (8th–6th c. BCE) | none given | Manu — he had saved a fish | a sacrifice; a woman born of it; *"rich in offspring"* |
 | **China**, Gun and Yu (4th c. BCE and earlier) | none given | no one in a boat: Yu *drains* the flood | a law for good government |
 | **Greece**, Deucalion (468 BCE; Ovid, 8 CE) | the race's wickedness | Deucalion and Pyrrha, the most righteous | a sacrifice; stones thrown over the shoulder become people |
-| **Innu and Anishinaabe**, Canada and the Great Lakes (1633; 1839) | a feud with the water-spirits | the hero (Messou; Nanabozho), who caused it | a muskrat dives for mud; the earth is remade |
+| **Innu and Anishinaabe (Ojibwe)**, Canada and the Great Lakes (1633; 1839) | a feud with the water-spirits | the hero (Messou; Nanabozho), who caused it | a muskrat dives for mud; the earth is remade |
 | **K'iche' Maya**, *Popol Vuh* (1550s) | the wooden people forgot to thank their Maker | no one | humans remade from maize |
 | **Nahua (Aztec)** (1558) | the end of an age | Tata and Nene, sealed in a log by a god | their cooking smoke angers the gods; they become dogs |
 | **Inca** (1572) | pride and covetousness — the Spanish writer's words? | a man and a woman in a box | Viracocha remakes the nations from clay |
 | **Gunaikurnai**, Victoria, Australia (1878) | a frog is made to laugh, and spills the water he swallowed | people saved in the Pelican's canoe | how pelicans got their colours |
-| **Hawaiʻi** (1823 → 1878) | (none → sin) | two people on Mauna Kea → Nuʻu and seven others in a houseboat | (nothing → a sacrifice and a rainbow) |
+| **Hawaiʻi** (1823 → 1878) | (none recorded → sin) | two people on Mauna Kea → Nuʻu and seven others in a houseboat | (none recorded → a sacrifice and a rainbow) |
 | **Fiji** (1840s) | two boys killed the god's pet bird | the rebels themselves | canoes kept ready for the next flood |
 {: .ff-wrap}
 
 Now ask of every story the same questions. Does it have this detail in its
 **earliest** full record? (● yes · ○ partly, or only later · blank, no)
 
-| | Gen. | Mesop. | Greece | India | China | Maya | Nahua | Innu, Ojibwe | Gunai­kurnai | Hawaiʻi 1823 |
+| | Gen. | Mesop. | Greece | India | China | Maya | Nahua | Innu, Anishi­naabe | Gunai­kurnai | Hawaiʻi 1823 |
 |---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | ***The outline*** | | | | | | | | | | |
 | Water destroys nearly everyone | ● | ● | ● | ● | | ● | ● | ○ | ○ | ● |
@@ -504,56 +490,50 @@ Now ask of every story the same questions. Does it have this detail in its
 | The survivor is made immortal | | ● | | | | | | | | |
 | Animals warn or rescue the survivors | | | | ● | | | | ● | ● | |
 | Humankind remade from new material | | | ● | ○ | | ● | ● | | | |
-| It will all happen again | | | | | | | ● | | | |
+| It will all happen again | | | ● | ○ | | | ● | | | |
 {: .dot-grid}
 
-*(Greece: the full story is in Ovid (8 CE) and Apollodorus (1st–2nd century
-CE); its warning, chest and sacrifice are not suspected of borrowing from the
-Bible, but its pairs of animals and its dove are, and are marked ○. Nahua ✕:
-the survivors' smoke angers the gods. Hawaiʻi is the 1823 record; details added
-by 1878 are not counted. Notes for every cell are on the sheet.)*
+*(Greece: the full story is in Ovid and Apollodorus; its late pairs of animals
+and dove are marked ○, and Ovid's Jupiter knows the world is fated to end by
+fire. Nahua ✕: the survivors' smoke angers the gods. Hawaiʻi is the 1823
+record. Notes for every cell are on the sheet.)*
 
-**What the chart shows — and what it cannot.** The rows in the middle band are
-Genesis's own details, so Genesis fills them by construction. Build the rows
-from *Gilgamesh*'s details, or the Maya's, and Genesis would have blanks too —
-the last band does exactly that. So the chart cannot prove that Genesis is more
-original than other stories; every story is distinctive in its details. What
-it shows is **what Genesis says that the others do not.** The outline — water,
-a warning, a boat, a mountain — is common, and its fullest form clusters in one
-family of stories: Mesopotamia, Greece and India. The details that carry
-Genesis's meaning are found almost nowhere else. A few partial echoes are
-early and independent — India's blessing of offspring, Ovid's righteous
-couple, the Maya's moral cause. But **outside Genesis's own neighbourhood, the
-closer a story matches Genesis, the later it was written down.** (Inside it the
-reverse holds: *Atrahasis*, the closest match, is centuries older, which was
-Part 1's point.) In 1823 a missionary in Hawaiʻi preached on Noah, and his
-hearers told him their own tradition, of two people saved on a mountain-top;
-and *"they said they had never before heard of a ship, or of Noah."* By 1878,
-the version a Hawaiian convert gave had a houseboat, eight survivors, a
-sacrifice and a rainbow. Several peoples expected the opposite of "never
-again": Plato's Egyptian priest, the later Hindu cycles of ages, the Nahua,
-Fiji's canoe-keepers and Chile's Mapuche all looked for destruction to come
-again.
+**What the chart shows — and what it cannot.** The middle band is built from
+Genesis's own details, so Genesis fills it by construction; build the rows from
+*Gilgamesh*'s details, or the Maya's, and Genesis has blanks too — the last
+band does exactly that. So the chart cannot prove that Genesis is more original;
+every story is distinctive in its details. What it shows is **what Genesis says
+that the others do not.** The outline — water, a warning, a boat, a mountain —
+is common, and its fullest form clusters in one family: Mesopotamia, Greece and
+India. A few echoes of Genesis's meaning are early and independent — India's
+blessing of offspring, Ovid's righteous couple, the Maya's moral cause. But the
+details that match Genesis most closely — pairs of animals, the dove, the
+rainbow, eight survivors — turn up outside the Near East **only in records made
+after missionaries arrived**. In 1823 a missionary in Hawaiʻi preached on Noah,
+and his hearers told him their own tradition, of two people saved on a
+mountain-top; *"they said they had never before heard of a ship, or of Noah."*
+By 1878 the version a Hawaiian convert gave — reading his people's story and
+Scripture as one — had a houseboat, eight survivors, a sacrifice and a rainbow.
+And several peoples expected the opposite of "never again": Plato's Egyptian
+priest, the later Hindu cycles, the Nahua, Fiji's canoe-keepers and Chile's
+Mapuche all looked for destruction to come again.
 
-**Why are there so many?** Three answers, and they can be combined. **One
-flood, remembered.** In its strongest form — the one Millard and Kitchen hold
-— a real flood in Mesopotamia lies behind the Near Eastern stories, which is
-why they share the most. A wider form, held by many Christians since Josephus
-(*"all the writers of barbarian histories make mention of this flood"*), sees
-the nations' stories as fading memories of Noah. Its hard question: the closest
-matches outside the Near East come after missionaries, and Africa, where
-Genesis 10 sends Ham's sons, has almost none. **Floods happen wherever people
-live** — they are the commonest disaster on earth, and a flood that fills one
-valley is the end of the world for the people who live there. Egypt, where the
-Nile rose gently from below, has no flood story at all. Its hard question: why
-do so many stories reach for *all* of humankind? **Stories travel** — in the
-ancient world, and with the Bible. Its hard question: the Maya pictured a flood ending
-an earlier world before any European arrived. All three are laid out on
-the sheet.
+**Why are there so many?** Three answers, which can be combined (each is set
+out on the sheet). **One flood, remembered** — narrowly, a real flood in
+Mesopotamia behind the Near Eastern stories; widely, as many Christians since
+Josephus have held, the nations' fading memories of Noah. (The wider form's
+hard question: the closest matches come after missionaries, and Africa, where
+Genesis 10 sends Ham's sons, has almost none.) **Floods happen wherever people
+live** — a flood that fills one valley is the end of the world for those who
+live there; and Egypt, where the Nile rose gently, has no flood story at all.
+(Its hard question: why do so many reach for *all* of humankind?) **Stories
+travel** — in the ancient world, and with the Bible. (Its hard question: Maya
+art from before the conquest is read as showing a flood ending an earlier
+world.)
 
-None of these answers decides whether Noah's flood happened. Christians believe
-it did because Jesus and the apostles speak of it, not because of how many
-peoples tell flood stories. The existence of flood stories proves less than
+None of these answers decides whether Noah's flood happened. We believe it did
+because Jesus and the apostles speak of it, not because of how many peoples
+tell flood stories. The existence of flood stories proves less than
 both sides have claimed: it does not show that Genesis copied a myth, and by
 itself it does not prove Genesis true. **The outline was common property. The
 details were not.**
@@ -607,8 +587,9 @@ Christ"* (1 Peter 3:20–21).
 own grief; the God of Genesis remembers his promise. What difference does it
 make which kind of God you pray to? *Second, this week:* when you see a
 rainbow, remember that the Hebrew word is *bow*, and say the blessing the
-Talmud gives for it: *"Blessed…Who remembers the covenant and is faithful to
-His covenant and fulfills His word"* (*Berakhot* 59a).
+Talmud gives for it (*Berakhot* 59a) — in the full form, "Blessed are You,
+LORD our God, King of the universe," then: *"Who remembers the covenant and is
+faithful to His covenant and fulfills His word."*
 </div>
 
 ---

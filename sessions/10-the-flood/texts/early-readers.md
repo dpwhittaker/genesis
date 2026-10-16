@@ -9,16 +9,21 @@ A source sheet for **Session 10**. The Mesopotamian floods are on
 **[the neighbours' floods](the-neighbors-floods.html)**; the world's flood
 stories on **[floods around the world](floods-around-the-world.html)**; the
 Hebrew details on **[the Flood in Hebrew](the-flood-in-hebrew.html)**. This
-sheet gathers how Jews and Christians in the centuries around Jesus read the
-Flood — including the readers who had heard the nations' flood stories too,
-and said what they made of them.
+sheet gathers how Jews and Christians read the Flood — from the centuries
+around Jesus to the Middle Ages — including the readers who had heard the
+nations' flood stories too, and said what they made of them.
 
 **How to read it.** The New Testament comes first, because for this class it
 is authoritative: where it reads a passage, that reading settles the question
 for us. The other readers are witnesses to how
 the story was heard: sometimes they fill a silence in Genesis, sometimes they
 argue with each other, and sometimes they notice exactly what we notice. Dates
-are given so you can see who was reading whom.
+are given so you can see who was reading whom. For the Jewish sources: the
+Mishnah (including *Pirkei Avot*), edited c. 200 CE; the Tosefta and *Sifrei*,
+3rd century; *Genesis Rabbah*, c. 5th century, though its sages taught in the
+2nd–4th; the Babylonian Talmud, c. 6th century; Rashi (1040–1105); Abraham ibn
+Ezra (c. 1089–1167); Maimonides (1138–1204); Nachmanides (1194–1270); the
+Zohar, late 13th century.
 
 ---
 
@@ -125,8 +130,8 @@ narrative of the flood records nothing of Noah's preaching."*
 > them: 'So said the Master of the world, that He is bringing a flood upon the
 > world.'
 
-And God says: *"I had a single herald who arose for me in the generation of
-the Flood – this is Noah"* — the same idea as 2 Peter's *kēryx*. In the
+Rabbi Abba bar Kahana puts it in God's mouth: *"I had a single herald who
+arose for me in the generation of the Flood – this is Noah"* — the same idea as 2 Peter's *kēryx*. In the
 Talmud (*Sanhedrin* 108a), Rabbi Yosei of Caesarea: *"This teaches that Noah
 the righteous would rebuke the people of his generation and say to them:
 Repent. And if you do not, the Holy One, Blessed be He, will bring a flood
@@ -248,7 +253,17 @@ real sense, the first time this was said to man (Genesis 9:1) it was said as a
 blessing (an assurance that they would be fruitful); here it is a command…
 According to the Midrashic explanation this command is mentioned here after the
 mention of murder in order to liken one who abstains from having children to
-one who sheds blood."*
+one who sheds blood."* That last saying belongs, in the Talmud, to Ben Azzai —
+who never married, and when challenged answered, *"What shall I do, as my soul
+yearns for Torah"* (*Yevamot* 63b). The church has its own word here: Jesus and
+Paul honour those who remain unmarried for the kingdom (Matthew 19:12; 1
+Corinthians 7:7–8).
+
+**Judged without a law?** If no law had been given, how could the flood
+generation be guilty? Nachmanides answered on 6:13: *"the prohibition against
+violence is a rational commandment, there being no need for a prophet to
+admonish them against it. Besides, it is evil committed against both heaven and
+mankind."*
 
 **The seven laws of the children of Noah.** Judaism names the commandments
 binding on every nation after Noah's children — all humanity:
@@ -313,8 +328,9 @@ rainbow [kashti] I have set' – My likeness [kishuti]; something that is likene
 to Me. Is that possible? It is, rather, like the straw [kashin] of the grain"*
 (*Genesis Rabbah* 35:3). Ezekiel did see a rainbow around the throne — *"like
 the appearance of a rainbow in the clouds after the rain… it looked like the
-glory of the LORD"* (1:28; so Revelation 4:3) — and the Talmud teaches that
-one who sees a rainbow should not stare at it, and should say a blessing:
+glory of the LORD"* (1:28; so Revelation 4:3) — and the Talmud records that one who sees a rainbow should fall on his face, as
+Ezekiel did (though in the Land of Israel they objected, lest it look like
+bowing to the rainbow), and that all agree he says a blessing:
 *"Blessed…Who remembers the covenant and is faithful to His covenant and
 fulfills His word"* (*Berakhot* 59a). They added a striking corollary: a generation
 righteous enough would need no rainbow at all. Rabbi Shimon bar Yoḥai, told
@@ -363,8 +379,8 @@ which even among the nations is the fore-token of peace"* (*On Baptism* 8).
 Justin Martyr counted the eight people as *"a symbol of the eighth day,
 wherein Christ appeared when He rose from the dead"* (*Dialogue* 138).
 
-**History and meaning both.** Augustine's chapter heading says how he
-held them together: *"Yet no one ought to suppose either that these things
+**History and meaning both.** Augustine opens *City of God* 15.27 by saying
+how he held them together: *"Yet no one ought to suppose either that these things
 were written for no purpose, or that we should study only the historical
 truth, apart from any allegorical meanings; or, on the contrary, that they
 are only allegories, and that there were no such facts at all"* (*City of God*
@@ -397,16 +413,21 @@ God's support to uphold him in righteousness, Abraham drew his moral strength
 from himself."*
 
 **The other half of the silence.** The tradition heard Noah's silence two
-ways. It made him a preacher (§2) — and it also faulted him for not praying.
-Rashi, following Rabbi Yoḥanan: *"Noah, also, was of those people who are
+ways. It made him a preacher (§2) — and it also faulted him twice: for wavering,
+and for not interceding. Rashi, following Rabbi Yoḥanan: *"Noah, also, was of those people who are
 wanting in faith: he believed and he did not believe that the Flood would come,
 and he would not enter the Ark until the waters forced him to do so"* (on 7:7).
-The Zohar sets him against Moses: *"when God bade Noah save himself and his
+The Zohar (late 13th century) sets him against Moses: *"when God bade Noah save himself and his
 household in the ark from the universal destruction at the time of the Flood,
 he did not intercede on behalf of his generation, but let them perish. It is
 for this reason that the waters of the Flood are named after him, as it is
-written, 'for this is as the waters of Noah unto me' (Is. 54, 9)."* A herald to
-people and an intercessor before God are different roles; the tradition found
+written, 'for this is as the waters of Noah unto me' (Is. 54, 9)."* But on the
+same page other sages defend him. Rabbi Judah: *"What could he do? He was in
+fear for his own life, lest he should perish along with the wicked, whose
+iniquities and provocations he had observed for so long."* And Rabbi Isaac says
+God saved him because *"he daily warned the people, who, however, disregarded
+his warning."* A herald to people and an intercessor before God are different
+roles; the tradition found
 Noah the first and missed the second. Hebrews, for the church, names what his
 righteousness rested on: *"the righteousness that comes by faith"* (11:7) —
 *"By faith Noah."*
@@ -435,7 +456,7 @@ never Ham himself. The earliest readers saw the puzzle:
 > the corrupt one.
 > — *Genesis Rabbah* 36:7
 
-Justin Martyr, independently, gave the same answer: *"For the Spirit of
+Justin Martyr, at about the same time, gave the same answer: *"For the Spirit of
 prophecy would not curse the son that had been by God blessed along with [his
 brothers]"* (*Dialogue* 139). Rashi gives two more Jewish readings: Ham had
 mutilated or abused his father (on 9:22, after *Sanhedrin* 70a), and so lost
@@ -443,17 +464,18 @@ Noah a fourth son — *"cursed, therefore, be your fourth son"* (on 9:25). And
 notice who speaks: it is Noah, waking from wine, who curses. God curses no one
 in this chapter.
 
-**The tradition's own darker strand.** The same midrash, a few lines later,
-keeps folk-tales that explain dark skin by this story: Rav Huna has Noah say
-that Canaan *"will be ugly and darkened,"* and Rabbi Ḥiyya bar Abba says that
+**The tradition's own troubling strand.** The same midrash, a few lines later,
+keeps folk-tales that explain dark skin by this story. Rav Huna's comes as a
+comment on "Cursed be Canaan" itself — Noah says that Canaan *"will be ugly and
+darkened"* and Rabbi Ḥiyya bar Abba says that
 *"Ḥam emerged darkened"* from the ark (*Genesis Rabbah* 36:7). The Talmud lists
 Ham among three who were punished for breaking the ark's rule of separation:
 *"Ham was afflicted in that his skin turned black"* (*Sanhedrin* 108b, in the
 Davidson edition's English; the Talmud's own words say only that he was
 afflicted in his skin, and "turned black" is the translator's gloss). These are
-stories about skin colour, not arguments for slavery — but David Goldenberg's
-study (below) shows how, centuries later, strands like these were fused with
-the curse of Canaan into a "curse of Ham."
+stories about skin colour, not arguments for slavery. What came later —
+traced in David Goldenberg's study (below) — was moving the curse from Canaan
+to Ham and to Cush, and using it to justify enslaving Africans.
 
 **How the verse was misused.** Nothing in Genesis 9 mentions skin, Africa, or
 any people but Canaan. Centuries later a "curse of Ham" was used to justify
@@ -464,7 +486,7 @@ of Ham*, Princeton, 2003; S. R. Haynes, *Noah's Curse*, Oxford, 2002). Many
 churches that once taught it have renounced it; the Southern Baptist
 Convention did so formally in 2018, as a misreading of Genesis 9:25–27.
 
-The oldest explicit Jewish rejection of the racial reading is Abraham ibn
+An early and explicit Jewish rejection of the racial reading is Abraham ibn
 Ezra's, in twelfth-century Spain, on this very verse:
 
 > There are some who say that the Cushites are enslaved because Noah cursed
@@ -492,8 +514,8 @@ Genesis never names Noah's wife or his sons' wives, and none of them speaks.
 readers filled the gap. *Jubilees* names her: *"Noah took to himself a wife,
 and her name was ’Ĕmzârâ, the daughter of Râkê’êl, the daughter of his father's
 brother"* (4:33 in Charles's numbering). One rabbi made her Naamah, the sister
-of Tubal-Cain (*Genesis Rabbah* 23:3; see Session 7's sheet), so that everyone
-after the flood descends from both of Adam's lines. Rashi noticed that the
+of Tubal-Cain (*Genesis Rabbah* 23:3; see Session 7's sheet) — which would mean that
+everyone after the flood descends from both of Adam's lines. Rashi noticed that the
 family goes into the ark with the men and the women listed apart (7:7), and is
 told to come out as couples — *"you, your wife, your sons, and your sons' wives
 with you"* (8:16): *"The men separately and the women separately, because they
@@ -511,8 +533,9 @@ First Peter's *"this prefigured baptism"* (3:21) became part of the church's
 worship. Martin Luther's baptismal order of 1523 includes his "Flood Prayer," which
 recalls how God saved Noah's family through the flood and Israel through the
 sea, and asks that in baptism all that is sinful be drowned and the one
-baptized be kept safe in the ark of the church. The ancient Easter Vigil reads
-the flood among its readings of salvation history. And in the Revised Common Lectionary, used by many
+baptized be kept safe in the ark of the church. The Easter Vigil in many
+churches (the Book of Common Prayer and Lutheran orders among them) reads the
+flood among its readings of salvation history. And in the Revised Common Lectionary, used by many
 churches, the first Sunday in Lent in Year B pairs God's covenant with Noah
 (Genesis 9:8–17) with 1 Peter 3:18–22 and Jesus' baptism and temptation (Mark
 1:9–15).

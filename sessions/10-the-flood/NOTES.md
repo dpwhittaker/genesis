@@ -106,6 +106,62 @@ more seats, by different routes) and what was done:
   and Creation* (not verified). Optional NT threads (Eph 5:2 went on the
   Hebrew sheet; James 3:9 not added).
 
+## Panel review, round 2 (2026-10-16)
+
+Each seat re-read the revised pages against its own round-1 list. Verdicts:
+rabbi YES (no MUST); evangelical, modern Jewish, mainline and skeptic NO. MUSTs
+and what was done:
+
+- **Part 1 settled the borrowing question in the narrator's voice** ("its
+  knowledge of the old story runs through the whole") and then **mislabelled
+  the second view "both remember the same event, independently"** — Kitchen
+  and Heidel held a *shared older tradition, no direct copying* (evangelical,
+  modern Jewish; mainline and skeptic as SHOULD). Now: "the likeness runs
+  through the whole"; second view "Neither copied the other; both draw on an
+  older, shared tradition"; "on whether Genesis drew on the Mesopotamian telling
+  itself, they cannot both be right"; the NT settles *that* it happened, not
+  this; the archaeology sentence moved to "Did it happen?"; the second view's
+  hard question is now the unfound source and the density of shared details.
+- **Ramban only reports the inverted-bow reading** ("commentators have said");
+  handout now "passed on earlier commentators' picture" (modern Jewish).
+- **"Closer match, later record" still false** (India is early and distant):
+  replaced in handout and sheet by the narrower claim — the details that match
+  Genesis most closely (pairs, dove, rainbow, eight) appear outside the Near
+  East only after missionaries (skeptic). Also corrected my own slip calling
+  those details ones that "belong to Genesis alone" (Gilgamesh has the dove).
+- **Grid "It will all happen again":** Greece ● (Ovid's fated world-fire,
+  *Met.* 1.256–258, Miller 1916, verified), India ○ (Purāṇic) (skeptic).
+- **"Two dozen more"** → "the full chart, with twenty-six stories" (skeptic).
+- **Rashi's midrash likening childlessness to bloodshed** in the handout's main
+  flow (mainline): cut from the handout; on the sheet it is now framed — the
+  saying is Ben Azzai's, who never married (*Yevamot* 63b, verified), and the
+  NT honours the unmarried (Matt 19:12; 1 Cor 7:7–8).
+- **SHOULDs taken:** "Christians" → "Christians who read it as history"/"we";
+  8:21's second half restored in §5 ("the flood fixed nothing in the human
+  heart, and God promises anyway"); 6:12 "all living creatures" takes in the
+  animals; Ea's alternatives "on guilty and innocent alike"; God's "never
+  again" on a different ground from Ea's; Jesus' lesson (suddenness) vs
+  Peter's (rescue); Ezekiel 14:16 quoted; the Zohar labelled 13th c. and moved
+  to the sheet with R. Judah's "What could he do?" and R. Isaac's "he daily
+  warned the people" (Zohar, Noach, Soncino, verified); "his obedience was the
+  sermon" → "he proclaimed"; God recalled the oath to Isaiah's exiles; 2 Pet
+  3:6 for the global view; Longman & Walton's hyperbole argument distinguished
+  from Ramm's; Millard no longer named for the regional form (unconfirmed);
+  Cassuto rejected the *documentary hypothesis*; Lambert's Late Bronze Age
+  argument is a critical scholar's, with Millard's "archaeological accident"
+  reply; "the same midrash, and the Talmud" in the 9:25 note, with the Islamic
+  and Christian Near East named for the later fusion; Acts 17:26 "from one man";
+  dates for every Jewish source on the readers sheet; GR 30:7's herald line is
+  R. Abba bar Kahana's; *Berakhot* 59a's falling on the face (not "staring");
+  "an early and explicit" for Ibn Ezra; Justin "at about the same time";
+  "troubling strand"; Rav Huna's comment sits inside the curse of Canaan;
+  Easter Vigil "in many churches (BCP, Lutheran)"; full form of the rainbow
+  blessing at the close.
+- **Length:** handout trimmed from 7,384 to about 6,950 words (Session 9 was
+  6,305) by moving Ramban on 6:13, the Wisdom of Solomon line, *Sifrei*, Rashi
+  on 9:7 and the Zohar to the sheets and tightening "Two questions", §6 and
+  "Why so many?". The print pass will show whether more must go.
+
 ## Research and verification (2026-10-15)
 
 Four parallel agents (Mesopotamia; Genesis and its readers; world floods —

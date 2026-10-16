@@ -146,7 +146,10 @@ the first. All but one of its later uses in the Torah are in the laws of
 sacrifice; the exception is a threat *not* to smell them (Leviticus 26:31). The
 Greek Bible translates it *osmē euōdias*, "a fragrant aroma" — the phrase Paul
 uses of Christ's self-offering: *"a sacrificial and fragrant offering to God"*
-(Ephesians 5:2). And the
+(Ephesians 5:2). The rabbis drew a line through every offering called a
+"soothing aroma": *"there is no 'eating' or 'drinking' before the Holy One
+Blessed be He, but (that His) only ('gratification') is that He speaks and His
+will is done"* — and then quote Psalm 50:12–13 (*Sifrei Bamidbar* 143). And the
 sound of Noah's name, *nōaḥ*, runs through the whole ending: the ark *rested*
 (*wattānaḥ*, 8:4); the dove found no *resting place* (*mānôaḥ*, 8:9); the
 LORD smelled the *restful* aroma (*nîḥōaḥ*, 8:21).
@@ -248,7 +251,8 @@ Lexicon of the Old Testament* (Oxford, 1906), pp. 498 and 1061, public domain.
 Commentary: S. R. Driver, *The Book of Genesis* (Westminster Commentaries,
 1904), pp. 87–88, 99, public domain, via
 [archive.org](https://archive.org/details/bookofgenesiswit00driv). *Genesis
-Rabbah* is quoted from the Sefaria Midrash Rabbah (2022), **CC BY**; Rashi from
+Rabbah* is quoted from the Sefaria Midrash Rabbah (2022), **CC BY**; *Sifrei
+Bamidbar* from S. Silverstein's translation, **CC BY**; Rashi from
 M. Rosenbaum and A. M. Silbermann (1929–34), public domain; Nachmanides and
 Josephus as credited on **[Noah among his readers](early-readers.html)**.
 Described, not quoted: A. Heidel, *The Gilgamesh Epic and Old Testament

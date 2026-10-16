@@ -621,7 +621,7 @@ full record**? ● yes · ○ partly, or only in a later version · blank, no.
 | The survivor is made immortal | | ● | | | | | | | | |
 | Animals warn or rescue the survivors | | | | ● | | | | ● | ● | |
 | Humankind remade from new material | | | ● | ○ | | ● | ● | | | |
-| It will all happen again | | | | | | | ● | | | |
+| It will all happen again | | | ● | ○ | | | ● | | | |
 {: .dot-grid}
 
 **Notes on the chart.** *Mesopotamia* is *Atrahasis* and *Gilgamesh*
@@ -630,11 +630,15 @@ together: *Atrahasis*'s cause is noise; its Sumerian cousin calls the hero
 remember the days." *Greece*: Pindar (468 BCE) has only the flood, Parnassus
 and the stones; the warning, the chest, the sacrifice, the moral cause and the
 righteous couple are in the full tellings of Apollodorus and Ovid, which are
-not suspected of borrowing from the Bible — unlike Lucian's pairs of animals
+not suspected of late borrowing from the Near East — unlike Lucian's pairs of animals
 and Plutarch's dove (marked ○); the gods' worry about losing their incense is
 Ovid's. *India*: animals appear only in the later Purāṇas; Iḍā's blessing of
 offspring comes from the sacrifice; the fish is the rescuer; the cycles of ages
-are Purāṇic, not in the earliest version. *Maya*: the maize people. *Nahua*:
+are Purāṇic, not in the earliest version (marked ○ on the last row). *Greece*:
+Ovid's Jupiter holds back his thunderbolts because *"'twas in the fates that a
+time would come when sea and land, the unkindled palace of the sky and the
+beleaguered structure of the universe should be destroyed by fire"* — so the
+world will end again, not by water. *Maya*: the maize people. *Nahua*:
 humankind remade from the bones of the dead and a god's blood; the present age
 will end too, though not by water; ✕ — the survivors' cooking smoke **angers**
 the gods. *Innu, Ojibwe*: a raft or a tree on a mountain; animals cling on;
@@ -654,10 +658,11 @@ before he acts, a promise never to do it again sworn to every living thing, a
 renewed blessing, a law that protects every human life. Two more things stand
 out. The fuller outline — warning, vessel, mountain, sacrifice — clusters in
 one family of stories, Mesopotamia, Greece and India; elsewhere often only the
-bare idea of destroying water remains. And **outside Genesis's own
-neighbourhood, the closer a story matches Genesis in detail, the later it was
-written down** (inside it the reverse holds: *Atrahasis*, the closest match, is
-the oldest). A few partial echoes are early and independent — India's blessing
+bare idea of destroying water remains. And **outside the Near East, the details that match Genesis most closely —
+pairs of animals, the dove, the rainbow, eight survivors — appear only in
+records made after missionaries arrived** (inside the Near East the closest
+match, *Atrahasis*, is the oldest; early India and Greece share the outline,
+not those details). A few partial echoes are early and independent — India's blessing
 of offspring, Ovid's righteous couple, the Maya's moral cause. Several peoples
 say the opposite of "never again": Plato's Egyptian priest (*"will be again"*),
 the Purāṇic cycles, the Nahua ages, the Mapuche climbing their hills, the
@@ -669,16 +674,16 @@ Fijians keeping their canoes ready.
 
 Three answers have been given. They are not exclusive, and serious people hold
 each. None of them, it should be said at once, decides whether Noah's flood
-happened. Christians believe it did because Jesus and the apostles speak of it
-(Matthew 24:37–39; 2 Peter 3:5–7), not because of how many peoples tell flood
-stories.
+happened. For this class, the reason to believe it did is that Jesus and the
+apostles speak of it (Matthew 24:37–39; 2 Peter 3:5–7), not how many peoples
+tell flood stories.
 
 **1. One flood, remembered.** The oldest answer. Josephus, in the first
 century, already gathered the nations' witnesses: *"Now all the writers of
 barbarian histories make mention of this flood, and of this ark."* It comes in
-two forms. *The regional form* — held by A. R. Millard and K. A. Kitchen, among
-others — sees a real, ancient flood in Mesopotamia behind the Near Eastern
-stories, which is why they share the most detail: the boat, the pitch, the
+two forms. *The narrower form* — K. A. Kitchen, following W. W. Hallo, points to a flood
+in southern Mesopotamia around 2900 BCE — sees a real, ancient flood behind the
+Near Eastern stories, which is why they share the most detail: the boat, the pitch, the
 animals, the birds, the mountain, the sacrifice. *The worldwide form*, held by
 many Christians since Josephus, reads all the world's flood stories as fading
 memories of Noah carried by his descendants; a memory carried across thousands
@@ -702,9 +707,12 @@ high mountains under the entire sky were covered"* (7:19), and Peter speaks of
 J. C. Whitcomb and H. M. Morris, *The Genesis Flood* (1961). Others read a vast
 **regional** flood, covering the whole world of the people in the story:
 Genesis can say a famine was *"severe throughout the earth"* when it means the
-lands around Egypt (41:57) — the case made by Bernard Ramm, *The Christian View
-of Science and Scripture* (1954), and more recently by Tremper Longman and John
-Walton, *The Lost World of the Flood* (2018). The class does not need to settle
+lands around Egypt (41:57). Bernard Ramm made this case in *The Christian View
+of Science and Scripture* (1954), a book written largely because of what
+geology had found; Tremper Longman and John Walton, *The Lost World of the
+Flood* (2018), argue differently, that a real flood is told in deliberately
+universal, hyperbolic language, as ancient accounts of great events often
+were. The class does not need to settle
 it to read the flood with the New Testament.
 
 **2. Floods happen wherever people live.** Floods are the most common natural
@@ -736,8 +744,8 @@ gone the round of the world and been echoed in tales told under the palms of
 coral islands, in Indian wigwams, and amid the Arctic ice and snow."* *Its
 strength:* every step is documented. *The question it has to answer:* stories
 that existed before any contact — above all the Maya, whose inscriptions and a
-painted book from before the conquest already show a flood ending an earlier
-world (Palenque, 734 CE; the Dresden Codex). Whether Manu's story came from
+painted book from before the conquest are read by epigraphers as showing a
+flood ending an earlier world (Palenque, 734 CE; the Dresden Codex). Whether Manu's story came from
 Babylon is still open.
 
 **What all three can agree on.** The bare fact that many peoples tell of a

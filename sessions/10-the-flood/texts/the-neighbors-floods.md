@@ -47,11 +47,13 @@ Judah itself. So the careful claim is this: **the story was in the air of their
 world** — told, copied and sung across the ancient Near East for well over a
 thousand years — and Genesis's own details (the pitch, the mountain, the
 birds, the sacrifice, the deity smelling it) suggest that its writer knew it.
-When Israel met it depends on how Genesis is dated. On a traditional dating,
-in the Late Bronze Age, when these texts were being copied in Canaan and Syria
-(W. G. Lambert argued that this was the period of transmission). On a critical
-dating, under Assyria and in exile in Babylon, where the story was still being
-copied. Either way, it was there.
+When Israel met it depends partly on how Genesis is dated. On a traditional
+dating, in the Late Bronze Age, when these texts were being copied in Canaan
+and Syria; on a critical dating, also under Assyria and in exile in Babylon,
+where the story was still being copied. (W. G. Lambert, a critical scholar,
+argued that the traditions passed west in the Late Bronze Age whenever Genesis
+itself was written; A. R. Millard replied that where tablets happen to turn up
+is partly archaeological accident.) Either way, it was there.
 
 The Mesopotamians themselves treated the flood as a real dividing line in
 history. The Sumerian King List (Session 7) runs: *"In 5 cities 8 kings; they
@@ -426,12 +428,12 @@ so they cannot identify *this* flood.
 the question of borrowing they cannot both be right.
 
 **Genesis knew the Mesopotamian telling and answered it.** Since George Smith
-deciphered the flood tablet in 1872, many scholars have held that the Hebrew
+deciphered the flood tablet in 1872, most scholars have held that the Hebrew
 story came, directly or indirectly, from the Babylonian. L. W. King (1918):
 *"The general dependence of the biblical Versions upon the Babylonian legend as
 a whole has long been recognized."* A distinct, twentieth-century thesis went
 further: Genesis tells the story in order to *answer* it. Umberto Cassuto
-(*From Noah to Abraham*, 1949), who rejected the two-source theory altogether,
+(*From Noah to Abraham*, 1949), who rejected the documentary hypothesis altogether,
 and Nahum Sarna (*Understanding Genesis*, 1966) read it so; Tikva
 Frymer-Kensky (*Biblical Archaeologist*, 1977) argued that Genesis knew the
 *Atrahasis* pattern — creation, a problem, a flood, a solution — and
@@ -446,21 +448,23 @@ and the bow; the other has the seven days, the birds, the altar and the aroma.
 *The question it has to answer:* a shared word, or a shared outline, does not
 prove copying, and not every difference is a rebuttal.
 
-**Both remember the same event, independently.** Others hold that Genesis and
-the Mesopotamian stories are independent memories of a real, ancient flood,
-and that Genesis tells it truly. A. R. Millard, an evangelical Assyriologist
-who co-edited *Atrahasis*, argued that borrowing has not been shown and that
-the two accounts describe the same flood (*Tyndale Bulletin*, 1967). K. A.
-Kitchen held that they go back to a common tradition without borrowing from
-each other, and added a rule from the ancient world: simple accounts grow into
+**Neither copied the other; both draw on an older, shared tradition.** Others
+hold that Genesis did not borrow from the Mesopotamian telling, but that both
+go back to an older tradition of a real, ancient flood, which Genesis tells
+truly. A. R. Millard, an evangelical Assyriologist who co-edited *Atrahasis*,
+argued that borrowing had yet to be shown and that the two accounts describe
+the same flood (*Tyndale Bulletin*, 1967). K. A. Kitchen saw "a definite
+relationship" between them through a common ancient tradition, but no direct
+borrowing, and added a rule from the ancient world: simple accounts grow into
 elaborate legends by addition, not the reverse — so Genesis need not be a
-cleaned-up *Atrahasis* (*Ancient Orient and Old Testament*, 1966). Even A.
+cleaned-up *Atrahasis* (*Ancient Orient and Old Testament*, 1966). (The rule is
+contested: *Gilgamesh* XI is itself a shortened retelling of *Atrahasis*.) Even A.
 Heidel (1946), who called the versions "genetically related," judged the
 arguments for Babylonian dependence indecisive. *Its strength:* the
 Mesopotamians themselves dated their history by the flood. *The question it
-has to answer:* the density of shared details — down to the birds and the
-deity smelling the offering — is hard to explain without some literary
-contact.
+has to answer:* the shared source has never been found, and the density of
+shared details — down to the birds sent out in turn and the deity smelling the
+offering — is hard to explain without some literary contact.
 
 **What neither settles** is what Genesis *means*. That is in the differences.
 
@@ -501,7 +505,8 @@ An honest list, so that no difference is claimed that is not there.
   second god to say it. The human protest — *"Will not the judge of the whole
   earth do what is right?"* — comes later, from Abraham, at Sodom (18:25), and
   Ezekiel 14, which names Noah, keeps the question of the righteous and the
-  wicked open.
+  wicked open — with nearly Ea's own list of lesser judgments: *"sword, famine,
+  wild animals, and plague"* (14:21).
 - **The aftermath.** *The strongest structural contrast.* Fewer births in
   *Atrahasis*; *"be fruitful and multiply"* and a law protecting human life in
   Genesis (9:1–7).
