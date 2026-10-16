@@ -164,6 +164,19 @@
    wrap so the table costs width instead of forcing a nowrap run. */
 .ff-wrap td, .ff-wrap th { white-space: normal !important; text-align: left; }
 
+/* Detail grid (Session 10's flood chart): one wide label column and narrow,
+   centred mark columns, so ten stories fit the page without each label
+   wrapping to five lines. The Genesis column (2nd) is set bold. On a phone the
+   grid scrolls sideways instead of pushing the page wider. */
+.dot-grid { font-size: 0.85em; }
+.dot-grid th, .dot-grid td { padding: 3px 3px !important; text-align: center; white-space: nowrap; }
+.dot-grid th:first-child, .dot-grid td:first-child { text-align: left; white-space: normal; min-width: 15em; }
+.dot-grid td:nth-child(2) { font-weight: 700; }
+.dot-grid td:not(:first-child) { font-size: 1.3em; line-height: 1; }
+@media screen and (max-width: 800px) {
+  .dot-grid { display: block; overflow-x: auto; }
+}
+
 @media print {
   /* Retain the structure colors in print — the gold center, green goal, indigo
      climax, and tinted frame. Force the browser to render the backgrounds and
