@@ -163,9 +163,12 @@ each in the background (a long episode is ~20 chunks, about 13 s each).
   audio is nearly all the bytes. The file's metadata carries the script's
   `title` and the ElevenLabs credit.
 
-Cost on Creator is about 0.1 credit per character: roughly 5,000–6,000
-credits a lesson for both episodes, out of 300,000 a month. Check with
-`podcast.py quota`.
+Cost is **one credit per character**, tags included: the `character-cost`
+header equals the characters sent, and the account's count moves by exactly
+that. Session 10's pair (36,372 + 16,090 characters) used 52,462 of the
+Creator plan's 300,000 a month, so budget about 50,000 credits a lesson and
+roughly five lessons a month, less any retakes. `check` prints the characters;
+read them as credits. Check what's left with `podcast.py quota`.
 
 ### 7. Verify (you can't listen, so transcribe)
 
@@ -414,7 +417,8 @@ reacting to each other." What we learned about the WebSocket:
   - Request stitching (`previous_request_ids`/`next_request_ids`): ≤ 3 ids
     each, each < 2 hours old. Not available on v3; v4 accepts it.
 - **Billing:** per character, tags included, as the `character-cost` response
-  header shows. On Creator, v4 came to ~0.1 credit per character.
+  header shows: one credit per character on Creator with v4 (an earlier
+  note here said ~0.1; Session 10 showed it was 1).
 - **Output formats:** `mp3_44100_128` works on every tier. 192 kbps needs
   Creator; 44.1 kHz PCM/WAV needs Pro. The renderer re-encodes to 64k mono
   anyway.
