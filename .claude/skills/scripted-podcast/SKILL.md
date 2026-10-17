@@ -91,8 +91,8 @@ title: "Session N — <short|long>: <lesson title>"
 output: <slug>-<short|long>.m4a
 engine: fish
 model: drama-3
-speed: 1.1          # prosody.speed; the user asked for "a bit" faster than 1.0
 max_pause: 0.35     # seconds; every longer pause is cut to this when assembling
+tempo: 1.1          # then the whole episode is sped up, pitch kept (atempo)
 speakers:
   ETHAN: { voice: 536d3a5e000945adb7038665781a4aca, name: Ethan }   # Fish Audio library
   SARAH: { voice: 933563129e564b19a115bedd57b7406a, name: Sarah }   # Fish Audio library
@@ -179,7 +179,8 @@ each in the background.
 - **What Fish is sent.** One `POST https://api.fish.audio/v1/tts` per chunk with
   the header `model: drama-3`: the turns as `<|speaker:N|>` lines (N is the
   label's place in `speakers:`), `reference_id` listing every speaker's voice in
-  that order, mp3 at 128 kbps, and `prosody.speed`. `*word*` in the script goes
+  that order, and mp3 at 128 kbps (plus `prosody.speed` if a script sets
+  `speed:`; ours don't, see *Assembly*). `*word*` in the script goes
   out as `<emphasis>word</emphasis>`. A 5xx ("under high load") or a dropped
   connection is retried twice.
 - **Cache.** Each chunk is cached in `~/.cache/scripted-podcast/` under a hash of
@@ -203,7 +204,12 @@ each in the background.
   `max_pause` cut down to it, keeping the pause's first and last halves so
   breaths and word endings survive. The chunks are then joined with
   `max_pause` of silence, so a seam sounds like any other turn. Without it,
-  chunks are joined with a 0.35 s gap. Then everything is loudness-normalised
+  chunks are joined with a 0.35 s gap. `tempo:` then speeds the whole episode,
+  gaps included, with ffmpeg's `atempo`, which keeps the pitch. The user asked
+  for "a bit" faster and compared Fish's own `speed: 1.1` (the model speaks
+  faster) with voicing at its own pace and applying `atempo` 1.1 afterwards,
+  and with Rubber Band: "atempo sounds the cleanest" (2026-10-17). Then
+  everything is loudness-normalised
   to −16 LUFS and encoded as **64 kbps mono AAC with `+faststart`**, about
   0.5 MB a minute. That keeps the site inside GitHub Pages' 1 GB limit, where
   audio is nearly all the bytes. The file's metadata carries the script's
@@ -256,9 +262,10 @@ timestamp**. Numbers and ordinals are matched to Whisper's digits, so
   afresh.
 - **Mispronunciation:** respell the word in the script. The printed handout
   keeps the scholarly spelling; the script is for the voice.
-- **Too slow, or the gaps too long (Fish):** raise `speed` (1.15, 1.2) or lower
-  `max_pause` (0.25). `max_pause` costs nothing: it's applied when
-  assembling, from the cache. `speed` re-voices every chunk.
+- **Too slow, or the gaps too long:** raise `tempo` (1.15) or lower
+  `max_pause` (0.25). Both are applied when assembling, from the cache, so
+  re-rendering costs nothing. (Fish's own `speed:` also works, but it
+  re-voices every chunk, and the user preferred `atempo`.)
 - **Too flat, or too wild (ElevenLabs):** lower `stability` for more range
   (0.3–0.4), raise it for steadier reading (0.6–0.7). Every chunk re-voices.
 

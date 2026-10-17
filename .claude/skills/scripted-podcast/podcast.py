@@ -12,7 +12,8 @@ The front matter's `engine:` picks the service: `elevenlabs` (the default; Text
 to Dialogue, eleven_v4) or `fish` (Fish Audio's /v1/tts with the `drama-3`
 model: <|speaker:N|> turns, a reference_id per speaker, free-text [directions],
 `speed:` as prosody.speed, and `max_pause:` seconds as a cap on every pause,
-applied when the chunks are assembled).
+applied when the chunks are assembled). Any engine: `tempo:` speeds the
+assembled episode up (or down) without changing its pitch, with ffmpeg's atempo.
 
 The script format is described in SKILL.md next to this file. `---` lines cut
 the script into sections; each section is split at turn boundaries into chunks
@@ -55,7 +56,10 @@ WPM = 150            # spoken pace used for the duration estimate
 GAP = 0.35           # seconds of silence between chunks
 STITCH_TTL = 2 * 3600 - 600  # request ids can be stitched to for 2 hours; keep a margin
 
-DEFAULTS = {"bitrate": "64k"}
+DEFAULTS = {
+    "bitrate": "64k",
+    "tempo": 1.0,     # pitch-preserving speed-up of the assembled episode (ffmpeg atempo)
+}
 ENGINES = {
     # Text to Dialogue: keep each request's text at or under 2,000 characters
     # ("longer requests may end early or return a validation error"), at most 10
@@ -608,12 +612,13 @@ def cap_pauses(src, dest, max_pause, threshold_db=40.0):
                     "-c:a", "pcm_s16le", str(dest)], input=out.astype(np.float32).tobytes(), check=True)
 
 
-def assemble(parts, out, bitrate, title, credit, max_pause=None):
+def assemble(parts, out, bitrate, title, credit, max_pause=None, tempo=1.0):
     """Concatenate chunk mp3s with short gaps, normalise to podcast loudness,
     and encode as mono AAC — the same 64k mono / faststart as the NotebookLM
     episodes, so Pages' 1 GB budget holds. With max_pause, each chunk's pauses
     are capped first (cap_pauses) and the chunks joined with max_pause of
-    silence, so a seam sounds like any other turn."""
+    silence, so a seam sounds like any other turn. tempo != 1 then speeds the
+    whole episode, gaps included, with atempo, which keeps the pitch."""
     with tempfile.TemporaryDirectory() as td:
         if max_pause:
             capped = []
@@ -627,7 +632,8 @@ def assemble(parts, out, bitrate, title, credit, max_pause=None):
             inputs += ["-i", str(p)]
             labels.append(f"[{i}:a]aresample=44100,aformat=channel_layouts=mono,apad=pad_dur={gap}[a{i}]")
         concat = "".join(f"[a{i}]" for i in range(len(parts))) + f"concat=n={len(parts)}:v=0:a=1[cat]"
-        graph = ";".join(labels + [concat, "[cat]loudnorm=I=-16:TP=-1.5:LRA=11,aresample=44100[out]"])
+        speed = f"atempo={float(tempo):.4f}," if float(tempo) != 1 else ""
+        graph = ";".join(labels + [concat, f"[cat]{speed}loudnorm=I=-16:TP=-1.5:LRA=11,aresample=44100[out]"])
         tmp = Path(td) / "out.m4a"
         subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", *inputs,
                         "-filter_complex", graph, "-map", "[out]", "-c:a", "aac", "-b:a", bitrate,
@@ -651,7 +657,8 @@ def cmd_check(args):
     print(f"{Path(args.script).name}: {meta.get('title', '')}")
     if meta["engine"] == "fish":
         pause = f"{meta['max_pause']} s" if meta.get("max_pause") else "as voiced"
-        print(f"  engine fish  model {meta['model']}  speed {meta.get('speed', 1)}  max pause {pause}  → {meta['output']}")
+        print(f"  engine fish  model {meta['model']}  speed {meta.get('speed', 1)}  max pause {pause}  "
+              f"tempo {meta['tempo']}  → {meta['output']}")
     else:
         print(f"  model {meta['model']}  stability {meta['stability']}  seed {meta['seed']}  → {meta['output']}")
     for label, (n, w) in per.items():
@@ -711,7 +718,7 @@ def cmd_render(args):
             print(f"  voicing {len(req['inputs'])} turns over the WebSocket ({chars} chars)…", flush=True)
             rid, turns_done = voice_ws(req, p)
             print(f"    {fmt_min(duration(p))}  request {rid}  {turns_done} turns finalised")
-        assemble([p], out, meta["bitrate"], title, meta["credit"])
+        assemble([p], out, meta["bitrate"], title, meta["credit"], tempo=meta["tempo"])
         print(f"wrote {out}  {fmt_min(duration(out))}  {out.stat().st_size / 1e6:.1f} MB")
         return 0
 
@@ -746,17 +753,23 @@ def cmd_render(args):
         preview = script.parent / f"{Path(meta['output']).stem}.chunk{args.only}.mp3"
         print(f"chunk {args.only}: {p}  ({fmt_min(duration(p))})")
         if args.copy:
-            if meta.get("max_pause"):
+            tempo = float(meta["tempo"])
+            if meta.get("max_pause") or tempo != 1:
                 with tempfile.TemporaryDirectory() as td:
-                    cap_pauses(p, Path(td) / "c.wav", float(meta["max_pause"]))
-                    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(Path(td) / "c.wav"),
+                    src = p
+                    if meta.get("max_pause"):
+                        src = Path(td) / "c.wav"
+                        cap_pauses(p, src, float(meta["max_pause"]))
+                    af = ["-af", f"atempo={tempo:.4f}"] if tempo != 1 else []
+                    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(src), *af,
                                     "-b:a", "128k", str(preview)], check=True)
             else:
                 shutil.copy(p, preview)
             print(f"copied to {preview}")
         return 0
 
-    assemble([p for _, _, p, _ in plan], out, meta["bitrate"], title, meta["credit"], meta.get("max_pause"))
+    assemble([p for _, _, p, _ in plan], out, meta["bitrate"], title, meta["credit"], meta.get("max_pause"),
+             meta["tempo"])
     print(f"wrote {out}  {fmt_min(duration(out))}  {out.stat().st_size / 1e6:.1f} MB")
     return 0
 
