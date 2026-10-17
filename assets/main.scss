@@ -44,6 +44,8 @@
      so a bare `margin: 0.4em 0` clips the outside markers off the page edge. */
   ul, ol { margin: 0.4em 0 0.4em 2em; }
   blockquote, pre, table, tr, li, figure, img { page-break-inside: avoid; }
+  /* A long prose table may break between rows (each row stays whole; the header row repeats). */
+  table.split-ok { page-break-inside: auto; }
   blockquote { border-left: 3px solid #000; padding-left: 0.6em; margin: 0.4em 0; }
   table { font-size: 0.95em; }
   /* Tight cells so the forming/filling + hill tables cost less vertical space. */

@@ -5,13 +5,19 @@ build, so this file is for whoever builds the session, not for the class.
 
 ---
 
-## Status (2026-10-15)
+## Status (2026-10-16)
 
 Written: handout `index.md` (*The Flood Everyone Knew*) and four source sheets —
 `texts/the-neighbors-floods.md`, `texts/floods-around-the-world.md`,
-`texts/the-flood-in-hebrew.md`, `texts/early-readers.md`. Panel review done — five rounds to equilibrium (all five seats YES, 2026-10-16; below). Not yet done: print pass (`print-session` → `10-the-flood.pdf`), podcasts
-(`scripted-podcast`). The PDF and podcast lines in the handout are absent until
-those exist.
+`texts/the-flood-in-hebrew.md`, `texts/early-readers.md`. Panel review done — five rounds to equilibrium (all five seats YES, 2026-10-16; below).
+Print pass done 2026-10-16: `10-the-flood.pdf`, **10 pages** (Sessions 8–9 were 8),
+no layout warnings. To get there the forced break before Part 3 was dropped, the
+sample world table was marked `{: .ff-wrap .split-ok}` (a new print class in
+`assets/main.scss`: the table may break between rows, header repeated), and a
+break was put before "Next week" so "So what?" sits on one page. Getting to 8
+pages would mean cutting about a fifth of the handout. Podcast scripts written
+(`10-the-flood-long.script.md`, ~6,440 words; `-short`, ~2,850), awaiting
+David's read before voicing.
 
 **David's brief (2026-10-15):** compare the biblical flood to *Atrahasis* and
 *Gilgamesh*; "the biggest point lies in where the Bible diverges from the

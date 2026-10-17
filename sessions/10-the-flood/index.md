@@ -10,6 +10,9 @@ layout: default
 **Source sheets:** **[the neighbours' floods](texts/the-neighbors-floods.html)** (*Atrahasis*, *Gilgamesh*, the Sumerian flood, Berossus) · **[floods around the world](texts/floods-around-the-world.html)** (the full chart, story by story) · **[the Flood in Hebrew](texts/the-flood-in-hebrew.html)** · **[Noah among his readers](texts/early-readers.html)** (the New Testament, the rabbis, the church)
 {: .no-print}
 
+🖨️ **[Printable handout (PDF, 10 pages)](10-the-flood.pdf)** — print this file rather than the web page; it is the exact layout checked for paper.
+{: .no-print}
+
 ## A note before we begin
 
 Some of us first met *Gilgamesh* as an argument against the Bible: here is
@@ -443,8 +446,6 @@ on moral grounds. What do you make of Genesis's answer — and of the fact that
 when Abraham objects, God listens, and Sodom still falls?
 </div>
 
-<div class="page-break"></div>
-
 ## Part 3 — Floods around the world
 
 **"Every culture has a flood story."** It is not quite true. Flood stories are
@@ -475,7 +476,7 @@ world](texts/floods-around-the-world.html)**.
 | **Gunaikurnai**, Victoria, Australia (1878) | a frog is made to laugh, and spills the water he swallowed | people saved in the Pelican's canoe | how pelicans got their colours |
 | **Hawaiʻi** (1823 → 1878) | (none recorded → sin) | two people on Mauna Kea → Nuʻu and seven others in a houseboat | (none recorded → a sacrifice and a rainbow) |
 | **Fiji** (1840s) | two boys killed the god's pet bird | the rebels themselves | canoes kept ready for the next flood |
-{: .ff-wrap}
+{: .ff-wrap .split-ok}
 
 Now ask of every story the same questions. Does it have this detail in its
 **earliest** full record? (● yes · ○ partly, or only later · blank, no)
@@ -560,6 +561,8 @@ If you had to explain to a friend what Genesis says about God using only the
 rows where Genesis stands alone, what would you say? And what do the other
 peoples' rows say about what *they* hoped and feared?
 </div>
+
+<div class="page-break"></div>
 
 ## Next week
 
