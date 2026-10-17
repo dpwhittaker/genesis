@@ -1,14 +1,22 @@
 ---
 name: scripted-podcast
-description: Make a Genesis lesson's podcasts — the SHORT (~20 min) and LONG (~40 min) episodes every lesson ships with, plus an optional trailer — as two-host scripts voiced by ElevenLabs: two friends who have both read the handout, talking it over, light-hearted and conversational, not a lecture. Claude writes sessions/<slug>/<slug>-short.script.md and <slug>-long.script.md from the handout and source sheets, the user reads and revises them, and only then does ElevenLabs Text to Dialogue (eleven_v4, audio tags) voice them into <slug>-short.m4a and <slug>-long.m4a. Then Claude transcribes the audio locally to check it against the script, and links both on the page. This replaced the NotebookLM flow from Session 10 on. Use when the user says "make podcasts for session N", "short and long podcast", "deep dive for lesson N", "trailer", or wants a line, a voice or a take changed. Never send a script to ElevenLabs before the user has approved it.
+description: Make a Genesis lesson's podcasts — the SHORT (~20 min) and LONG (~40 min) episodes every lesson ships with, plus an optional trailer — as two-host scripts: two friends who have both read the handout, talking it over, light-hearted and conversational, not a lecture. Claude writes sessions/<slug>/<slug>-short.script.md and <slug>-long.script.md from the handout and source sheets, with an actor's direction on every line; the user reads and revises them, and only then does Fish Audio's Drama 3 (Ethan and Sarah; ElevenLabs remains as a second engine) voice them into <slug>-short.m4a and <slug>-long.m4a. Then Claude transcribes the audio locally to check it against the script, and links both on the page. This replaced the NotebookLM flow from Session 10 on. Use when the user says "make podcasts for session N", "short and long podcast", "deep dive for lesson N", "trailer", or wants a line, a voice or a take changed. Never send a script to a voice service before the user has approved it.
 ---
 
-# Lesson podcasts: script first, then ElevenLabs
+# Lesson podcasts: script first, then a voice service
 
 Every lesson ships with two podcasts, a **short** and a **long** one. From
 Session 10 on, both are made here. **Claude writes a script the user can read;
-ElevenLabs only performs it.** So every claim and every quotation is checked
-before anyone hears it, and a wrong line is fixed by editing one line.
+the voice service only performs it.** So every claim and every quotation is
+checked before anyone hears it, and a wrong line is fixed by editing one line.
+
+**The engine is Fish Audio's Drama 3**, chosen by the user on 2026-10-17 as
+"the cheapest acceptable option". Session 10 was first voiced on ElevenLabs
+v4, which sounded good but cost one credit a character: about 50,000 credits a
+lesson, a sixth of the monthly plan. The user then compared Drama 3 (API) with
+four local models (Fish S2 Pro, VibeVoice 1.5B and 7B, Dia, Dia2; test rig in
+`~/tts-compare`) and picked Drama 3 with Ethan and Sarah. `podcast.py` speaks
+both services; a script's front matter picks one with `engine:`.
 
 > Sessions 1–9 were made in NotebookLM (`Medium_Podcast.m4a`/`Longer_Podcast.m4a`
 > through Session 7, `<slug>-short/-long.m4a` for 8–9). Leave them alone: their
@@ -28,7 +36,8 @@ python3 $P render sessions/<slug>/<slug>-long.script.md     # dry run: says what
 python3 $P render … --yes                                    # voice new/changed chunks, assemble the .m4a
 python3 $P render … --only 7 --yes --copy                    # voice/audition chunk 7 alone
 $UV --with faster-whisper python $P verify …                 # transcribe locally, diff against the script
-python3 $P voices [search]  ·  python3 $P quota               # account voices · credits left
+python3 $P voices --engine fish [search]                    # Fish's voice library (ElevenLabs without --engine)
+python3 $P quota --engine fish                               # API credit left, in dollars
 $UV --with websockets python $P render … --transport ws --yes   # experimental; see "Transports"
 python3 $P render … --out X.m4a --model eleven_v3            # variants side by side, for comparing
 ```
@@ -58,10 +67,10 @@ academic paper", and asked for "a more light-hearted, casual, and
 conversational tone. Two friends talking about what they read, not a scholar
 teaching a student" (2026-10-16).
 
-| Label | Voice | Who |
-|---|---|---|
-| `FLINT` | **Flint** – Deep, Raspy, and Warm (`qAZH0aMXY8tw1QufPN0D`) | Warm, dry, easily delighted by an old text. Likes reading out the strange lines (the rabbis' stories, a god talking to a wall). Gets there slowly and then sees the point. |
-| `LAUREN` | **Lauren** (`DODLEQrClDo8wCz460ld`) | Quick, funny, honest. Says the obvious question out loud, notices what's absurd, pushes back when something doesn't add up, and brings her own finds from the sheets. |
+| Label | Voice (Fish Audio) | Who | Directed as |
+|---|---|---|---|
+| `ETHAN` | **Ethan** (`536d3a5e000945adb7038665781a4aca`) | Warm, dry, easily delighted by an old text. Likes reading out the strange lines (the rabbis' stories, a god talking to a wall). Gets there slowly and then sees the point. | warm, relaxed, easygoing; amused; thoughtful when it turns serious |
+| `SARAH` | **Sarah** (`933563129e564b19a115bedd57b7406a`) | Quick, funny, honest. Says the obvious question out loud, notices what's absurd, pushes back when something doesn't add up, and brings her own finds from the sheets. | **understated**: wry, dry, quietly amused, warm. Never bright, gleeful or shouting |
 
 Both carry the content. Either one introduces a part, reads a quotation, makes
 the point or raises the objection. Swap who knows what from part to part, so
@@ -70,22 +79,31 @@ prints the split). Neither is a cheerleader: if a line is only "Wow,
 that's fascinating," replace it with a real reaction, a joke, a question or a
 disagreement.
 
-The user chose Flint and Lauren after hearing George and Jessica. Keep the pair
-across every lesson so the class knows the voices. The front matter of every
-script starts from this:
+The user chose Sarah over Hannah because she is less bright, and turned down a
+first take whose directions made her "bright", "gleeful" and "shouting": "Sarah
+shouting at the beginning is too much." Write her directions low-key. Keep the
+pair across every lesson so the class knows the voices. The front matter of
+every script starts from this:
 
 ```yaml
 ---
 title: "Session N — <short|long>: <lesson title>"
 output: <slug>-<short|long>.m4a
-model: eleven_v4
-stability: 0.5
-seed: <N>
+engine: fish
+model: drama-3
+speed: 1.1          # prosody.speed; the user asked for "a bit" faster than 1.0
+max_pause: 0.35     # seconds; every longer pause is cut to this when assembling
 speakers:
-  FLINT: { voice: qAZH0aMXY8tw1QufPN0D, name: Flint }    # Deep, Raspy, and Warm (library)
-  LAUREN: { voice: DODLEQrClDo8wCz460ld, name: Lauren }  # library
+  ETHAN: { voice: 536d3a5e000945adb7038665781a4aca, name: Ethan }   # Fish Audio library
+  SARAH: { voice: 933563129e564b19a115bedd57b7406a, name: Sarah }   # Fish Audio library
 ---
 ```
+
+**ElevenLabs, if it's ever wanted again:** `engine: elevenlabs` (or no
+`engine:`), `model: eleven_v4`, `stability: 0.5`, `seed: <N>`, and the voices
+Flint (`qAZH0aMXY8tw1QufPN0D`, deep, raspy, warm; Ethan's part) and Lauren
+(`DODLEQrClDo8wCz460ld`; Sarah's part), chosen after George and Jessica.
+ElevenLabs wants short tags, not full directions (see *Audio tags*).
 
 The labels are never voiced. **No names on air**, and **no invented lives**:
 the hosts react to what they *read* ("I had to read that twice", "this one made
@@ -131,9 +149,10 @@ section, so an edit inside it can't shift the chunking anywhere else.
 
 `podcast.py check` until there are no `ERROR`s, and read every `warn`. It catches
 references written as digits, LORD in capitals, transliteration diacritics,
-parentheses and abbreviations, SSML, tags a listener can't hear, turns too
-long to send, and tags crowding a turn. It also prints each host's share, the
-estimated length, the chunk plan and the characters to be billed.
+parentheses and abbreviations, SSML, turns too long to send, and, for Fish,
+turns of more than six words with no opening direction (for ElevenLabs: tags a
+listener can't hear, and tags crowding a turn). It also prints each host's
+share, the estimated length, the chunk plan and the characters to be sent.
 
 ### 5. STOP: the user reads the scripts
 
@@ -149,38 +168,57 @@ free, so iterate here rather than after voicing.
 ### 6. Voice
 
 `podcast.py render <script> --yes` for each episode. You can run both at once,
-each in the background (a long episode is ~20 chunks, about 13 s each).
+each in the background.
 
 - **Chunking.** Each `---` section is split at turn boundaries into the fewest
-  chunks of ≤ 1,800 characters, cut near equal shares so none is a stub. Each
-  chunk is one Text to Dialogue request (the API's limit is 2,000).
+  chunks under the engine's limit, cut near equal shares so none is a stub:
+  **≤ 3,000 characters for Fish** (it states no limit, and splits long text
+  into 100–300-character pieces itself, carrying the voice across them; the
+  2,600-character opening voiced cleanly), **≤ 1,800 for ElevenLabs** (its
+  limit is 2,000). Each chunk is one request; directions count toward the size.
+- **What Fish is sent.** One `POST https://api.fish.audio/v1/tts` per chunk with
+  the header `model: drama-3`: the turns as `<|speaker:N|>` lines (N is the
+  label's place in `speakers:`), `reference_id` listing every speaker's voice in
+  that order, mp3 at 128 kbps, and `prosody.speed`. `*word*` in the script goes
+  out as `<emphasis>word</emphasis>`. A 5xx ("under high load") or a dropped
+  connection is retried twice.
 - **Cache.** Each chunk is cached in `~/.cache/scripted-podcast/` under a hash of
-  exactly what was sent: text, voices, model, settings and seed. A sidecar
-  `.json` keeps the `request-id`, the `character-cost` and the time.
-- **Stitching.** Chunks are voiced **in script order**. Each request carries
-  `previous_request_ids` (the takes before it, up to 3), so a chunk picks up
-  where the last one left off. When a chunk mid-script is retaken, it also
-  carries `next_request_ids` (the takes after it), so it leads back into them.
+  exactly what was sent (text, voices, model, settings, seed or take). A sidecar
+  `.json` keeps the request and the time.
+- **Stitching (ElevenLabs only).** Chunks are voiced **in script order**. Each
+  request carries `previous_request_ids` (the takes before it, up to 3), so a
+  chunk picks up where the last one left off. When a chunk mid-script is
+  retaken, it also carries `next_request_ids` (the takes after it).
   - Request ids can be stitched to for 2 hours only. Past that, or for a
     neighbour being re-voiced in the same run, the request sends 100
     characters of that neighbour's text instead (`previous_text`/
     `future_text`). The render line says which it used.
   - None of this is in the cache key, so an edit re-voices only its own chunk.
-  - `stitch: false` sends chunks independently.
+  - `stitch: false` sends chunks independently. Fish has no equivalent, so its
+    chunks are independent; the fixed voices keep them matched.
 - **Truncation check.** After each chunk, the renderer compares its length
   with its word count and flags one much shorter than its text (cut off).
-- **Assembly.** Chunks are joined with a 0.35 s gap, loudness-normalised to
-  −16 LUFS, and encoded as **64 kbps mono AAC with `+faststart`**, about
+- **Assembly.** With `max_pause:` (Fish scripts), each chunk first has its
+  leading and trailing silence removed and every pause longer than
+  `max_pause` cut down to it, keeping the pause's first and last halves so
+  breaths and word endings survive. The chunks are then joined with
+  `max_pause` of silence, so a seam sounds like any other turn. Without it,
+  chunks are joined with a 0.35 s gap. Then everything is loudness-normalised
+  to −16 LUFS and encoded as **64 kbps mono AAC with `+faststart`**, about
   0.5 MB a minute. That keeps the site inside GitHub Pages' 1 GB limit, where
   audio is nearly all the bytes. The file's metadata carries the script's
-  `title` and the ElevenLabs credit.
+  `title` and the engine's credit.
 
-Cost is **one credit per character**, tags included: the `character-cost`
-header equals the characters sent, and the account's count moves by exactly
-that. Session 10's pair (36,372 + 16,090 characters) used 52,462 of the
-Creator plan's 300,000 a month, so budget about 50,000 credits a lesson and
-roughly five lessons a month, less any retakes. `check` prints the characters;
-read them as credits. Check what's left with `podcast.py quota`.
+**Cost on Fish** is per character sent, directions included, from prepaid API
+credit: about **$10 per million characters**. Session 10's pair (47,843 + 19,874
+characters with directions) cost $0.65, where the same pair on ElevenLabs had
+cost 52,462 credits. Check the balance with
+`podcast.py quota --engine fish`.
+
+**Cost on ElevenLabs** is **one credit per character**, tags included: the
+`character-cost` header equals the characters sent. Session 10's first pair
+(36,372 + 16,090 characters) used 52,462 of the Creator plan's 300,000 a
+month: about 50,000 credits a lesson. That cost is why the engine changed.
 
 ### 7. Verify (you can't listen, so transcribe)
 
@@ -205,19 +243,24 @@ timestamp**. Numbers and ordinals are matched to Whisper's digits, so
 ### 8. The user listens; iterate
 
 - **A line is wrong, or reads badly:** edit it and render again. Only that
-  chunk is re-voiced and billed, stitched to its neighbours.
-- **The words are right but the delivery isn't:** add `<!-- take: 2 -->`
-  (then 3, …) anywhere in that chunk's lines. That changes its seed, so it is
-  re-voiced as a fresh take. Audition it alone with `--only N --copy`, which
-  writes `<output>.chunkN.mp3` beside the script (gitignored). Then render the
-  whole.
-- **A retake's seam is audible** (common a day later, when the ids have
+  chunk is re-voiced and billed.
+- **The words are right but the delivery isn't:** first rewrite that line's
+  direction (on Fish this is the main lever; it re-voices only its chunk). Or
+  add `<!-- take: 2 -->` (then 3, …) anywhere in the chunk's lines: on
+  ElevenLabs that changes the seed; Fish has no seed, so it just files a fresh
+  sample under a new cache key. Audition a chunk alone with `--only N --copy`,
+  which writes `<output>.chunkN.mp3` beside the script (gitignored), pauses
+  capped as in the episode. Then render the whole.
+- **A retake's seam is audible** (ElevenLabs, a day later, when the ids have
   expired): give the neighbouring chunk a take too, so the two are stitched
   afresh.
 - **Mispronunciation:** respell the word in the script. The printed handout
   keeps the scholarly spelling; the script is for the voice.
-- **Too flat, or too wild:** lower `stability` for more range (0.3–0.4), raise
-  it for steadier reading (0.6–0.7). Every chunk re-voices.
+- **Too slow, or the gaps too long (Fish):** raise `speed` (1.15, 1.2) or lower
+  `max_pause` (0.25). `max_pause` costs nothing: it's applied when
+  assembling, from the cache. `speed` re-voices every chunk.
+- **Too flat, or too wild (ElevenLabs):** lower `stability` for more range
+  (0.3–0.4), raise it for steadier reading (0.6–0.7). Every chunk re-voices.
 
 ### 9. Put them on the page
 
@@ -237,7 +280,7 @@ Two companion podcasts for this session — good before you read, or to revisit 
 - **Short overview** (~<SHORT> min): <audio controls preload="none" src="<slug>-short.m4a">Your browser can't play audio — [download the file](<slug>-short.m4a).</audio>
 - **Longer deep dive** (~<LONG> min): <audio controls preload="none" src="<slug>-long.m4a">Your browser can't play audio — [download the file](<slug>-long.m4a).</audio>
 
-*Voiced with [ElevenLabs](https://elevenlabs.io) from scripts written for this session.*
+*Voiced by AI with [Fish Audio](https://fish.audio) from scripts written for this session.*
 
 </div>
 ```
@@ -353,16 +396,16 @@ Then:
 ## Part 1 — Whose fault is it?     ← headings organise the script for readers; never voiced
 <!-- ~900 words: the verdict falls on humankind; Eden's excuses; 8:21 -->
 
-FLINT: [quiet, measured] "The Lord regretted that he had made humankind on the earth."
+ETHAN: [quiet, measured, reading it slowly] "The Lord regretted that he had made humankind on the earth."
 
-LAUREN: [surprised] Wait. God *regretted*?
+SARAH: [quietly taken aback] Wait. God *regretted*?
 A turn may wrap onto following lines until a blank line.
 
 ---                                ← section break: chunks never cross it
 
 ## Part 2 — …
 <!-- take: 2 -->                   ← re-rolls the chunk this sits in
-FLINT: …
+ETHAN: …
 ```
 
 - A turn is `LABEL: text`, where LABEL is a key of `speakers`. After a blank
@@ -376,7 +419,29 @@ FLINT: …
 - One turn can't exceed 2,000 characters; `check` makes it an error. Nothing
   near that length belongs in a podcast anyway.
 
-## Audio tags
+## Directions for Fish
+
+Drama 3 reads a bracketed note the way an actor reads a direction, and never
+speaks it. Fish's own advice is to direct each line where the mood changes; for
+these two hosts, **open every turn with one**, as Session 10 does.
+
+- **Write it as you'd direct an actor**, in a few words: `[wry, deadpan]`,
+  `[warm and thoughtful, slowing down to make the point]`, `[jumping in,
+  finishing his sentence]`, `[a beat, quietly]`. Sounds go where they happen:
+  `[small laugh]`, `[soft gasp]`, `[sighs, then fair]`.
+- **A direction mid-line changes the read from there on**: `It's a little bit
+  of a trap. [reading it out with a touch of drama, but keeping her voice low]
+  "Tear down the house…"`.
+- **Paired tags for single words:** `*this*` in the script is sent as
+  `<emphasis>this</emphasis>`. Fish also has `<whisper>`, `<soft>`, `<fast>`,
+  `<slow>`, `<stress>` and `<forceful>`; write those literally if needed.
+- **Keep Sarah low**: wry, dry, quietly amused, warm, quietly delighted. Not
+  bright, excited, gleeful or shouting (see *The hosts*).
+- **The hard parts get quiet, careful directions** (`[softly, honest]`,
+  `[serious, steady]`), so the change of mood is audible.
+- Session 10's scripts are the worked example: 470 directed turns.
+
+## Audio tags (ElevenLabs)
 
 On v3 and v4, a tag in square brackets directs the delivery of what follows
 it. Tags are **free text, not a fixed list**. Documented examples:
@@ -459,7 +524,12 @@ reacting to each other." What we learned about the WebSocket:
 
 ## Voices
 
-- `podcast.py voices [search]` lists the account's own voices (`GET /v2/voices`).
+- **Fish:** `podcast.py voices --engine fish [title]` searches Fish's English
+  library by popularity. Fish's official voices (Ethan, Sarah, Hannah, Caleb,
+  Naomi…) are published by the author `d8b0991f96b44e489422ca2ddf0bd31d`. Fish's
+  terms license its audio "solely for purposes of using the Services", so its
+  voices can't be used as samples for a local model.
+- **ElevenLabs:** `podcast.py voices [search]` lists the account's own voices (`GET /v2/voices`).
   Library voices aren't listed there. `GET /v1/shared-voices?search=…` finds
   them, and on a paid plan their ID works directly, without adding them to the
   account. That's how Flint and Lauren are used.
@@ -468,11 +538,15 @@ reacting to each other." What we learned about the WebSocket:
 - To audition a new voice, give it to one speaker and render one chunk with
   `--only 1 --copy`. Let the user listen before re-voicing everything.
 
-## The API key
+## The API keys
 
-`podcast.py` reads `$ELEVENLABS_API_KEY`, or else `ELEVENLABS_API_KEY=…`
-from **`~/.config/genesis/elevenlabs.env`** (mode 0600, outside the repo;
-`*.env` is also gitignored). Never commit it or echo it.
+- **Fish:** `$FISH_API_KEY`, or else `FISH_API_KEY=…` from
+  **`~/.config/genesis/fishaudio.env`** (mode 0600, outside the repo).
+- **ElevenLabs:** `$ELEVENLABS_API_KEY`, or else `ELEVENLABS_API_KEY=…` from
+  **`~/.config/genesis/elevenlabs.env`** (mode 0600; `*.env` is also
+  gitignored).
+
+Never commit a key or echo it.
 
 The current key is unrestricted but **locked to this machine's public IPv4**
 (`curl -4 https://api.ipify.org`). It's a residential address and can change.
@@ -483,11 +557,17 @@ read** for `voices` and `quota`.
 
 ## Licensing and credit
 
-The account is on a paid plan (Creator), so the free plan's rules (non-commercial
-use only, "elevenlabs.io" in the published title) don't bind. Credit
-ElevenLabs anyway, as the project credits every source:
-- the renderer writes `credit:` into each file's metadata;
-- the Listen block says *Voiced with ElevenLabs*.
+- **Fish Audio:** API credit is a paid service, and paid users "are licensed to
+  use the Services for commercial uses", which more than covers a free class
+  site. (The free plan is "internal, personal, non-commercial use" only.) Fish
+  "encourage[s] you to proactively disclose that such Content was created
+  using artificial intelligence technologies", so the Listen block says
+  *Voiced by AI with Fish Audio*. The hosts still never say it on air.
+- **ElevenLabs:** the account is on a paid plan (Creator), so the free plan's
+  rules (non-commercial use only, "elevenlabs.io" in the published title)
+  don't bind.
+- Either way, the renderer writes the engine's `credit:` into each file's
+  metadata.
 
 The words are ours. The quotations follow the project's sourcing rules (NET
 for Scripture), and the session page's attribution already covers them.

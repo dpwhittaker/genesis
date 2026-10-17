@@ -1,16 +1,22 @@
 #!/usr/bin/env python3
-"""Lint a two-voice podcast script and voice it with ElevenLabs.
+"""Lint a two-voice podcast script and voice it with ElevenLabs or Fish Audio.
 
     podcast.py check  SCRIPT              lint, stats, chunk plan, cost (no API calls)
     podcast.py render SCRIPT [--yes]      voice new/changed chunks, assemble the output
     podcast.py render SCRIPT --only N     voice just chunk N (for auditioning a retake)
     podcast.py verify SCRIPT [AUDIO]      transcribe the result locally and diff it against the script
-    podcast.py voices [SEARCH]            voices on the account (needs voices_read)
-    podcast.py quota                      credits used and left (needs user_read)
+    podcast.py voices [--engine fish] [SEARCH]   voices on the account / in Fish's library
+    podcast.py quota  [--engine fish]     credits used and left
+
+The front matter's `engine:` picks the service: `elevenlabs` (the default; Text
+to Dialogue, eleven_v4) or `fish` (Fish Audio's /v1/tts with the `drama-3`
+model: <|speaker:N|> turns, a reference_id per speaker, free-text [directions],
+`speed:` as prosody.speed, and `max_pause:` seconds as a cap on every pause,
+applied when the chunks are assembled).
 
 The script format is described in SKILL.md next to this file. `---` lines cut
 the script into sections; each section is split at turn boundaries into chunks
-of at most SOFT_MAX characters. Every chunk is one API request, cached by a hash
+of at most the engine's soft_max characters. Every chunk is one API request, cached by a hash
 of exactly what was sent, so editing a line re-bills only its chunk. Nothing is
 sent without --yes.
 
@@ -18,7 +24,8 @@ sent without --yes.
 them under `~/.local/bin/uv run --no-project --with websockets|faster-whisper
 --with pyyaml python podcast.py …`.
 
-The API key comes from $ELEVENLABS_API_KEY or ~/.config/genesis/elevenlabs.env.
+API keys come from $ELEVENLABS_API_KEY or ~/.config/genesis/elevenlabs.env, and
+$FISH_API_KEY or ~/.config/genesis/fishaudio.env.
 """
 import argparse
 import hashlib
@@ -40,25 +47,40 @@ import yaml
 
 API = "https://api.elevenlabs.io"
 KEY_FILE = Path.home() / ".config/genesis/elevenlabs.env"
+FISH_API = "https://api.fish.audio"
+FISH_KEY_FILE = Path.home() / ".config/genesis/fishaudio.env"
 CACHE = Path.home() / ".cache/scripted-podcast"
 
-# Text to Dialogue: keep each request's text at or under 2,000 characters
-# ("longer requests may end early or return a validation error"), at most 10
-# voices. Shorter chunks are also cheaper to retake.
-HARD_MAX = 2000
-SOFT_MAX = 1800
 WPM = 150            # spoken pace used for the duration estimate
 GAP = 0.35           # seconds of silence between chunks
 STITCH_TTL = 2 * 3600 - 600  # request ids can be stitched to for 2 hours; keep a margin
 
-DEFAULTS = {
-    "model": "eleven_v4",   # the API's default is still eleven_v3; v4 is the recommended one
-    "stability": 0.5,       # lower = broader emotional range; higher = steadier, flatter
-    "stitch": True,         # condition each chunk on its neighbours (see context_for)
-    "seed": 1,
-    "output_format": "mp3_44100_128",  # 192k needs Creator tier, 44.1 kHz PCM/WAV needs Pro
-    "bitrate": "64k",
-    "credit": "Voiced with ElevenLabs (elevenlabs.io)",
+DEFAULTS = {"bitrate": "64k"}
+ENGINES = {
+    # Text to Dialogue: keep each request's text at or under 2,000 characters
+    # ("longer requests may end early or return a validation error"), at most 10
+    # voices. Shorter chunks are also cheaper to retake.
+    "elevenlabs": {
+        "model": "eleven_v4",   # the API's default is still eleven_v3; v4 is the recommended one
+        "stability": 0.5,       # lower = broader emotional range; higher = steadier, flatter
+        "stitch": True,         # condition each chunk on its neighbours (see context_for)
+        "seed": 1,
+        "output_format": "mp3_44100_128",  # 192k needs Creator tier, 44.1 kHz PCM/WAV needs Pro
+        "credit": "Voiced with ElevenLabs (elevenlabs.io)",
+        "soft_max": 1800, "hard_max": 2000, "max_voices": 10,
+    },
+    # Fish states no length limit: the service splits text into 100-300 character
+    # pieces itself and conditions each on the audio before it. ~3,000 characters
+    # (about two minutes) keeps seams few and a retake cheap. No seed, no stitching.
+    "fish": {
+        "model": "drama-3",
+        "speed": 1.0,           # prosody.speed, 0.5-2.0; Drama 3 honours it
+        "max_pause": None,      # seconds; every longer pause is cut down to this when assembling
+        "stitch": False,
+        "output_format": "mp3-128",
+        "credit": "Voiced with Fish Audio (fish.audio)",
+        "soft_max": 3000, "hard_max": 6000, "max_voices": 16,
+    },
 }
 
 # Tags are free-text direction on v3/v4, not an enum: [curious], [laughs],
@@ -87,7 +109,11 @@ def parse(path):
     m = re.match(r"^---\n(.*?)\n---\n(.*)$", raw, re.S)
     if not m:
         raise ScriptError("script must start with a --- YAML front matter block ---")
-    meta = {**DEFAULTS, **(yaml.safe_load(m.group(1)) or {})}
+    user = yaml.safe_load(m.group(1)) or {}
+    engine = user.get("engine", "elevenlabs")
+    if engine not in ENGINES:
+        raise ScriptError(f"engine: {engine!r} — use one of {', '.join(ENGINES)}")
+    meta = {"engine": engine, **DEFAULTS, **ENGINES[engine], **user}
     speakers = meta.get("speakers") or {}
     if not speakers:
         raise ScriptError("front matter needs `speakers:` mapping each label to a voice")
@@ -139,7 +165,7 @@ def parse(path):
     for si, turns in enumerate(t for t in sections if t):
         for t in turns:
             t["voiced"] = clean(t["text"])
-        for part in split_section(turns):
+        for part in split_section(turns, meta["soft_max"]):
             chunks.append({"turns": part, "take": 0, "line": part[0]["line"], "section": si + 1})
     if not chunks:
         raise ScriptError("no turns found")
@@ -150,13 +176,13 @@ def parse(path):
     return meta, chunks
 
 
-def split_section(turns):
-    """Cut one section into the fewest chunks of <= SOFT_MAX characters, at the
+def split_section(turns, soft_max):
+    """Cut one section into the fewest chunks of <= soft_max characters, at the
     turn boundaries nearest to equal shares, so no chunk is a stub."""
     sizes = [len(t["voiced"]) for t in turns]
     total = sum(sizes)
     cum = [sum(sizes[: j + 1]) for j in range(len(sizes))]
-    n = max(1, math.ceil(total / SOFT_MAX))
+    n = max(1, math.ceil(total / soft_max))
     while True:
         cuts = sorted({min(range(len(turns) - 1), key=lambda j: abs(cum[j] - k * total / n))
                        for k in range(1, n)}) if len(turns) > 1 else []
@@ -165,7 +191,7 @@ def split_section(turns):
             parts.append(turns[start: j + 1])
             start = j + 1
         parts = [x for x in parts if x]
-        if all(sum(len(t["voiced"]) for t in x) <= SOFT_MAX for x in parts) or n >= len(turns):
+        if all(sum(len(t["voiced"]) for t in x) <= soft_max for x in parts) or n >= len(turns):
             return parts
         n += 1
 
@@ -173,6 +199,14 @@ def split_section(turns):
 def clean(text):
     """What is actually sent: markdown emphasis dropped, whitespace collapsed."""
     text = re.sub(r"(\*\*|\*|__)(.+?)\1", r"\2", text)
+    text = re.sub(r"(?<!\w)_(.+?)_(?!\w)", r"\1", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def fish_text(text):
+    """What Fish is sent: *stressed* words become <emphasis>…</emphasis> (one of
+    Drama 3's paired tags), everything else as clean() leaves it."""
+    text = re.sub(r"(\*\*|\*|__)(.+?)\1", r"<emphasis>\2</emphasis>", text)
     text = re.sub(r"(?<!\w)_(.+?)_(?!\w)", r"\1", text)
     return re.sub(r"\s+", " ", text).strip()
 
@@ -186,17 +220,20 @@ def words(text):
 def lint(meta, chunks):
     notes = []
     tag_counts = {}
+    eleven = meta["engine"] == "elevenlabs"
+    if len(meta["speakers"]) > meta["max_voices"]:
+        notes.append(("ERROR", 1, f"{len(meta['speakers'])} speakers; {meta['engine']} takes {meta['max_voices']}"))
     for ci, c in enumerate(chunks, 1):
         chars = sum(len(t["voiced"]) for t in c["turns"])
-        if chars > HARD_MAX:
-            notes.append(("ERROR", c["line"], f"a single turn of {chars} chars; a request may carry {HARD_MAX}. Split the turn."))
-        if len({t["speaker"] for t in c["turns"]}) > 10:
-            notes.append(("ERROR", c["line"], f"chunk {ci} has more than 10 voices"))
+        if chars > meta["hard_max"]:
+            notes.append(("ERROR", c["line"], f"a single turn of {chars} chars; a request may carry {meta['hard_max']}. Split the turn."))
         for t in c["turns"]:
             v, ln = t["voiced"], t["line"]
             for tag in TAG.findall(v):
                 tag_counts[tag] = tag_counts.get(tag, 0) + 1
-                if NOT_A_SOUND.search(tag):
+                # Fish reads directions as an actor would ("[smiling, finishing his
+                # thought]"), so only ElevenLabs gets the can't-be-heard warning.
+                if eleven and NOT_A_SOUND.search(tag):
                     notes.append(("warn", ln, f"[{tag}] can't be heard — describe the voice instead ([warm, amused])"))
                 elif SOUND_EFFECTS.search(tag):
                     notes.append(("note", ln, f"[{tag}] will be rendered as a sound effect"))
@@ -220,8 +257,10 @@ def lint(meta, chunks):
                 notes.append(("warn", ln, "SSML tags don't work on v3/v4 — use [pause] or punctuation"))
             if len(bare) > 450:
                 notes.append(("note", ln, f"long turn ({len(bare)} chars) — a podcast turn rarely runs past three sentences"))
-            if len(TAG.findall(v)) > 2:
+            if eleven and len(TAG.findall(v)) > 2:
                 notes.append(("note", ln, "more than two tags in one turn — tags work best sparingly"))
+            if not eleven and len(bare.split()) > 6 and not TAG.match(v):
+                notes.append(("note", ln, "no direction at the start of the turn — Fish reads best with one"))
     return notes, tag_counts
 
 
@@ -250,6 +289,38 @@ def api_key():
     if not key:
         sys.exit(f"no API key: set ELEVENLABS_API_KEY or put ELEVENLABS_API_KEY=... in {KEY_FILE}")
     return key
+
+
+def fish_key():
+    key = os.environ.get("FISH_API_KEY")
+    if not key and FISH_KEY_FILE.exists():
+        for line in FISH_KEY_FILE.read_text().splitlines():
+            if line.startswith("FISH_API_KEY="):
+                key = line.split("=", 1)[1].strip().strip('"').strip("'")
+    if not key:
+        sys.exit(f"no Fish Audio key: set FISH_API_KEY or put FISH_API_KEY=... in {FISH_KEY_FILE}")
+    return key
+
+
+def fish_call(method, path, body=None, headers=None, timeout=900, tries=3):
+    """Fish Audio request; retries a 5xx ("under high load") or a dropped
+    connection twice, with a pause, before giving up."""
+    for attempt in range(1, tries + 1):
+        req = urllib.request.Request(
+            FISH_API + path, method=method, data=None if body is None else json.dumps(body).encode(),
+            headers={"Authorization": f"Bearer {fish_key()}", "Content-Type": "application/json", **(headers or {})})
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return r.read(), dict(r.headers)
+        except urllib.error.HTTPError as e:
+            detail = e.read().decode(errors="replace")[:500]
+            if e.code < 500 or attempt == tries:
+                sys.exit(f"Fish Audio {method} {path.split('?')[0]} → HTTP {e.code}: {detail}")
+        except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
+            if attempt == tries:
+                sys.exit(f"Fish Audio {method} {path.split('?')[0]} failed: {e}")
+        print(f"    (Fish Audio busy or unreachable; retrying in {20 * attempt} s)", flush=True)
+        time.sleep(20 * attempt)
 
 
 def call(method, path, body=None, timeout=600):
@@ -282,6 +353,23 @@ def seam(text, tail):
 def request_for(meta, chunks, i):
     chunk = chunks[i]
     speakers = meta["speakers"]
+    if meta["engine"] == "fish":
+        # Every chunk carries every voice, so <|speaker:N|> means the same host
+        # throughout. Keys starting with _ are for the cache key, not sent: Fish has
+        # no seed, so a take is a fresh sample under a new key.
+        labels = list(speakers)
+        body = {
+            "text": "\n".join(f"<|speaker:{labels.index(t['speaker'])}|>{fish_text(t['text'])}" for t in chunk["turns"]),
+            "reference_id": [speakers[label]["voice"] for label in labels],
+            "format": "mp3", "mp3_bitrate": 128,
+            "_model": meta["model"], "_take": int(chunk["take"]),
+        }
+        if float(meta.get("speed") or 1) != 1:
+            body["prosody"] = {"speed": float(meta["speed"])}
+        for k in ("temperature", "top_p", "language"):
+            if k in meta:
+                body[k] = meta[k]
+        return body
     body = {
         "inputs": [{"text": t["voiced"], "voice_id": speakers[t["speaker"]]["voice"]} for t in chunk["turns"]],
         "model_id": meta["model"],
@@ -292,6 +380,11 @@ def request_for(meta, chunks, i):
     if meta.get("language"):
         body["language_code"] = meta["language"]
     return body
+
+
+def body_chars(body):
+    """Characters a request sends (and is billed for)."""
+    return len(body["text"]) if "text" in body else sum(len(x["text"]) for x in body["inputs"])
 
 
 def sidecar(path):
@@ -361,7 +454,25 @@ def cache_path(meta, body):
     return CACHE / f"{h}.mp3"
 
 
+def voice_chunk_fish(body, dest):
+    send = {k: v for k, v in body.items() if not k.startswith("_")}
+    audio, headers = fish_call("POST", "/v1/tts", send, headers={"model": body["_model"]})
+    if not audio or audio[:1] == b"{":
+        sys.exit(f"unexpected response (not audio): {audio[:300]!r}")
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    tmp = dest.with_suffix(".part")
+    tmp.write_bytes(audio)
+    tmp.replace(dest)
+    rid = next((v for k, v in headers.items() if k.lower() in ("x-request-id", "request-id", "x-trace-id")), "?")
+    dest.with_suffix(".json").write_text(json.dumps(
+        {"request_id": rid, "characters": len(send["text"]), "created": time.time(),
+         "headers": {k: v for k, v in headers.items() if k.lower().startswith("x-")}, "body": body}, indent=1))
+    return rid, f"{len(send['text'])} chars"
+
+
 def voice_chunk(meta, body, dest, ctx=None):
+    if meta["engine"] == "fish":
+        return voice_chunk_fish(body, dest)
     q = urllib.parse.urlencode({"output_format": meta["output_format"]})
     audio, headers = call("POST", f"/v1/text-to-dialogue?{q}", {**body, **(ctx or {})})
     if not audio or audio[:1] == b"{":
@@ -456,15 +567,65 @@ def duration(path):
         return 0.0
 
 
-def assemble(parts, out, bitrate, title, credit):
+def cap_pauses(src, dest, max_pause, threshold_db=40.0):
+    """Write src to dest (WAV) with every pause longer than max_pause seconds cut
+    down to max_pause, and the leading and trailing silence removed.
+
+    A pause is a run of 10 ms frames quieter than threshold_db below the clip's
+    peak. A long one keeps its first and last max_pause/2 seconds (so breaths and
+    word tails survive), joined with a 10 ms crossfade. Shorter pauses are left
+    alone, so the rhythm inside a sentence holds."""
+    import numpy as np
+    sr, frame = 44100, 441
+    pcm = subprocess.run(["ffmpeg", "-v", "error", "-i", str(src), "-f", "f32le", "-ac", "1", "-ar", str(sr), "-"],
+                         capture_output=True, check=True).stdout
+    a = np.frombuffer(pcm, np.float32)
+    n = len(a) // frame
+    rms = np.sqrt(np.mean(a[: n * frame].reshape(n, frame) ** 2, axis=1) + 1e-12)
+    quiet = np.append(20 * np.log10(rms / max(rms.max(), 1e-9)) < -threshold_db, False)
+    loud = np.flatnonzero(~quiet[:-1])
+    if not len(loud):
+        a.tofile(dest)
+        return
+    first, last = loud[0] * frame, (loud[-1] + 1) * frame
+    edge, half, fade = int(0.05 * sr), int(max_pause * sr / 2), int(0.01 * sr)
+    pieces, pos, start = [], max(0, first - edge), None
+    for i, q in enumerate(quiet):
+        if q and start is None:
+            start = i
+        elif not q and start is not None:
+            s, e = start * frame, i * frame
+            if first < s and e < last and (e - s) > max_pause * sr:
+                pieces.append(a[pos: s + half])
+                pos = e - half
+            start = None
+    pieces.append(a[pos: min(len(a), last + edge)])
+    out = pieces[0]
+    ramp = np.linspace(0, 1, fade, dtype=np.float32)
+    for seg in pieces[1:]:
+        out = np.concatenate([out[:-fade], out[-fade:] * (1 - ramp) + seg[:fade] * ramp, seg[fade:]])
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "f32le", "-ar", str(sr), "-ac", "1", "-i", "-",
+                    "-c:a", "pcm_s16le", str(dest)], input=out.astype(np.float32).tobytes(), check=True)
+
+
+def assemble(parts, out, bitrate, title, credit, max_pause=None):
     """Concatenate chunk mp3s with short gaps, normalise to podcast loudness,
     and encode as mono AAC — the same 64k mono / faststart as the NotebookLM
-    episodes, so Pages' 1 GB budget holds."""
+    episodes, so Pages' 1 GB budget holds. With max_pause, each chunk's pauses
+    are capped first (cap_pauses) and the chunks joined with max_pause of
+    silence, so a seam sounds like any other turn."""
     with tempfile.TemporaryDirectory() as td:
+        if max_pause:
+            capped = []
+            for i, p in enumerate(parts):
+                capped.append(Path(td) / f"{i}.wav")
+                cap_pauses(p, capped[-1], float(max_pause))
+            parts = capped
+        gap = float(max_pause) if max_pause else GAP
         inputs, labels = [], []
         for i, p in enumerate(parts):
             inputs += ["-i", str(p)]
-            labels.append(f"[{i}:a]aresample=44100,aformat=channel_layouts=mono,apad=pad_dur={GAP}[a{i}]")
+            labels.append(f"[{i}:a]aresample=44100,aformat=channel_layouts=mono,apad=pad_dur={gap}[a{i}]")
         concat = "".join(f"[a{i}]" for i in range(len(parts))) + f"concat=n={len(parts)}:v=0:a=1[cat]"
         graph = ";".join(labels + [concat, "[cat]loudnorm=I=-16:TP=-1.5:LRA=11,aresample=44100[out]"])
         tmp = Path(td) / "out.m4a"
@@ -488,26 +649,32 @@ def cmd_check(args):
     notes, tags = lint(meta, chunks)
     per, total_words, total_chars = stats(meta, chunks)
     print(f"{Path(args.script).name}: {meta.get('title', '')}")
-    print(f"  model {meta['model']}  stability {meta['stability']}  seed {meta['seed']}  → {meta['output']}")
+    if meta["engine"] == "fish":
+        pause = f"{meta['max_pause']} s" if meta.get("max_pause") else "as voiced"
+        print(f"  engine fish  model {meta['model']}  speed {meta.get('speed', 1)}  max pause {pause}  → {meta['output']}")
+    else:
+        print(f"  model {meta['model']}  stability {meta['stability']}  seed {meta['seed']}  → {meta['output']}")
     for label, (n, w) in per.items():
         spec = meta["speakers"][label]
         share = 100 * w / total_words if total_words else 0
         print(f"  {label:<9} {spec.get('name', ''):<10} {n:>3} turns  {w:>5} words  {share:4.0f}%")
     est = total_words / WPM * 60
     tagged = sum(tags.values())
-    print(f"  total     {total_words} words, {total_chars} billed characters (tags included), ~{fmt_min(est)} at {WPM} wpm")
+    bodies = [request_for(meta, chunks, i) for i in range(len(chunks))]
+    sent = sum(body_chars(b) for b in bodies)
+    print(f"  total     {total_words} words, {sent} characters sent (tags included), ~{fmt_min(est)} at {WPM} wpm")
     print(f"  tags      {tagged} ({100 * tagged / max(1, total_words):.1f} per 100 words): "
           + ", ".join(f"{k}×{v}" if v > 1 else k for k, v in sorted(tags.items(), key=lambda kv: -kv[1])))
     print("  chunks")
     cached_chars = 0
     for i, c in enumerate(chunks, 1):
-        body = request_for(meta, chunks, i - 1)
-        chars = sum(len(t["voiced"]) for t in c["turns"])
+        body = bodies[i - 1]
+        chars = body_chars(body)
         hit = cache_path(meta, body).exists()
         cached_chars += chars if hit else 0
         take = f" take {c['take']}" if c["take"] else ""
         print(f"    {i:>2}. §{c['section']:<2} line {c['line']:>4}  {len(c['turns']):>3} turns  {chars:>5} chars{take}  {'cached' if hit else 'to voice'}")
-    print(f"  cost      {total_chars - cached_chars} characters to voice now ({cached_chars} cached)")
+    print(f"  cost      {sent - cached_chars} characters to voice now ({cached_chars} cached)")
     if notes:
         print("  notes")
         for level, ln, msg in notes:
@@ -530,6 +697,8 @@ def cmd_render(args):
     title = meta.get("title", out.stem)
 
     if args.transport == "ws":
+        if meta["engine"] != "elevenlabs":
+            sys.exit("--transport ws is ElevenLabs only")
         if args.only is not None:
             sys.exit("--only applies to chunks; a WebSocket render is one session")
         req = ws_request(meta, chunks)
@@ -557,18 +726,18 @@ def cmd_render(args):
         plan.append((i, body, paths[i], paths[i].exists() and not args.force))
     todo = [(i, b, p) for i, b, p, hit in plan if not hit]
     pending = {i for i, _, _ in todo}
-    chars = sum(len(x["text"]) for _, b, _ in todo for x in b["inputs"])
+    chars = sum(body_chars(b) for _, b, _ in todo)
     if todo and not args.yes:
         print(f"{len(todo)} chunk(s), {chars} characters to voice with {meta['model']}. Re-run with --yes to send.")
         return 2
 
     for i, body, p in todo:  # in script order, so each can stitch to the one before
-        n = sum(len(x["text"]) for x in body["inputs"])
+        n = body_chars(body)
         ctx = context_for(chunks, paths, i, pending) if meta.get("stitch") else {}
         print(f"  voicing chunk {i + 1} ({n} chars; {describe(ctx)})…", flush=True)
         rid, cost = voice_chunk(meta, body, p, ctx)
         pending.discard(i)
-        got, want = duration(p), sum(words(x["text"]) for x in body["inputs"]) / WPM * 60
+        got, want = duration(p), sum(words(t["voiced"]) for t in chunks[i]["turns"]) / WPM * 60
         flag = "  ← much shorter than its text: truncated? retake it" if got < 0.6 * want else ""
         print(f"    {fmt_min(got)}  request {rid}  cost {cost}{flag}")
 
@@ -577,11 +746,17 @@ def cmd_render(args):
         preview = script.parent / f"{Path(meta['output']).stem}.chunk{args.only}.mp3"
         print(f"chunk {args.only}: {p}  ({fmt_min(duration(p))})")
         if args.copy:
-            shutil.copy(p, preview)
+            if meta.get("max_pause"):
+                with tempfile.TemporaryDirectory() as td:
+                    cap_pauses(p, Path(td) / "c.wav", float(meta["max_pause"]))
+                    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(Path(td) / "c.wav"),
+                                    "-b:a", "128k", str(preview)], check=True)
+            else:
+                shutil.copy(p, preview)
             print(f"copied to {preview}")
         return 0
 
-    assemble([p for _, _, p, _ in plan], out, meta["bitrate"], title, meta["credit"])
+    assemble([p for _, _, p, _ in plan], out, meta["bitrate"], title, meta["credit"], meta.get("max_pause"))
     print(f"wrote {out}  {fmt_min(duration(out))}  {out.stat().st_size / 1e6:.1f} MB")
     return 0
 
@@ -670,6 +845,16 @@ def cmd_verify(args):
 
 
 def cmd_voices(args):
+    if args.engine == "fish":
+        q = {"page_size": 40, "sort_by": "task_count", "language": "en"}
+        if args.search:
+            q["title"] = args.search
+        data, _ = fish_call("GET", "/model?" + urllib.parse.urlencode(q), timeout=60)
+        for v in json.loads(data).get("items", []):
+            desc = (v.get("description") or "").replace("\n", " ")[:70]
+            print(f"{v['_id']}  {v.get('title', '')[:24]:<24} uses={v.get('task_count', 0):>8}  "
+                  f"{','.join(v.get('tags', []))[:40]:<40} {desc}")
+        return 0
     q = {"page_size": 100}
     if args.search:
         q["search"] = args.search
@@ -682,6 +867,11 @@ def cmd_voices(args):
 
 
 def cmd_quota(args):
+    if args.engine == "fish":
+        data, _ = fish_call("GET", "/wallet/self/api-credit", timeout=60)
+        d = json.loads(data)
+        print(f"Fish Audio API credit: {d.get('credit', d)}")
+        return 0
     data, _ = call("GET", "/v1/user/subscription")
     s = json.loads(data)
     used, limit = s.get("character_count", 0), s.get("character_limit", 0)
@@ -709,7 +899,9 @@ def main():
     vf.add_argument("audio", nargs="?", help="default: the script's output")
     v = sub.add_parser("voices")
     v.add_argument("search", nargs="?")
-    sub.add_parser("quota")
+    v.add_argument("--engine", choices=list(ENGINES), default="elevenlabs")
+    qa = sub.add_parser("quota")
+    qa.add_argument("--engine", choices=list(ENGINES), default="elevenlabs")
     args = ap.parse_args()
     try:
         return {"check": cmd_check, "render": cmd_render, "verify": cmd_verify,
