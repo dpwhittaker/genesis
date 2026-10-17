@@ -36,17 +36,20 @@ retaken. Whisper verify: no cut-off chunk; the long's one "missing" run (34:15,
 Frazer on Africa) and the short's "the goddess" for "and God" (13:03) were
 checked by transcribing those minutes alone, and both are spoken as written.
 **Re-voiced again on 2026-10-17, on Fish Audio's Drama 3**, the engine David
-chose as "the cheapest acceptable option" after hearing the ElevenLabs pair cost
-52,462 credits. Ethan reads Flint's lines and Sarah Lauren's. Every turn now
-opens with an actor's direction, with Sarah kept understated (David: "Sarah
-shouting at the beginning is too much"); the spoken words are unchanged except
-one line David caught, "Noah has older cousins" → "Noah's story has older
-cousins". Speed 1.1, every pause capped at 0.35 s. The long episode's opening is
-the take-3 audition David heard before asking for both episodes. Lengths: short 16:59 (9 chunks), long 40:44
-(22 chunks); $0.65 for the pair. Whisper verify: no cut-off chunk; its flags
-(short 10:04 "however", long 37:05 "one") were checked by transcribing those
-minutes alone and are not in the audio. Possible slip to listen for: long 23:24,
-"The rabbis asked" may sound like "ask".
+chose as "the cheapest acceptable option" after the ElevenLabs pair cost 52,462
+credits. Ethan reads Flint's lines and Sarah Lauren's. Every turn opens with an
+actor's direction, with Sarah kept understated (David: "Sarah shouting at the
+beginning is too much"). Two lines changed at David's request: "Noah has older
+cousins" → "Noah's story has older cousins" (it sounded like the man's cousins),
+and Ethan's "I want to say God" → "it sounds like it could be God" ("he's
+obviously already in on it"), with his direction changed to match. Fish voices
+at its own pace; every pause is capped at 0.35 s and the episode then sped up
+1.1× with atempo, which David found cleaner than Fish's own speed setting or
+Rubber Band. Lengths: short 16:59 (9 chunks), long 39:51 (22 chunks); $0.65 for
+the pair (a first Fish pair, voiced with Fish's speed 1.1, cost the same and was
+replaced). Whisper verify: no cut-off chunk; its one "missing" run (long 30:28,
+Frazer on Africa) was transcribed alone and is spoken in full. Possible slip to
+listen for: long 22:45, "The rabbis asked" may sound like "ask".
 
 **David's brief (2026-10-15):** compare the biblical flood to *Atrahasis* and
 *Gilgamesh*; "the biggest point lies in where the Bible diverges from the

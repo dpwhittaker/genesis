@@ -20,7 +20,7 @@ layout: default
 Two companion podcasts for this session — good before you read, or to revisit afterward:
 
 - **Short overview** (~17 min): <audio controls preload="none" src="10-the-flood-short.m4a">Your browser can't play audio — [download the file](10-the-flood-short.m4a).</audio>
-- **Longer deep dive** (~41 min): <audio controls preload="none" src="10-the-flood-long.m4a">Your browser can't play audio — [download the file](10-the-flood-long.m4a).</audio>
+- **Longer deep dive** (~40 min): <audio controls preload="none" src="10-the-flood-long.m4a">Your browser can't play audio — [download the file](10-the-flood-long.m4a).</audio>
 
 *Voiced by AI with [Fish Audio](https://fish.audio) from scripts written for this session.*
 

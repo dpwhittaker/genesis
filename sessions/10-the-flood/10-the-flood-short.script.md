@@ -3,8 +3,8 @@ title: "Session 10 — short: The Flood Everyone Knew"
 output: 10-the-flood-short.m4a
 engine: fish
 model: drama-3
-speed: 1.1
 max_pause: 0.35
+tempo: 1.1      # sped up after voicing, pitch kept (atempo); Fish voices at its own pace
 speakers:
   ETHAN: { voice: 536d3a5e000945adb7038665781a4aca, name: Ethan }   # Fish Audio library
   SARAH: { voice: 933563129e564b19a115bedd57b7406a, name: Sarah }   # Fish Audio library
@@ -14,8 +14,8 @@ speakers:
 Voiced with Fish Audio's Drama 3: Ethan (warm, relaxed, easygoing) and Sarah
 (understated: wry, dry, quietly amused, never bright). Every turn opens with an
 actor's direction in [brackets], which Fish reads as direction and never speaks.
-speed 1.1 is Fish's prosody.speed; max_pause 0.35 caps every pause when the
-chunks are assembled. *Word* becomes <emphasis>word</emphasis>.
+Fish voices at its own pace; when the chunks are assembled, max_pause 0.35 caps
+every pause and tempo 1.1 then speeds the whole episode up without changing pitch. *Word* becomes <emphasis>word</emphasis>.
 The short episode for Session 10 (~20 min), second version: two friends who
 have both read the handout, talking it over. The first version (a teacher and
 a student) sounded "like they're reading an academic paper."
