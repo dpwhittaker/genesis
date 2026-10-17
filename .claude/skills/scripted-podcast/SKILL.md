@@ -1,6 +1,6 @@
 ---
 name: scripted-podcast
-description: Make a Genesis lesson's podcasts — the SHORT (~20 min) and LONG (~40 min) episodes every lesson ships with, plus an optional trailer — as two-host scripts voiced by ElevenLabs. An erudite TEACHER and an expressive, inquisitive STUDENT. Claude writes sessions/<slug>/<slug>-short.script.md and <slug>-long.script.md from the handout and source sheets, the user reads and revises them, and only then does ElevenLabs Text to Dialogue (eleven_v4, audio tags) voice them into <slug>-short.m4a and <slug>-long.m4a. Then Claude transcribes the audio locally to check it against the script, and links both on the page. This replaced the NotebookLM flow from Session 10 on. Use when the user says "make podcasts for session N", "short and long podcast", "deep dive for lesson N", "trailer", or wants a line, a voice or a take changed. Never send a script to ElevenLabs before the user has approved it.
+description: Make a Genesis lesson's podcasts — the SHORT (~20 min) and LONG (~40 min) episodes every lesson ships with, plus an optional trailer — as two-host scripts voiced by ElevenLabs: two friends who have both read the handout, talking it over, light-hearted and conversational, not a lecture. Claude writes sessions/<slug>/<slug>-short.script.md and <slug>-long.script.md from the handout and source sheets, the user reads and revises them, and only then does ElevenLabs Text to Dialogue (eleven_v4, audio tags) voice them into <slug>-short.m4a and <slug>-long.m4a. Then Claude transcribes the audio locally to check it against the script, and links both on the page. This replaced the NotebookLM flow from Session 10 on. Use when the user says "make podcasts for session N", "short and long podcast", "deep dive for lesson N", "trailer", or wants a line, a voice or a take changed. Never send a script to ElevenLabs before the user has approved it.
 ---
 
 # Lesson podcasts: script first, then ElevenLabs
@@ -38,7 +38,7 @@ python3 $P render … --out X.m4a --model eleven_v3            # variants side b
 | Episode | Length | Words | Script → audio | What it is |
 |---|---|---|---|---|
 | **short** | ~20 min | ~3,000 | `<slug>-short.script.md` → `<slug>-short.m4a` | The overview: the session's aim and each part's core move, with one or two key quotations per part. Someone who hears only this should be ready for class. |
-| **long** | ~40 min | ~6,000 | `<slug>-long.script.md` → `<slug>-long.m4a` | The deep dive: every part, in the handout's order, with the source sheets' primary texts read at length and each reading given at its strongest, along with its hardest question. |
+| **long** | ~40 min | ~6,000 | `<slug>-long.script.md` → `<slug>-long.m4a` | The deep dive: every part, in the handout's order, with more of the source sheets' best lines, and each reading given at its strongest, along with its hardest question. |
 | trailer | 2 min | ~300 | `<slug>-trailer.script.md` → `<slug>-trailer.m4a` | **Only when asked.** It asks the session's questions and answers none of them. `example-trailer.script.md` beside this file is a worked one (Session 9's test, never published). |
 
 These names are the ones `publish-lesson` looks for, so keep them. The lengths
@@ -49,10 +49,26 @@ as its own episode, though it can reuse the long's best lines.
 
 ## The hosts
 
-| Label | Voice | Who | Writes like |
-|---|---|---|---|
-| `TEACHER` | **Flint** – Deep, Raspy, and Warm (`qAZH0aMXY8tw1QufPN0D`) | An erudite teacher: has read the rabbis, the fathers and the commentaries, and wears it lightly. Warm, unhurried, exact. | Carries the content. Quotes the text word for word and says where it's from. Says "maybe" where scholars disagree, and states each view at its strongest. Enjoys the student's questions. |
-| `STUDENT` | **Lauren** (`DODLEQrClDo8wCz460ld`) | An expressive, inquisitive student: quick, funny, honest about being surprised or unconvinced. | Asks what a class member would ask, at the moment they'd ask it. Reacts out loud ("Wait." "No way." "Oof."). Pushes back. Restates things in plain words, and sometimes gets there first. |
+**Two friends who have both read the handout and the source sheets, talking
+about what they found.** Not a teacher and a student, and not a lecture with
+interruptions. Session 10 was first written that way: an erudite teacher
+carrying 73% of the words, exact citations, a student asking "And the hard
+question?". The user heard it and said it sounded "like they're reading an
+academic paper", and asked for "a more light-hearted, casual, and
+conversational tone. Two friends talking about what they read, not a scholar
+teaching a student" (2026-10-16).
+
+| Label | Voice | Who |
+|---|---|---|
+| `FLINT` | **Flint** – Deep, Raspy, and Warm (`qAZH0aMXY8tw1QufPN0D`) | Warm, dry, easily delighted by an old text. Likes reading out the strange lines (the rabbis' stories, a god talking to a wall). Gets there slowly and then sees the point. |
+| `LAUREN` | **Lauren** (`DODLEQrClDo8wCz460ld`) | Quick, funny, honest. Says the obvious question out loud, notices what's absurd, pushes back when something doesn't add up, and brings her own finds from the sheets. |
+
+Both carry the content. Either one introduces a part, reads a quotation, makes
+the point or raises the objection. Swap who knows what from part to part, so
+neither is the expert. Each should have **40–60% of the words** (`check`
+prints the split). Neither is a cheerleader: if a line is only "Wow,
+that's fascinating," replace it with a real reaction, a joke, a question or a
+disagreement.
 
 The user chose Flint and Lauren after hearing George and Jessica. Keep the pair
 across every lesson so the class knows the voices. The front matter of every
@@ -66,20 +82,16 @@ model: eleven_v4
 stability: 0.5
 seed: <N>
 speakers:
-  TEACHER: { voice: qAZH0aMXY8tw1QufPN0D, name: Flint }    # Deep, Raspy, and Warm (library)
-  STUDENT: { voice: DODLEQrClDo8wCz460ld, name: Lauren }   # library
+  FLINT: { voice: qAZH0aMXY8tw1QufPN0D, name: Flint }    # Deep, Raspy, and Warm (library)
+  LAUREN: { voice: DODLEQrClDo8wCz460ld, name: Lauren }  # library
 ---
 ```
 
-The student is not a cheerleader and not a straw man. If every student line is
-"Wow, that's fascinating," cut half of them and give the student a real
-question or a real objection. The student should have **25–35% of the words**
-(`check` prints the split).
-
-**No invented lives.** The hosts are voices, not people. They don't have names
-on air, and they don't claim a seminary, a congregation, a spouse or a
-memory ("when I first read this…"). They don't mention being AI either. They
-talk about the text.
+The labels are never voiced. **No names on air**, and **no invented lives**:
+the hosts react to what they *read* ("I had to read that twice", "this one made
+me laugh"), which is the premise, but they have no biography: no seminary,
+congregation, spouse, children, or memory from before the handout ("growing
+up, I…"). They don't mention being AI either.
 
 ## Workflow
 
@@ -251,28 +263,39 @@ Then:
 - **Open cold, on the text.** Start with the most arresting line of the
   passage or the sharpest question, not "Welcome back" or "Today we're going
   to talk about". Name the session within the first minute.
-- **Follow the handout's parts, in its order.** In the long episode, each part
-  usually goes like this:
-  - the student's question;
-  - the passage, read exactly by the teacher, with its reference;
-  - what the words do (the Hebrew, the echoes, the counts, in plain words);
-  - the readings, each at its strongest, with its hardest question;
-  - the student's honest reaction or objection;
-  - a landing line that hands on to the next part.
+- **Follow the handout's parts, in its order.** In the long episode, a part
+  usually has:
+  - one host bringing what struck them ("Okay, the part that got me…");
+  - the line itself, read exactly;
+  - what's going on in it, in plain words;
+  - the other reading at its strongest, and its hardest question, said the
+    way you'd say it to a friend;
+  - a laugh, an "oof" or a "huh", and a hand-off to the next part.
 
   Don't run every part on the same template. Vary the order and the pace.
-- **Read the primary sources aloud.** In the long episode, the teacher reads
-  key passages from the source sheets (Philo, Calvin, Rashi, the Talmud,
-  *Atrahasis*), up to ~60 words each. Name the writer and their century. These
-  readings are what NotebookLM could never get exactly right; they are the
-  point of this flow.
+- **A part gets its best two or three things, not all of them.** The episode
+  is a conversation about the handout, not a reading of it; the rest is "in
+  the handout". A podcast that delivers a fact in every line sounds like a
+  paper read aloud, however short the turns.
+- **Light-hearted, where the text allows it.** Laugh at what's genuinely funny
+  in the old stories (gods who cower like dogs, a god whispering to a wall), and
+  enjoy the surprises. Never laugh at Scripture or at anyone in the class. When
+  the subject turns hard (the children in the flood, a verse used to defend
+  slavery), the hosts get quieter, and the change should be audible.
+- **Read the best lines aloud, exactly, and keep them short.** Mostly 10–35
+  words; read a longer passage only when its wording is the point. Introduce
+  a quotation the way a friend would ("Listen to this.", "Here's how Gilgamesh
+  puts it:"), and name the source as a friend would ("Augustine", "a rabbi in
+  the twelfth century, Ibn Ezra", "an old translation from the twenties"),
+  not with a full citation. These exact readings are still what NotebookLM
+  could never get right.
 - **Hand the listener the questions.** Each "Talk about it" box can become one
-  question the student or teacher puts to the listener ("Here's one to bring
-  with you…"). Offer it as a question, never as a verdict on what the class
+  question a host puts to the listener ("Okay, one to chew on before
+  class…"). Offer it as a question, never as a verdict on what the class
   thinks.
 - **Recap at the turns.** In the long episode, a two-line "so far" at the
-  midpoint and before the landing helps the ear. The student often does it best
-  ("So let me see if I've got this…").
+  midpoint and before the landing helps the ear ("Okay, let me see if I've
+  got this…").
 - **Land on the handout's "So what?"** and close on a question to bring, then
   the session name.
 - **Don't invent.** Every fact, number and attribution must be traceable to
@@ -282,10 +305,12 @@ Then:
 ## Writing for the ear
 
 - **One idea per turn; one to three sentences.** Long monologues are where
-  listeners drift. Let the student break them up.
-- **Quote exactly, and say the reference in words.** "Genesis six, verse six,"
-  not `6:6`. "First Samuel fifteen." "The book of Numbers." Introduce a
-  quotation so the ear knows it's one ("Verse eight: …").
+  listeners drift. Let the other host break them up, finish a sentence, or
+  laugh.
+- **Quote exactly, and say the reference in words**, when you give one:
+  "Genesis six, verse six," not `6:6`; "First Samuel fifteen". Friends don't
+  cite every verse: "back in chapter six" is often enough. Introduce a
+  quotation so the ear knows it's one.
 - **Write "the Lord", never LORD.** CAPS mean emphasis to the voice.
 - **Respell what a reader would stumble on.** Hebrew in the handout's spelling
   (*yēṣer*, *ḥēn*) gets read badly; write *yetzer*, *khen*, or skip the word
@@ -295,6 +320,9 @@ Then:
 - **Numbers in words** where a person would say them that way.
 - **Never point at a page.** Say "in the handout", not "on page three": page
   breaks move.
+- **Talk, don't write.** Contractions, fragments, "okay so", "honestly",
+  "wait, wait", a sentence that starts over. Everyday words: "the gods
+  panic", not "the divine council loses control".
 - **Contractions and spoken rhythm.** "It's", "doesn't", fragments, a "Wait."
   An ellipsis (…) trails off or hesitates; a dash cuts in. Use both
   sparingly: v4 takes punctuation seriously.
@@ -325,16 +353,16 @@ Then:
 ## Part 1 — Whose fault is it?     ← headings organise the script for readers; never voiced
 <!-- ~900 words: the verdict falls on humankind; Eden's excuses; 8:21 -->
 
-TEACHER: [quiet, measured] "The Lord regretted that he had made humankind on the earth."
+FLINT: [quiet, measured] "The Lord regretted that he had made humankind on the earth."
 
-STUDENT: [surprised] Wait. God *regretted*?
+LAUREN: [surprised] Wait. God *regretted*?
 A turn may wrap onto following lines until a blank line.
 
 ---                                ← section break: chunks never cross it
 
 ## Part 2 — …
 <!-- take: 2 -->                   ← re-rolls the chunk this sits in
-TEACHER: …
+FLINT: …
 ```
 
 - A turn is `LABEL: text`, where LABEL is a key of `speakers`. After a blank
@@ -365,11 +393,14 @@ it. Tags are **free text, not a fixed list**. Documented examples:
 
 Rules of thumb:
 
-- **One tag at the start of a turn, most of the time; two at most.** About
-  3–5 tags per 100 words is plenty (`check` prints the rate). Untagged lines
-  read naturally. A tag is for a *change* in delivery.
-- **The student gets the expressive tags; the teacher's are quieter** (`[warmly]`,
-  `[chuckles]`, `[thoughtful]`).
+- **One tag at the start of a turn, most of the time; two at most.** Aim for
+  about 2–4 tags per 100 words (`check` prints the rate). Session 10's first
+  scripts ran 0.7 per 100 and read flat. Untagged lines read naturally; a tag
+  is for a *change* in delivery.
+- **Both hosts get the expressive tags**: laughter (`[laughs]`,
+  `[chuckles]`, `[starts laughing]`), surprise, `[amused]`, `[deadpan]`,
+  `[incredulous]`, and the quiet ones (`[softly]`, `[quieter]`) for the hard
+  parts.
 - **Only tag what can be heard.** `[smiling]`, `[nods]`, `[pacing]`,
   `[music]`: the model may read the word aloud or invent a sound effect.
   Describe the voice instead. `check` flags these.
