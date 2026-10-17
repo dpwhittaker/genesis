@@ -24,6 +24,17 @@ verify: no cut-off chunk. Its two "missing" runs (long 12:06, the reed-hut
 reading; 37:52, the chart turn) were checked by transcribing those minutes alone,
 and both are spoken in full. Possible slip to listen for: long 23:05, "gods
 swarming" heard as "God swarming".
+**Re-voiced the same day** in a new register. David heard the first pair and
+said it sounded "like they're reading an academic paper"; he asked for "two
+friends talking about what they read, not a scholar teaching a student." Both
+scripts were rewritten (FLINT/LAUREN, Lauren 42–45% of the words, shorter
+quotations, humour where the old stories invite it) and the skill updated to
+match. The long opening was auditioned alone first and approved by ear. New
+lengths: short 18:54 (11 chunks), long 44:56 (25 chunks; the auditioned opening
+reused). 52,573 credits for the pair, 105,035 for the day in all; nothing
+retaken. Whisper verify: no cut-off chunk; the long's one "missing" run (34:15,
+Frazer on Africa) and the short's "the goddess" for "and God" (13:03) were
+checked by transcribing those minutes alone, and both are spoken as written.
 
 **David's brief (2026-10-15):** compare the biblical flood to *Atrahasis* and
 *Gilgamesh*; "the biggest point lies in where the Bible diverges from the

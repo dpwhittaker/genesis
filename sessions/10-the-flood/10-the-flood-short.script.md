@@ -5,317 +5,299 @@ model: eleven_v4
 stability: 0.5
 seed: 10
 speakers:
-  TEACHER: { voice: qAZH0aMXY8tw1QufPN0D, name: Flint }    # Deep, Raspy, and Warm (library)
-  STUDENT: { voice: DODLEQrClDo8wCz460ld, name: Lauren }   # library
+  FLINT: { voice: qAZH0aMXY8tw1QufPN0D, name: Flint }    # Deep, Raspy, and Warm (library)
+  LAUREN: { voice: DODLEQrClDo8wCz460ld, name: Lauren }  # library
 ---
 
 <!--
-The short episode for Session 10 (~20 min): the overview. Someone who hears
-only this should be ready for class. Every claim is from the handout
-(index.md) or its source sheets; Scripture is NET ("the Lord" for LORD);
-Gilgamesh XI is Clay 1922 or Thompson 1928; the Atrahasis lines are our own
-working translations, labelled on air as in the handout.
+The short episode for Session 10 (~20 min), second version: two friends who
+have both read the handout, talking it over. The first version (a teacher and
+a student) sounded "like they're reading an academic paper."
+
+Every claim is from the handout (index.md) or its source sheets. Scripture is
+NET ("the Lord" for LORD). Gilgamesh XI is Clay 1922 or Thompson 1928.
+Hebrew is respelled for the voice: koper, tevah, nihoach, keshet.
 -->
 
 ## Cold open — flies, or a soothing aroma
-<!-- ~300 words: two sacrifices after two floods; the outline was not the news; the honest unease; the meaning is in the details. Name the session. -->
+<!-- ~200 words: the grossest line in the handout; the same moment in Genesis; the outline wasn't news, the details were; name the session and its three parts. -->
 
-TEACHER: [quiet, measured] "The gods smelled the savor. The gods smelled the sweet savor. The gods like flies gathered about the sacrificer."
+LAUREN: Can I read you the grossest line in the whole handout?
 
-STUDENT: [appalled] Flies?
+FLINT: [chuckles] Do I get a choice?
 
-TEACHER: That's the end of the flood in the Epic of Gilgamesh. The survivor offers a sacrifice, and the gods, who've gone hungry while humankind drowned, swarm it like flies. Now read Genesis eight.
+LAUREN: [mischievously] Nope. "The gods smelled the savor. The gods smelled the sweet savor. The gods like flies gathered about the sacrificer."
 
-STUDENT: "Noah built an altar… And the Lord smelled the soothing aroma."
+FLINT: [laughs] That's the Epic of Gilgamesh. The flood's over, the survivor offers a sacrifice, and the gods are so hungry they crowd around it like flies.
 
-TEACHER: Same moment. A man, an altar, a deity who smells the offering. And everything that follows is different.
+LAUREN: And Genesis tells the exact same moment like this: "And the Lord smelled the soothing aroma."
 
-STUDENT: So the Bible knew the Babylonian story?
+FLINT: [warmly] Same moment. Completely different God.
 
-TEACHER: The people who first heard Genesis lived in a world where the flood story was already being told. Water, a boat, a few survivors: that outline wasn't news to them. What they hadn't heard was this telling of it.
+LAUREN: And that's today, pretty much. Session ten: The Flood Everyone Knew. Genesis six to nine.
 
-STUDENT: [thoughtful] I'll be honest, it's a little unsettling that Noah has older cousins.
+FLINT: The people who first heard Genesis already knew a flood story. Rising water, a boat, a few survivors. That part wasn't news.
 
-TEACHER: That's an honest response, and you're in good company. It unsettled a great many people when the first flood tablet was deciphered, in eighteen seventy-two. Faithful readers explain the likeness in more than one way. But however you explain it—
+LAUREN: The news was in the details.
 
-STUDENT: [jumping in] —the meaning is in the details?
-
-TEACHER: And the details are where Genesis is different.
-
-STUDENT: This is the short episode for Session ten: The Flood Everyone Knew. Genesis six, verse nine, through chapter nine. The story everyone knew; nine places where Genesis breaks the pattern; and floods around the world.
+FLINT: So: the story everyone knew, then nine places where Genesis goes its own way, and then flood stories from around the world.
 
 ---
 
 ## Part 1 — The story everyone knew
-<!-- ~800 words: Atrahasis (Session 1) and Gilgamesh XI (Session 8); the stories travelled; no flood tablet in Israel; koper and Driver's "possible"; the shared outline in brief; two questions — did it happen (the NT settles it; Genesis tells it as history; global or regional), how are they related (two views, a hard question each). -->
+<!-- ~650 words: Atrahasis and Gilgamesh; the slip; in the air; the shared details and koper; the two arguments people bring; did it happen (the NT settles it; global or regional); did Genesis borrow (two answers, each with its strength and weak spot); either way, you'd keep being surprised. -->
 
-STUDENT: Remind me which stories we're comparing.
+LAUREN: Okay, so who already knew this story?
 
-TEACHER: Two you've met. Atrahasis, the Babylonian epic from the first session, where the gods make humankind out of clay to carry their labour. Its climax is a flood, and its oldest dated copy was made about thirty-six hundred years ago.
+FLINT: Pretty much everybody. There's a Babylonian epic called Atrahasis, which we met back in Session one, and its oldest copy is about thirty-six hundred years old.
 
-STUDENT: And Gilgamesh, from Session eight. The king who wanted a name.
+LAUREN: And Gilgamesh, from Session eight. The king who wanted to make a name for himself. In Tablet Eleven, he goes and finds the one man who survived the flood and got eternal life.
 
-TEACHER: In Tablet Eleven, afraid of dying, he finds the one man who survived the flood, Uta-napishti, and hears how he did it. Tablet Eleven took its flood from Atrahasis; it even slips once and calls its hero "Atra-hasis."
+FLINT: Uta-napishti. And Tablet Eleven borrowed its flood from Atrahasis. It even slips once and calls its own hero "Atra-hasis."
 
-STUDENT: Did Israel know these stories?
+LAUREN: [laughs] Somebody forgot to change the name.
 
-TEACHER: They travelled. Copies have turned up in Babylonia, on the Syrian coast, at the Hittite capital in Turkey; a piece of Gilgamesh was found at Megiddo, in Canaan. No flood tablet has been found in Israel itself. So the careful claim is that the story was in the air of their world.
+FLINT: These stories were told and copied across the ancient Near East for well over a thousand years. The story was in the air.
 
-STUDENT: And Genesis shows signs of knowing it?
+LAUREN: And Genesis shares so much of it. A god warns one man: "Tear down the house, build a ship!" There's a mountain at the end. Birds sent out to test the water, a raven and a dove—
 
-TEACHER: In its details. A mountain. Birds sent out to test the water. An altar, and the aroma. And one word: the pitch on the ark, koper, appears nowhere else in the Bible, and it matches the Babylonian word for the pitch on Uta-napishti's boat.
+FLINT: [jumping in] —a sacrifice, and a god who smells it. Even one Babylonian word. The pitch Noah coats the ark with is koper, and the pitch on Uta-napishti's boat is kupru.
 
-STUDENT: So it's a borrowed word.
+LAUREN: [laughs] Koper, kupru. Not subtle.
 
-TEACHER: Possibly. The Anglican scholar S. R. Driver, in nineteen-oh-four, said exactly that: "possible." Bitumen was traded, and a word can travel with the cargo instead of the story. The whole cluster of details is the stronger evidence.
+FLINT: An old scholar named Driver only called it "possible" that the word came over with the story. Pitch was traded, and a word can travel with the cargo. It's the whole cluster of details that makes the case.
 
-STUDENT: Even the birds?
+LAUREN: So people hear all this and go one of two ways. Either "the Bible copied a myth"—
 
-TEACHER: Gilgamesh sends a dove, a swallow and a raven. Genesis sends a raven, and a dove that "could not find a resting place for its feet."
+FLINT: [jumping in] —or "every culture has a flood story, so it must be true." And the handout's point is that both of them are staring at the outline.
 
-STUDENT: [surprised] Gilgamesh's dove "did not have a resting place" either. Okay. So now I have two questions. Did it happen? And did Genesis borrow it?
+LAUREN: [curious] Okay, but I still want to know. Did it happen?
 
-TEACHER: Keep them apart. Did it happen? For this class, the New Testament settles that. Jesus set the days of Noah beside his own coming, and Peter set the flood beside the judgment to come.
+FLINT: For this class, the New Testament settles that. Jesus compares his coming to the days of Noah, and Peter sets the flood next to the judgment to come. What Christians who read it as history disagree about is how far the water went.
 
-STUDENT: And Genesis tells it as history. It gives it a family heading, "This is the account of Noah," and dates it by the day of Noah's life.
+LAUREN: The whole globe, or a huge regional flood told in the language of "all." The way Genesis can say a famine was "severe throughout the earth."
 
-TEACHER: Archaeology can't settle it either way; the flood layers in Mesopotamian cities are local, and of different dates.
+FLINT: And this session doesn't settle that one.
 
-STUDENT: So where do Christians who read it as history disagree?
+LAUREN: And did Genesis borrow it?
 
-TEACHER: On how far the water reached.
+FLINT: Two answers, both held by people who believe it happened. One: Genesis knew the Babylonian story and was answering it. That it drew on the story has been the majority view since eighteen seventy-two, and Jewish scholars like Umberto Cassuto and Nahum Sarna developed the "answering" part.
 
-STUDENT: The whole globe, or a vast regional flood told in the language of "all."
+LAUREN: And what it has going for it is that the biggest differences land right where the theology is. Its weak spot is that shared details don't prove copying.
 
-TEACHER: Both views are on the "floods around the world" sheet. This session doesn't settle it.
+FLINT: Two: nobody copied anybody. They both go back to an older shared tradition. That's the evangelical scholar Alan Millard, who co-edited Atrahasis, and Kenneth Kitchen. Going for it: the flood memory is ancient, and Genesis is different even where nothing's at stake, like the shape of the boat.
 
-STUDENT: And borrowing?
+LAUREN: And its weak spot is that nobody's ever found the shared source. Oh, and I loved Gordon Wenham here. He calls Genesis "a truly revolutionary work that fundamentally challenged the beliefs of that era." But he says the parallels are "not so close that we can suppose the writer of Genesis borrowed from them or had even read them."
 
-TEACHER: Two answers, and on borrowing they can't both be right. One: Genesis knew the Mesopotamian telling and answered it. Its strength: the sharpest differences fall where the theology is at stake. Its hard question: shared details don't prove copying.
+FLINT: [chuckles] So he keeps the answering—
 
-STUDENT: And the other?
+LAUREN: [jumping in] —and drops the borrowing. So which one do I have to pick?
 
-TEACHER: Neither copied the other; both draw on an older, shared tradition. That's the view of the evangelical Assyriologist Alan Millard, and of Kenneth Kitchen, and of Gordon Wenham, who still reads Genesis as answering its neighbours.
+FLINT: [warmly] You can hold either one. Because either way, if you grew up on Gilgamesh, you'd know where Genesis was going at every turn—
 
-STUDENT: So Wenham keeps the answering, and drops the borrowing. What's the hard question for that view?
-
-TEACHER: The shared source has never been found, and the details are very close.
-
-STUDENT: So which one do I pick?
-
-TEACHER: [warmly] You may hold either. Either way, the comparison works the same. If you'd grown up on Gilgamesh, you'd know where Genesis was going at every turn—
-
-STUDENT: [jumping in] —and you'd keep being surprised.
+LAUREN: [jumping in] —and you'd keep getting surprised. So here's one to chew on: imagine hearing Genesis for the first time with Gilgamesh already in your head. What would you be listening for?
 
 ---
 
-## Part 2 — Where Genesis breaks the pattern
-<!-- ~1,550 words: the nine, briskly. Why (noise vs the heart and violence); who's in charge (the reed hut, the cowering gods vs one God); the neighbours (cover story vs a silent Noah; the NT herald; the rabbis' cedars; God waits); the box no one steers (tevah; Moses); hungry gods vs the aroma and 8:21; who objects (Ea; Genesis's answer; God to his own heart; Abraham; Sodom still falls); the survivor made a god vs a man of the soil who dies, with 9:25 in brief (Ibn Ezra); fewer births vs "be fruitful" and 9:6; the necklace vs the bow and the covenant (Nachmanides; Isaiah 54). -->
+## Part 2 — Nine places Genesis goes its own way
+<!-- ~1,250 words, brisk: noise vs violence and the heart; Ea and the wall, the cowering gods vs one God; the cover story vs a silent Noah, the NT and the cedars; the cube vs the tevah and Moses; hungry gods vs the aroma and 8:21; who objects, honestly, and Abraham; made a god vs a man of the soil, and 9:25 said briefly and carefully; fewer births vs "be fruitful" and 9:6; the fly necklace vs the bow and the covenant. -->
 
-STUDENT: So where does it break the pattern?
+FLINT: So. Nine surprises. Number one: why the flood came.
 
-TEACHER: Nine places. First, why the water came. In Atrahasis, people multiplied, and their noise kept the god Enlil awake. Gilgamesh gives no reason at all.
+LAUREN: And in Atrahasis, it's noise. People multiplied and got so loud the god Enlil couldn't sleep. "Concerning their clamor I am troubled."
 
-STUDENT: And Genesis gives two. The heart: "Every inclination of the thoughts of their minds was only evil all the time." And violence: "the earth was filled with violence."
+FLINT: [deadpan] The world's first noise complaint.
 
-TEACHER: What people do to one another. In Genesis, multiplying is the blessing, never the offence.
+LAUREN: [laughs] And Genesis says it was violence, and the human heart: "the earth was filled with violence." And in Genesis, people multiplying is never the problem. It's the blessing.
 
-STUDENT: So what was the noise about? Just too many people?
+FLINT: Two: who's in charge. In Babylon, a council of gods swears an oath to keep the flood a secret. So Ea, the clever one, doesn't tell a man. He tells the man's wall. "O Reed-hut, O Reed-hut! Wall, wall!"
 
-TEACHER: Many scholars think so; some read it as humans pushing into the gods' own sphere. Either way, it isn't what Genesis names.
+LAUREN: [starts laughing] A loophole! And then when the storm hits, the gods panic. "The gods cower like a dog."
 
-STUDENT: Second?
+FLINT: [amused] In their own storm. In Genesis, one God opens "all the fountains of the great deep," and closes them again. And right in the middle: "God remembered Noah… God caused a wind to blow over the earth and the waters receded."
 
-TEACHER: Who's in charge. In Mesopotamia a council of gods swears an oath to keep the flood secret. The clever god Ea gets around it by talking, not to the man, but to the wall of his reed hut: "O Reed-hut, O Reed-hut! Wall, wall!"
+LAUREN: [surprised] Wait. A wind over the waters. That's Genesis one!
 
-STUDENT: [laughs] He's talking to the wall.
+FLINT: The flood is creation running backward, and God runs it forward again.
 
-TEACHER: And when the storm comes, the gods lose control of their own flood. "The gods cower like a dog."
+LAUREN: Three: what the hero told the neighbours. Uta-napishti gets a cover story from Ea: "I know that Enlil hates me, and I may not dwell in your city."
 
-STUDENT: And in Genesis, one God decides, warns, and saves.
+FLINT: [chuckles] "Sorry, can't stay, my boss hates me." And a riddle. In our own working translation: "In the morning, bread-cakes; at nightfall he will rain on you a shower of wheat."
 
-TEACHER: He opens the fountains of the deep, and he closes them. "God remembered Noah," and a wind blows over the waters, as in Genesis one. In Babylon, the god who destroys and the god who saves are rivals. In Genesis they're one God.
+LAUREN: [quieter] Oh no. So the city hears "free food," and the rain that's coming isn't wheat. That's cruel.
 
-STUDENT: Third: what the hero told his neighbours.
+FLINT: And Noah? Says nothing. Not one word in the whole flood story. All we're told is that "Noah did all that God commanded him."
 
-TEACHER: Uta-napishti asks Ea what to tell the city, and Ea gives him a cover story, and a riddle the city will hear as a promise of plenty. In our working translation: "at nightfall he will rain on you a shower of wheat."
+LAUREN: [incredulous] Zero lines! So where does preaching Noah come from?
 
-STUDENT: And the rain that's coming isn't wheat. [softly] That's cruel.
+FLINT: The New Testament fills the silence. Peter calls him "a herald of righteousness," and says "God patiently waited in the days of Noah." And the rabbis pictured him planting cedars and cutting them down for a hundred and twenty years, just so people would ask why.
 
-TEACHER: In Genesis, Noah never says a word. From chapter six, verse thirteen, to chapter nine, verse seventeen, only God speaks. Noah's first recorded words come after it's all over.
+LAUREN: [laughs] The long game. So the god of Gilgamesh helps his man keep the city in the dark—
 
-STUDENT: [surprised] Then where does Noah the preacher come from?
+FLINT: [softly] —and the God of the Bible waits.
 
-TEACHER: The New Testament fills the silence. Peter calls him "a herald of righteousness." First Peter says "God patiently waited in the days of Noah as an ark was being constructed." And the rabbis pictured him planting cedars and cutting them down, for a hundred and twenty years, so that people would ask him why.
+LAUREN: Four: the boat. And in my head, Noah's ark is basically a cruise ship with giraffes. Which is closer to Uta-napishti's! His is a cube, loaded with silver and gold, and he hands it over to a professional captain.
 
-STUDENT: So the god of Gilgamesh helps his man keep the city in the dark—
+FLINT: And Noah's ark is a tevah. A box. No silver, no gold, and no word anywhere for a rudder, a sail or a pilot.
 
-TEACHER: —and the God of the Bible waits.
+LAUREN: [amused] Nobody's steering.
 
-STUDENT: Fourth?
+FLINT: Augustine said the ark was kept from shipwreck "rather by divine oversight than by human skill."
 
-TEACHER: The boat.
+LAUREN: And the only other tevah in the Bible is the basket baby Moses floats in.
 
-STUDENT: My picture of Noah's ark is basically a cruise ship with giraffes.
+FLINT: Both times, God keeps the future safe on the water, in a box nobody steers.
 
-TEACHER: [chuckles] Uta-napishti's is closer to that. It's a cube, loaded with silver and gold, and handed to a pilot. Noah's ark is a tevah, a box. There's no word in the story for a rudder, a sail, or a pilot. The only other tevah in the Bible is the basket a mother set among the reeds of the Nile, with Moses inside.
+LAUREN: Five's the gross one. The hungry gods.
 
-STUDENT: [softly] So both times God keeps the future safe in a box no one steers.
+FLINT: In Atrahasis, people were made to feed the gods. So with everybody drowned, the gods go hungry, and when the sacrifice finally comes, they crowd around it like flies.
 
-TEACHER: Fifth: hungry gods. In Atrahasis, humans were made to feed the gods. So with the people drowned, in our working translation, "The Anunna, the great gods, sat in thirst and in hunger." That's why they swarm the sacrifice like flies.
+LAUREN: And Genesis keeps one line: "the Lord smelled the soothing aroma." And "soothing" in Hebrew is nihoach, which sounds like Noah's name.
 
-STUDENT: And Genesis keeps the smell, and drops the hunger.
+FLINT: And then, instead of a meal, a promise. "I will never again curse the ground because of humankind, even though the inclination of their minds is evil from childhood on."
 
-TEACHER: And what follows the aroma is a promise: "I will never again curse the ground because of humankind, even though the inclination of their minds is evil from childhood on."
+LAUREN: [surprised] Wait. That's the same reason he gave for the flood.
 
-STUDENT: Wait. That's the same diagnosis as before the flood.
+FLINT: Same diagnosis. Opposite verdict. The flood didn't fix the human heart, and God promises anyway.
 
-TEACHER: The diagnosis is unchanged; the verdict is the opposite. The flood fixed nothing in the human heart, and God promises anyway.
+LAUREN: And there's that psalm that sounds like an answer to the whole hungry-gods idea. Psalm fifty: "Even if I were hungry, I would not tell you, for the world and all it contains belong to me. Do I eat the flesh of bulls?"
 
-STUDENT: And God doesn't need the meal. Psalm fifty: "Do I eat the flesh of bulls?"
+FLINT: [laughs] If God were hungry, you'd be the last to know.
 
-STUDENT: Sixth is the hard one. Who objects.
+LAUREN: Okay, quick recap, because we're halfway. Babylon: a noise complaint, gods hiding like dogs, a god whispering to a wall, a cube full of gold, and gods who show up at the sacrifice like flies.
 
-TEACHER: In Gilgamesh, Ea rebukes the god who sent the flood: "On the sinner place his sin; on the evil doer place his crimes."
+FLINT: And Genesis: violence and the heart. One God. A Noah who never says a word. A box nobody steers. And a promise.
 
-STUDENT: [thoughtful] Honestly, that sounds better than Genesis. Punish the guilty, not everybody.
+LAUREN: [quieter] Okay. Six is the hard one. Who objects.
 
-TEACHER: It's the objection readers have always felt, and the Babylonian story voices it. Genesis's own answer is that "all living creatures on the earth were sinful," and the one righteous household was spared.
+FLINT: In Gilgamesh, after the flood, Ea tells the other god off: "On the sinner place his sin; on the evil doer place his crimes."
 
-STUDENT: That's hard to stretch over the children.
+LAUREN: [pause] And honestly? That sounds better. Punish the guilty, not everybody.
 
-TEACHER: It is, and we said so last session. But Ea's alternatives, a lion, a wolf, a famine, would fall on guilty and innocent alike.
+FLINT: [quieter] It's a fair reaction. Genesis's answer is that "all living creatures on the earth were sinful," and the one righteous family was spared. That's hard to stretch over the children, and the handout says so. But Ea's alternatives, a lion, a wolf, a famine, would hit the innocent too.
 
-STUDENT: And does anyone in Genesis object?
+LAUREN: And in Genesis, God says it to himself: "I will never again destroy everything that lives, as I have just done."
 
-TEACHER: No human does. But what Ea pleads for, God says to his own heart: "I will never again destroy everything that lives." In Babylon it took a second god to say it. And the human protest comes later, from Abraham at Sodom.
+FLINT: In Babylon, it takes a second god to say it. In Genesis, it's the same God who sent the flood. And later Abraham asks, at Sodom, "Will not the judge of the whole earth do what is right?"
 
-STUDENT: "Will not the judge of the whole earth do what is right?"
+LAUREN: [softly] And God listens. Sodom still falls, but he listens. So you're allowed to ask.
 
-TEACHER: God listens. Sodom still falls, and Lot is brought out.
+FLINT: Seven: what happens to the survivor. Uta-napishti and his wife are made gods.
 
-STUDENT: So it's not a full answer. But the question's allowed.
+LAUREN: And Noah plants a vineyard. Which is what his dad hoped for when he named him "Rest," because of "the ground that the Lord has cursed." The ground finally grows something again. And the first thing it grows is wine, and Noah gets drunk, and "then he died."
 
-TEACHER: [warmly] It may still be asked. Abraham asked it, and God listened.
+FLINT: Genesis will not make a god out of Noah.
 
-STUDENT: Let me catch my breath. Babylon: noisy people, gods who cower like dogs, a message whispered through a wall, a cube full of gold, gods swarming like flies. Genesis: violence and the heart, one God, a silent Noah, a box nobody steers, and a promise made over a heart that hasn't changed.
+FLINT: And right after comes a hard verse: "Cursed be Canaan."
 
-TEACHER: Three more.
+LAUREN: [quieter] The one that got used to defend slavery.
 
-STUDENT: Seventh.
+FLINT: As the "curse of Ham." But it's Canaan, not Ham. It's Noah talking, not God. And this same chapter says every human being bears God's image, and the whole earth was populated from Noah's sons. The text says no such thing.
 
-TEACHER: The survivor. In Gilgamesh, he and his wife are made like the gods and sent to live far away. In Genesis—
+LAUREN: And a rabbi saw through it back in the twelfth century. Abraham ibn Ezra: "There are some who say that the Cushites are enslaved because Noah cursed Ham. However, they have forgotten that the first king to rule after the flood was a Cushite."
 
-STUDENT: "Noah, a man of the soil, began to plant a vineyard." The cursed ground yields again.
+FLINT: [warmly] And many churches that once taught the curse have renounced it.
 
-TEACHER: With a sting. He gets drunk. And he dies at nine hundred and fifty, like everyone in Genesis five. Genesis won't make a god of its survivor.
+FLINT: Eight: fewer people, or more? Atrahasis ends with the gods cutting down births. Women who don't give birth, and a demon that snatches babies.
 
-STUDENT: And that's where "Cursed be Canaan" comes in.
+LAUREN: [appalled] So the gods can sleep. And Genesis says, "Be fruitful and multiply and fill the earth."
 
-TEACHER: Canaan, Ham's son, not Ham. And it's Noah who says it, waking from wine; God curses no one there. Centuries later, folk-tales were fused with that verse into a "curse of Ham," and used to justify enslaving Black Africans. The text says no such thing.
+FLINT: [quiet, measured] And then: "Whoever sheds human blood, by other humans must his blood be shed; for in God's image God has made humankind."
 
-STUDENT: And the same chapter says every human bears God's image, and the whole earth was populated from Noah's sons.
+LAUREN: More life, and every life protected.
 
-TEACHER: The Spanish-born Abraham ibn Ezra saw through it in the twelfth century. He said those who blame Noah's curse "have forgotten that the first king to rule after the flood was a Cushite." Many churches that once taught it have renounced it.
+FLINT: And nine: what each one remembers. The goddess swears by a necklace. Of flies.
 
-STUDENT: Eighth.
+LAUREN: [laughs] Flies again!
 
-TEACHER: Fewer people, or more? Atrahasis ends with the gods ordering barren women, and a demon to snatch babies. Fewer people, so that the gods can sleep.
+FLINT: And God says, "I will place my rainbow in the clouds." But the Hebrew says my bow, keshet, the word for an archer's weapon.
 
-STUDENT: And Genesis: "Be fruitful and multiply and fill the earth." And, "Whoever sheds human blood, by other humans must his blood be shed; for in God's image God has made humankind."
+LAUREN: [softly] So God hangs up his bow.
 
-TEACHER: More people, and each one protected, because each bears God's image. Rabbi Akiva said that anyone who sheds blood is "as though he has diminished God's image."
+FLINT: A lot of readers have heard it that way.
 
-STUDENT: And ninth: the rainbow.
+LAUREN: Nachmanides passes on this picture: "It is indeed the way of warriors to invert the instruments of war which they hold in their hands when calling for peace from their opponents."
 
-TEACHER: The goddess in Gilgamesh lifts a necklace of lapis beads, carved as flies, and swears to remember those days. God sets his bow in the cloud. The Hebrew word, keshet, is an archer's bow almost everywhere else in the Bible. Nachmanides, in the thirteenth century, passed on the picture of a war-bow turned away from the earth: "the way of warriors to invert the instruments of war."
+FLINT: [warmly] Others think it's just the shape. Either way, it seals the first covenant in the Bible, with every living creature. And the sign is for God to look at: "I will notice it and remember."
 
-STUDENT: [softly] Oh, I like that.
+LAUREN: So the goddess remembers her grief—
 
-TEACHER: Others think it simply describes the shape. Either way, it seals the first thing the Bible calls a covenant: with Noah, with every living creature, with the earth itself. And the promise has no conditions.
-
-STUDENT: And the sign is for God to look at. "I will notice it and remember the perpetual covenant between God and all living creatures."
-
-TEACHER: The goddess remembers her grief. God remembers his promise. He even recalled it to Isaiah's exiles: "my devotion will not be removed from you."
+FLINT: [jumping in] —and God remembers his promise.
 
 ---
 
 ## Part 3 — Floods around the world
-<!-- ~700 words: "every culture has a flood story" stated accurately; Frazer on Africa; a few stories by their details (Manu, Deucalion, the Maya, Tata and Nene's smoke); the chart and its honest limit; Hawaii 1823 to 1878; "it will happen again"; three explanations, each with its hard question; we believe it because Jesus and the apostles speak of it; the outline was common property. -->
+<!-- ~550 words: not every culture; Frazer on Africa; Egypt's beer, the horned fish, the stones, the frog; the chart and the fair objection; the close matches come after missionaries (Hawaii); "never again" is the unusual part; three answers in brief; we believe it because Jesus and the apostles speak of it. -->
 
-STUDENT: Now the other argument. "Every culture has a flood story."
+LAUREN: Okay. "Every culture has a flood story." True?
 
-TEACHER: Not quite. Flood stories are found on every inhabited continent, but not in every culture. They're common in Asia, the Pacific and the Americas; rare in Europe; missing from ancient Egypt; and nearly absent from Africa. Sir James Frazer, who collected hundreds of them, wrote that in Africa "native legends of a great flood are conspicuously absent."
+FLINT: Not quite. They're on every inhabited continent, but not in every culture. They're rare in Europe, missing from ancient Egypt, and nearly absent from Africa.
 
-STUDENT: [surprised] Africa? I'd have guessed everywhere.
+LAUREN: [surprised] Africa!
 
-TEACHER: Later collectors found more, but few with Noah's shape.
+FLINT: Sir James Frazer, who collected hundreds of them a century ago, said that in Africa "native legends of a great flood are conspicuously absent."
 
-STUDENT: And the ones that do exist? How close are they?
+LAUREN: And the ones that do exist are wild. Egypt's closest thing isn't even a flood: a god stops a slaughter by getting a goddess drunk on red beer. In India, a fish with a horn tows Manu's ship up a mountain. In Greece, the survivors throw stones over their shoulders, and the stones turn into people.
 
-TEACHER: Look at the details. In India, Manu is saved because he saved a fish. In Greece, Deucalion and Pyrrha are spared for being righteous, and then they make new people out of stones. In the Maya Popol Vuh, no one is saved at all.
+FLINT: [laughs] And in Australia, the Gunaikurnai tell about a frog who swallowed all the water in the world, until the eel made him laugh. "When he laughed, all the waters came out of his mouth, and there was a flood."
 
-STUDENT: No one?
+LAUREN: [laughs] And the Aztec one! A god tells a couple, Tata and Nene, to hollow out a cypress and get inside. They survive, they light a fire to cook some fish, and the smoke goes up to heaven—
 
-TEACHER: No one. And in a Nahua story from Mexico, the survivors cook a fish, and the smoke angers the gods, and they're turned into dogs.
+FLINT: [jumping in] —and the gods smell it, like in Genesis. Except they're furious, and they turn the couple into dogs.
 
-STUDENT: The exact opposite of Noah's altar.
+LAUREN: So the smoke that pleases God in Genesis gets you turned into a dog. The outline's everywhere, and the stories are totally different.
 
-TEACHER: The handout puts the stories in a chart. Water, a warning, a boat, a mountain: that outline is common. But the rows for what Genesis means—
+FLINT: And when you chart them, look at the rows for what Genesis means. One God acting alone. God grieving before the flood. "Never again," sworn as a covenant. Human life protected because it bears God's image. Genesis stands alone in every one.
 
-STUDENT: [jumping in] One God acting alone. God grieving before the flood. "Never again," as a covenant with all life. Human life protected because it bears God's image.
+LAUREN: [skeptical] But those rows came out of Genesis.
 
-TEACHER: There, Genesis stands alone.
+FLINT: Fair. Build the rows out of Gilgamesh, and Genesis has blanks too. So the chart can't prove Genesis is the original. It shows what Genesis says that nobody else does.
 
-STUDENT: [skeptical] But those rows were built out of Genesis.
+LAUREN: And the stories that sound the most like Noah?
 
-TEACHER: [warmly] They were, and the handout says so. Build rows from the other stories, and Genesis has blanks too. The chart can't prove Genesis is more original. What it shows is what Genesis says that the others don't.
+FLINT: Mostly written down after missionaries arrived. In Hawaii in eighteen twenty-three, people told a missionary their own flood story, and "they said they had never before heard of a ship, or of Noah." By eighteen seventy-eight, a Hawaiian convert's version had a houseboat, eight survivors and a rainbow.
 
-STUDENT: What about stories with pairs of animals, or a dove, or a rainbow?
+LAUREN: [amused] It grew an ark. And a lot of peoples expected the flood to come back. Fiji kept canoes ready for the next one.
 
-TEACHER: Outside the Near East, those turn up only in late Greek tellings that borrowed from the east, or in records made after missionaries arrived. In Hawaii in eighteen twenty-three, people told a missionary of two survivors on a mountain-top.
+FLINT: So "never again" is the unusual part.
 
-STUDENT: "They said they had never before heard of a ship, or of Noah."
+LAUREN: So why are there so many flood stories?
 
-TEACHER: By eighteen seventy-eight, a Hawaiian convert's version had a houseboat, eight survivors, and a rainbow. And several peoples expected the opposite of "never again." The Nahua, Fiji's canoe-keepers, Chile's Mapuche: they all looked for destruction to come again.
+FLINT: Maybe one flood, remembered. Maybe because floods happen wherever people live. Maybe because stories travel. The handout lays out all three, each with its hard question.
 
-STUDENT: So why are there so many flood stories at all?
+LAUREN: [thoughtful] And none of them settles whether it happened. We believe that because Jesus and the apostles talk about it.
 
-TEACHER: Three answers, which can be combined. One flood, remembered — though outside the Near East the closest matches come late. Floods happen wherever people live — though why do so many reach for all of humankind? And stories travel — though some, like the Maya's, look older than any contact.
+FLINT: The outline was common property.
 
-STUDENT: And none of them decides whether Noah's flood happened.
-
-TEACHER: None. We believe it did because Jesus and the apostles speak of it, not because of how many peoples tell flood stories. The outline was common property.
-
-STUDENT: The details were not.
+LAUREN: [warmly] The details weren't.
 
 ---
 
 ## So what? — and close
-<!-- ~400 words: the handout's four points in brief; 1 Peter 3:20-21; the closing question; the rainbow blessing; next session; the session name. -->
+<!-- ~400 words: the four "So what?" points in brief; 2 Peter 3:9; 1 Peter 3:20-21 whole; the closing question; the rainbow blessing; next session; the session name; the flies. -->
 
-STUDENT: So what do we take from it?
+FLINT: So what do we take home?
 
-TEACHER: Four things. First: the first hearers knew the story. What was new was the God.
+LAUREN: The people who first heard Genesis knew the story. What was new was the God. Not gods who panic, starve and fight—
 
-STUDENT: Not a council that panics, starves and quarrels.
+FLINT: [jumping in] —but one God, who grieves before he judges, remembers in the middle, and promises afterwards. Who needs nothing from us, and binds himself to us anyway.
 
-TEACHER: But one God who grieves before he judges, remembers in the middle, and promises afterwards.
+LAUREN: Paul told the Athenians God isn't "served by human hands, as if he needed anything."
 
-STUDENT: Two: God needs nothing from us, and binds himself to us, and to every living thing, anyway.
+LAUREN: And after the flood, the answer to violence was more life. And every life protected.
 
-TEACHER: The gods of Babylon needed humans to feed them. The Lord smells the offering and answers with a promise. Three: after the flood, the answer to violence was more life, and every life protected.
+FLINT: And "never again" isn't "never." Peter says the Lord "is being patient toward you because he does not wish for any to perish but for all to come to repentance."
 
-STUDENT: And four?
+LAUREN: [softly] And he saw the ark as a picture of rescue. "In the ark a few, that is eight souls, were delivered through water. And this prefigured baptism, which now saves you — not the washing off of physical dirt but the pledge of a good conscience to God — through the resurrection of Jesus Christ."
 
-TEACHER: "Never again" — but not never. Jesus read the flood as a picture of his own coming. Peter says the Lord is patient, "because he does not wish for any to perish but for all to come to repentance." And he saw in the ark a picture of rescue: "In the ark a few, that is eight souls, were delivered through water. And this prefigured baptism, which now saves you."
+FLINT: So here's one to bring. Babylon's gods remembered their own grief. The God of Genesis remembers his promise. What difference does it make which kind of God you pray to?
 
-STUDENT: So here's a question to bring. The neighbours' gods remembered their own grief. The God of Genesis remembers his promise. What difference does it make which kind of God you pray to?
+LAUREN: And next time you see a rainbow, remember the Hebrew word is "bow." The Talmud has a blessing for it: "Blessed are You, Lord our God, King of the universe, who remembers the covenant and is faithful to His covenant and fulfills His word."
 
-TEACHER: And this week, when you see a rainbow, remember that the Hebrew word is "bow." And say the blessing the Talmud gives for it: "Blessed are You, Lord our God, King of the universe, who remembers the covenant and is faithful to His covenant and fulfills His word."
+FLINT: Next session, Noah's sons become the nations, and somebody builds a tower to "make a name for ourselves."
 
-STUDENT: Next session: Noah's sons become the nations, and the nations build a tower, "so that we may make a name for ourselves."
+LAUREN: [laughs] Gilgamesh would understand.
 
-TEACHER: [chuckles] Gilgamesh wanted a name too.
+FLINT: That was Session ten: The Flood Everyone Knew. The handout and the source sheets are on the class site. Bring your questions.
 
-STUDENT: Session ten: The Flood Everyone Knew. The handout, the source sheets and the longer episode are on the class site.
+LAUREN: And try not to think about the flies.
