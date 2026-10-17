@@ -50,6 +50,10 @@ the pair (a first Fish pair, voiced with Fish's speed 1.1, cost the same and was
 replaced). Whisper verify: no cut-off chunk; its one "missing" run (long 30:28,
 Frazer on Africa) was transcribed alone and is spoken in full. Possible slip to
 listen for: long 22:45, "The rabbis asked" may sound like "ask".
+**Published 2026-10-17:** GroupMe post (message 179226543391623585), four Church
+Center resources (handout, both podcasts, PDF; ids 2646280–2646285) and the group
+email "Session 10 — The Flood Everyone Knew". The announcement said the podcasts
+were made with a new technique and asked the class to tell David what they think.
 
 **David's brief (2026-10-15):** compare the biblical flood to *Atrahasis* and
 *Gilgamesh*; "the biggest point lies in where the Bible diverges from the
