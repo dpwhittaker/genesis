@@ -13,6 +13,19 @@ layout: default
 🖨️ **[Printable handout (PDF, 10 pages)](10-the-flood.pdf)** — print this file rather than the web page; it is the exact layout checked for paper.
 {: .no-print}
 
+<div class="no-print" markdown="1">
+
+## 🎧 Listen
+
+Two companion podcasts for this session — good before you read, or to revisit afterward:
+
+- **Short overview** (~20 min): <audio controls preload="none" src="10-the-flood-short.m4a">Your browser can't play audio — [download the file](10-the-flood-short.m4a).</audio>
+- **Longer deep dive** (~45 min): <audio controls preload="none" src="10-the-flood-long.m4a">Your browser can't play audio — [download the file](10-the-flood-long.m4a).</audio>
+
+*Voiced with [ElevenLabs](https://elevenlabs.io) from scripts written for this session.*
+
+</div>
+
 ## A note before we begin
 
 Some of us first met *Gilgamesh* as an argument against the Bible: here is

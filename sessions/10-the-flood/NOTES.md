@@ -15,9 +15,15 @@ no layout warnings. To get there the forced break before Part 3 was dropped, the
 sample world table was marked `{: .ff-wrap .split-ok}` (a new print class in
 `assets/main.scss`: the table may break between rows, header repeated), and a
 break was put before "Next week" so "So what?" sits on one page. Getting to 8
-pages would mean cutting about a fifth of the handout. Podcast scripts written
-(`10-the-flood-long.script.md`, ~6,440 words; `-short`, ~2,850), awaiting
-David's read before voicing.
+pages would mean cutting about a fifth of the handout. Podcasts voiced
+2026-10-16 from the approved scripts (eleven_v4, Flint and Lauren, seed 10), the
+first made with the scripted-podcast flow: `10-the-flood-short.m4a` 19:41 (11
+chunks) and `10-the-flood-long.m4a` 44:44 (25 chunks); nothing retaken. They cost
+52,462 credits, one per character (the skill had said 0.1; corrected). Whisper
+verify: no cut-off chunk. Its two "missing" runs (long 12:06, the reed-hut
+reading; 37:52, the chart turn) were checked by transcribing those minutes alone,
+and both are spoken in full. Possible slip to listen for: long 23:05, "gods
+swarming" heard as "God swarming".
 
 **David's brief (2026-10-15):** compare the biblical flood to *Atrahasis* and
 *Gilgamesh*; "the biggest point lies in where the Bible diverges from the
