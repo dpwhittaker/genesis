@@ -10,6 +10,9 @@ layout: default
 **Source sheets:** **[the table of nations](texts/the-table-of-nations.html)** (the map, and every name in Genesis 10) · **[Babylon's tower](texts/babylons-tower.html)** (the story Babylon told about itself) · **[Babel among its readers](texts/early-readers.html)** (Jubilees, Josephus, the rabbis) · **[The ground under Babel](texts/the-ground-under-babel.html)** (climate, the first cities, and their languages)
 {: .no-print}
 
+🖨️ **[Printable handout (PDF, 12 pages)](11-babel.pdf)** — print this file rather than the web page; it is the exact layout checked for paper.
+{: .no-print}
+
 ## A note before we begin
 
 Today closes the first great section of Genesis. Chapters 1 to 11 have been
@@ -306,10 +309,10 @@ bricks more than the people:
 > sat down and wept, and said: Woe is us! when will another one come in its
 > stead? *(Pirkei de Rabbi Eliezer 24)*
 
-Another says the opposite. The Mishnah had ruled that the builders lost their
-share in the world to come (*Sanhedrin* 10:3), and Rashi grants that their sin
-was the greater: they *"did stretch forth their hands against God."* So why
-were they only scattered, while the flood generation was destroyed?
+Another says the opposite. The builders lost the world to come (Mishnah
+*Sanhedrin* 10:3), and Rashi grants their sin was the greater — they *"did
+stretch forth their hands against God"* — so why were they only scattered,
+while the flood generation was destroyed?
 
 > The generation of the Flood were violent robbers and there was strife among
 > them, and therefore they were destroyed; but these conducted themselves in
@@ -317,7 +320,7 @@ were they only scattered, while the flood generation was destroyed?
 > and how great is peace. *(Rashi on 11:9, from Genesis Rabbah 38:6)*
 
 The rabbis left both pictures standing: a project that counted bricks, and
-real love for the people inside the wall. Either way, **a name built by
+real love for one another. Either way, **a name built by
 huddling together, and keeping the love inside the wall.**
 
 ### Babylon tells it the other way
@@ -325,16 +328,13 @@ huddling together, and keeping the love inside the wall.**
 Do Israel's neighbours have a story of a tower to heaven? In 1876 George Smith,
 who had deciphered the flood tablet (Session 10), thought he had found one in
 the British Museum: *"[small] and great he confounded their speech… their
-strong place (tower) all the day they founded."* Within a generation, better
-readings showed it was a lament over Babylon's oppression by a god or king,
-with no tower in it at all. By 1921 the Museum's keeper, E. A. Wallis Budge, had been asked
-often enough to answer in print: *"Enquiries are from time to time made at the Museum for tablets
-which deal with… the destruction of the Tower of Babel… it is perhaps not
-superfluous to say that nothing of the kind exists."* (A Sumerian poem,
-*Enmerkar and the Lord of Aratta*, does speak of a time when all the lands
-*"address Enlil together in a single language"* and the god Enki *"shall change
-the speech in their mouths."* Scholars still argue whether it looks back to a
-lost unity or forward to one. It has no tower.)
+strong place (tower) all the day they founded."* Better readings showed it was
+a lament over Babylon's oppression by a god or king, with no tower in it. By 1921 the Museum's keeper, E. A. Wallis Budge, was answering
+in print the people who kept asking for it: *"nothing of the kind exists."* (A
+Sumerian poem, *Enmerkar and the Lord of Aratta*, does speak of a time when all
+the lands *"address Enlil together in a single language"* and Enki *"shall
+change the speech in their mouths"*; whether that time is past or future is
+still argued. It has no tower.)
 
 What Babylon had was the opposite story — and it told it about itself.
 
@@ -351,9 +351,7 @@ What Babylon had was the opposite story — and it told it about itself.
 ***Etemenanki***, "House of the Foundation of Heaven and Earth," and it was
 already old: Sennacherib of Assyria boasted of tearing it down in 689 BC. King
 Nabopolassar raised it again, and before his death in 605 BC he wrote that
-Marduk *"commanded me to firmly secure
-its foundation on the surface of the netherworld (and) to have its summit
-rival the heavens"*; he made *"baked bricks like countless drops of rain"* and
+Marduk *"commanded me… to have its summit rival the heavens"*; he made *"baked bricks like countless drops of rain"* and
 brought bitumen *"like a raging flood."* His son Nebuchadnezzar — the king who
 took Jerusalem — finished it, and said who did the work:
 
@@ -363,20 +361,20 @@ took Jerusalem — finished it, and said who did the work:
 > *(Nebuchadnezzar II, inscription for Etemenanki)*
 
 The nations of the world gathered in one place to build a tower to heaven:
-that was Babylon's boast, in the king's own words. Whenever Genesis's story
-was first told, Judah's exiles heard it under this tower, and it tells the
-boast the other way round: *"the LORD scattered them from there."*
+that was Babylon's boast. Whenever Genesis's story was first told, Judah's
+exiles heard it under this tower, telling the boast the other way round:
+*"the LORD scattered them from there."*
+
+<div class="page-break"></div>
 
 **An Assyrian king made them "one mouth."** A century earlier, Sargon II of
 Assyria built himself a new capital, Dur-Sharrukin, and filled it with the
 peoples he had deported:
 
 > Peoples of the four regions of the world, of foreign tongue and divergent
-> speech… I carried off at Assur, my lord's, command, by the might of my
-> scepter. I unified them (made them of one mouth) and settled them therein…
-> The gods who dwell in heaven and earth, and in that city, listened with
-> favor to my word, and granted me the eternal boon of building that city and
-> growing old in its midst. *(Sargon II, inscription for Dur-Sharrukin, trans.
+> speech… I carried off… I unified them (made them of one mouth) and settled
+> them therein… The gods… granted me the eternal boon of building that city
+> and growing old in its midst. *(Sargon II, inscription for Dur-Sharrukin, trans.
 > Luckenbill, 1927)*
 
 He did not grow old there. A year after the city was dedicated, Sargon was
@@ -614,6 +612,8 @@ not do for themselves.
 Abram goes (12:4). Where Babel built a tower, he builds altars, and at the
 second he *"worshiped the LORD"* (12:8) — in Hebrew, he *called on the name of
 the LORD*, the words of 4:26. And he pitches a tent.
+
+<div class="page-break"></div>
 
 ## So what?
 
