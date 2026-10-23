@@ -57,8 +57,12 @@ great gods,"* V 129, has no open English translation.)
 
 The temple-tower of Babylon was called ***Etemenanki***, Sumerian for "House,
 Foundation-Platform of Heaven and Earth" (or "…of Heaven and the Underworld").
-It stood about 91 metres square at its base. Ruined and rebuilt many times, it
-was raised again by Nabopolassar (626–605 BC) and finished by his son
+It stood about 91 metres square at its base. No one knows when it was first
+built; Andrew George argues it was standing in the second millennium BC, when
+*Enuma Elish* (above) has the gods build Babylon's ziggurat. Sennacherib of
+Assyria boasted of tearing it down when he sacked Babylon in 689 BC, and
+Esarhaddon began the rebuilding. It was raised again by Nabopolassar (626–605 BC)
+and finished by his son
 Nebuchadnezzar II (605–562), the king who took Jerusalem. Alexander the Great
 had what was left of it cleared for a rebuilding that never came.
 
@@ -354,6 +358,9 @@ Some popular websites still give Smith's reading.
 - **Names**: R. Koldewey, *The Excavations at Babylon*, trans. A. S. Johns
   (1914), public domain; A. R. George, *House Most High* (1993), and I. J.
   Gelb, "The Name of Babylon" (1955), described.
+- **The tower's history**: A. R. George, "The Tower of Babel: Archaeology,
+  History and Cuneiform Texts," *Archiv für Orientforschung* 51 (2005/2006),
+  described.
 - **Herodotus**: trans. A. D. Godley (Loeb, 1920), public domain, from the
   printed text (the online Perseus version modernises the measurements).
 - **Gilgamesh**: M. Jastrow and A. T. Clay, *An Old Babylonian Version of the

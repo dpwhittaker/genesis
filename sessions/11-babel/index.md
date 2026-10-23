@@ -320,8 +320,9 @@ gods building a city for Marduk:
 > VI, trans. Luckenbill, 1921)*
 
 **The kings built it to rival heaven.** Babylon's real tower was called
-***Etemenanki***, "House of the Foundation of Heaven and Earth." King
-Nabopolassar, a little before 600 BC, wrote that Marduk *"commanded me to firmly secure
+***Etemenanki***, "House of the Foundation of Heaven and Earth," and it was
+already old: Sennacherib of Assyria boasted of tearing it down in 689 BC. King
+Nabopolassar raised it again, and a little before 600 BC he wrote that Marduk *"commanded me to firmly secure
 its foundation on the surface of the netherworld (and) to have its summit
 rival the heavens"*; he made *"baked bricks like countless drops of rain"* and
 brought bitumen *"like a raging flood."* His son Nebuchadnezzar — the king who
