@@ -1,20 +1,24 @@
 """Draw the Session 11 map of the peoples of Genesis 10.
 
-    python3 build_map.py   ->  ../../sessions/11-babel/table-of-nations.svg
-                               ../../sessions/11-babel/canaan.svg
+    ~/ml-env/bin/python build_map.py   ->  ../../sessions/11-babel/table-of-nations.svg
+                                            ../../sessions/11-babel/canaan.svg
+    (needs numpy, scipy, matplotlib and Pillow)
 
-Coastlines, lakes and rivers: Natural Earth (public domain), modern. Places and
+Coastlines, lakes and rivers: Natural Earth (public domain), modern. Green land:
+not desert in today's climate (Köppen-Geiger, Beck et al. 2023, CC BY 4.0), plus
+the river valleys that farm the desert (see basemap.watered). Places and
 peoples: labels.json (identifications and sources on the Session 11 sheet
 "The table of nations"). Each label carries its own offset so nothing collides;
 the layout was checked by eye in a browser.
 """
 import json, os
-from basemap import Albers, Frame, load, polygons, polylines
+from basemap import Albers, Frame, load, polygons, polylines, watered
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
 COLOR = {'Japheth': '#2f5d8a', 'Ham': '#9a4a14', 'Shem': '#2f6d3a', 'other': '#6b6b6b'}
 SEA, LAND, SHORE, RIVER, WATER_TEXT = '#dce7ee', '#f5f0e4', '#9fb0ba', '#8fb0c4', '#5d7d92'
+GREEN = '#dfe9c9'
 SERIF = "Georgia, 'Times New Roman', serif"
 
 ANCIENT_LAKES = {'Dead Sea', 'Sea of Galilee', 'Lake Van', 'Lake Urmia', 'Lake Tuz',
@@ -39,9 +43,16 @@ def basemap(frame, box, extra=14, tol=0.45):
                        (p.get('featurecla') == 'River' or p.get('name') == 'Nile'))
     return land, lakes, rivers
 
-def layer(land, lakes, rivers, sw=1.0):
-    return (f'<g fill="{LAND}" fill-rule="evenodd" stroke="{SHORE}" stroke-width="{0.6*sw}">'
-            + ''.join(f'<path d="{d}"/>' for d in land) + '</g>'
+def layer(land, lakes, rivers, green=(), sw=1.0):
+    # One land path, used three times: fill, clip for the green, then the shore
+    # line on top so the green does not cover half of it.
+    out = (f'<defs><path id="land" fill-rule="evenodd" clip-rule="evenodd" d="{"".join(land)}"/>'
+           '<clipPath id="landclip"><use href="#land"/></clipPath></defs>'
+           f'<use href="#land" fill="{LAND}"/>')
+    if green:
+        out += (f'<g clip-path="url(#landclip)" fill="{GREEN}" fill-rule="evenodd">'
+                + ''.join(f'<path d="{d}"/>' for d in green) + '</g>')
+    return (out + f'<use href="#land" fill="none" stroke="{SHORE}" stroke-width="{0.6*sw}"/>'
             + f'<g fill="{SEA}" stroke="{SHORE}" stroke-width="{0.5*sw}">'
             + ''.join(f'<path d="{d}"/>' for d in lakes) + '</g>'
             + f'<g fill="none" stroke="{RIVER}" stroke-width="{0.9*sw}" stroke-linejoin="round">'
@@ -87,8 +98,9 @@ def labels(frame, items, scale=1.0):
         else:
             size = it.get('size', 13) * scale
             out.append(text(x + dx, y + dy, name, size, color, anchor, italic=uncertain,
-                            weight='bold' if not uncertain else 'normal', spacing=0.6,
-                            caps=True))
+                            weight='bold' if not uncertain else 'normal',
+                            spacing=it.get('spacing', 0.6), caps=True,
+                            rotate=it.get('rotate', 0)))
         if it.get('sub'):
             sc = COLOR.get(it.get('sub_color', ''), '#555')
             out.append(text(x + dx, y + dy + it.get('size', 13) * scale * 1.05, it['sub'],
@@ -109,7 +121,13 @@ def render(spec_file, out_file):
     lon_c, lat_c = spec.get('center', [36, 30])
     fr = Frame(box, W, proj, lon_c, lat_c)
     H = fr.height
-    land, lakes, rivers = basemap(fr, box, extra=spec.get('clip_extra', 14), tol=spec.get('tol', 0.45))
+    extra, tol = spec.get('clip_extra', 14), spec.get('tol', 0.45)
+    land, lakes, rivers = basemap(fr, box, extra=extra, tol=tol)
+    green = []
+    if spec.get('watered'):
+        wt = spec['watered']
+        clip = (box[0] - extra, box[1] - 6, box[2] + extra, box[3] + 4)
+        green = watered(fr, clip, wt['step'], wt['sigma'], tol, valleys=wt.get('valleys', True))
 
     parts = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W:.0f} {H:.0f}" '
              f'font-family="{SERIF}" role="img" aria-labelledby="t d">',
@@ -117,7 +135,7 @@ def render(spec_file, out_file):
              f'<clipPath id="frame"><rect width="{W:.0f}" height="{H:.0f}"/></clipPath>',
              '<g clip-path="url(#frame)">',
              f'<rect width="{W:.0f}" height="{H:.0f}" fill="{SEA}"/>',
-             layer(land, lakes, rivers, sw=spec.get('stroke_scale', 1.0))]
+             layer(land, lakes, rivers, green, sw=spec.get('stroke_scale', 1.0))]
     for r in spec.get('routes', []):
         parts.append(route(fr, r['points'], k))
     for b in spec.get('outlines', []):
@@ -141,9 +159,10 @@ def render(spec_file, out_file):
             size = r.get('size', 12) * k
             x = 12
             if r.get('swatch'):
-                col = COLOR[r['swatch']]
+                col = GREEN if r['swatch'] == 'watered' else COLOR[r['swatch']]
+                edge = f' stroke="{SHORE}" stroke-width="0.8"' if r['swatch'] == 'watered' else ''
                 g.append(f'<rect x="12" y="{y - size*0.85:.1f}" width="{size*0.9:.1f}" '
-                         f'height="{size*0.9:.1f}" fill="{col}"/>')
+                         f'height="{size*0.9:.1f}" fill="{col}"{edge}/>')
                 x = 12 + size * 1.5
             if r.get('dot'):
                 g.append(f'<circle cx="{12 + size*0.45:.1f}" cy="{y - size*0.33:.1f}" r="{2.8*k:.1f}" fill="#444"/>')

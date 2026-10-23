@@ -15,8 +15,8 @@ century.
 ## The map
 
 <figure class="map-figure">
-<img src="../table-of-nations.svg" alt="Map of the eastern Mediterranean and the Near East with the peoples of Genesis 10 placed where they are thought to have lived, coloured by Noah's three sons.">
-<figcaption>The peoples of Genesis 10, placed where they are thought to have lived; colour shows which of Noah's sons the list traces them to. Names marked ? are uncertain; Sheba and Havilah (†) appear in both Ham's line (10:7) and Shem's (10:28–29). The dashed line is Terah and Abram's road from Ur to Haran and on to Canaan (11:31; 12:4–5). Coastlines and rivers are modern, from Natural Earth (public domain). Drawn for this study.</figcaption>
+<img src="../table-of-nations.svg" alt="Map of the eastern Mediterranean and the Near East with the peoples of Genesis 10 placed where they are thought to have lived, coloured by Noah's three sons, with fertile land shaded green around the empty Syrian and Arabian desert.">
+<figcaption>The peoples of Genesis 10, placed where they are thought to have lived; colour shows which of Noah's sons the list traces them to. Names marked ? are uncertain; Sheba and Havilah (†) appear in both Ham's line (10:7) and Shem's (10:28–29). The dashed line is Terah and Abram's road from Ur to Haran and on to Canaan (11:31; 12:4–5). Green is land watered by rain or by a river: everything that is not desert in today's climate (the Köppen–Geiger maps of Beck et al. 2023), with the valleys of the Nile, Tigris and Euphrates added, drawn approximately from the rivers. The blank middle is the Syrian and Arabian desert. Coastlines, rivers and climate are modern. Drawn for this study.</figcaption>
 </figure>
 
 **What the map shows.** The names were not thrown together at random; they
@@ -29,7 +29,9 @@ horizon runs from Tarshish in the far west (probably Tartessos in Spain) to
 Media and Elam in the east, and from the Black Sea to Nubia and the south of
 Arabia. Japheth's sons lie broadly to the north and west, Ham's to the south
 and south-west (with Canaan and Nimrod's Mesopotamia), Shem's to the east and
-south-east. The three meet around Canaan and Syria.
+south-east. The three meet around Canaan and Syria. Nearly every people
+on the list lives on the green, round the rim of the desert; those in Arabia
+lived in its oases and watered valleys.
 
 **What the map does not show.** Nineteen names have no known location and are
 left off: Magog, Riphath, Sabteca, the Ludites, Anamites and Casluhites, the
@@ -39,7 +41,7 @@ individuals — Nimrod, Shelah, Eber and Peleg — are people, not peoples.
 
 <figure class="map-figure" id="canaan">
 <img src="../canaan.svg" alt="Detail map of the Levant showing the sons of Canaan: Sidon, the Arvadites, Zemarites, Arkites, Sinites and Hamathites along the Phoenician and Syrian coast; the Jebusites at Jerusalem; the Hivites and Amorites in the hills; the Philistines, Gaza and Gerar on the southern coast; and Sodom by the Dead Sea.">
-<figcaption>Canaan's sons and borders (10:15–19). The northern names — Arwad, Sumur, Arqa, Siyannu, Hamath — are cities on the Phoenician and Syrian coast and the Orontes. The southern border runs from Sidon to Gerar and Gaza, and to the cities of the plain, whose sites are not known.</figcaption>
+<figcaption>Canaan's sons and borders (10:15–19). The northern names — Arwad, Sumur, Arqa, Siyannu, Hamath — are cities on the Phoenician and Syrian coast and the Orontes. The southern border runs from Sidon to Gerar and Gaza, and to the cities of the plain, whose sites are not known. Green is land watered by rain, as on the map above.</figcaption>
 </figure>
 
 ---
@@ -271,7 +273,13 @@ placements almost everywhere.
   2019 by Biblical Studies Press, L.L.C., [netbible.com](https://netbible.com).
   All rights reserved.
 - **The maps** were drawn for this study. Coastlines, lakes and rivers:
-  [Natural Earth](https://www.naturalearthdata.com/), public domain. Site
+  [Natural Earth](https://www.naturalearthdata.com/), public domain. Green
+  land: every class except desert on the Köppen–Geiger map for 1991–2020 at
+  1 km, from H. E. Beck et al., "High-resolution (1 km) Köppen-Geiger maps for
+  1901–2099 based on constrained CMIP6 projections," *Scientific Data* 10, 724
+  (2023), [figshare](https://doi.org/10.6084/m9.figshare.21789074), CC BY 4.0;
+  the Nile, Tigris and Euphrates valleys, the Nile Delta, the Fayum and the
+  Mesopotamian plain were added by us, approximately, from the rivers. Site
   coordinates checked against [OpenBible.info's Bible geocoding
   data](https://github.com/openbibleinfo/Bible-Geocoding-Data) (CC BY 4.0).
 - **Identifications** follow, chiefly: G. J. Wenham, *Genesis 1–15* (WBC,

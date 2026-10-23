@@ -1,6 +1,6 @@
 {
  "title": "The peoples of Genesis 10",
- "desc": "A map of the Near East and eastern Mediterranean showing where the peoples named in the Table of Nations (Genesis 10) are thought to have lived, coloured by Noah's three sons, with an inset of Canaan and the route of Terah and Abram from Ur to Haran.",
+ "desc": "A map of the Near East and eastern Mediterranean showing where the peoples named in the Table of Nations (Genesis 10) are thought to have lived, coloured by Noah's three sons, with the route of Terah and Abram from Ur to Haran and into Canaan. Green marks land watered by rain or river (today's climate: Köppen-Geiger, Beck et al. 2023, CC BY 4.0); the blank middle is the Syrian and Arabian desert.",
  "box": [
   13,
   12.3,
@@ -8,6 +8,10 @@
   45.8
  ],
  "width": 1000,
+ "watered": {
+  "step": 0.05,
+  "sigma": 1.0
+ },
  "routes": [
   {
    "points": [
@@ -245,13 +249,14 @@
   {
    "name": "Canaan",
    "lat": 32.4,
-   "lon": 35.2,
+   "lon": 35.48,
    "line": "Ham",
    "conf": "secure",
    "size": 12,
-   "anchor": "start",
-   "dx": 10,
-   "dy": 4
+   "anchor": "middle",
+   "dx": 0,
+   "dy": 0,
+   "rotate": -78
   },
   {
    "name": "Heth",
@@ -559,7 +564,7 @@
  "boxes": [
   {
    "x": 8,
-   "y": 618,
+   "y": 578,
    "w": 300,
    "rows": [
     {
@@ -601,6 +606,11 @@
      "h": 16
     },
     {
+     "text": "fertile land, watered by rain or river",
+     "swatch": "watered",
+     "h": 16
+    },
+    {
      "text": "Name?  identification uncertain",
      "italic": true,
      "h": 16
@@ -611,11 +621,18 @@
      "h": 16
     },
     {
-     "text": "Modern coastlines and rivers.",
+     "text": "Modern coastlines, rivers and climate (climate",
      "size": 10,
      "italic": true,
      "color": "#555",
      "h": 16
+    },
+    {
+     "text": "zones: Beck et al. 2023, CC BY 4.0).",
+     "size": 10,
+     "italic": true,
+     "color": "#555",
+     "h": 13
     },
     {
      "text": "Names whose place is unknown are not shown.",

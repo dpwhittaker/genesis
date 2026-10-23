@@ -1,6 +1,6 @@
 {
  "title": "Canaan in Genesis 10:15–19",
- "desc": "Detail map of the Levant showing the sons of Canaan and the borders of Canaan named in Genesis 10:15–19.",
+ "desc": "Detail map of the Levant showing the sons of Canaan and the borders of Canaan named in Genesis 10:15–19. Green marks land watered by rain (today's climate: Köppen-Geiger, Beck et al. 2023, CC BY 4.0).",
  "box": [
   33.7,
   30.75,
@@ -12,6 +12,11 @@
   33.7
  ],
  "width": 640,
+ "watered": {
+  "step": 0.008333333333333333,
+  "sigma": 1.5,
+  "valleys": false
+ },
  "font_scale": 1.5,
  "clip_extra": 3,
  "tol": 0.3,
@@ -212,7 +217,7 @@
   {
    "x": 8,
    "y": 8,
-   "w": 250,
+   "w": 290,
    "rows": [
     {
      "text": "Canaan (10:15–19)",
@@ -228,6 +233,11 @@
      "h": 15
     },
     {
+     "text": "fertile land, watered by rain",
+     "swatch": "watered",
+     "h": 18
+    },
+    {
      "text": "Not shown: the Girgashites, and Lasha",
      "size": 10,
      "italic": true,
@@ -240,6 +250,13 @@
      "italic": true,
      "color": "#555",
      "h": 13
+    },
+    {
+     "text": "Climate zones: Beck et al. 2023, CC BY 4.0.",
+     "size": 10,
+     "italic": true,
+     "color": "#555",
+     "h": 15
     }
    ]
   }
