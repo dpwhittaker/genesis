@@ -19,6 +19,8 @@ exclude:
   - genesis-preview.service
   - vendor
   - pdf
+  # Build scripts for generated figures (e.g. the Session 11 map) — not pages.
+  - tools
   # Per-session planning notes — for whoever builds the session, never for the class.
   - "sessions/*/NOTES.md"
   # Podcast scripts (scripted-podcast skill) — the source for the audio, not a page.

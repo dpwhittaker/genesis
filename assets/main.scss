@@ -281,3 +281,19 @@
   }
   .strands .st { display: block !important; }
 }
+
+/* ===== Figures (Session 11's map of the nations) =====
+   <figure class="map-figure"><img src="…svg" alt="…"><figcaption>…</figcaption></figure>
+   The SVG scales to the column; the caption sits under it in small type. */
+.map-figure { margin: 1em 0 1.2em; }
+.map-figure img { display: block; width: 100%; height: auto; border: 0; }
+.map-figure figcaption { font-size: 0.84em; color: #555; margin-top: 0.35em; line-height: 1.35; }
+
+@media print {
+  .map-figure { margin: 0.4em 0; page-break-inside: avoid; break-inside: avoid; }
+  .map-figure figcaption { font-size: 8.5pt; color: #333; margin-top: 2pt; }
+}
+/* A small photo set beside the text (Session 11's brick). */
+.brick-figure { float: right; width: 44%; margin: 0.2em 0 0.6em 1.1em; }
+@media screen and (max-width: 600px) { .brick-figure { float: none; width: auto; margin: 1em 0; } }
+@media print { .brick-figure { width: 38%; margin: 0 0 0.3em 0.8em; } }

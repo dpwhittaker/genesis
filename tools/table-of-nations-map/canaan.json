@@ -1,0 +1,247 @@
+{
+ "title": "Canaan in Genesis 10:15–19",
+ "desc": "Detail map of the Levant showing the sons of Canaan and the borders of Canaan named in Genesis 10:15–19.",
+ "box": [
+  33.7,
+  30.75,
+  38.1,
+  36.75
+ ],
+ "center": [
+  35.9,
+  33.7
+ ],
+ "width": 640,
+ "font_scale": 1.5,
+ "clip_extra": 3,
+ "tol": 0.3,
+ "stroke_scale": 1.4,
+ "labels": [
+  {
+   "name": "Sidon",
+   "lat": 33.5606,
+   "lon": 35.3758,
+   "line": "Ham",
+   "conf": "secure",
+   "kind": "city",
+   "size": 11,
+   "dx": -7,
+   "dy": 4,
+   "anchor": "end",
+   "sub": "the firstborn"
+  },
+  {
+   "name": "Arvadites",
+   "lat": 34.8561,
+   "lon": 35.8583,
+   "line": "Ham",
+   "conf": "secure",
+   "kind": "city",
+   "size": 11,
+   "dx": -7,
+   "dy": 4,
+   "anchor": "end",
+   "sub": "Arwad"
+  },
+  {
+   "name": "Zemarites",
+   "lat": 34.7081,
+   "lon": 35.9861,
+   "line": "Ham",
+   "conf": "probable",
+   "kind": "city",
+   "size": 11,
+   "dx": 7,
+   "dy": -2,
+   "sub": "Sumur"
+  },
+  {
+   "name": "Arkites",
+   "lat": 34.5297,
+   "lon": 36.04,
+   "line": "Ham",
+   "conf": "secure",
+   "kind": "city",
+   "size": 11,
+   "dx": 7,
+   "dy": 8,
+   "sub": "Arqa"
+  },
+  {
+   "name": "Sinites",
+   "lat": 35.3653,
+   "lon": 36.0028,
+   "line": "Ham",
+   "conf": "probable",
+   "kind": "city",
+   "size": 11,
+   "dx": -7,
+   "dy": 4,
+   "anchor": "end",
+   "sub": "Siyannu"
+  },
+  {
+   "name": "Hamathites",
+   "lat": 35.135,
+   "lon": 36.75,
+   "line": "Ham",
+   "conf": "secure",
+   "kind": "city",
+   "size": 11,
+   "dx": 7,
+   "dy": 4,
+   "sub": "Hamath"
+  },
+  {
+   "name": "Heth",
+   "lat": 36.4,
+   "lon": 37.6,
+   "line": "Ham",
+   "conf": "probable",
+   "size": 11,
+   "sub": "Hittite kingdoms of north Syria",
+   "anchor": "end",
+   "dx": 0
+  },
+  {
+   "name": "Jebusites",
+   "lat": 31.7736,
+   "lon": 35.2356,
+   "line": "Ham",
+   "conf": "secure",
+   "kind": "city",
+   "size": 11,
+   "dx": 7,
+   "dy": 4,
+   "sub": "Jerusalem"
+  },
+  {
+   "name": "Amorites",
+   "lat": 31.85,
+   "lon": 35.8,
+   "line": "Ham",
+   "conf": "secure",
+   "size": 11,
+   "dy": -14,
+   "dx": 26
+  },
+  {
+   "name": "Hivites",
+   "lat": 32.0,
+   "lon": 35.25,
+   "line": "Ham",
+   "conf": "probable",
+   "size": 11,
+   "dy": -10,
+   "dx": -6
+  },
+  {
+   "name": "Philistines",
+   "lat": 31.9,
+   "lon": 34.78,
+   "line": "Ham",
+   "conf": "secure",
+   "size": 11,
+   "anchor": "end",
+   "dx": -8,
+   "dy": 0,
+   "sub": "(10:14)"
+  },
+  {
+   "name": "Gaza",
+   "lat": 31.504,
+   "lon": 34.464,
+   "line": "Ham",
+   "conf": "secure",
+   "kind": "city",
+   "size": 11,
+   "dx": -7,
+   "dy": 5,
+   "anchor": "end"
+  },
+  {
+   "name": "Gerar",
+   "lat": 31.3821,
+   "lon": 34.6065,
+   "line": "Ham",
+   "conf": "probable",
+   "kind": "city",
+   "size": 11,
+   "dx": -7,
+   "dy": 13,
+   "anchor": "end"
+  },
+  {
+   "name": "Sodom and Gomorrah",
+   "lat": 31.2085,
+   "lon": 35.4492,
+   "line": "Ham",
+   "conf": "uncertain",
+   "kind": "city",
+   "size": 11,
+   "dx": 7,
+   "dy": 2,
+   "sub": "with Admah and Zeboyim; sites unknown"
+  },
+  {
+   "name": "THE GREAT SEA",
+   "lat": 33.9,
+   "lon": 34.45,
+   "kind": "water",
+   "size": 13,
+   "spacing": 2.5
+  },
+  {
+   "name": "Dead Sea",
+   "lat": 31.55,
+   "lon": 35.75,
+   "kind": "water",
+   "size": 9.5,
+   "rotate": -80
+  },
+  {
+   "name": "Jordan",
+   "lat": 32.45,
+   "lon": 35.68,
+   "kind": "water",
+   "size": 9.5,
+   "rotate": -85
+  }
+ ],
+ "boxes": [
+  {
+   "x": 8,
+   "y": 8,
+   "w": 250,
+   "rows": [
+    {
+     "text": "Canaan (10:15–19)",
+     "size": 15,
+     "bold": true,
+     "h": 18
+    },
+    {
+     "text": "the sons of Canaan, and its borders",
+     "size": 11,
+     "italic": true,
+     "color": "#444",
+     "h": 15
+    },
+    {
+     "text": "Not shown: the Girgashites, and Lasha",
+     "size": 10,
+     "italic": true,
+     "color": "#555",
+     "h": 15
+    },
+    {
+     "text": "(location unknown).",
+     "size": 10,
+     "italic": true,
+     "color": "#555",
+     "h": 13
+    }
+   ]
+  }
+ ]
+}

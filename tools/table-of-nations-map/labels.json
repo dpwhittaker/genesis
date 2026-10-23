@@ -1,0 +1,630 @@
+{
+ "title": "The peoples of Genesis 10",
+ "desc": "A map of the Near East and eastern Mediterranean showing where the peoples named in the Table of Nations (Genesis 10) are thought to have lived, coloured by Noah's three sons, with an inset of Canaan and the route of Terah and Abram from Ur to Haran.",
+ "box": [
+  13,
+  12.3,
+  60,
+  45.8
+ ],
+ "width": 1000,
+ "routes": [
+  {
+   "points": [
+    [
+     46.1,
+     30.96
+    ],
+    [
+     45.0,
+     32.2
+    ],
+    [
+     44.0,
+     33.3
+    ],
+    [
+     42.4,
+     34.4
+    ],
+    [
+     40.9,
+     34.6
+    ],
+    [
+     40.1,
+     35.5
+    ],
+    [
+     39.03,
+     36.87
+    ]
+   ]
+  },
+  {
+   "points": [
+    [
+     39.03,
+     36.87
+    ],
+    [
+     37.6,
+     36.3
+    ],
+    [
+     36.9,
+     35.1
+    ],
+    [
+     36.3,
+     33.6
+    ],
+    [
+     35.28,
+     32.21
+    ]
+   ]
+  }
+ ],
+ "labels": [
+  {
+   "name": "Gomer",
+   "lat": 40.9,
+   "lon": 35.6,
+   "line": "Japheth",
+   "conf": "secure",
+   "sub": "Cimmerians"
+  },
+  {
+   "name": "Meshech",
+   "lat": 40.0,
+   "lon": 31.6,
+   "line": "Japheth",
+   "conf": "secure",
+   "sub": "Phrygians",
+   "dx": 0
+  },
+  {
+   "name": "Tubal",
+   "lat": 38.2,
+   "lon": 34.4,
+   "line": "Japheth",
+   "conf": "secure",
+   "dy": 0
+  },
+  {
+   "name": "Togarmah",
+   "lat": 39.3,
+   "lon": 38.4,
+   "line": "Japheth",
+   "conf": "probable",
+   "dx": 0,
+   "dy": 0
+  },
+  {
+   "name": "Ashkenaz",
+   "lat": 38.6,
+   "lon": 45.6,
+   "line": "Japheth",
+   "conf": "probable",
+   "sub": "Scythians"
+  },
+  {
+   "name": "Madai",
+   "lat": 35.0,
+   "lon": 49.0,
+   "line": "Japheth",
+   "conf": "secure",
+   "sub": "Medes",
+   "dy": -4
+  },
+  {
+   "name": "Javan",
+   "lat": 37.4,
+   "lon": 25.3,
+   "line": "Japheth",
+   "conf": "secure",
+   "sub": "Ionian Greeks",
+   "dy": 0
+  },
+  {
+   "name": "Tiras",
+   "lat": 40.3,
+   "lon": 25.9,
+   "line": "Japheth",
+   "conf": "uncertain",
+   "dy": -4
+  },
+  {
+   "name": "Elishah",
+   "lat": 34.85,
+   "lon": 33.05,
+   "line": "Japheth",
+   "conf": "probable",
+   "size": 11.5,
+   "dy": -16,
+   "dx": -14
+  },
+  {
+   "name": "Kittim",
+   "lat": 34.92,
+   "lon": 33.63,
+   "line": "Japheth",
+   "conf": "secure",
+   "size": 11.5,
+   "dy": 22,
+   "dx": 4,
+   "sub": "Cyprus"
+  },
+  {
+   "name": "Dodanim",
+   "lat": 36.2,
+   "lon": 27.95,
+   "line": "Japheth",
+   "conf": "probable",
+   "size": 11.5,
+   "dy": 24,
+   "sub": "Rhodes"
+  },
+  {
+   "name": "← Tarshish",
+   "lat": 36.6,
+   "lon": 13.9,
+   "line": "Japheth",
+   "conf": "uncertain",
+   "anchor": "start",
+   "size": 11.5,
+   "sub": "far to the west"
+  },
+  {
+   "name": "Cush",
+   "lat": 18.6,
+   "lon": 32.3,
+   "line": "Ham",
+   "conf": "secure",
+   "sub": "Nubia"
+  },
+  {
+   "name": "Mizraim",
+   "lat": 28.0,
+   "lon": 30.8,
+   "line": "Ham",
+   "conf": "secure",
+   "sub": "Egypt",
+   "dx": -10
+  },
+  {
+   "name": "Pathrusites",
+   "lat": 26.0,
+   "lon": 32.6,
+   "line": "Ham",
+   "conf": "secure",
+   "size": 11.5,
+   "sub": "Upper Egypt",
+   "dx": 12
+  },
+  {
+   "name": "Naphtuhites",
+   "lat": 32.2,
+   "lon": 30.9,
+   "line": "Ham",
+   "conf": "uncertain",
+   "size": 11,
+   "dx": 0,
+   "dy": 0,
+   "anchor": "middle"
+  },
+  {
+   "name": "Lehabites",
+   "lat": 29.6,
+   "lon": 26.2,
+   "line": "Ham",
+   "conf": "uncertain",
+   "size": 11,
+   "dy": 0
+  },
+  {
+   "name": "Put",
+   "lat": 31.8,
+   "lon": 22.8,
+   "line": "Ham",
+   "conf": "probable",
+   "sub": "Libya",
+   "dy": 14
+  },
+  {
+   "name": "Caphtorites",
+   "lat": 35.2,
+   "lon": 24.9,
+   "line": "Ham",
+   "conf": "probable",
+   "size": 11.5,
+   "sub": "Crete",
+   "dy": -16
+  },
+  {
+   "name": "Canaan",
+   "lat": 32.4,
+   "lon": 35.2,
+   "line": "Ham",
+   "conf": "secure",
+   "size": 12,
+   "anchor": "start",
+   "dx": 10,
+   "dy": 4
+  },
+  {
+   "name": "Heth",
+   "lat": 36.5,
+   "lon": 36.7,
+   "line": "Ham",
+   "conf": "probable",
+   "size": 11.5,
+   "dx": 0,
+   "dy": 0
+  },
+  {
+   "name": "Dedan",
+   "lat": 26.65,
+   "lon": 37.92,
+   "line": "Ham",
+   "conf": "secure"
+  },
+  {
+   "name": "Seba",
+   "lat": 15.0,
+   "lon": 38.9,
+   "line": "Ham",
+   "conf": "uncertain",
+   "size": 11.5
+  },
+  {
+   "name": "Raamah",
+   "lat": 18.1,
+   "lon": 45.1,
+   "line": "Ham",
+   "conf": "uncertain",
+   "size": 11.5,
+   "dy": 0,
+   "dx": 0
+  },
+  {
+   "name": "Havilah",
+   "lat": 16.75,
+   "lon": 43.0,
+   "line": "Ham",
+   "conf": "uncertain",
+   "size": 11.5,
+   "dy": 0,
+   "dx": 0,
+   "dagger": true
+  },
+  {
+   "name": "Sheba",
+   "lat": 15.85,
+   "lon": 45.7,
+   "line": "Ham",
+   "conf": "secure",
+   "size": 11.5,
+   "dy": 0,
+   "dx": 0,
+   "dagger": true
+  },
+  {
+   "name": "Sabtah",
+   "lat": 14.6,
+   "lon": 47.4,
+   "line": "Ham",
+   "conf": "uncertain",
+   "size": 11,
+   "dy": 0,
+   "dx": 0
+  },
+  {
+   "name": "Shinar",
+   "lat": 31.75,
+   "lon": 43.1,
+   "kind": "route",
+   "size": 11
+  },
+  {
+   "name": "Babel",
+   "lat": 32.5425,
+   "lon": 44.4211,
+   "line": "Ham",
+   "conf": "secure",
+   "kind": "city",
+   "dx": -6,
+   "dy": 4,
+   "anchor": "end"
+  },
+  {
+   "name": "Erech",
+   "lat": 31.3242,
+   "lon": 45.6372,
+   "line": "Ham",
+   "conf": "secure",
+   "kind": "city",
+   "dx": 6,
+   "dy": 3
+  },
+  {
+   "name": "Akkad",
+   "lat": 33.1,
+   "lon": 44.3,
+   "line": "Ham",
+   "conf": "uncertain",
+   "kind": "city",
+   "dx": -6,
+   "dy": -2,
+   "anchor": "end"
+  },
+  {
+   "name": "Nineveh",
+   "lat": 36.3594,
+   "lon": 43.1528,
+   "line": "Ham",
+   "conf": "secure",
+   "kind": "city",
+   "dx": 6,
+   "dy": -1,
+   "anchor": "start"
+  },
+  {
+   "name": "Calah",
+   "lat": 36.0981,
+   "lon": 43.3289,
+   "line": "Ham",
+   "conf": "secure",
+   "kind": "city",
+   "dx": -6,
+   "dy": 9,
+   "anchor": "end"
+  },
+  {
+   "name": "Elam",
+   "lat": 31.9,
+   "lon": 49.2,
+   "line": "Shem",
+   "conf": "secure"
+  },
+  {
+   "name": "Asshur",
+   "lat": 35.2,
+   "lon": 45.2,
+   "line": "Shem",
+   "conf": "secure",
+   "sub": "Assyria",
+   "dx": 0,
+   "anchor": "middle"
+  },
+  {
+   "name": "Arphaxad",
+   "lat": 30.4,
+   "lon": 47.3,
+   "line": "Shem",
+   "conf": "uncertain",
+   "size": 11,
+   "dx": 0,
+   "dy": 0,
+   "anchor": "start"
+  },
+  {
+   "name": "Lud",
+   "lat": 38.5,
+   "lon": 28.7,
+   "line": "Shem",
+   "conf": "probable",
+   "sub": "Lydia",
+   "dx": 0,
+   "dy": 0
+  },
+  {
+   "name": "Aram",
+   "lat": 35.0,
+   "lon": 38.0,
+   "line": "Shem",
+   "conf": "secure",
+   "sub": "Arameans",
+   "dy": 4
+  },
+  {
+   "name": "Hazarmaveth",
+   "lat": 16.9,
+   "lon": 49.4,
+   "line": "Shem",
+   "conf": "secure",
+   "size": 11.5,
+   "sub": "Hadramawt",
+   "dy": 0
+  },
+  {
+   "name": "Uzal",
+   "lat": 14.55,
+   "lon": 44.2,
+   "line": "Shem",
+   "conf": "uncertain",
+   "size": 11,
+   "dx": 0,
+   "dy": 0,
+   "anchor": "middle"
+  },
+  {
+   "name": "Ophir",
+   "lat": 19.3,
+   "lon": 42.6,
+   "line": "Shem",
+   "conf": "uncertain",
+   "size": 11,
+   "dx": 0,
+   "anchor": "middle",
+   "dy": 0
+  },
+  {
+   "name": "Ur",
+   "lat": 30.96,
+   "lon": 46.1,
+   "line": "other",
+   "conf": "secure",
+   "kind": "city",
+   "dx": -5,
+   "dy": 12,
+   "anchor": "end"
+  },
+  {
+   "name": "Haran",
+   "lat": 36.87,
+   "lon": 39.03,
+   "line": "other",
+   "conf": "secure",
+   "kind": "city",
+   "dx": 0,
+   "dy": -8,
+   "anchor": "middle"
+  },
+  {
+   "name": "THE GREAT SEA",
+   "lat": 33.9,
+   "lon": 22.0,
+   "kind": "water",
+   "size": 14,
+   "spacing": 3
+  },
+  {
+   "name": "(the Mediterranean)",
+   "lat": 33.3,
+   "lon": 22.0,
+   "kind": "water",
+   "size": 10
+  },
+  {
+   "name": "Black Sea",
+   "lat": 43.2,
+   "lon": 34.5,
+   "kind": "water",
+   "size": 13,
+   "spacing": 2
+  },
+  {
+   "name": "Caspian",
+   "lat": 41.6,
+   "lon": 50.9,
+   "kind": "water",
+   "size": 11.5,
+   "rotate": -70
+  },
+  {
+   "name": "Red Sea",
+   "lat": 20.5,
+   "lon": 38.4,
+   "kind": "water",
+   "size": 12,
+   "rotate": 57,
+   "spacing": 2
+  },
+  {
+   "name": "Persian Gulf",
+   "lat": 27.0,
+   "lon": 51.6,
+   "kind": "water",
+   "size": 11.5,
+   "rotate": 35
+  },
+  {
+   "name": "Nile",
+   "lat": 22.3,
+   "lon": 31.2,
+   "kind": "water",
+   "size": 11,
+   "rotate": -70
+  },
+  {
+   "name": "Euphrates",
+   "lat": 34.0,
+   "lon": 40.4,
+   "kind": "water",
+   "size": 10.5,
+   "rotate": 28
+  },
+  {
+   "name": "Tigris",
+   "lat": 32.7,
+   "lon": 46.6,
+   "kind": "water",
+   "size": 10.5,
+   "rotate": 50
+  }
+ ],
+ "font_scale": 1.25,
+ "boxes": [
+  {
+   "x": 8,
+   "y": 618,
+   "w": 300,
+   "rows": [
+    {
+     "text": "The peoples of Genesis 10",
+     "size": 15,
+     "bold": true,
+     "h": 18
+    },
+    {
+     "text": "where they are thought to have lived",
+     "size": 11,
+     "italic": true,
+     "color": "#444",
+     "h": 15
+    },
+    {
+     "text": "sons of Japheth (10:2–5)",
+     "swatch": "Japheth",
+     "h": 19
+    },
+    {
+     "text": "sons of Ham (10:6–20)",
+     "swatch": "Ham",
+     "h": 16
+    },
+    {
+     "text": "sons of Shem (10:21–31)",
+     "swatch": "Shem",
+     "h": 16
+    },
+    {
+     "text": "city",
+     "dot": true,
+     "h": 16
+    },
+    {
+     "text": "Terah and Abram (11:31; 12:4–5)",
+     "dash": true,
+     "h": 16
+    },
+    {
+     "text": "Name?  identification uncertain",
+     "italic": true,
+     "h": 16
+    },
+    {
+     "text": "Name†  in both Ham's and Shem's lines",
+     "italic": true,
+     "h": 16
+    },
+    {
+     "text": "Modern coastlines and rivers.",
+     "size": 10,
+     "italic": true,
+     "color": "#555",
+     "h": 16
+    },
+    {
+     "text": "Names whose place is unknown are not shown.",
+     "size": 10,
+     "italic": true,
+     "color": "#555",
+     "h": 13
+    }
+   ]
+  }
+ ]
+}

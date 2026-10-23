@@ -1,0 +1,169 @@
+"""Draw the Session 11 map of the peoples of Genesis 10.
+
+    python3 build_map.py   ->  ../../sessions/11-babel/table-of-nations.svg
+                               ../../sessions/11-babel/canaan.svg
+
+Coastlines, lakes and rivers: Natural Earth (public domain), modern. Places and
+peoples: labels.json (identifications and sources on the Session 11 sheet
+"The table of nations"). Each label carries its own offset so nothing collides;
+the layout was checked by eye in a browser.
+"""
+import json, os
+from basemap import Albers, Frame, load, polygons, polylines
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+
+COLOR = {'Japheth': '#2f5d8a', 'Ham': '#9a4a14', 'Shem': '#2f6d3a', 'other': '#6b6b6b'}
+SEA, LAND, SHORE, RIVER, WATER_TEXT = '#dce7ee', '#f5f0e4', '#9fb0ba', '#8fb0c4', '#5d7d92'
+SERIF = "Georgia, 'Times New Roman', serif"
+
+ANCIENT_LAKES = {'Dead Sea', 'Sea of Galilee', 'Lake Van', 'Lake Urmia', 'Lake Tuz',
+                 'Lake Tana', 'Lake Sevan', 'Great Bitter Lake'}
+RIVERS = {'Nile', 'El Bahr el Abyad', 'El Bahr el Azraq', 'Atbara', 'Rosetta Branch',
+          'Damietta Branch', 'Euphrates', 'Firat', 'Al Furat', 'Tigris', 'Dicle', 'Jordan',
+          'Kiz?lirmak', 'Shatt al Arab', 'Karkheh', 'Aras', 'Kura', 'Abay', 'Tekeze',
+          'Murat', 'Ceyhan', 'Qezel Owzan', 'Sakarya', 'Byk Menderes', 'Danube',
+          'Bratul Sfintu Gheorghe', 'Bratul Chillia', 'Bratul Sulina', 'Don', 'Dnipro',
+          'Kuban', 'Orontes', 'Asi'}
+
+def esc(s):
+    return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
+
+def basemap(frame, box, extra=14, tol=0.45):
+    clip = (box[0] - extra, box[1] - 6, box[2] + extra, box[3] + 4)
+    land = polygons(load('ne_10m_land'), frame, clip, tol=tol, minarea=1.0)
+    lakes = polygons(load('ne_10m_lakes'), frame, clip, tol=tol, minarea=0.3,
+                     want=lambda p: p.get('name') in ANCIENT_LAKES)
+    rivers = polylines(load('ne_10m_rivers_lake_centerlines'), frame, clip, tol=tol,
+                       want=lambda p: p.get('name') in RIVERS and
+                       (p.get('featurecla') == 'River' or p.get('name') == 'Nile'))
+    return land, lakes, rivers
+
+def layer(land, lakes, rivers, sw=1.0):
+    return (f'<g fill="{LAND}" fill-rule="evenodd" stroke="{SHORE}" stroke-width="{0.6*sw}">'
+            + ''.join(f'<path d="{d}"/>' for d in land) + '</g>'
+            + f'<g fill="{SEA}" stroke="{SHORE}" stroke-width="{0.5*sw}">'
+            + ''.join(f'<path d="{d}"/>' for d in lakes) + '</g>'
+            + f'<g fill="none" stroke="{RIVER}" stroke-width="{0.9*sw}" stroke-linejoin="round">'
+            + ''.join(f'<path d="{d}"/>' for d in rivers) + '</g>')
+
+def text(x, y, s, size, color, anchor='start', italic=False, weight='normal',
+         spacing=0, halo=True, caps=False, rotate=0):
+    st = 'italic' if italic else 'normal'
+    tr = f' transform="rotate({rotate} {x:.1f} {y:.1f})"' if rotate else ''
+    attrs = (f'x="{x:.1f}" y="{y:.1f}" font-size="{size}" text-anchor="{anchor}" '
+             f'font-style="{st}" font-weight="{weight}" letter-spacing="{spacing}"{tr}')
+    if caps: s = s.upper()
+    out = ''
+    if halo:
+        out += (f'<text {attrs} fill="none" stroke="#fffdf6" stroke-width="3.2" '
+                f'stroke-linejoin="round" stroke-opacity="0.92">{esc(s)}</text>')
+    return out + f'<text {attrs} fill="{color}">{esc(s)}</text>'
+
+def labels(frame, items, scale=1.0):
+    """items: dicts with name, lon, lat, line, kind ('people'|'city'|'water'|'note'),
+    conf, dx, dy, anchor, optional size/rotate/sub (a second, smaller line)."""
+    out = []
+    for it in items:
+        x, y = frame(it['lon'], it['lat'])
+        color = COLOR.get(it.get('line', 'other'), COLOR['other'])
+        kind = it.get('kind', 'people')
+        uncertain = it.get('conf') == 'uncertain'
+        name = it['name'] + ('†' if it.get('dagger') else '') + ('?' if uncertain else '')
+        dx, dy = it.get('dx', 0) * scale, it.get('dy', 0) * scale
+        anchor = it.get('anchor', 'middle' if kind in ('people', 'water') else 'start')
+        if kind == 'city':
+            out.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{2.6*scale:.1f}" fill="{color}" '
+                       f'stroke="#fffdf6" stroke-width="{0.9*scale:.1f}"/>')
+            out.append(text(x + dx, y + dy, name, it.get('size', 11.5) * scale, color, anchor,
+                            italic=uncertain))
+        elif kind == 'water':
+            out.append(text(x + dx, y + dy, it['name'], it.get('size', 12) * scale, WATER_TEXT,
+                            anchor, italic=True, halo=False, spacing=it.get('spacing', 0.5),
+                            rotate=it.get('rotate', 0)))
+        elif kind == 'route':
+            out.append(text(x + dx, y + dy, it['name'], it.get('size', 10.5) * scale, '#555',
+                            anchor, italic=True))
+        else:
+            size = it.get('size', 13) * scale
+            out.append(text(x + dx, y + dy, name, size, color, anchor, italic=uncertain,
+                            weight='bold' if not uncertain else 'normal', spacing=0.6,
+                            caps=True))
+        if it.get('sub'):
+            sc = COLOR.get(it.get('sub_color', ''), '#555')
+            out.append(text(x + dx, y + dy + it.get('size', 13) * scale * 1.05, it['sub'],
+                            9.5 * scale, sc, anchor, italic=True))
+    return ''.join(out)
+
+def route(frame, pts, scale=1.0):
+    d = 'M' + ' L'.join('%.1f,%.1f' % frame(lon, lat) for lon, lat in pts)
+    return (f'<path d="{d}" fill="none" stroke="#6b6b6b" stroke-width="{1.4*scale:.1f}" '
+            f'stroke-dasharray="{5*scale:.1f} {3.5*scale:.1f}" stroke-linecap="round"/>')
+
+def render(spec_file, out_file):
+    spec = json.load(open(os.path.join(HERE, spec_file)))
+    proj = Albers(36, 28, 18, 42)
+    box = tuple(spec['box'])
+    W = spec.get('width', 1000)
+    k = spec.get('font_scale', 1.0)
+    lon_c, lat_c = spec.get('center', [36, 30])
+    fr = Frame(box, W, proj, lon_c, lat_c)
+    H = fr.height
+    land, lakes, rivers = basemap(fr, box, extra=spec.get('clip_extra', 14), tol=spec.get('tol', 0.45))
+
+    parts = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W:.0f} {H:.0f}" '
+             f'font-family="{SERIF}" role="img" aria-labelledby="t d">',
+             f'<title id="t">{esc(spec["title"])}</title><desc id="d">{esc(spec["desc"])}</desc>',
+             f'<clipPath id="frame"><rect width="{W:.0f}" height="{H:.0f}"/></clipPath>',
+             '<g clip-path="url(#frame)">',
+             f'<rect width="{W:.0f}" height="{H:.0f}" fill="{SEA}"/>',
+             layer(land, lakes, rivers, sw=spec.get('stroke_scale', 1.0))]
+    for r in spec.get('routes', []):
+        parts.append(route(fr, r['points'], k))
+    for b in spec.get('outlines', []):
+        corners = [(b[0], b[1]), (b[2], b[1]), (b[2], b[3]), (b[0], b[3])]
+        pts = ' '.join('%.1f,%.1f' % fr(*c) for c in corners)
+        parts.append(f'<polygon points="{pts}" fill="none" stroke="#444" stroke-width="1" '
+                     f'stroke-dasharray="3 2"/>')
+    parts.append(labels(fr, spec['labels'], k))
+
+    for box_ in spec.get('boxes', []):
+        # A framed text box (title, legend, or a list), lines drawn in order.
+        bx, by, bw = box_['x'], box_['y'], box_['w']
+        rows = box_['rows']
+        h = 12 + sum(r.get('h', 16) for r in rows) * k + 6
+        g = [f'<g transform="translate({bx} {by})">',
+             f'<rect width="{bw}" height="{h:.0f}" rx="3" fill="#fffdf6" fill-opacity="0.95" '
+             f'stroke="#888" stroke-width="0.8"/>']
+        y = 6
+        for r in rows:
+            y += r.get('h', 16) * k
+            size = r.get('size', 12) * k
+            x = 12
+            if r.get('swatch'):
+                col = COLOR[r['swatch']]
+                g.append(f'<rect x="12" y="{y - size*0.85:.1f}" width="{size*0.9:.1f}" '
+                         f'height="{size*0.9:.1f}" fill="{col}"/>')
+                x = 12 + size * 1.5
+            if r.get('dot'):
+                g.append(f'<circle cx="{12 + size*0.45:.1f}" cy="{y - size*0.33:.1f}" r="{2.8*k:.1f}" fill="#444"/>')
+                x = 12 + size * 1.5
+            if r.get('dash'):
+                g.append(f'<path d="M12,{y - size*0.33:.1f} L{12 + size*1.1:.1f},{y - size*0.33:.1f}" '
+                         f'stroke="#6b6b6b" stroke-width="{1.4*k:.1f}" stroke-dasharray="5 3.5"/>')
+                x = 12 + size * 1.5
+            color = COLOR.get(r.get('color', ''), r.get('color', '#222'))
+            g.append(text(x, y, r['text'], size, color, italic=r.get('italic', False),
+                          weight='bold' if r.get('bold') else 'normal', halo=False))
+        g.append('</g>')
+        parts.append(''.join(g))
+    parts.append(f'<rect width="{W:.0f}" height="{H:.0f}" fill="none" stroke="#555" stroke-width="1.5"/>')
+    parts.append('</g></svg>')
+    svg = '\n'.join(parts)
+    out = os.path.join(HERE, '..', '..', 'sessions', '11-babel', out_file)
+    open(out, 'w').write(svg)
+    print(f'wrote {os.path.normpath(out)}: {W:.0f}x{H:.0f}, {len(svg)//1024} KB')
+
+if __name__ == '__main__':
+    render('labels.json', 'table-of-nations.svg')
+    render('canaan.json', 'canaan.svg')
