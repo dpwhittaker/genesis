@@ -7,7 +7,7 @@ layout: default
 
 **Passage:** Genesis 10:1–12:3 ([the passage, with notes on the Hebrew](texts/babel-in-hebrew.html))
 
-**Source sheets:** **[the table of nations](texts/the-table-of-nations.html)** (the map, and every name in Genesis 10) · **[Babylon's tower](texts/babylons-tower.html)** (the story Babylon told about itself) · **[Babel among its readers](texts/early-readers.html)** (Jubilees, Josephus, the rabbis)
+**Source sheets:** **[the table of nations](texts/the-table-of-nations.html)** (the map, and every name in Genesis 10) · **[Babylon's tower](texts/babylons-tower.html)** (the story Babylon told about itself) · **[Babel among its readers](texts/early-readers.html)** (Jubilees, Josephus, the rabbis) · **[The ground under Babel](texts/the-ground-under-babel.html)** (climate, the first cities, and their languages)
 {: .no-print}
 
 ## A note before we begin
@@ -46,7 +46,7 @@ spread over the earth after the flood"* (10:32).
 
 <figure class="map-figure">
 <img src="table-of-nations.svg" alt="Map of the eastern Mediterranean and the Near East, from Greece to Iran and from the Black Sea to Nubia and Yemen, with the peoples of Genesis 10 placed where they are thought to have lived: the sons of Japheth in the north and west, the sons of Ham in the south and southwest, the sons of Shem in the east and southeast. Fertile land, watered by rain or river, is shaded green; it arcs around the empty Syrian and Arabian desert.">
-<figcaption>Where the peoples of Genesis 10 lived, as far as they can be placed. Colour shows which of Noah's sons the list traces them to; names marked ? are uncertain, and Sheba and Havilah (†) appear in both Ham's line and Shem's. Green is land watered by rain or by a river; the blank middle is the Syrian and Arabian desert. Not shown, because no one knows where they lived: Magog, Riphath, Sabteca, the Ludites, Anamites and Casluhites, the Girgashites, Uz, Hul, Gether, Mash, and eight of Joktan's sons. Canaan's eleven sons have their own map, and every placement its source, on <a href="texts/the-table-of-nations.html">the table of nations</a>.</figcaption>
+<figcaption>Where the peoples of Genesis 10 lived, as far as they can be placed. Colour shows which of Noah's sons the list traces them to; names marked ? are uncertain, and Sheba and Havilah (†) appear in both Ham's line and Shem's. Green is land watered by rain or by a river, much as it was when these peoples lived; the blank middle is the Syrian and Arabian desert. (Before the first cities it was greener: see Part 2.) Not shown, because no one knows where they lived: Magog, Riphath, Sabteca, the Ludites, Anamites and Casluhites, the Girgashites, Uz, Hul, Gether, Mash, and eight of Joktan's sons. Canaan's eleven sons have their own map, and every placement its source, on <a href="texts/the-table-of-nations.html">the table of nations</a>.</figcaption>
 </figure>
 
 Four things to notice.
@@ -175,6 +175,64 @@ hears ***bālal***, "confuse." And listen to one more sound: the story says
 ***šām***, "there," five times. They wanted a ***šēm***, a name, in the
 ***šāmayim***, the heavens. They got a *šām* — a "there" to be scattered from.
 
+### Why Shinar?
+
+Genesis gives Babel no date, but it gives it a setting: a plain by the
+rivers, brick and bitumen, a city and a tower, and Erech — Uruk — among the
+first cities of the land (10:10). Archaeologists know that world. Some of the
+first cities on earth rose on that plain between about 4000 and 2600 BC, and
+Uruk was the greatest of them. The Sumerians remembered how it began. In one
+of their poems Uruk's founder, Enmerkar, looks back:
+
+> Where there was a marsh then in Unug, it was full of water… Divine Enki who
+> is king in Eridu tore up for me the old reeds, drained off the water
+> completely. For fifty years I built. *(Lugalbanda and the Anzud Bird; Unug
+> is Uruk)*
+
+The ground under the story has been studied too. Before the cities, the
+deserts around Shinar were not as dry as they are now. From about 8500 BC the
+summer monsoon reached far to the north: Egypt's Western Desert was dry
+grassland with seasonal lakes, Arabia had shallow lakes where there is sand
+today, and herders spread out across both. Then the rains withdrew. Egypt's
+desert emptied from about 5300 BC and Arabia's interior by about 3500 BC, and
+people drew back to the Nile, the oases and the coasts. At the head of the
+Gulf, sea and marsh reached almost to Ur around 4000 BC, then slowly gave way
+to new land. And on the plain, people left their villages for a few great
+walled towns. By about 2600 BC, in the part of the plain the archaeologist
+Robert Adams surveyed, nearly four-fifths of the settled land lay in towns of
+a hundred acres or more: the first society on earth, he wrote, where most
+people lived in cities.
+
+<figure class="map-figure">
+<img src="wet-millennia.svg" alt="Sketch map of north-east Africa, Arabia and Mesopotamia in the wet millennia before the first cities. Hatched green covers the eastern Sahara south of about 24 degrees north and most of Arabia: grassland and seasonal lakes then, desert now. Dated lakes are marked at Tayma, Jubbah and Mundafan, and dated settlements at the Gilf Kebir and Wadi Howar. Hatched blue at the head of the Persian Gulf shows sea and marsh reaching Ur and Eridu about 4000 BC.">
+<figcaption>Before the cities. Hatched green: grassland and seasonal lakes in the wet millennia, about 8500–4000 BC, and desert now. Plain green: fertile land today, as on the map in Part 1. Hatched blue: sea and marsh at the head of the Gulf about 4000 BC. This is a sketch drawn from dated lakes and settlements, and its edges are uncertain by hundreds of kilometres; computer climate models don't reproduce this greening, so none was used. Sources on <a href="texts/the-ground-under-babel.html">the ground under Babel</a>.</figcaption>
+</figure>
+
+Did the drying drive people into the cities? Many scholars think it helped.
+Eighteen archaeologists and climate scientists who compared the whole region
+found that *"the 'urban revolution' coincided with a period characterised by
+regional climatic deterioration in the form of increased aridity"* — but they
+warned that *"linking social changes to [climate change] is extremely
+problematic."* Others give more weight to the rich marshes and rivers
+themselves, to trade by boat, and to war between rival towns. The question is
+still open.
+
+Genesis tells none of this, and doesn't need to. Science can say what pressed
+people together on that plain; Genesis asks what they made of it. Rashi's
+builders looked for a place to hold them all and *"found none except Shinar,"*
+and the geographers would not argue. But the builders' own words are not
+about water. They are about a name, and a fear: *"otherwise we will be
+scattered."* Hard times can explain a crowd. They do not explain a tower
+*"with its top in the heavens."*
+
+**And the languages?** No dig has found strife between peoples whose
+languages had drifted apart. Whether everyone once spoke one language is
+beyond testing: linguists can trace languages back only six to eight thousand
+years, and Sumerian has no known relatives at all. But the first cities we can
+read already mixed their languages. Around 2600 BC, about half the scribes
+named at one Sumerian town have Semitic names, and Sumerian had a word for
+*interpreter*: *eme-bal*, a "tongue-turner."
+
 ### What was wrong with it?
 
 Genesis does not quite say. Readers have heard three things.
@@ -278,6 +336,25 @@ The nations of the world gathered in one place to build a tower to heaven:
 that was Babylon's boast, in the king's own words, in the very years Judah's
 exiles were carried there. Genesis tells it the other way round: *"the LORD scattered them
 from there."*
+
+**An Assyrian king made them "one mouth."** A century earlier, Sargon II of
+Assyria built himself a new capital, Dur-Sharrukin, and filled it with the
+peoples he had deported:
+
+> Peoples of the four regions of the world, of foreign tongue and divergent
+> speech… I carried off at Assur, my lord's, command, by the might of my
+> scepter. I unified them (made them of one mouth) and settled them therein…
+> The gods who dwell in heaven and earth, and in that city, listened with
+> favor to my word, and granted me the eternal boon of building that city and
+> growing old in its midst. *(Sargon II, inscription for Dur-Sharrukin, trans.
+> Luckenbill, 1927)*
+
+He did not grow old there. A year after the city was dedicated, Sargon was
+killed in battle in 705 BC and his body was never recovered; his son moved
+the capital to Nineveh and left the new city behind. *One mouth* was
+the Assyrian way of saying *one will*; Genesis says the builders had *"one
+lip"* (11:1, literally). Some scholars think Genesis 11 has cities like this
+one in view: *"and they stopped building the city"* (11:8).
 
 <figure class="map-figure brick-figure">
 <img src="nebuchadnezzar-brick.jpg" alt="A baked brick from Babylon, its top stamped with a rectangle of cuneiform: the name and titles of Nebuchadnezzar II.">
@@ -515,7 +592,7 @@ by name.
 
 ---
 
-*Scripture quoted by permission from the NET Bible® copyright ©1996, 2019 by Biblical Studies Press, L.L.C., [netbible.com](https://netbible.com). All rights reserved. Hebrew counts are from the Open Scriptures Hebrew Bible (CC BY 4.0); literal Hebrew renderings are ours. The map was drawn for this study from Natural Earth (public domain) and the Köppen–Geiger climate maps of H. E. Beck and others (2023, CC BY 4.0); its identifications and sources are on **[the table of nations](texts/the-table-of-nations.html)**. Josephus from W. Whiston (1737); Jubilees from R. H. Charles (1917); Pirkei Avot 5:2 from C. Taylor (1897); Pirkei de Rabbi Eliezer from G. Friedlander (1916); all public domain. Genesis Rabbah from the Sefaria Midrash Rabbah (CC BY); Rashi from M. Rosenbaum and A. M. Silbermann (public domain, as labelled by Sefaria); Ibn Ezra from H. N. Strickman and A. M. Silver (CC BY-NC); Sukkah 55b, Chullin 89a and Yevamot 63a from the William Davidson Edition (CC BY-NC); all via Sefaria. Enuma Elish VI from D. D. Luckenbill (1921); the brick stamp from the British Museum's Guide (1908); Herodotus from A. D. Godley (1920); Gilgamesh XI from R. Campbell Thompson (1928); G. Smith (1876) and E. A. W. Budge (1921); all public domain. Nabopolassar and Nebuchadnezzar II from Royal Inscriptions of Babylonia online (F. Weiershäuser and J. Novotny, CC BY-SA 3.0). Enmerkar and the Lord of Aratta from the Electronic Text Corpus of Sumerian Literature (CC BY-NC-SA 3.0). Brick photograph: Daderot, CC0. Described, not quoted: J. P. Fokkelman, Narrative Art in Genesis (1975); G. J. Wenham, Genesis 1–15 (1987); K. A. Mathews, Genesis 1–11:26 (1996); J. G. Janzen, Abraham and All the Families of the Earth (1993). Every quotation is given in full, with its source, on the sheets: **[Babel to Abram in Hebrew](texts/babel-in-hebrew.html)** · **[Babylon's tower](texts/babylons-tower.html)** · **[Babel among its readers](texts/early-readers.html)**.*
+*Scripture quoted by permission from the NET Bible® copyright ©1996, 2019 by Biblical Studies Press, L.L.C., [netbible.com](https://netbible.com). All rights reserved. Hebrew counts are from the Open Scriptures Hebrew Bible (CC BY 4.0); literal Hebrew renderings are ours. The map was drawn for this study from Natural Earth (public domain) and the Köppen–Geiger climate maps of H. E. Beck and others (2023, CC BY 4.0); its identifications and sources are on **[the table of nations](texts/the-table-of-nations.html)**. Josephus from W. Whiston (1737); Jubilees from R. H. Charles (1917); Pirkei Avot 5:2 from C. Taylor (1897); Pirkei de Rabbi Eliezer from G. Friedlander (1916); all public domain. Genesis Rabbah from the Sefaria Midrash Rabbah (CC BY); Rashi from M. Rosenbaum and A. M. Silbermann (public domain, as labelled by Sefaria); Ibn Ezra from H. N. Strickman and A. M. Silver (CC BY-NC); Sukkah 55b, Chullin 89a and Yevamot 63a from the William Davidson Edition (CC BY-NC); all via Sefaria. Enuma Elish VI from D. D. Luckenbill (1921); the brick stamp from the British Museum's Guide (1908); Herodotus from A. D. Godley (1920); Gilgamesh XI from R. Campbell Thompson (1928); G. Smith (1876) and E. A. W. Budge (1921); all public domain. Nabopolassar and Nebuchadnezzar II from Royal Inscriptions of Babylonia online (F. Weiershäuser and J. Novotny, CC BY-SA 3.0). Enmerkar and the Lord of Aratta and Lugalbanda and the Anzud Bird from the Electronic Text Corpus of Sumerian Literature (J. Black and others, CC BY-NC-SA 3.0). Sargon II from D. D. Luckenbill, Ancient Records of Assyria and Babylonia II (1927), public domain. J. Clarke, N. Brooks and others, "Climatic changes and social transformations in the Near East and North Africa during the 'long' 4th millennium BC," Quaternary Science Reviews 136 (2016), CC BY 4.0. The map before the cities was drawn for this study from dated sites and the Köppen–Geiger maps (sources on the sheet). Brick photograph: Daderot, CC0. Described, not quoted: J. P. Fokkelman, Narrative Art in Genesis (1975); G. J. Wenham, Genesis 1–15 (1987); K. A. Mathews, Genesis 1–11:26 (1996); J. G. Janzen, Abraham and All the Families of the Earth (1993); R. McC. Adams, Heartland of Cities (1981); R. D. Biggs, Inscriptions from Tell Abu Salābīkh (1974). Every quotation is given in full, with its source, on the sheets: **[Babel to Abram in Hebrew](texts/babel-in-hebrew.html)** · **[Babylon's tower](texts/babylons-tower.html)** · **[Babel among its readers](texts/early-readers.html)** · **[The ground under Babel](texts/the-ground-under-babel.html)**.*
 {: .no-print}
 
 [← Back to all sessions](../../)

@@ -1,0 +1,410 @@
+{
+ "title": "Before the cities: the wet millennia",
+ "desc": "Schematic map of North-East Africa, Arabia and Mesopotamia in the wet millennia of the mid-Holocene, about 8500–4000 BC. Hatched green marks land that was dry grassland with seasonal lakes then and is desert now: the eastern Sahara south of about 24°N, and Arabia (how wet is debated). Dated lakes and settlements are marked. Hatched blue marks sea and marsh at the head of the Persian Gulf about 4000 BC, reaching Ur and Eridu. Plain green is fertile land today (Köppen-Geiger, Beck et al. 2023, CC BY 4.0).",
+ "box": [
+  21,
+  12.3,
+  60,
+  37
+ ],
+ "width": 1000,
+ "center": [
+  40,
+  25
+ ],
+ "font_scale": 1.25,
+ "watered": {
+  "step": 0.05,
+  "sigma": 1.0
+ },
+ "areas": [
+  {
+   "pattern": "grass",
+   "points": [
+    [
+     18,
+     11.5
+    ],
+    [
+     18,
+     23.8
+    ],
+    [
+     22,
+     24.0
+    ],
+    [
+     26,
+     24.1
+    ],
+    [
+     30,
+     24.0
+    ],
+    [
+     33.5,
+     23.8
+    ],
+    [
+     36.2,
+     23.5
+    ],
+    [
+     37.6,
+     20.0
+    ],
+    [
+     39.6,
+     16.5
+    ],
+    [
+     39.6,
+     11.5
+    ]
+   ]
+  },
+  {
+   "pattern": "grass",
+   "points": [
+    [
+     34.9,
+     29.4
+    ],
+    [
+     37.0,
+     30.0
+    ],
+    [
+     39.5,
+     30.4
+    ],
+    [
+     42.5,
+     29.8
+    ],
+    [
+     45.5,
+     29.5
+    ],
+    [
+     47.6,
+     29.3
+    ],
+    [
+     48.6,
+     28.4
+    ],
+    [
+     50.4,
+     26.6
+    ],
+    [
+     52.0,
+     25.0
+    ],
+    [
+     54.5,
+     24.6
+    ],
+    [
+     56.3,
+     26.4
+    ],
+    [
+     57.4,
+     24.4
+    ],
+    [
+     59.9,
+     22.6
+    ],
+    [
+     59.9,
+     12.0
+    ],
+    [
+     43.6,
+     12.4
+    ],
+    [
+     42.4,
+     15.0
+    ],
+    [
+     40.5,
+     18.5
+    ],
+    [
+     38.8,
+     21.0
+    ],
+    [
+     37.0,
+     24.5
+    ],
+    [
+     35.3,
+     27.5
+    ]
+   ]
+  },
+  {
+   "pattern": "marsh",
+   "over": true,
+   "points": [
+    [
+     46.05,
+     30.92
+    ],
+    [
+     46.26,
+     31.08
+    ],
+    [
+     46.75,
+     31.45
+    ],
+    [
+     47.15,
+     31.86
+    ],
+    [
+     47.65,
+     31.75
+    ],
+    [
+     48.2,
+     31.3
+    ],
+    [
+     48.6,
+     30.6
+    ],
+    [
+     48.9,
+     29.9
+    ],
+    [
+     48.3,
+     29.7
+    ],
+    [
+     47.75,
+     29.9
+    ],
+    [
+     47.6,
+     30.15
+    ],
+    [
+     47.0,
+     30.4
+    ],
+    [
+     46.5,
+     30.62
+    ]
+   ]
+  }
+ ],
+ "labels": [
+  {
+   "name": "Red Sea",
+   "lon": 38.4,
+   "lat": 20.6,
+   "kind": "water",
+   "size": 13,
+   "rotate": 57
+  },
+  {
+   "name": "Persian Gulf",
+   "lon": 51.6,
+   "lat": 27.1,
+   "kind": "water",
+   "size": 12,
+   "rotate": 32
+  },
+  {
+   "name": "Nile",
+   "lon": 31.0,
+   "lat": 29.4,
+   "kind": "water",
+   "size": 11,
+   "rotate": -70
+  },
+  {
+   "name": "Euphrates",
+   "lon": 41.6,
+   "lat": 34.0,
+   "kind": "water",
+   "size": 11,
+   "rotate": 28
+  },
+  {
+   "name": "Tigris",
+   "lon": 45.0,
+   "lat": 33.9,
+   "kind": "water",
+   "size": 11,
+   "rotate": 50
+  },
+  {
+   "name": "Gilf Kebir",
+   "lon": 26.0,
+   "lat": 23.3,
+   "kind": "city",
+   "line": "other",
+   "dx": 7,
+   "dy": 4,
+   "sub": "rains end c. 3500 BC"
+  },
+  {
+   "name": "Wadi Howar",
+   "lon": 27.0,
+   "lat": 17.4,
+   "kind": "city",
+   "line": "other",
+   "dx": 7,
+   "dy": 4,
+   "sub": "herders until c. 1500 BC"
+  },
+  {
+   "name": "Tayma",
+   "lon": 38.55,
+   "lat": 27.63,
+   "kind": "city",
+   "line": "other",
+   "dx": -7,
+   "dy": 4,
+   "anchor": "end",
+   "sub": "lake c. 6850–5950 BC"
+  },
+  {
+   "name": "Jubbah",
+   "lon": 40.93,
+   "lat": 28.02,
+   "kind": "city",
+   "line": "other",
+   "dx": 7,
+   "dy": 4,
+   "sub": "lake c. 6950–5950 BC"
+  },
+  {
+   "name": "Mundafan",
+   "lon": 45.34,
+   "lat": 18.56,
+   "kind": "city",
+   "line": "other",
+   "dx": 7,
+   "dy": 4,
+   "sub": "lake c. 7000–4000 BC"
+  },
+  {
+   "name": "seasonal lakes and herders",
+   "lon": 27.4,
+   "lat": 26.6,
+   "kind": "note",
+   "anchor": "middle",
+   "size": 11,
+   "sub": "until c. 5300 BC"
+  },
+  {
+   "name": "how wet is debated",
+   "lon": 46.5,
+   "lat": 23.0,
+   "kind": "note",
+   "anchor": "middle",
+   "size": 11
+  },
+  {
+   "name": "Babylon (Babel)",
+   "lon": 44.42,
+   "lat": 32.54,
+   "kind": "city",
+   "line": "Ham",
+   "dx": -7,
+   "dy": 4,
+   "anchor": "end"
+  },
+  {
+   "name": "Uruk (Erech)",
+   "lon": 45.64,
+   "lat": 31.32,
+   "kind": "city",
+   "line": "Ham",
+   "dx": -7,
+   "dy": 2,
+   "anchor": "end"
+  },
+  {
+   "name": "Eridu",
+   "lon": 45.996,
+   "lat": 30.816,
+   "kind": "city",
+   "line": "Ham",
+   "dx": -7,
+   "dy": 8,
+   "anchor": "end"
+  },
+  {
+   "name": "Ur",
+   "lon": 46.103,
+   "lat": 30.963,
+   "kind": "city",
+   "line": "Ham",
+   "dx": 6,
+   "dy": -3
+  },
+  {
+   "name": "south-east interior emptied",
+   "lon": 54.6,
+   "lat": 21.2,
+   "kind": "note",
+   "anchor": "middle",
+   "size": 11,
+   "sub": "c. 3950–3350 BC"
+  }
+ ],
+ "boxes": [
+  {
+   "x": 8,
+   "y": 6,
+   "w": 345,
+   "rows": [
+    {
+     "text": "Before the cities, about 8500–4000 BC",
+     "size": 15,
+     "bold": true,
+     "h": 18
+    },
+    {
+     "text": "fertile land today",
+     "swatch": "watered",
+     "h": 19
+    },
+    {
+     "text": "grassland then, desert now",
+     "swatch": "grass",
+     "h": 16
+    },
+    {
+     "text": "sea and marsh at the Gulf's head, c. 4000 BC",
+     "swatch": "marsh",
+     "h": 16
+    },
+    {
+     "text": "dated lake or settlement",
+     "dot": true,
+     "h": 16
+    },
+    {
+     "text": "Schematic, from dated sites; edges uncertain.",
+     "size": 10,
+     "italic": true,
+     "color": "#555",
+     "h": 16
+    }
+   ]
+  }
+ ]
+}

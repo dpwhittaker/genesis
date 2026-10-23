@@ -2,6 +2,7 @@
 
     ~/ml-env/bin/python build_map.py   ->  ../../sessions/11-babel/table-of-nations.svg
                                             ../../sessions/11-babel/canaan.svg
+                                            ../../sessions/11-babel/wet-millennia.svg
     (needs numpy, scipy, matplotlib and Pillow)
 
 Coastlines, lakes and rivers: Natural Earth (public domain), modern. Green land:
@@ -19,6 +20,29 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 COLOR = {'Japheth': '#2f5d8a', 'Ham': '#9a4a14', 'Shem': '#2f6d3a', 'other': '#6b6b6b'}
 SEA, LAND, SHORE, RIVER, WATER_TEXT = '#dce7ee', '#f5f0e4', '#9fb0ba', '#8fb0c4', '#5d7d92'
 GREEN = '#dfe9c9'
+# Hatches for the schematic "before" map: grassland that has since gone, and
+# water at the head of the Gulf.
+PATTERNS = {
+    'grass': ('#8aad62', 1.8, None),
+    'marsh': ('#6f98b3', 1.2, '#dce7ee'),
+}
+
+def pattern_defs():
+    out = ''
+    for pid, (col, w, bg) in PATTERNS.items():
+        out += (f'<pattern id="{pid}" width="5" height="5" patternUnits="userSpaceOnUse" '
+                f'patternTransform="rotate(45)">'
+                + (f'<rect width="5" height="5" fill="{bg}" fill-opacity="0.7"/>' if bg else '')
+                + f'<line x1="0" y1="0" x2="0" y2="5" stroke="{col}" stroke-width="{w}"/></pattern>')
+    return out
+
+def area_path(frame, pts, step=0.25):
+    """A lon/lat polygon, its edges densified so they bend with the projection."""
+    out = []
+    for (x1, y1), (x2, y2) in zip(pts, pts[1:] + pts[:1]):
+        m = max(1, int(max(abs(x2 - x1), abs(y2 - y1)) / step))
+        out += [frame(x1 + (x2 - x1) * t / m, y1 + (y2 - y1) * t / m) for t in range(m)]
+    return 'M' + ' L'.join(f'{x:.1f},{y:.1f}' for x, y in out) + 'Z'
 SERIF = "Georgia, 'Times New Roman', serif"
 
 ANCIENT_LAKES = {'Dead Sea', 'Sea of Galilee', 'Lake Van', 'Lake Urmia', 'Lake Tuz',
@@ -43,15 +67,21 @@ def basemap(frame, box, extra=14, tol=0.45):
                        (p.get('featurecla') == 'River' or p.get('name') == 'Nile'))
     return land, lakes, rivers
 
-def layer(land, lakes, rivers, green=(), sw=1.0):
+def layer(land, lakes, rivers, green=(), sw=1.0, under=(), over=()):
     # One land path, used three times: fill, clip for the green, then the shore
-    # line on top so the green does not cover half of it.
-    out = (f'<defs><path id="land" fill-rule="evenodd" clip-rule="evenodd" d="{"".join(land)}"/>'
+    # line on top so the green does not cover half of it. Hatched areas go under
+    # the green (land that was green once) or over it (water at the Gulf head).
+    out = (f'<defs>{pattern_defs()}<path id="land" fill-rule="evenodd" clip-rule="evenodd" d="{"".join(land)}"/>'
            '<clipPath id="landclip"><use href="#land"/></clipPath></defs>'
            f'<use href="#land" fill="{LAND}"/>')
+    hatch = lambda areas: ''.join(f'<path d="{d}" fill="url(#{pid})"/>' for d, pid in areas)
+    if under:
+        out += f'<g clip-path="url(#landclip)">{hatch(under)}</g>'
     if green:
         out += (f'<g clip-path="url(#landclip)" fill="{GREEN}" fill-rule="evenodd">'
                 + ''.join(f'<path d="{d}"/>' for d in green) + '</g>')
+    if over:
+        out += f'<g clip-path="url(#landclip)">{hatch(over)}</g>'
     return (out + f'<use href="#land" fill="none" stroke="{SHORE}" stroke-width="{0.6*sw}"/>'
             + f'<g fill="{SEA}" stroke="{SHORE}" stroke-width="{0.5*sw}">'
             + ''.join(f'<path d="{d}"/>' for d in lakes) + '</g>'
@@ -92,7 +122,7 @@ def labels(frame, items, scale=1.0):
             out.append(text(x + dx, y + dy, it['name'], it.get('size', 12) * scale, WATER_TEXT,
                             anchor, italic=True, halo=False, spacing=it.get('spacing', 0.5),
                             rotate=it.get('rotate', 0)))
-        elif kind == 'route':
+        elif kind in ('route', 'note'):
             out.append(text(x + dx, y + dy, it['name'], it.get('size', 10.5) * scale, '#555',
                             anchor, italic=True))
         else:
@@ -135,7 +165,11 @@ def render(spec_file, out_file):
              f'<clipPath id="frame"><rect width="{W:.0f}" height="{H:.0f}"/></clipPath>',
              '<g clip-path="url(#frame)">',
              f'<rect width="{W:.0f}" height="{H:.0f}" fill="{SEA}"/>',
-             layer(land, lakes, rivers, green, sw=spec.get('stroke_scale', 1.0))]
+             layer(land, lakes, rivers, green, sw=spec.get('stroke_scale', 1.0),
+                   under=[(area_path(fr, a['points']), a['pattern']) for a in spec.get('areas', [])
+                          if not a.get('over')],
+                   over=[(area_path(fr, a['points']), a['pattern']) for a in spec.get('areas', [])
+                         if a.get('over')])]
     for r in spec.get('routes', []):
         parts.append(route(fr, r['points'], k))
     for b in spec.get('outlines', []):
@@ -159,8 +193,11 @@ def render(spec_file, out_file):
             size = r.get('size', 12) * k
             x = 12
             if r.get('swatch'):
-                col = GREEN if r['swatch'] == 'watered' else COLOR[r['swatch']]
-                edge = f' stroke="{SHORE}" stroke-width="0.8"' if r['swatch'] == 'watered' else ''
+                sw_ = r['swatch']
+                col = (GREEN if sw_ == 'watered' else f'url(#{sw_})' if sw_ in PATTERNS
+                       else COLOR[sw_])
+                edge = (f' stroke="{SHORE}" stroke-width="0.8"'
+                        if sw_ == 'watered' or sw_ in PATTERNS else '')
                 g.append(f'<rect x="12" y="{y - size*0.85:.1f}" width="{size*0.9:.1f}" '
                          f'height="{size*0.9:.1f}" fill="{col}"{edge}/>')
                 x = 12 + size * 1.5
@@ -186,3 +223,4 @@ def render(spec_file, out_file):
 if __name__ == '__main__':
     render('labels.json', 'table-of-nations.svg')
     render('canaan.json', 'canaan.svg')
+    render('then.json', 'wet-millennia.svg')
