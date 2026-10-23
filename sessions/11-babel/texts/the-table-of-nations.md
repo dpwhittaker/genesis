@@ -21,7 +21,9 @@ century.
 
 **What the map shows.** The names were not thrown together at random; they
 are the world as it looked from Israel in the first half of the first
-millennium BC. The peoples on the list are attested side by side in the
+millennium BC. (Readers who hold that Moses wrote Genesis take names like these
+as brought up to date by later scribes, as *Dan* in 14:14 is a city that got
+that name only in Judges 18:29.) The peoples on the list are attested side by side in the
 records of the ninth to sixth centuries BC — the Cimmerians and Scythians on
 Assyria's northern frontier, the Medes, the Ionian Greeks, the Anatolian
 kingdoms of Tabal and the Mushki, Kush on the Nile, Saba in Yemen. The
@@ -201,7 +203,7 @@ geography of his own day.
 
 ### Seventy
 
-Count the peoples — not Noah's sons, not Nimrod (one man), not the places —
+Count the names — not Noah's sons, not Nimrod (one man), not the places —
 and the Hebrew list comes to **seventy**: fourteen for Japheth, thirty for Ham
 (counting the Philistines), twenty-six for Shem (counting Shelah, Eber and
 Peleg). Gordon Wenham: *"It seems likely that the total number of nations…

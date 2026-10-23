@@ -197,17 +197,18 @@ narrator's asides (Session 3).
 ### 10. "Scattered"
 
 The verb ***pûṣ***, "scatter," appears in Genesis only five times: the
-Canaanite families "were scattered" (10:18), the builders fear it (11:4), and
-the LORD does it, twice (11:8, 9). Its only other use in Genesis is Jacob's
-last words over Simeon and Levi: *"I will scatter them in Israel"* (49:7). The
-verb of 9:19, *"from them the whole earth was populated,"* is a different one,
-*nāp̄ṣâ*, "spread out"; and chapter 10's *"separated"* and *"spread"* (10:5,
-32) are another, *nip̄rəḏû*. Genesis has gentler words for the nations'
-spreading. At Babel it says *scattered*.
+Canaanite families "were scattered" (10:18), with no hint of judgment; the
+builders fear it (11:4); and the LORD does it, twice (11:8, 9). Its only other
+use in Genesis is Jacob's last words over Simeon and Levi: *"I will scatter
+them in Israel"* (49:7). The verb of 9:19, *"from them the whole earth was
+populated,"* is *nāp̄ṣâ*, a close cousin of *pûṣ*; chapter 10's *"separated"*
+and *"spread"* (10:5, 32) is *nip̄rəḏû*. What changes at Babel is not the word
+but who does it: only there is the LORD the one who scatters.
 
 ### 11. "Began"
 
-*Hēḥēl*, "began" (from *ḥālal*), appears five times in Genesis 1–11: people
+The verb *ḥālal*, "begin," appears five times in Genesis 1–11 (*hûḥal* at
+4:26, *hēḥēl* at 6:1 and 10:8, *wayyāḥel* at 9:20, *haḥillām* at 11:6): people
 *began* to call on the name of the LORD (4:26); humankind *began* to multiply
 (6:1); Noah *began* to plant a vineyard (9:20); Nimrod *began* to be a mighty
 warrior (10:8); *"this is what they have begun to do"* (11:6). The rabbis

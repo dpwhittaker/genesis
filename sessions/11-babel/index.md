@@ -51,8 +51,8 @@ spread over the earth after the flood"* (10:32).
 
 Four things to notice.
 
-**1. Seventy.** Count the peoples — not Nimrod, not the cities — and the
-Hebrew list comes to seventy. Ancient Jewish readers took that as the number
+**1. Seventy.** Count the names under Noah's three sons — all but Nimrod —
+and the Hebrew list comes to seventy. Ancient Jewish readers took that as the number
 of the world's nations. Moses sings that God *"gave the nations their
 inheritance"* and *"set the boundaries of the peoples"* (Deuteronomy 32:8;
 Session 8). Jacob's family goes down to Egypt *seventy* strong (46:27): a small
@@ -97,6 +97,11 @@ Israel and Judah into exile, Assyria and Babylon, both begin with one "mighty"
 man in two verses.** Genesis does not say Nimrod built the tower. Later readers
 did (below).
 
+Session 10 ended with Noah's curse on Canaan and how it was later misused, and
+promised more today. Here it is, in one line: Ham's line holds Egypt, Cush, and
+Nimrod's Babylon and Nineveh — the great powers of Israel's world, not its
+servants.
+
 **4. A name that looks ahead.** *"One was named Peleg because in his days the
 earth was divided"* (10:25). *Peleg* means "division." The chapter is pointing
 at the story it has not told yet.
@@ -110,9 +115,14 @@ everybody else — and leaves that family off the list?
 ## Part 2 — "A name for ourselves" (Genesis 11:1–9)
 
 Then Genesis turns back. Chapter 10 already had *"languages"*; 11:1 begins,
-*"The whole earth had a common language."* Babel is not what happened after
-Genesis 10. It is how Genesis 10 happened: a close-up after the wide shot, the
-way chapter 2 follows chapter 1 (Session 4).
+*"The whole earth had a common language."* Read as one story, Babel is not
+what happened after Genesis 10 but how it happened: a close-up after the wide
+shot, the way chapter 2 follows chapter 1 (Session 4). Scholars who hear two
+strands in Genesis (Session 9) hear two pictures instead. In the priestly list,
+peoples spreading out *"by their languages"* is the blessing of 9:1 coming
+true; in the older story, the scattering is God's answer to a city. Either
+way, Genesis as we have it sets the two side by side: a blessing to spread
+out, and the scattering of those who would not.
 
 > **1** The whole earth had a common language and a common vocabulary. **2**
 > When the people moved eastward, they found a plain in Shinar and settled
@@ -143,8 +153,9 @@ command had been *fill the earth*.
 ***hāḇâ nilbənâ ləḇēnîm***; *"brick instead of stone… tar instead of mortar"*
 is ***ləḇēnâ ləʾāḇen… ḥēmār laḥōmer***. And the narrator stops to explain
 bricks, as if to people who build in stone — which is how Israel built in its
-hill country. Babylonia had river clay and bitumen and almost no stone; its
-cities were baked brick. The story is told from outside Babylon, looking in.
+hill country. Babylonia had river clay and bitumen and almost no stone; it
+built in sun-dried mud brick, and kept baked brick for temples, palaces and
+walls. The story is told from outside Babylon, looking in.
 
 **"A name for ourselves."** Two reasons for the project, side by side in verse
 4: to make a name, and not to be scattered. Both point back. *The men of the
@@ -181,7 +192,8 @@ Genesis gives Babel no date, but it gives it a setting: a plain by the
 rivers, brick and bitumen, a city and a tower, and Erech — Uruk — among the
 first cities of the land (10:10). Archaeologists know that world. Some of the
 first cities on earth rose on that plain between about 4000 and 2600 BC, and
-Uruk was the greatest of them. The Sumerians remembered how it began. In one
+Uruk was the greatest of them. (Babylon came later: it is first named around
+2200 BC.) The Sumerians told how it began. In one
 of their poems Uruk's founder, Enmerkar, looks back:
 
 > Where there was a marsh then in Unug, it was full of water… Divine Enki who
@@ -191,9 +203,9 @@ of their poems Uruk's founder, Enmerkar, looks back:
 
 The ground under the story has been studied too. Before the cities, the
 deserts around Shinar were not as dry as they are now. From about 8500 BC the
-summer monsoon reached far to the north: Egypt's Western Desert was dry
-grassland with seasonal lakes, Arabia had shallow lakes where there is sand
-today, and herders spread out across both. Then the rains withdrew. Egypt's
+summer monsoon reached far to the north: the eastern Sahara was dry grassland
+as far as southern Egypt, with seasonal lakes beyond; Arabia had shallow lakes
+where there is sand today; and herders spread out across both. Then the rains withdrew. Egypt's
 desert emptied from about 5300 BC and Arabia's interior by about 3500 BC, and
 people drew back to the Nile, the oases and the coasts. At the head of the
 Gulf, sea and marsh reached almost to Ur around 4000 BC, then slowly gave way
@@ -205,37 +217,40 @@ people lived in cities.
 
 <figure class="map-figure">
 <img src="wet-millennia.svg" alt="Sketch map of north-east Africa, Arabia and Mesopotamia in the wet millennia before the first cities. Hatched green covers the eastern Sahara south of about 24 degrees north and most of Arabia: grassland and seasonal lakes then, desert now. Dated lakes are marked at Tayma, Jubbah and Mundafan, and dated settlements at the Gilf Kebir and Wadi Howar. Hatched blue at the head of the Persian Gulf shows sea and marsh reaching Ur and Eridu about 4000 BC.">
-<figcaption>Before the cities. Hatched green: grassland and seasonal lakes in the wet millennia, about 8500–4000 BC, and desert now. Plain green: fertile land today, as on the map in Part 1. Hatched blue: sea and marsh at the head of the Gulf about 4000 BC. This is a sketch drawn from dated lakes and settlements, and its edges are uncertain by hundreds of kilometres; computer climate models don't reproduce this greening, so none was used. Sources on <a href="texts/the-ground-under-babel.html">the ground under Babel</a>.</figcaption>
+<figcaption>Before the cities. Hatched green: grassland and seasonal lakes in the wet millennia, about 8500–4000 BC, and desert now. Plain green: fertile land today, as on the map in Part 1. Hatched blue: sea and marsh at the head of the Gulf about 4000 BC. This is a sketch drawn from dated lakes and settlements, and its edges are uncertain by hundreds of kilometres; computer climate models reproduce only part of this greening, so none was used. Sources on <a href="texts/the-ground-under-babel.html">the ground under Babel</a>.</figcaption>
 </figure>
 
 Did the drying drive people into the cities? Many scholars think it helped.
 Eighteen archaeologists and climate scientists who compared the whole region
 found that *"the 'urban revolution' coincided with a period characterised by
 regional climatic deterioration in the form of increased aridity"* — but they
-warned that *"linking social changes to [climate change] is extremely
+warned that *"linking social changes to [rapid climate change] is extremely
 problematic."* Others give more weight to the rich marshes and rivers
 themselves, to trade by boat, and to war between rival towns. The question is
 still open.
 
-Genesis tells none of this, and doesn't need to. Science can say what pressed
+Genesis tells none of this, and doesn't need to. Science can ask what pressed
 people together on that plain; Genesis asks what they made of it. Rashi's
-builders looked for a place to hold them all and *"found none except Shinar,"*
-and the geographers would not argue. But the builders' own words are not
+builders looked for a place to hold them all and *"found none except
+Shinar."* But the builders' own words are not
 about water. They are about a name, and a fear: *"otherwise we will be
 scattered."* Hard times can explain a crowd. They do not explain a tower
 *"with its top in the heavens."*
 
-**And the languages?** No dig has found strife between peoples whose
-languages had drifted apart. Whether everyone once spoke one language is
-beyond testing: linguists can trace languages back only six to eight thousand
-years, and Sumerian has no known relatives at all. But the first cities we can
-read already mixed their languages. Around 2600 BC, about half the scribes
-named at one Sumerian town have Semitic names, and Sumerian had a word for
-*interpreter*: *eme-bal*, a "tongue-turner."
+**And the languages?** A dig can't hear a language until someone writes it
+down, so archaeology can't show peoples falling out as their speech drifted
+apart. Whether everyone once spoke one language is beyond testing: linguists
+can trace languages back only six to eight thousand years, and Sumerian has no
+known relatives at all. What we can see is that the first cities we can read
+were already many-tongued. Around 2600 BC, about half the scribes named at one
+Sumerian town have Semitic names, and Sumerian had a word for *interpreter*:
+*eme-bal*, a "tongue-turner." Genesis is not telling us when speech divided.
+It is telling us what the one speech was being used for: *"Come, let's build
+ourselves a city."
 
 ### What was wrong with it?
 
-Genesis does not quite say. Readers have heard three things.
+Genesis does not quite say. Readers have heard four things.
 
 **They would not spread out.** God said *fill the earth*; they built so as not
 to be scattered. Josephus, a Jewish historian writing in Jesus' century, says
@@ -249,10 +264,11 @@ God told them to spread out, and they would not:
 > God, but supposing that their own power was the proper cause of the
 > plentiful condition they were in. *(Josephus, Antiquities 1.4.1)*
 
-Abraham ibn Ezra, in the twelfth century, read it the same way: *"They wanted
-to build a great city to dwell in, and a very tall tower to ensure their fame
-and glory… The builders of the tower hoped that their city and tower would
-prevent them from dispersing, but this was not God's will."*
+Abraham ibn Ezra, in the twelfth century, agreed that God meant them to
+spread out, but not that they defied him: *"The builders of the tower hoped
+that their city and tower would prevent them from dispersing, but this was not
+God's will. However, they did not know this."* Noah and his sons, he notes,
+were among the builders.
 
 **They wanted a name of their own making.** The Talmud sets two kinds of
 greatness side by side:
@@ -262,35 +278,47 @@ greatness side by side:
 > granted greatness to Nimrod, yet he said: "Come, let us build a city."
 > *(Talmud, Chullin 89a)*
 
-**They meant to fight heaven** — or so later readers said. One midrash puts
-an idol on top of the tower *"with a sword in its hand,"* as if making war on
-God (*Genesis Rabbah* 38:6); the Talmud splits the builders into three gangs —
-*"Let us ascend… and dwell there,"* *"…and engage in idol worship,"* *"…and
-wage war"* (*Sanhedrin* 109a); Josephus's Nimrod wants *"a tower too high for
-the waters to be able to reach,"* in case God floods the world again. Genesis
-says none of that, and Ibn Ezra would not have it either: *"The builders of
-the tower were not fools to believe that they could actually ascend the
-heavens."*
+**They meant to fight heaven.** The rabbis heard it in the words themselves.
+Rashi reads *"a common vocabulary"* (11:1, literally *"one set of words"*) as
+one plan: *"let us ascend to the skies and make war upon Him."* One midrash
+puts an idol on top of the tower *"with a sword in its hand"* (*Genesis Rabbah*
+38:6); the Talmud splits the builders into three gangs — *"Let us ascend… and
+dwell there,"* *"…and engage in idol worship,"* *"…and wage war"* — and Rabbi
+Natan hears idols in the very word *name*: *"It is written here: 'And let us
+make a name for us,' and it is written there: 'And make no mention of the name
+of the other gods'"* (Exodus 23:13; *Sanhedrin* 109a). Josephus's Nimrod wants
+*"a tower too high for the waters to be able to reach,"* in case God floods the
+world again. Genesis doesn't say any of this outright, and Ibn Ezra would not
+have it: *"The builders of the tower were not fools to believe that they could
+actually ascend the heavens."*
+
+**Or nothing was wrong with it.** Look in these nine verses for the words of
+chapters 3 to 6 — *cursed*, *sin*, *evil*, *violence* — and you won't find one.
+Theodore Hiebert reads the story as no punishment at all: God is finishing
+what he began with *fill the earth*, and the world's many peoples and
+languages are his design.
 
 And the rabbis argued about something Genesis leaves out entirely: how the
-builders treated *each other*. One old tradition says they cared for the
+builders treated *each other*. One tradition says they cared for the
 bricks more than the people:
 
 > If a man fell and died they paid no heed to him, but if a brick fell they
 > sat down and wept, and said: Woe is us! when will another one come in its
 > stead? *(Pirkei de Rabbi Eliezer 24)*
 
-Another says the opposite — and that this is why they were only scattered,
-while the flood generation was destroyed:
+Another says the opposite. The Mishnah had ruled that the builders lost their
+share in the world to come (*Sanhedrin* 10:3), and Rashi grants that their sin
+was the greater: they *"did stretch forth their hands against God."* So why
+were they only scattered, while the flood generation was destroyed?
 
 > The generation of the Flood were violent robbers and there was strife among
 > them, and therefore they were destroyed; but these conducted themselves in
 > love and friendship… You may learn from this how hateful to God is strife
 > and how great is peace. *(Rashi on 11:9, from Genesis Rabbah 38:6)*
 
-Put them side by side and they describe the same city. Real love for the
-people inside the wall; a project that counted bricks. **A name built by
-huddling together, and keeping the blessing for yourselves.**
+The rabbis left both pictures standing: a project that counted bricks, and
+real love for the people inside the wall. Either way, **a name built by
+huddling together, and keeping the love inside the wall.**
 
 ### Babylon tells it the other way
 
@@ -298,8 +326,8 @@ Do Israel's neighbours have a story of a tower to heaven? In 1876 George Smith,
 who had deciphered the flood tablet (Session 10), thought he had found one in
 the British Museum: *"[small] and great he confounded their speech… their
 strong place (tower) all the day they founded."* Within a generation, better
-readings showed it was a lament about forced labour in Babylon, with no tower
-in it at all. By 1921 the Museum's keeper, E. A. Wallis Budge, had been asked
+readings showed it was a lament over Babylon's oppression by a god or king,
+with no tower in it at all. By 1921 the Museum's keeper, E. A. Wallis Budge, had been asked
 often enough to answer in print: *"Enquiries are from time to time made at the Museum for tablets
 which deal with… the destruction of the Tower of Babel… it is perhaps not
 superfluous to say that nothing of the kind exists."* (A Sumerian poem,
@@ -310,8 +338,8 @@ lost unity or forward to one. It has no tower.)
 
 What Babylon had was the opposite story — and it told it about itself.
 
-**The gods built it.** The creation epic we read in Session 1 ends with the
-gods building a city for Marduk:
+**The gods built it.** Near the end of the creation epic we read in Session
+1, the gods build a city for Marduk:
 
 > The Anunnaki carried the basket, the first year [they made] its bricks. On
 > the approach of the second year they raised aloft the head of Esagila, over
@@ -322,7 +350,8 @@ gods building a city for Marduk:
 **The kings built it to rival heaven.** Babylon's real tower was called
 ***Etemenanki***, "House of the Foundation of Heaven and Earth," and it was
 already old: Sennacherib of Assyria boasted of tearing it down in 689 BC. King
-Nabopolassar raised it again, and a little before 600 BC he wrote that Marduk *"commanded me to firmly secure
+Nabopolassar raised it again, and before his death in 605 BC he wrote that
+Marduk *"commanded me to firmly secure
 its foundation on the surface of the netherworld (and) to have its summit
 rival the heavens"*; he made *"baked bricks like countless drops of rain"* and
 brought bitumen *"like a raging flood."* His son Nebuchadnezzar — the king who
@@ -334,9 +363,9 @@ took Jerusalem — finished it, and said who did the work:
 > *(Nebuchadnezzar II, inscription for Etemenanki)*
 
 The nations of the world gathered in one place to build a tower to heaven:
-that was Babylon's boast, in the king's own words, in the very years Judah's
-exiles were carried there. Genesis tells it the other way round: *"the LORD scattered them
-from there."*
+that was Babylon's boast, in the king's own words. Whenever Genesis's story
+was first told, Judah's exiles heard it under this tower, and it tells the
+boast the other way round: *"the LORD scattered them from there."*
 
 **An Assyrian king made them "one mouth."** A century earlier, Sargon II of
 Assyria built himself a new capital, Dur-Sharrukin, and filled it with the
@@ -355,7 +384,10 @@ killed in battle in 705 BC and his body was never recovered; his son moved
 the capital to Nineveh and left the new city behind. *One mouth* was
 the Assyrian way of saying *one will*; Genesis says the builders had *"one
 lip"* (11:1, literally). Some scholars think Genesis 11 has cities like this
-one in view: *"and they stopped building the city"* (11:8).
+one in view: *"and they stopped building the city"* (11:8). Read verse 6 in
+that light — *"nothing they plan to do will be beyond them"* — and it may
+sound less like a God afraid of what people can do, and more like one who
+knows what a single will, imposed on everyone, can do.
 
 <figure class="map-figure brick-figure">
 <img src="nebuchadnezzar-brick.jpg" alt="A baked brick from Babylon, its top stamped with a rectangle of cuneiform: the name and titles of Nebuchadnezzar II.">
@@ -367,8 +399,9 @@ Babylon carry his name. A name, made of bricks.
 
 **The god came down to rest.** Herodotus, describing the tower in the fifth
 century BC, counts eight stages, with a stair winding round the outside, and
-on top a shrine with *"a great and well-covered couch"*; the priests said
-*"that the god himself is wont to visit the shrine and rest upon the couch"*
+on top a shrine with *"a great and well-covered couch"*; the priests said —
+*"but I do not believe them,"* he adds — *"that the god himself is wont to
+visit the shrine and rest upon the couch"*
 (1.181–182). In Genesis God comes down too (11:5) — not to rest in the house
 they made for him, but to look at it, and end it.
 
@@ -421,9 +454,15 @@ world was created"* (Session 2), counts both:
 > father came, and received the reward of them all. *(Pirkei Avot 5:2)*
 
 The lives grow shorter as the list goes on — Shem 600 years, Eber 464, Peleg
-239, Nahor 148, Terah 205 — and Genesis 5's refrain, *"and then he died,"* is
-gone from the list. Each man here lives, and has *"other sons and daughters,"*
-and the list leans forward.
+239, Nahor 148 — until Terah's 205; and Genesis 5's refrain, *"and then he
+died,"* is gone from the list. Each man here lives, and has *"other sons and
+daughters,"* and the list leans forward.
+
+Add up the ages and Peleg, in whose days *"the earth was divided,"* is born a
+century after the flood, as Ibn Ezra worked out. Others, among them the
+Princeton theologians W. H. Green and B. B. Warfield, have held that lists
+like this skip generations; the Greek translation of Genesis, and Luke's
+genealogy after it, have an extra name here, Cainan (Luke 3:36).
 
 ### Terah's household (11:27–32)
 
@@ -442,12 +481,15 @@ father about idols, then *"arose by night, and burned the house of the
 idols"*; Haran *"hasted to save them, but the fire flamed over him… and he
 died in Ur of the Chaldees before Terah his father"* (12:12–14) — the story
 behind 11:28. The rabbis' Abram smashes the idols in his father's shop and is
-thrown into a furnace by Nimrod (*Genesis Rabbah* 38:13). In another telling
-he walks past Babel while it is going up and curses it in the name of his God
-(*Pirkei de Rabbi Eliezer* 24). And *Jubilees* says that when God called him,
+thrown into a furnace by Nimrod (*Genesis Rabbah* 38:13). In a first-century
+retelling, the *Biblical Antiquities*, the builders say, *"let us, each one,
+write our names upon the bricks and burn them with fire,"* and twelve men
+refuse, Abram first: *"We will not set bricks with you, neither will we be
+joined with your desire. One Lord know we, and him do we worship"* (6:2–4).
+And *Jubilees* says that when God called him,
 he opened Abram's mouth to speak Hebrew again, *"the tongue of the creation,"*
 which had *"ceased from the mouths of all the children of men from the day of
-the overthrow"* (12:25–26). These are legends, and they know it. But they all
+the overthrow"* (12:25–26). These are legends. But they all
 hear the same thing in Genesis: **Abram is the answer to Babel.**
 
 ### "Go" (12:1–3)
@@ -506,12 +548,14 @@ him"* (39:11).
 five times in the Hebrew. Now count the word *cursed* (*ʾārar*) in all of
 Genesis 1–11: also five. The serpent (3:14) and the ground (3:17), Session 5.
 Cain (4:11), Session 6. The ground again, when Lamech names his son Noah
-(5:29), Session 7. Canaan (9:25), Session 10. Commentators such as Kenneth
-Mathews and J. Gerald Janzen have noticed the match: **five curses in eleven
-chapters; five blessings in three verses.**
+(5:29), Session 7. Canaan (9:25), Session 10. Commentators have long noticed
+the match: **five curses in eleven chapters; five blessings in three verses.**
+(Verse 3 does curse once more — *"the one who treats you lightly I must
+curse"* — one curse, against five blessings.)
 
 **"All the families of the earth."** *Families* (*mišpəḥôt*) is chapter 10's
-word — *"according to their families"* — the peoples on the map. *Nation*
+word — *"according to their families"* — the peoples on the map, *"the
+families of the Canaanites"* (10:18) among them. *Nation*
 (*gôy*) appears nowhere in Genesis before chapter 10, and nowhere after it
 until God says *"I will make you into a great nation"* (12:2): Abram becomes
 one more name on the table, for the sake of all the others. And *"the earth"*
@@ -519,16 +563,22 @@ here is ***hā-ʾădāmâ*** — the ground, the very ground that was cursed in 
 garden (3:17). The families of the cursed ground will be blessed through one
 family.
 
-The rabbis heard one more thing in *"will be blessed,"* ***wə-niḇrəḵû***. The
-verb sounds like a gardener's word, ***ləhaḇrîḵ***, *to graft*:
+The rabbis heard two things in *"will be blessed,"* ***wə-niḇrəḵû***. Rashi
+gives the plain sense: Abram's name will become the words of a blessing — *"A
+man says to his son, 'Mayest thou become as Abraham,'"* as Jacob will bless
+Joseph's sons, *"May God make you like Ephraim and Manasseh"* (48:20), words
+still said over Jewish children every Friday night. Babel's name became a word
+for confusion; Abram's becomes a blessing. And the verb sounds like a
+gardener's word, ***ləhaḇrîḵ***, *to graft*:
 
 > The Holy One, Blessed be He, said to Abraham: I have two good shoots to
 > graft onto you: Ruth the Moabite… and Naamah the Ammonite. *(Talmud,
 > Yevamot 63a)*
 
 Ruth the Moabite is David's great-grandmother; Naamah, Solomon's Ammonite
-wife, is the mother of Rehoboam, and so of every king of Judah after him. The blessing does not stay
-inside the family; it grafts the nations in. And Paul says that in this
+wife, is the mother of Rehoboam, and so of every king of Judah after him.
+Both descend from Lot, who sets out with Abram (12:4). The blessing does not
+stay inside the family. And Paul says that in this
 promise Scripture *"proclaimed the gospel to Abraham ahead of time"* (Galatians
 3:8).
 
@@ -593,7 +643,7 @@ by name.
 
 ---
 
-*Scripture quoted by permission from the NET Bible® copyright ©1996, 2019 by Biblical Studies Press, L.L.C., [netbible.com](https://netbible.com). All rights reserved. Hebrew counts are from the Open Scriptures Hebrew Bible (CC BY 4.0); literal Hebrew renderings are ours. The map was drawn for this study from Natural Earth (public domain) and the Köppen–Geiger climate maps of H. E. Beck and others (2023, CC BY 4.0); its identifications and sources are on **[the table of nations](texts/the-table-of-nations.html)**. Josephus from W. Whiston (1737); Jubilees from R. H. Charles (1917); Pirkei Avot 5:2 from C. Taylor (1897); Pirkei de Rabbi Eliezer from G. Friedlander (1916); all public domain. Genesis Rabbah from the Sefaria Midrash Rabbah (CC BY); Rashi from M. Rosenbaum and A. M. Silbermann (public domain, as labelled by Sefaria); Ibn Ezra from H. N. Strickman and A. M. Silver (CC BY-NC); Sukkah 55b, Chullin 89a and Yevamot 63a from the William Davidson Edition (CC BY-NC); all via Sefaria. Enuma Elish VI from D. D. Luckenbill (1921); the brick stamp from the British Museum's Guide (1908); Herodotus from A. D. Godley (1920); Gilgamesh XI from R. Campbell Thompson (1928); G. Smith (1876) and E. A. W. Budge (1921); all public domain. Nabopolassar and Nebuchadnezzar II from Royal Inscriptions of Babylonia online (F. Weiershäuser and J. Novotny, CC BY-SA 3.0). Enmerkar and the Lord of Aratta and Lugalbanda and the Anzud Bird from the Electronic Text Corpus of Sumerian Literature (J. Black and others, CC BY-NC-SA 3.0). Sargon II from D. D. Luckenbill, Ancient Records of Assyria and Babylonia II (1927), public domain. J. Clarke, N. Brooks and others, "Climatic changes and social transformations in the Near East and North Africa during the 'long' 4th millennium BC," Quaternary Science Reviews 136 (2016), CC BY 4.0. The map before the cities was drawn for this study from dated sites and the Köppen–Geiger maps (sources on the sheet). Brick photograph: Daderot, CC0. Described, not quoted: J. P. Fokkelman, Narrative Art in Genesis (1975); G. J. Wenham, Genesis 1–15 (1987); K. A. Mathews, Genesis 1–11:26 (1996); J. G. Janzen, Abraham and All the Families of the Earth (1993); R. McC. Adams, Heartland of Cities (1981); R. D. Biggs, Inscriptions from Tell Abu Salābīkh (1974). Every quotation is given in full, with its source, on the sheets: **[Babel to Abram in Hebrew](texts/babel-in-hebrew.html)** · **[Babylon's tower](texts/babylons-tower.html)** · **[Babel among its readers](texts/early-readers.html)** · **[The ground under Babel](texts/the-ground-under-babel.html)**.*
+*Scripture quoted by permission from the NET Bible® copyright ©1996, 2019 by Biblical Studies Press, L.L.C., [netbible.com](https://netbible.com). All rights reserved. Hebrew counts are from the Open Scriptures Hebrew Bible (CC BY 4.0); literal Hebrew renderings are ours. The map was drawn for this study from Natural Earth (public domain) and the Köppen–Geiger climate maps of H. E. Beck and others (2023, CC BY 4.0); its identifications and sources are on **[the table of nations](texts/the-table-of-nations.html)**. Josephus from W. Whiston (1737); Jubilees from R. H. Charles (1917); Pirkei Avot 5:2 from C. Taylor (1897); Pirkei de Rabbi Eliezer from G. Friedlander (1916); all public domain. Genesis Rabbah from the Sefaria Midrash Rabbah (CC BY); Rashi from M. Rosenbaum and A. M. Silbermann (public domain, as labelled by Sefaria); Ibn Ezra from H. N. Strickman and A. M. Silver (CC BY-NC); Sukkah 55b, Sanhedrin 109a, Chullin 89a and Yevamot 63a from the William Davidson Edition (CC BY-NC); all via Sefaria. Pseudo-Philo's Biblical Antiquities from M. R. James (1917), public domain. Enuma Elish VI from D. D. Luckenbill (1921); the brick stamp from the British Museum's Guide (1908); Herodotus from A. D. Godley (1920); Gilgamesh XI from R. Campbell Thompson (1928); G. Smith (1876) and E. A. W. Budge (1921); all public domain. Nabopolassar and Nebuchadnezzar II from Royal Inscriptions of Babylonia online (F. Weiershäuser and J. Novotny, CC BY-SA 3.0). Enmerkar and the Lord of Aratta and Lugalbanda and the Anzud Bird from the Electronic Text Corpus of Sumerian Literature (J. Black and others, CC BY-NC-SA 3.0). Sargon II from D. D. Luckenbill, Ancient Records of Assyria and Babylonia II (1927), public domain. J. Clarke, N. Brooks and others, "Climatic changes and social transformations in the Near East and North Africa during the 'long' 4th millennium BC," Quaternary Science Reviews 136 (2016), CC BY 4.0. The map before the cities was drawn for this study from dated sites and the Köppen–Geiger maps (sources on the sheet). Brick photograph: Daderot, CC0. Described, not quoted: J. P. Fokkelman, Narrative Art in Genesis (1975); G. J. Wenham, Genesis 1–15 (1987); T. Hiebert, "The Tower of Babel and the Origin of the World's Cultures," Journal of Biblical Literature 126 (2007); W. H. Green, "Primeval Chronology" (1890), and B. B. Warfield, "On the Antiquity and the Unity of the Human Race" (1911); R. McC. Adams, Heartland of Cities (1981); R. D. Biggs, Inscriptions from Tell Abu Salābīkh (1974). Every quotation is given in full, with its source, on the sheets: **[Babel to Abram in Hebrew](texts/babel-in-hebrew.html)** · **[Babylon's tower](texts/babylons-tower.html)** · **[Babel among its readers](texts/early-readers.html)** · **[The ground under Babel](texts/the-ground-under-babel.html)**.*
 {: .no-print}
 
 [← Back to all sessions](../../)

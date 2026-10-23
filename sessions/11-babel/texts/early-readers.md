@@ -54,7 +54,9 @@ older material; *Pirkei de Rabbi Eliezer*, 8th–9th century; Rashi
 > himself on God for destroying their forefathers!
 > — *Antiquities 1.4.2*
 
-Josephus is the first writer we know of to make Nimrod the builder. Genesis
+Josephus is among the first writers we know of to make Nimrod the builder
+(Pseudo-Philo's *Biblical Antiquities*, below, also puts him among the
+builders' chiefs, and may be a little older). Genesis
 only puts Babel first among his cities (10:10).
 
 ### Ibn Ezra: a city to live in, and a tower to be famous
@@ -93,7 +95,7 @@ only puts Babel first among his cities (10:10).
 > earth" (Genesis 11:9).
 > — *Talmud, Sanhedrin 109a* (R. Yirmeya bar Elazar)
 
-The same page records an older opinion that they meant to *"strike"* the sky
+The same page records the opinion of the school of Rabbi Sheila, that they meant to *"strike"* the sky
 *"with axes so that its waters will flow"* — and that the rabbis in the land
 of Israel *"laughed at"* it: *"let them build a tower on a mountain; why did
 they build it specifically in a valley?"*
@@ -106,9 +108,10 @@ they build it specifically in a valley?"*
 > though it is waging war against Him."
 > — *Genesis Rabbah 38:6*
 
-The Aramaic paraphrase read in the synagogue says the same in 11:4: *"we will
-make us (an image for) worship on the top of it, and put a sword in his hand"*
-(*Targum Pseudo-Jonathan*).
+A later Aramaic paraphrase, *Targum Pseudo-Jonathan*, says the same in 11:4:
+*"we will make us (an image for) worship on the top of it, and put a sword in
+his hand."* (*Targum Onkelos*, the Aramaic version read in the synagogue, keeps
+*"make us a name."*)
 
 ### Philo: the tower in the soul
 
@@ -135,8 +138,10 @@ Confusion of Tongues* 113–116).
 > other, as it is stated: "The entire earth was of one language," that is why
 > a remnant of them remained.
 >
-> Rabbi says: Great is peace… You thus learn: Peace is great, and dispute is
-> despised.
+> Rabbi says: Great is peace, as even if Israel engages in idol worship, but
+> there is peace among them, the Omnipresent says: 'It is, as it were, that I
+> have no power over them, since there is peace among them'… You thus learn:
+> Peace is great, and dispute is despised.
 > — *Genesis Rabbah 38:6*
 
 Another opinion in the same paragraph: *"all their items were united among
@@ -305,6 +310,24 @@ them?"* (12:4–6).
 
 Terah hands him over to Nimrod, who casts him into a fire; Abram is rescued.
 The story hangs on the name *Ur* of the Chaldeans — *ʾûr* also means *fire*.
+
+### Twelve who would not make bricks
+
+> And they said everyone to his neighbour: Let us take bricks, and let us,
+> each one, write our names upon the bricks and burn them with fire… And they
+> took every man their bricks, saving 12 men, which would not take them, and
+> these are their names: Abraham, Nachor, Loth, Ruge, Tenute, Zaba, Armodath,
+> Iobab, Esar, Abimahel, Saba, Auphin. And the people of the land laid hands
+> on them and brought them before their princes… And they answered and said:
+> We will not set bricks with you, neither will we be joined with your desire.
+> One Lord know we, and him do we worship.
+> — *Pseudo-Philo, Biblical Antiquities 6:2–4*
+
+The *Biblical Antiquities* is a Jewish retelling of Genesis to Samuel,
+preserved in Latin and once wrongly credited to Philo; it is usually dated to
+the first century AD. In the next lines the twelve are threatened with the fire
+of the brick-kilns, and Abram is thrown in and comes out unharmed (6:16–18):
+another form of the furnace story that *Genesis Rabbah* tells with Nimrod.
 
 ### Abram walks past Babel
 
@@ -477,6 +500,10 @@ Genesis 10 is the gospel going out to the nations.
   (Koren–Steinsaltz), CC BY-NC, via Sefaria. That translation sets the
   literal words in bold and its explanations in plain type; the distinction is
   not kept here.
+- **Pseudo-Philo**, *The Biblical Antiquities of Philo*, trans. M. R. James
+  (1917), public domain, via R. A. Kraft's
+  [online edition](https://ccat.sas.upenn.edu/rak/publics/pseudepig/LAB.html);
+  James's bracketed note on the bricks is omitted.
 - ***Pirkei de Rabbi Eliezer***, trans. G. Friedlander (1916), public domain,
   via [Sefaria](https://www.sefaria.org/Pirkei_DeRabbi_Eliezer.24).
 - ***Targum Pseudo-Jonathan***, trans. J. W. Etheridge (1862), public domain,

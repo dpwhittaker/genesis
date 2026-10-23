@@ -66,7 +66,7 @@ north than in the south. The dated lakes on the map:
 | **Lake** | **Wet** | **Source** |
 |---|---|---|
 | Tayma, north-west Arabia | about 6850–5950 BC | I. Neugebauer and others, 2022 |
-| Jubbah, in the Nafud | about 6950–5950 BC | Crassard and others, 2013 |
+| Jubbah, in the Nafud | from about 8000 BC; dated levels about 6950–5950 BC | Crassard and others, 2013 |
 | Mundafan, edge of the Empty Quarter | about 7000–4000 BC | Crassard and others, 2013 |
 
 *Debated:* how wet. Some argue that many of these "lakes" were marshes fed by
