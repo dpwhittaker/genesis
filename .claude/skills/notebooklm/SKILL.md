@@ -1,6 +1,6 @@
 ---
 name: notebooklm
-description: Generate NotebookLM "Deep Dive" podcasts for a Genesis lesson. Uploads the lesson's handout + primary texts (as clean plain text) to the class NotebookLM notebook, then drives the site with claude-in-chrome to produce TWO Deep Dive audio episodes — a LONG one (Long preset) and a SHORT one (Default preset) — each focus-prompted at the lesson you're working on (or narrower topics on request), and downloads them into sessions/<slug>/ as <slug>-long.m4a and <slug>-short.m4a. Use when the user says "make podcasts for session N", "deep dive for lesson N", "generate the NotebookLM audio", "long and short podcast". Browser-driven (no NotebookLM API): needs a Chrome with the Claude extension signed into the same claude.ai account; downloads land wherever that Chrome runs, so prefer a Chrome on THIS machine.
+description: Generate NotebookLM "Deep Dive" podcasts for a Genesis lesson. Adds the lesson's handout + primary texts (as clean plain text, fetched from the pushed repo) to a fresh NotebookLM notebook, then drives the site with claude-in-chrome to produce TWO Deep Dive audio episodes — a LONG one (Long preset) and a SHORT one (Default preset) — each focus-prompted at the lesson you're working on (or narrower topics on request), and downloads them into sessions/<slug>/ as <slug>-long.m4a and <slug>-short.m4a. Use when the user says "make podcasts for session N", "deep dive for lesson N", "generate the NotebookLM audio", "long and short podcast". Browser-driven (no NotebookLM API): needs a Chrome with the Claude extension signed into the same claude.ai account; downloads land wherever that Chrome runs, so prefer a Chrome on THIS machine.
 ---
 
 # NotebookLM Deep Dive podcasts
@@ -9,12 +9,12 @@ description: Generate NotebookLM "Deep Dive" podcasts for a Genesis lesson. Uplo
 
 Genesis lessons ship with two podcasts (a long and a shorter one) generated from the lesson's handout + sources in **NotebookLM**. NotebookLM has **no API** for any of this — it is entirely browser automation via `claude-in-chrome`. This skill uploads the lesson's text sources, configures two Deep Dive episodes, and retrieves the audio into the repo (where the `publish-lesson` skill expects it).
 
-**Default notebook:** `https://notebooklm.google.com/notebook/12348a6a-d64b-49f6-b764-99104fdd9321` (the class's existing project). Override only if the user names a different notebook.
+**Each lesson gets a fresh notebook** (step 3). The class's old shared notebook, `https://notebooklm.google.com/notebook/12348a6a-d64b-49f6-b764-99104fdd9321`, is reused only if the user asks for it.
 
 ## How the browser connection actually works (read this)
 
 - Control is **not** over Tailscale and **not** a port/tunnel. The Claude-in-Chrome extension pairs a browser to your **claude.ai account**; any Chrome with the extension, signed into the *same account as this Claude session*, appears in `list_connected_browsers`. (claude-hub launches `claude --chrome`, so the integration is already enabled — but it does not itself pick the browser.)
-- `file_upload` reads files from **this machine** (the one running Claude) and pushes them into the remote page's file input, ≤10 MB per call — so uploading sources works even if the browser is elsewhere.
+- **Sources don't travel through Claude.** NotebookLM has no file input to upload into, so the page fetches the lesson's committed files from GitHub itself and pastes them in (step 4). That works wherever the browser runs.
 - **Downloads go to the machine the browser runs on.** The user wants the audio to land here in the repo, so **prefer the Chrome running on this host** — this machine has a desktop session with `google-chrome` installed, and its downloads land in `~/Downloads`, on the same filesystem as the repo. Only fall back to a browser on another device for debugging / watching clicks (then the file is on that device and must be copied back — step 7 fallback).
 
 ## Prerequisites — check, and stop with a clear message if unmet
@@ -23,13 +23,15 @@ Genesis lessons ship with two podcasts (a long and a shorter one) generated from
 2. A Chrome with the Claude extension is running and signed into the **same claude.ai account** — and, in that Chrome, the user is **signed into Google and NotebookLM**. (Claude can drive the browser but cannot log in for the user; entering Google credentials is the user's job.)
 3. Confirm the length mapping and focus with the user if not already given: **long = "Long" preset → `<slug>-long.m4a`, short = "Default" preset → `<slug>-short.m4a`**; focus defaults to the lesson's theme unless they name specific topics.
 
-## Step 1 — prep clean text sources
+## Step 1 — commit and push the sources
+
+The browser fetches the handout and source sheets from GitHub at the current commit (step 4), so whatever the podcasts should hear must be **committed and pushed** first — usually it already is, after `print-session`. `add-sources-js.sh` refuses to run if `sessions/<slug>/` has uncommitted changes or HEAD is not on `origin/main`.
+
+What NotebookLM receives is the clean plain text that `prep-sources.sh` makes — the handout as `<slug>__handout.txt` and one `<slug>__text__<name>.txt` per file in `texts/`, with front matter, HTML and kramdown stripped. To read exactly what the hosts will be grounded on:
 
 ```bash
 .claude/skills/notebooklm/prep-sources.sh <slug> <scratchpad-dir>
 ```
-
-Pass this session's scratchpad directory as `<scratchpad-dir>` (its files are upload-eligible). It writes `<slug>__handout.txt` (the handout with front matter / HTML / kramdown stripped) and one `<slug>__text__<name>.txt` per file in `sessions/<slug>/texts/`, and prints their absolute paths. These plain-text files are what you upload — cleaner grounding than raw markdown, and a format NotebookLM always accepts. Keep the printed path list for step 4.
 
 ## Step 2 — pick the browser (required by the tool)
 
@@ -41,19 +43,30 @@ Do not pick one yourself. On the user's choice: `select_browser` with that devic
 
 > **Rebrand (seen live 2026-07-29): NotebookLM is now "Gemini Notebook."** `notebooklm.google.com` redirects to **`notebook.google.com`**, the page title is "Gemini Notebook," and a first-visit welcome modal ("NotebookLM is now Gemini Notebook… **Let's go**") overlays the UI — dismiss it before anything else or clicks land on the overlay. The Studio panel is also restructured into a tile grid (Audio Overview / Slide Deck / Video Overview / Mind Map / Reports / Flashcards / Quiz / Infographic / Data Table); there is no longer a separate "Customize Audio Overview" affordance — click the **Audio Overview** tile and the Customize dialog opens directly. The dialog's own contents are unchanged.
 
-`tabs_context_mcp` (createIfEmpty:true) → `tabs_create_mcp` → `navigate` to `https://notebook.google.com/`. Click **"Create notebook"** (top bar) to make a new, empty notebook for this lesson — this is cleaner than reusing the shared class notebook (no source-mixing, no isolation needed). Only reuse the default notebook URL if the user explicitly asks. If a Google sign-in wall appears, stop: the user signs in, then says "continue". Creating the notebook opens the add-source dialog automatically.
+`tabs_context_mcp` (createIfEmpty:true) → `tabs_create_mcp` → `navigate` to `https://notebook.google.com/`. Click **"New notebook"** (top right of the notebook list) to make a new, empty notebook for this lesson — this is cleaner than reusing the shared class notebook (no source-mixing, no isolation needed). Only reuse the old shared notebook if the user explicitly asks. If a Google sign-in wall appears, stop: the user signs in, then says "continue". The new notebook may or may not open the add-source dialog by itself (Session 11's didn't); step 4's script copes with either.
 
-## Step 4 — add the sources as PASTED TEXT (not file upload)
+## Step 4 — add the sources: one script, fetched from GitHub
 
-**NotebookLM has no reachable file input** — the "Upload files" button opens a native OS picker you can't drive, and no `<input type=file>` exists in the DOM to target with `file_upload`. Use the **"Copied text"** path instead:
+**NotebookLM has no reachable file input** — the "Upload files" button opens a native OS picker you can't drive, and no `<input type=file>` exists in the DOM to target with `file_upload`. Sources go in through **"Copied text"**. Don't retype them: a lesson's sources run to ~140 KB, and pasting that through `form_input` means writing every byte out again. Let the page fetch them:
 
-For each prepped `.txt` from step 1:
-1. In the add-source dialog, `find`/click **"Copied text"** (icon `content_paste`).
-2. `find` the "Pasted text" textbox and the "Insert" button. **`Read` the `.txt` file's content**, then `form_input` it into the textbox as the value. (Optionally lightly condense to clean prose — NotebookLM auto-titles the source from the text.)
-3. Click **Insert**. The source appears in the Sources list, auto-titled.
-4. Re-open **"Add sources"** and repeat for the next file.
+```bash
+.claude/skills/notebooklm/add-sources-js.sh <slug> > <scratchpad-dir>/add-sources.js
+```
 
-(A single `form_input` value of ~25 KB works fine. NotebookLM auto-generates a title and notebook name from the content.)
+It prints a ~3 KB script: a `CONFIG` line (the repo at HEAD's SHA, each file's path, and the byte size `prep-sources.sh` makes of it) followed by `add-sources.js`. `Read` that file and pass its whole content as `text` in **one** `javascript_tool` call on the notebook tab. For each source the script:
+
+1. fetches the markdown from `raw.githubusercontent.com` (it sends `Access-Control-Allow-Origin: *`, and the SHA pins the exact commit);
+2. cleans it the way `prep-sources.sh` does, and **stops with an error if the result differs by a single byte** from what `prep-sources.sh` produced;
+3. opens **Add sources → Copied text**, fills the **Pasted text** box (native value setter + `input` event, so the page sees it), clicks **Insert**, and waits for the dialog to close.
+
+It returns `[{path, bytes}]` for every source added. Then take a screenshot: the Sources panel should list them all, each checked, auto-titled from its first heading.
+
+Notes:
+
+- **The repo must be public** for the unauthenticated fetch — it is.
+- **Keep `clean()` in `add-sources.js` and `clean()` in `prep-sources.sh` in step.** The byte check catches any drift; if it fires, fix the JS, don't loosen the check. (Checked 2026-10-23: all 62 handouts and sheets in Sessions 1–11 come out byte-identical.)
+- **The page has three textareas**: the "Discover sources" web-search box, the chat "Query box", and the "Pasted text" box. A generic `textarea` selector finds the search box first; the script targets `textarea[aria-label="Pasted text"]`.
+- **Fallback, if the fetch is ever blocked:** `Read` each `.txt` from `prep-sources.sh` and `form_input` it into the Pasted text box by `ref`, then click **Insert**, once per file. A ~40 KB value works; it is just slow.
 
 ## Step 5 — isolate this lesson's sources
 
@@ -70,8 +83,8 @@ For each episode (queue LONG, then SHORT):
    - LONG → click **Long**
    - SHORT → click **Default** (our "short" file is NotebookLM's Default preset, not its Short one)
 3. Set the **focus textbox** ("What should the AI hosts focus on in this episode?") via `form_input` with the **focus prompt** (below). NotebookLM also offers auto-suggested focus chips — ignore them; set the full prompt explicitly.
-4. Click **Generate**. The Studio panel shows "Generating Audio Overview… Come back in a few minutes."
-5. Re-open Customize and repeat for the second episode. Do not busy-poll; check back after several minutes.
+4. Click **Generate now** (not "Generate later"). The Studio panel shows "Generating Audio Overview… Come back in a few minutes." A "Get notified when it's ready — **Turn on notifications**" card appears too: leave it alone, since it opens Chrome's own permission prompt.
+5. Re-open Customize and repeat for the second episode. Do not busy-poll: run `sleep 480` as a background Bash command and look again when it finishes. (Session 11: the Default episode was ready within about 9 minutes; the Long one was still going at 13 and done by 18.)
 
 **Focus prompt template** (fill from `sessions/<slug>/index.md` — its title and the "Aim of this session" section):
 
@@ -82,7 +95,7 @@ If the user named specific topics, replace the focus sentence with those topics.
 
 ## Step 7 — retrieve the audio into the repo
 
-When an episode is ready (Studio shows it with a duration, a ▶ play button, and a ⋮ menu), open its **⋮ → Download**. NotebookLM saves it named after the episode's auto-title, e.g. `The_Mathematical_Architecture_of_Genesis_1.m4a`.
+When an episode is ready (Studio shows it with a duration such as `48:37 · Deep Dive`, a ▶ play button, and a ⋮ button labelled **More**), open **More → Download**. NotebookLM saves it named after the episode's auto-title, e.g. `The_Mathematical_Architecture_of_Genesis_1.m4a`. **The episodes finish in either order** (Session 11's Default one finished first, though queued second), so tell them apart by duration, never by order or title. Download each as it lands; you need not wait for both.
 
 - **Chrome on this host (the normal case):** downloads land in `~/Downloads`. Move both into the session folder — the LONGER (bigger/longer duration) is the long one:
   ```bash
@@ -163,7 +176,7 @@ Tell the user the two files, their durations, and that they're in `sessions/<slu
 ## Gotchas
 
 - **No API — the UI drifts.** Locate every control by visible text via `find`/`read_page`, not fixed coordinates. If a step's control isn't found, screenshot, re-read the page, and adapt; if stuck after 2–3 tries, stop and ask the user to point at it (or temporarily switch to the mini-pc browser so they can watch).
-- **Never click file inputs** — always `file_upload` by `ref`.
+- **Never click file inputs or "Upload files"** — it opens a native OS picker that freezes the extension. Sources go in as pasted text (step 4).
 - **Don't trigger native dialogs** (alerts/pickers) — they freeze the extension.
 - **Generation is slow (minutes).** Don't busy-poll; check back at intervals.
 - **Login is the user's job.** If any Google/consent wall appears, stop and hand off; do not enter credentials.
