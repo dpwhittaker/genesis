@@ -88,7 +88,9 @@ For each episode (queue LONG, then SHORT):
 
 **Focus prompt template** (fill from `sessions/<slug>/index.md` — its title and the "Aim of this session" section):
 
-> Focus this episode on **<lesson title>**. Center the conversation on the lesson's main argument: <one-sentence aim, paraphrased from the handout>. Ground everything in the uploaded sources; teach it for an adult small group; keep it warm and concrete. Do not drift to other lessons or outside material.
+> Focus this episode on **<lesson title>**. Center the conversation on the lesson's main argument: <one-sentence aim, paraphrased from the handout>. Ground everything in the uploaded sources; teach it for an adult small group; keep it warm and concrete. Do not drift to other lessons or outside material. Say Bible references aloud as chapter then verse: "Genesis twelve three" for Genesis 12:3, never "twelve point three".
+
+The last sentence is the user's standing instruction: keep it in every focus prompt, long and short.
 
 For the SHORT episode, add: "Keep it tighter — hit only the core moves."
 If the user named specific topics, replace the focus sentence with those topics.
