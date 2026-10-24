@@ -13,6 +13,17 @@ layout: default
 🖨️ **[Printable handout (PDF, 12 pages)](11-babel.pdf)** — print this file rather than the web page; it is the exact layout checked for paper.
 {: .no-print}
 
+<div class="no-print" markdown="1">
+
+## 🎧 Listen
+
+Two companion podcasts for this session — good before you read, or to revisit afterward:
+
+- **Short overview** (~20 min): <audio controls preload="none" src="11-babel-short.m4a">Your browser can't play audio — [download the file](11-babel-short.m4a).</audio>
+- **Longer deep dive** (~49 min): <audio controls preload="none" src="11-babel-long.m4a">Your browser can't play audio — [download the file](11-babel-long.m4a).</audio>
+
+</div>
+
 ## A note before we begin
 
 Today closes the first great section of Genesis. Chapters 1 to 11 have been
