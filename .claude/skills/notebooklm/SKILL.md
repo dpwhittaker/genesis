@@ -72,32 +72,48 @@ Notes:
 
 Only needed if you **reused** a shared notebook (skip for a fresh one). In the Sources panel, deselect every source except the ones just added, so the Deep Dive is grounded only on this lesson.
 
-## Step 6 — generate the two Deep Dives (can run in PARALLEL)
+## Step 6 — queue the two Deep Dives: one script
 
-Both episodes can generate at once — queue the long one, then immediately queue the short; you do **not** have to wait or download between them. Each takes several minutes.
+Both episodes generate at once: queue them back to back, with no waiting or downloading between. Write the two focus prompts (template below) to files in the scratchpad, then:
 
-For each episode (queue LONG, then SHORT):
+```bash
+.claude/skills/notebooklm/queue-audio-js.sh <scratchpad-dir>/focus-long.txt <scratchpad-dir>/focus-short.txt > <scratchpad-dir>/queue-audio.js
+```
 
-1. Click the **Audio Overview** tile in the Studio panel (post-rebrand there is no separate "Customize" affordance — the tile opens the Customize dialog directly).
-2. In the **Customize Audio Overview** dialog: leave **Format = Deep Dive** (default, first tile, has the checkmark). Language = English. The **Length** control is three radios labelled **Short / Default / Long**. The dialog often renders *faded behind* the notebook summary — don't try to read it from a screenshot; `find` the controls and click by `ref`:
-   - LONG → click **Long**
-   - SHORT → click **Default** (our "short" file is NotebookLM's Default preset, not its Short one)
-3. Set the **focus textbox** ("What should the AI hosts focus on in this episode?") via `form_input` with the **focus prompt** (below). NotebookLM also offers auto-suggested focus chips — ignore them; set the full prompt explicitly.
-4. Click **Generate now** (not "Generate later"). The Studio panel shows "Generating Audio Overview… Come back in a few minutes." A "Get notified when it's ready — **Turn on notifications**" card appears too: leave it alone, since it opens Chrome's own permission prompt.
-5. Re-open Customize and repeat for the second episode. Do not busy-poll: run `sleep 480` as a background Bash command and look again when it finishes. (Session 11: the Default episode was ready within about 9 minutes; the Long one was still going at 13 and done by 18.)
+It checks each prompt against the dialog's 5000-character cap, appends the pronunciation line to a prompt that lacks it, and prints a script: a `CONFIG` line holding both prompts, followed by `queue-audio.js`. `Read` that file and pass its whole content as `text` in **one** `javascript_tool` call on the notebook tab. For each episode, long then short, the script:
+
+1. clicks the **Audio Overview** tile in the Studio panel, which opens the **Customize Audio Overview** dialog directly;
+2. checks **Format = Deep Dive** and **Language = English** (it stops rather than change the language);
+3. selects the **Length**: **Long** for the long episode, **Default** for the short one (our "short" file is NotebookLM's Default preset, not its Short one);
+4. fills the focus box ("What should the AI hosts focus on in this episode?") with the prompt, ignoring the suggested focus chips;
+5. clicks **Generate now** (not "Generate later") and waits for the dialog to close.
+
+It returns each episode it queued, with the dialog's source count (`6 sources`: check it matches the Sources panel), and the Studio panel's items. Take one screenshot to confirm both are generating. A "Get notified when it's ready — **Turn on notifications**" card appears too: leave it alone, since it opens Chrome's own permission prompt.
+
+With `--dry-run` before the paths, the script does everything except generate: it fills and checks each dialog, then closes it. That makes it safe to try on any notebook after the UI changes. (Tested that way on Session 11's notebook on 2026-10-25; Session 12 is its first real run.)
+
+Then wait: run `sleep 480` as a background Bash command, not a busy poll. (Session 11: the Default episode was ready within about 9 minutes; the Long one was still going at 13 and done by 18.)
+
+**Fallback, if the script stops:** its error names the control it couldn't find. Do that episode by hand: click the tile, `find` the controls and click by `ref` (the dialog often renders faded behind the notebook summary, so don't read it from a screenshot), `form_input` the prompt, and click **Generate now**.
 
 **Focus prompt template** (fill from `sessions/<slug>/index.md` — its title and the "Aim of this session" section):
 
 > Focus this episode on **<lesson title>**. Center the conversation on the lesson's main argument: <one-sentence aim, paraphrased from the handout>. Ground everything in the uploaded sources; teach it for an adult small group; keep it warm and concrete. Do not drift to other lessons or outside material. Say Bible references aloud as chapter then verse: "Genesis twelve three" for Genesis 12:3, never "twelve point three".
 
-The last sentence is the user's standing instruction: keep it in every focus prompt, long and short.
+The last sentence is the user's standing instruction: keep it in every focus prompt, long and short. (`queue-audio-js.sh` appends it to a prompt that lacks it.)
 
 For the SHORT episode, add: "Keep it tighter — hit only the core moves."
 If the user named specific topics, replace the focus sentence with those topics.
 
 ## Step 7 — retrieve the audio into the repo
 
-When an episode is ready (Studio shows it with a duration such as `48:37 · Deep Dive`, a ▶ play button, and a ⋮ button labelled **More**), open **More → Download**. NotebookLM saves it named after the episode's auto-title, e.g. `The_Mathematical_Architecture_of_Genesis_1.m4a`. **The episodes finish in either order** (Session 11's Default one finished first, though queued second), so tell them apart by duration, never by order or title. Download each as it lands; you need not wait for both.
+After each wait, pass the whole of `.claude/skills/notebooklm/collect-audio.js` as `text` in **one** `javascript_tool` call on the notebook tab. It needs no wrapper; it carries its own `CONFIG = { expect: 2 }`. It reads the Studio panel, where a finished episode shows its duration (`48:37 · Deep Dive · 6 sources · 1d ago`), a ▶ play button and a ⋮ button labelled **More**:
+
+- **Until both are finished**, it returns `{waiting: "1 of 2 ready", studio: [...]}` and downloads nothing. Wait again (a background `sleep 300`).
+- **Once both are**, it opens **More → Download** on each, longest first, and returns `{downloaded: [{title, duration}, …]}`. Don't run it again after that, or it downloads both a second time.
+- **If it finds more finished episodes than it expects** (a reused notebook), it stops. Download the right ones by hand there: **More → Download**.
+
+NotebookLM names each file after the episode's auto-title, e.g. `The_Mathematical_Architecture_of_Genesis_1.m4a`. **The episodes finish in either order** (Session 11's Default one finished first, though queued second), so tell them apart by duration, never by order or title; the script lists the long one first.
 
 - **Chrome on this host (the normal case):** downloads land in `~/Downloads`. Move both into the session folder — the LONGER (bigger/longer duration) is the long one:
   ```bash
@@ -177,7 +193,7 @@ Tell the user the two files, their durations, and that they're in `sessions/<slu
 
 ## Gotchas
 
-- **No API — the UI drifts.** Locate every control by visible text via `find`/`read_page`, not fixed coordinates. If a step's control isn't found, screenshot, re-read the page, and adapt; if stuck after 2–3 tries, stop and ask the user to point at it (or temporarily switch to the mini-pc browser so they can watch).
+- **No API — the UI drifts.** Locate every control by visible text via `find`/`read_page`, not fixed coordinates. The three scripts find controls by label and text too, and each stops with an error naming the control it couldn't find; fix the selector in the `.js` file, then re-test with `queue-audio-js.sh --dry-run`. If a step's control isn't found, screenshot, re-read the page, and adapt; if stuck after 2–3 tries, stop and ask the user to point at it (or temporarily switch to the mini-pc browser so they can watch).
 - **Never click file inputs or "Upload files"** — it opens a native OS picker that freezes the extension. Sources go in as pasted text (step 4).
 - **Don't trigger native dialogs** (alerts/pickers) — they freeze the extension.
 - **Generation is slow (minutes).** Don't busy-poll; check back at intervals.
