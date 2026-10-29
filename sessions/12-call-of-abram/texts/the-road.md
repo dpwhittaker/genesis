@@ -82,7 +82,8 @@ handout and map follow the majority.
 temple was the Ekishnugal, "house of the great light," and his ziggurat, built
 under Ur-Nammu around 2100 BC and rebuilt by Nabonidus, still stands.
 
-**Haran** was the moon god's other great home. The Mari letters of the 18th
+**Haran** was the moon god's other great home. Its name is the Akkadian word
+*ḫarrānu*, "road, journey, caravan": it stood where the trade routes crossed. The Mari letters of the 18th
 century BC already mention Sin of Haran; north Syrian inscriptions call him
 *Bēl-Ḫarrān*, "Lord of Haran"; and his temple, E-ḫulḫul, "house of joy," was
 rebuilt by Nabonidus, whose mother Adad-guppi served Sin there. Her funerary

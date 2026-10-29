@@ -98,13 +98,16 @@ Three words, one root, ***rāʾâ***, "see":
   the God an altar is for: Abram's altar *"to the LORD, who had appeared to
   him"* (12:7), and God's command to Jacob, *"Make an altar there to God, who
   appeared to you"* (35:1).
-- **God says "I show you" only twice in the Torah,** first and last, and both
-  times about this land: *"to the land that I will show you"* (Genesis 12:1),
-  and to Moses on Mount Nebo, *"This is the land I promised to Abraham, Isaac,
-  and Jacob when I said, 'I will give it to your descendants.' I have let you
-  see it (**herʾîṯîḵā**), but you will not cross over there"* (Deuteronomy
-  34:4) — quoting God's words at Shechem, *"to your descendants I will give
-  it."*
+- **God speaks of showing *the land* only twice in the Torah,** first and
+  last: *"to the land that I will show you"* (Genesis 12:1), and to Moses on
+  Mount Nebo, *"This is the land I promised to Abraham, Isaac, and Jacob when I
+  said, 'I will give it to your descendants.' I have let you see it
+  (**herʾîṯîḵā**), but you will not cross over there"* (Deuteronomy 34:4). (He
+  also shows Moses the pattern of the tabernacle, *"all that I am showing
+  you,"* Exodus 25:9, with a participle.) Deuteronomy 34:4 echoes the promise
+  at Shechem in the words of the oath formula of Exodus 33:1; the verse that
+  repeats 12:7 word for word is Abraham's own memory of it, *"To your
+  descendants I will give this land"* (24:7).
 - The root keeps going in the next scene, but people do the seeing: Sarai is
   *"beautiful in appearance"* (*mar'eh*, 12:11), *"when the Egyptians see
   you"* (12:12), *"the Egyptians saw"* (12:14), *"Pharaoh's officials saw
@@ -112,8 +115,9 @@ Three words, one root, ***rāʾâ***, "see":
 
 ### 3. The same sentence, two endings
 
-Terah's journey (11:31) and Abram's (12:5) are told in the same words until the
-last three:
+Terah's journey (11:31) and Abram's (12:5) are told in nearly the same words,
+until the ending. Both open *"[he] took"* — *wayyiqqaḥ teraḥ*, *"Terah took"*
+(11:31); *wayyiqqaḥ ʾaḇrām*, *"Abram took"* (12:5) — and then:
 
 | **11:31** | | **12:5** |
 |---|---|---|
@@ -124,14 +128,31 @@ last three:
 | ***ʿaḏ-ḥārān wayyēšəḇû šām*** — as far as Haran, and they settled there | ≠ | ***ʾarṣâ kənāʿan*** — to the land of Canaan |
 {: .ff-wrap}
 
-### 4. "They settled there" — and never again
+**Two strands, or one story?** Readers who hear two sources in Genesis (Session
+9) give both of these verses to the same one, the Priestly strand: 11:31–32 and
+12:4b–5 (from *"Now Abram was 75 years old…"*) belong together, and that strand
+has no call at all — Abram simply finishes the journey his father began. The
+call, *"Go… to the land that I will show you"* (12:1–4a), and the walk to
+Shechem and Bethel (12:6–9) are the older, non-Priestly strand, which also seems
+to treat the Haran district as Abram's own country (24:4, 7, 10). On that view
+the handout's *"stop in Haran, then the word"* appears only when the two are
+read together. Readers who hold to one author see the stop in Haran as part of
+the design — the family's journey, then God's word to finish it — and the
+book as we have it does read that way: Philo, the rabbis (*"Go you,* twice,"
+*Genesis Rabbah* 39:8), and Stephen all read two departures.
+### 4. "They settled there" — but not on this road
 
 ***Wayyēšəḇû šām***, "and they settled there" (11:31), is word for word what
 the builders did in Shinar (11:2). In 11:31–12:9 the verbs of motion pile up —
 *go* (*hālaḵ*) six times (11:31; 12:1; 12:4 twice; 12:5; 12:9), *go out* three
 times, *come* twice, *pull up stakes* twice, *pass through* once, *move on*
-once — and *settle* (*yāšaḇ*) only once, of Terah's party. Abram's party never
-settles.
+once — and *settle* (*yāšaḇ*) only once, of Terah's party. On this road
+Abram's party never settles. (He will, later: 13:12, 13:18.)
+
+And they settled in a town called Road. *Ḥārān* is the Akkadian *ḫarrānu*,
+"road, journey, caravan" — a city at the crossing of the trade routes. (In
+Hebrew the city, *Ḥārān* with *ḥet*, and Abram's brother, *Hārān* with *he*, are
+different words.)
 
 ### 5. Abram says nothing
 

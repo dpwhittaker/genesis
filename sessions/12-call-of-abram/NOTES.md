@@ -81,7 +81,7 @@ PDF `12-call-of-abram.pdf`, 4 pages, rendered with print-session `--publish`),
 the map `abrams-road.svg` (built by `tools/table-of-nations-map/abram.py`,
 which reuses the Session 11 base layers), and three source sheets —
 `texts/the-walk-in-hebrew.md`, `texts/early-readers.md`, `texts/the-road.md`.
-Not yet done: panel review (if wanted), podcasts, publish.
+Panel review done (round 1, 2026-10-28, below). Not yet done: podcasts, publish.
 
 **Hebrew facts (OSHB, all by code):** 12:7 *wayyērāʾ* is the first niphal of
 ראה with God as subject (Gen 1–11 has only 1:9, 8:5, 9:14); God *appears* 9×
@@ -125,3 +125,46 @@ has no scholarly proponent and is left out.
 
 **Research files** (quotes, licences, coordinates) were compiled in the session
 scratchpad on 2026-10-27 and are not kept; everything used is on the sheets.
+
+## Panel, round 1 (2026-10-28)
+
+Five independent seats. **Five of five** flagged "Settled halfway… God said it
+again" as over-harmonised, from five directions: Stephen never says God spoke
+twice, and the KJV/NIV "had said" readers would feel caricatured (evangelical);
+11:31 and 12:5 are both P, which has no call — the "stop then the word" exists
+only across the seam (modern Jewish); Genesis has Terah lead, Ramban says Abram
+followed (mainline); Acts 7:4 vs the 60 years left unsaid (skeptic); the
+tradition reads Abram's Haran as faithful waiting, "not yet permitted," GR
+39:8 (rabbi). **Four** caught the Zohar contradicting Stephen on who moved
+first, and "Often the first step is how we get the map" as self-help.
+
+Changes made: §1 retitled *A stop in Haran*; Terah leads; Haran = "road"
+(Akk. *ḫarrānu*); Stephen's earlier word, the KJV/NIV "had said", and Acts 7:4
+named in one parenthesis; "some stops are faithful waiting… some are love" with
+GR 39:7's *"I do not exempt anyone else"* ("staying beside someone who needs you
+is not Haran"); the Zohar paragraph cut from the handout (kept on the sheet,
+with the Stephen disagreement noted); Hebrews 11:8 given in order (call,
+obedience, not knowing); "for us the word is seldom a voice — more often
+something Scripture already makes plain"; Rashi's plain sense of "souls"
+(servants) beside the midrash's converts, and "most of them walked this road
+because someone else heard the word"; Sarai named; the Canaanites "already
+someone's home" with GR 39:15; "first time *Genesis* says God appeared";
+"from the same root as *Torah*"; "nearly word for word" with *Terah took /
+Abram took*; Rashi at Shechem quoted whole (praying for the children's
+failures); "the rabbis' saying, which Ramban made a rule"; Josephus on the
+Babylon stayers cut from the handout (rabbi: it makes Babylonian Jewry into
+Terahs) — the exile point is now the modern Jewish seat's: "Ur of the
+Chaldeans" was Babylon to the exiles; *Next week* now "Running on fear, with a
+scheme" (Ramban's charge is "he should have trusted," not "no word"); So what?
+#2 adds Psalm 119:105 ("a lamp, not a floodlight"), #4 adds 12:3 as the test.
+Sheets: Hebrew note 2 (God speaks of showing *the land* twice; Exod 25:9;
+Deut 34:4 echoes Exod 33:1, Gen 24:7 repeats 12:7), note 3 (Terah took / Abram
+took; a two-strands paragraph), note 4 ("but not on this road"; 13:12, 13:18;
+Haran = road). Readers' sheet: GR 39:7 given whole (the wicked called dead) and
+Rashi on 15:15 (Terah repented); Ramban on *lek-ləḵā* as plain idiom; Zohar vs
+Stephen; Jeremiah 29:5–7 beside Josephus. Map: "Bethel to Beersheba, about 55
+miles" (was "to the Negev, 70", measured past Beersheba).
+
+Not taken: a sentence on J/P in the handout itself (kept to the Hebrew sheet,
+for the lighter brief); the rabbi's "trial of love" as the lesson's main frame;
+Proverbs 16:9 / James 4:15 (space).

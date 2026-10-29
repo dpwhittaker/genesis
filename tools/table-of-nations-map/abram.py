@@ -77,7 +77,7 @@ def walked(pts, tol=0.1):
 
 r50 = lambda m: 50 * round(m / 50)
 MILES = {'ur': r50(gc_miles(TERAH_WAYPOINTS)), 'haran': r50(gc_miles(ABRAM_ROUTE)),
-         'bethel': round(gc_miles(LAND_ROUTE[:3]), -1), 'negev': round(gc_miles(LAND_ROUTE[2:]), -1)}
+         'bethel': round(gc_miles(LAND_ROUTE[:3]), -1), 'negev': 5 * round(gc_miles(LAND_ROUTE[2:7]) / 5)}
 
 # --- drawing helpers ------------------------------------------------------------
 def poly(fr, pts):
@@ -297,7 +297,7 @@ def key(w):
             ('leg', f'Ur to Haran|about {MILES["ur"]:.0f} miles'),
             ('leg', f'Haran to Shechem|about {MILES["haran"]:.0f} miles'),
             ('leg', f'Shechem to Bethel and Ai|about {MILES["bethel"]:.0f} miles'),
-            ('leg', f'Bethel to the Negev|about {MILES["negev"]:.0f} miles'), ('gap', ''),
+            ('leg', f'Bethel to Beersheba|about {MILES["negev"]:.0f} miles'), ('gap', ''),
             ('note', 'Genesis names no stop between Haran and Shechem;'),
             ('note', 'the dashed road follows the main route. Places:'),
             ('note', 'Pleiades (CC BY); climate zones: Beck et al. 2023'),

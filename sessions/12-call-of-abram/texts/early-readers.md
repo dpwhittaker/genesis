@@ -180,7 +180,11 @@ the same passage Rabbi Elazar reads *lek-ləḵā* as *"go to yourself"*:
 "*Lekh lekha* — to yourself: to set yourself right, to set right your own
 rung" (our translation of the Aramaic). (The only English translation, Sperling
 and Simon's of 1931–34, may still be in copyright in the United States, so it
-is summarised here rather than quoted.)
+is summarised here rather than quoted.) Notice that the Zohar reads the order
+the other way from Stephen, for whom *"the God of glory appeared"* first, in
+Mesopotamia (Acts 7:2); the handout follows Stephen. The Zohar's *first move*
+is also a spiritual one — Abram purifying himself of Ur's idols — more than a
+step on the road.
 
 ### *Sefat Emet*: everyone hears "Go"
 
@@ -278,9 +282,12 @@ more years — and then reads Stephen:
 ### Leaving a father
 
 If Terah was alive when Abram left, Abram walked away from an old man. The
-rabbis faced that directly:
+rabbis faced that directly — and were harder on Terah than Genesis is:
 
-> Because our forefather Abraham was fearful, and he said: 'If I go, the name
+> Rabbi Yitzḥak said: If you follow the calculation [of years] until now, he
+> [Teraḥ] still had an additional sixty-five years coming to him. The
+> explanation is that, initially, you expound that the wicked are considered
+> dead [even] during their lifetimes. Because our forefather Abraham was fearful, and he said: 'If I go, the name
 > of Heaven will be desecrated because of me, as people will say: He abandoned
 > his father and left him in his old age.' The Holy One blessed be He said to
 > him: 'I exempt you from honoring your father and mother, but I do not exempt
@@ -291,7 +298,12 @@ rabbis faced that directly:
 Rashi repeats it: Scripture mentions Terah's death first *"lest people should
 say that Abram did not show a son's respect to his father, for he left him in
 his old age and went his way"* (on 11:32). Notice the exemption is for Abram
-alone — no one else may use it.
+alone — no one else may use it. (Rashi has the same line about the wicked being
+*"called dead"* while alive. But on 15:15, *"You will go to your ancestors in
+peace,"* he asks how Abraham could be promised to join a father who was an
+idolater — *"His father was an idolator and yet it (the text) announced to him
+that he (Abraham) would go to him!"* — and answers, from *Genesis Rabbah*, that
+Terah repented.)
 
 (The other way out of the arithmetic: Abram, named first among Terah's sons as
 the most important, need not have been the eldest; and the Samaritan
@@ -347,7 +359,9 @@ their eyes hanging" — in suspense, and looking up.
 
 Rashi links the call to 11:30: *here* — in Haran — Sarai will have no child;
 *there* she will. And in his telling the reward is for each *word* of the
-command (his Hebrew has *dibbur*); the *step* is Rabbi Yoḥanan's, above.
+command (his Hebrew has *dibbur*); the *step* is Rabbi Yoḥanan's, above. Ramban
+disagrees that *lek-ləḵā* needs any explaining at all: *"such is the normal
+expression of the Hebrew language"* (on 12:1).
 
 ### Ramban: he did not know it was Canaan
 
@@ -651,6 +665,18 @@ Josephus on the return under Cyrus:
 > Judah and Benjamin, with the Levites, and Priests, went in haste to
 > Jerusalem. Yet did many of them stay at Babylon; as not willing to leave
 > their possessions. *(Antiquities 11.1.3)*
+
+Josephus's line is easy to hear as a rebuke, and it should not be heard only
+that way. Jeremiah had told the first exiles to stay and build:
+
+> 'Build houses and settle down. Plant gardens and eat what they produce. Marry
+> and have sons and daughters… Work to see that the city where I sent you as
+> exiles enjoys peace and prosperity. Pray to the LORD for it. For as it
+> prospers you will prosper.' *(Jeremiah 29:5–7)*
+
+The Jews who stayed in Babylon became, over the next thousand years, one of the
+great centres of Jewish life — the Babylonian Talmud is theirs. Not every
+staying is a Haran.
 
 ---
 
