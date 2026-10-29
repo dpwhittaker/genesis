@@ -82,7 +82,8 @@ the map `abrams-road.svg` (built by `tools/table-of-nations-map/abram.py`,
 which reuses the Session 11 base layers), and three source sheets —
 `texts/the-walk-in-hebrew.md`, `texts/early-readers.md`, `texts/the-road.md`.
 Panel review done (round 1, 2026-10-28, below). Podcasts done (2026-10-29,
-below). Not yet done: publish.
+below). Published 2026-10-29: Church Center resources (4), group email,
+GroupMe.
 
 **Hebrew facts (OSHB, all by code):** 12:7 *wayyērāʾ* is the first niphal of
 ראה with God as subject (Gen 1–11 has only 1:9, 8:5, 9:14); God *appears* 9×
