@@ -81,7 +81,8 @@ PDF `12-call-of-abram.pdf`, 4 pages, rendered with print-session `--publish`),
 the map `abrams-road.svg` (built by `tools/table-of-nations-map/abram.py`,
 which reuses the Session 11 base layers), and three source sheets —
 `texts/the-walk-in-hebrew.md`, `texts/early-readers.md`, `texts/the-road.md`.
-Panel review done (round 1, 2026-10-28, below). Not yet done: podcasts, publish.
+Panel review done (round 1, 2026-10-28, below). Podcasts done (2026-10-29,
+below). Not yet done: publish.
 
 **Hebrew facts (OSHB, all by code):** 12:7 *wayyērāʾ* is the first niphal of
 ראה with God as subject (Gen 1–11 has only 1:9, 8:5, 9:14); God *appears* 9×
@@ -168,3 +169,22 @@ miles" (was "to the Negev, 70", measured past Beersheba).
 Not taken: a sentence on J/P in the handout itself (kept to the Hebrew sheet,
 for the lighter brief); the rabbi's "trial of love" as the lesson's main frame;
 Proverbs 16:9 / James 4:15 (space).
+
+## Podcasts (2026-10-29)
+
+NotebookLM notebook "Abram's Journey of Faith" (fresh, 4 sources at ae35dd6).
+An accidentally declined tool call still ran, so **two pairs** were generated;
+all four were transcribed locally (faster-whisper turbo on the GPU) and the
+better of each kept:
+
+- **Long: "Abram's Four Hundred Miles Without a Map", 48:55** — kept. Covers the
+  parent guard-rail, Sarai, the lamp, "all the families", next week. Slips:
+  "Rashi takes Ramban's rule" (Rashi is a century and a half earlier);
+  "the first time in the entire biblical text" God appeared (the handout says
+  Genesis).
+- Long alternate: "Why Abram Left Haran Without a Map", 51:40 — dwells on the
+  Zohar (cut from the handout by the panel), no 12:3, no next week.
+- **Short: "Why God Hid Abram's Destination", 21:30** — kept. Gives Rashi's
+  converts reading of "the souls" without his plain sense (servants).
+- Short alternate: "Walking Abram's Road Without a Map", 19:12 — no Sarai, no
+  "souls", no Rashi.

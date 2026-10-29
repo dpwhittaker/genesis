@@ -13,6 +13,17 @@ layout: default
 🖨️ **[Printable handout (PDF, 4 pages)](12-call-of-abram.pdf)** — print this file rather than the web page; it is the exact layout checked for paper.
 {: .no-print}
 
+<div class="no-print" markdown="1">
+
+## 🎧 Listen
+
+Two companion podcasts for this session — good before you read, or to revisit afterward:
+
+- **Short overview** (~22 min): <audio controls preload="none" src="12-call-of-abram-short.m4a">Your browser can't play audio — [download the file](12-call-of-abram-short.m4a).</audio>
+- **Longer deep dive** (~49 min): <audio controls preload="none" src="12-call-of-abram-long.m4a">Your browser can't play audio — [download the file](12-call-of-abram-long.m4a).</audio>
+
+</div>
+
 Last week ended on one word: *Go*. Today Abram goes. In nine verses he walks
 more than four hundred miles, builds two altars, pitches a tent — and never
 says a word.
