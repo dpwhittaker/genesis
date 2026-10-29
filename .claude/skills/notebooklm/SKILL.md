@@ -90,7 +90,9 @@ It checks each prompt against the dialog's 5000-character cap, appends the pronu
 
 It returns each episode it queued, with the dialog's source count (`6 sources`: check it matches the Sources panel), and the Studio panel's items. Take one screenshot to confirm both are generating. A "Get notified when it's ready — **Turn on notifications**" card appears too: leave it alone, since it opens Chrome's own permission prompt.
 
-With `--dry-run` before the paths, the script does everything except generate: it fills and checks each dialog, then closes it. That makes it safe to try on any notebook after the UI changes. (Tested that way on Session 11's notebook on 2026-10-25; Session 12 is its first real run.)
+With `--dry-run` before the paths, the script does everything except generate: it fills and checks each dialog, then closes it. That makes it safe to try on any notebook after the UI changes. (Tested that way on Session 11's notebook on 2026-10-25; first real run Session 12, 2026-10-29, worked as written.)
+
+**If a `javascript_tool` call is rejected or interrupted, it may still have run.** On Session 12 the user declined the permission prompt by accident and the queue script ran anyway; re-running it queued a second pair, four episodes in all. Before re-running `queue-audio.js`, read the Studio panel (`collect-audio.js` reports what is there) and queue only what is missing.
 
 Then wait: run `sleep 480` as a background Bash command, not a busy poll. (Session 11: the Default episode was ready within about 9 minutes; the Long one was still going at 13 and done by 18.)
 
@@ -109,9 +111,11 @@ If the user named specific topics, replace the focus sentence with those topics.
 
 After each wait, pass the whole of `.claude/skills/notebooklm/collect-audio.js` as `text` in **one** `javascript_tool` call on the notebook tab. It needs no wrapper; it carries its own `CONFIG = { expect: 2 }`. It reads the Studio panel, where a finished episode shows its duration (`48:37 · Deep Dive · 6 sources · 1d ago`), a ▶ play button and a ⋮ button labelled **More**:
 
-- **Until both are finished**, it returns `{waiting: "1 of 2 ready", studio: [...]}` and downloads nothing. Wait again (a background `sleep 300`).
-- **Once both are**, it opens **More → Download** on each, longest first, and returns `{downloaded: [{title, duration}, …]}`. Don't run it again after that, or it downloads both a second time.
-- **If it finds more finished episodes than it expects** (a reused notebook), it stops. Download the right ones by hand there: **More → Download**.
+- **Until both are finished**, it returns `{waiting: "1 of 2 ready", studio: [...]}`. Wait again (a background `sleep 300`).
+- **Once both are**, it returns `{ready: [{title, duration}, …]}`, longest first.
+- **If it finds more finished episodes than it expects** (a reused notebook), it stops; pick the right ones by hand.
+
+**Then download each with real clicks, not script.** **More → Download** opens a new tab that fetches the file, and Chrome blocks that tab unless the click is a genuine user gesture — a scripted `.click()` on the menu item does nothing at all, with no error (Session 12, 2026-10-29). For each episode: `find` "More button on the <title> studio item" → `computer left_click` by `ref` → `find` "Download menu item in the open menu" → `left_click` by `ref`. A blank "Untitled" tab flashes up in the tab group and usually closes itself once the download starts; close any that remain with `tabs_close_mcp`. Each file appears in `~/Downloads` within a few seconds.
 
 NotebookLM names each file after the episode's auto-title, e.g. `The_Mathematical_Architecture_of_Genesis_1.m4a`. **The episodes finish in either order** (Session 11's Default one finished first, though queued second), so tell them apart by duration, never by order or title; the script lists the long one first.
 
